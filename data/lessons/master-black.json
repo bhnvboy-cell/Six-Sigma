@@ -1,0 +1,926 @@
+{
+  "M1.1": {
+    "why": "Improvement portfolios drift when projects are selected locally and strategy stays in a planning document. Hoshin Kanri connects long-term direction to annual priorities, projects, and daily work.",
+    "what": "Hoshin Kanri is strategy deployment. It starts with a true north vision, sets three-to-five-year breakthrough objectives, and translates them into annual objectives and improvement priorities. The X-matrix links long-term objectives, annual objectives, improvement initiatives, and targets to improve. Catchball aligns goals and resources across levels. Regular reviews apply plan-do-check-act to the deployment itself, not only to projects.",
+    "how": [
+      "Define the vision and the most important strategic gaps.",
+      "Set a small number of three-to-five-year breakthrough objectives.",
+      "Translate them into annual objectives and measurable targets.",
+      "Build the X-matrix and link priorities to projects.",
+      "Cascade goals through catchball and agree on resources.",
+      "Review progress at a regular cadence and adjust.",
+      "Connect deployment to daily management and standard work."
+    ],
+    "where": "Use Hoshin Kanri in enterprises, health systems, public agencies, and multi-site manufacturers. Example: a three-year goal to cut order-to-delivery lead time by 30% becomes annual targets for flow, quality, and supplier performance, each linked to owned projects.",
+    "when_not": "Do not turn Hoshin into a long list of annual goals. Do not cascade targets without resources or authority. Do not substitute strategy deployment for daily management and problem solving.",
+    "common_mistakes": [
+      "Setting too many priorities.",
+      "Skipping catchball and imposing targets.",
+      "Reviewing progress only once a year."
+    ],
+    "quick_check": [
+      {
+        "q": "What is Hoshin Kanri?",
+        "answer": "Strategy deployment that aligns long-term goals with annual priorities and improvement work.",
+        "explanation": "It connects direction, resources, projects, and review."
+      },
+      {
+        "q": "What does the X-matrix link?",
+        "answer": "Long-term objectives, annual objectives, improvement priorities, and targets.",
+        "explanation": "The matrix makes strategic alignment visible."
+      },
+      {
+        "q": "Why keep the number of breakthrough objectives small?",
+        "answer": "To focus resources and attention on the most important gaps.",
+        "explanation": "Too many priorities dilute execution."
+      }
+    ],
+    "recap": [
+      "Hoshin Kanri aligns strategy, projects, and daily work.",
+      "Use a few breakthrough objectives and an X-matrix.",
+      "Deploy through catchball and review with PDCA."
+    ]
+  },
+  "M1.2": {
+    "why": "A strategy is only deployed when local teams understand it, shape it, and own their part. Catchball turns a top-level target into a feasible plan without losing strategic intent.",
+    "what": "Catchball is structured, iterative dialogue between levels of the organization. Leaders share direction, constraints, and targets. Teams respond with local knowledge, capacity, risks, and improvement ideas. Goals, resources, and timing are negotiated until they are ambitious but achievable. The result is documented in deployment plans, A3s, and review cadences. Catchball is neither top-down command nor unlimited consensus.",
+    "how": [
+      "Draft strategic objectives and deployment targets.",
+      "Brief each level on direction, rationale, and constraints.",
+      "Ask teams to draft local plans and identify gaps.",
+      "Review alignment vertically and across functions.",
+      "Negotiate resources, timing, and measures.",
+      "Document agreed plans, owners, and review dates.",
+      "Review progress and renegotiate when conditions change."
+    ],
+    "where": "Use catchball in Hoshin Kanri, annual planning, transformation programs, and multi-site deployments. Example: a hospital target to reduce length of stay is discussed with clinical, operations, and finance leaders so that bed capacity, safety, and discharge planning are aligned.",
+    "when_not": "Do not use catchball to dilute every target until it is easy. Do not let it become an endless meeting. Do not skip documentation or review.",
+    "common_mistakes": [
+      "Announcing targets without listening to local constraints.",
+      "Allowing conflicting functional goals to remain unresolved.",
+      "Failing to record agreements and owners."
+    ],
+    "quick_check": [
+      {
+        "q": "What is catchball?",
+        "answer": "Iterative dialogue to align goals, resources, and local plans across levels.",
+        "explanation": "It combines strategic direction with local knowledge."
+      },
+      {
+        "q": "Why is catchball not simply consensus?",
+        "answer": "Leaders retain strategic intent while teams negotiate feasible execution.",
+        "explanation": "The goal is alignment, not unanimous agreement on everything."
+      },
+      {
+        "q": "What should result from catchball?",
+        "answer": "Documented plans with owners, measures, resources, and review dates.",
+        "explanation": "Dialogue must turn into accountable action."
+      }
+    ],
+    "recap": [
+      "Catchball aligns strategy and execution through structured dialogue.",
+      "Balance ambition with local capacity and constraints.",
+      "Document agreements and review them regularly."
+    ]
+  },
+  "M1.3": {
+    "why": "Large improvement programs fail when decision rights, accountability, and escalation are unclear. Governance keeps work aligned, funded, and controlled without becoming bureaucracy.",
+    "what": "Program governance defines who decides, who is accountable, how projects are chartered, and how risks are escalated. Typical elements include a steering committee, program management office, sponsors, belt roles, stage gates, portfolio reviews, benefit tracking, and an issue-escalation path. Governance sets direction and removes barriers; management runs the day-to-day work. A RACI makes decision rights explicit.",
+    "how": [
+      "Define the program outcomes and scope.",
+      "Establish the steering committee and decision rights.",
+      "Clarify roles for sponsors, project leaders, belts, and the PMO.",
+      "Charter projects and define stage gates.",
+      "Set reporting, risk, and escalation mechanisms.",
+      "Allocate resources and resolve cross-project conflicts.",
+      "Review benefits and rebalance the portfolio."
+    ],
+    "where": "Use program governance for enterprise Lean Six Sigma deployments, transformation offices, multi-site programs, and large regulatory or technology changes. Example: a steering committee resolves a resource conflict between two high-value projects instead of letting both stall.",
+    "when_not": "Do not create governance layers that slow every decision. Do not confuse a PMO with the accountable business owner. Do not run gate reviews as rubber stamps.",
+    "common_mistakes": [
+      "Unclear ownership and decision rights.",
+      "Too many committees with overlapping authority.",
+      "Approving projects without benefit tracking."
+    ],
+    "quick_check": [
+      {
+        "q": "What is the purpose of program governance?",
+        "answer": "To define decision rights, accountability, risk management, and alignment.",
+        "explanation": "Governance keeps the program controlled and strategically aligned."
+      },
+      {
+        "q": "How does governance differ from management?",
+        "answer": "Governance sets direction and oversight; management executes daily work.",
+        "explanation": "Both are needed, but they are not the same role."
+      },
+      {
+        "q": "What does a stage gate do?",
+        "answer": "It reviews evidence and readiness before work advances.",
+        "explanation": "Gates prevent weak projects from consuming more resources."
+      }
+    ],
+    "recap": [
+      "Governance clarifies decisions, accountability, and escalation.",
+      "Keep structures lightweight and focused on removing barriers.",
+      "Link gates to evidence and benefit realization."
+    ]
+  },
+  "M1.4": {
+    "why": "Enterprises have more improvement ideas than capacity. Portfolio selection balances strategic value, risk, feasibility, and resource constraints across the whole organization.",
+    "what": "Portfolio selection is a recurring process, not a one-time approval. Candidates are scored on strategic fit, customer and financial impact, feasibility, risk, urgency, and learning value. The portfolio must fit available people, capital, and management attention. Dependencies, duplication, and lifecycle balance are considered. Stage gates and kill criteria allow weak projects to stop early.",
+    "how": [
+      "Inventory candidate projects and improvement needs.",
+      "Agree on weighted strategic and financial criteria.",
+      "Score candidates with validated evidence.",
+      "Assess capacity, dependencies, and risk.",
+      "Select a balanced portfolio and assign sponsors.",
+      "Review performance and rebalance at a set cadence.",
+      "Stop or redesign projects that no longer justify investment."
+    ],
+    "where": "Use portfolio selection across multi-site operations, transformation programs, product portfolios, and enterprise improvement offices. Example: a portfolio includes quick operational wins, a strategic digital project, and a capability-building initiative rather than funding only one type.",
+    "when_not": "Do not optimize each function locally at the expense of the enterprise. Do not fund every worthy idea. Do not treat the portfolio as fixed for the year.",
+    "common_mistakes": [
+      "No explicit link to strategy.",
+      "Too many active projects for available capacity.",
+      "No kill criteria or periodic rebalancing."
+    ],
+    "quick_check": [
+      {
+        "q": "Why is portfolio selection recurring?",
+        "answer": "Priorities, capacity, and evidence change over time.",
+        "explanation": "Regular rebalancing keeps resources on the highest-value work."
+      },
+      {
+        "q": "What should a portfolio balance?",
+        "answer": "Strategic value, risk, feasibility, timing, and capability building.",
+        "explanation": "A balanced portfolio avoids overconcentration."
+      },
+      {
+        "q": "Why define kill criteria?",
+        "answer": "To stop projects that no longer justify continued investment.",
+        "explanation": "Early exits free capacity for better opportunities."
+      }
+    ],
+    "recap": [
+      "Manage improvement work as an enterprise portfolio.",
+      "Balance strategy, value, risk, and capacity.",
+      "Review regularly and stop weak projects early."
+    ]
+  },
+  "M1.5": {
+    "why": "Improvement claims lose credibility when savings are theoretical, double-counted, or never reach the financial statements. Financial validation makes the benefit case defensible.",
+    "what": "Financial validation confirms the baseline, benefit type, timing, and cash impact with finance. Hard savings affect spending or cash flow. Soft savings avoid cost or free capacity and may require redeployment to become real. The analysis may use ROI, payback, NPV, or IRR. A benefit tracker assigns ownership and compares planned with realized results. Validation also checks for double counting and ongoing costs.",
+    "how": [
+      "Define the benefit hypothesis and measurement method.",
+      "Validate the baseline with operations and finance.",
+      "Classify benefits as hard, soft, or capacity release.",
+      "Include implementation, operating, and sustainment costs.",
+      "Calculate ROI, payback, and NPV or IRR as appropriate.",
+      "Obtain finance approval and assign a benefit owner.",
+      "Track realized benefits and reconcile variances."
+    ],
+    "where": "Use financial validation for portfolios, transformation programs, capital projects, and individual DMAIC projects. Example: reduced overtime is a hard saving only when the overtime budget actually falls; freed capacity is soft until it is redeployed or sold.",
+    "when_not": "Do not accept unvalidated savings claims. Do not count theoretical or double-counted benefits. Do not treat soft savings as cash without finance agreement.",
+    "common_mistakes": [
+      "No validated baseline.",
+      "Counting capacity release as automatic cash savings.",
+      "Failing to track whether benefits were realized."
+    ],
+    "quick_check": [
+      {
+        "q": "What makes a saving hard?",
+        "answer": "It affects actual spending, the P&L, or cash flow.",
+        "explanation": "Hard savings are verifiable financial improvements."
+      },
+      {
+        "q": "Why involve finance early?",
+        "answer": "To validate the baseline, benefit type, and financial assumptions.",
+        "explanation": "Early review prevents disputes and overstated claims."
+      },
+      {
+        "q": "What is a benefit tracker?",
+        "answer": "A record of planned versus realized benefits with owners and timing.",
+        "explanation": "It keeps benefit realization visible and accountable."
+      }
+    ],
+    "recap": [
+      "Validate baselines and benefit types with finance.",
+      "Separate hard savings, soft savings, and capacity release.",
+      "Track realization and reconcile planned versus actual benefits."
+    ]
+  },
+  "M2.1": {
+    "why": "Certification does not guarantee project success. Coaching helps belts apply methods, think through problems, and build confidence while protecting project quality.",
+    "what": "Coaching is a structured conversation that improves performance through goals, observation, questions, feedback, and action. The GROW model uses Goal, Reality, Options, and Will. A coach asks more than tells, helps the belt reason, and reviews evidence at project gates. Coaching covers both technical method and leadership behavior. It differs from mentoring, which is broader career development, and from performance management, which evaluates the person formally.",
+    "how": [
+      "Agree on coaching goals and project expectations.",
+      "Observe the work, data, and team interactions.",
+      "Use questions to test logic and assumptions.",
+      "Give specific feedback tied to evidence.",
+      "Agree on actions and follow-up dates.",
+      "Review progress at project gates.",
+      "Escalate risks when capability or support is missing."
+    ],
+    "where": "Use coaching for Green and Black Belts, project leaders, Lean practitioners, and improvement sponsors. Example: a coach asks a Green Belt to explain why the chosen sample supports the conclusion rather than recalculating the analysis for them.",
+    "when_not": "Do not solve the project for the coachee. Do not coach without trust, time, or relevant expertise. Do not turn coaching into a surprise performance review.",
+    "common_mistakes": [
+      "Telling answers instead of building reasoning.",
+      "Giving vague feedback without evidence.",
+      "Skipping follow-up and accountability."
+    ],
+    "quick_check": [
+      {
+        "q": "What does GROW stand for?",
+        "answer": "Goal, Reality, Options, and Will.",
+        "explanation": "It is a structured coaching conversation model."
+      },
+      {
+        "q": "How does coaching differ from mentoring?",
+        "answer": "Coaching focuses on performance and specific goals; mentoring is broader development.",
+        "explanation": "Both build capability but serve different purposes."
+      },
+      {
+        "q": "Why should a coach ask questions?",
+        "answer": "To build the coachee's independent judgment and ownership.",
+        "explanation": "Questions create learning that answers alone do not."
+      }
+    ],
+    "recap": [
+      "Coach with questions, evidence, and specific feedback.",
+      "Focus on both technical method and leadership.",
+      "Build capability rather than taking over the work."
+    ]
+  },
+  "M2.2": {
+    "why": "A few strong belts cannot transform an organization. Capability building creates a sustainable pipeline of practitioners, leaders, and internal coaches.",
+    "what": "Capability building is a system, not a course catalog. It includes a competency model, skill assessment, learning paths, certification, practice projects, coaching, communities of practice, and knowledge management. The 70-20-10 principle emphasizes learning through challenging work and relationships, supported by formal training. Mentoring provides longer-term development and career guidance. Progress should be measured through demonstrated competence, not attendance hours.",
+    "how": [
+      "Define competencies for each belt and leadership role.",
+      "Assess current capability and gaps.",
+      "Design learning paths and certification requirements.",
+      "Combine training, practice projects, coaching, and mentoring.",
+      "Build communities of practice and knowledge sharing.",
+      "Evaluate demonstrated capability and project results.",
+      "Refresh the model as strategy and technology change."
+    ],
+    "where": "Use capability building for belt programs, Lean leaders, technical specialists, and succession planning. Example: a Green Belt candidate completes training, applies tools on a real project, receives coaching at gates, and demonstrates competence before certification.",
+    "when_not": "Do not equate training hours with capability. Do not mentor without structure or expectations. Do not create dependency in which the mentor always provides the answer.",
+    "common_mistakes": [
+      "One-time training with no practice.",
+      "No competency assessment or certification standard.",
+      "No sponsorship or time for development."
+    ],
+    "quick_check": [
+      {
+        "q": "What does 70-20-10 mean?",
+        "answer": "Most learning comes from experience and relationships, with formal training as a smaller component.",
+        "explanation": "It balances on-the-job practice, coaching, and courses."
+      },
+      {
+        "q": "How should capability be evaluated?",
+        "answer": "Through demonstrated competence and project results.",
+        "explanation": "Attendance alone does not show capability."
+      },
+      {
+        "q": "Why build communities of practice?",
+        "answer": "To share knowledge, solve problems, and sustain learning.",
+        "explanation": "Communities connect practitioners beyond formal training."
+      }
+    ],
+    "recap": [
+      "Build capability through a system, not isolated courses.",
+      "Combine practice, coaching, mentoring, and assessment.",
+      "Measure demonstrated competence and results."
+    ]
+  },
+  "M2.3": {
+    "why": "Statistical advice shapes decisions, investments, and risk. A consulting statistician must frame the real problem, choose defensible methods, and communicate uncertainty clearly.",
+    "what": "Statistical consulting follows a structured process: contract with the client, clarify the decision, define the estimand, assess data provenance, select a method, check assumptions, test sensitivity, interpret, and hand off. It separates statistical from practical significance and explains uncertainty in business terms. Good consulting also documents data and code, respects ethics, and recognizes when the available data cannot answer the question.",
+    "how": [
+      "Clarify the decision and the question the data must answer.",
+      "Define the population, response, and comparison.",
+      "Assess data quality, sampling, and measurement.",
+      "Choose a method that matches the design.",
+      "Check assumptions and run sensitivity analyses.",
+      "Explain findings with intervals and practical impact.",
+      "Document the analysis and follow up on use."
+    ],
+    "where": "Use statistical consulting in project reviews, DOE, regression, MSA, capability, reliability, and predictive modeling. Example: a team asks which supplier is better. The consultant first checks whether the samples are comparable and the measurement system is adequate.",
+    "when_not": "Do not accept a poorly framed question and rush to a method. Do not overfit or imply false certainty. Do not analyze data whose provenance or quality is unknown.",
+    "common_mistakes": [
+      "Starting with a favorite method instead of the question.",
+      "Ignoring data provenance and measurement error.",
+      "Overloading clients with jargon instead of decision-relevant interpretation."
+    ],
+    "quick_check": [
+      {
+        "q": "What should a statistical consultant clarify first?",
+        "answer": "The decision and the question the data must answer.",
+        "explanation": "Method selection follows problem framing."
+      },
+      {
+        "q": "Why is data provenance important?",
+        "answer": "It determines whether the data can support the intended inference.",
+        "explanation": "Sampling and measurement quality limit conclusions."
+      },
+      {
+        "q": "What is sensitivity analysis?",
+        "answer": "Checking whether conclusions hold under reasonable alternative assumptions.",
+        "explanation": "It tests the robustness of the result."
+      }
+    ],
+    "recap": [
+      "Frame the decision before choosing a method.",
+      "Assess data quality and check assumptions.",
+      "Communicate uncertainty and practical impact clearly."
+    ]
+  },
+  "M2.4": {
+    "why": "Training should change what people can do, not just what they have heard. Good design builds competence and transfers learning to real work.",
+    "what": "Training design commonly follows ADDIE: analysis, design, development, implementation, and evaluation. Clear learning objectives describe observable performance. Adult learning favors relevance, practice, feedback, and spaced reinforcement. Evaluation can use Kirkpatrick's levels: reaction, learning, behavior, and results. Blended approaches combine instruction, simulation, coaching, and on-the-job assignments.",
+    "how": [
+      "Analyze the performance gap and the audience.",
+      "Write measurable learning objectives.",
+      "Design activities, practice, and assessment.",
+      "Develop materials and pilot them.",
+      "Deliver with opportunities for application.",
+      "Evaluate learning, behavior change, and results.",
+      "Improve the design based on evidence."
+    ],
+    "where": "Use training design for belt curricula, software rollouts, safety programs, leadership development, and technical certification. Example: a statistics course includes a real dataset, a project assignment, and coaching rather than lectures alone.",
+    "when_not": "Do not use training when the root cause is unclear expectations, missing tools, or poor process design. Do not rely on lecture-only delivery for complex skills. Do not evaluate only satisfaction scores.",
+    "common_mistakes": [
+      "Content dumping without practice.",
+      "No transfer plan to the job.",
+      "Evaluating reaction but not learning or results."
+    ],
+    "quick_check": [
+      {
+        "q": "What does ADDIE stand for?",
+        "answer": "Analysis, Design, Development, Implementation, and Evaluation.",
+        "explanation": "It is a structured instructional design process."
+      },
+      {
+        "q": "What makes a learning objective useful?",
+        "answer": "It describes observable performance that can be assessed.",
+        "explanation": "Clear objectives guide design and evaluation."
+      },
+      {
+        "q": "What are Kirkpatrick's four levels?",
+        "answer": "Reaction, learning, behavior, and results.",
+        "explanation": "They evaluate training from immediate response to business impact."
+      }
+    ],
+    "recap": [
+      "Design training around performance, not content coverage.",
+      "Use practice, feedback, and transfer to the job.",
+      "Evaluate learning, behavior, and results."
+    ]
+  },
+  "M3.1": {
+    "why": "DFSS delivers the most value when it is managed across an enterprise portfolio, not applied project by project. Enterprise DFSS connects design capability to strategy, suppliers, and launch decisions.",
+    "what": "Enterprise DFSS applies design-for-Six-Sigma methods across a portfolio of new products, services, and processes. It uses standard DMADV or DFSS roadmaps, stage gates, voice of the customer, CTQ flowdown, QFD, FMEA, DOE, Monte Carlo simulation, reliability, and design-for-X. Governance balances speed, risk, and resource use. Knowledge reuse and supplier integration improve consistency and time to market.",
+    "how": [
+      "Align the design portfolio with strategy and customer needs.",
+      "Establish a standard DFSS roadmap and gate criteria.",
+      "Build cross-functional design teams and capability.",
+      "Translate VOC into CTQs and design requirements.",
+      "Apply risk, experimentation, simulation, and reliability methods.",
+      "Integrate suppliers and manufacturing or service operations early.",
+      "Verify capability and capture lessons for reuse."
+    ],
+    "where": "Use enterprise DFSS in product development, service design, software, healthcare, and capital projects. Example: a platform team uses common CTQ and FMEA standards across product variants, reducing duplicated design work and late failures.",
+    "when_not": "Do not apply the full DFSS apparatus to low-risk minor changes. Do not let gates and documentation stifle innovation. Do not treat DFSS as a tool checklist without customer and business context.",
+    "common_mistakes": [
+      "Running DFSS as isolated projects with no portfolio view.",
+      "Late or weak voice-of-the-customer work.",
+      "Skipping verification and lessons reuse."
+    ],
+    "quick_check": [
+      {
+        "q": "What is Enterprise DFSS?",
+        "answer": "Applying DFSS across a portfolio with common governance and methods.",
+        "explanation": "It scales design capability beyond individual projects."
+      },
+      {
+        "q": "Why integrate suppliers early?",
+        "answer": "To reduce design risk, rework, and launch delays.",
+        "explanation": "Supplier capability affects design feasibility and quality."
+      },
+      {
+        "q": "What is CTQ flowdown?",
+        "answer": "Translating customer requirements into measurable design requirements.",
+        "explanation": "It connects voice of the customer to design decisions."
+      }
+    ],
+    "recap": [
+      "Manage DFSS as an enterprise portfolio with common standards.",
+      "Translate customer needs into CTQs and design requirements.",
+      "Verify capability and reuse lessons across projects."
+    ]
+  },
+  "M3.2": {
+    "why": "Large transformations change roles, systems, and power relationships. A technically sound deployment can still fail if people do not understand, support, or know how to work in the new way.",
+    "what": "Organizational change aligns leadership, communication, capability, incentives, and structure. Kotter's sequence builds urgency, a guiding coalition, a vision, communication, empowerment, short-term wins, consolidation, and anchoring. ADKAR diagnoses individual readiness, and Lewin's model describes unfreezing, changing, and refreezing. Scale requires middle-manager engagement and aligned performance systems.",
+    "how": [
+      "Build a clear case for change and a compelling vision.",
+      "Form a coalition with authority and credibility.",
+      "Assess stakeholder readiness and resistance.",
+      "Communicate repeatedly through multiple channels.",
+      "Involve people and remove structural barriers.",
+      "Deliver visible short-term wins.",
+      "Anchor changes in roles, incentives, and standard work."
+    ],
+    "where": "Use organizational change for Lean Six Sigma deployments, ERP or technology rollouts, restructuring, mergers, and new operating models. Example: a company launches a new planning process but does not change planner incentives, so behavior reverts to old priorities.",
+    "when_not": "Do not treat change as a communication plan alone. Do not ignore incentives and power. Do not declare victory after the pilot.",
+    "common_mistakes": [
+      "Weak or absent executive sponsorship.",
+      "Skipping middle managers who influence daily work.",
+      "Failing to reinforce the change after launch."
+    ],
+    "quick_check": [
+      {
+        "q": "Why are middle managers critical in change?",
+        "answer": "They translate direction into daily work and influence adoption.",
+        "explanation": "They connect leadership intent with front-line reality."
+      },
+      {
+        "q": "What is a short-term win?",
+        "answer": "A visible, credible early result that builds momentum.",
+        "explanation": "Wins demonstrate that the change can work."
+      },
+      {
+        "q": "What does anchoring a change mean?",
+        "answer": "Embedding it in roles, incentives, processes, and culture.",
+        "explanation": "Anchoring prevents reversion to old ways."
+      }
+    ],
+    "recap": [
+      "Change requires leadership, engagement, capability, and reinforcement.",
+      "Build urgency, coalitions, and visible wins.",
+      "Anchor change in systems and daily routines."
+    ]
+  },
+  "M3.3": {
+    "why": "Tools and projects fade without a culture that supports problem solving, transparency, and learning. Culture determines whether improvement becomes daily behavior or a temporary program.",
+    "what": "Culture is the pattern of shared beliefs, behaviors, and symbols. It is shaped by leader behavior, routines, metrics, rewards, hiring, and stories more than by slogans. A continuous-improvement culture values customers, data, respect for people, psychological safety, and learning from failure. Daily huddles, gemba walks, A3 thinking, and leader standard work make the culture visible and teachable.",
+    "how": [
+      "Assess current beliefs and behaviors with evidence.",
+      "Define the few behaviors that express the desired culture.",
+      "Engage leaders to model those behaviors visibly.",
+      "Align metrics, recognition, promotion, and hiring.",
+      "Build daily routines that reinforce problem solving.",
+      "Teach and coach the behaviors through practice.",
+      "Measure progress and address inconsistencies."
+    ],
+    "where": "Use culture building in enterprise transformations, safety programs, quality systems, and mergers. Example: leaders ask for bad news first in reviews, publicly reward early problem identification, and stop blaming individuals for system failures.",
+    "when_not": "Do not try to change culture with posters or slogans. Do not copy another organization's culture without adapting to context. Do not use culture as an excuse for avoiding structural problems.",
+    "common_mistakes": [
+      "Leaders saying one thing and rewarding another.",
+      "Recognition that favors firefighting over prevention.",
+      "No daily routines to reinforce the desired behavior."
+    ],
+    "quick_check": [
+      {
+        "q": "What shapes culture most strongly?",
+        "answer": "Leader behavior, routines, metrics, and rewards.",
+        "explanation": "What is measured and rewarded signals what matters."
+      },
+      {
+        "q": "Why is psychological safety part of improvement culture?",
+        "answer": "People must be able to raise problems and errors without fear.",
+        "explanation": "Hidden problems cannot be solved."
+      },
+      {
+        "q": "What is leader standard work?",
+        "answer": "A documented routine of leader behaviors that reinforce the operating system.",
+        "explanation": "It makes culture visible through daily actions."
+      }
+    ],
+    "recap": [
+      "Culture is built through behavior, routines, and systems.",
+      "Leaders must model and reward the desired behaviors.",
+      "Use daily management to make improvement culture visible."
+    ]
+  },
+  "M3.4": {
+    "why": "Financial measures report the past. A balanced scorecard adds customer, process, and capability measures that show whether strategy is being executed and whether future performance is being built.",
+    "what": "The balanced scorecard uses four perspectives: financial, customer, internal process, and learning and growth. A strategy map shows cause-and-effect links between objectives. Each objective has measures, targets, and initiatives. Leading measures predict future results, while lagging measures confirm outcomes. The scorecard should be cascaded and reviewed, not used as a long list of unrelated KPIs.",
+    "how": [
+      "Clarify the strategy and strategic themes.",
+      "Define objectives in each perspective.",
+      "Build a strategy map with causal links.",
+      "Select a few measures, targets, and initiatives.",
+      "Cascade scorecards to units and teams.",
+      "Review results and learn at a regular cadence.",
+      "Adjust objectives and initiatives as strategy evolves."
+    ],
+    "where": "Use the balanced scorecard in enterprises, public agencies, nonprofits, and multi-site operations. Example: a hospital links staff training and safety culture to process reliability, patient experience, and financial performance.",
+    "when_not": "Do not turn the scorecard into a KPI dump. Do not ignore causal logic and strategy. Do not overcomplicate the measures or use only financial results.",
+    "common_mistakes": [
+      "Too many measures with no strategic focus.",
+      "No link between leading and lagging indicators.",
+      "Reviewing the scorecard without making decisions."
+    ],
+    "quick_check": [
+      {
+        "q": "What are the four balanced scorecard perspectives?",
+        "answer": "Financial, customer, internal process, and learning and growth.",
+        "explanation": "They balance results with the drivers of future performance."
+      },
+      {
+        "q": "What is a strategy map?",
+        "answer": "A cause-and-effect diagram linking strategic objectives.",
+        "explanation": "It shows how capabilities and processes drive outcomes."
+      },
+      {
+        "q": "What is the difference between leading and lagging measures?",
+        "answer": "Leading measures predict; lagging measures confirm results.",
+        "explanation": "Both are needed to manage performance."
+      }
+    ],
+    "recap": [
+      "Balance financial and nonfinancial measures.",
+      "Use a strategy map to show causal logic.",
+      "Keep the scorecard focused and review it for decisions."
+    ]
+  },
+  "M3.5": {
+    "why": "Benchmarking reveals performance gaps and better practices, but copying numbers without understanding context can lead to bad targets and failed imitation.",
+    "what": "Benchmarking compares processes, practices, and results against internal or external references. Types include internal, competitive, functional, and generic. A disciplined study defines the process, measures the current state, selects comparable partners, collects valid data, analyzes gaps, adapts practices, implements, and reviews. Normalization and process understanding prevent apples-to-oranges comparisons.",
+    "how": [
+      "Define the process, scope, and performance measures.",
+      "Establish a reliable internal baseline.",
+      "Select comparable benchmark partners.",
+      "Collect data on results and enabling practices.",
+      "Normalize and analyze the gaps.",
+      "Adapt rather than copy practices blindly.",
+      "Pilot, implement, and measure the improvement."
+    ],
+    "where": "Use benchmarking in manufacturing, healthcare, service operations, supply chains, and public services. Example: compare emergency-department door-to-doctor time after adjusting for patient acuity and case mix.",
+    "when_not": "Do not benchmark processes that are not comparable. Do not stop at a numerical gap without understanding practices. Do not copy another organization's solution without adapting to local constraints.",
+    "common_mistakes": [
+      "Comparing unnormalized metrics.",
+      "Using poor-quality or self-reported data.",
+      "Treating the site visit as the deliverable instead of implementation."
+    ],
+    "quick_check": [
+      {
+        "q": "What is functional benchmarking?",
+        "answer": "Comparing a similar process across different industries or organizations.",
+        "explanation": "It seeks best practices beyond direct competitors."
+      },
+      {
+        "q": "Why normalize benchmark data?",
+        "answer": "To make comparisons fair despite different scale, mix, or conditions.",
+        "explanation": "Normalization prevents misleading gaps."
+      },
+      {
+        "q": "What should happen after a benchmark study?",
+        "answer": "Adapt, pilot, implement, and measure the practice.",
+        "explanation": "Learning must turn into action."
+      }
+    ],
+    "recap": [
+      "Benchmark both results and enabling practices.",
+      "Ensure comparability and data quality.",
+      "Adapt and implement rather than copy blindly."
+    ]
+  },
+  "M4.1": {
+    "why": "Sensors, connected systems, and large datasets create new ways to predict and control performance. Master Black Belts must connect analytics to real process problems and govern the risks.",
+    "what": "Industry 4.0 includes IoT, cyber-physical systems, cloud platforms, digital twins, automation, and AI or machine learning. Analytics ranges from descriptive and diagnostic to predictive and prescriptive. A reliable data pipeline, data quality, model validation, deployment, and monitoring are required. Operational technology and information technology must converge securely. Analytics should support a defined decision, not exist as a technology showcase.",
+    "how": [
+      "Define the problem, decision, and value at stake.",
+      "Assess data availability, quality, and governance.",
+      "Choose descriptive, predictive, or prescriptive analytics.",
+      "Pilot with process experts and validate the model.",
+      "Deploy with monitoring, maintenance, and security.",
+      "Measure business impact and scale what works.",
+      "Manage privacy, bias, safety, and change adoption."
+    ],
+    "where": "Use analytics and Industry 4.0 for predictive maintenance, vision-based inspection, demand forecasting, supply-chain optimization, and clinical risk prediction. Example: sensor data predicts equipment failure, but the maintenance process and spare-parts system must also change for the prediction to create value.",
+    "when_not": "Do not use advanced analytics for a simple problem that standard tools can solve. Do not ignore poor data quality or process knowledge. Do not deploy models without monitoring and governance.",
+    "common_mistakes": [
+      "Technology-first projects without a decision or value case.",
+      "Training models on biased or unreliable data.",
+      "No plan for model maintenance or operational adoption."
+    ],
+    "quick_check": [
+      {
+        "q": "What is predictive analytics?",
+        "answer": "Using data to estimate future outcomes or risk.",
+        "explanation": "Predictive models support decisions before events occur."
+      },
+      {
+        "q": "Why is data governance essential?",
+        "answer": "It ensures data quality, security, privacy, and appropriate use.",
+        "explanation": "Models are only as trustworthy as their data and controls."
+      },
+      {
+        "q": "What is a digital twin?",
+        "answer": "A virtual model of a physical asset or process used for monitoring and simulation.",
+        "explanation": "Digital twins support prediction, optimization, and testing."
+      }
+    ],
+    "recap": [
+      "Start analytics with a decision and a value case.",
+      "Ensure data quality, validation, security, and governance.",
+      "Connect models to process change and business results."
+    ]
+  },
+  "M4.2": {
+    "why": "Analytics and improvement depend on data people can trust and use responsibly. Poor governance creates bad decisions, privacy breaches, biased models, and loss of credibility.",
+    "what": "Data governance defines ownership, stewardship, quality standards, access, retention, and lifecycle controls. Data ethics addresses privacy, consent, fairness, transparency, accountability, and human oversight. Roles include data owners, stewards, and custodians. Regulations such as GDPR and HIPAA set legal requirements, but ethical practice goes beyond minimum compliance. Models should be explainable enough for the decision and monitored for bias and drift.",
+    "how": [
+      "Inventory data and define its purpose and sensitivity.",
+      "Assign ownership, stewardship, and access responsibilities.",
+      "Set quality, retention, and metadata standards.",
+      "Conduct privacy and ethical impact assessments.",
+      "Test for bias and monitor model performance.",
+      "Document decisions and provide human review where needed.",
+      "Audit compliance and train the organization."
+    ],
+    "where": "Use data governance and ethics in healthcare, finance, human resources, customer analytics, and safety-critical systems. Example: a hiring model must be tested for disparate impact, explainable to decision makers, and subject to human review.",
+    "when_not": "Do not treat governance as an IT-only issue. Do not collect data without a defined purpose or consent. Do not assume a model is fair because it uses neutral variables.",
+    "common_mistakes": [
+      "No clear data ownership.",
+      "Collecting and retaining everything indefinitely.",
+      "Deploying opaque models without accountability."
+    ],
+    "quick_check": [
+      {
+        "q": "What is data stewardship?",
+        "answer": "Responsibility for data quality, meaning, and appropriate use.",
+        "explanation": "Stewards manage data on behalf of the business."
+      },
+      {
+        "q": "Why test models for bias?",
+        "answer": "To detect unfair or harmful outcomes across groups.",
+        "explanation": "Biased data or design can produce discriminatory decisions."
+      },
+      {
+        "q": "What is human oversight in analytics?",
+        "answer": "A person reviews or can override consequential model decisions.",
+        "explanation": "Oversight supports accountability and safety."
+      }
+    ],
+    "recap": [
+      "Govern data through ownership, quality, access, and lifecycle controls.",
+      "Apply privacy, fairness, transparency, and accountability.",
+      "Monitor models and keep humans responsible for consequential decisions."
+    ]
+  },
+  "M5.1": {
+    "why": "Global organizations need a common reference for Six Sigma roles, methods, and quality. ISO 13053 provides international guidance that supports consistency and credibility.",
+    "what": "ISO 13053 addresses Six Sigma fundamentals and DMAIC tools and techniques. It covers roles, competencies, project selection, deployment, process measurement, analysis, improvement, and control. The standard is guidance, not a guarantee of business results. It can be used to align training, governance, and project expectations across sites and suppliers.",
+    "how": [
+      "Map current practices against the standard.",
+      "Identify gaps in roles, methods, and governance.",
+      "Align training and certification expectations.",
+      "Document the deployment approach and evidence.",
+      "Train leaders and practitioners on the standard.",
+      "Audit alignment and improve the system.",
+      "Review the standard as it evolves."
+    ],
+    "where": "Use ISO 13053 in multinational deployments, supplier quality programs, regulated industries, and organizations seeking a common improvement language. Example: a company aligns belt curricula and project gates across regions using the standard as a reference.",
+    "when_not": "Do not pursue alignment as a paperwork exercise. Do not let the standard replace judgment or customer focus. Do not assume one implementation model fits every organization.",
+    "common_mistakes": [
+      "Focusing on a certificate rather than capability.",
+      "Creating documentation without changing practice.",
+      "Misunderstanding the standard as a prescriptive recipe."
+    ],
+    "quick_check": [
+      {
+        "q": "What does ISO 13053 cover?",
+        "answer": "Six Sigma fundamentals, roles, DMAIC, tools, and deployment guidance.",
+        "explanation": "It provides an international reference for Six Sigma practice."
+      },
+      {
+        "q": "Is ISO 13053 a guarantee of results?",
+        "answer": "No, it is guidance for consistent practice.",
+        "explanation": "Business results depend on execution and context."
+      },
+      {
+        "q": "Why use a common standard across sites?",
+        "answer": "To align language, roles, and quality expectations.",
+        "explanation": "Consistency supports comparison and governance."
+      }
+    ],
+    "recap": [
+      "ISO 13053 provides international Six Sigma guidance.",
+      "Use it to align roles, methods, and deployment.",
+      "Focus on capability and results, not paperwork."
+    ]
+  },
+  "M5.2": {
+    "why": "Professional bodies define bodies of knowledge and certification standards. Understanding them helps organizations build credible capability and compare training options.",
+    "what": "ASQ offers certifications such as Certified Six Sigma Green Belt, Black Belt, and Manager of Quality/Organizational Excellence. IASSC offers Green and Black Belt certifications with its own body of knowledge. Programs differ in eligibility, exam content, project requirements, and recertification. Certification demonstrates knowledge and, in some programs, project experience, but it does not by itself prove business impact.",
+    "how": [
+      "Select the standard that fits the organization's needs.",
+      "Map the curriculum to the body of knowledge.",
+      "Assess both knowledge and practical application.",
+      "Choose credible training and proctoring.",
+      "Require real projects and evidence where appropriate.",
+      "Maintain certification and continuing development.",
+      "Evaluate whether certified practitioners deliver results."
+    ],
+    "where": "Use these standards for hiring, internal certification, training procurement, and career paths. Example: a company maps its Green Belt curriculum to ASQ and IASSC topics, then adds a real project and coaching requirement.",
+    "when_not": "Do not treat certification as proof of project success. Do not assume standards are identical. Do not buy certification without practical assessment.",
+    "common_mistakes": [
+      "Running a certification mill.",
+      "Testing only memorization.",
+      "Ignoring recertification and continuing development."
+    ],
+    "quick_check": [
+      {
+        "q": "What does a body of knowledge define?",
+        "answer": "The topics and competencies expected for a certification.",
+        "explanation": "It guides curriculum and exam design."
+      },
+      {
+        "q": "Why add project evidence to certification?",
+        "answer": "To confirm that knowledge can be applied in practice.",
+        "explanation": "Exams alone do not demonstrate project capability."
+      },
+      {
+        "q": "Are ASQ and IASSC certifications identical?",
+        "answer": "No, they have different requirements and bodies of knowledge.",
+        "explanation": "Organizations should compare them carefully."
+      }
+    ],
+    "recap": [
+      "Professional standards define knowledge and certification expectations.",
+      "Combine knowledge assessment with practical evidence.",
+      "Evaluate certification by capability and results."
+    ]
+  },
+  "M5.3": {
+    "why": "Certification only creates trust when it is rigorous and ethical. Weak certification damages credibility and can spread poor practice.",
+    "what": "Certification typically includes eligibility, training, examination, project evidence, and recertification. Ethics covers competence boundaries, confidentiality, conflicts of interest, data integrity, truthful claims, safety, and fair treatment. Professional codes require practitioners to work within their expertise and to avoid misrepresenting results or credentials. A certification body needs clear standards, independent assessment, and a process for complaints or violations.",
+    "how": [
+      "Define eligibility, competencies, and evidence requirements.",
+      "Use valid, reliable assessments.",
+      "Verify projects and references.",
+      "Publish an ethics code and conflict-of-interest policy.",
+      "Provide recertification and continuing education.",
+      "Investigate complaints fairly.",
+      "Publish outcomes and improve the program."
+    ],
+    "where": "Use certification and ethics standards for internal belt programs, external credentialing, supplier qualification, and professional development. Example: a belt candidate must submit a real project with a verified baseline, analysis, control plan, and sponsor confirmation.",
+    "when_not": "Do not certify on exam performance alone for roles that require application. Do not tolerate fraudulent project claims. Do not practice outside your competence.",
+    "common_mistakes": [
+      "Certifying without verified project evidence.",
+      "No recertification or continuing development.",
+      "Ignoring conflicts of interest or ethical complaints."
+    ],
+    "quick_check": [
+      {
+        "q": "Why is project evidence important in certification?",
+        "answer": "It shows that knowledge was applied to a real problem.",
+        "explanation": "Application is different from exam performance."
+      },
+      {
+        "q": "What does working within competence mean?",
+        "answer": "Practicing only where you have the knowledge and skill to be reliable.",
+        "explanation": "It protects clients and the profession."
+      },
+      {
+        "q": "Why have recertification?",
+        "answer": "To ensure practitioners maintain current knowledge and skills.",
+        "explanation": "Methods and standards evolve over time."
+      }
+    ],
+    "recap": [
+      "Certification needs rigorous assessment and verified application.",
+      "Ethics protect clients, data, and professional credibility.",
+      "Require recertification and enforce standards."
+    ]
+  },
+  "M6.1": {
+    "why": "Change leadership is not the same as project management. Leaders must create belief, model new behavior, and sustain attention when improvement becomes difficult.",
+    "what": "Change leadership builds urgency, a compelling vision, a strong coalition, and emotional commitment. It communicates through actions as well as words, removes barriers, and distributes leadership across levels. Leaders tell a credible story, make symbolic decisions, and stay visible. They manage resistance with empathy and evidence rather than authority alone.",
+    "how": [
+      "Create a clear case for change and a shared vision.",
+      "Build a coalition with credibility and influence.",
+      "Communicate consistently and listen actively.",
+      "Model the behaviors and decisions you expect.",
+      "Remove structural and political barriers.",
+      "Celebrate progress and learn from setbacks.",
+      "Anchor change in systems, roles, and routines."
+    ],
+    "where": "Use change leadership in transformations, mergers, digital rollouts, safety programs, and cultural change. Example: a plant leader attends daily huddles, asks for bad news first, and follows through on operator-raised barriers.",
+    "when_not": "Do not rely on authority and compliance alone. Do not delegate the change to a project team without visible sponsorship. Do not ignore emotion and loss.",
+    "common_mistakes": [
+      "Inconsistent messages between words and actions.",
+      "Leadership attention that disappears after launch.",
+      "Treating resistance as disloyalty rather than information."
+    ],
+    "quick_check": [
+      {
+        "q": "Why must leaders model the change?",
+        "answer": "People watch behavior more than announcements.",
+        "explanation": "Credibility depends on consistent action."
+      },
+      {
+        "q": "What is distributed leadership?",
+        "answer": "Change leadership shared across levels and functions.",
+        "explanation": "It broadens ownership beyond the executive team."
+      },
+      {
+        "q": "How should leaders treat resistance?",
+        "answer": "As information to understand and address, not simply suppress.",
+        "explanation": "Resistance often reveals real barriers or concerns."
+      }
+    ],
+    "recap": [
+      "Lead change through vision, credibility, and visible behavior.",
+      "Build coalitions and distribute ownership.",
+      "Sustain attention and anchor the change."
+    ]
+  },
+  "M6.2": {
+    "why": "A project is not valuable because it closes on time; it is valuable when the promised benefits are measured, realized, and sustained. Benefits realization keeps improvement connected to the business case.",
+    "what": "Benefits realization management identifies benefits, defines how they will be measured, assigns owners, tracks progress, and confirms results after implementation. A benefits register records the baseline, target, timing, owner, and evidence. Benefits may be hard savings, soft savings, cost avoidance, capacity release, risk reduction, or customer outcomes. Outputs are deliverables; outcomes are changes in performance; benefits are the measurable value created.",
+    "how": [
+      "Define benefits and dis-benefits in the project charter.",
+      "Establish a validated baseline and measurement method.",
+      "Assign a benefit owner and a realization plan.",
+      "Review benefit forecasts at project gates.",
+      "Measure actual results after implementation.",
+      "Reconcile with finance and address shortfalls.",
+      "Sustain controls and ownership after handover."
+    ],
+    "where": "Use benefits realization for portfolios, transformations, technology projects, and individual DMAIC projects. Example: reduced defect costs are tracked for six months after project closure to confirm that savings reach the budget.",
+    "when_not": "Do not count theoretical benefits that never reach the business. Do not stop tracking at project close. Do not double-count the same benefit across projects.",
+    "common_mistakes": [
+      "No benefit owner after project closure.",
+      "No baseline or evidence trail.",
+      "Treating soft savings as guaranteed cash."
+    ],
+    "quick_check": [
+      {
+        "q": "What is the difference between an output and an outcome?",
+        "answer": "An output is a deliverable; an outcome is a change in performance or behavior.",
+        "explanation": "Benefits come from outcomes, not outputs alone."
+      },
+      {
+        "q": "Why assign a benefit owner?",
+        "answer": "To make someone accountable for tracking and realizing the benefit.",
+        "explanation": "Ownership prevents benefits from disappearing after launch."
+      },
+      {
+        "q": "What should a benefits register include?",
+        "answer": "Baseline, target, timing, owner, and evidence for each benefit.",
+        "explanation": "It makes benefit realization auditable and visible."
+      }
+    ],
+    "recap": [
+      "Manage benefits from baseline through realization.",
+      "Assign owners and track outcomes after project close.",
+      "Reconcile claimed benefits with finance and evidence."
+    ]
+  },
+  "M6.3": {
+    "why": "Leading a deployment requires integrating strategy, governance, portfolio, capability, change, and benefits. The capstone tests whether a Master Black Belt can build a system, not just run a project.",
+    "what": "A deployment roadmap assesses maturity and readiness, aligns the program with strategy, defines governance and roles, selects a balanced portfolio, builds capability, standardizes methods, and manages culture and change. Deployment typically moves through mobilize, design, pilot, scale, and sustain. Success depends on sponsorship, capable people, useful measurement, and reinforcement.",
+    "how": [
+      "Assess organizational readiness, maturity, and strategic priorities.",
+      "Secure a mandate and build a coalition.",
+      "Design governance, roles, standards, and portfolio criteria.",
+      "Pilot with capable teams and visible sponsorship.",
+      "Build capability through training, coaching, and practice.",
+      "Scale what works and adapt to local conditions.",
+      "Review results, sustain routines, and refresh the strategy."
+    ],
+    "where": "Use deployment leadership at enterprise, site, or functional level. Example: a site starts with one value stream and a small portfolio, proves results, develops internal coaches, and then expands to other value streams with common standards.",
+    "when_not": "Do not launch a big-bang deployment without capability or sponsorship. Do not copy another organization's model without adaptation. Do not treat deployment as a one-time launch.",
+    "common_mistakes": [
+      "No executive sponsorship or clear mandate.",
+      "Scaling before the pilot demonstrates capability.",
+      "Focusing on tools while ignoring culture, governance, and benefits."
+    ],
+    "quick_check": [
+      {
+        "q": "What is a sensible deployment sequence?",
+        "answer": "Mobilize, design, pilot, scale, and sustain.",
+        "explanation": "It builds evidence and capability before broad expansion."
+      },
+      {
+        "q": "Why pilot before scaling?",
+        "answer": "To test the approach and build capability with limited risk.",
+        "explanation": "Pilots provide learning before wider commitment."
+      },
+      {
+        "q": "What must sustainment include?",
+        "answer": "Ownership, routines, measurement, and reinforcement.",
+        "explanation": "Without these, results erode after the launch."
+      }
+    ],
+    "recap": [
+      "Lead deployment as a system, not a series of projects.",
+      "Build sponsorship, governance, capability, and a balanced portfolio.",
+      "Pilot, scale, and sustain with measurement and reinforcement."
+    ]
+  }
+}

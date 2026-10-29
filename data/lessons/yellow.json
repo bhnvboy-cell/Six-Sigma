@@ -1,0 +1,616 @@
+{
+  "Y1.1": {
+    "why": "Work happens through processes, not isolated tasks. Seeing the whole process helps you find where value is created, where delays enter, and where defects are passed to the next person.",
+    "what": "A process is a set of steps that turns inputs into outputs for a customer. Inputs include materials, information, people, and energy. Outputs include products, services, and information. A process has boundaries, suppliers, customers, handoffs, and usually a bottleneck. Process thinking focuses on flow and customer value rather than on departments or individuals.",
+    "how": [
+      "Name the process and its purpose in one sentence.",
+      "Define the start and end boundaries.",
+      "List the main inputs and outputs.",
+      "Identify the suppliers and customers, including internal ones.",
+      "Walk the process and mark value-added steps, handoffs, and delays.",
+      "Choose one problem area to study with data."
+    ],
+    "where": "Use process thinking everywhere work repeats. In healthcare, follow a patient from admission to discharge. In retail, follow an order from click to delivery. In IT, follow an incident from report to resolution. In banking, follow a loan from application to funding. In education, follow a student from application to enrollment.",
+    "when_not": "Do not use process thinking for a one-off, unique task with no repeatable steps. Do not map at such a low level that the team drowns in detail and loses the customer view.",
+    "common_mistakes": [
+      "Mapping the ideal process instead of the real one.",
+      "Ignoring handoffs, where delays and errors often concentrate.",
+      "Setting boundaries so broad that the project cannot be completed."
+    ],
+    "quick_check": [
+      {
+        "q": "What are the three basic parts of any process?",
+        "answer": "Inputs, process steps, and outputs.",
+        "explanation": "A process transforms inputs into outputs for a customer."
+      },
+      {
+        "q": "Why are handoffs important in process thinking?",
+        "answer": "They are common points where delays, errors, and information loss occur.",
+        "explanation": "Work often waits or changes hands at departmental boundaries."
+      },
+      {
+        "q": "A team maps a process from the first customer contact to the final invoice. What have they defined?",
+        "answer": "The process boundaries.",
+        "explanation": "Boundaries state where the process starts and ends."
+      }
+    ],
+    "recap": [
+      "A process turns inputs into outputs for a customer.",
+      "Boundaries, suppliers, customers, and handoffs define the process view.",
+      "Map the real process, not the ideal one."
+    ]
+  },
+  "Y1.2": {
+    "why": "SIPOC gives a team a one-page view of a process and its boundaries before detailed mapping. It aligns everyone on scope and prevents the project from drifting.",
+    "what": "SIPOC stands for Suppliers, Inputs, Process, Outputs, and Customers. Suppliers provide the inputs. The process transforms those inputs in four to seven high-level steps. Outputs go to customers, who may be internal or external. SIPOC is a scope-setting tool, not a detailed flowchart.",
+    "how": [
+      "Write the process name and purpose.",
+      "Define the start and end points.",
+      "List the outputs and the customers who receive them.",
+      "List the inputs and the suppliers who provide them.",
+      "Describe the process in four to seven high-level steps, in order.",
+      "Review the diagram with the process owner and front-line staff."
+    ],
+    "where": "Use SIPOC at the start of a DMAIC project, in a scoping workshop, or whenever several departments need a shared view. For patient discharge, suppliers might be the pharmacy, lab, and ward staff; inputs are medications, test results, and discharge criteria; outputs are the discharge summary, medications, and follow-up appointment; customers are the patient, family, and primary care provider.",
+    "when_not": "Do not use SIPOC for detailed root cause analysis; use a process map, fishbone, or 5 Whys. Do not list every micro-step, or you lose the high-level view.",
+    "common_mistakes": [
+      "Turning the process column into a detailed flowchart.",
+      "Confusing internal and external customers.",
+      "Building the SIPOC alone and never validating it with the people who do the work."
+    ],
+    "quick_check": [
+      {
+        "q": "What does SIPOC stand for?",
+        "answer": "Suppliers, Inputs, Process, Outputs, Customers.",
+        "explanation": "SIPOC is a high-level process scoping tool."
+      },
+      {
+        "q": "How many process steps should a SIPOC usually show?",
+        "answer": "Four to seven high-level steps.",
+        "explanation": "SIPOC stays at a high level; too much detail defeats its purpose."
+      },
+      {
+        "q": "Who are customers in a SIPOC?",
+        "answer": "The people or groups who receive the process outputs, internal or external.",
+        "explanation": "Customers can be outside the organization or in the next department."
+      }
+    ],
+    "recap": [
+      "SIPOC summarizes suppliers, inputs, process, outputs, and customers.",
+      "Use four to seven high-level steps and clear boundaries.",
+      "Validate the SIPOC with the process owner and front-line staff."
+    ]
+  },
+  "Y1.3": {
+    "why": "A process map shows how work actually flows, including decisions, handoffs, and rework loops. It makes delays and failure points visible so the team can target them.",
+    "what": "A flowchart uses standard symbols: an oval for start and end, a rectangle for a process step, a diamond for a decision, and a D for delay. A swimlane map adds lanes for each person or department, making handoffs obvious. A handoff is any transfer of work between people or groups. Rework loops show where work goes backward.",
+    "how": [
+      "Define the start and end of the process.",
+      "Walk the process and list the steps in the order they really happen.",
+      "Assign each step to a swimlane for the person or department that does it.",
+      "Add decision points, handoffs, delays, and rework loops.",
+      "Validate the map with front-line staff.",
+      "Mark the steps that add value and the ones that create waste."
+    ],
+    "where": "Use process maps for any recurring process with delays, errors, or unclear ownership. In a support center, a ticket moves from customer to triage to assignment to investigation to resolution. The handoff from level one to level two often adds waiting, and missing information creates a rework loop. In healthcare, map a patient transfer from the emergency department to a ward to see waiting and duplicate data entry.",
+    "when_not": "Do not spend weeks mapping a process that is about to be replaced. Do not create a detailed map if the team only needs a high-level scope; use SIPOC instead.",
+    "common_mistakes": [
+      "Mapping the official process instead of the real one.",
+      "Leaving out handoffs and rework loops.",
+      "Mapping at a level that does not answer the project question."
+    ],
+    "quick_check": [
+      {
+        "q": "What does a diamond symbol represent on a flowchart?",
+        "answer": "A decision point.",
+        "explanation": "Diamonds show where the process branches based on a condition."
+      },
+      {
+        "q": "What is a handoff?",
+        "answer": "A transfer of work from one person or group to another.",
+        "explanation": "Handoffs are common sources of delay and information loss."
+      },
+      {
+        "q": "Why use swimlanes?",
+        "answer": "To show who performs each step and make handoffs visible.",
+        "explanation": "Swimlanes organize steps by role or department."
+      }
+    ],
+    "recap": [
+      "Process maps show the real flow, including decisions, handoffs, and rework.",
+      "Swimlanes clarify ownership and expose handoff delays.",
+      "Validate the map with the people who do the work."
+    ]
+  },
+  "Y2.1": {
+    "why": "Yellow Belts need to know what happens in each DMAIC phase and what deliverable is expected. That knowledge helps you contribute useful work and prevents the team from skipping critical steps.",
+    "what": "Define produces the charter, customer requirements, SIPOC, team, problem, and goal. Measure produces a data collection plan, baseline data, and a basic check of measurement quality. Analyze produces process maps, root cause tools, charts, and validated causes. Improve produces tested solutions, a pilot, and an implementation plan. Control produces a control plan, standard work, monitoring, and a response plan.",
+    "how": [
+      "Complete the key deliverables for the current phase.",
+      "Review the deliverables with the sponsor and process owner.",
+      "Hold a gate review and decide whether to proceed.",
+      "Document decisions, risks, and open actions.",
+      "Carry the approved output into the next phase."
+    ],
+    "where": "Use DMAIC for improving an existing process. A lab with late reports defines the problem and goal, measures the baseline, analyzes courier pickup and batching, improves with a barcode scan, and controls with a daily chart and an owner. Use the same phase logic in banking, retail, manufacturing, IT, and education.",
+    "when_not": "Do not use DMAIC to design a brand-new process; use DMADV. Do not run a full DMAIC project for a simple, obvious fix; use a quick PDCA or kaizen. For an urgent safety issue, contain the problem first.",
+    "common_mistakes": [
+      "Skipping Measure and jumping from Define to Analyze.",
+      "Treating Analyze as a debate of opinions instead of evidence.",
+      "Closing the project without a Control plan and process owner."
+    ],
+    "quick_check": [
+      {
+        "q": "Which DMAIC phase produces the baseline?",
+        "answer": "Measure.",
+        "explanation": "Measure defines the metric and collects baseline data."
+      },
+      {
+        "q": "What is a gate review?",
+        "answer": "A checkpoint where the team and sponsor decide whether the phase is complete and the project should proceed.",
+        "explanation": "Gate reviews prevent weak work from moving forward."
+      },
+      {
+        "q": "Which phase proves that a solution worked?",
+        "answer": "Improve, with a pilot and before-and-after measurement.",
+        "explanation": "Improve tests the change; Control then sustains it."
+      }
+    ],
+    "recap": [
+      "Each DMAIC phase has specific deliverables and a gate review.",
+      "Measure and Analyze keep the project evidence-based.",
+      "Control is required to make the improvement last."
+    ]
+  },
+  "Y2.2": {
+    "why": "A project charter is the contract between the team and the sponsor. It prevents scope creep, clarifies accountability, and gives everyone a shared definition of success.",
+    "what": "A charter includes the business case, a problem statement, a measurable goal, in-scope and out-of-scope boundaries, team roles, milestones, metrics, constraints, assumptions, and approvals. A good problem statement describes what, where, when, and how much, without naming a cause or a solution. A good goal is specific, measurable, achievable, relevant, and time-bound.",
+    "how": [
+      "Write the problem statement with baseline evidence.",
+      "Write a measurable goal and target date.",
+      "Define what is in scope and explicitly what is out of scope.",
+      "Name the sponsor, process owner, team lead, and team members.",
+      "Set milestones for each DMAIC phase.",
+      "Define the primary metric and get sponsor sign-off."
+    ],
+    "where": "Use a charter for every improvement project, especially cross-functional ones. Example: 'Twenty percent of support tickets are reopened because required information is missing.' The goal might be to reduce reopen rate below 8% in eight weeks. The scope is the ticket intake form; replacing the CRM system is out of scope.",
+    "when_not": "Do not create a full charter for a tiny fix that takes an hour; use a simple task list. Do not let the charter become a document that is written once and never revisited.",
+    "common_mistakes": [
+      "A vague problem statement such as 'tickets are bad.'",
+      "Putting a preferred solution inside the problem statement.",
+      "No baseline, no metric, or no named process owner."
+    ],
+    "quick_check": [
+      {
+        "q": "What should a problem statement include?",
+        "answer": "What, where, when, and how much, with evidence.",
+        "explanation": "A problem statement describes the gap, not the cause or solution."
+      },
+      {
+        "q": "Why define out-of-scope items?",
+        "answer": "To prevent scope creep and keep the project focused.",
+        "explanation": "Explicit boundaries help the team say no to unrelated work."
+      },
+      {
+        "q": "Who should approve the charter?",
+        "answer": "The sponsor, with input from the process owner.",
+        "explanation": "Sponsor approval confirms authority, resources, and expectations."
+      }
+    ],
+    "recap": [
+      "A charter defines the problem, goal, scope, team, metrics, and milestones.",
+      "Keep causes and solutions out of the problem statement.",
+      "Get sponsor sign-off and revisit the charter at gate reviews."
+    ]
+  },
+  "Y3.1": {
+    "why": "The type of data determines which summaries, charts, and tests are valid. Treating categorical data as continuous, or averaging labels, leads to wrong conclusions.",
+    "what": "Continuous data can take any value in a range and is measured: time, weight, length, temperature, or cost. Discrete data counts categories or occurrences: pass or fail, defect type, number of complaints, or number of patients. Discrete data can be binary, count, or ordinal. Continuous data is summarized with mean, median, standard deviation, and range; discrete data is summarized with counts, proportions, percentages, and the mode.",
+    "how": [
+      "State the question you need to answer.",
+      "Identify whether the data is continuous or discrete.",
+      "Choose a summary that fits the data type.",
+      "Check how the data will be recorded and verified.",
+      "Plot a chart that matches the question and data type."
+    ],
+    "where": "In manufacturing, diameter is continuous while defect type is discrete. In healthcare, length of stay is continuous while readmitted yes or no is discrete. In retail, order value is continuous while return reason is categorical. In IT, response time is continuous while severity is ordinal. Use the data type to choose summaries before you open a chart tool.",
+    "when_not": "Do not calculate the mean of category labels such as color or department. Do not use a histogram for categories. Do not turn continuous data into pass or fail too early, because you lose the ability to see variation.",
+    "common_mistakes": [
+      "Averaging categories and reporting a meaningless number.",
+      "Using a chart that does not match the data type.",
+      "Mixing units or time periods in the same summary."
+    ],
+    "quick_check": [
+      {
+        "q": "Which is continuous data?",
+        "answer": "Time to resolve a ticket.",
+        "explanation": "Time is measured on a continuous scale."
+      },
+      {
+        "q": "A survey records satisfaction as poor, fair, or good. What type of data is this?",
+        "answer": "Ordinal categorical data.",
+        "explanation": "The categories have an order, but the distance between them is not a measured quantity."
+      },
+      {
+        "q": "What is a good summary for defect types?",
+        "answer": "Counts or percentages by category, shown in a bar chart or Pareto.",
+        "explanation": "Categorical data is summarized by frequency."
+      }
+    ],
+    "recap": [
+      "Continuous data is measured; discrete data is counted or categorized.",
+      "Match the summary and chart to the data type.",
+      "Do not average labels or hide continuous variation too early."
+    ]
+  },
+  "Y3.2": {
+    "why": "Good data starts with good recording. A check sheet makes collection consistent, reduces errors, and makes verification easy when the data is reviewed later.",
+    "what": "A check sheet is a structured form for recording data in real time. It defines what to record, when, where, who, and how. Common types include tally sheets for defect types, location sheets, frequency sheets, and simple checklists. A useful check sheet is short, unambiguous, and includes the date, time, shift, collector, process, and clear definitions for each category.",
+    "how": [
+      "Define the question and the data needed to answer it.",
+      "List the categories or columns.",
+      "Write a clear definition and example for each category.",
+      "Add date, time, shift, collector, and process fields.",
+      "Pilot the form with a few users and revise it.",
+      "Verify entries daily and resolve unclear records quickly."
+    ],
+    "where": "Use check sheets for defect counts in manufacturing, wait times in healthcare, return reasons in retail, ticket categories in IT, and late submissions in education. They are especially useful when busy front-line staff must record data during the work rather than after it.",
+    "when_not": "Do not use a check sheet for data that already exists reliably in a system. Do not create a fifty-column form that no one will complete. Do not collect data without definitions, because different people will record the same event differently.",
+    "common_mistakes": [
+      "Categories that overlap or are not mutually exclusive.",
+      "No definitions, so collectors interpret categories differently.",
+      "A form so complex that people skip fields or invent shortcuts."
+    ],
+    "quick_check": [
+      {
+        "q": "What is the main purpose of a check sheet?",
+        "answer": "To record data consistently in real time.",
+        "explanation": "A standard form reduces variation and errors in data collection."
+      },
+      {
+        "q": "What should every check sheet include?",
+        "answer": "Clear categories, definitions, date and time, collector, and process.",
+        "explanation": "These fields make the data traceable and verifiable."
+      },
+      {
+        "q": "A team finds 30% of defect entries are in 'other.' What should they do?",
+        "answer": "Review the 'other' comments and refine the categories.",
+        "explanation": "A large 'other' category usually means categories are missing or unclear."
+      }
+    ],
+    "recap": [
+      "Check sheets standardize real-time data collection.",
+      "Keep the form simple, define every category, and pilot it.",
+      "Verify data daily and refine categories when 'other' grows."
+    ]
+  },
+  "Y3.3": {
+    "why": "Charts reveal patterns that tables hide. The right chart helps a team see variation, distribution, and priorities quickly, without misleading them.",
+    "what": "A run chart plots data in time order with a center line and shows trends, shifts, cycles, and outliers. A histogram groups continuous data into bins and shows shape, center, spread, gaps, and outliers. A bar chart compares counts or values across categories. Choose by question: time trend uses a run chart, distribution uses a histogram, and category comparison uses a bar chart.",
+    "how": [
+      "State the question the chart should answer.",
+      "Identify the data type.",
+      "Choose the matching chart.",
+      "Label both axes, units, and time period.",
+      "Plot all the data in the correct order.",
+      "Look for patterns and check them against process knowledge."
+    ],
+    "where": "Use run charts for daily defects, wait times, sales, or response times. Use histograms for delivery times, patient length of stay, or call duration. Use bar charts for complaint reasons, defect types, or regional comparisons. A run chart can reveal a shift after a new process; a histogram can reveal two peaks from two shifts.",
+    "when_not": "Do not use a histogram for categorical data. Do not use a bar chart for a time trend unless time is genuinely categorical. Do not use a run chart for unordered categories, and avoid 3D or pie charts when precise comparison matters.",
+    "common_mistakes": [
+      "Choosing a chart that does not fit the data type.",
+      "Truncating an axis so small differences look large.",
+      "Cramming too many categories into one chart."
+    ],
+    "quick_check": [
+      {
+        "q": "Which chart best shows a trend over time?",
+        "answer": "A run chart.",
+        "explanation": "Run charts plot data in time order with a center line."
+      },
+      {
+        "q": "Which chart best shows the distribution of continuous data?",
+        "answer": "A histogram.",
+        "explanation": "Histograms group continuous values into bins."
+      },
+      {
+        "q": "Which chart best compares complaint counts by category?",
+        "answer": "A bar chart.",
+        "explanation": "Bar charts compare values across categories."
+      }
+    ],
+    "recap": [
+      "Run charts show time patterns; histograms show distributions; bar charts compare categories.",
+      "Label axes, units, and time periods.",
+      "Choose the chart from the question and data type, not from habit."
+    ]
+  },
+  "Y3.4": {
+    "why": "Not all causes are equal. Pareto analysis helps a team focus on the few causes that create most of the problem instead of trying to fix everything at once.",
+    "what": "The Pareto principle says roughly 80% of effects come from about 20% of causes. A Pareto chart is a bar chart sorted from largest to smallest with a cumulative percentage line. The bars show frequency; the line shows how much of the total has been accounted for. The 'vital few' are the categories that contribute most of the effect.",
+    "how": [
+      "Define the problem, time period, and unit of count.",
+      "Choose mutually exclusive categories.",
+      "Collect counts for each category.",
+      "Sort the categories from largest to smallest.",
+      "Calculate each percentage and the cumulative percentage.",
+      "Draw the bars and the cumulative line.",
+      "Select the top categories that reach about 80% and investigate them."
+    ],
+    "where": "Use Pareto for defect types, customer complaints, downtime reasons, hospital readmission causes, IT incident categories, and retail return reasons. Example: 100 late orders split into traffic 40, oven 25, driver 20, address 10, and other 5. The cumulative percentages are 40%, 65%, 85%, 95%, and 100%, so the first three categories account for 85% of the problem.",
+    "when_not": "Do not use Pareto for continuous data without creating meaningful categories. Do not use it when categories overlap or when 'other' is large. Do not assume the split is exactly 80/20, and do not ignore a low-frequency safety issue that still causes serious harm.",
+    "common_mistakes": [
+      "Leaving the bars unsorted.",
+      "Using overlapping categories or a large 'other' bucket.",
+      "Treating Pareto as proof of cause rather than a prioritization tool."
+    ],
+    "quick_check": [
+      {
+        "q": "What does a Pareto chart combine?",
+        "answer": "Sorted bars and a cumulative percentage line.",
+        "explanation": "It shows both frequency and cumulative contribution."
+      },
+      {
+        "q": "What are the 'vital few'?",
+        "answer": "The small number of categories that account for most of the effect.",
+        "explanation": "These are the priority categories to investigate."
+      },
+      {
+        "q": "A low-frequency defect causes serious harm. Should Pareto make you ignore it?",
+        "answer": "No. Severity and safety can outweigh frequency.",
+        "explanation": "Pareto prioritizes frequency, not risk alone."
+      }
+    ],
+    "recap": [
+      "Pareto sorts categories and adds a cumulative percentage line.",
+      "Focus on the vital few categories that create most of the effect.",
+      "Use severity and risk alongside frequency."
+    ]
+  },
+  "Y4.1": {
+    "why": "Fishbone diagrams help a team brainstorm many possible causes before jumping to one. They organize thinking and expose areas the team has not considered.",
+    "what": "A fishbone, or Ishikawa, diagram places the effect or problem at the head and possible causes on bones. Common categories are People, Process, Equipment, Materials, Measurement, and Environment, often called the 6Ms. Causes branch into sub-causes. The diagram is a brainstorming and organizing tool; it does not prove which cause is real.",
+    "how": [
+      "Write a specific problem or effect at the head of the diagram.",
+      "Agree on the major cause categories.",
+      "Brainstorm causes silently so quiet team members contribute.",
+      "Place each cause on the relevant bone.",
+      "Ask why to add sub-causes where useful.",
+      "Use dot voting or data to select likely causes.",
+      "Validate the selected causes with data before acting."
+    ],
+    "where": "Use fishbone for manufacturing defects, healthcare delays, IT incidents, retail complaints, banking errors, and late submissions in education. For late lab reports, causes might include staffing and training under People, batching and courier pickup under Process, printer or analyzer failures under Equipment, and traffic or weather under Environment.",
+    "when_not": "Do not use a fishbone as the only analysis. Do not include causes the team cannot influence, and do not let one loud person dominate the session. Do not confuse the problem with its causes.",
+    "common_mistakes": [
+      "A problem statement so broad that the diagram becomes unmanageable.",
+      "Writing solutions on the bones instead of causes.",
+      "Skipping validation and treating every idea as a proven cause."
+    ],
+    "quick_check": [
+      {
+        "q": "What goes at the head of a fishbone diagram?",
+        "answer": "The effect or problem being studied.",
+        "explanation": "The head states the problem; the bones hold possible causes."
+      },
+      {
+        "q": "What are the common 6M categories?",
+        "answer": "People, Process, Equipment, Materials, Measurement, and Environment.",
+        "explanation": "These categories prompt a broad search for causes."
+      },
+      {
+        "q": "Does a fishbone diagram prove the root cause?",
+        "answer": "No. It organizes possible causes that must be validated with data.",
+        "explanation": "Fishbone is a brainstorming tool, not proof."
+      }
+    ],
+    "recap": [
+      "Fishbone organizes possible causes around the 6Ms.",
+      "Brainstorm broadly, then validate likely causes with data.",
+      "Keep the effect specific and keep solutions off the bones."
+    ]
+  },
+  "Y4.2": {
+    "why": "5 Whys moves a team from symptoms to actionable root causes without complex statistics. It is simple, but it is easy to do poorly if answers are accepted without evidence.",
+    "what": "5 Whys is a questioning technique: ask why repeatedly until you reach a cause you can act on. It is not a rule that the answer must be exactly five questions. Start with a specific problem, verify each answer, and stop when the cause is both actionable and supported by evidence. Focus on the process, not on blaming people, and branch when there are multiple causes.",
+    "how": [
+      "State the problem with data.",
+      "Ask why the problem happened.",
+      "Verify the answer with evidence or observation.",
+      "Ask why again about the verified answer.",
+      "Continue until you reach an actionable root cause.",
+      "Test the cause, fix it, and confirm the result."
+    ],
+    "where": "Use 5 Whys after a fishbone or Pareto has narrowed the likely causes. Example: lab reports are late. Why? The courier arrives after the cutoff. Why? Pickup is scheduled at 5:00 but reports are ready at 5:30. Why? The lab waits to batch all tests. Why? There is no priority rule for stat tests. The root cause is the missing prioritization rule; the fix is a stat cutoff and dedicated pickup.",
+    "when_not": "Do not use a single 5 Whys chain for a complex problem with several interacting causes; branch instead. Do not use it when you have no evidence or when the real purpose is to blame someone.",
+    "common_mistakes": [
+      "Stopping at a symptom such as 'staff were busy.'",
+      "Accepting opinions as facts without verification.",
+      "Stopping at 'human error' instead of asking what allowed the error."
+    ],
+    "quick_check": [
+      {
+        "q": "What is the goal of 5 Whys?",
+        "answer": "To reach an actionable root cause, not just to ask five questions.",
+        "explanation": "The number five is a guide; the real test is whether the cause is actionable and verified."
+      },
+      {
+        "q": "Why should you avoid stopping at 'human error'?",
+        "answer": "It rarely identifies the process conditions that allowed the error.",
+        "explanation": "Ask what in the process made the error possible or hard to detect."
+      },
+      {
+        "q": "What should you do when a problem has several causes?",
+        "answer": "Branch the questioning and investigate each cause separately.",
+        "explanation": "A single linear chain can miss interacting causes."
+      }
+    ],
+    "recap": [
+      "5 Whys drives from symptom to verified, actionable cause.",
+      "Use evidence at each step and focus on the process.",
+      "Branch when multiple causes exist."
+    ]
+  },
+  "Y4.3": {
+    "why": "5S creates a clean, organized, and safe workplace where waste and abnormalities are easy to see. It supports standard work and helps improvements last.",
+    "what": "The five steps are Sort, Set in order, Shine, Standardize, and Sustain. Sort removes unnecessary items. Set in order gives everything a clear home. Shine means clean and inspect. Standardize creates rules, labels, and visual standards. Sustain builds habits, audits, and ownership. Some organizations add Safety as a sixth S.",
+    "how": [
+      "Choose one area and define its purpose.",
+      "Sort items and red-tag anything unnecessary.",
+      "Set locations, labels, and visual boundaries.",
+      "Clean the area and inspect for problems while cleaning.",
+      "Write standards with photos, checklists, and owners.",
+      "Schedule audits and review results regularly."
+    ],
+    "where": "Use 5S on manufacturing floors, hospital supply rooms, retail stockrooms, bank branches, school classrooms, and IT shared drives. Example: a hospital supply room removes expired items, labels bins by par level, cleans and inspects shelves, posts a standard layout, and audits weekly. A digital team can apply the same steps to a shared drive or ticketing queue.",
+    "when_not": "Do not run 5S as a one-time cleanup without standards and ownership. Do not discard items without a red-tag decision process, and do not apply 5S to an area that is about to be redesigned.",
+    "common_mistakes": [
+      "Cleaning up but never setting standards or audit habits.",
+      "Red-tagged items disappearing without a decision.",
+      "Judging 5S by appearance instead of safety, flow, and search time."
+    ],
+    "quick_check": [
+      {
+        "q": "What are the five Ss in order?",
+        "answer": "Sort, Set in order, Shine, Standardize, Sustain.",
+        "explanation": "Each step builds on the previous one."
+      },
+      {
+        "q": "What does Shine include besides cleaning?",
+        "answer": "Inspecting the area and equipment for abnormalities.",
+        "explanation": "Cleaning is also a chance to detect wear, leaks, and missing items."
+      },
+      {
+        "q": "Why is Sustain important?",
+        "answer": "Without audits, ownership, and habits, the area returns to its old state.",
+        "explanation": "Sustain turns 5S into a routine rather than an event."
+      }
+    ],
+    "recap": [
+      "5S is Sort, Set in order, Shine, Standardize, Sustain.",
+      "Visual standards and ownership make the result stick.",
+      "Use 5S to improve safety, flow, and search time, not just appearance."
+    ]
+  },
+  "Y4.4": {
+    "why": "Lean thinking helps teams improve flow and reduce waiting and rework without large capital projects. It complements Six Sigma's focus on reducing variation.",
+    "what": "The five Lean principles are value, value stream, flow, pull, and perfection. Value is defined by the customer. The value stream is the sequence of steps that create value. Flow means work moves smoothly without batching delays. Pull means work is triggered by demand rather than pushed ahead of it. Perfection means continuous improvement. Common tools include standard work, visual management, kanban, and one-piece flow.",
+    "how": [
+      "Define value from the customer's point of view.",
+      "Map the value stream and identify delays and waste.",
+      "Improve flow by reducing batch size and unnecessary handoffs.",
+      "Introduce pull where demand and supply make it practical.",
+      "Standardize the new method and keep improving."
+    ],
+    "where": "Use Lean in manufacturing, healthcare, retail, IT, banking, and education. Example: a bank batches loan approvals, so applications wait for a daily review. Cross-training and a daily pull system reduce lead time from ten days to four. In healthcare, moving supplies closer to the point of use reduces nursing motion and waiting.",
+    "when_not": "Do not introduce pull where demand is highly variable or supply is constrained without appropriate buffers. Do not remove necessary controls to make a process look faster, and do not pursue flow at the expense of safety or quality.",
+    "common_mistakes": [
+      "Treating Lean as a cost-cutting or headcount exercise.",
+      "Installing kanban without stabilizing the process first.",
+      "Ignoring demand variability and creating new bottlenecks."
+    ],
+    "quick_check": [
+      {
+        "q": "What are the five Lean principles?",
+        "answer": "Value, value stream, flow, pull, and perfection.",
+        "explanation": "These principles guide waste reduction and flow improvement."
+      },
+      {
+        "q": "What does pull mean?",
+        "answer": "Work is triggered by customer demand rather than pushed ahead of it.",
+        "explanation": "Pull reduces overproduction and excess work in progress."
+      },
+      {
+        "q": "Why can reducing batch size improve flow?",
+        "answer": "Smaller batches reduce waiting time and speed up feedback.",
+        "explanation": "Work moves through the process more continuously."
+      }
+    ],
+    "recap": [
+      "Lean improves value, flow, pull, and perfection.",
+      "Reduce batch size and handoffs to shorten lead time.",
+      "Standardize the improvement and keep safety and quality first."
+    ]
+  },
+  "Y5.1": {
+    "why": "Good solutions need many ideas before selection. Brainstorming generates options and engages the team, but only when it is run in a way that avoids early judgment and domination.",
+    "what": "Brainstorming means generating many ideas first and evaluating them later. Useful methods include silent brainstorming, round-robin sharing, brainwriting, and affinity grouping. The rules are: aim for quantity, withhold criticism, build on others' ideas, welcome wild ideas, and keep one conversation at a time. After generating ideas, group them and vote before evaluating with data.",
+    "how": [
+      "State a clear question for the session.",
+      "Give everyone five to ten minutes to write ideas silently.",
+      "Share ideas round-robin without judging them.",
+      "Clarify only, then group similar ideas with affinity mapping.",
+      "Use dot voting to select the strongest candidates.",
+      "Evaluate the top ideas with data and a small test."
+    ],
+    "where": "Use brainstorming for root cause analysis, solution design, project planning, and team meetings. Example: a clinic wants to reduce waiting. Ideas group into scheduling, staffing, space, and communication. The team votes, then pilots the top two ideas and measures the effect.",
+    "when_not": "Do not brainstorm when the answer is fixed by regulation, safety, or clear data. Do not use brainstorming for an urgent safety decision, and do not let a manager dominate or criticize ideas during generation.",
+    "common_mistakes": [
+      "Judging ideas while they are still being generated.",
+      "Letting one person dominate the conversation.",
+      "Ending with a list of ideas but no evaluation or owner."
+    ],
+    "quick_check": [
+      {
+        "q": "What is the first rule of brainstorming?",
+        "answer": "Generate ideas without judging them.",
+        "explanation": "Early criticism reduces the number and variety of ideas."
+      },
+      {
+        "q": "Why use silent brainstorming?",
+        "answer": "It gives quieter members a chance to contribute and reduces domination.",
+        "explanation": "Writing ideas first creates a more balanced session."
+      },
+      {
+        "q": "What should happen after ideas are generated?",
+        "answer": "Group, vote, and evaluate the top ideas with data.",
+        "explanation": "Generation is only the first step; selection and testing come next."
+      }
+    ],
+    "recap": [
+      "Generate many ideas first and judge later.",
+      "Use silent generation and affinity grouping to include everyone.",
+      "Evaluate the best ideas with data and a small test."
+    ]
+  },
+  "Y5.2": {
+    "why": "Improvement is teamwork. Clear roles, ground rules, and decision rules keep meetings productive and prevent the project from stalling in confusion.",
+    "what": "An effective team has a clear purpose, defined roles, ground rules, a decision rule, a meeting cadence, and psychological safety. Roles can include lead, facilitator, recorder, timekeeper, data owner, and sponsor. Ground rules might cover start and end times, one speaker at a time, respect, and documenting decisions. Decision rules include consensus, consent, or leader decides after input.",
+    "how": [
+      "Define the team's purpose and expected result.",
+      "Assign roles and confirm time commitments.",
+      "Agree on ground rules and a decision rule.",
+      "Set an agenda and meeting cadence.",
+      "Record decisions, actions, owners, and due dates.",
+      "Review team effectiveness and adjust."
+    ],
+    "where": "Use clear teamwork practices on every project, especially cross-functional ones. Example: a discharge project team meets weekly, rotates the facilitator, uses an action log, and makes decisions by consent. Each meeting ends with an owner and date for every action.",
+    "when_not": "Do not over-process a small two-person task. Do not use consensus when a clear decision owner already exists, and do not let ground rules become bureaucracy.",
+    "common_mistakes": [
+      "No clear roles or decision rule.",
+      "Meetings without an agenda, actions, or follow-up.",
+      "Avoiding conflict so real issues are never resolved."
+    ],
+    "quick_check": [
+      {
+        "q": "Why does a team need a decision rule?",
+        "answer": "To clarify how decisions will be made and prevent stalls.",
+        "explanation": "A decision rule tells the team whether to use consensus, consent, or leader decision."
+      },
+      {
+        "q": "What should every action have?",
+        "answer": "An owner and a due date.",
+        "explanation": "Actions without ownership and dates usually do not get done."
+      },
+      {
+        "q": "What is the facilitator's role?",
+        "answer": "To guide the process, keep the team focused, and ensure everyone contributes.",
+        "explanation": "The facilitator manages the meeting process, not the content decisions."
+      }
+    ],
+    "recap": [
+      "Clear purpose, roles, ground rules, and decision rules make teams effective.",
+      "Record decisions and actions with owners and dates.",
+      "Review how the team works, not just what it produces."
+    ]
+  }
+}

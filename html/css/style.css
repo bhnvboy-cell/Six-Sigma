@@ -1,0 +1,201 @@
+/* Lean Six Sigma Training Course - Main Styles */
+
+:root {
+    --primary-color: #0d6efd;
+    --success-color: #198754;
+    --warning-color: #ffc107;
+    --info-color: #0dcaf0;
+    --danger-color: #dc3545;
+    --dark-color: #212529;
+    --light-color: #f8f9fa;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+.hero-section {
+    padding: 80px 0;
+}
+
+.card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.module-card {
+    border-left: 4px solid var(--primary-color);
+}
+
+.module-card.yellow-belt {
+    border-left-color: var(--warning-color);
+}
+
+.module-card.green-belt {
+    border-left-color: var(--success-color);
+}
+
+.progress-bar {
+    background-color: var(--success-color);
+}
+
+.calculator-card {
+    border: 2px solid #e9ecef;
+    border-radius: 10px;
+}
+
+.result-box {
+    background-color: var(--light-color);
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.table th {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.quiz-option {
+    padding: 10px 15px;
+    margin: 5px 0;
+    border: 2px solid #dee2e6;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.quiz-option:hover {
+    background-color: #e9ecef;
+    border-color: var(--primary-color);
+}
+
+.quiz-option.selected {
+    background-color: #cfe2ff;
+    border-color: var(--primary-color);
+}
+
+.quiz-option.correct {
+    background-color: #d1e7dd;
+    border-color: var(--success-color);
+}
+
+.quiz-option.incorrect {
+    background-color: #f8d7da;
+    border-color: var(--danger-color);
+}
+
+.section-title {
+    border-bottom: 3px solid var(--primary-color);
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.belt-badge {
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.belt-badge.white {
+    background-color: #ffffff;
+    color: #343a40;
+    border: 1px solid #ced4da;
+}
+
+.belt-badge.yellow {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.belt-badge.green {
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+
+.belt-badge.black {
+    background-color: #212529;
+    color: #ffffff;
+}
+
+.belt-badge.master {
+    background-color: #000000;
+    color: #f8d26a;
+    border: 1px solid #f8d26a;
+}
+
+.belt-section {
+    scroll-margin-top: 90px;
+}
+
+.module-card.white-belt {
+    border-left-color: #adb5bd;
+}
+
+.module-card.black-belt,
+.module-card.master-belt {
+    border-left-color: #212529;
+}
+
+.lesson-list li {
+    margin-bottom: 0.25rem;
+}
+
+.lesson-list {
+    padding-left: 1.2rem;
+}
+
+.master-card {
+    border-left: 4px solid #000000;
+}
+
+details > summary {
+    cursor: pointer;
+    list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+details > summary::after {
+    content: "+";
+    float: right;
+    font-weight: 700;
+}
+
+details[open] > summary::after {
+    content: "−";
+}
+
+.table th {
+    white-space: nowrap;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 40px 0;
+    }
+    
+    .display-4 {
+        font-size: 2.5rem;
+    }
+}

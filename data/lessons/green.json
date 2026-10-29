@@ -1,0 +1,1125 @@
+{
+  "G1.1": {
+    "why": "A charter is the contract between the project team and the sponsor. Green Belts often lead projects, so a clear charter is essential for scope control, resources, and a measurable definition of success.",
+    "what": "A Green Belt charter includes the business case, problem statement, SMART goal, in-scope and out-of-scope boundaries, team roles, timeline and milestones, primary metric, risks, constraints, and approvals. The problem statement describes what, where, when, and how much, with baseline evidence, and avoids naming a cause or solution. The business case links the project to customer impact, cost of poor quality, or strategy.",
+    "how": [
+      "Collect baseline data before writing the problem statement.",
+      "Describe the gap with what, where, when, and how much.",
+      "Write a specific, measurable, achievable, relevant, time-bound goal.",
+      "Define the process boundaries and explicitly list out-of-scope work.",
+      "Name the sponsor, process owner, team lead, and team members.",
+      "Set milestones for Define, Measure, Analyze, Improve, and Control.",
+      "Define the primary metric, data source, and expected benefit.",
+      "Get sponsor sign-off before heavy data collection begins."
+    ],
+    "where": "Use a full charter for every Green Belt project, especially cross-functional work. Example: admitted patients wait an average of 6.2 hours from emergency arrival to an inpatient bed, against a target of 4 hours. The goal is to reduce the median to 4 hours within 12 weeks. Scope runs from emergency arrival to bed assignment; new construction is out of scope.",
+    "when_not": "Do not create a full charter for a small fix that takes an hour; use a task list. Do not use the charter to lock in a preferred solution before the team has analyzed the problem.",
+    "common_mistakes": [
+      "Putting a cause or solution inside the problem statement.",
+      "A vague goal such as 'improve flow' with no metric or date.",
+      "No baseline, no process owner, or scope so broad the project cannot finish."
+    ],
+    "quick_check": [
+      {
+        "q": "What should a problem statement avoid?",
+        "answer": "Naming a cause or a preferred solution.",
+        "explanation": "The problem statement describes the gap with evidence; causes are investigated later."
+      },
+      {
+        "q": "Why is a baseline important in a charter?",
+        "answer": "It shows current performance and makes the goal and later benefit credible.",
+        "explanation": "Without a baseline, the team cannot prove improvement."
+      },
+      {
+        "q": "What does out-of-scope mean?",
+        "answer": "Work the project will not address.",
+        "explanation": "Explicit exclusions prevent scope creep."
+      }
+    ],
+    "recap": [
+      "A charter defines the problem, goal, scope, team, metric, and milestones.",
+      "Use baseline data and keep causes and solutions out of the problem statement.",
+      "Sponsor sign-off confirms authority, resources, and expectations."
+    ]
+  },
+  "G1.2": {
+    "why": "Projects fail when key people are surprised, excluded, or actively resistant. Stakeholder mapping helps the team plan engagement before it becomes a problem.",
+    "what": "A stakeholder is anyone affected by the project or able to influence it. A common tool is the influence-interest grid. High influence and high interest stakeholders are managed closely. High influence and low interest are kept satisfied. Low influence and high interest are kept informed. Low influence and low interest are monitored. The team also assesses each stakeholder's stance: supporter, neutral, or blocker.",
+    "how": [
+      "List everyone affected by or able to influence the project.",
+      "Rate each stakeholder's influence and interest.",
+      "Plot them on the influence-interest grid.",
+      "Assess their current stance and what they need.",
+      "Choose an engagement method and frequency.",
+      "Assign an owner for each key relationship.",
+      "Review the map at each project gate."
+    ],
+    "where": "Use stakeholder mapping on cross-functional, regulated, or politically sensitive projects. In a hospital discharge project, the chief operating officer and ward managers are high influence and high interest; IT may be high influence but lower interest; patients and families have high interest and should be included through focus groups or surveys.",
+    "when_not": "Do not build a large stakeholder map for a small local fix with two participants. Do not confuse stakeholders with customers, and do not treat engagement as a one-time communication.",
+    "common_mistakes": [
+      "Missing a key blocker until late in the project.",
+      "Communicating only upward and ignoring front-line staff.",
+      "A map with no engagement plan, owner, or follow-up."
+    ],
+    "quick_check": [
+      {
+        "q": "How should a high-influence, high-interest stakeholder be managed?",
+        "answer": "Closely, with regular engagement and involvement in decisions.",
+        "explanation": "These stakeholders can strongly affect the project and care about the outcome."
+      },
+      {
+        "q": "Why map stakeholder stance?",
+        "answer": "To understand who supports, is neutral, or may block the project.",
+        "explanation": "Stance helps the team tailor engagement and address concerns."
+      },
+      {
+        "q": "When should the stakeholder map be reviewed?",
+        "answer": "At project gates and when circumstances change.",
+        "explanation": "Influence, interest, and stance can shift during the project."
+      }
+    ],
+    "recap": [
+      "Map stakeholders by influence and interest, then plan engagement.",
+      "Assess stance and assign an owner for key relationships.",
+      "Include front-line staff, not just leaders."
+    ]
+  },
+  "G1.3": {
+    "why": "Green Belts must ensure the project solves a customer problem, not an internal convenience. CTQs turn customer language into measurable specifications the process can be held to.",
+    "what": "Voice of the customer comes from interviews, surveys, complaints, focus groups, observation, and warranty data. A CTQ tree links a broad need to a driver and then to a measurable requirement. Each CTQ needs an operational definition, target, specification limits, and a clear defect definition. Specification limits define acceptable performance; they are not the same as control limits.",
+    "how": [
+      "Collect VOC from several sources, not just one survey.",
+      "Group similar statements into themes.",
+      "Build a CTQ tree from need to driver to measurable requirement.",
+      "Define the metric, target, and upper or lower specification limits.",
+      "Define what counts as a defect.",
+      "Validate the CTQ and specification with customers or process experts."
+    ],
+    "where": "Use VOC and CTQ in every Green Belt project. Example: a customer says, 'I want my loan decision fast.' The driver is decision time. The CTQ is time from a complete application to a decision, with a target of two business days and an upper specification of three days. A decision taking more than three days is a defect.",
+    "when_not": "Do not invent CTQs without customer input. Do not confuse a CTQ with a solution, such as 'we need a new app.' Legal, safety, and regulatory requirements are mandatory requirements, not optional customer preferences.",
+    "common_mistakes": [
+      "Writing needs in solution language.",
+      "Creating too many CTQs and losing focus.",
+      "Setting a specification without checking that it is measurable and achievable."
+    ],
+    "quick_check": [
+      {
+        "q": "What does a CTQ tree connect?",
+        "answer": "A customer need to drivers and measurable requirements.",
+        "explanation": "The tree translates voice of the customer into process metrics."
+      },
+      {
+        "q": "What is the difference between a specification limit and a control limit?",
+        "answer": "A specification limit defines customer or design requirements; a control limit describes process variation.",
+        "explanation": "Specifications come from requirements; control limits come from process data."
+      },
+      {
+        "q": "What makes a CTQ usable?",
+        "answer": "It is measurable, has a target or specification, and has a clear defect definition.",
+        "explanation": "Without these, the team cannot measure or improve it."
+      }
+    ],
+    "recap": [
+      "VOC captures customer needs; CTQs make them measurable.",
+      "Define the metric, target, specification limits, and defect rule.",
+      "Validate CTQs with customers and keep them focused."
+    ]
+  },
+  "G2.1": {
+    "why": "Without a data collection plan, data are often incomplete, inconsistent, or unable to answer the project question. A plan ensures the right data are collected the right way.",
+    "what": "A data collection plan defines the metric and operational definition, data type, source, location, collector, timing, sampling method, sample size, recording form, and validation method. It also plans a measurement system analysis. Existing data should be used when they are reliable; new data are needed when the current data cannot answer the question.",
+    "how": [
+      "Write the question the data must answer.",
+      "Define the metric operationally, including start and stop points.",
+      "Choose the data source and check its quality.",
+      "Decide the sampling method and sample size.",
+      "Design or select the recording form.",
+      "Pilot the plan and train the collectors.",
+      "Verify a sample of records for accuracy and completeness."
+    ],
+    "where": "Use a data collection plan in every Measure phase and for any important decision. Example: for emergency department turnaround, start is the arrival timestamp and end is the inpatient bed assignment timestamp. The source is the electronic health record. Collect all admitted patients for four weeks, stratify by shift and day, and validate twenty records against the source system.",
+    "when_not": "Do not collect new data when existing validated data already answer the question. Do not collect data without a clear question, and do not over-collect just because data are available.",
+    "common_mistakes": [
+      "Vague operational definitions that different collectors interpret differently.",
+      "No sampling plan, so the data are convenient rather than representative.",
+      "Skipping measurement system analysis and trusting bad data."
+    ],
+    "quick_check": [
+      {
+        "q": "What is an operational definition?",
+        "answer": "A precise description of how a metric is measured, including start, stop, and counting rules.",
+        "explanation": "It ensures different people measure the same thing the same way."
+      },
+      {
+        "q": "When should existing data be used?",
+        "answer": "When they are reliable, relevant, and sufficient to answer the question.",
+        "explanation": "Collecting new data costs time and should be justified."
+      },
+      {
+        "q": "Why pilot a data collection plan?",
+        "answer": "To find unclear definitions, missing fields, and collection problems before full rollout.",
+        "explanation": "A pilot prevents weeks of unusable data."
+      }
+    ],
+    "recap": [
+      "A data collection plan defines the metric, source, sampling, collectors, and validation.",
+      "Use operational definitions and pilot the plan.",
+      "Prefer reliable existing data over unnecessary new collection."
+    ]
+  },
+  "G2.2": {
+    "why": "Measuring every unit is often impossible or too costly. A good sample lets the team infer about the population with known uncertainty; a biased sample leads to wrong conclusions.",
+    "what": "The population is every unit of interest; the sample is the subset measured. Random sampling gives every unit an equal chance and reduces selection bias. Stratified sampling divides the population into homogeneous groups, such as shift or region, and samples within each. Systematic sampling takes every kth unit but can align with a hidden pattern. Convenience sampling is easy but often biased.",
+    "how": [
+      "Define the population and the sampling frame.",
+      "Choose random, stratified, or systematic sampling to fit the question.",
+      "Decide the sample size from confidence, margin of error, and variability.",
+      "Select units using a random method and document it.",
+      "Check the sample for representativeness.",
+      "Record nonresponse or missing data and adjust the plan."
+    ],
+    "where": "Use sampling for audits, customer surveys, quality checks, and process studies. Example: a team has 1,000 invoices per month and selects 100 at random with a random number generator. They stratify by month-end and regular invoices so both types are represented. They avoid sampling only the invoices that are easy to retrieve.",
+    "when_not": "Do not sample when the population is small or the risk is high and 100% inspection is required. Do not use a convenience sample to make inferences about a population, and do not ignore nonresponse bias.",
+    "common_mistakes": [
+      "Using whichever units are easiest to access.",
+      "Sampling only one shift, region, or product type.",
+      "A sample so small that the margin of error is too wide to be useful."
+    ],
+    "quick_check": [
+      {
+        "q": "What is the main benefit of random sampling?",
+        "answer": "It reduces selection bias and supports inference to the population.",
+        "explanation": "Every unit has an equal chance of being selected."
+      },
+      {
+        "q": "When is stratified sampling useful?",
+        "answer": "When the population contains distinct groups that should be represented.",
+        "explanation": "Sampling within each group ensures coverage of important segments."
+      },
+      {
+        "q": "Why can a convenience sample be misleading?",
+        "answer": "It may over-represent easy-to-reach units and miss important parts of the population.",
+        "explanation": "Convenience sampling is not random and can create selection bias."
+      }
+    ],
+    "recap": [
+      "Define the population, sampling frame, method, and size.",
+      "Use random or stratified sampling to reduce bias.",
+      "Avoid convenience samples for inference and check representativeness."
+    ]
+  },
+  "G2.3": {
+    "why": "Measurement variation can look like process variation. Before capability analysis or hypothesis testing, confirm the measurement system can distinguish good parts from bad ones.",
+    "what": "Measurement system analysis evaluates accuracy through bias, linearity, and stability, and precision through repeatability and reproducibility. Repeatability is variation when one appraiser measures the same part repeatedly. Reproducibility is variation between appraisers measuring the same parts. A Gage R&R study estimates both. %GRR compares measurement variation with total variation; lower is better. The number of distinct categories, or NDC, shows how many different levels the system can distinguish.",
+    "how": [
+      "Select ten parts that span the real process range.",
+      "Use two or three appraisers who normally perform the measurement.",
+      "Have each appraiser measure each part two or three times, in random order and blind.",
+      "Analyze the study in Minitab under Stat > Quality Tools > Gage Study > Gage R&R, or in a validated Excel template.",
+      "Interpret %GRR: below 10% is generally acceptable, 10-30% is conditionally acceptable, and above 30% is usually unacceptable.",
+      "Check NDC; five or more categories is desirable. If weak, improve the system before collecting process data."
+    ],
+    "where": "Use Gage R&R for dimensional inspection, lab tests, call handling time, survey scoring, and any measurement that will drive a decision. Example: a measurement system has 18% GRR and four distinct categories. It is conditionally acceptable, so the team improves the fixture before using the data for a capability study.",
+    "when_not": "Do not run a standard Gage R&R on destructive tests; use a nested design. Do not use only one appraiser, because that misses reproducibility. Do not skip MSA when the data will justify a costly decision.",
+    "common_mistakes": [
+      "Using parts that do not represent the process range.",
+      "Failing to blind appraisers to previous readings.",
+      "Blaming the process for variation created by the measurement system."
+    ],
+    "quick_check": [
+      {
+        "q": "What is the difference between repeatability and reproducibility?",
+        "answer": "Repeatability is variation by one appraiser on the same part; reproducibility is variation between appraisers.",
+        "explanation": "Gage R&R separates equipment variation from appraiser variation."
+      },
+      {
+        "q": "What does %GRR measure?",
+        "answer": "Measurement variation as a percentage of total variation.",
+        "explanation": "Lower %GRR means the measurement system is better able to see real process differences."
+      },
+      {
+        "q": "What NDC value is desirable?",
+        "answer": "Five or more distinct categories.",
+        "explanation": "NDC indicates how many levels the measurement system can distinguish."
+      }
+    ],
+    "recap": [
+      "MSA checks whether the measurement system is accurate and precise enough.",
+      "Gage R&R separates repeatability from reproducibility.",
+      "Use %GRR and NDC to decide whether to improve the measurement system."
+    ]
+  },
+  "G2.4": {
+    "why": "Descriptive statistics summarize center, spread, and shape before inference. They reveal outliers, skew, and instability that an average alone would hide.",
+    "what": "The mean is the arithmetic average. The median is the middle value when data are ordered. The mode is the most frequent value. The range is the maximum minus the minimum. Standard deviation estimates the typical distance from the mean, and variance is its square. The interquartile range is the third quartile minus the first quartile. Use median and IQR for skewed data or data with outliers; use mean and standard deviation for roughly symmetric data.",
+    "how": [
+      "Plot the data before summarizing it.",
+      "Calculate the center with mean or median.",
+      "Calculate spread with standard deviation, range, or IQR.",
+      "Check for outliers, skew, and multiple peaks.",
+      "Choose the summary that matches the shape and the question."
+    ],
+    "where": "Use descriptive statistics for baselines, before-and-after comparisons, capability inputs, and data quality checks. Example: service times are 10, 12, 11, 13, 12, and 60 minutes. The mean is about 19.7 minutes, but the median is 12 minutes because the 60-minute value is an outlier. Reporting only the mean would exaggerate the typical experience.",
+    "when_not": "Do not use the mean alone for skewed data or data with outliers. Do not compare standard deviations without context, and do not ignore time order when the process may be shifting.",
+    "common_mistakes": [
+      "Reporting a mean for heavily skewed data.",
+      "Using standard deviation without checking for outliers.",
+      "Using population formulas when the data are a sample."
+    ],
+    "quick_check": [
+      {
+        "q": "Which summary is more robust to outliers?",
+        "answer": "The median.",
+        "explanation": "The median depends on position, not on the size of extreme values."
+      },
+      {
+        "q": "What does standard deviation describe?",
+        "answer": "The typical spread of data around the mean.",
+        "explanation": "A larger standard deviation means more variation."
+      },
+      {
+        "q": "Why plot data before calculating statistics?",
+        "answer": "To see shape, outliers, gaps, and multiple peaks that a single number hides.",
+        "explanation": "Graphs prevent misleading summaries."
+      }
+    ],
+    "recap": [
+      "Mean, median, standard deviation, range, and IQR describe different aspects of data.",
+      "Use median and IQR for skewed data or outliers.",
+      "Always plot the data before choosing a summary."
+    ]
+  },
+  "G2.5": {
+    "why": "Many capability and hypothesis methods assume approximate normality. The normal curve and the 68-95-99.7 rule help the team interpret variation and recognize when that assumption is unsafe.",
+    "what": "A normal distribution is bell-shaped and symmetric, defined by its mean and standard deviation. About 68% of values fall within one standard deviation of the mean, about 95% within two, and about 99.7% within three. A z-score is the number of standard deviations a value lies from the mean: z equals x minus the mean, divided by the standard deviation. Check normality with a histogram, a normal probability plot, and a test such as Anderson-Darling.",
+    "how": [
+      "Plot a histogram and a normal probability plot.",
+      "Run a normality test and interpret the p-value in context.",
+      "Remember that a high p-value does not prove normality; it only fails to reject it.",
+      "If non-normal, consider a transformation, a nonparametric method, or a different distribution.",
+      "Recheck assumptions after any transformation."
+    ],
+    "where": "Use normality checks before capability studies, control charts, and t-tests. Example: a process has a mean of 100 and a standard deviation of 10, so about 95% of values fall between 80 and 120. A value of 125 has a z-score of 2.5. In Excel, use NORM.DIST or NORM.S.DIST; in Minitab, use Graph > Probability Plot.",
+    "when_not": "Do not assume normality for skewed cycle times, counts, or proportions. Do not rely on a normality test with a tiny sample, and do not transform data without explaining what the transformed result means.",
+    "common_mistakes": [
+      "Treating every dataset as normal.",
+      "Using a normality test as the only check.",
+      "Confusing the 95% empirical rule with a 95% confidence interval."
+    ],
+    "quick_check": [
+      {
+        "q": "About what percentage of normal data lies within two standard deviations of the mean?",
+        "answer": "About 95%.",
+        "explanation": "The empirical rule gives approximately 68%, 95%, and 99.7% for one, two, and three standard deviations."
+      },
+      {
+        "q": "A process has mean 50 and standard deviation 5. What is the z-score for 62?",
+        "answer": "2.4.",
+        "explanation": "z equals (62 - 50) / 5 = 2.4."
+      },
+      {
+        "q": "A normality test gives p = 0.01. What should the team do?",
+        "answer": "Treat normality as questionable and consider a transformation, another distribution, or a nonparametric method.",
+        "explanation": "A small p-value is evidence against normality."
+      }
+    ],
+    "recap": [
+      "Normal data are symmetric and summarized by mean and standard deviation.",
+      "Use the 68-95-99.7 rule and z-scores to interpret variation.",
+      "Check normality before methods that assume it."
+    ]
+  },
+  "G2.6": {
+    "why": "Sigma level and DPMO put quality on a common scale and connect defects to process capability. They help teams benchmark and track improvement.",
+    "what": "An opportunity is a chance for a defect to occur. DPMO is defects divided by units times opportunities, multiplied by one million. Yield is one minus defects divided by opportunities. Sigma level is found from DPMO using the inverse normal distribution. Many organizations add a 1.5-sigma shift to account for long-term drift; always state whether the number is short-term or long-term.",
+    "how": [
+      "Define a defect and an opportunity clearly.",
+      "Count defects, units, and opportunities over the same period.",
+      "Calculate DPMO: defects divided by units times opportunities, then multiplied by one million.",
+      "Convert DPMO to a z-value with the inverse normal, then add 1.5 if using the long-term convention.",
+      "In Excel, use NORM.S.INV(1 - DPMO/1000000) + 1.5.",
+      "Compare baseline and improved performance using the same definitions."
+    ],
+    "where": "Use DPMO and sigma level for manufacturing defects, service errors, healthcare processes, and transactional work. Example: 10 defects across 1,000 units with five opportunities each gives 10 divided by 5,000, or 0.002. That is 2,000 DPMO and a yield of 99.8%. The inverse normal of 0.998 is about 2.88; adding the 1.5 shift gives about 4.38 sigma.",
+    "when_not": "Do not inflate the opportunity count to make the sigma level look better. Do not use DPMO when defect definitions are inconsistent, and do not compare sigma levels across processes with different opportunity definitions.",
+    "common_mistakes": [
+      "Counting defective units as defects, or the reverse.",
+      "Using the wrong number of opportunities.",
+      "Forgetting to state whether the 1.5 shift was applied."
+    ],
+    "quick_check": [
+      {
+        "q": "Five defects, 500 units, and four opportunities per unit. What is DPMO?",
+        "answer": "2,500 DPMO.",
+        "explanation": "5 / (500 x 4) = 0.0025, which is 2,500 per million."
+      },
+      {
+        "q": "What does a 1.5-sigma shift represent?",
+        "answer": "An adjustment for long-term process drift.",
+        "explanation": "The shift is a convention; the team must state whether it was used."
+      },
+      {
+        "q": "Why must opportunity definitions be consistent?",
+        "answer": "Different opportunity counts change DPMO and sigma level, making comparisons invalid.",
+        "explanation": "Sigma level is only comparable when the counting rules are the same."
+      }
+    ],
+    "recap": [
+      "DPMO equals defects divided by units times opportunities, times one million.",
+      "Sigma level comes from the inverse normal of yield, often with a 1.5 shift.",
+      "Keep defect and opportunity definitions consistent."
+    ]
+  },
+  "G2.7": {
+    "why": "Capability indices compare process spread and centering with specification limits. They show whether the process can meet requirements and whether to reduce variation or re-center.",
+    "what": "Cp equals the specification width divided by six sigma: (USL - LSL) / (6 sigma). It describes potential capability if the process were perfectly centered. Cpk equals the minimum of (USL - mean) / (3 sigma) and (mean - LSL) / (3 sigma). It accounts for centering, so Cpk is always less than or equal to Cp. Ppk uses overall long-term sigma. Targets are Cpk of at least 1.33, with 1.67 or higher strong.",
+    "how": [
+      "Confirm the process is stable and the data are approximately normal.",
+      "Estimate sigma using within-subgroup variation for Cp and Cpk.",
+      "Calculate Cp from the specification width.",
+      "Calculate Cpk from the distance to the nearest specification limit.",
+      "Decide whether to reduce variation or move the mean.",
+      "Recheck capability after the improvement."
+    ],
+    "where": "Use capability analysis for manufacturing tolerances, service time specifications, lab turnaround, and transaction accuracy. Example: USL 20, LSL 10, mean 16, and sigma 1.5. Cp equals 10 / 9 = 1.11. Cpk equals the minimum of (20 - 16) / 4.5 = 0.89 and (16 - 10) / 4.5 = 1.33, so Cpk is 0.89. The process is not capable; centering the mean at 15 would raise Cpk to 1.11.",
+    "when_not": "Do not calculate Cp or Cpk on an unstable process. Do not use a normal-based capability index for clearly non-normal data without an appropriate method. Do not compare indices calculated with different specifications or sigma conventions.",
+    "common_mistakes": [
+      "Using overall sigma but calling the result Cp.",
+      "Ignoring centering and reporting only Cp.",
+      "Calculating capability before checking stability."
+    ],
+    "quick_check": [
+      {
+        "q": "What is the difference between Cp and Cpk?",
+        "answer": "Cp measures potential spread; Cpk also accounts for centering.",
+        "explanation": "A process can have good Cp but poor Cpk if it is off-center."
+      },
+      {
+        "q": "USL 30, LSL 10, mean 22, sigma 2. What are Cp and Cpk?",
+        "answer": "Cp = 1.67 and Cpk = 1.33.",
+        "explanation": "Cp = 20 / 12 = 1.67; Cpk = min(8/6, 12/6) = 1.33."
+      },
+      {
+        "q": "A process has Cpk 0.8. What does that suggest?",
+        "answer": "The process is not capable and is likely producing defects.",
+        "explanation": "A Cpk below 1.0 means the specification is narrower than the process spread relative to the mean."
+      }
+    ],
+    "recap": [
+      "Cp measures potential capability; Cpk measures actual capability with centering.",
+      "Cpk is always less than or equal to Cp.",
+      "Confirm stability and normality before trusting capability indices."
+    ]
+  },
+  "G3.1": {
+    "why": "Graphs reveal patterns, outliers, and relationships that summary statistics hide. The right display makes the data easy to interpret; the wrong display can mislead the team.",
+    "what": "A histogram shows the distribution of continuous data: shape, center, spread, gaps, and outliers. A box plot compares distributions across groups using the median, quartiles, interquartile range, and outliers. A run chart plots data in time order to reveal trends, shifts, and cycles. A scatter plot shows the relationship between two continuous variables, including direction, strength, form, and outliers.",
+    "how": [
+      "State the question the graph should answer.",
+      "Identify the data types and the number of groups.",
+      "Choose the display: histogram or box plot for distribution, run chart for time, scatter plot for relationships.",
+      "Label both axes, units, and time period.",
+      "Plot all the data and look for patterns or unusual points.",
+      "Check the pattern against process knowledge before drawing conclusions."
+    ],
+    "where": "Use graphs throughout DMAIC. In a call center, a histogram shows handle-time distribution, a box plot compares teams, a run chart shows daily trends, and a scatter plot explores handle time versus satisfaction. In healthcare, a run chart can show waiting time before and after a change; a box plot can compare wards.",
+    "when_not": "Do not use a histogram for categorical data. Do not use a scatter plot when one variable is categorical. Avoid 3D or pie charts when precise comparison matters, and do not truncate axes to exaggerate differences.",
+    "common_mistakes": [
+      "Choosing a chart that does not fit the question or data type.",
+      "Truncating an axis so a small change looks large.",
+      "Treating a pattern in a graph as proof of cause."
+    ],
+    "quick_check": [
+      {
+        "q": "Which graph best shows a distribution of continuous data?",
+        "answer": "A histogram.",
+        "explanation": "Histograms group continuous values into bins and show shape and spread."
+      },
+      {
+        "q": "Which graph compares distributions across several groups?",
+        "answer": "A box plot.",
+        "explanation": "Box plots show median, quartiles, and outliers for each group."
+      },
+      {
+        "q": "Which graph shows the relationship between two continuous variables?",
+        "answer": "A scatter plot.",
+        "explanation": "Scatter plots display paired values and reveal direction and strength."
+      }
+    ],
+    "recap": [
+      "Match the graph to the question and data type.",
+      "Histograms and box plots show distributions; run charts show time; scatter plots show relationships.",
+      "Graphs suggest patterns, but causes need further analysis."
+    ]
+  },
+  "G3.2": {
+    "why": "Teams often jump to solutions before understanding the problem. Structured root cause analysis increases confidence that the fix addresses the real cause rather than a symptom.",
+    "what": "Root cause analysis is a structured investigation that combines process observation, fishbone diagrams, 5 Whys, stratification, Pareto analysis, and statistical checks. Stratification splits data by shift, product, region, operator, or other factor to see where the problem concentrates. A root cause is the underlying reason a problem occurs; contributing causes make it worse or more likely.",
+    "how": [
+      "Define the problem with data and a clear metric.",
+      "Map the process and observe the work where it happens.",
+      "Brainstorm possible causes with a fishbone diagram.",
+      "Stratify the data to narrow where and when the problem occurs.",
+      "Use 5 Whys on the most likely causes, verifying each answer.",
+      "Confirm the cause with data, a pilot, or a designed comparison.",
+      "Select the root cause and link it to an actionable solution."
+    ],
+    "where": "Use root cause analysis for defects, delays, errors, complaints, and incidents. Example: lab reports are late. Stratification shows the problem is concentrated in stat tests on the evening shift. A fishbone and 5 Whys point to batching stat tests with routine tests. A pilot with a priority cutoff confirms the cause and reduces late reports.",
+    "when_not": "Do not start root cause analysis before the problem is clearly defined. Do not use a full investigation for a simple, known fix. Do not stop at correlation or at the first plausible cause.",
+    "common_mistakes": [
+      "Choosing a solution first and then looking for supporting causes.",
+      "Accepting a single cause without checking interactions.",
+      "Leaving out the front-line people who know how the work really happens."
+    ],
+    "quick_check": [
+      {
+        "q": "What does stratification do?",
+        "answer": "It splits data into groups to see where a problem is concentrated.",
+        "explanation": "Stratification by shift, product, or region often narrows the cause quickly."
+      },
+      {
+        "q": "Why combine fishbone and 5 Whys?",
+        "answer": "Fishbone broadens the search for causes; 5 Whys drills into likely ones.",
+        "explanation": "Together they support both divergent and focused thinking."
+      },
+      {
+        "q": "How should a suspected root cause be confirmed?",
+        "answer": "With data, a pilot, or a designed comparison.",
+        "explanation": "A plausible cause is not enough; it must be tested."
+      }
+    ],
+    "recap": [
+      "Root cause analysis combines observation, cause tools, stratification, and data.",
+      "Confirm the cause before implementing a solution.",
+      "Include front-line knowledge and avoid blame."
+    ]
+  },
+  "G3.3": {
+    "why": "FMEA finds failure modes before they cause harm, so the team can prevent problems rather than react to them. It is especially valuable when a process or design is changing.",
+    "what": "Failure Mode and Effects Analysis lists each failure mode, its effect, severity, cause, occurrence, current controls, and detection. Severity, occurrence, and detection are scored from 1 to 10. The risk priority number is severity times occurrence times detection. Higher RPN means higher priority, but a high severity score demands attention even when the RPN is low. Some organizations use Action Priority tables instead of RPN.",
+    "how": [
+      "Define the process or design scope and assemble a cross-functional team.",
+      "List failure modes: how the step could fail.",
+      "Describe the effect on the customer or downstream step and score severity.",
+      "Identify causes and score occurrence.",
+      "List current controls and score detection.",
+      "Calculate RPN and prioritize high-severity and high-RPN items.",
+      "Assign actions, owners, and dates, then re-score after the actions."
+    ],
+    "where": "Use FMEA in manufacturing, healthcare, software, service, and design. Example: medication order entry can fail with a wrong dose. Severity is 9, occurrence is 4, and detection is 3, giving an RPN of 108. Adding barcode scanning reduces occurrence to 1 and detection to 2, lowering the RPN to 18.",
+    "when_not": "Do not run FMEA as a one-time paperwork exercise. Do not let a low RPN override a high severity score, and do not score without the people who know the process.",
+    "common_mistakes": [
+      "Vague failure modes that cannot be acted on.",
+      "Inflating or deflating scores to fit a preferred priority.",
+      "No assigned actions or no re-scoring after improvements."
+    ],
+    "quick_check": [
+      {
+        "q": "How is RPN calculated?",
+        "answer": "Severity times occurrence times detection.",
+        "explanation": "Each factor is scored from 1 to 10, so RPN ranges from 1 to 1,000."
+      },
+      {
+        "q": "Why can a high-severity failure need action even with a low RPN?",
+        "answer": "The consequences may be unacceptable regardless of frequency.",
+        "explanation": "Severity reflects harm, not just likelihood."
+      },
+      {
+        "q": "What should happen after actions are implemented?",
+        "answer": "Re-score severity, occurrence, and detection to confirm the risk reduction.",
+        "explanation": "FMEA is a living document, not a one-time list."
+      }
+    ],
+    "recap": [
+      "FMEA prioritizes failure modes using severity, occurrence, detection, and RPN.",
+      "High severity always deserves attention.",
+      "Assign actions and re-score to confirm risk reduction."
+    ]
+  },
+  "G3.4": {
+    "why": "Green Belts need to know whether an observed difference is real or simply due to chance. Hypothesis testing prevents teams from reacting to noise and from missing real effects.",
+    "what": "The null hypothesis states no difference or no effect. The alternative states a difference or effect. Choose a test based on the data type and design: one-sample t, two-sample t, paired t, ANOVA, chi-square, or a proportion test. The significance level, alpha, is often 0.05. The p-value is the probability of data at least as extreme as observed, assuming the null is true. It is not the probability that the null is true.",
+    "how": [
+      "State the practical question.",
+      "Write the null and alternative hypotheses.",
+      "Choose alpha and the appropriate test.",
+      "Check the test assumptions.",
+      "Run the test and read the p-value and confidence interval.",
+      "If p is less than alpha, reject the null; otherwise, fail to reject it.",
+      "Interpret the effect size and practical importance."
+    ],
+    "where": "Use hypothesis tests to compare shifts, suppliers, before-and-after performance, or groups. Example: compare mean turnaround time for two shifts. The null is equal means; the alternative is different means. A two-sample t-test gives p = 0.02 with alpha 0.05, so reject the null. The 95% confidence interval for the difference is 2 to 18 minutes, which may or may not be practically important.",
+    "when_not": "Do not test an unstable process. Do not fish for p-values by testing many combinations. Do not confuse statistical significance with practical significance, and do not use a two-sample test when the data are paired.",
+    "common_mistakes": [
+      "Saying the p-value is the probability that the null is true.",
+      "Saying 'accept the null' instead of 'fail to reject the null.'",
+      "Ignoring assumptions, effect size, or multiple testing."
+    ],
+    "quick_check": [
+      {
+        "q": "What does p = 0.03 mean with alpha 0.05?",
+        "answer": "Reject the null hypothesis.",
+        "explanation": "The observed result is unlikely under the null at the chosen significance level."
+      },
+      {
+        "q": "What does p = 0.20 mean with alpha 0.05?",
+        "answer": "Fail to reject the null hypothesis.",
+        "explanation": "There is not enough evidence to reject the null; the null is not proven true."
+      },
+      {
+        "q": "What is a Type I error?",
+        "answer": "Rejecting a true null hypothesis.",
+        "explanation": "A Type I error is a false positive; alpha is its probability."
+      }
+    ],
+    "recap": [
+      "Hypothesis tests compare observed effects with chance.",
+      "Interpret p-values against alpha and report effect size.",
+      "Statistical significance does not automatically mean practical importance."
+    ]
+  },
+  "G3.5": {
+    "why": "Correlation helps teams screen for relationships between variables and decide where to investigate further. It is also a common source of false conclusions when causation is assumed.",
+    "what": "The correlation coefficient r ranges from -1 to +1. A value near +1 indicates a strong positive linear relationship; near -1 indicates a strong negative relationship; near 0 indicates little or no linear relationship. The square of r is the proportion of variation shared by the two variables. Pearson correlation is used for linear relationships between continuous variables; Spearman correlation is used for monotonic relationships, ordinal data, or data with outliers.",
+    "how": [
+      "Plot a scatter plot before calculating correlation.",
+      "Check for linearity, outliers, and separate groups.",
+      "Choose Pearson or Spearman based on the data.",
+      "Calculate r and, if needed, its p-value.",
+      "Interpret strength and direction in context.",
+      "Investigate causation with an experiment or stronger design."
+    ],
+    "where": "Use correlation to screen variables before regression or design of experiments. Examples include study hours versus exam score, wait time versus satisfaction, or temperature versus defect rate. If study hours and score have r = 0.6, the relationship is moderate and positive, and r-squared is 0.36, meaning 36% of the variation is shared.",
+    "when_not": "Do not use correlation for clearly nonlinear relationships. Do not use it with categorical data; use a chi-square test instead. Do not infer causation from correlation, because confounding, reverse causation, or coincidence may explain the pattern.",
+    "common_mistakes": [
+      "Concluding that one variable causes the other.",
+      "Ignoring outliers or curved patterns that distort r.",
+      "Combining different groups and creating a misleading aggregate correlation."
+    ],
+    "quick_check": [
+      {
+        "q": "What does r = -0.8 indicate?",
+        "answer": "A strong negative linear relationship.",
+        "explanation": "As one variable increases, the other tends to decrease."
+      },
+      {
+        "q": "What does r = 0 indicate?",
+        "answer": "No linear relationship.",
+        "explanation": "There may still be a nonlinear relationship, which is why a scatter plot matters."
+      },
+      {
+        "q": "Does correlation prove causation?",
+        "answer": "No. It shows association only.",
+        "explanation": "Confounding, reverse causation, or chance can create correlation."
+      }
+    ],
+    "recap": [
+      "Correlation measures the strength and direction of a linear relationship.",
+      "Plot the data first and check for outliers and nonlinearity.",
+      "Correlation is not causation."
+    ]
+  },
+  "G3.6": {
+    "why": "Regression quantifies a relationship and allows prediction, not just detection. It estimates how much a change in one variable is associated with a change in the response.",
+    "what": "Simple linear regression fits a line: y equals b0 plus b1 times x, plus error. The slope b1 is the predicted change in y for a one-unit increase in x. The intercept b0 is the predicted y when x is zero, which may not be meaningful. R-squared is the proportion of variation in y explained by x. A residual is observed minus predicted. Check linearity, independence, constant variance, and normal residuals before trusting inference.",
+    "how": [
+      "Plot a scatter plot and check for a linear pattern.",
+      "Fit the model in Excel using Regression or LINEST, or in Minitab using Stat > Regression > Fit Regression Model.",
+      "Interpret the slope, intercept, R-squared, p-value, and confidence interval.",
+      "Examine residual plots for curvature, changing spread, and outliers.",
+      "Check influential points and the range of the data.",
+      "Use the model for prediction only within the observed range."
+    ],
+    "where": "Use regression for cost drivers, cycle time, quality, and process optimization. Example: wait time versus satisfaction has a slope of -0.8 points per minute and R-squared of 0.45. A ten-minute increase is associated with about an eight-point lower satisfaction score. The model explains 45% of the variation, so other factors also matter.",
+    "when_not": "Do not use simple regression for a clearly curved relationship. Do not extrapolate beyond the data range, and do not claim causation from an observational regression. Do not fit a model to an unstable process or to aggregated groups without checking the underlying data.",
+    "common_mistakes": [
+      "Treating a high R-squared as proof that the model is correct.",
+      "Ignoring residual plots and influential outliers.",
+      "Using regression to claim that x causes y."
+    ],
+    "quick_check": [
+      {
+        "q": "What does the slope mean in simple regression?",
+        "answer": "The predicted change in the response for a one-unit increase in the predictor.",
+        "explanation": "The slope estimates the strength and direction of the linear relationship."
+      },
+      {
+        "q": "What does R-squared measure?",
+        "answer": "The proportion of variation in the response explained by the model.",
+        "explanation": "R-squared ranges from 0 to 1 and does not by itself prove a good model."
+      },
+      {
+        "q": "Why check residual plots?",
+        "answer": "To detect curvature, unequal spread, outliers, and other assumption violations.",
+        "explanation": "Residual patterns reveal problems that summary statistics can hide."
+      }
+    ],
+    "recap": [
+      "Simple regression estimates a linear relationship and supports prediction.",
+      "Interpret slope, R-squared, and residuals together.",
+      "Do not extrapolate or infer causation from regression alone."
+    ]
+  },
+  "G3.7": {
+    "why": "Comparing several groups with repeated t-tests inflates the chance of a false positive. ANOVA tests whether any group means differ while controlling the overall error rate.",
+    "what": "ANOVA stands for Analysis of Variance. The null hypothesis is that all group means are equal; the alternative is that at least one mean differs. The F-statistic is between-group variation divided by within-group variation. A large F means the differences between groups are large relative to the noise inside groups. A significant result does not identify which group differs; use a post-hoc test such as Tukey.",
+    "how": [
+      "Define the response and the groups.",
+      "Plot box plots to see the pattern and check for outliers.",
+      "Check assumptions: independent groups, approximately normal residuals, and similar spread.",
+      "Run one-way ANOVA in Excel Data Analysis or Minitab.",
+      "Read the F-statistic and p-value.",
+      "If significant, run a post-hoc test to identify the differing groups.",
+      "Report effect size and practical importance, not just the p-value."
+    ],
+    "where": "Use ANOVA to compare suppliers, shifts, machines, regions, training methods, or departments. Example: mean call handling time across four teams gives F = 4.8 and p = 0.004, so at least one team differs. A Tukey comparison shows team C is slower. The team then investigates workload, staffing, and process differences.",
+    "when_not": "Do not use ordinary one-way ANOVA for repeated measures on the same units without the appropriate model. Do not use it when assumptions are badly violated; consider Welch ANOVA or Kruskal-Wallis. Use a t-test for two groups.",
+    "common_mistakes": [
+      "Running many t-tests instead of one ANOVA.",
+      "Stopping at a significant p-value without a post-hoc test.",
+      "Ignoring unequal variances or non-normal residuals."
+    ],
+    "quick_check": [
+      {
+        "q": "What does ANOVA test?",
+        "answer": "Whether the means of three or more groups differ.",
+        "explanation": "The null is that all group means are equal."
+      },
+      {
+        "q": "What does a large F-statistic indicate?",
+        "answer": "Between-group variation is large relative to within-group variation.",
+        "explanation": "This suggests the group means may differ."
+      },
+      {
+        "q": "What should you do after a significant ANOVA?",
+        "answer": "Run a post-hoc test to identify which groups differ.",
+        "explanation": "ANOVA alone does not say which group is different."
+      }
+    ],
+    "recap": [
+      "ANOVA compares means across three or more groups.",
+      "A significant F-test requires post-hoc analysis to locate differences.",
+      "Check assumptions and report effect size."
+    ]
+  },
+  "G4.1": {
+    "why": "Teams generate many possible solutions. A transparent selection method prevents pet ideas from winning and helps the team choose an option that is effective, feasible, and sustainable.",
+    "what": "Solution selection compares candidates on impact, effort, time, cost, risk, feasibility, and stakeholder acceptance. Common tools include the impact-effort matrix, weighted scoring, Pugh matrix, cost-benefit analysis, and risk assessment. The solution must address the verified root cause and improve the CTQ. A promising solution is usually piloted before full implementation.",
+    "how": [
+      "Restate the verified root cause and the CTQ it affects.",
+      "List the candidate solutions without evaluating them yet.",
+      "Agree on criteria and weights with the team and sponsor.",
+      "Score each candidate and calculate a weighted total.",
+      "Assess risk, feasibility, and unintended consequences.",
+      "Select one or two candidates for a pilot.",
+      "Document the rationale and the decision."
+    ],
+    "where": "Use solution selection in every Improve phase. Example: a clinic wants to reduce waiting. Adding a second triage nurse scores high on impact, medium on effort and cost, and low on risk. Extending hours scores medium impact and high effort. New software scores high cost and long lead time. The team pilots the triage nurse first.",
+    "when_not": "Do not use scoring to justify a decision that has already been made. Do not ignore regulatory or safety constraints, and do not select a solution before the root cause is verified.",
+    "common_mistakes": [
+      "Choosing a favorite solution before evaluating alternatives.",
+      "Weighting criteria to produce a predetermined winner.",
+      "Ignoring implementation effort, risk, or stakeholder acceptance."
+    ],
+    "quick_check": [
+      {
+        "q": "What does an impact-effort matrix help a team do?",
+        "answer": "Compare solutions by expected impact and implementation effort.",
+        "explanation": "It highlights quick wins and flags high-effort, low-impact options."
+      },
+      {
+        "q": "Why link a solution to the verified root cause?",
+        "answer": "To increase the chance that the fix actually removes the problem.",
+        "explanation": "A solution that does not address the cause may only treat symptoms."
+      },
+      {
+        "q": "Why pilot before full implementation?",
+        "answer": "To test the solution under real conditions with limited risk.",
+        "explanation": "A pilot provides evidence and reveals unintended effects."
+      }
+    ],
+    "recap": [
+      "Select solutions using impact, effort, risk, cost, and feasibility.",
+      "Link the solution to the verified root cause and CTQ.",
+      "Pilot the strongest candidate before scaling."
+    ]
+  },
+  "G4.2": {
+    "why": "A pilot tests a solution under real conditions with limited risk. It provides evidence before a full rollout and reveals problems that a plan or simulation would miss.",
+    "what": "A pilot plan defines the objective, scope, site or shift, duration, success metrics, baseline, roles, training, data collection, communication, rollback plan, and decision criteria. The team compares pilot performance with baseline or a control group. A go, no-go, or adapt decision is made from data, not enthusiasm.",
+    "how": [
+      "Write the pilot objective and success metrics.",
+      "Choose a representative area, team, or shift.",
+      "Establish a baseline before the pilot starts.",
+      "Train the people who will use the new method.",
+      "Run the pilot long enough to see a stable effect.",
+      "Collect data and monitor unintended consequences.",
+      "Compare results and decide to scale, adapt, or stop.",
+      "Document lessons learned for the rollout."
+    ],
+    "where": "Use pilots in healthcare, manufacturing, software, retail, banking, and education. Example: barcode scanning is piloted on one ward for four weeks. The baseline is twelve medication errors per month and the target is a 50% reduction. The pilot records five errors per month with no workflow delay, so the team scales to other wards.",
+    "when_not": "Do not pilot in a non-representative area and generalize without checking. Do not skip the baseline or run the pilot too briefly to see the effect. Do not ignore side effects on other departments.",
+    "common_mistakes": [
+      "No success criteria or baseline.",
+      "No rollback plan if the pilot creates a serious problem.",
+      "Ignoring staff feedback and unintended consequences."
+    ],
+    "quick_check": [
+      {
+        "q": "Why does a pilot need a baseline?",
+        "answer": "To compare pilot performance with current performance.",
+        "explanation": "Without a baseline, the team cannot tell whether the change worked."
+      },
+      {
+        "q": "What is a rollback plan?",
+        "answer": "A predefined way to return to the old method if the pilot fails or causes harm.",
+        "explanation": "It limits risk during testing."
+      },
+      {
+        "q": "What decisions can follow a pilot?",
+        "answer": "Scale, adapt, or stop.",
+        "explanation": "The pilot result determines the next step."
+      }
+    ],
+    "recap": [
+      "A pilot tests a solution with clear metrics and limited risk.",
+      "Use a baseline, a representative area, and a rollback plan.",
+      "Decide to scale, adapt, or stop based on data."
+    ]
+  },
+  "G4.3": {
+    "why": "Human error is inevitable. Poka-yoke designs the process so errors are hard to make or are caught immediately, which is more reliable than reminders or training alone.",
+    "what": "Poka-yoke means mistake-proofing. Prevention makes an error impossible or very difficult, such as a connector that only fits one way. Detection catches an error immediately, such as a scanner that rejects the wrong patient wristband. Good poka-yoke is simple, close to the work, and designed with the people who use it. It is most effective when paired with root cause analysis.",
+    "how": [
+      "Identify the failure mode, using FMEA or root cause analysis.",
+      "Understand how and where the error occurs.",
+      "Choose prevention first; use detection if prevention is not practical.",
+      "Design a simple device, check, or software rule.",
+      "Test it with real users in the real workflow.",
+      "Monitor for new errors or workarounds.",
+      "Standardize and assign ownership."
+    ],
+    "where": "Use poka-yoke in manufacturing fixtures, medication barcode scanning, software form validation, color-coded connectors, forced sequence steps, and checklist controls. Example: scanning the patient wristband and the medication barcode prevents giving the wrong drug to the wrong patient. A simpler example is an email client that warns when the message mentions an attachment but none is attached.",
+    "when_not": "Do not rely on poka-yoke for complex judgment errors that need training or decision support. Do not create so many alerts that people ignore them. Do not add a device without testing whether it fits the real workflow.",
+    "common_mistakes": [
+      "Choosing detection when prevention is practical.",
+      "Adding alarms that users disable or ignore.",
+      "Treating poka-yoke as a substitute for finding the root cause."
+    ],
+    "quick_check": [
+      {
+        "q": "What is the difference between prevention and detection in poka-yoke?",
+        "answer": "Prevention makes an error impossible or difficult; detection catches it immediately.",
+        "explanation": "Prevention is generally stronger because the error never reaches the customer."
+      },
+      {
+        "q": "Why is poka-yoke more reliable than a reminder?",
+        "answer": "It changes the process so the error is blocked or caught, rather than relying on memory.",
+        "explanation": "Reminders can be forgotten; well-designed mistake-proofing is built into the work."
+      },
+      {
+        "q": "What should you do after installing a poka-yoke?",
+        "answer": "Monitor for new errors, workarounds, and unintended effects.",
+        "explanation": "People may find ways around a control that does not fit the workflow."
+      }
+    ],
+    "recap": [
+      "Poka-yoke prevents errors or detects them immediately.",
+      "Prefer prevention, keep the design simple, and test it with users.",
+      "Pair mistake-proofing with root cause analysis and monitoring."
+    ]
+  },
+  "G4.4": {
+    "why": "Green Belts often need to improve flow and lead time, not just defect rates. Lean tools reduce waiting, batch delays, and rework without large capital investment.",
+    "what": "Flow means work moves smoothly with minimal batching and handoffs. Pull means downstream demand triggers work instead of pushing work ahead of need. Standard work documents the best-known method, sequence, and quality checks. Quick changeover, or SMED, separates internal setup from external setup and reduces changeover time. Takt time is available work time divided by customer demand.",
+    "how": [
+      "Map the value stream and identify delays and handoffs.",
+      "Calculate takt time from available time and customer demand.",
+      "Reduce batch sizes and unnecessary approvals.",
+      "Introduce pull where demand and supply make it practical.",
+      "Standardize the best-known method and train to it.",
+      "Reduce changeover time by moving work outside the changeover window."
+    ],
+    "where": "Use Lean tools in manufacturing, healthcare, banking, IT, retail, and education. Example: a clinic has 480 minutes of available time and 60 patients, so takt time is 8 minutes. If the current step takes 12 minutes, it is a bottleneck. The team redistributes work and standardizes the new method to bring the step closer to takt.",
+    "when_not": "Do not force pull where demand is highly variable or supply is constrained without appropriate buffers. Do not remove necessary controls to make a process look faster, and do not use Lean tools as a substitute for reducing variation.",
+    "common_mistakes": [
+      "Installing kanban before the process is stable.",
+      "Reducing batch size without checking downstream capacity.",
+      "Writing standard work without training or front-line involvement."
+    ],
+    "quick_check": [
+      {
+        "q": "How is takt time calculated?",
+        "answer": "Available work time divided by customer demand.",
+        "explanation": "Takt time sets the pace the process needs to meet customer demand."
+      },
+      {
+        "q": "What does pull mean in Lean?",
+        "answer": "Work is triggered by downstream demand rather than pushed ahead of it.",
+        "explanation": "Pull reduces overproduction and excess work in progress."
+      },
+      {
+        "q": "What is the goal of quick changeover?",
+        "answer": "To reduce the time and waste required to switch from one product or task to another.",
+        "explanation": "Shorter changeovers make smaller batches and more flexible flow possible."
+      }
+    ],
+    "recap": [
+      "Lean tools improve flow, pull, standard work, and changeover.",
+      "Use takt time to understand the required pace.",
+      "Stabilize the process and involve the people who do the work."
+    ]
+  },
+  "G4.5": {
+    "why": "Testing one factor at a time misses interactions and wastes runs. Design of Experiments tests several factors together and shows which settings actually matter.",
+    "what": "A factor is an input variable; a level is a setting of that factor; a response is the measured output; a run is one experimental trial. A main effect is the average change in the response when a factor changes. An interaction means the effect of one factor depends on the level of another. Randomization protects against lurking variables, and replication provides an estimate of experimental error.",
+    "how": [
+      "Define the objective and the response metric.",
+      "Choose the factors and their levels.",
+      "Select a design, such as a two-level full factorial or a fractional factorial for screening.",
+      "Randomize the run order and include replicates.",
+      "Run the experiment and record the response.",
+      "Analyze main effects and interactions in software such as Minitab.",
+      "Run confirmation trials at the recommended settings."
+    ],
+    "where": "Use DOE for process optimization, product design, and robustness. Example: oven temperature at 150 or 170 degrees and time at 20 or 30 minutes affect strength. A two-by-two design with two replicates requires eight runs. If the best temperature depends on time, the factors interact and should be set together, not one at a time.",
+    "when_not": "Do not use DOE when factors are unsafe or impossible to control. Do not experiment before the measurement system is adequate, and do not confound effects by skipping randomization.",
+    "common_mistakes": [
+      "Changing one factor at a time and missing interactions.",
+      "No replication, so the team cannot estimate error.",
+      "Too many factors in one experiment without a screening design."
+    ],
+    "quick_check": [
+      {
+        "q": "What is a factor in DOE?",
+        "answer": "An input variable that is deliberately changed in the experiment.",
+        "explanation": "Factors are set at different levels to see their effect on the response."
+      },
+      {
+        "q": "What is an interaction?",
+        "answer": "When the effect of one factor depends on the level of another factor.",
+        "explanation": "Interactions are a key reason DOE beats one-factor-at-a-time testing."
+      },
+      {
+        "q": "Why randomize run order?",
+        "answer": "To protect against lurking variables such as time, temperature, or operator drift.",
+        "explanation": "Randomization spreads uncontrolled effects across the experiment."
+      }
+    ],
+    "recap": [
+      "DOE tests multiple factors and estimates main effects and interactions.",
+      "Randomize, replicate, and use a design suited to the objective.",
+      "Confirm the predicted optimum with validation runs."
+    ]
+  },
+  "G5.1": {
+    "why": "Control charts separate common cause variation from special cause signals. They tell the team when to act and when to leave the process alone, which is essential for sustaining an improvement.",
+    "what": "For continuous data, use an X-bar and R chart for small subgroups, an X-bar and S chart for larger subgroups, or an I-MR chart for individual values. For attribute data, use a p chart for the proportion defective with variable sample size, an np chart for the number defective with constant sample size, a c chart for defects per unit with constant unit size, or a u chart for defects per unit with variable unit size. Control limits come from process data, not from specifications.",
+    "how": [
+      "Choose the chart based on data type, subgroup size, and sample size.",
+      "Collect about 20 to 25 baseline subgroups or points.",
+      "Calculate the center line and control limits.",
+      "Plot new data in time order.",
+      "Apply rules for points beyond limits, runs, trends, and unusual patterns.",
+      "Investigate special causes before changing the process.",
+      "Recalculate limits only after a known process change."
+    ],
+    "where": "Use control charts for manufacturing dimensions, hospital wait times, late reports, defect rates, call handling time, and transaction errors. Example: an I-MR chart tracks daily waiting time, an X-bar and R chart tracks five samples per hour, and a p chart tracks the percentage of late reports when volume varies.",
+    "when_not": "Do not use specification limits as control limits. Do not recalculate limits just to hide a signal, and do not use an attribute chart for continuous data.",
+    "common_mistakes": [
+      "Choosing the wrong chart for the data type.",
+      "Too few baseline points, producing unreliable limits.",
+      "Reacting to common cause variation as if it were special cause."
+    ],
+    "quick_check": [
+      {
+        "q": "Which chart is used for individual measurements over time?",
+        "answer": "An I-MR chart.",
+        "explanation": "I-MR charts track individual values and the moving range."
+      },
+      {
+        "q": "Which chart is used for the proportion defective with variable sample size?",
+        "answer": "A p chart.",
+        "explanation": "p charts allow the sample size to vary."
+      },
+      {
+        "q": "Where do control limits come from?",
+        "answer": "From the process data, not from customer specifications.",
+        "explanation": "Control limits describe the process's natural variation."
+      }
+    ],
+    "recap": [
+      "Match the control chart to the data type and sample size.",
+      "Control limits come from process data, not specifications.",
+      "Investigate special causes and recalculate only after process changes."
+    ]
+  },
+  "G5.2": {
+    "why": "Improvements decay without monitoring. A control plan defines how the process will be watched, who responds when it drifts, and how the gain will be protected.",
+    "what": "A control plan lists the process step, metric or CTQ, specification, measurement method, sample size and frequency, chart or monitoring method, reaction plan, owner, and escalation path. The reaction plan says what to check, whom to notify, how to contain the problem, and what corrective action to take. The plan links to standard work, FMEA, and control charts.",
+    "how": [
+      "Identify the critical metrics that must be monitored.",
+      "Define the measurement method and frequency.",
+      "Choose the chart or monitoring approach and the trigger for action.",
+      "Write a specific reaction plan for each trigger.",
+      "Assign an owner and an escalation path.",
+      "Train the people who will use the plan.",
+      "Audit the plan and update it when the process changes."
+    ],
+    "where": "Use a control plan for every improved process, especially at project handover. Example: medication errors are tracked monthly on a p chart. If the rate exceeds the control limit, the owner verifies reporting, reviews the cases, checks whether the standard work was followed, and notifies the pharmacy lead.",
+    "when_not": "Do not create a control plan that no one uses. Do not monitor so many metrics that the important ones are lost, and do not set a trigger without the capacity to respond.",
+    "common_mistakes": [
+      "No named owner or escalation path.",
+      "A reaction plan that says only 'investigate' without specific steps.",
+      "Monitoring lagging metrics with no early warning."
+    ],
+    "quick_check": [
+      {
+        "q": "What should a reaction plan include?",
+        "answer": "What to check, whom to notify, how to contain the problem, and what corrective action to take.",
+        "explanation": "A specific reaction plan makes monitoring actionable."
+      },
+      {
+        "q": "Why does a control plan need an owner?",
+        "answer": "Someone must be accountable for monitoring and responding.",
+        "explanation": "Without ownership, signals are often ignored."
+      },
+      {
+        "q": "When should a control plan be updated?",
+        "answer": "When the process, metric, or risk changes.",
+        "explanation": "An outdated plan can monitor the wrong thing."
+      }
+    ],
+    "recap": [
+      "A control plan defines metrics, sampling, triggers, reactions, and owners.",
+      "Make the reaction plan specific and assign accountability.",
+      "Audit and update the plan when the process changes."
+    ]
+  },
+  "G5.3": {
+    "why": "Standard work is the foundation for sustaining gains. Without a clear standard, people revert to old methods and the improvement slowly disappears.",
+    "what": "A standard operating procedure documents the best-known method for a task. Standard work goes further by defining sequence, timing, quality checks, safety, and the expected result. A usable SOP includes purpose, scope, roles, step-by-step instructions, visuals, decision points, exceptions, and revision history. It should be written with the people who do the work and available at the point of use.",
+    "how": [
+      "Observe and document the current best method.",
+      "Involve the people who perform the work.",
+      "Draft the procedure with photos, screenshots, or simple diagrams.",
+      "Test the draft in the real workflow and revise it.",
+      "Train users and check competence.",
+      "Place the standard at the point of use.",
+      "Audit adherence and revise through change control."
+    ],
+    "where": "Use standard work in healthcare, manufacturing, service, IT, banking, and education. Example: a discharge checklist lists each step, the owner, the timing, and the escalation path. It reduces missed steps and makes handoffs predictable. A software team can use a release checklist in the same way.",
+    "when_not": "Do not write a rigid procedure for work that is genuinely creative or highly variable without clear decision rules. Do not create shelf documents that no one reads, and do not standardize a process before it is improved.",
+    "common_mistakes": [
+      "Writing the SOP without the people who do the work.",
+      "Making the document too long or hard to use at the point of work.",
+      "No training, audit, or revision process."
+    ],
+    "quick_check": [
+      {
+        "q": "What makes an SOP usable?",
+        "answer": "Clear steps, visuals, roles, exceptions, and access at the point of use.",
+        "explanation": "A usable SOP supports the real work rather than gathering dust."
+      },
+      {
+        "q": "Why involve front-line staff in writing standard work?",
+        "answer": "They know the real process and can identify practical steps and failure points.",
+        "explanation": "Involvement improves accuracy and adoption."
+      },
+      {
+        "q": "Is standard work permanent?",
+        "answer": "No. It should be updated through change control when a better method is proven.",
+        "explanation": "Standard work is the current best method, not a frozen rule."
+      }
+    ],
+    "recap": [
+      "Standard work documents the best-known method, sequence, and quality checks.",
+      "Write it with users, test it, train to it, and keep it at the point of use.",
+      "Audit adherence and improve the standard through change control."
+    ]
+  },
+  "G6.1": {
+    "why": "Green Belt projects need planning, risk management, communication, and closure. Technical tools alone do not deliver results if the work is late, scope drifts, or the handover is weak.",
+    "what": "Project management for improvement covers scope, schedule, resources, stakeholders, risks, communication, quality gates, change control, and closure. A work breakdown structure divides the work into manageable tasks. A Gantt chart shows timing and dependencies. A RAID log tracks risks, assumptions, issues, and dependencies. Tollgate reviews confirm that each DMAIC phase is complete.",
+    "how": [
+      "Define the scope, deliverables, and milestone dates.",
+      "Build a work breakdown structure and estimate effort.",
+      "Sequence tasks and identify the critical path.",
+      "Maintain a RAID log and review it weekly.",
+      "Communicate status to the sponsor and stakeholders.",
+      "Hold gate reviews before moving to the next phase.",
+      "Close the project with a handover, lessons learned, and benefit validation."
+    ],
+    "where": "Use project management on every Green Belt project, especially cross-functional work. Example: a twelve-week discharge project has a work breakdown by DMAIC phase, a Gantt chart, a weekly stand-up, a RAID log, gate reviews with the sponsor, and a handover to the ward manager.",
+    "when_not": "Do not build a heavy project plan for a small fix that takes a day. Do not rely on a Gantt chart without understanding dependencies, and do not ignore risks because the technical work looks simple.",
+    "common_mistakes": [
+      "No work breakdown, so tasks and owners are unclear.",
+      "An optimistic schedule with no contingency.",
+      "No risk log, poor communication, or no formal closure."
+    ],
+    "quick_check": [
+      {
+        "q": "What is a RAID log?",
+        "answer": "A log of risks, assumptions, issues, and dependencies.",
+        "explanation": "RAID keeps project threats and constraints visible."
+      },
+      {
+        "q": "What is the critical path?",
+        "answer": "The longest sequence of dependent tasks that determines the project duration.",
+        "explanation": "Delay on the critical path delays the whole project."
+      },
+      {
+        "q": "Why hold a project closure?",
+        "answer": "To confirm benefits, hand over ownership, and capture lessons learned.",
+        "explanation": "Closure prevents the project from fading without accountability."
+      }
+    ],
+    "recap": [
+      "Plan scope, schedule, risks, communication, and gates.",
+      "Use a work breakdown structure, Gantt chart, and RAID log.",
+      "Close with handover, benefit validation, and lessons learned."
+    ]
+  },
+  "G6.2": {
+    "why": "Green Belts need software to analyze data efficiently and reproducibly. Knowing which tool to use, and checking its assumptions, prevents errors and saves time.",
+    "what": "Excel is useful for descriptive statistics, run charts, histograms, scatter plots, regression, t-tests, and simple ANOVA. Minitab is stronger for Gage R&R, capability analysis, control charts, regression, ANOVA, and design of experiments. Both tools require clean data, the correct method, and interpretation of assumptions and plots.",
+    "how": [
+      "Clean and structure the data before analysis.",
+      "Choose the method that matches the question and data type.",
+      "Run the analysis in Excel or Minitab.",
+      "Check assumptions and diagnostic plots.",
+      "Interpret the output, including effect size and confidence intervals.",
+      "Save the file with a clear version name.",
+      "Document the steps so the analysis can be repeated."
+    ],
+    "where": "Use Excel for quick summaries and simple charts, and Minitab for advanced statistics and DOE. Example: a two-sample t-test can be run in both tools; compare the p-value and confidence interval. A capability study is usually faster in Minitab under Stat > Quality Tools > Capability Analysis > Normal.",
+    "when_not": "Do not use software without understanding the method and its assumptions. Do not trust default settings blindly, and do not use Excel for complex DOE when a validated statistical package is available.",
+    "common_mistakes": [
+      "Analyzing the wrong data type or including hidden rows.",
+      "Using the default alpha without checking the project standard.",
+      "Skipping assumption checks and diagnostic plots."
+    ],
+    "quick_check": [
+      {
+        "q": "Which tool is generally stronger for DOE and capability analysis?",
+        "answer": "Minitab.",
+        "explanation": "Minitab has dedicated menus for DOE, capability, MSA, and control charts."
+      },
+      {
+        "q": "What should you do before running an analysis?",
+        "answer": "Clean the data and confirm the method matches the question and data type.",
+        "explanation": "Good analysis starts with good data and the right method."
+      },
+      {
+        "q": "Why document the analysis steps?",
+        "answer": "So the work can be repeated, reviewed, and defended.",
+        "explanation": "Reproducibility is essential for trust and audit."
+      }
+    ],
+    "recap": [
+      "Excel handles quick summaries and simple tests; Minitab handles advanced statistics and DOE.",
+      "Clean data, choose the right method, and check assumptions.",
+      "Document the analysis so it can be reproduced."
+    ]
+  }
+}

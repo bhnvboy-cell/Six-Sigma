@@ -1,0 +1,1592 @@
+{
+  "B1.1": {
+    "why": "The distribution behind the data determines which capability, control chart, and hypothesis methods are valid. Choosing the wrong distribution can produce confident but wrong conclusions.",
+    "what": "The normal distribution is continuous, symmetric, and defined by mean and standard deviation; it fits many measurement variables. The binomial distribution counts successes in a fixed number of independent trials with a constant probability, such as pass or fail. The Poisson distribution counts events in a fixed time or space, such as defects per unit or arrivals per hour. The exponential distribution models time between Poisson events. The Weibull distribution is flexible for life and reliability data and can represent increasing, constant, or decreasing failure rates.",
+    "how": [
+      "Identify the data type: continuous measurement, binary outcome, count, or time between events.",
+      "Plot a histogram or probability plot.",
+      "Propose a distribution that matches the data-generating process.",
+      "Fit the distribution and check goodness of fit.",
+      "Use the fitted distribution in capability, control, or reliability analysis.",
+      "Validate the choice with process knowledge and new data."
+    ],
+    "where": "Use distribution knowledge in manufacturing reliability, healthcare arrivals, call centers, banking transactions, and IT incidents. Example: calls per hour often follow a Poisson pattern, time between calls follows an exponential pattern, the proportion of abandoned calls is binomial, and equipment life may follow a Weibull pattern.",
+    "when_not": "Do not force a normal distribution onto counts or proportions. Do not use a binomial model when trials are dependent or the probability changes, and do not use Poisson when events cluster or the variance far exceeds the mean.",
+    "common_mistakes": [
+      "Assuming every dataset is normal.",
+      "Ignoring overdispersion in count data.",
+      "Fitting a distribution without checking goodness of fit."
+    ],
+    "quick_check": [
+      {
+        "q": "Which distribution models the number of successes in a fixed number of independent trials?",
+        "answer": "The binomial distribution.",
+        "explanation": "Binomial data have two outcomes and a constant success probability."
+      },
+      {
+        "q": "Which distribution is often used for time-to-failure data with a flexible failure rate?",
+        "answer": "The Weibull distribution.",
+        "explanation": "Weibull shape and scale parameters allow increasing, constant, or decreasing hazard."
+      },
+      {
+        "q": "Which distribution models counts of events in a fixed time or space?",
+        "answer": "The Poisson distribution.",
+        "explanation": "Poisson models rare event counts such as defects per unit or arrivals per hour."
+      }
+    ],
+    "recap": [
+      "Match the distribution to the data-generating process.",
+      "Normal, binomial, Poisson, exponential, and Weibull cover common Lean Six Sigma situations.",
+      "Fit and check the distribution before using it for inference."
+    ]
+  },
+  "B1.2": {
+    "why": "Statistical inference relies on sampling distributions. The Central Limit Theorem explains why sample means behave predictably and why confidence intervals and tests work.",
+    "what": "A sampling distribution is the distribution of a statistic, such as the mean, across repeated samples. The standard error is the standard deviation of that statistic. For a mean, the standard error is sigma divided by the square root of n. The Central Limit Theorem says that for a large sample, the distribution of the sample mean is approximately normal, regardless of the population shape. The mean of the sample means equals the population mean, and the spread shrinks as n grows.",
+    "how": [
+      "Define the population, sample size, and statistic.",
+      "Take repeated samples or simulate it.",
+      "Plot the distribution of the sample means.",
+      "Calculate the standard error.",
+      "Apply the Central Limit Theorem when the sample is large enough.",
+      "Use it for confidence intervals or hypothesis tests."
+    ],
+    "where": "Use sampling distributions for surveys, audits, control charts, and any inference about a mean or proportion. Example: a population has mean 100 and standard deviation 20. With n = 25, the standard error is 4, so the sample mean is approximately normal with mean 100 and standard deviation 4. With n = 100, the standard error falls to 2.",
+    "when_not": "Do not apply the Central Limit Theorem blindly to tiny samples or extremely skewed data. For proportions, check that np and n(1-p) are large enough. For dependent data such as time series, use methods that account for autocorrelation.",
+    "common_mistakes": [
+      "Confusing the standard deviation of the data with the standard error of the mean.",
+      "Believing the theorem makes the raw data normal.",
+      "Using n = 30 as a universal rule for heavily skewed data."
+    ],
+    "quick_check": [
+      {
+        "q": "What is the standard error of the mean?",
+        "answer": "The population standard deviation divided by the square root of n.",
+        "explanation": "It describes the spread of sample means across repeated samples."
+      },
+      {
+        "q": "What does the Central Limit Theorem say?",
+        "answer": "For sufficiently large samples, the sample mean is approximately normally distributed.",
+        "explanation": "This holds even when the population is not normal, subject to sample size and shape."
+      },
+      {
+        "q": "What happens to the standard error as sample size increases?",
+        "answer": "It decreases in proportion to the square root of n.",
+        "explanation": "Larger samples give more precise estimates."
+      }
+    ],
+    "recap": [
+      "Sampling distributions describe how statistics vary across repeated samples.",
+      "The standard error of the mean is sigma divided by the square root of n.",
+      "The Central Limit Theorem supports inference with large samples."
+    ]
+  },
+  "B1.3": {
+    "why": "A point estimate without uncertainty is incomplete. Confidence intervals show the precision of an estimate and the range of plausible values, which supports better decisions.",
+    "what": "A confidence interval is an estimate plus or minus a critical value times a standard error. For a mean with unknown sigma, use x-bar plus or minus t times s divided by the square root of n. For a proportion, use p-hat plus or minus z times the standard error, or a Wilson interval for small samples. For a difference, calculate the difference and its standard error. A 95% interval means that if sampling were repeated, about 95% of such intervals would contain the true parameter.",
+    "how": [
+      "Identify the parameter: mean, proportion, or difference.",
+      "Check the assumptions for the interval.",
+      "Calculate the estimate and standard error.",
+      "Choose the critical value for the confidence level.",
+      "Construct the interval.",
+      "Interpret it in the context of the process and the practical decision.",
+      "Compare the interval with a target or specification when relevant."
+    ],
+    "where": "Use confidence intervals for before-and-after comparisons, supplier comparisons, survey results, and capability studies. Example: mean wait time is 30 minutes, s = 8, and n = 25. With t = 2.064, the interval is 30 plus or minus 3.30, or 26.7 to 33.3 minutes. If a target of 25 is outside the interval, the process is likely above target.",
+    "when_not": "Do not use a simple Wald interval for very small proportions. Do not treat overlapping confidence intervals as a formal hypothesis test, and do not ignore clustering or paired data.",
+    "common_mistakes": [
+      "Saying there is a 95% probability that the parameter lies in this specific interval.",
+      "Using z when t is appropriate for an unknown sigma.",
+      "Confusing a confidence interval with a prediction interval."
+    ],
+    "quick_check": [
+      {
+        "q": "What does a 95% confidence interval mean?",
+        "answer": "About 95% of intervals from repeated samples would contain the true parameter.",
+        "explanation": "The confidence is in the procedure, not in one specific interval."
+      },
+      {
+        "q": "What makes a confidence interval narrower?",
+        "answer": "Lower confidence, less variability, or a larger sample.",
+        "explanation": "Width depends on the critical value, standard error, and sample size."
+      },
+      {
+        "q": "Why report a confidence interval instead of only a p-value?",
+        "answer": "It shows the size and precision of the effect, not just statistical significance.",
+        "explanation": "Intervals support practical interpretation."
+      }
+    ],
+    "recap": [
+      "Confidence intervals quantify uncertainty around an estimate.",
+      "Interpret the procedure, not the probability of a single interval.",
+      "Report the interval and its practical meaning."
+    ]
+  },
+  "B1.4": {
+    "why": "Underpowered studies miss real effects, while overpowered studies waste resources and flag trivial differences as significant. Power and sample size planning prevents both problems.",
+    "what": "Alpha is the Type I error rate, the chance of a false positive. Beta is the Type II error rate, the chance of missing a real effect. Power is one minus beta, the chance of detecting an effect that exists. Power depends on alpha, effect size, variability, sample size, and the test. Larger effects and larger samples increase power. Minimum detectable effect is the smallest difference the study is designed to find.",
+    "how": [
+      "Define the test and the effect you need to detect.",
+      "Estimate variability from pilot data or process knowledge.",
+      "Set alpha, often 0.05, and target power, often 0.80 or 0.90.",
+      "Choose the minimum detectable effect that matters practically.",
+      "Calculate the required sample size in Minitab or G*Power.",
+      "Adjust for dropout, nonresponse, or subgroup analysis.",
+      "Recheck power after the design is final."
+    ],
+    "where": "Use power analysis for DOE, pilots, surveys, A/B tests, and before-and-after studies. Example: detect a five-minute difference with standard deviation 10, alpha 0.05, and power 0.80. A two-sample calculation gives about 63 observations per group using the normal approximation.",
+    "when_not": "Do not use an arbitrary sample size such as 30. Do not ignore the practical effect size, and do not rely on post-hoc power after the study to explain a non-significant result.",
+    "common_mistakes": [
+      "No power analysis before data collection.",
+      "Using an unrealistically small effect size.",
+      "Ignoring multiple comparisons or dropout."
+    ],
+    "quick_check": [
+      {
+        "q": "What is power?",
+        "answer": "The probability of detecting a true effect, equal to one minus beta.",
+        "explanation": "Higher power means a lower chance of a false negative."
+      },
+      {
+        "q": "What happens to power when sample size increases?",
+        "answer": "Power increases.",
+        "explanation": "Larger samples reduce standard error and make real effects easier to detect."
+      },
+      {
+        "q": "What is beta?",
+        "answer": "The Type II error rate, the chance of failing to detect a real effect.",
+        "explanation": "Power is one minus beta."
+      }
+    ],
+    "recap": [
+      "Power is the chance of detecting a true effect.",
+      "Plan alpha, beta, effect size, variability, and sample size together.",
+      "Use software and practical effect sizes, not arbitrary sample rules."
+    ]
+  },
+  "B1.5": {
+    "why": "The wrong test invalidates the conclusion. Black Belts must choose the test from the data type, number of groups, and assumptions, then explain the choice to the team.",
+    "what": "For continuous data, use a one-sample t-test against a target, a two-sample t-test for two independent groups, a paired t-test for before-and-after on the same units, and ANOVA for three or more groups. For categorical data, use chi-square for independence or goodness of fit, a two-proportion test for two groups, or McNemar for paired binary data. When normality or equal variance fails, use Mann-Whitney, Kruskal-Wallis, or a sign test. Use Pearson or Spearman correlation for association.",
+    "how": [
+      "State the practical question.",
+      "Identify the response type: continuous, binary, count, or ordinal.",
+      "Count the groups and determine whether the data are paired.",
+      "Check independence, normality, and equal variance.",
+      "Select the matching test or a robust alternative.",
+      "Run the test and interpret the p-value, confidence interval, and effect size.",
+      "Confirm the conclusion with plots and process knowledge."
+    ],
+    "where": "Use test selection throughout Analyze. Example: compare satisfaction on a 1-5 scale across three clinics with Kruskal-Wallis. Compare defect rates before and after on the same production lines with a paired test, or McNemar if the outcome is binary. Compare mean strength from two suppliers with a two-sample t-test.",
+    "when_not": "Do not use a t-test for three or more groups. Do not use chi-square with very small expected counts without an exact test. Do not ignore a paired design or dependence in the data.",
+    "common_mistakes": [
+      "Choosing a familiar test instead of the one that fits the design.",
+      "Ignoring assumptions and failing to use a robust alternative.",
+      "Running many tests without adjusting for multiple comparisons."
+    ],
+    "quick_check": [
+      {
+        "q": "Which test compares means across three or more independent groups?",
+        "answer": "One-way ANOVA.",
+        "explanation": "ANOVA tests whether at least one group mean differs."
+      },
+      {
+        "q": "Which test compares before-and-after measurements on the same units?",
+        "answer": "A paired t-test.",
+        "explanation": "The paired design accounts for correlation within each unit."
+      },
+      {
+        "q": "Which test checks independence between two categorical variables?",
+        "answer": "A chi-square test of independence.",
+        "explanation": "Chi-square compares observed and expected frequencies in a contingency table."
+      }
+    ],
+    "recap": [
+      "Choose the test from the question, response type, groups, and pairing.",
+      "Check assumptions and use robust alternatives when needed.",
+      "Interpret effect size and practical meaning, not just the p-value."
+    ]
+  },
+  "B1.6": {
+    "why": "t-tests are the workhorses for comparing continuous means, but they are easy to misuse. The design, pairing, and assumptions must match the question.",
+    "what": "A one-sample t-test compares a mean with a target. A two-sample t-test compares means from two independent groups. A paired t-test compares two measurements on the same unit and removes unit-to-unit variation. The test statistic is the difference divided by its standard error, and the result is a t value, p-value, and confidence interval. Use Welch's version when variances differ. Report an effect size such as Cohen's d, not only significance.",
+    "how": [
+      "State the comparison and whether the groups are independent or paired.",
+      "Plot the data and check for outliers.",
+      "Check approximate normality and, for independent groups, equal variance.",
+      "Select the one-sample, two-sample, Welch, or paired test.",
+      "Run the test and review the confidence interval and effect size.",
+      "Interpret the result in process and practical terms."
+    ],
+    "where": "Use t-tests for supplier comparisons, before-and-after training, process versus target, and paired measurements. Example: measure the same 12 production lines before and after a change and use a paired t-test. Compare two independent suppliers with a two-sample or Welch test. Compare one line's mean against a target with a one-sample test.",
+    "when_not": "Do not use a t-test for three or more groups; use ANOVA. Do not use it for ordinal outcomes, heavily dependent data, or severe outliers without a robust alternative. Do not treat paired observations as independent.",
+    "common_mistakes": [
+      "Ignoring pairing and using an independent-groups test.",
+      "Running several t-tests instead of ANOVA for multiple groups.",
+      "Reporting a p-value without the size of the difference."
+    ],
+    "quick_check": [
+      {
+        "q": "Which t-test compares the same units before and after a change?",
+        "answer": "The paired t-test.",
+        "explanation": "Pairing accounts for correlation between measurements on the same unit."
+      },
+      {
+        "q": "When should you use Welch's t-test?",
+        "answer": "When two independent groups have unequal variances.",
+        "explanation": "Welch's test does not assume equal population variances."
+      },
+      {
+        "q": "Why report an effect size with a t-test?",
+        "answer": "It shows whether the difference is practically meaningful.",
+        "explanation": "A small p-value can accompany a trivial difference in large samples."
+      }
+    ],
+    "recap": [
+      "Match the t-test to the design: one sample, independent groups, or paired.",
+      "Check assumptions and use Welch's test when variances differ.",
+      "Report the confidence interval and effect size, not only the p-value."
+    ]
+  },
+  "B1.7": {
+    "why": "ANOVA compares three or more group means while controlling the false-positive rate. It also shows whether factors interact, which separate t-tests would miss.",
+    "what": "One-way ANOVA tests whether at least one group mean differs by comparing between-group variation with within-group variation using an F statistic. Two-way ANOVA tests two factors and their interaction. A significant result means at least one mean differs, so follow-up tests such as Tukey identify which groups differ. ANOVA assumes independent observations, approximately normal residuals, and equal variances. Report effect size, such as eta-squared, and inspect residual plots.",
+    "how": [
+      "State the factors, groups, and null hypotheses.",
+      "Check the design, independence, and group sample sizes.",
+      "Plot the groups and inspect variability.",
+      "Fit the one-way or two-way model.",
+      "Review the F test, p-value, and interaction.",
+      "Run post-hoc comparisons if the factor is significant.",
+      "Check residual plots and report effect size."
+    ],
+    "where": "Use ANOVA to compare suppliers, machines, shifts, clinics, or regions. Example: compare mean cycle time across three suppliers. If the overall test is significant, Tukey comparisons show which suppliers differ. In a two-way study, test whether temperature and pressure affect yield and whether their interaction matters.",
+    "when_not": "Do not use ordinary ANOVA with severe non-normality or unequal variances; use Welch ANOVA or Kruskal-Wallis. Do not use it for repeated measures on the same units without a repeated-measures model. Complex unbalanced designs may need regression or a general linear model.",
+    "common_mistakes": [
+      "Running multiple t-tests instead of one ANOVA.",
+      "Ignoring a significant interaction.",
+      "Stopping at the p-value without post-hoc or effect-size analysis."
+    ],
+    "quick_check": [
+      {
+        "q": "What does a significant one-way ANOVA tell you?",
+        "answer": "At least one group mean differs, but not which one.",
+        "explanation": "Post-hoc comparisons identify the specific differences."
+      },
+      {
+        "q": "What is an interaction in two-way ANOVA?",
+        "answer": "The effect of one factor depends on the level of the other factor.",
+        "explanation": "An interaction means the factors do not act independently."
+      },
+      {
+        "q": "Which follow-up method controls error when comparing several group means?",
+        "answer": "Tukey's honestly significant difference test.",
+        "explanation": "Tukey adjusts for multiple pairwise comparisons."
+      }
+    ],
+    "recap": [
+      "ANOVA compares means across three or more groups or multiple factors.",
+      "A significant result requires follow-up to identify differing groups.",
+      "Check residuals and interpret interactions and effect sizes."
+    ]
+  },
+  "B1.8": {
+    "why": "Parametric tests can fail with ordinal data, small samples, or severe outliers. Non-parametric tests provide valid comparisons when their assumptions are more appropriate.",
+    "what": "Non-parametric tests use ranks rather than raw means. Mann-Whitney compares two independent groups, Wilcoxon signed-rank compares paired data, Kruskal-Wallis compares three or more independent groups, and the sign test compares paired outcomes by direction. These tests are robust to outliers and non-normality, but they usually compare distributions or medians rather than means. They lose some power when normal-theory assumptions are actually valid.",
+    "how": [
+      "Identify why the parametric assumption fails.",
+      "Determine whether the design is independent or paired and how many groups exist.",
+      "Choose the matching rank-based test.",
+      "State the hypothesis in terms of medians or distributions.",
+      "Run the test and review the p-value and effect size.",
+      "Plot the data and interpret the result in context."
+    ],
+    "where": "Use non-parametric tests for satisfaction scores, skewed wait times, small pilots, ordinal survey data, and subjective ratings. Example: compare patient satisfaction on a 1-5 scale across three clinics with Kruskal-Wallis. Compare skewed repair times from two depots with Mann-Whitney.",
+    "when_not": "Do not use non-parametric tests automatically for every dataset. Some tests still assume similar distribution shapes when interpreting a location shift. Complex designs, covariates, and repeated measures may require a generalized model.",
+    "common_mistakes": [
+      "Treating a non-parametric result as a comparison of means.",
+      "Ignoring distribution shape when interpreting the result.",
+      "Assuming a rank test rescues an inadequate sample size."
+    ],
+    "quick_check": [
+      {
+        "q": "Which test compares two independent groups without a normality assumption?",
+        "answer": "The Mann-Whitney test.",
+        "explanation": "It compares ranks rather than raw means."
+      },
+      {
+        "q": "Which test compares three or more independent groups non-parametrically?",
+        "answer": "The Kruskal-Wallis test.",
+        "explanation": "It is the rank-based alternative to one-way ANOVA."
+      },
+      {
+        "q": "Which test is suitable for paired ordinal data?",
+        "answer": "The Wilcoxon signed-rank test.",
+        "explanation": "It uses the ranks of paired differences."
+      }
+    ],
+    "recap": [
+      "Use rank-based tests when parametric assumptions are not credible.",
+      "Match the test to independent versus paired and the number of groups.",
+      "Interpret medians or distributions, not means."
+    ]
+  },
+  "B1.9": {
+    "why": "Many improvement questions involve categories, such as defect type, pass or fail, or customer segment. Chi-square tests show whether category frequencies differ from expectation or are associated.",
+    "what": "A chi-square goodness-of-fit test compares observed counts with expected counts from a hypothesized distribution. A chi-square test of independence checks whether two categorical variables are associated in a contingency table. The statistic sums squared observed-minus-expected differences divided by expected counts. Use Fisher's exact test for small 2x2 tables. Cramer's V summarizes association strength. McNemar's test is the correct choice for paired binary data.",
+    "how": [
+      "Define the categories and build a frequency table.",
+      "State the hypotheses.",
+      "Check expected counts, usually at least five per cell.",
+      "Run the chi-square test or an exact alternative.",
+      "Inspect standardized residuals to locate unusual cells.",
+      "Report the p-value, effect size, and practical pattern."
+    ],
+    "where": "Use chi-square tests for defect types by shift, pass or fail by supplier, survey responses by region, and adherence by department. Example: test whether defect category is associated with production line. If the result is significant, residuals show which line and defect category drive the association.",
+    "when_not": "Do not use chi-square independence for paired data; use McNemar. Do not rely on it when expected counts are very small without an exact test. Avoid treating ordinal categories as unordered if an ordinal method is available.",
+    "common_mistakes": [
+      "Using a chi-square test on paired before-and-after data.",
+      "Ignoring small expected counts.",
+      "Claiming causation from an association."
+    ],
+    "quick_check": [
+      {
+        "q": "Which chi-square test checks whether two categorical variables are associated?",
+        "answer": "The test of independence.",
+        "explanation": "It compares observed and expected counts in a contingency table."
+      },
+      {
+        "q": "Which test is appropriate for paired binary outcomes?",
+        "answer": "McNemar's test.",
+        "explanation": "McNemar accounts for the pairing of before-and-after responses."
+      },
+      {
+        "q": "What should you check before trusting a chi-square test?",
+        "answer": "That expected counts are large enough, or use an exact test.",
+        "explanation": "Small expected counts make the chi-square approximation unreliable."
+      }
+    ],
+    "recap": [
+      "Chi-square tests compare categorical frequencies or test association.",
+      "Check expected counts and use exact tests when needed.",
+      "Use residuals and effect sizes to explain the pattern."
+    ]
+  },
+  "B2.1": {
+    "why": "Attribute inspection depends on human or gauge decisions. If appraisers disagree with themselves, each other, or the standard, defect data are unreliable and improvement conclusions may be wrong.",
+    "what": "Attribute agreement analysis measures repeatability within appraisers, reproducibility between appraisers, and accuracy against a known standard. Kappa adjusts agreement for chance. Values above about 0.90 are excellent, 0.70 to 0.90 are acceptable for lower-risk decisions, and lower values signal a problem. Percent agreement alone can look good even when chance agreement is high. For ordinal ratings, use a weighted kappa or Kendall's coefficient.",
+    "how": [
+      "Define the characteristic and decision rule.",
+      "Select 30 to 50 parts that span the full range, including borderline cases.",
+      "Use two or three appraisers and two or three trials.",
+      "Randomize and blind the samples and trials.",
+      "Include a known standard or expert rating.",
+      "Analyze within-appraiser, between-appraiser, and versus-standard agreement.",
+      "Retrain, clarify definitions, or improve the gauge, then repeat the study."
+    ],
+    "where": "Use attribute MSA for visual inspection, go/no-go gauges, defect classification, document review, and clinical diagnosis. Example: three inspectors assess 30 parts twice. Within-appraiser kappa is 0.95, but between-appraiser kappa is 0.55, pointing to inconsistent definitions rather than poor individual repeatability.",
+    "when_not": "Do not use attribute agreement analysis for continuous measurements; use a gage R&R study. Do not trust results from unrepresentative parts or a missing standard. Kappa can be affected by prevalence, so interpret it with the study design.",
+    "common_mistakes": [
+      "Using too few or unrepresentative samples.",
+      "Reporting percent agreement without kappa.",
+      "Failing to blind appraisers or randomize trials."
+    ],
+    "quick_check": [
+      {
+        "q": "What does within-appraiser agreement measure?",
+        "answer": "Repeatability, or whether an appraiser agrees with themselves across trials.",
+        "explanation": "The same person assesses the same parts more than once."
+      },
+      {
+        "q": "Why use kappa instead of percent agreement?",
+        "answer": "Kappa adjusts for agreement expected by chance.",
+        "explanation": "Percent agreement can overstate consistency."
+      },
+      {
+        "q": "What does between-appraiser disagreement suggest?",
+        "answer": "Inconsistent definitions, training, or measurement methods.",
+        "explanation": "Reproducibility problems usually require standardization."
+      }
+    ],
+    "recap": [
+      "Attribute MSA validates repeatability, reproducibility, and accuracy.",
+      "Use representative parts, blinding, randomization, and a standard.",
+      "Interpret kappa and investigate the source of disagreement."
+    ]
+  },
+  "B2.2": {
+    "why": "A calibration sticker does not make a measurement exact. Every measurement has uncertainty, and decisions near a specification limit can be wrong unless that uncertainty is understood.",
+    "what": "Calibration compares an instrument with a traceable standard and establishes bias and correction. Measurement uncertainty is the range likely to contain the true value. Sources include resolution, repeatability, reproducibility, bias, linearity, stability, environment, and the reference standard. Linearity describes how error changes across the range. A measurement uncertainty budget combines standard uncertainties in quadrature, and expanded uncertainty multiplies by a coverage factor, often two for about 95% confidence.",
+    "how": [
+      "Define the measurement and the tolerance or decision rule.",
+      "List every meaningful uncertainty source.",
+      "Quantify each source with data or specifications.",
+      "Combine standard uncertainties and calculate expanded uncertainty.",
+      "Compare uncertainty with the tolerance and set a guardband if needed.",
+      "Calibrate on a risk-based schedule and monitor drift.",
+      "Document traceability and recheck after repair or environmental change."
+    ],
+    "where": "Use uncertainty analysis for calipers, scales, thermometers, pressure gauges, laboratory assays, and clinical devices. Example: a part tolerance is plus or minus 0.10 mm and measurement uncertainty is plus or minus 0.02 mm. Accept only parts within plus or minus 0.08 mm, or formally account for the risk of false acceptance.",
+    "when_not": "Do not confuse calibration with a gage R&R study. Calibration addresses traceability and average bias, while gage R&R addresses variation. Do not treat a calibrated instrument as exact, and do not ignore uncertainty in pass or fail decisions.",
+    "common_mistakes": [
+      "Equating calibration with perfect accuracy.",
+      "Ignoring linearity, drift, and environmental effects.",
+      "Making conformity decisions without a guardband."
+    ],
+    "quick_check": [
+      {
+        "q": "What does calibration establish?",
+        "answer": "Traceability to a standard and the instrument's bias or correction.",
+        "explanation": "Calibration links the instrument reading to a known reference."
+      },
+      {
+        "q": "How is expanded uncertainty calculated?",
+        "answer": "Multiply combined standard uncertainty by a coverage factor, often two.",
+        "explanation": "A factor of two gives roughly 95% coverage for a normal distribution."
+      },
+      {
+        "q": "Why use a guardband near specification limits?",
+        "answer": "To reduce the risk of accepting an out-of-specification part because of measurement error.",
+        "explanation": "The guardband keeps uncertain measurements away from the limit."
+      }
+    ],
+    "recap": [
+      "Calibration establishes traceability and bias, not zero uncertainty.",
+      "Build an uncertainty budget and calculate expanded uncertainty.",
+      "Use guardbands when measurement uncertainty is material to the decision."
+    ]
+  },
+  "B3.1": {
+    "why": "Processes usually have several drivers. Multiple regression estimates the independent effect of each predictor while controlling for the others and supports prediction.",
+    "what": "The model expresses a continuous response as an intercept plus a coefficient for each predictor plus error. A coefficient is the expected change in the response for a one-unit increase in that predictor, holding the others constant. The overall F test asks whether the model explains variation beyond chance, while individual t-tests assess coefficients. Adjusted R-squared penalizes unnecessary predictors. Check linearity, independence, normal residuals, equal variance, and multicollinearity.",
+    "how": [
+      "Define the response and candidate predictors from process knowledge.",
+      "Plot relationships and screen for anomalies.",
+      "Fit the model and review the overall test and coefficients.",
+      "Check residual diagnostics and multicollinearity.",
+      "Refine the model without overfitting.",
+      "Validate with new or holdout data.",
+      "Interpret coefficients and intervals in practical units."
+    ],
+    "where": "Use multiple regression for cycle time versus staffing and demand, yield versus temperature and pressure, cost versus volume and product mix, or wait time versus staffing and arrivals. Example: a coefficient of negative 0.8 minutes per additional staff member means average wait falls by 0.8 minutes when demand is held constant.",
+    "when_not": "Do not infer causation from observational data. Do not extrapolate beyond the observed range. Do not force a linear model when curvature or interactions are important, and do not include many correlated predictors without checking the model.",
+    "common_mistakes": [
+      "Treating a high R-squared as proof of causation.",
+      "Ignoring residual diagnostics and validation.",
+      "Removing predictors based only on p-values."
+    ],
+    "quick_check": [
+      {
+        "q": "How is a regression coefficient interpreted?",
+        "answer": "The change in the response per one-unit change in that predictor, holding others constant.",
+        "explanation": "The coefficient is an adjusted effect."
+      },
+      {
+        "q": "Why use adjusted R-squared?",
+        "answer": "It penalizes predictors that do not improve the model enough.",
+        "explanation": "Ordinary R-squared always rises when predictors are added."
+      },
+      {
+        "q": "What does the overall F test tell you?",
+        "answer": "Whether the model as a whole explains a significant amount of variation.",
+        "explanation": "It does not show which individual predictors matter."
+      }
+    ],
+    "recap": [
+      "Multiple regression estimates adjusted effects and supports prediction.",
+      "Check assumptions, diagnostics, and validation.",
+      "Interpret coefficients in context, not as automatic causal effects."
+    ]
+  },
+  "B3.2": {
+    "why": "Binary outcomes such as pass or fail, defect or no defect, and churn or stay cannot be modeled well with ordinary linear regression. Logistic regression models the probability of the event.",
+    "what": "Logistic regression models the log-odds of an event as a linear function of predictors. A coefficient converts to an odds ratio by exponentiation. An odds ratio above one means higher odds of the event for a one-unit increase in the predictor, holding others constant; below one means lower odds. Predicted probabilities stay between zero and one. Assess model fit with deviance, AIC, calibration, and discrimination such as the ROC area.",
+    "how": [
+      "Define the event and code it as one versus zero.",
+      "Select predictors using process knowledge.",
+      "Fit the model and review the overall test and coefficients.",
+      "Convert coefficients to odds ratios with confidence intervals.",
+      "Assess discrimination, calibration, and influential points.",
+      "Validate with holdout data and choose a decision threshold based on costs.",
+      "Communicate odds ratios carefully."
+    ],
+    "where": "Use logistic regression for defect probability by supplier or shift, pass or fail by training method, patient readmission, loan default, employee turnover, and customer churn. Example: an odds ratio of 1.8 per 10 degrees means 80% higher odds, not an 80% higher probability.",
+    "when_not": "Do not use linear regression for a binary response. Do not present an odds ratio as a risk ratio when the event is common. Rare events or small samples may need penalized or exact methods, and perfect separation signals a design problem.",
+    "common_mistakes": [
+      "Interpreting an odds ratio as a probability or risk.",
+      "Ignoring calibration and using only the ROC area.",
+      "Using a default 0.5 cutoff without considering decision costs."
+    ],
+    "quick_check": [
+      {
+        "q": "What does an odds ratio greater than one mean?",
+        "answer": "Higher odds of the event as the predictor increases.",
+        "explanation": "The exponentiated coefficient compares odds for a one-unit change."
+      },
+      {
+        "q": "What does logistic regression predict?",
+        "answer": "The probability of the binary event.",
+        "explanation": "The log-odds model is transformed into a probability between zero and one."
+      },
+      {
+        "q": "Why assess calibration as well as discrimination?",
+        "answer": "A model can rank cases well but still give inaccurate probabilities.",
+        "explanation": "Calibration checks whether predicted probabilities match observed rates."
+      }
+    ],
+    "recap": [
+      "Logistic regression models binary outcomes through log-odds.",
+      "Odds ratios describe relative odds, not probabilities.",
+      "Check calibration, discrimination, validation, and decision costs."
+    ]
+  },
+  "B3.3": {
+    "why": "A regression can have a high R-squared and still violate assumptions. Diagnostics show whether the model is trustworthy and where it fails.",
+    "what": "Residuals are observed minus fitted values. A residuals-versus-fitted plot checks linearity and equal variance. A normal probability plot checks residual normality. Residuals versus order check independence, especially for time-ordered data. Leverage measures how unusual a predictor value is, while Cook's distance measures influence on the fitted model. A lack-of-fit test uses replicate observations to detect an inadequate model form.",
+    "how": [
+      "Fit the model and examine summary statistics.",
+      "Plot residuals versus fitted values and versus order.",
+      "Check the normal probability plot.",
+      "Identify high-leverage and high-influence points.",
+      "Investigate patterns and confirm data quality before changing anything.",
+      "Add terms, transform variables, or use robust methods as appropriate.",
+      "Refit and validate the revised model."
+    ],
+    "where": "Use diagnostics for every regression, DOE analysis, and predictive model. Example: a funnel-shaped residual plot indicates unequal variance. A curved pattern suggests a missing quadratic term. One point with a large Cook's distance should be checked for a data error or a special cause.",
+    "when_not": "Do not delete outliers automatically just to improve fit. Do not rely on diagnostics alone with very small samples. Time-series data need explicit autocorrelation checks and methods.",
+    "common_mistakes": [
+      "Judging a model only by R-squared.",
+      "Ignoring residual patterns.",
+      "Confusing leverage with influence."
+    ],
+    "quick_check": [
+      {
+        "q": "What does a curved pattern in residuals versus fitted values suggest?",
+        "answer": "The model is missing curvature or a nonlinear term.",
+        "explanation": "Systematic residual patterns indicate lack of fit."
+      },
+      {
+        "q": "What does Cook's distance measure?",
+        "answer": "The influence of an observation on the fitted model.",
+        "explanation": "It combines leverage and residual size."
+      },
+      {
+        "q": "Why plot residuals against observation order?",
+        "answer": "To check for dependence or drift over time.",
+        "explanation": "Patterns by order suggest autocorrelation."
+      }
+    ],
+    "recap": [
+      "Diagnostics test the assumptions behind regression.",
+      "Investigate influential points before changing the model.",
+      "Use residual patterns to guide better model form."
+    ]
+  },
+  "B3.4": {
+    "why": "Correlated predictors make coefficients unstable and hard to interpret. Careful model building produces a simpler model that is more likely to generalize.",
+    "what": "Multicollinearity occurs when predictors are highly correlated. Variance inflation factors above five are concerning and above ten are severe. Symptoms include large standard errors, unstable coefficients, and unexpected signs. Remedies include removing or combining predictors, using process knowledge, centering interaction terms, ridge regression, or principal components. Model building balances explanation, prediction, parsimony, and validation.",
+    "how": [
+      "Clarify whether the goal is explanation or prediction.",
+      "Screen predictors with plots and correlation checks.",
+      "Fit a candidate model and calculate VIFs.",
+      "Remove, combine, or transform correlated predictors with a rationale.",
+      "Compare models using adjusted or predicted R-squared, AIC, and validation.",
+      "Respect hierarchy when interactions are present.",
+      "Document the final model and its limitations."
+    ],
+    "where": "Use these methods with many process variables, survey data, financial indicators, and sensor data. Example: furnace zone temperatures are highly correlated. Keep one representative variable or create a composite rather than interpreting two unstable coefficients.",
+    "when_not": "Do not use stepwise selection as a substitute for process thinking. Do not drop a variable only because its VIF is high. If the goal is pure prediction and the model is stable on new data, multicollinearity may be tolerable.",
+    "common_mistakes": [
+      "Interpreting unstable coefficients as real effects.",
+      "Overfitting a complex model to training data.",
+      "Data dredging without validation."
+    ],
+    "quick_check": [
+      {
+        "q": "What VIF value often signals serious multicollinearity?",
+        "answer": "Above about ten.",
+        "explanation": "Values above five are concerning and above ten are severe."
+      },
+      {
+        "q": "What happens to coefficient standard errors under multicollinearity?",
+        "answer": "They increase, making estimates unstable.",
+        "explanation": "Correlated predictors make separate effects hard to estimate."
+      },
+      {
+        "q": "Why validate a built model on new data?",
+        "answer": "To check that it generalizes rather than overfits.",
+        "explanation": "Training fit alone can reward unnecessary complexity."
+      }
+    ],
+    "recap": [
+      "Multicollinearity inflates uncertainty and destabilizes coefficients.",
+      "Use VIFs, process knowledge, and parsimony to build models.",
+      "Validate the final model before trusting its predictions."
+    ]
+  },
+  "B4.1": {
+    "why": "Changing one factor at a time misses interactions and wastes runs. A full factorial experiment reveals main effects and interactions in a structured, efficient way.",
+    "what": "A full factorial design tests every combination of factor levels. With k factors at two levels, it requires two to the k runs. Main effects measure the average change in response when a factor moves from low to high. Interactions occur when the effect of one factor depends on the level of another. Center points detect curvature, and replication provides an independent estimate of error. Randomization protects against order effects.",
+    "how": [
+      "Define the objective, response, factors, levels, and practical constraints.",
+      "Choose the factorial design and number of replicates.",
+      "Add center points if curvature is possible.",
+      "Randomize the run order and record every condition.",
+      "Run the experiment and verify response measurement quality.",
+      "Analyze with ANOVA, effect plots, and interaction plots.",
+      "Run confirmation trials at the selected settings."
+    ],
+    "where": "Use full factorial DOE for yield versus temperature and time, software performance versus configuration settings, waiting time versus staffing and scheduling rules, and formulation studies. Example: three factors at two levels require eight runs, plus center points to check for curvature.",
+    "when_not": "Do not use a full factorial when there are too many factors for the budget; screen first. Do not use it for a nonlinear optimum without adding response-surface points. Hard-to-change factors may require a split-plot design.",
+    "common_mistakes": [
+      "Changing one factor at a time and missing interactions.",
+      "Failing to randomize or replicate.",
+      "Choosing factor ranges too narrow to reveal effects."
+    ],
+    "quick_check": [
+      {
+        "q": "How many runs does a two-level full factorial with four factors require before replication?",
+        "answer": "Sixteen runs.",
+        "explanation": "Two to the fourth power equals sixteen."
+      },
+      {
+        "q": "What do center points detect?",
+        "answer": "Curvature in the response surface.",
+        "explanation": "A difference between the center mean and the factorial mean suggests curvature."
+      },
+      {
+        "q": "Why randomize run order?",
+        "answer": "To protect against time trends and unmeasured nuisance effects.",
+        "explanation": "Randomization prevents order from being confounded with factors."
+      }
+    ],
+    "recap": [
+      "Full factorials estimate main effects and interactions efficiently.",
+      "Use replication, center points, and randomization.",
+      "Confirm the selected settings with a follow-up run."
+    ]
+  },
+  "B4.2": {
+    "why": "Full factorials grow exponentially, so screening many factors requires a deliberate fraction. Fractional factorials identify the vital few factors before optimization.",
+    "what": "A fractional factorial uses a selected fraction of the full design. Resolution III designs alias main effects with two-factor interactions. Resolution IV designs clear main effects but alias two-factor interactions with each other. Resolution V designs clear main effects and two-factor interactions. Aliasing means effects cannot be separated without additional runs. A foldover can de-alias key effects, and Plackett-Burman designs are useful for rough screening.",
+    "how": [
+      "List the factors and plausible interactions.",
+      "Choose a resolution based on the risk of aliasing.",
+      "Create the fractional design and inspect the alias structure.",
+      "Randomize and run the experiment.",
+      "Analyze effects and identify the vital few.",
+      "Use follow-up runs or a foldover to resolve ambiguity.",
+      "Move promising factors into a higher-resolution or optimization design."
+    ],
+    "where": "Use fractional factorials to screen six to twelve factors in process development, simulation studies, and early manufacturing trials. Example: screen eight factors in 16 runs at resolution IV, then study the important factors with a full factorial or response surface.",
+    "when_not": "Do not use resolution III when interactions are likely and important. Do not interpret aliased effects as if they were independent. Screening designs are not optimization designs.",
+    "common_mistakes": [
+      "Ignoring the alias structure.",
+      "Choosing too low a resolution for the risk.",
+      "Stopping after screening without confirmation."
+    ],
+    "quick_check": [
+      {
+        "q": "What does resolution IV mean?",
+        "answer": "Main effects are clear, but two-factor interactions are aliased with each other.",
+        "explanation": "Resolution IV protects main effects but not all interactions."
+      },
+      {
+        "q": "What is aliasing?",
+        "answer": "Two or more effects that cannot be estimated separately in a design.",
+        "explanation": "The design's fraction creates confounding among effects."
+      },
+      {
+        "q": "Why use a foldover?",
+        "answer": "To de-alias important effects by adding complementary runs.",
+        "explanation": "A foldover separates effects that were confounded."
+      }
+    ],
+    "recap": [
+      "Fractional factorials screen many factors with fewer runs.",
+      "Resolution and alias structure determine what can be interpreted.",
+      "Follow screening with confirmation or optimization."
+    ]
+  },
+  "B4.3": {
+    "why": "Nuisance variables such as shift, batch, day, or operator can look like treatment effects. Randomization and blocking protect the experiment from these hidden influences.",
+    "what": "Randomization assigns run order by chance so unmeasured trends do not align with factors. Blocking groups experimental units that are similar, such as runs from one day or one batch. A randomized complete block design runs every treatment once per block. The analysis includes a block term, removing block-to-block variation from the error. When factors are hard to change, a split-plot design may be necessary even though it restricts randomization.",
+    "how": [
+      "Identify known nuisance variables and practical constraints.",
+      "Decide whether to block or use a split-plot structure.",
+      "Randomize treatment order within each block.",
+      "Run the experiment and record block membership.",
+      "Include blocks in the statistical model.",
+      "Check residuals and confirm that blocks behaved as expected.",
+      "Interpret treatment effects after accounting for blocks."
+    ],
+    "where": "Use blocking for multiple shifts, machines, batches, trays, operators, days, or locations. Example: run eight treatments across two days. Block by day, randomize the eight treatments within each day, and include day in the model.",
+    "when_not": "Do not block on a variable that is confounded with a factor. Do not create so many blocks that error degrees of freedom become too small. Do not analyze a restricted design as if it were completely randomized.",
+    "common_mistakes": [
+      "Skipping randomization because the run order seems convenient.",
+      "Ignoring known blocks in the analysis.",
+      "Confounding a block variable with a treatment factor."
+    ],
+    "quick_check": [
+      {
+        "q": "What is the purpose of randomization?",
+        "answer": "To prevent unmeasured trends from being confounded with treatments.",
+        "explanation": "Random order spreads nuisance effects across treatments."
+      },
+      {
+        "q": "What is a randomized complete block design?",
+        "answer": "A design in which every treatment appears once in each block.",
+        "explanation": "Blocks are homogeneous groups, and treatments are randomized within them."
+      },
+      {
+        "q": "Why include a block term in the model?",
+        "answer": "To remove block-to-block variation from the error estimate.",
+        "explanation": "This improves precision for treatment comparisons."
+      }
+    ],
+    "recap": [
+      "Randomize to protect against unknown order effects.",
+      "Block on known nuisance variables to improve precision.",
+      "Analyze the design you actually ran."
+    ]
+  },
+  "B4.4": {
+    "why": "Screening finds important factors, but the best settings often lie on a curved response surface. Response surface methods model curvature and locate an optimum.",
+    "what": "Response surface methodology fits a second-order model with linear, interaction, and squared terms. Central composite designs combine factorial or fractional points with axial points and center points. Box-Behnken designs use three levels and avoid extreme corner combinations. Contour and surface plots show the shape of the response. Optimization finds settings that meet a target or maximize or minimize the response while respecting constraints.",
+    "how": [
+      "Confirm the important factors from screening.",
+      "Define the response, constraints, and acceptable region.",
+      "Choose a central composite or Box-Behnken design.",
+      "Randomize and run the experiment.",
+      "Fit the quadratic model and check lack of fit.",
+      "Use contour plots and an optimizer to select settings.",
+      "Run confirmation trials and verify robustness."
+    ],
+    "where": "Use response surface methods for yield versus temperature and time, formulation optimization, cycle time versus settings, and performance tuning. Example: after screening temperature, pressure, and catalyst, use a central composite design to find the combination that maximizes yield.",
+    "when_not": "Do not use response surface methods before screening many factors. Do not extrapolate outside the experimental region. Do not optimize a mean without considering variation and constraints.",
+    "common_mistakes": [
+      "Fitting a quadratic model without enough design points.",
+      "Extrapolating beyond the studied region.",
+      "Skipping confirmation runs."
+    ],
+    "quick_check": [
+      {
+        "q": "What terms distinguish a response surface model from a first-order model?",
+        "answer": "Squared terms and interactions that capture curvature.",
+        "explanation": "Second-order terms allow an optimum inside the design space."
+      },
+      {
+        "q": "What is a central composite design?",
+        "answer": "A factorial or fractional design augmented with axial and center points.",
+        "explanation": "The added points support estimation of quadratic terms."
+      },
+      {
+        "q": "Why run confirmation trials?",
+        "answer": "To verify that predicted optimum settings perform as expected.",
+        "explanation": "Models are approximations and must be checked in practice."
+      }
+    ],
+    "recap": [
+      "Response surface methods model curvature and optimize settings.",
+      "Use central composite or Box-Behnken designs with enough points.",
+      "Confirm predicted settings and stay inside the studied region."
+    ]
+  },
+  "B4.5": {
+    "why": "A process that performs well only under ideal conditions is fragile. Robust design finds settings that keep performance stable despite unavoidable noise.",
+    "what": "Robust design separates control factors, which the team can set, from noise factors, which are hard or expensive to control. Taguchi methods use orthogonal arrays and signal-to-noise ratios for larger-is-better, smaller-is-better, or nominal-is-best responses. Inner and outer arrays combine control and noise conditions. The quality loss function expresses the cost of deviation from target. Modern robust optimization models both mean and variance.",
+    "how": [
+      "Define the ideal response and the cost of deviation.",
+      "Identify control factors and important noise factors.",
+      "Choose an experimental array and noise strategy.",
+      "Run the experiment across noise conditions.",
+      "Analyze mean response and signal-to-noise ratio.",
+      "Select settings with strong performance and low sensitivity.",
+      "Confirm robustness under realistic noise."
+    ],
+    "where": "Use robust design for manufacturing tolerances, material variation, environmental conditions, supplier differences, and customer use. Example: choose a recipe that maintains taste and texture despite normal oven-temperature variation.",
+    "when_not": "Do not use signal-to-noise ratios mechanically without understanding the response. Do not ignore interactions or treat noise factors as control factors. Robust design complements, but does not replace, variation reduction and process control.",
+    "common_mistakes": [
+      "Optimizing only the mean and ignoring variation.",
+      "Confusing noise factors with control factors.",
+      "Failing to confirm performance under noise."
+    ],
+    "quick_check": [
+      {
+        "q": "What is a noise factor?",
+        "answer": "A variable that affects the response but is difficult or expensive to control.",
+        "explanation": "Robust design reduces sensitivity to such factors."
+      },
+      {
+        "q": "What does a signal-to-noise ratio summarize?",
+        "answer": "Performance relative to variation for a chosen quality characteristic.",
+        "explanation": "Different formulas apply to larger-is-better, smaller-is-better, and nominal-is-best."
+      },
+      {
+        "q": "What is the goal of robust design?",
+        "answer": "To achieve stable performance across noise conditions.",
+        "explanation": "The best settings are insensitive to unavoidable variation."
+      }
+    ],
+    "recap": [
+      "Robust design reduces sensitivity to noise factors.",
+      "Use control and noise factors deliberately.",
+      "Confirm that selected settings perform under realistic variation."
+    ]
+  },
+  "B5.1": {
+    "why": "Traditional Shewhart charts detect large shifts well but are slow for small, sustained changes. Advanced charts improve sensitivity for low-defect, high-capability, or multivariate processes.",
+    "what": "CUSUM charts accumulate deviations from a target and detect small persistent shifts. EWMA charts use a weighted average that gives recent observations more influence and can be tuned for small shifts. Multivariate charts such as Hotelling's T-squared and MEWMA monitor several correlated characteristics together. Control limits are based on the baseline process, and average run length describes how quickly a chart signals. These charts generally assume independent observations.",
+    "how": [
+      "Define the characteristic, target, and rational subgroup.",
+      "Establish a stable Phase I baseline.",
+      "Check distribution and autocorrelation.",
+      "Select a chart based on shift size, data rate, and dimensions.",
+      "Set chart parameters and limits.",
+      "Monitor Phase II data and investigate signals promptly.",
+      "Update limits only after a verified permanent process change."
+    ],
+    "where": "Use advanced SPC in semiconductor, chemical, pharmaceutical, IT latency, call-center, and healthcare processes. Example: an EWMA chart with a smoothing constant of 0.2 detects a one-sigma shift faster than a Shewhart chart. A CUSUM with reference value 0.5 and decision interval 5 is tuned for small shifts.",
+    "when_not": "Do not apply control limits before the process is stable. Do not use standard limits on strongly autocorrelated data without adjustment. Multivariate charts need an adequate baseline and careful interpretation of signals.",
+    "common_mistakes": [
+      "Using only a Shewhart chart for small sustained shifts.",
+      "Ignoring autocorrelation.",
+      "Treating specification limits as control limits."
+    ],
+    "quick_check": [
+      {
+        "q": "Which chart accumulates deviations from target to detect small shifts?",
+        "answer": "The CUSUM chart.",
+        "explanation": "It sums deviations over time and signals persistent drift."
+      },
+      {
+        "q": "What does the EWMA smoothing constant control?",
+        "answer": "How much weight recent observations receive.",
+        "explanation": "Smaller values emphasize history and detect smaller shifts."
+      },
+      {
+        "q": "When are multivariate charts useful?",
+        "answer": "When several correlated characteristics must be monitored together.",
+        "explanation": "They detect combined shifts that separate charts may miss."
+      }
+    ],
+    "recap": [
+      "Advanced charts target small shifts, drift, or multiple characteristics.",
+      "Establish a stable baseline and check independence.",
+      "Investigate signals and update limits only after real change."
+    ]
+  },
+  "B5.2": {
+    "why": "Cp and Cpk assume a stable, normal process. Applying them to skewed, bounded, or count data can badly misstate defect rates and improvement priorities.",
+    "what": "Non-normal capability starts with a stability check and a distribution check. Options include transforming the data, such as with a Box-Cox, log, or square-root transformation, or fitting a suitable distribution such as lognormal, Weibull, or gamma. Capability is then calculated from the fitted model and expressed as expected out-of-specification parts per million. Report the model and validate it, because a poor fit produces misleading capability.",
+    "how": [
+      "Confirm the process is stable.",
+      "Plot the data and test normality.",
+      "Choose a transformation or fitted distribution based on the data and process.",
+      "Check goodness of fit.",
+      "Calculate expected out-of-specification rate and capability.",
+      "Compare results with the specification and monitor over time.",
+      "Translate the result back into original units for communication."
+    ],
+    "where": "Use non-normal capability for cycle times, wait times, concentrations, reliability life, defect counts, and particle counts. Example: patient wait time is strongly right-skewed. Fit a lognormal distribution and report the expected percentage beyond the service-level target rather than a normal Cpk.",
+    "when_not": "Do not calculate capability on an unstable process. Do not force a normal model or use a transformation without checking the fit. Do not confuse control limits with specification limits.",
+    "common_mistakes": [
+      "Reporting normal Cpk for skewed data.",
+      "Transforming data without validating the model.",
+      "Ignoring stability before calculating capability."
+    ],
+    "quick_check": [
+      {
+        "q": "Why can normal Cpk be misleading for skewed data?",
+        "answer": "It estimates tail probabilities using a symmetric distribution.",
+        "explanation": "The actual tail may be much larger or smaller than the normal estimate."
+      },
+      {
+        "q": "What should you check before a capability calculation?",
+        "answer": "Process stability and the distribution fit.",
+        "explanation": "Capability is meaningful only for a stable, adequately modeled process."
+      },
+      {
+        "q": "What does an expected PPM value express?",
+        "answer": "The predicted number of out-of-specification units per million.",
+        "explanation": "It translates capability into a defect rate."
+      }
+    ],
+    "recap": [
+      "Capability requires stability and a suitable distribution.",
+      "Transform or fit a non-normal model and validate it.",
+      "Report expected out-of-specification rates in practical terms."
+    ]
+  },
+  "B5.3": {
+    "why": "Traditional control charts need a substantial baseline, which short runs and high-mix production do not provide. Short-run SPC makes monitoring possible with limited data.",
+    "what": "Short-run SPC standardizes observations relative to each part or product's target and short-term variation. A standardized chart plots z-like values so different parts can share a chart. Target or deviation-from-nominal charts plot the difference from target. Group charts combine similar parts into a family. Limits may be based on short baselines or exact small-sample methods. The approach must not pool unlike processes.",
+    "how": [
+      "Define part families with similar processes and variation.",
+      "Establish a target and a short baseline for each part.",
+      "Standardize observations using the part mean and standard deviation.",
+      "Choose a standardized, target, or group chart.",
+      "Set limits and monitor the standardized values.",
+      "Investigate signals and separate setup changes from process shifts.",
+      "Update baselines when the process changes permanently."
+    ],
+    "where": "Use short-run SPC in job shops, high-mix low-volume manufacturing, custom products, batch pharmaceutical operations, and service request processes. Example: five custom parts with ten runs each can be standardized within part and plotted on one chart.",
+    "when_not": "Do not pool products with fundamentally different processes. Do not use standard X-bar and R charts with too few subgroups. Do not recalibrate limits simply to hide a shift.",
+    "common_mistakes": [
+      "Using an inadequate baseline.",
+      "Combining dissimilar products into one group.",
+      "Treating specification limits as control limits."
+    ],
+    "quick_check": [
+      {
+        "q": "What is the key idea behind a standardized short-run chart?",
+        "answer": "Transform each observation relative to its part-specific target and variation.",
+        "explanation": "Standardized values can be plotted together across short runs."
+      },
+      {
+        "q": "What is a target chart?",
+        "answer": "A chart of deviations from a nominal target.",
+        "explanation": "It focuses on how far each result is from the intended value."
+      },
+      {
+        "q": "Why must part families be similar?",
+        "answer": "Pooling unlike processes creates misleading variation and limits.",
+        "explanation": "The chart assumes a common underlying variation structure."
+      }
+    ],
+    "recap": [
+      "Short-run SPC standardizes or targets data to handle limited baselines.",
+      "Group only similar products and processes.",
+      "Distinguish setup changes from genuine process shifts."
+    ]
+  },
+  "B6.1": {
+    "why": "Lean and Six Sigma solve different parts of the same problem. Lean removes waste and improves flow, while Six Sigma reduces variation and defects. Integrating them avoids speed without quality or statistics without flow.",
+    "what": "Lean focuses on value, the value stream, flow, pull, and perfection. It attacks the eight wastes: transportation, inventory, motion, waiting, overproduction, overprocessing, defects, and unused talent. Six Sigma uses DMAIC and statistical methods to reduce variation. An integrated strategy uses lean to expose waste and stabilize flow, then Six Sigma to solve stubborn variation, and applies both to project selection and sustainment.",
+    "how": [
+      "Map the value stream and identify waste and variation.",
+      "Quantify the business impact of both.",
+      "Prioritize projects that improve flow and quality.",
+      "Apply lean tools for obvious waste and Six Sigma for complex variation.",
+      "Measure lead time, defect rate, and capability together.",
+      "Involve the people who do the work.",
+      "Standardize and monitor the improved process."
+    ],
+    "where": "Use integrated Lean Six Sigma in healthcare patient flow, manufacturing lead time, banking approvals, order fulfillment, and service operations. Example: an emergency department uses value stream mapping to reduce waiting and SPC to reduce variation in laboratory turnaround time.",
+    "when_not": "Do not use complex statistics to fix obvious waste. Do not run lean events that ignore defect variation. Do not deploy tools without a clearly defined problem and customer need.",
+    "common_mistakes": [
+      "Treating Lean and Six Sigma as competing programs.",
+      "Optimizing local steps instead of the whole flow.",
+      "Running events without sustainment or measurement."
+    ],
+    "quick_check": [
+      {
+        "q": "What is the primary focus of Lean?",
+        "answer": "Removing waste and improving flow.",
+        "explanation": "Lean increases speed and reduces non-value-added work."
+      },
+      {
+        "q": "What is the primary focus of Six Sigma?",
+        "answer": "Reducing variation and defects using data and statistics.",
+        "explanation": "Six Sigma improves consistency and capability."
+      },
+      {
+        "q": "Why integrate Lean and Six Sigma?",
+        "answer": "To improve both speed and quality without trading one for the other.",
+        "explanation": "Flow exposes variation, and variation reduction sustains flow."
+      }
+    ],
+    "recap": [
+      "Lean improves flow; Six Sigma improves consistency.",
+      "Integrate the tools around the customer and the value stream.",
+      "Measure both lead time and quality, then sustain the gain."
+    ]
+  },
+  "B6.2": {
+    "why": "Local improvements can fail if the whole flow remains slow. Value stream mapping shows the end-to-end process, including waiting and information delays that step-level analysis misses.",
+    "what": "A value stream map displays the customer, supplier, process boxes, inventory, information flow, and a lead-time ladder. It separates value-added from non-value-added time. Takt time sets the pace of customer demand. Process metrics include cycle time, uptime, percent complete and accurate, and batch size. The current-state map exposes waste, and the future-state map defines a better flow with owners and actions.",
+    "how": [
+      "Select a product or service family with similar flow.",
+      "Walk the actual process and record information and material flow.",
+      "Draw the current-state map with inventory and waiting times.",
+      "Collect cycle time, uptime, quality, and demand data.",
+      "Calculate lead time, takt time, and value-added ratio.",
+      "Design the future state and mark kaizen opportunities.",
+      "Create an implementation plan with owners and dates."
+    ],
+    "where": "Use value stream mapping in manufacturing, healthcare pathways, loan processing, software delivery, and order fulfillment. Example: a current-state map shows 12 days of lead time but only 45 minutes of value-added work, revealing waiting as the dominant opportunity.",
+    "when_not": "Do not map every product family at once. Do not create a map that is never used. Do not ignore information flow, and do not map from a conference room without observing the work.",
+    "common_mistakes": [
+      "Mapping without gemba observation or real data.",
+      "Confusing process time with lead time.",
+      "Creating a future-state map without owners or a plan."
+    ],
+    "quick_check": [
+      {
+        "q": "What does lead time include?",
+        "answer": "All elapsed time from customer request to delivery, including waiting.",
+        "explanation": "It is broader than the time work is actively performed."
+      },
+      {
+        "q": "What is takt time?",
+        "answer": "Available work time divided by customer demand.",
+        "explanation": "It sets the pace required to meet demand."
+      },
+      {
+        "q": "Why map information flow as well as material flow?",
+        "answer": "Delays and errors in information often cause waiting and rework.",
+        "explanation": "A complete map shows how work is triggered and coordinated."
+      }
+    ],
+    "recap": [
+      "Value stream maps reveal end-to-end flow and waiting.",
+      "Use real data and gemba observation.",
+      "Turn the future-state map into owned actions."
+    ]
+  },
+  "B6.3": {
+    "why": "Equipment failures disrupt flow, quality, and safety while forcing costly buffers. Total Productive Maintenance builds reliability into daily work instead of waiting for breakdowns.",
+    "what": "TPM aims to maximize equipment effectiveness through autonomous maintenance, planned and preventive maintenance, predictive techniques, quality maintenance, training, safety, and early equipment management. Overall Equipment Effectiveness combines availability, performance, and quality. The six big losses are breakdowns, setup and adjustment, idling and minor stops, reduced speed, defects and rework, and startup losses. Operators perform basic care such as cleaning, inspection, lubrication, and tightening.",
+    "how": [
+      "Measure baseline OEE and classify losses.",
+      "Restore basic equipment condition and address major defects.",
+      "Train operators for autonomous maintenance.",
+      "Build a planned and predictive maintenance schedule.",
+      "Improve setup, spares, and maintenance planning.",
+      "Track OEE and losses with the team.",
+      "Standardize and audit the maintenance system."
+    ],
+    "where": "Use TPM in manufacturing, hospital equipment, fleet operations, IT infrastructure, and facilities. Example: OEE is 80% availability times 85% performance times 95% quality, or about 64.6%. The loss analysis shows whether breakdowns, speed, or defects deserve priority.",
+    "when_not": "Do not turn TPM into a cleaning campaign or blame operators for equipment failures. Do not launch it without leadership time, training, and maintenance support. Do not use OEE as a standalone scorecard without context.",
+    "common_mistakes": [
+      "Cleaning once instead of sustaining basic condition.",
+      "Tracking OEE without analyzing the six losses.",
+      "Running equipment to failure to avoid maintenance downtime."
+    ],
+    "quick_check": [
+      {
+        "q": "What three components make up OEE?",
+        "answer": "Availability, performance, and quality.",
+        "explanation": "Multiplying them shows effective equipment output."
+      },
+      {
+        "q": "What is autonomous maintenance?",
+        "answer": "Operator ownership of basic cleaning, inspection, and minor maintenance.",
+        "explanation": "Operators detect and prevent deterioration early."
+      },
+      {
+        "q": "What is a key goal of TPM?",
+        "answer": "Reliable equipment with minimal unplanned downtime.",
+        "explanation": "TPM shifts effort from reactive repair to prevention."
+      }
+    ],
+    "recap": [
+      "TPM improves equipment reliability and effectiveness.",
+      "Use OEE and loss analysis to target improvement.",
+      "Combine operator care with planned and predictive maintenance."
+    ]
+  },
+  "B6.4": {
+    "why": "Long changeovers force large batches, excess inventory, and lost capacity. SMED reduces changeover time so the process can respond flexibly to demand.",
+    "what": "Single-Minute Exchange of Die separates internal changeover work, which requires the machine to be stopped, from external work, which can be done while it runs. The method converts internal work to external, streamlines both, and standardizes the new procedure. Changeover time is measured from the last good part before the change to the first good part after it. The ideal is single-digit minutes, but the practical target depends on risk and volume.",
+    "how": [
+      "Observe and video the current changeover.",
+      "Separate internal and external activities.",
+      "Time each activity and identify waste.",
+      "Convert as much internal work as possible to external.",
+      "Streamline clamps, tools, staging, and parallel work.",
+      "Standardize roles and use a checklist.",
+      "Pilot, measure, and sustain the new changeover."
+    ],
+    "where": "Use SMED in manufacturing, operating-room turnover, laboratory setup, software deployment, printing, and service preparation. Example: reduce a 90-minute changeover to 25 minutes by pre-staging tools externally and replacing bolts with quick clamps.",
+    "when_not": "Do not remove safety or quality checks to save time. Do not assume every current step is necessary. Do not treat SMED as a one-time event without standard work and sustainment.",
+    "common_mistakes": [
+      "Starting with new tools instead of separating internal and external work.",
+      "Measuring only machine downtime, not first good part to first good part.",
+      "Failing to standardize and train the new method."
+    ],
+    "quick_check": [
+      {
+        "q": "What is internal changeover work?",
+        "answer": "Work that can only be done while the machine is stopped.",
+        "explanation": "The goal is to convert internal work to external where possible."
+      },
+      {
+        "q": "How is changeover time measured?",
+        "answer": "From the last good part before the change to the first good part after it.",
+        "explanation": "This captures the full lost production time."
+      },
+      {
+        "q": "What does the single-minute target mean?",
+        "answer": "A changeover measured in single-digit minutes.",
+        "explanation": "It is an aspirational goal, not a universal requirement."
+      }
+    ],
+    "recap": [
+      "SMED separates internal and external changeover work.",
+      "Convert internal work to external and streamline the rest.",
+      "Standardize, measure, and sustain the improvement."
+    ]
+  },
+  "B6.5": {
+    "why": "Without a standard, every person and shift performs work differently. Standard work reduces variation, supports training and safety, and creates a baseline for improvement.",
+    "what": "Standard work documents the current best method, including takt time, work sequence, standard inventory, cycle time, and key quality and safety points. It is created with the people who do the work and is owned by them. It is not a permanent rule; it is the current best way and must be updated when the process changes. Common formats include standard work combination tables, job breakdown sheets, and visual work instructions.",
+    "how": [
+      "Observe the actual work and identify the customer requirement.",
+      "Calculate takt time from demand and available time.",
+      "Break the work into steps and measure each step.",
+      "Design a balanced sequence with standard inventory.",
+      "Document quality, safety, and equipment points.",
+      "Train operators and verify understanding.",
+      "Audit, improve, and update the standard."
+    ],
+    "where": "Use standard work in assembly, healthcare protocols, laboratory methods, service scripts, logistics, and administrative processes. Example: takt time is 60 seconds and the designed cycle time is 55 seconds, leaving capacity for variation and recovery.",
+    "when_not": "Do not write standards without the operators or use them to micromanage. Do not standardize an unstable process before reducing major variation. Knowledge work may need flexible standards that define outcomes and constraints.",
+    "common_mistakes": [
+      "Creating documents that sit on a shelf.",
+      "Failing to train or audit the standard.",
+      "Never updating the standard after improvement."
+    ],
+    "quick_check": [
+      {
+        "q": "What is takt time?",
+        "answer": "Available work time divided by customer demand.",
+        "explanation": "It sets the pace the process must meet."
+      },
+      {
+        "q": "Who should help create standard work?",
+        "answer": "The people who perform the work.",
+        "explanation": "Operator involvement improves accuracy and ownership."
+      },
+      {
+        "q": "Why is standard work a baseline for improvement?",
+        "answer": "You cannot reliably improve a process that is not standardized.",
+        "explanation": "A stable method makes the effect of changes visible."
+      }
+    ],
+    "recap": [
+      "Standard work captures the current best method.",
+      "Include takt, sequence, inventory, and key points.",
+      "Involve operators and update the standard as the process improves."
+    ]
+  },
+  "B6.6": {
+    "why": "Clutter, missing tools, and unclear status create delays, defects, and safety risks. A visual workplace makes normal and abnormal conditions obvious at a glance.",
+    "what": "The 5S method uses sort, set in order, shine, standardize, and sustain. Sort removes what is not needed. Set in order gives everything a clear location. Shine cleans and inspects. Standardize creates visual rules and responsibilities. Sustain builds habits and audits. Visual management uses labels, shadow boards, floor markings, andons, kanban, and dashboards so the workplace explains itself.",
+    "how": [
+      "Baseline the area with photos and a waste walk.",
+      "Sort items with red tags and a disposition rule.",
+      "Set locations based on frequency of use and ergonomics.",
+      "Clean and inspect equipment and spaces.",
+      "Create visual standards and ownership.",
+      "Audit regularly and coach immediately.",
+      "Expand to related areas only after sustainment works."
+    ],
+    "where": "Use 5S and visual management on shop floors, laboratories, offices, hospital supply rooms, warehouses, and digital workspaces. Example: a shadow board for tools reduces search time and makes a missing tool immediately visible.",
+    "when_not": "Do not run 5S as a cleaning contest. Do not add visual clutter that hides the important signals. Do not launch without ownership and a sustainment plan.",
+    "common_mistakes": [
+      "No sustainment after the initial cleanup.",
+      "Labels and locations without a logical system.",
+      "Using audits to blame rather than improve."
+    ],
+    "quick_check": [
+      {
+        "q": "What are the five S's?",
+        "answer": "Sort, set in order, shine, standardize, and sustain.",
+        "explanation": "They create and maintain an organized workplace."
+      },
+      {
+        "q": "What is visual management?",
+        "answer": "Using visual signals to make status and abnormalities obvious.",
+        "explanation": "Examples include andons, floor markings, and shadow boards."
+      },
+      {
+        "q": "Why is sustain the hardest S?",
+        "answer": "It requires habits, ownership, and regular follow-up.",
+        "explanation": "Initial cleanup fades without a management system."
+      }
+    ],
+    "recap": [
+      "5S creates an organized, self-explaining workplace.",
+      "Visual management makes abnormal conditions visible.",
+      "Sustainment requires ownership, audits, and coaching."
+    ]
+  },
+  "B6.7": {
+    "why": "Fixing a poorly designed process can be expensive and slow. Design for Six Sigma builds capability into a new product, service, or process from the start.",
+    "what": "DFSS uses DMADV: Define, Measure, Analyze, Design, and Verify. Define clarifies the business case and customer requirements. Measure translates voice of the customer into critical-to-quality requirements. Analyze develops and evaluates design concepts. Design optimizes the chosen concept and assesses risk. Verify proves capability through pilots, reliability testing, and validation. Tools include QFD, Kano, FMEA, DOE, Monte Carlo simulation, and tolerance design.",
+    "how": [
+      "Define the project, customers, and business case.",
+      "Measure CTQs and translate customer needs.",
+      "Analyze concepts against requirements and risk.",
+      "Design the product or process and optimize performance.",
+      "Predict capability, reliability, and failure modes.",
+      "Verify with pilots, testing, and handover.",
+      "Monitor the launched design and capture lessons learned."
+    ],
+    "where": "Use DMADV for new products, services, processes, software, and facilities. Example: design a new patient intake process by defining CTQs, evaluating flow concepts, simulating demand, and piloting before full launch.",
+    "when_not": "Do not use DMADV when an existing process has a known problem; DMAIC is usually appropriate. Do not skip verification or design without customer input. Do not treat a pilot as a substitute for capability and reliability evidence.",
+    "common_mistakes": [
+      "Applying DMAIC thinking to a new design.",
+      "Skipping voice of the customer and CTQ translation.",
+      "Waiting until launch to test capability and risk."
+    ],
+    "quick_check": [
+      {
+        "q": "What do the letters in DMADV stand for?",
+        "answer": "Define, Measure, Analyze, Design, and Verify.",
+        "explanation": "DMADV is the DFSS roadmap for new designs."
+      },
+      {
+        "q": "When is DMADV preferred over DMAIC?",
+        "answer": "When designing a new product, service, or process.",
+        "explanation": "DMAIC improves an existing process; DMADV creates a new one."
+      },
+      {
+        "q": "Why is verification essential in DMADV?",
+        "answer": "It proves the design meets CTQs and performs reliably in practice.",
+        "explanation": "Design predictions must be tested before launch."
+      }
+    ],
+    "recap": [
+      "DMADV designs new processes and products for capability.",
+      "Translate customer needs into CTQs and verify the design.",
+      "Use DFSS when the process does not yet exist."
+    ]
+  },
+  "B6.8": {
+    "why": "Teams can optimize features customers do not value. Quality Function Deployment translates voice of the customer into design requirements, so engineering and process decisions stay connected to customer needs.",
+    "what": "The House of Quality is the core QFD matrix. Customer needs are the whats, technical requirements are the hows, and the relationship matrix rates how strongly each technical requirement affects each need. The roof shows correlations between technical requirements. Competitive ratings and targets complete the house. Weighted importance helps prioritize requirements. QFD can cascade through product, part, process, and production planning.",
+    "how": [
+      "Collect and structure voice-of-the-customer statements.",
+      "Prioritize customer needs by importance.",
+      "Identify measurable technical requirements.",
+      "Rate relationships and technical correlations.",
+      "Benchmark competitors and set targets.",
+      "Calculate weighted priorities and resolve tradeoffs.",
+      "Cascade the priorities into design and control plans."
+    ],
+    "where": "Use QFD for new products, service design, software features, healthcare services, and facility design. Example: customers say the process should be easy to use. QFD links that need to measurable requirements such as steps, wait time, error rate, and accessibility.",
+    "when_not": "Do not use QFD as a one-time paperwork exercise. Do not invent customer needs without research. Do not build a matrix so large that the team cannot act on it.",
+    "common_mistakes": [
+      "Guessing voice of the customer.",
+      "Assigning relationship scores arbitrarily.",
+      "Setting targets without owners or follow-through."
+    ],
+    "quick_check": [
+      {
+        "q": "What are the whats and hows in a House of Quality?",
+        "answer": "The whats are customer needs and the hows are technical requirements.",
+        "explanation": "The matrix links customer wants to measurable design characteristics."
+      },
+      {
+        "q": "What does the roof of the House of Quality show?",
+        "answer": "Correlations among technical requirements.",
+        "explanation": "It reveals tradeoffs and synergies between design choices."
+      },
+      {
+        "q": "Why weight customer needs?",
+        "answer": "To prioritize technical requirements by customer importance.",
+        "explanation": "Weighting focuses resources on what matters most."
+      }
+    ],
+    "recap": [
+      "QFD translates customer needs into technical requirements.",
+      "Use relationship ratings and competitive targets to prioritize.",
+      "Cascade priorities into design and process decisions."
+    ]
+  },
+  "B6.9": {
+    "why": "Not every feature affects satisfaction the same way. The Kano model prevents teams from overinvesting in features customers barely notice or underinvesting in basics whose absence causes dissatisfaction.",
+    "what": "Kano classifies features as must-be, performance, attractive, indifferent, or reverse. Must-be features cause dissatisfaction when missing but do not delight when present. Performance features produce satisfaction in proportion to how well they are delivered. Attractive features delight when present but do not cause dissatisfaction when absent. Over time, attractive features often become expected. Survey design asks functional and dysfunctional questions for each feature.",
+    "how": [
+      "List candidate features or requirements.",
+      "Write paired functional and dysfunctional survey questions.",
+      "Collect responses from representative customer segments.",
+      "Classify each feature using the Kano evaluation table.",
+      "Analyze differences by segment and over time.",
+      "Prioritize must-be features first, then performance and selected delighters."
+    ],
+    "where": "Use Kano for product features, service design, mobile applications, hotel amenities, and healthcare experiences. Example: a clean hospital room is must-be, shorter wait time is performance, and an unexpected follow-up call may be attractive.",
+    "when_not": "Do not assume one customer segment represents all customers. Do not chase delighters before fixing missing basics. Do not treat classifications as permanent; expectations change.",
+    "common_mistakes": [
+      "Surveying only positive questions.",
+      "Treating Kano categories as static.",
+      "Ignoring segment differences."
+    ],
+    "quick_check": [
+      {
+        "q": "What is a must-be feature?",
+        "answer": "A feature whose absence causes dissatisfaction but whose presence does not delight.",
+        "explanation": "Must-be features are basic expectations."
+      },
+      {
+        "q": "What is a performance feature?",
+        "answer": "A feature where satisfaction increases as performance improves.",
+        "explanation": "Performance features follow a roughly linear relationship."
+      },
+      {
+        "q": "What is an attractive feature?",
+        "answer": "A feature that delights when present but does not cause dissatisfaction when absent.",
+        "explanation": "Attractive features are unexpected differentiators."
+      }
+    ],
+    "recap": [
+      "Kano separates basic, performance, and delighting features.",
+      "Fix must-be requirements before chasing delighters.",
+      "Revisit classifications as customer expectations evolve."
+    ]
+  },
+  "B7.1": {
+    "why": "Basic risk ranking can mislead teams into fixing low-severity issues while ignoring severe failure modes. Advanced FMEA prioritizes risk in a way that protects customers and links actions to controls.",
+    "what": "FMEA identifies failure modes, their effects, and causes. Severity rates the impact, occurrence rates the likelihood, and detection rates the chance of catching the failure before impact. The traditional risk priority number multiplies severity, occurrence, and detection, but it treats very different risks as equivalent. The AIAG-VDA action priority method emphasizes severity and directs attention to high-priority combinations. Actions should prevent causes first, then improve detection, and feed the control plan.",
+    "how": [
+      "Define the scope and structure of the design or process.",
+      "List functions and potential failure modes.",
+      "Describe effects and assign severity.",
+      "Identify causes and rate occurrence.",
+      "List current prevention and detection controls.",
+      "Assign action priority and select actions.",
+      "Re-evaluate risk and update the control plan and standard work."
+    ],
+    "where": "Use FMEA for design, manufacturing, software, healthcare, and service processes. Example: a failure mode with severity 10 and occurrence 4 remains high priority even when detection is strong, because the effect is catastrophic.",
+    "when_not": "Do not use a simple RPN threshold as the only decision rule. Do not let FMEA become paperwork. Do not ignore human factors, use errors, or interactions between failure modes.",
+    "common_mistakes": [
+      "Prioritizing by RPN alone.",
+      "Investing only in detection instead of prevention.",
+      "Failing to update the FMEA and control plan."
+    ],
+    "quick_check": [
+      {
+        "q": "What do severity, occurrence, and detection represent?",
+        "answer": "Impact of the effect, likelihood of the cause, and ability to detect before impact.",
+        "explanation": "Together they describe the risk of a failure mode."
+      },
+      {
+        "q": "Why is action priority preferred over RPN alone?",
+        "answer": "It gives more weight to severity and avoids misleading score equivalence.",
+        "explanation": "Different risk combinations can produce the same RPN."
+      },
+      {
+        "q": "What should an FMEA action update?",
+        "answer": "The control plan, standard work, and related process documents.",
+        "explanation": "Risk controls must be embedded in how the process runs."
+      }
+    ],
+    "recap": [
+      "FMEA identifies failure modes, effects, causes, and controls.",
+      "Prioritize high-severity risk and prevent causes before improving detection.",
+      "Link FMEA actions to control plans and standard work."
+    ]
+  },
+  "B7.2": {
+    "why": "Technical solutions fail when people do not adopt them. Change management builds the awareness, capability, and commitment needed for improvement to stick.",
+    "what": "ADKAR describes five outcomes: awareness of the need for change, desire to participate, knowledge of how to change, ability to perform, and reinforcement to sustain. Stakeholder analysis identifies who is affected and how much influence they have. Sponsorship, communication, training, coaching, and resistance management are coordinated throughout the project.",
+    "how": [
+      "Define the change and its impact on each stakeholder group.",
+      "Assess readiness and sources of resistance.",
+      "Build awareness with clear business and personal reasons.",
+      "Engage sponsors and influencers to create desire.",
+      "Provide training and practice to build knowledge and ability.",
+      "Measure adoption and remove barriers.",
+      "Reinforce with recognition, audits, and updated systems."
+    ],
+    "where": "Use change management for process changes, software rollouts, healthcare protocols, Lean transformations, and new standard work. Example: a control plan fails because operators were not involved, did not understand why it mattered, and had no coaching after training.",
+    "when_not": "Do not treat change management as a single announcement. Do not assume training creates ability or desire. Do not ignore resistance or rely only on a sponsor email.",
+    "common_mistakes": [
+      "Communicating once and declaring the change complete.",
+      "Skipping desire and focusing only on training.",
+      "Failing to reinforce the new way."
+    ],
+    "quick_check": [
+      {
+        "q": "What does ADKAR stand for?",
+        "answer": "Awareness, Desire, Knowledge, Ability, and Reinforcement.",
+        "explanation": "It describes the building blocks of individual change."
+      },
+      {
+        "q": "Why is desire important?",
+        "answer": "People must choose to support and participate in the change.",
+        "explanation": "Knowledge alone does not create commitment."
+      },
+      {
+        "q": "What is reinforcement?",
+        "answer": "Actions that make the new behavior stick after implementation.",
+        "explanation": "Recognition, audits, and systems sustain adoption."
+      }
+    ],
+    "recap": [
+      "Change succeeds through people, not just technical design.",
+      "Use ADKAR to diagnose where adoption is breaking down.",
+      "Sponsor, communicate, train, coach, and reinforce."
+    ]
+  },
+  "B7.3": {
+    "why": "Black Belts lead cross-functional teams without direct authority. Clear roles, constructive conflict, and sound decisions determine whether the team delivers.",
+    "what": "Teams typically move through forming, storming, norming, and performing. A charter defines purpose, scope, roles, and decision rights. RACI clarifies who is responsible, accountable, consulted, and informed. Task conflict about ideas can improve decisions, while relationship conflict undermines trust. Decision methods include command, consultative, consensus, and unanimous agreement. Psychological safety helps people speak up about risks and errors.",
+    "how": [
+      "Create a clear charter and roles.",
+      "Set ground rules and meeting norms.",
+      "Use structured agendas and facilitation.",
+      "Separate task conflict from personal conflict.",
+      "Choose a decision method that fits the stakes.",
+      "Document decisions, owners, and dates.",
+      "Give feedback and recognize progress."
+    ],
+    "where": "Use team leadership in DMAIC projects, kaizen events, design teams, and cross-functional improvement councils. Example: a team with unclear decision rights keeps revisiting the same choice. A RACI and a stated decision method resolve the loop.",
+    "when_not": "Do not avoid conflict and call it harmony. Do not use consensus for every decision; it can slow urgent choices. Do not micromanage skilled team members.",
+    "common_mistakes": [
+      "Unclear roles and decision rights.",
+      "Groupthink and silence about risks.",
+      "Decisions recorded without owners or deadlines."
+    ],
+    "quick_check": [
+      {
+        "q": "What is psychological safety?",
+        "answer": "A climate where people can speak up without fear of humiliation or punishment.",
+        "explanation": "It supports learning, risk identification, and honest debate."
+      },
+      {
+        "q": "What is the difference between task and relationship conflict?",
+        "answer": "Task conflict is about ideas; relationship conflict is personal.",
+        "explanation": "Task conflict can be productive, while relationship conflict usually harms the team."
+      },
+      {
+        "q": "When is a command decision appropriate?",
+        "answer": "When speed and clear accountability matter more than broad input.",
+        "explanation": "The leader decides and explains the rationale."
+      }
+    ],
+    "recap": [
+      "Lead through clarity, trust, and structured decisions.",
+      "Encourage task debate while limiting personal conflict.",
+      "Document decisions and hold the team accountable."
+    ]
+  },
+  "B7.4": {
+    "why": "Improvement resources are limited. A disciplined selection process ensures the organization works on projects with the greatest strategic value and a realistic chance of success.",
+    "what": "Project selection compares candidates on strategic fit, customer and financial impact, feasibility, risk, urgency, and learning value. A weighted scoring matrix makes criteria explicit and comparable. The portfolio should balance quick wins with larger strategic efforts and avoid overloading the same people or functions. A selected project needs a clear problem statement, baseline, goal, scope, sponsor, and resource commitment.",
+    "how": [
+      "Collect candidate problems from strategy, customers, operations, and employees.",
+      "Define selection criteria and agree on weights.",
+      "Score each candidate with evidence, not opinion alone.",
+      "Check feasibility, data availability, authority, and resources.",
+      "Review the portfolio for balance and dependencies.",
+      "Select projects and assign sponsors.",
+      "Charter each project with a measurable baseline and goal."
+    ],
+    "where": "Use project selection in annual planning, DMAIC pipelines, Lean portfolios, and continuous improvement councils. Example: a project with high customer impact but no reliable baseline may need a short measurement project before full chartering.",
+    "when_not": "Do not use a scoring matrix as a substitute for judgment. Do not select only easy projects or only pet projects. Do not approve work without a sponsor and the capacity to execute.",
+    "common_mistakes": [
+      "Choosing projects that are not linked to strategy.",
+      "Starting without a baseline or clear problem statement.",
+      "Selecting projects that are too broad to finish."
+    ],
+    "quick_check": [
+      {
+        "q": "What should a project selection score include?",
+        "answer": "Strategic fit, impact, feasibility, risk, and urgency.",
+        "explanation": "Multiple criteria prevent selection based on a single bias."
+      },
+      {
+        "q": "Why balance quick wins and strategic projects?",
+        "answer": "To build momentum while delivering long-term value.",
+        "explanation": "A portfolio needs both credibility and transformation."
+      },
+      {
+        "q": "What must a chartered project have?",
+        "answer": "A clear problem, baseline, goal, scope, sponsor, and resources.",
+        "explanation": "These elements make the project executable and measurable."
+      }
+    ],
+    "recap": [
+      "Select projects with explicit strategic and feasibility criteria.",
+      "Balance the portfolio and avoid overloading resources.",
+      "Charter only projects with a baseline, goal, and sponsor."
+    ]
+  },
+  "B7.5": {
+    "why": "Improvement projects compete for capital and management attention. A credible financial case shows whether the benefit is real, how quickly it arrives, and what it costs to achieve.",
+    "what": "Cost of poor quality includes internal failure, external failure, appraisal, and prevention costs. Hard savings reduce actual spending, while soft savings avoid cost or add capacity and may require validation. Return on investment compares net benefits with project cost. Payback shows how quickly the investment is recovered. Net present value and internal rate of return account for multiyear cash flows and the time value of money.",
+    "how": [
+      "Establish a validated baseline and measurement method.",
+      "Quantify hard and soft benefits with finance.",
+      "Include implementation, operating, and sustainment costs.",
+      "Calculate ROI, payback, and NPV or IRR as appropriate.",
+      "Test assumptions with sensitivity analysis.",
+      "Obtain finance review and approval.",
+      "Track realized benefits after implementation."
+    ],
+    "where": "Use financial analysis for defect reduction, cycle-time improvement, capacity release, warranty reduction, and customer retention projects. Example: labor savings are hard only if positions are eliminated or redeployed; otherwise they may be capacity or soft savings.",
+    "when_not": "Do not count theoretical savings that never reach the budget. Do not double-count benefits across projects. Do not ignore ongoing costs or present soft savings as cash.",
+    "common_mistakes": [
+      "No validated baseline.",
+      "Double-counting benefits.",
+      "Treating released capacity as automatic cash savings."
+    ],
+    "quick_check": [
+      {
+        "q": "What is the difference between hard and soft savings?",
+        "answer": "Hard savings reduce actual spending; soft savings avoid cost or free capacity.",
+        "explanation": "Soft savings usually require finance validation."
+      },
+      {
+        "q": "What does payback measure?",
+        "answer": "The time required to recover the project investment.",
+        "explanation": "Shorter payback means faster return of cash."
+      },
+      {
+        "q": "Why use NPV for multiyear projects?",
+        "answer": "It accounts for the time value of money across future cash flows.",
+        "explanation": "Future benefits are worth less than immediate benefits."
+      }
+    ],
+    "recap": [
+      "Build the business case on a validated baseline.",
+      "Separate hard savings, soft savings, and capacity release.",
+      "Use finance-reviewed ROI, payback, and NPV or IRR."
+    ]
+  },
+  "B7.6": {
+    "why": "Mentoring multiplies improvement capability. Green Belts and project teams need guidance to apply the right methods, avoid wasted effort, and grow their judgment.",
+    "what": "Mentoring develops another person's capability through guidance, questioning, feedback, and gate reviews. It differs from coaching by combining technical review with career and leadership development. A mentor reviews the charter, data, analysis, and control plan without taking over the work. Effective mentoring uses adult learning, clear expectations, regular check-ins, and documented actions.",
+    "how": [
+      "Agree on development goals and project expectations.",
+      "Assess current skills and gaps.",
+      "Create a mentoring plan with review points.",
+      "Ask questions before giving answers.",
+      "Review project logic, data, and statistics at gates.",
+      "Give specific feedback and agree on next actions.",
+      "Evaluate progress and escalate real risks."
+    ],
+    "where": "Use mentoring for Green Belt projects, Black Belt development, Lean leaders, and improvement sponsors. Example: at a Define gate, the mentor asks the Green Belt to prove the baseline and scope rather than rewriting the charter for them.",
+    "when_not": "Do not mentor without the expertise, time, or objectivity to help. Do not do the project for the mentee. Avoid conflicts of interest when mentoring someone you also evaluate.",
+    "common_mistakes": [
+      "Solving the problem instead of building capability.",
+      "Focusing only on tools and ignoring leadership.",
+      "Giving vague feedback with no follow-up."
+    ],
+    "quick_check": [
+      {
+        "q": "What is a mentor's role?",
+        "answer": "To guide development, challenge thinking, and support the mentee's own work.",
+        "explanation": "Mentoring builds capability rather than taking over."
+      },
+      {
+        "q": "Why use questions in mentoring?",
+        "answer": "They help the mentee reason and build independent judgment.",
+        "explanation": "Questions create learning that answers alone do not."
+      },
+      {
+        "q": "What should happen at a project gate review?",
+        "answer": "The mentor checks logic, evidence, and readiness before the next phase.",
+        "explanation": "Gate reviews prevent weak work from advancing."
+      }
+    ],
+    "recap": [
+      "Mentoring develops people while protecting project quality.",
+      "Guide with questions, evidence, and specific feedback.",
+      "Do not take over the mentee's project."
+    ]
+  }
+}

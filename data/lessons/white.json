@@ -1,0 +1,362 @@
+{
+  "W1.1": {
+    "why": "Knowing where Lean and Six Sigma came from helps you see why the tools exist. They were not invented as theory; they were practical responses to real quality and speed problems.",
+    "what": "Six Sigma is a quality method that reduces variation and defects. Motorola developed it in the 1980s, and Bill Smith was a key architect. General Electric and Jack Welch made it famous in the 1990s. Lean is a speed and flow method that grew from the Toyota Production System, led by Taiichi Ohno. Lean removes waste; Six Sigma reduces variation. Lean Six Sigma combines both.",
+    "how": [
+      "Start with the customer requirement, not with the tool.",
+      "Measure the current defect rate or lead time.",
+      "Use DMAIC to find and reduce variation.",
+      "Use Lean tools to remove waiting, motion, inventory, and rework.",
+      "Standardize the improved method and keep measuring."
+    ],
+    "where": "Use the history as context, not as proof. A hospital might use Six Sigma to reduce medication errors and Lean to shorten patient wait times. A bank might use Six Sigma to reduce loan rework and Lean to speed approvals. IT teams use both to reduce release defects and waiting between teams.",
+    "when_not": "Do not copy a famous program just because GE or Toyota used it. Do not treat Lean as a license to cut staff, and do not treat Six Sigma as only a statistics class.",
+    "common_mistakes": [
+      "Thinking Lean is only about tools and Six Sigma is only about math.",
+      "Copying another organization's program without adapting it to the local process.",
+      "Using history to justify a solution before collecting data."
+    ],
+    "quick_check": [
+      {
+        "q": "Which company developed Six Sigma?",
+        "answer": "Motorola.",
+        "explanation": "Motorola developed Six Sigma in the 1980s; GE later popularized it."
+      },
+      {
+        "q": "What is the main focus of Lean?",
+        "answer": "Removing waste and improving flow.",
+        "explanation": "Lean grew from the Toyota Production System and focuses on value, flow, pull, and waste removal."
+      },
+      {
+        "q": "Why combine Lean and Six Sigma?",
+        "answer": "Lean improves speed and flow while Six Sigma improves quality and consistency.",
+        "explanation": "Together they address both waste and variation."
+      }
+    ],
+    "recap": [
+      "Six Sigma reduces variation and defects; Motorola and GE are central to its history.",
+      "Lean reduces waste and improves flow; it grew from Toyota.",
+      "Lean Six Sigma combines both, but the customer requirement always comes first."
+    ]
+  },
+  "W1.2": {
+    "why": "Poor quality is expensive, but the cost is often hidden in rework, returns, inspections, and lost customers. Leaders prioritize problems they can see in money and customer impact.",
+    "what": "Quality means meeting customer requirements consistently. It is not the same as luxury or grade. Cost of poor quality (COPQ) is the total cost of not doing work right the first time. It has four parts: prevention costs such as training and design reviews, appraisal costs such as inspection and testing, internal failure costs such as scrap and rework before delivery, and external failure costs such as returns, complaints, warranty, and lost business.",
+    "how": [
+      "List the four COPQ categories.",
+      "Estimate the cost in each category for one process or month.",
+      "Add the categories to get total COPQ.",
+      "Divide by units or revenue to compare fairly.",
+      "Prioritize the largest controllable category."
+    ],
+    "where": "A clinic can count readmission costs, a retailer can count returns and reshipment, a factory can count scrap and rework, and an IT team can count bug-fix hours. Use COPQ when you need a business case or a priority list.",
+    "when_not": "Do not use COPQ as a full accounting system or double-count costs that are already in another category. Do not use it to shame individuals; the purpose is to improve the process.",
+    "common_mistakes": [
+      "Counting only scrap and ignoring inspection, rework, and lost customers.",
+      "Double-counting the same cost in two categories.",
+      "Using rough estimates as exact financial results without validation."
+    ],
+    "quick_check": [
+      {
+        "q": "Which of these is an external failure cost?",
+        "answer": "Customer returns and warranty claims.",
+        "explanation": "External failures happen after the customer receives the product or service."
+      },
+      {
+        "q": "A process makes 1,000 units, has 40 defects, and each defect costs $25 to fix. What is the internal failure cost?",
+        "answer": "$1,000.",
+        "explanation": "40 defects x $25 = $1,000."
+      },
+      {
+        "q": "What are the four COPQ categories?",
+        "answer": "Prevention, appraisal, internal failure, and external failure.",
+        "explanation": "These four categories cover the cost of poor quality."
+      }
+    ],
+    "recap": [
+      "Quality means consistently meeting customer requirements.",
+      "COPQ includes prevention, appraisal, internal failure, and external failure costs.",
+      "Use COPQ to prioritize improvements and build a business case, not to blame people."
+    ]
+  },
+  "W1.3": {
+    "why": "Improvement only matters if it changes something customers care about. A process can look faster or cheaper internally while making the customer experience worse.",
+    "what": "Voice of the customer (VOC) is the collection of customer needs, wants, complaints, and expectations. Critical to quality (CTQ) is a measurable requirement derived from the VOC. A CTQ tree links a broad customer need to a driver and then to a measurable characteristic. For example, 'I want a quick answer' can become 'time to first response under four hours.'",
+    "how": [
+      "Collect VOC from interviews, surveys, complaints, and observation.",
+      "Group similar statements into themes.",
+      "Translate each theme into a measurable CTQ.",
+      "Set a target or specification and a measurement method.",
+      "Check the CTQ with customers or front-line staff."
+    ],
+    "where": "Use VOC and CTQ in every industry. In healthcare, 'I want to be seen quickly' can become 'arrival-to-clinician time under 20 minutes.' In banking, 'I want to know my loan status' can become 'status update within one business day.' In education, 'I want useful feedback' can become 'feedback returned within five days.'",
+    "when_not": "Do not rely only on a survey if you can observe the process. Do not create a CTQ without a real customer or a clear internal customer. Do not use VOC when the requirement is a legal or safety rule; those are mandatory requirements, not preferences.",
+    "common_mistakes": [
+      "Confusing a solution with a need, such as 'we need a new app' instead of 'we need faster answers.'",
+      "Creating too many CTQs and losing focus.",
+      "Writing a CTQ that cannot be measured."
+    ],
+    "quick_check": [
+      {
+        "q": "What does VOC stand for?",
+        "answer": "Voice of the customer.",
+        "explanation": "VOC is the collection of customer needs and expectations."
+      },
+      {
+        "q": "What makes a good CTQ?",
+        "answer": "It is measurable and linked to a customer need.",
+        "explanation": "A CTQ translates a need into something the process can measure."
+      },
+      {
+        "q": "A customer says 'I want my order to arrive on time.' Which CTQ is best?",
+        "answer": "Percentage of orders delivered by the promised date.",
+        "explanation": "This CTQ is measurable and directly reflects the customer need."
+      }
+    ],
+    "recap": [
+      "VOC captures what customers need and value.",
+      "CTQ translates VOC into a measurable requirement.",
+      "A useful CTQ has a clear target, measurement method, and customer link."
+    ]
+  },
+  "W1.4": {
+    "why": "Variation makes processes unpredictable. Even when the average looks good, variation can create defects, delays, and unhappy customers.",
+    "what": "Variation is the difference between outputs or process results over time. Common cause variation is normal and built into the process. Special cause variation comes from a specific event, such as a machine failure, a new supplier, or a sudden demand spike. A defect is an output that does not meet a specification or requirement. A defective unit may have one or more defects.",
+    "how": [
+      "Define the characteristic and specification.",
+      "Collect data in time order.",
+      "Plot a run chart or histogram.",
+      "Look for patterns, outliers, and shifts.",
+      "Remove special causes first, then reduce common cause variation."
+    ],
+    "where": "A coffee shop can track service time; a hospital can track waiting time; a software team can track release defects; a bank can track approval times. Use variation analysis whenever the process is stable enough to study and the customer has a measurable requirement.",
+    "when_not": "Do not react to every single data point as if it were special cause; that is tampering and usually makes things worse. Do not try to reduce variation in a process that is fundamentally incapable and needs redesign.",
+    "common_mistakes": [
+      "Treating normal common cause variation as a special event.",
+      "Blaming an individual for variation caused by the process.",
+      "Using too few data points to see a pattern."
+    ],
+    "quick_check": [
+      {
+        "q": "What is common cause variation?",
+        "answer": "Normal variation built into a stable process.",
+        "explanation": "Common cause variation is the ongoing, expected variation of the process."
+      },
+      {
+        "q": "A service time is usually 5-7 minutes, but one customer waits 45 minutes. What type of variation is the 45-minute wait likely to be?",
+        "answer": "Special cause variation.",
+        "explanation": "It is an unusual event outside the normal pattern."
+      },
+      {
+        "q": "What is a defect?",
+        "answer": "An output that does not meet a specification or requirement.",
+        "explanation": "A defect is a failure to meet a requirement."
+      }
+    ],
+    "recap": [
+      "Variation is the difference in process outputs over time.",
+      "Common cause variation is normal; special cause variation comes from a specific source.",
+      "Reduce special causes first, then work on common cause variation."
+    ]
+  },
+  "W1.5": {
+    "why": "DMAIC gives teams a disciplined path from a vague problem to a proven solution. It prevents jumping to fixes and helps keep the gain.",
+    "what": "DMAIC stands for Define, Measure, Analyze, Improve, Control. Define clarifies the problem, customer, goal, and scope. Measure establishes a baseline and checks the data. Analyze finds root causes. Improve selects and tests solutions. Control standardizes and monitors the new process. Each phase ends with a gate review.",
+    "how": [
+      "Define: write a problem statement, goal, scope, and team.",
+      "Measure: collect baseline data and validate the measurement system.",
+      "Analyze: use graphs, root cause tools, and tests to find causes.",
+      "Improve: choose a solution, pilot it, and confirm the result.",
+      "Control: document the standard, monitor the metric, and assign an owner."
+    ],
+    "where": "Use DMAIC for improving an existing process in healthcare, banking, retail, manufacturing, IT, or education. For example, a lab has 30% late reports. Define the problem and goal; Measure the baseline; Analyze the courier pickup and batching; Improve with a barcode scan; Control with a daily chart and an owner. Use DMADV instead when designing a new process from scratch.",
+    "when_not": "Do not use DMAIC for a simple, obvious fix or an urgent safety issue; use a quick kaizen or immediate containment first. Do not skip Measure just because the team thinks it knows the problem.",
+    "common_mistakes": [
+      "Jumping from Define straight to Improve.",
+      "Skipping baseline measurement, so the team cannot prove the gain.",
+      "Ending the project without a control plan and owner."
+    ],
+    "quick_check": [
+      {
+        "q": "What are the five DMAIC phases in order?",
+        "answer": "Define, Measure, Analyze, Improve, Control.",
+        "explanation": "DMAIC is the standard improvement sequence."
+      },
+      {
+        "q": "Which phase establishes the baseline?",
+        "answer": "Measure.",
+        "explanation": "The Measure phase defines and collects the baseline data."
+      },
+      {
+        "q": "What is the purpose of the Control phase?",
+        "answer": "To standardize and monitor the improved process so the gain lasts.",
+        "explanation": "Control confirms the new method and assigns ongoing ownership."
+      }
+    ],
+    "recap": [
+      "DMAIC is a five-phase path from problem to sustained improvement.",
+      "Measure and Analyze prevent guessing; Improve tests solutions.",
+      "Control is what makes the gain last."
+    ]
+  },
+  "W2.1": {
+    "why": "Waste is work that consumes time, money, or effort without adding value for the customer. Learning to see waste is the first practical Lean skill because most of it is hidden in plain sight.",
+    "what": "Lean defines eight wastes, often remembered as TIMWOODS: transportation, inventory, motion, waiting, overproduction, overprocessing, defects, and unused skills. Value is what the customer is willing to pay for; waste is everything else. Some waste is necessary, such as legally required inspection, so the goal is to reduce it, not blindly delete it.",
+    "how": [
+      "Walk the process from start to finish and list every step.",
+      "Mark each step as value-added, necessary non-value-added, or waste.",
+      "Classify the waste using the eight categories.",
+      "Measure the waste in time, cost, distance, or defects.",
+      "Choose one waste, test a small change, and remeasure."
+    ],
+    "where": "In a clinic, patients waiting is waiting waste, staff walking to a distant printer is motion, expired supplies are inventory, and re-entering the same data is overprocessing. In IT, waiting for approvals is waiting, unused developer skills is unused talent, and reopened tickets are defects. Use the eight wastes whenever you need a quick, shared language for what is slowing a process down.",
+    "when_not": "Do not remove a step just because it looks like waste. Safety checks, regulatory reviews, and customer-required approvals may be necessary non-value-added work.",
+    "common_mistakes": [
+      "Equating waste reduction with headcount reduction.",
+      "Confusing busy people with valuable work.",
+      "Removing a control that prevents a serious defect."
+    ],
+    "quick_check": [
+      {
+        "q": "What does the W in TIMWOODS stand for?",
+        "answer": "Waiting.",
+        "explanation": "TIMWOODS: transportation, inventory, motion, waiting, overproduction, overprocessing, defects, skills."
+      },
+      {
+        "q": "A nurse walks 200 meters to collect supplies each hour. Which waste is this?",
+        "answer": "Motion.",
+        "explanation": "The walking itself does not add value for the patient."
+      },
+      {
+        "q": "Is all non-value-added work waste that should be removed?",
+        "answer": "No. Some non-value-added work is necessary, such as safety or legal checks.",
+        "explanation": "Necessary non-value-added work should be reduced where possible, not eliminated blindly."
+      }
+    ],
+    "recap": [
+      "The eight wastes are transportation, inventory, motion, waiting, overproduction, overprocessing, defects, and unused skills.",
+      "Value is defined by the customer.",
+      "Some non-value-added work is necessary; reduce it carefully."
+    ]
+  },
+  "W2.2": {
+    "why": "Improvement projects stall when no one knows who decides, who does the work, and who owns the result. Clear roles turn good intentions into completed projects.",
+    "what": "A sponsor or champion provides authority, resources, and help removing barriers. The process owner owns the process after the project and sustains the gain. A Black Belt leads complex projects full-time and coaches others. A Green Belt leads projects part-time in their own area. Yellow and White Belts participate and lead small local improvements. A Master Black Belt governs deployment and develops capability. Team members, subject-matter experts, data owners, and finance partners provide knowledge and validation.",
+    "how": [
+      "Name the sponsor and confirm what decisions they can make.",
+      "Identify the process owner who will live with the change.",
+      "Choose a lead and a small team with the needed knowledge.",
+      "Agree time commitments and meeting cadence.",
+      "Write a simple RACI: who is responsible, accountable, consulted, and informed."
+    ],
+    "where": "Use role clarity on every project, especially cross-functional ones. In a hospital discharge project, the sponsor might be the chief operating officer, the process owner the ward manager, the lead a Green Belt nurse, and the data owner an IT analyst. In a bank, the process owner might be the operations manager and the finance partner validates the benefit.",
+    "when_not": "Do not create a role for every task or invite everyone to every meeting. Do not accept a sponsor who cannot remove barriers, and do not wait until the end to identify the process owner.",
+    "common_mistakes": [
+      "A sponsor in name only who never attends or decides.",
+      "No process owner, so the gain disappears after the project.",
+      "A team so large that decisions and accountability disappear."
+    ],
+    "quick_check": [
+      {
+        "q": "Who owns the process after the improvement project ends?",
+        "answer": "The process owner.",
+        "explanation": "The process owner sustains the new standard and monitors performance."
+      },
+      {
+        "q": "What is the main role of a project sponsor?",
+        "answer": "Provide authority, resources, and help remove barriers.",
+        "explanation": "The sponsor is the senior owner who enables the project."
+      },
+      {
+        "q": "What does RACI stand for?",
+        "answer": "Responsible, accountable, consulted, informed.",
+        "explanation": "RACI clarifies decision rights and communication."
+      }
+    ],
+    "recap": [
+      "Every project needs a sponsor, a process owner, and a clear lead.",
+      "Match the belt role to project complexity and time availability.",
+      "Use RACI to make decision rights explicit."
+    ]
+  },
+  "W2.3": {
+    "why": "Tools do not sustain change by themselves. People sustain change when they feel safe to speak up, trust the data, and see leaders model the new behavior.",
+    "what": "Culture is the set of shared beliefs and behaviors that shape how work gets done. Mindset is how people interpret problems and their role in solving them. A quality culture focuses on the customer, uses data instead of blame, treats problems as learning opportunities, respects people, and expects leaders to go to where the work happens.",
+    "how": [
+      "Ask about the process, not the person: 'What allowed this error?'",
+      "Go to the gemba and observe the real work.",
+      "Thank people for reporting problems and near misses.",
+      "Use data to test assumptions and share results openly.",
+      "Make improvement a routine part of meetings, not a special event."
+    ],
+    "where": "Culture matters everywhere, but it is especially visible in healthcare, aviation, manufacturing, and IT, where people may hide errors to avoid blame. In a hospital, a leader who rewards error reporting may see reported errors rise before harm falls; that can be a sign of improved safety, not worse performance.",
+    "when_not": "Do not use 'culture' as an excuse for missing data, unclear roles, or poor process design. Do not force positivity when people are raising legitimate safety or ethics concerns.",
+    "common_mistakes": [
+      "Blaming individuals for problems built into the process.",
+      "Launching tools before building trust and psychological safety.",
+      "Saying 'we have a culture problem' without changing leader behavior."
+    ],
+    "quick_check": [
+      {
+        "q": "What is psychological safety?",
+        "answer": "The belief that you can speak up with problems or ideas without punishment.",
+        "explanation": "Psychological safety supports learning and early problem detection."
+      },
+      {
+        "q": "A leader asks 'What in the process allowed this error?' instead of 'Who did this?' What behavior is the leader modeling?",
+        "answer": "A blame-free, process-focused mindset.",
+        "explanation": "The question directs attention to system causes rather than individuals."
+      },
+      {
+        "q": "Why can reported errors rise after a safety culture improves?",
+        "answer": "People feel safer reporting problems that were previously hidden.",
+        "explanation": "More reporting can reveal the true error rate before it falls."
+      }
+    ],
+    "recap": [
+      "Culture is shaped by daily behaviors, especially leader behavior.",
+      "Focus on the process, not blame, and make it safe to speak up.",
+      "Tools work best when trust and data-based learning come first."
+    ]
+  },
+  "W2.4": {
+    "why": "A small first project builds confidence, creates a visible win, and teaches the method without overwhelming you. It also gives you evidence to persuade others.",
+    "what": "A good first project is small in scope, measurable, data-rich enough to study, important to the customer, within your influence, and completable in four to eight weeks. Use DMAIC or a simple plan-do-check-act cycle. A one-page charter states the problem, goal, scope, team, metric, and timeline.",
+    "how": [
+      "Pick one recurring pain point in your own work area.",
+      "Write a problem statement with evidence: what, where, when, and how much.",
+      "Set a measurable goal and a baseline.",
+      "Map the process and find one likely root cause.",
+      "Test one small change, measure the result, and standardize what works."
+    ],
+    "where": "Use this approach for a support-ticket handoff, a clinic check-in step, a retail returns process, or a report that is always late. Example: a support team has 20% of tickets reopened because key information is missing. The team adds one required field, pilots it for two weeks, and reduces rework to 8%.",
+    "when_not": "Do not start with a politically sensitive, cross-functional, capital-intensive, or poorly measured problem. Do not choose a project where you have no influence over the process or no access to data.",
+    "common_mistakes": [
+      "Scope too large for a first project.",
+      "No baseline, so the team cannot prove improvement.",
+      "Starting with a favorite solution instead of a problem and data."
+    ],
+    "quick_check": [
+      {
+        "q": "What makes a good first improvement project?",
+        "answer": "Small scope, measurable, customer-relevant, and completable in weeks.",
+        "explanation": "A first project should be small enough to finish and learn from."
+      },
+      {
+        "q": "Why is a baseline important?",
+        "answer": "It shows the current performance and lets you prove whether the change worked.",
+        "explanation": "Without a baseline, improvement claims are just opinions."
+      },
+      {
+        "q": "What should you do after a pilot succeeds?",
+        "answer": "Standardize the change and assign an owner to monitor it.",
+        "explanation": "Standardization and ownership make the gain last."
+      }
+    ],
+    "recap": [
+      "Start small, measure the baseline, and finish within weeks.",
+      "Use one root cause and one tested change rather than a sweeping redesign.",
+      "Standardize the win and share the result."
+    ]
+  }
+}

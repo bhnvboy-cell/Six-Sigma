@@ -1,0 +1,706 @@
+{
+  "version": "2.0",
+  "updated": "2026-10-29",
+  "source": "Aligned to ASQ, IASSC, and ISO 13053 Bodies of Knowledge",
+  "belts": [
+    {
+      "id": "white",
+      "name": "White Belt",
+      "level": 1,
+      "color": "white",
+      "icon": "fa-medal",
+      "lessonTarget": "8-10",
+      "studyTime": "6-8 hours",
+      "audience": "New employees, frontline staff, supervisors, and anyone joining an improvement project for the first time.",
+      "prerequisites": "None. Start here with zero prior knowledge.",
+      "previousRecap": "No previous belt. This course starts with the shared language of quality, waste, variation, and DMAIC.",
+      "outcomes": [
+        "Explain what Lean Six Sigma is and where it came from",
+        "Recognize waste, variation, defects, and cost of poor quality",
+        "Describe VOC, CTQ, DMAIC, and the belt roles",
+        "Contribute useful data and ideas to a team project"
+      ],
+      "modules": [
+        {
+          "id": "white-1",
+          "number": 1,
+          "title": "Quality Foundations",
+          "duration": "90 min",
+          "summary": "Build the shared language of quality: where Six Sigma and Lean came from, why poor quality costs money, how customers define value, and why variation matters.",
+          "lessons": [
+            {
+              "id": "W1.1",
+              "order": 1,
+              "title": "History of Six Sigma and Lean",
+              "objective": "Trace Six Sigma from Motorola and GE, and Lean from the Toyota Production System."
+            },
+            {
+              "id": "W1.2",
+              "order": 2,
+              "title": "Quality Basics and Cost of Poor Quality",
+              "objective": "Define quality, prevention, appraisal, and failure costs, and calculate a simple COPQ example."
+            },
+            {
+              "id": "W1.3",
+              "order": 3,
+              "title": "Customers: VOC and CTQ",
+              "objective": "Turn customer wants into measurable critical-to-quality requirements."
+            },
+            {
+              "id": "W1.4",
+              "order": 4,
+              "title": "Variation and Defects",
+              "objective": "Explain common and special cause variation and define a defect in plain language."
+            },
+            {
+              "id": "W1.5",
+              "order": 5,
+              "title": "DMAIC Overview",
+              "objective": "Describe the five DMAIC phases and the main question each phase answers."
+            }
+          ]
+        },
+        {
+          "id": "white-2",
+          "number": 2,
+          "title": "People, Waste, and First Projects",
+          "duration": "80 min",
+          "summary": "Learn to see the eight wastes, understand who does what on a project, and adopt the culture and habits that make improvement stick.",
+          "lessons": [
+            {
+              "id": "W2.1",
+              "order": 1,
+              "title": "The 8 Wastes",
+              "objective": "Identify the eight wastes in healthcare, retail, manufacturing, IT, banking, and education."
+            },
+            {
+              "id": "W2.2",
+              "order": 2,
+              "title": "Roles and Responsibilities",
+              "objective": "Explain the White, Yellow, Green, Black, and Master Black Belt roles and the sponsor role."
+            },
+            {
+              "id": "W2.3",
+              "order": 3,
+              "title": "Culture and Mindset",
+              "objective": "Describe respect for people, data-based decisions, and a no-blame learning culture."
+            },
+            {
+              "id": "W2.4",
+              "order": 4,
+              "title": "Your First Improvement Project",
+              "objective": "Use a simple A3-style story to plan a small, safe improvement."
+            }
+          ]
+        }
+      ],
+      "coverageChecklist": [
+        {"topic": "History (Motorola, GE)", "lessons": ["W1.1"]},
+        {"topic": "Quality basics", "lessons": ["W1.2"]},
+        {"topic": "Cost of poor quality", "lessons": ["W1.2"]},
+        {"topic": "Customers (VOC, CTQ)", "lessons": ["W1.3"]},
+        {"topic": "8 wastes", "lessons": ["W2.1"]},
+        {"topic": "Variation", "lessons": ["W1.4"]},
+        {"topic": "Defects", "lessons": ["W1.4"]},
+        {"topic": "DMAIC overview", "lessons": ["W1.5"]},
+        {"topic": "Roles", "lessons": ["W2.2"]},
+        {"topic": "Culture", "lessons": ["W2.3"]}
+      ],
+      "project": {
+        "title": "Clean Up a Customer Handoff",
+        "brief": "Pick one handoff you own (for example, a patient transfer, order handoff, or support ticket). Map what happens, identify two wastes, measure how long the handoff takes, test one small change, and confirm the result."
+      },
+      "exam": {
+        "questions": 25,
+        "passingScore": 80,
+        "format": "Multiple choice and short scenario questions drawn from the lesson quick checks."
+      },
+      "cheatSheet": [
+        "COPQ = prevention + appraisal + internal failure + external failure costs",
+        "VOC = voice of the customer; CTQ = critical to quality, a measurable customer requirement",
+        "DMAIC = Define, Measure, Analyze, Improve, Control",
+        "8 wastes = transportation, inventory, motion, waiting, overproduction, overprocessing, defects, skills"
+      ],
+      "nextChecklist": [
+        "I can explain Lean vs Six Sigma in one sentence each.",
+        "I can name the DMAIC phases in order.",
+        "I can spot at least three wastes in my own work area.",
+        "I can explain what VOC and CTQ mean."
+      ]
+    },
+    {
+      "id": "yellow",
+      "name": "Yellow Belt",
+      "level": 2,
+      "color": "yellow",
+      "icon": "fa-certificate",
+      "lessonTarget": "12-15",
+      "studyTime": "15-20 hours",
+      "audience": "Team members, supervisors, and process owners who support Green and Black Belt projects.",
+      "prerequisites": "White Belt or equivalent basic quality awareness.",
+      "previousRecap": "White Belt recap: quality means meeting customer requirements; waste and variation create defects and cost; DMAIC is the improvement path; everyone has a role.",
+      "outcomes": [
+        "Map a process with SIPOC and a process map",
+        "Build a basic project charter and data collection sheet",
+        "Use Pareto, fishbone, 5 Whys, check sheets, and basic charts",
+        "Contribute to brainstorming, 5S, and team-based improvement"
+      ],
+      "modules": [
+        {
+          "id": "yellow-1",
+          "number": 1,
+          "title": "Process Thinking",
+          "duration": "70 min",
+          "summary": "See work as a process with suppliers, inputs, steps, outputs, and customers. Learn to define process boundaries and draw what actually happens, not what people think happens.",
+          "lessons": [
+            {"id": "Y1.1", "order": 1, "title": "Process Thinking", "objective": "Explain inputs, outputs, boundaries, and the customer of a process."},
+            {"id": "Y1.2", "order": 2, "title": "SIPOC", "objective": "Build a Suppliers, Inputs, Process, Outputs, Customers diagram."},
+            {"id": "Y1.3", "order": 3, "title": "Process Mapping", "objective": "Create a swimlane or flowchart and flag handoffs and decision points."}
+          ]
+        },
+        {
+          "id": "yellow-2",
+          "number": 2,
+          "title": "DMAIC and Project Charters",
+          "duration": "60 min",
+          "summary": "Go deeper into DMAIC and learn the basic charter questions: why the project exists, what is in scope, how success is measured, and who is accountable.",
+          "lessons": [
+            {"id": "Y2.1", "order": 1, "title": "DMAIC in Detail", "objective": "List the key activities and deliverables of each DMAIC phase."},
+            {"id": "Y2.2", "order": 2, "title": "Project Charter Basics", "objective": "Write a problem statement, goal, scope, team, and milestone plan."}
+          ]
+        },
+        {
+          "id": "yellow-3",
+          "number": 3,
+          "title": "Data and Basic Charts",
+          "duration": "90 min",
+          "summary": "Collect trustworthy data and display it honestly. Practice check sheets, run charts, histograms, bar charts, and Pareto analysis.",
+          "lessons": [
+            {"id": "Y3.1", "order": 1, "title": "Data Types", "objective": "Distinguish continuous and discrete data and choose a suitable summary."},
+            {"id": "Y3.2", "order": 2, "title": "Check Sheets", "objective": "Design a simple form that makes data easy to record and verify."},
+            {"id": "Y3.3", "order": 3, "title": "Basic Charts", "objective": "Choose and interpret run charts, histograms, and bar charts."},
+            {"id": "Y3.4", "order": 4, "title": "Pareto Analysis", "objective": "Use the 80/20 rule to prioritize the few causes that create most of the problem."}
+          ]
+        },
+        {
+          "id": "yellow-4",
+          "number": 4,
+          "title": "Root Cause and Lean Basics",
+          "duration": "90 min",
+          "summary": "Move from symptoms to causes using fishbone and 5 Whys, then remove everyday friction with 5S and basic Lean thinking.",
+          "lessons": [
+            {"id": "Y4.1", "order": 1, "title": "Fishbone Diagram", "objective": "Brainstorm causes across people, process, equipment, materials, measurement, and environment."},
+            {"id": "Y4.2", "order": 2, "title": "5 Whys", "objective": "Ask focused why questions until the actionable root cause is found."},
+            {"id": "Y4.3", "order": 3, "title": "5S", "objective": "Apply sort, set in order, shine, standardize, and sustain."},
+            {"id": "Y4.4", "order": 4, "title": "Basic Lean", "objective": "Use value, flow, pull, and perfection to reduce waiting and rework."}
+          ]
+        },
+        {
+          "id": "yellow-5",
+          "number": 5,
+          "title": "People and Teamwork",
+          "duration": "50 min",
+          "summary": "Generate better ideas and help a team make decisions without losing the quiet voices or the evidence.",
+          "lessons": [
+            {"id": "Y5.1", "order": 1, "title": "Brainstorming", "objective": "Run silent idea generation and affinity grouping before judging ideas."},
+            {"id": "Y5.2", "order": 2, "title": "Teamwork", "objective": "Define roles, ground rules, decision rules, and meeting habits for an improvement team."}
+          ]
+        }
+      ],
+      "coverageChecklist": [
+        {"topic": "Process thinking", "lessons": ["Y1.1"]},
+        {"topic": "SIPOC", "lessons": ["Y1.2"]},
+        {"topic": "Process mapping", "lessons": ["Y1.3"]},
+        {"topic": "DMAIC in detail", "lessons": ["Y2.1"]},
+        {"topic": "Project charter basics", "lessons": ["Y2.2"]},
+        {"topic": "Data types", "lessons": ["Y3.1"]},
+        {"topic": "Check sheets", "lessons": ["Y3.2"]},
+        {"topic": "Basic charts", "lessons": ["Y3.3"]},
+        {"topic": "Pareto", "lessons": ["Y3.4"]},
+        {"topic": "Fishbone", "lessons": ["Y4.1"]},
+        {"topic": "5 Whys", "lessons": ["Y4.2"]},
+        {"topic": "5S", "lessons": ["Y4.3"]},
+        {"topic": "Basic Lean", "lessons": ["Y4.4"]},
+        {"topic": "Brainstorming", "lessons": ["Y5.1"]},
+        {"topic": "Teamwork", "lessons": ["Y5.2"]}
+      ],
+      "project": {
+        "title": "Reduce Waiting in a Service Process",
+        "brief": "Map one service process with SIPOC and a flowchart, collect two weeks of waiting-time data on a check sheet, build a Pareto chart of delay reasons, and run a 5 Whys on the top reason."
+      },
+      "exam": {
+        "questions": 40,
+        "passingScore": 80,
+        "format": "Scenario-based multiple choice plus one process-map exercise."
+      },
+      "cheatSheet": [
+        "SIPOC = Suppliers, Inputs, Process, Outputs, Customers",
+        "Pareto principle: roughly 80% of effects come from about 20% of causes",
+        "5 Whys: ask why until you reach a cause you can act on",
+        "5S = Sort, Set in order, Shine, Standardize, Sustain"
+      ],
+      "nextChecklist": [
+        "I can draw a SIPOC for a process I own.",
+        "I can build a check sheet and a Pareto chart.",
+        "I can facilitate a 5 Whys without blaming a person.",
+        "I can explain how 5S supports flow."
+      ]
+    },
+    {
+      "id": "green",
+      "name": "Green Belt",
+      "level": 3,
+      "color": "green",
+      "icon": "fa-trophy",
+      "lessonTarget": "25-30",
+      "studyTime": "40-60 hours",
+      "audience": "Project leaders and process owners who run DMAIC projects part-time with a Black Belt or sponsor.",
+      "prerequisites": "Yellow Belt or equivalent process improvement experience.",
+      "previousRecap": "Yellow Belt recap: processes have suppliers, inputs, steps, outputs, and customers; data must be collected consistently; Pareto, fishbone, and 5 Whys help find causes.",
+      "outcomes": [
+        "Lead a small-to-medium DMAIC project from charter to control",
+        "Plan data collection, sampling, and measurement system studies",
+        "Use descriptive statistics, capability, hypothesis tests, and simple regression",
+        "Select and pilot solutions and hand off a control plan"
+      ],
+      "modules": [
+        {
+          "id": "green-1",
+          "number": 1,
+          "title": "Define",
+          "duration": "90 min",
+          "summary": "Turn a vague complaint into a bounded project with a clear customer, measurable goal, and named stakeholders.",
+          "lessons": [
+            {"id": "G1.1", "order": 1, "title": "Project Charter", "objective": "Write a problem statement, goal, scope, business case, team, and timeline."},
+            {"id": "G1.2", "order": 2, "title": "Stakeholders", "objective": "Map influence and interest and plan engagement."},
+            {"id": "G1.3", "order": 3, "title": "VOC and CTQ", "objective": "Translate customer language into measurable CTQs and specifications."}
+          ]
+        },
+        {
+          "id": "green-2",
+          "number": 2,
+          "title": "Measure",
+          "duration": "4 hours",
+          "summary": "Build a trustworthy measurement system, describe the data, and compare process performance with customer specifications.",
+          "lessons": [
+            {"id": "G2.1", "order": 1, "title": "Data Collection Plan", "objective": "Define what, where, when, who, and how to collect data."},
+            {"id": "G2.2", "order": 2, "title": "Sampling", "objective": "Choose random, stratified, or systematic samples and avoid bias."},
+            {"id": "G2.3", "order": 3, "title": "Measurement System Analysis", "objective": "Run a Gage R&R and interpret %GRR and number of distinct categories."},
+            {"id": "G2.4", "order": 4, "title": "Descriptive Statistics", "objective": "Calculate and interpret mean, median, standard deviation, and range."},
+            {"id": "G2.5", "order": 5, "title": "Normal Distribution", "objective": "Use the 68-95-99.7 rule and check normality before capability analysis."},
+            {"id": "G2.6", "order": 6, "title": "Sigma Level and DPMO", "objective": "Convert defects and opportunities into DPMO and sigma level."},
+            {"id": "G2.7", "order": 7, "title": "Cp and Cpk", "objective": "Calculate capability indices and explain the difference between potential and actual capability."}
+          ]
+        },
+        {
+          "id": "green-3",
+          "number": 3,
+          "title": "Analyze",
+          "duration": "4 hours",
+          "summary": "Use graphs, root cause tools, risk analysis, and statistical tests to separate real causes from noise.",
+          "lessons": [
+            {"id": "G3.1", "order": 1, "title": "Graphs and Data Displays", "objective": "Select histograms, box plots, run charts, and scatter plots for the question."},
+            {"id": "G3.2", "order": 2, "title": "Root Cause Analysis", "objective": "Combine fishbone, 5 Whys, stratification, and process observation."},
+            {"id": "G3.3", "order": 3, "title": "FMEA", "objective": "Score severity, occurrence, and detection and prioritize failure modes."},
+            {"id": "G3.4", "order": 4, "title": "Hypothesis Testing Basics", "objective": "Form null and alternative hypotheses and interpret p-values correctly."},
+            {"id": "G3.5", "order": 5, "title": "Correlation", "objective": "Measure the strength and direction of a linear relationship."},
+            {"id": "G3.6", "order": 6, "title": "Simple Regression", "objective": "Fit a line, interpret slope and R-squared, and check residuals."},
+            {"id": "G3.7", "order": 7, "title": "ANOVA Introduction", "objective": "Compare means across three or more groups and read the F-test."}
+          ]
+        },
+        {
+          "id": "green-4",
+          "number": 4,
+          "title": "Improve",
+          "duration": "2.5 hours",
+          "summary": "Choose solutions with evidence, test them safely, mistake-proof the process, and begin designing experiments.",
+          "lessons": [
+            {"id": "G4.1", "order": 1, "title": "Solution Selection", "objective": "Use impact, effort, risk, and cost to choose among candidate solutions."},
+            {"id": "G4.2", "order": 2, "title": "Pilot Testing", "objective": "Design a small trial with clear success measures and a rollback plan."},
+            {"id": "G4.3", "order": 3, "title": "Poka-Yoke", "objective": "Add mistake-proofing devices or checks that prevent or detect errors."},
+            {"id": "G4.4", "order": 4, "title": "Lean Tools for Improvement", "objective": "Apply flow, pull, standard work, and quick changeover thinking."},
+            {"id": "G4.5", "order": 5, "title": "DOE Introduction", "objective": "Explain factors, levels, responses, and why experiments beat one-factor tests."}
+          ]
+        },
+        {
+          "id": "green-5",
+          "number": 5,
+          "title": "Control",
+          "duration": "2 hours",
+          "summary": "Keep the gains by monitoring the process, documenting the new standard, and assigning clear ownership.",
+          "lessons": [
+            {"id": "G5.1", "order": 1, "title": "Control Charts", "objective": "Select X-bar/R, I-MR, p, np, c, or u charts and apply basic rules."},
+            {"id": "G5.2", "order": 2, "title": "Control Plans", "objective": "Document metrics, sampling, reactions, and owners."},
+            {"id": "G5.3", "order": 3, "title": "SOPs and Standardization", "objective": "Write usable standard work and train to it."}
+          ]
+        },
+        {
+          "id": "green-6",
+          "number": 6,
+          "title": "Project Management and Software",
+          "duration": "2 hours",
+          "summary": "Run the project professionally and use Excel or Minitab for the core analyses.",
+          "lessons": [
+            {"id": "G6.1", "order": 1, "title": "Project Management", "objective": "Plan tasks, manage risks, communicate status, and close the project."},
+            {"id": "G6.2", "order": 2, "title": "Excel and Minitab Basics", "objective": "Use descriptive statistics, control charts, capability, and t-tests in software."}
+          ]
+        }
+      ],
+      "coverageChecklist": [
+        {"topic": "Define: charter", "lessons": ["G1.1"]},
+        {"topic": "Define: stakeholders", "lessons": ["G1.2"]},
+        {"topic": "Define: VOC/CTQ", "lessons": ["G1.3"]},
+        {"topic": "Measure: data plan", "lessons": ["G2.1"]},
+        {"topic": "Measure: sampling", "lessons": ["G2.2"]},
+        {"topic": "Measure: MSA", "lessons": ["G2.3"]},
+        {"topic": "Measure: descriptive statistics", "lessons": ["G2.4"]},
+        {"topic": "Measure: normal distribution", "lessons": ["G2.5"]},
+        {"topic": "Measure: sigma level", "lessons": ["G2.6"]},
+        {"topic": "Measure: DPMO", "lessons": ["G2.6"]},
+        {"topic": "Measure: Cp/Cpk", "lessons": ["G2.7"]},
+        {"topic": "Analyze: graphs", "lessons": ["G3.1"]},
+        {"topic": "Analyze: root cause", "lessons": ["G3.2"]},
+        {"topic": "Analyze: FMEA", "lessons": ["G3.3"]},
+        {"topic": "Analyze: hypothesis testing basics", "lessons": ["G3.4"]},
+        {"topic": "Analyze: correlation", "lessons": ["G3.5"]},
+        {"topic": "Analyze: simple regression", "lessons": ["G3.6"]},
+        {"topic": "Analyze: ANOVA intro", "lessons": ["G3.7"]},
+        {"topic": "Improve: solution selection", "lessons": ["G4.1"]},
+        {"topic": "Improve: pilot", "lessons": ["G4.2"]},
+        {"topic": "Improve: poka-yoke", "lessons": ["G4.3"]},
+        {"topic": "Improve: Lean tools", "lessons": ["G4.4"]},
+        {"topic": "Improve: DOE intro", "lessons": ["G4.5"]},
+        {"topic": "Control: control charts", "lessons": ["G5.1"]},
+        {"topic": "Control: control plan", "lessons": ["G5.2"]},
+        {"topic": "Control: SOPs", "lessons": ["G5.3"]},
+        {"topic": "Project management", "lessons": ["G6.1"]},
+        {"topic": "Excel/Minitab basics", "lessons": ["G6.2"]}
+      ],
+      "project": {
+        "title": "Reduce Appointment No-Shows",
+        "brief": "Charter a project to reduce no-shows in a clinic, bank branch, or service center. Build a data plan, check the measurement system, baseline the no-show rate, run a Pareto and hypothesis test, pilot a reminder solution, and hand off a control chart and control plan."
+      },
+      "exam": {
+        "questions": 60,
+        "passingScore": 80,
+        "format": "Multiple choice, calculation questions, and a case-based DMAIC review."
+      },
+      "cheatSheet": [
+        "Z = (X - mean) / standard deviation",
+        "DPMO = defects / (units x opportunities) x 1,000,000",
+        "Cp = (USL - LSL) / 6 sigma; Cpk = min((USL - mean)/3 sigma, (mean - LSL)/3 sigma)",
+        "p-value < alpha: reject the null hypothesis"
+      ],
+      "nextChecklist": [
+        "I can build a data collection plan and a sampling plan.",
+        "I can interpret a Gage R&R and a capability report.",
+        "I can choose a basic hypothesis test for a question.",
+        "I can hand off a control chart and control plan."
+      ]
+    },
+    {
+      "id": "black",
+      "name": "Black Belt",
+      "level": 4,
+      "color": "black",
+      "icon": "fa-crown",
+      "lessonTarget": "35-45",
+      "studyTime": "80-100 hours",
+      "audience": "Full-time improvement leaders who lead complex, cross-functional projects and coach Green Belts.",
+      "prerequisites": "Green Belt certification and completion of at least one DMAIC project.",
+      "previousRecap": "Green Belt recap: DMAIC projects need a charter, trustworthy measurement, capability analysis, hypothesis tests, pilots, and control plans; simple regression and ANOVA support decisions.",
+      "outcomes": [
+        "Lead complex DMAIC and design projects across functions",
+        "Apply advanced statistics, regression, and designed experiments",
+        "Handle attribute measurement systems, non-normal data, and advanced SPC",
+        "Integrate Lean, DFSS, change leadership, finance, and mentoring"
+      ],
+      "modules": [
+        {
+          "id": "black-1",
+          "number": 1,
+          "title": "Probability and Inference",
+          "duration": "5 hours",
+          "summary": "Build the statistical foundation for advanced decision-making: distributions, sampling, confidence, power, and the full hypothesis testing toolkit.",
+          "lessons": [
+            {"id": "B1.1", "order": 1, "title": "Probability Distributions", "objective": "Recognize normal, binomial, Poisson, exponential, and Weibull patterns."},
+            {"id": "B1.2", "order": 2, "title": "Sampling Distributions and the Central Limit Theorem", "objective": "Explain why sample means behave predictably."},
+            {"id": "B1.3", "order": 3, "title": "Confidence Intervals", "objective": "Interpret interval estimates for means, proportions, and differences."},
+            {"id": "B1.4", "order": 4, "title": "Power and Sample Size", "objective": "Balance alpha, beta, effect size, and sample size."},
+            {"id": "B1.5", "order": 5, "title": "Choosing the Right Hypothesis Test", "objective": "Select a test from the data type, number of groups, and assumptions."},
+            {"id": "B1.6", "order": 6, "title": "t-Tests", "objective": "Run one-sample, two-sample, and paired t-tests."},
+            {"id": "B1.7", "order": 7, "title": "ANOVA", "objective": "Run one-way and two-way ANOVA and interpret interactions."},
+            {"id": "B1.8", "order": 8, "title": "Non-Parametric Tests", "objective": "Use Mann-Whitney, Kruskal-Wallis, and sign tests when assumptions fail."},
+            {"id": "B1.9", "order": 9, "title": "Chi-Square Tests", "objective": "Test independence and goodness of fit for categorical data."}
+          ]
+        },
+        {
+          "id": "black-2",
+          "number": 2,
+          "title": "Measurement Systems",
+          "duration": "2 hours",
+          "summary": "Extend MSA to pass/fail and categorical judgments, and understand calibration and uncertainty.",
+          "lessons": [
+            {"id": "B2.1", "order": 1, "title": "Attribute MSA", "objective": "Run attribute agreement analysis and interpret kappa."},
+            {"id": "B2.2", "order": 2, "title": "Measurement Uncertainty and Calibration", "objective": "Separate calibration, bias, linearity, and uncertainty."}
+          ]
+        },
+        {
+          "id": "black-3",
+          "number": 3,
+          "title": "Regression and Modeling",
+          "duration": "3 hours",
+          "summary": "Model relationships with multiple predictors and binary outcomes, then check whether the model is trustworthy.",
+          "lessons": [
+            {"id": "B3.1", "order": 1, "title": "Multiple Regression", "objective": "Interpret coefficients, adjusted R-squared, and overall model tests."},
+            {"id": "B3.2", "order": 2, "title": "Logistic Regression", "objective": "Model yes/no outcomes with odds ratios."},
+            {"id": "B3.3", "order": 3, "title": "Regression Diagnostics", "objective": "Check residuals, leverage, influence, and lack of fit."},
+            {"id": "B3.4", "order": 4, "title": "Multicollinearity and Model Building", "objective": "Detect correlated predictors and choose a parsimonious model."}
+          ]
+        },
+        {
+          "id": "black-4",
+          "number": 4,
+          "title": "Design of Experiments",
+          "duration": "4 hours",
+          "summary": "Design efficient experiments, screen many factors, optimize responses, and make designs robust to noise.",
+          "lessons": [
+            {"id": "B4.1", "order": 1, "title": "Full Factorial DOE", "objective": "Design and analyze a full factorial with main effects and interactions."},
+            {"id": "B4.2", "order": 2, "title": "Fractional Factorial DOE", "objective": "Screen many factors with resolution III, IV, and V designs."},
+            {"id": "B4.3", "order": 3, "title": "Blocking and Randomization", "objective": "Protect experiments from nuisance variables."},
+            {"id": "B4.4", "order": 4, "title": "Response Surface Methods", "objective": "Find optimum settings with central composite or Box-Behnken designs."},
+            {"id": "B4.5", "order": 5, "title": "Robust Design and Taguchi", "objective": "Reduce sensitivity to noise using control and noise factors."}
+          ]
+        },
+        {
+          "id": "black-5",
+          "number": 5,
+          "title": "Advanced SPC and Capability",
+          "duration": "2.5 hours",
+          "summary": "Monitor complex processes with advanced charts and handle capability when data are not normal or runs are short.",
+          "lessons": [
+            {"id": "B5.1", "order": 1, "title": "Advanced SPC", "objective": "Use CUSUM, EWMA, and multivariate charts appropriately."},
+            {"id": "B5.2", "order": 2, "title": "Non-Normal Capability", "objective": "Transform data or fit a distribution before calculating capability."},
+            {"id": "B5.3", "order": 3, "title": "Short-Run SPC", "objective": "Monitor small batches with standardized or target charts."}
+          ]
+        },
+        {
+          "id": "black-6",
+          "number": 6,
+          "title": "Lean and DFSS",
+          "duration": "4 hours",
+          "summary": "Integrate Lean flow tools with Six Sigma and design new processes right the first time with DMADV, QFD, and Kano.",
+          "lessons": [
+            {"id": "B6.1", "order": 1, "title": "Lean Six Sigma Integration", "objective": "Combine waste reduction and variation reduction in one strategy."},
+            {"id": "B6.2", "order": 2, "title": "Value Stream Mapping", "objective": "Map material and information flow and calculate lead time."},
+            {"id": "B6.3", "order": 3, "title": "TPM", "objective": "Improve equipment reliability with autonomous and planned maintenance."},
+            {"id": "B6.4", "order": 4, "title": "SMED", "objective": "Reduce changeover time by separating internal and external work."},
+            {"id": "B6.5", "order": 5, "title": "Standard Work", "objective": "Document the current best method with takt, sequence, and inventory."},
+            {"id": "B6.6", "order": 6, "title": "5S and Visual Management", "objective": "Create a self-explaining, self-cleaning workplace."},
+            {"id": "B6.7", "order": 7, "title": "Design for Six Sigma (DMADV)", "objective": "Define, Measure, Analyze, Design, and Verify a new process or product."},
+            {"id": "B6.8", "order": 8, "title": "QFD", "objective": "Translate customer needs into design requirements with the House of Quality."},
+            {"id": "B6.9", "order": 9, "title": "Kano Model", "objective": "Classify features as basic, performance, or delighter."}
+          ]
+        },
+        {
+          "id": "black-7",
+          "number": 7,
+          "title": "Leadership and Finance",
+          "duration": "3 hours",
+          "summary": "Lead complex change, build project pipelines, prove financial benefit, and develop other belts.",
+          "lessons": [
+            {"id": "B7.1", "order": 1, "title": "Advanced FMEA", "objective": "Use action priority, risk review, and integration with control plans."},
+            {"id": "B7.2", "order": 2, "title": "Change Management", "objective": "Use a structured approach to build awareness, desire, knowledge, ability, and reinforcement."},
+            {"id": "B7.3", "order": 3, "title": "Team Leadership", "objective": "Lead cross-functional teams, manage conflict, and make decisions."},
+            {"id": "B7.4", "order": 4, "title": "Project Selection", "objective": "Prioritize projects by impact, feasibility, risk, and strategic fit."},
+            {"id": "B7.5", "order": 5, "title": "Financial Analysis (COPQ, ROI)", "objective": "Build a benefit case with hard and soft savings."},
+            {"id": "B7.6", "order": 6, "title": "Mentoring", "objective": "Coach Green Belts and review project logic and statistics."}
+          ]
+        }
+      ],
+      "coverageChecklist": [
+        {"topic": "Advanced statistics and probability distributions", "lessons": ["B1.1", "B1.2"]},
+        {"topic": "Attribute MSA", "lessons": ["B2.1"]},
+        {"topic": "Full hypothesis testing (t-tests)", "lessons": ["B1.6"]},
+        {"topic": "ANOVA", "lessons": ["B1.7"]},
+        {"topic": "Non-parametric", "lessons": ["B1.8"]},
+        {"topic": "Chi-square", "lessons": ["B1.9"]},
+        {"topic": "Multiple regression", "lessons": ["B3.1"]},
+        {"topic": "Logistic regression", "lessons": ["B3.2"]},
+        {"topic": "Full DOE", "lessons": ["B4.1"]},
+        {"topic": "Fractional DOE", "lessons": ["B4.2"]},
+        {"topic": "Response surface methods", "lessons": ["B4.4"]},
+        {"topic": "Advanced SPC", "lessons": ["B5.1"]},
+        {"topic": "Non-normal capability", "lessons": ["B5.2"]},
+        {"topic": "Lean Six Sigma", "lessons": ["B6.1"]},
+        {"topic": "Value stream mapping", "lessons": ["B6.2"]},
+        {"topic": "TPM", "lessons": ["B6.3"]},
+        {"topic": "Design for Six Sigma (DMADV)", "lessons": ["B6.7"]},
+        {"topic": "QFD", "lessons": ["B6.8"]},
+        {"topic": "Kano", "lessons": ["B6.9"]},
+        {"topic": "FMEA", "lessons": ["B7.1"]},
+        {"topic": "Change management", "lessons": ["B7.2"]},
+        {"topic": "Team leadership", "lessons": ["B7.3"]},
+        {"topic": "Project selection", "lessons": ["B7.4"]},
+        {"topic": "Financial analysis (COPQ, ROI)", "lessons": ["B7.5"]},
+        {"topic": "Mentoring", "lessons": ["B7.6"]}
+      ],
+      "project": {
+        "title": "Reduce Turnaround Time and Defects in a Cross-Functional Process",
+        "brief": "Lead a full DMAIC project on a complex process such as loan approvals, patient discharge, or software release. Include MSA, capability, hypothesis testing, regression, a designed experiment, a pilot, and a control plan with financial validation."
+      },
+      "exam": {
+        "questions": 100,
+        "passingScore": 80,
+        "format": "Multiple choice, calculations, interpretation of software output, and a case-based defense."
+      },
+      "cheatSheet": [
+        "Use non-parametric tests when normality or equal-variance assumptions fail.",
+        "R-squared explains variance; adjusted R-squared penalizes extra predictors.",
+        "Resolution IV designs do not alias main effects with two-factor interactions.",
+        "Capability on non-normal data: transform, fit a distribution, or use non-parametric methods."
+      ],
+      "nextChecklist": [
+        "I can choose and interpret a hypothesis test from a scenario.",
+        "I can build and diagnose a multiple regression model.",
+        "I can design and analyze a screening experiment.",
+        "I can lead a cross-functional project and mentor a Green Belt."
+      ]
+    },
+    {
+      "id": "master-black",
+      "name": "Master Black Belt",
+      "level": 5,
+      "color": "master",
+      "icon": "fa-star",
+      "lessonTarget": "20-25",
+      "studyTime": "60-80 hours",
+      "audience": "Experienced Black Belts who design deployments, govern portfolios, consult on statistics, and build organizational capability.",
+      "prerequisites": "Black Belt certification and a track record of leading complex projects.",
+      "previousRecap": "Black Belt recap: complex projects need advanced statistics, designed experiments, Lean and DFSS, change leadership, and validated financial benefits.",
+      "outcomes": [
+        "Deploy strategy with Hoshin Kanri and govern an improvement portfolio",
+        "Validate financial benefits and select projects by strategic value",
+        "Coach Black Belts and consult on advanced statistical questions",
+        "Design training, build culture, and integrate analytics and Industry 4.0",
+        "Apply ISO 13053, ASQ, and IASSC certification standards and ethics"
+      ],
+      "modules": [
+        {
+          "id": "master-1",
+          "number": 1,
+          "title": "Strategy Deployment",
+          "duration": "4 hours",
+          "summary": "Connect improvement work to strategy through Hoshin Kanri, governance, portfolio selection, and validated financial benefits.",
+          "lessons": [
+            {"id": "M1.1", "order": 1, "title": "Hoshin Kanri", "objective": "Cascade strategic objectives into annual improvement priorities."},
+            {"id": "M1.2", "order": 2, "title": "Strategy Deployment and Catchball", "objective": "Use catchball to align goals, resources, and measures."},
+            {"id": "M1.3", "order": 3, "title": "Program Governance", "objective": "Design steering committees, review cadence, and escalation paths."},
+            {"id": "M1.4", "order": 4, "title": "Project Portfolio Selection", "objective": "Balance impact, risk, capacity, and strategic fit."},
+            {"id": "M1.5", "order": 5, "title": "Financial Validation", "objective": "Verify hard savings, avoid double counting, and track realization."}
+          ]
+        },
+        {
+          "id": "master-2",
+          "number": 2,
+          "title": "Coaching and Consulting",
+          "duration": "3 hours",
+          "summary": "Develop belts and leaders through coaching, mentoring, statistical consulting, and training design.",
+          "lessons": [
+            {"id": "M2.1", "order": 1, "title": "Coaching Belts", "objective": "Use questions, observation, and feedback to improve project thinking."},
+            {"id": "M2.2", "order": 2, "title": "Mentoring and Capability Building", "objective": "Build a pipeline of belts and subject-matter experts."},
+            {"id": "M2.3", "order": 3, "title": "Statistical Consulting", "objective": "Diagnose analysis problems and recommend defensible methods."},
+            {"id": "M2.4", "order": 4, "title": "Training Design", "objective": "Design practice-based curricula with assessment and transfer."}
+          ]
+        },
+        {
+          "id": "master-3",
+          "number": 3,
+          "title": "Enterprise Transformation",
+          "duration": "4 hours",
+          "summary": "Scale improvement across the enterprise with DFSS, change management, culture, balanced scorecards, and benchmarking.",
+          "lessons": [
+            {"id": "M3.1", "order": 1, "title": "Enterprise DFSS", "objective": "Deploy design methods across product, service, and process development."},
+            {"id": "M3.2", "order": 2, "title": "Organizational Change", "objective": "Use change models, stakeholder plans, and reinforcement."},
+            {"id": "M3.3", "order": 3, "title": "Culture Building", "objective": "Make improvement, respect, and data-based decisions part of daily work."},
+            {"id": "M3.4", "order": 4, "title": "Balanced Scorecard", "objective": "Connect financial, customer, process, and learning measures."},
+            {"id": "M3.5", "order": 5, "title": "Benchmarking", "objective": "Compare performance with best-in-class processes and adapt practices."}
+          ]
+        },
+        {
+          "id": "master-4",
+          "number": 4,
+          "title": "Analytics and Industry 4.0",
+          "duration": "2 hours",
+          "summary": "Integrate modern analytics, automation, and data governance into improvement work.",
+          "lessons": [
+            {"id": "M4.1", "order": 1, "title": "Analytics and Industry 4.0", "objective": "Use sensors, dashboards, predictive models, and automation."},
+            {"id": "M4.2", "order": 2, "title": "Data Governance and Ethics", "objective": "Protect privacy, ensure data quality, and use analytics responsibly."}
+          ]
+        },
+        {
+          "id": "master-5",
+          "number": 5,
+          "title": "Standards and Certification",
+          "duration": "2.5 hours",
+          "summary": "Understand the standards and ethical expectations behind certification and deployment.",
+          "lessons": [
+            {"id": "M5.1", "order": 1, "title": "ISO 13053", "objective": "Explain the ISO standard for Six Sigma methods and roles."},
+            {"id": "M5.2", "order": 2, "title": "ASQ and IASSC Standards", "objective": "Compare certification bodies, BoKs, and exam expectations."},
+            {"id": "M5.3", "order": 3, "title": "Certification and Ethics", "objective": "Apply truthfulness, competence, confidentiality, and conflict-of-interest rules."}
+          ]
+        },
+        {
+          "id": "master-6",
+          "number": 6,
+          "title": "Leadership and Value",
+          "duration": "3 hours",
+          "summary": "Lead a deployment, prove value, and sustain improvement beyond individual projects.",
+          "lessons": [
+            {"id": "M6.1", "order": 1, "title": "Change Leadership", "objective": "Lead leaders through resistance, politics, and competing priorities."},
+            {"id": "M6.2", "order": 2, "title": "ROI and Benefits Realization", "objective": "Track costs, benefits, cash flow, and value over time."},
+            {"id": "M6.3", "order": 3, "title": "Capstone: Leading a Deployment", "objective": "Build a deployment roadmap, governance model, and measurement plan."}
+          ]
+        }
+      ],
+      "coverageChecklist": [
+        {"topic": "Strategy deployment (Hoshin Kanri)", "lessons": ["M1.1", "M1.2"]},
+        {"topic": "Program governance", "lessons": ["M1.3"]},
+        {"topic": "Project portfolio selection", "lessons": ["M1.4"]},
+        {"topic": "Financial validation", "lessons": ["M1.5"]},
+        {"topic": "Coaching and mentoring", "lessons": ["M2.1", "M2.2"]},
+        {"topic": "Statistical consulting", "lessons": ["M2.3"]},
+        {"topic": "Enterprise DFSS", "lessons": ["M3.1"]},
+        {"topic": "Organizational change", "lessons": ["M3.2"]},
+        {"topic": "Culture building", "lessons": ["M3.3"]},
+        {"topic": "Training design", "lessons": ["M2.4"]},
+        {"topic": "Balanced scorecard", "lessons": ["M3.4"]},
+        {"topic": "Benchmarking", "lessons": ["M3.5"]},
+        {"topic": "Analytics and Industry 4.0 integration", "lessons": ["M4.1"]},
+        {"topic": "Ethics", "lessons": ["M4.2", "M5.3"]},
+        {"topic": "Certification standards (ISO 13053, ASQ, IASSC)", "lessons": ["M5.1", "M5.2"]}
+      ],
+      "project": {
+        "title": "Build an Enterprise Improvement Deployment Plan",
+        "brief": "Create a 12-month deployment plan for a multi-site organization: strategy map, Hoshin priorities, governance, portfolio, training pipeline, financial validation, and a balanced scorecard."
+      },
+      "exam": {
+        "questions": 100,
+        "passingScore": 80,
+        "format": "Case-based multiple choice, portfolio defense, and statistical consulting scenarios."
+      },
+      "cheatSheet": [
+        "Hoshin Kanri aligns breakthrough objectives with daily management.",
+        "Hard savings affect the P&L or cash flow; soft savings are avoided or theoretical costs.",
+        "Portfolio selection balances value, risk, capacity, and strategic fit.",
+        "ISO 13053 describes Six Sigma methods and roles; ASQ and IASSC define BoKs and exams."
+      ],
+      "nextChecklist": [
+        "I can link a project portfolio to strategic objectives.",
+        "I can coach a Black Belt through a statistical disagreement.",
+        "I can design a training and certification pathway.",
+        "I can validate financial benefits without double counting."
+      ]
+    }
+  ]
+}

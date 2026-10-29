@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statistics Workbench - Lean Six Sigma Training</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/statistics.css" rel="stylesheet">
+</head>
+<body class="stats-body">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid px-lg-4">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-chart-line"></i> Lean Six Sigma Training
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="modules.html">Modules</a></li>
+                    <li class="nav-item"><a class="nav-link" href="syllabus.html">Syllabus</a></li>
+                    <li class="nav-item"><a class="nav-link" href="calculators.html">Calculators</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="statistics.html">Statistics</a></li>
+                    <li class="nav-item"><a class="nav-link" href="quizzes.html">Quizzes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="stats-shell">
+        <header class="stats-topbar">
+            <div>
+                <div class="d-flex align-items-center gap-2 mb-2">
+                    <span class="stats-brand-mark"><i class="fas fa-chart-simple"></i></span>
+                    <span class="badge text-bg-light border">Integrated workbench</span>
+                </div>
+                <h1>Statistics</h1>
+                <p class="mb-0">Analyze a worksheet, run hypothesis tests, monitor processes, and build designed experiments in your browser.</p>
+            </div>
+            <div class="stats-actions">
+                <div class="input-group input-group-sm sample-picker">
+                    <span class="input-group-text"><i class="fas fa-database"></i></span>
+                    <select class="form-select" id="sampleSelect" aria-label="Example dataset">
+                        <option value="bottling">Bottling line</option>
+                        <option value="gage">Gage R&amp;R study</option>
+                        <option value="doe">2-level DOE</option>
+                        <option value="service">Service survey</option>
+                    </select>
+                    <button class="btn btn-outline-primary" type="button" id="loadSampleBtn">Load</button>
+                </div>
+                <button class="btn btn-sm btn-primary" type="button" id="importBtn"><i class="fas fa-file-import me-1"></i>Import CSV</button>
+                <button class="btn btn-sm btn-outline-primary" type="button" id="pasteBtn"><i class="fas fa-paste me-1"></i>Paste data</button>
+                <button class="btn btn-sm btn-outline-secondary" type="button" id="exportBtn"><i class="fas fa-file-export me-1"></i>Export</button>
+                <button class="btn btn-sm btn-outline-secondary" type="button" id="newBtn"><i class="fas fa-file-circle-plus me-1"></i>New</button>
+                <input type="file" id="fileInput" accept=".csv,.tsv,.txt" hidden>
+            </div>
+        </header>
+
+        <div class="stats-layout">
+            <aside class="stats-sidebar" aria-label="Analysis menu">
+                <div class="sidebar-heading">
+                    <span><i class="fas fa-compass me-2"></i>Analyses</span>
+                </div>
+                <div id="analysisMenu"></div>
+                <div class="sidebar-note">
+                    <i class="fas fa-circle-info"></i>
+                    <span>Calculations use the full worksheet. Blank cells are ignored for numeric analyses.</span>
+                </div>
+            </aside>
+
+            <main class="stats-main">
+                <section class="worksheet-card" aria-labelledby="worksheetTitle">
+                    <div class="worksheet-header">
+                        <div>
+                            <h2 id="worksheetTitle"><i class="fas fa-table-cells-large me-2"></i>Worksheet</h2>
+                            <div class="worksheet-meta" id="worksheetMeta">0 rows × 0 columns</div>
+                        </div>
+                        <div class="worksheet-tools">
+                            <button class="btn btn-sm btn-outline-secondary" type="button" id="addRowBtn"><i class="fas fa-plus me-1"></i>Row</button>
+                            <button class="btn btn-sm btn-outline-secondary" type="button" id="addColumnBtn"><i class="fas fa-plus me-1"></i>Column</button>
+                            <button class="btn btn-sm btn-outline-secondary" type="button" id="deleteColumnBtn"><i class="fas fa-minus me-1"></i>Column</button>
+                            <button class="btn btn-sm btn-outline-danger" type="button" id="clearBtn"><i class="fas fa-eraser me-1"></i>Clear</button>
+                        </div>
+                    </div>
+                    <div class="worksheet-tip">
+                        <i class="fas fa-hand-pointer"></i>
+                        Click a cell to edit. Click a column header to select it for deletion. Use Import or Paste data for larger datasets.
+                    </div>
+                    <div class="worksheet-scroll" id="worksheetContainer"></div>
+                    <div class="worksheet-footer">
+                        <span id="worksheetStatus"><i class="fas fa-circle-check me-1"></i>Ready</span>
+                        <span class="worksheet-selection" id="worksheetSelection">No column selected</span>
+                    </div>
+                </section>
+
+                <section id="analysisWorkspace" aria-live="polite"></section>
+            </main>
+        </div>
+    </div>
+
+    <footer class="stats-footer">
+        <div class="container-fluid px-lg-4 d-flex flex-wrap justify-content-between gap-2">
+            <span>Statistics workbench built for the Lean Six Sigma course.</span>
+            <span class="text-muted">No data leaves this browser.</span>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="pasteModal" tabindex="-1" aria-labelledby="pasteModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="pasteModalLabel"><i class="fas fa-paste me-2"></i>Paste worksheet data</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-muted small">Paste comma, tab, or semicolon-separated data. The first row is used as column names.</p>
+                    <textarea class="form-control font-monospace" id="pasteText" rows="12" placeholder="Order,Measurement,Machine&#10;1,12.4,A&#10;2,12.8,B"></textarea>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary" id="pasteImportBtn"><i class="fas fa-arrow-right-to-bracket me-1"></i>Use data</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="toast-container position-fixed bottom-0 end-0 p-3" id="toastContainer"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <script src="js/statistics-engine.js"></script>
+    <script src="js/statistics.js"></script>
+    <script src="js/statistics-analyses.js"></script>
+</body>
+</html>
