@@ -9,7 +9,7 @@ from flask_cors import CORS
 
 from . import db
 from .config import Config
-from .responses import not_implemented, ok, register_error_handlers
+from .responses import ok, register_error_handlers
 
 
 class ApiJSONProvider(DefaultJSONProvider):
@@ -42,6 +42,7 @@ def create_app(test_config=None):
         resources={r"/api/*": {"origins": origins}},
         supports_credentials=True,
         allow_headers=["Content-Type", "Authorization"],
+        expose_headers=["Content-Disposition"],
         methods=["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
     )
 
@@ -57,7 +58,7 @@ def create_app(test_config=None):
         return jsonify(
             {
                 "service": "Lean Six Sigma API",
-                "stage": 1,
+                "stage": 4,
                 "documentation": "backend/API.md",
                 "health": "/api/health",
             }
@@ -68,7 +69,7 @@ def create_app(test_config=None):
         return ok(
             {
                 "service": "Lean Six Sigma API",
-                "stage": 1,
+                "stage": 4,
                 "blueprints": [
                     "auth",
                     "progress",
@@ -82,7 +83,7 @@ def create_app(test_config=None):
 
     @app.get("/api/health")
     def health():
-        return ok({"status": "ok", "service": "Lean Six Sigma API", "stage": 1})
+        return ok({"status": "ok", "service": "Lean Six Sigma API", "stage": 4})
 
     @app.get("/api/health/db")
     def database_health():
@@ -90,10 +91,6 @@ def create_app(test_config=None):
             "SELECT DB_NAME() AS databaseName, SYSUTCDATETIME() AS serverTime"
         )
         return ok({"status": "ok", **row})
-
-    @app.get("/api/stage-1")
-    def stage_one_notice():
-        not_implemented(2, "Stage 1 is active. Authentication begins in Stage 2.")
 
     @app.after_request
     def add_api_headers(response):

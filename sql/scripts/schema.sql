@@ -152,6 +152,6 @@ CREATE TABLE Certifications (
     ExpiryDate DATETIME
 );
 
--- Full curriculum seed (26 modules, 111 lessons, starter quiz) is in seed_modules.sql.
+-- Full curriculum seed (26 modules, 112 lessons, starter quiz) is in seed_modules.sql.
 -- Run this file first, then seed_modules.sql.
 GO

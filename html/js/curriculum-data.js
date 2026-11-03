@@ -525,7 +525,7 @@ const curriculumData = {
       "exam": {
         "questions": 25,
         "passingScore": 80,
-        "format": "Multiple choice and short scenario questions drawn from the lesson quick checks."
+        "format": "25 multiple-choice questions with four options and explanations."
       },
       "cheatSheet": [
         "COPQ = prevention + appraisal + internal failure + external failure costs",
@@ -546,7 +546,7 @@ const curriculumData = {
       "level": 2,
       "color": "yellow",
       "icon": "fa-certificate",
-      "lessonTarget": "12-15",
+      "lessonTarget": "15-17",
       "studyTime": "15-20 hours",
       "audience": "Team members, supervisors, and process owners who support Green and Black Belt projects.",
       "prerequisites": "White Belt or equivalent basic quality awareness.",
@@ -555,7 +555,8 @@ const curriculumData = {
         "Map a process with SIPOC and a process map",
         "Build a basic project charter and data collection sheet",
         "Use Pareto, fishbone, 5 Whys, check sheets, and basic charts",
-        "Contribute to brainstorming, 5S, and team-based improvement"
+        "Contribute to brainstorming, 5S, and team-based improvement",
+        "Explain how a control plan and a basic control chart sustain an improvement"
       ],
       "modules": [
         {
@@ -711,9 +712,9 @@ const curriculumData = {
         {
           "id": "yellow-2",
           "number": 2,
-          "title": "DMAIC and Project Charters",
-          "duration": "60 min",
-          "summary": "Go deeper into DMAIC and learn the basic charter questions: why the project exists, what is in scope, how success is measured, and who is accountable.",
+          "title": "DMAIC, Charters, and Control",
+          "duration": "90 min",
+          "summary": "Go deeper into DMAIC and learn the basic charter questions: why the project exists, what is in scope, how success is measured, and who is accountable. Finish with the Control phase so the gain is held after the project closes.",
           "lessons": [
             {
               "id": "Y2.1",
@@ -805,6 +806,55 @@ const curriculumData = {
                   "A charter defines the problem, goal, scope, team, metrics, and milestones.",
                   "Keep causes and solutions out of the problem statement.",
                   "Get sponsor sign-off and revisit the charter at gate reviews."
+                ]
+              }
+            },
+            {
+              "id": "Y2.3",
+              "order": 3,
+              "title": "Control Plans and Basic SPC",
+              "objective": "Build a control plan and read a basic control chart so the improvement is sustained.",
+              "content": {
+                "why": "Improvements decay when everyone returns to the old way. The Control phase protects the gain by making the new method visible, measurable, owned, and easy to follow. A control plan and a simple control chart tell the process owner when to act and when to leave the process alone.",
+                "what": "A control plan is a one-page agreement that names the metric, the target or specification, how and how often it is measured, who owns it, and what to do when it goes out of range. A control chart plots the metric over time with a center line and limits so the team can separate normal variation from a real signal. For continuous data, an individuals and moving-range (I-MR) chart is a common starting point; for defect or pass/fail counts, a p or c chart fits. Standard work, visual management, and mistake-proofing (poka-yoke) support the plan by making the correct method the easy method.",
+                "how": [
+                  "Agree on one primary metric and its target or specification.",
+                  "Define the measurement method, sample size, frequency, and data owner.",
+                  "Plot a run or control chart and calculate limits only after the process is stable.",
+                  "Write a reaction plan that says who does what when a signal appears.",
+                  "Update standard work, training, and visual controls to match the new method.",
+                  "Hand the plan to the process owner and review it at a fixed cadence."
+                ],
+                "where": "Use control plans after every improvement, not only in manufacturing. Example: a clinic reduces appointment no-shows with reminder calls. The control plan tracks no-show rate weekly, names the front-desk lead as owner, and requires a huddle whenever two weeks exceed 8%. A software team tracks escaped defects per release on a p chart and reviews the rule when a signal appears. In a factory, an I-MR chart of fill volume shows when to adjust the filler.",
+                "when_not": "Do not calculate control limits from an unstable process or from mixed products and shifts; first stratify and stabilize. Do not turn the control plan into a long binder that no one reads. Do not react to every point; use the chart rules. Do not set a control plan without a named owner and reaction plan.",
+                "common_mistakes": [
+                  "No named process owner or no reaction plan.",
+                  "Measuring a different metric from the one the project improved.",
+                  "Recalculating control limits every time a point looks bad.",
+                  "Treating common-cause variation as a special cause and over-adjusting.",
+                  "Leaving the control plan in the project file instead of at the process."
+                ],
+                "quick_check": [
+                  {
+                    "q": "What belongs in a control plan?",
+                    "answer": "The metric, target or specification, measurement method, frequency, owner, and reaction plan.",
+                    "explanation": "A control plan makes monitoring and response explicit."
+                  },
+                  {
+                    "q": "Why should control limits wait until the process is stable?",
+                    "answer": "Limits from an unstable process describe the instability, not normal variation.",
+                    "explanation": "Stabilize and stratify first, then set limits."
+                  },
+                  {
+                    "q": "What is the purpose of a reaction plan?",
+                    "answer": "It tells the owner what to check and do when the chart signals a change.",
+                    "explanation": "A signal without a response does not sustain the gain."
+                  }
+                ],
+                "recap": [
+                  "Control plans name the metric, method, frequency, owner, and reaction plan.",
+                  "Control charts separate normal variation from real signals.",
+                  "Standard work and mistake-proofing make the new method stick."
                 ]
               }
             }
@@ -1340,6 +1390,12 @@ const curriculumData = {
           ]
         },
         {
+          "topic": "Control plans and basic SPC",
+          "lessons": [
+            "Y2.3"
+          ]
+        },
+        {
           "topic": "Data types",
           "lessons": [
             "Y3.1"
@@ -1402,24 +1458,26 @@ const curriculumData = {
       ],
       "project": {
         "title": "Reduce Waiting in a Service Process",
-        "brief": "Map one service process with SIPOC and a flowchart, collect two weeks of waiting-time data on a check sheet, build a Pareto chart of delay reasons, and run a 5 Whys on the top reason."
+        "brief": "Map one service process with SIPOC and a flowchart, collect two weeks of waiting-time data on a check sheet, build a Pareto chart of delay reasons, run a 5 Whys on the top reason, and draft a one-page control plan for the improved process."
       },
       "exam": {
         "questions": 40,
         "passingScore": 80,
-        "format": "Scenario-based multiple choice plus one process-map exercise."
+        "format": "40 multiple-choice questions with four options and explanations."
       },
       "cheatSheet": [
         "SIPOC = Suppliers, Inputs, Process, Outputs, Customers",
         "Pareto principle: roughly 80% of effects come from about 20% of causes",
         "5 Whys: ask why until you reach a cause you can act on",
-        "5S = Sort, Set in order, Shine, Standardize, Sustain"
+        "5S = Sort, Set in order, Shine, Standardize, Sustain",
+        "Control plan = metric, target, monitoring method, frequency, owner, and reaction plan"
       ],
       "nextChecklist": [
         "I can draw a SIPOC for a process I own.",
         "I can build a check sheet and a Pareto chart.",
         "I can facilitate a 5 Whys without blaming a person.",
-        "I can explain how 5S supports flow."
+        "I can explain how 5S supports flow.",
+        "I can draft a control plan and read a basic control chart."
       ]
     },
     {
@@ -2957,7 +3015,7 @@ const curriculumData = {
       "exam": {
         "questions": 60,
         "passingScore": 80,
-        "format": "Multiple choice, calculation questions, and a case-based DMAIC review."
+        "format": "60 multiple-choice questions with four options and explanations, including calculations."
       },
       "cheatSheet": [
         "Z = (X - mean) / standard deviation",
@@ -5032,7 +5090,7 @@ const curriculumData = {
       "exam": {
         "questions": 100,
         "passingScore": 80,
-        "format": "Multiple choice, calculations, interpretation of software output, and a case-based defense."
+        "format": "100 multiple-choice questions with four options and explanations, including calculations and output interpretation."
       },
       "cheatSheet": [
         "Use non-parametric tests when normality or equal-variance assumptions fail.",
@@ -6280,7 +6338,7 @@ const curriculumData = {
       "exam": {
         "questions": 100,
         "passingScore": 80,
-        "format": "Case-based multiple choice, portfolio defense, and statistical consulting scenarios."
+        "format": "100 case-based multiple-choice questions with four options and explanations."
       },
       "cheatSheet": [
         "Hoshin Kanri aligns breakthrough objectives with daily management.",

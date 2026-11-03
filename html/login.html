@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <script src="js/i18n.js"></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -17,38 +18,117 @@
                 <a class="nav-link" href="modules.html">Modules</a>
                 <a class="nav-link" href="syllabus.html">Syllabus</a>
                 <a class="nav-link" href="statistics.html">Statistics</a>
+                <a class="nav-link" href="resources.html">Resources</a>
+                <a class="nav-link" href="verify.html">Verify</a>
             </div>
         </div>
     </nav>
 
     <div class="container py-5">
         <div class="row justify-content-center">
-            <div class="col-lg-5">
+            <div class="col-xl-7 col-lg-8">
+                <div id="authMessage" class="mb-3"></div>
                 <div class="card shadow-sm">
-                    <div class="card-header bg-primary text-white"><h4 class="mb-0"><i class="fas fa-user me-1"></i>Learner Login</h4></div>
+                    <div class="card-header bg-primary text-white">
+                        <h4 class="mb-0" data-i18n="login.cardTitle"><i class="fas fa-user me-1"></i>Learner Access</h4>
+                    </div>
                     <div class="card-body">
-                        <p class="text-muted small">This demo stores your name and progress in this browser only. No password is sent anywhere.</p>
-                        <form id="loginForm">
-                            <div class="mb-3">
-                                <label for="firstName" class="form-label">First name</label>
-                                <input type="text" class="form-control" id="firstName" required>
+                        <p class="text-muted small mb-3" data-i18n="login.intro">Sign in to sync lesson progress, saved project templates, official belt exams, and certificates. If the API is unavailable, the offline demo still works in this browser.</p>
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="signinTab" type="button" data-bs-toggle="tab" data-bs-target="#signinPane" role="tab" aria-controls="signinPane" aria-selected="true" data-i18n="login.signInTab">Sign in</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="registerTab" type="button" data-bs-toggle="tab" data-bs-target="#registerPane" role="tab" aria-controls="registerPane" aria-selected="false" data-i18n="login.createTab">Create account</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content pt-4">
+                            <div class="tab-pane fade show active" id="signinPane" role="tabpanel" aria-labelledby="signinTab">
+                                <form id="loginForm" novalidate>
+                                    <div class="mb-3">
+                                        <label for="loginUsername" class="form-label" data-i18n="login.usernameOrEmail">Username or email</label>
+                                        <input type="text" class="form-control" id="loginUsername" autocomplete="username" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="loginPassword" class="form-label" data-i18n="login.password">Password</label>
+                                        <input type="password" class="form-control" id="loginPassword" autocomplete="current-password" required>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary w-100" id="loginSubmit" data-i18n="login.signIn">
+                                        <i class="fas fa-right-to-bracket me-1"></i>Sign in
+                                    </button>
+                                </form>
                             </div>
-                            <div class="mb-3">
-                                <label for="email" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="email" required>
+                            <div class="tab-pane fade" id="registerPane" role="tabpanel" aria-labelledby="registerTab">
+                                <form id="registerForm" novalidate>
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <label for="regFirstName" class="form-label" data-i18n="login.firstName">First name</label>
+                                            <input type="text" class="form-control" id="regFirstName" autocomplete="given-name" maxlength="50" required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="regLastName" class="form-label" data-i18n="login.lastName">Last name</label>
+                                            <input type="text" class="form-control" id="regLastName" autocomplete="family-name" maxlength="50">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="regUsername" class="form-label" data-i18n="login.username">Username</label>
+                                            <input type="text" class="form-control" id="regUsername" autocomplete="username" minlength="3" maxlength="50" pattern="[A-Za-z0-9][A-Za-z0-9_.-]{2,49}" required>
+                                            <div class="form-text" data-i18n="login.usernameHint">3-50 letters, numbers, dots, dashes, or underscores.</div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="regEmail" class="form-label" data-i18n="login.email">Email</label>
+                                            <input type="email" class="form-control" id="regEmail" autocomplete="email" maxlength="100" required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="regPassword" class="form-label" data-i18n="login.password">Password</label>
+                                            <input type="password" class="form-control" id="regPassword" autocomplete="new-password" minlength="8" required>
+                                            <div class="form-text" data-i18n="login.passwordHint">At least 8 characters.</div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="regConfirm" class="form-label" data-i18n="login.confirmPassword">Confirm password</label>
+                                            <input type="password" class="form-control" id="regConfirm" autocomplete="new-password" minlength="8" required>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="alert alert-info py-2 small mb-0">
+                                                New accounts start at <strong>White Belt</strong>. Pass each official belt exam to advance and unlock the next level.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-success w-100 mt-3" id="registerSubmit" data-i18n="login.createAccount">
+                                        <i class="fas fa-user-plus me-1"></i>Create account
+                                    </button>
+                                </form>
                             </div>
-                            <div class="mb-3">
-                                <label for="beltLevel" class="form-label">Current belt level</label>
-                                <select class="form-select" id="beltLevel">
-                                    <option value="white">White Belt</option>
-                                    <option value="yellow">Yellow Belt</option>
-                                    <option value="green">Green Belt</option>
-                                    <option value="black">Black Belt</option>
-                                    <option value="master-black">Master Black Belt</option>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card shadow-sm mt-4">
+                    <div class="card-header bg-light fw-semibold" data-i18n="login.offlineTitle"><i class="fas fa-wifi me-1"></i>Offline demo</div>
+                    <div class="card-body">
+                        <p class="text-muted small" data-i18n="login.offlineIntro">Use the original browser-only profile. Progress and saved templates stay on this device until you sign in and migrate them.</p>
+                        <div id="offlineSessionNote"></div>
+                        <form id="offlineForm" class="row g-3">
+                            <div class="col-md-5">
+                                <label for="firstName" class="form-label" data-i18n="login.firstName">First name</label>
+                                <input type="text" class="form-control" id="firstName" maxlength="50" required>
+                            </div>
+                            <div class="col-md-7">
+                                <label for="email" class="form-label" data-i18n="login.email">Email</label>
+                                <input type="email" class="form-control" id="email" maxlength="100" required>
+                            </div>
+                            <div class="col-md-7">
+                                <label for="offlineBeltLevel" class="form-label" data-i18n="login.currentBelt">Current belt level</label>
+                                <select class="form-select" id="offlineBeltLevel">
+                                    <option value="white" data-i18n="belt.white">White Belt</option>
+                                    <option value="yellow" data-i18n="belt.yellow">Yellow Belt</option>
+                                    <option value="green" data-i18n="belt.green">Green Belt</option>
+                                    <option value="black" data-i18n="belt.black">Black Belt</option>
+                                    <option value="master-black" data-i18n="belt.master-black">Master Black Belt</option>
                                 </select>
-                                <div class="form-text">Controls which project templates are unlocked. You can change it later in your profile.</div>
                             </div>
-                            <button type="submit" class="btn btn-primary w-100"><i class="fas fa-right-to-bracket me-1"></i>Continue</button>
+                            <div class="col-md-5 d-flex align-items-end">
+                                <button type="submit" class="btn btn-outline-primary w-100" data-i18n="login.continueOffline"><i class="fas fa-play me-1"></i>Continue offline</button>
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -56,8 +136,14 @@
         </div>
     </div>
 
-    <footer class="bg-dark text-white py-4 mt-5"><div class="container text-center"><p class="mb-0">&copy; 2024 Lean Six Sigma Training Course.</p></div></footer>
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-1">&copy; 2026 Lean Six Sigma Training Course.</p>
+            <p class="mb-0 small text-white-50">A Product of NR LAB</p>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/api-client.js"></script>
     <script src="js/app.js"></script>
     <script src="js/auth.js"></script>
 </body>

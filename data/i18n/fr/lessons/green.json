@@ -1,0 +1,1125 @@
+{
+  "G1.1": {
+    "why": "Une charte est le contrat entre l'équipe du projet et le sponsor. Les ceintures vertes dirigent souvent des projets, une charte claire est donc essentielle pour le contrôle de la portée, des ressources et une définition mesurable du succès.",
+    "what": "Une charte Green Belt comprend l'analyse de rentabilisation, l'énoncé du problème, l'objectif SMART, les limites du champ d'application et hors du champ d'application, les rôles de l'équipe, le calendrier et les jalons, les mesures principales, les risques, les contraintes et les approbations. L’énoncé du problème décrit quoi, où, quand et combien, avec des preuves de base, et évite de nommer une cause ou une solution. L'analyse de rentabilisation relie le projet à l'impact sur le client, au coût d'une mauvaise qualité ou à la stratégie.",
+    "how": [
+      "Collectez les données de base avant de rédiger l’énoncé du problème.",
+      "Décrivez l'écart avec quoi, où, quand et combien.",
+      "Écrivez un objectif spécifique, mesurable, réalisable, pertinent et limité dans le temps.",
+      "Définissez les limites du processus et répertoriez explicitement les travaux hors de portée.",
+      "Nommez le sponsor, le propriétaire du processus, le chef d'équipe et les membres de l'équipe.",
+      "Définissez des jalons pour définir, mesurer, analyser, améliorer et contrôler.",
+      "Définissez la métrique principale, la source de données et les avantages attendus.",
+      "Obtenez l’approbation du sponsor avant le début d’une importante collecte de données."
+    ],
+    "where": "Utilisez une charte complète pour chaque projet Green Belt, en particulier pour les travaux transversaux. Exemple : les patients admis attendent en moyenne 6,2 heures entre leur arrivée aux urgences et un lit d'hospitalisation, contre un objectif de 4 heures. L’objectif est de réduire la médiane à 4 heures d’ici 12 semaines. La portée s'étend de l'arrivée d'urgence à l'attribution du lit ; les nouvelles constructions sont hors de portée.",
+    "when_not": "Ne créez pas une charte complète pour une petite réparation qui prend une heure ; utilisez une liste de tâches. N'utilisez pas la charte pour verrouiller une solution privilégiée avant que l'équipe n'ait analysé le problème.",
+    "common_mistakes": [
+      "Mettre une cause ou une solution dans l’énoncé du problème.",
+      "Un objectif vague tel que « améliorer le flux » sans mesure ni date.",
+      "Pas de référence, pas de propriétaire de processus ou une portée si large que le projet ne peut pas se terminer."
+    ],
+    "quick_check": [
+      {
+        "q": "Que doit éviter un énoncé de problème ?",
+        "answer": "Nommer une cause ou une solution privilégiée.",
+        "explanation": "L'énoncé du problème décrit le manque de données probantes ; les causes sont étudiées plus tard."
+      },
+      {
+        "q": "Pourquoi une ligne de base est-elle importante dans une charte ?",
+        "answer": "Il montre les performances actuelles et rend crédibles l’objectif et les bénéfices ultérieurs.",
+        "explanation": "Sans base de référence, l’équipe ne peut pas prouver d’amélioration."
+      },
+      {
+        "q": "Que signifie hors de portée ?",
+        "answer": "Travaux que le projet ne traitera pas.",
+        "explanation": "Les exclusions explicites empêchent la dérive de la portée."
+      }
+    ],
+    "recap": [
+      "Une charte définit le problème, l'objectif, la portée, l'équipe, les mesures et les jalons.",
+      "Utilisez les données de base et gardez les causes et les solutions en dehors de l'énoncé du problème.",
+      "L'approbation du sponsor confirme l'autorité, les ressources et les attentes."
+    ]
+  },
+  "G1.2": {
+    "why": "Les projets échouent lorsque les personnes clés sont surprises, exclues ou résistent activement. La cartographie des parties prenantes aide l'équipe à planifier l'engagement avant qu'il ne devienne un problème.",
+    "what": "Une partie prenante est toute personne concernée par le projet ou capable de l'influencer. Un outil courant est la grille influence-intérêt. Les parties prenantes à forte influence et à fort intérêt sont gérées en étroite collaboration. Une influence élevée et un faible intérêt restent satisfaits. Une faible influence et un intérêt élevé sont tenus informés. La faible influence et le faible intérêt sont surveillés. L'équipe évalue également la position de chaque partie prenante : partisan, neutre ou bloqueur.",
+    "how": [
+      "Énumérez toutes les personnes affectées par ou capables d’influencer le projet.",
+      "Évaluez l’influence et l’intérêt de chaque partie prenante.",
+      "Placez-les sur la grille influence-intérêt.",
+      "Évaluez leur position actuelle et ce dont ils ont besoin.",
+      "Choisissez une méthode et une fréquence d’engagement.",
+      "Attribuez un propriétaire pour chaque relation clé.",
+      "Examinez la carte à chaque porte du projet."
+    ],
+    "where": "Utilisez la cartographie des parties prenantes sur des projets interfonctionnels, réglementés ou politiquement sensibles. Dans un projet de sortie d'hôpital, le directeur des opérations et les directeurs de service ont une grande influence et un grand intérêt ; L'informatique peut avoir une grande influence mais un intérêt moindre ; les patients et les familles suscitent un grand intérêt et devraient être inclus dans le cadre de groupes de discussion ou d'enquêtes.",
+    "when_not": "Ne construisez pas une grande carte des parties prenantes pour une petite solution locale avec deux participants. Ne confondez pas les parties prenantes avec les clients et ne considérez pas l'engagement comme une communication ponctuelle.",
+    "common_mistakes": [
+      "Il manque un bloqueur de clé jusqu'à la fin du projet.",
+      "Communiquer uniquement vers le haut et ignorer le personnel de première ligne.",
+      "Une carte sans plan d'engagement, sans propriétaire ou sans suivi."
+    ],
+    "quick_check": [
+      {
+        "q": "Comment gérer une partie prenante à forte influence et à fort intérêt ?",
+        "answer": "En étroite collaboration, avec un engagement et une implication réguliers dans les décisions.",
+        "explanation": "Ces parties prenantes peuvent fortement influencer le projet et se soucier du résultat."
+      },
+      {
+        "q": "Pourquoi cartographier la position des parties prenantes ?",
+        "answer": "Comprendre qui soutient, est neutre ou peut bloquer le projet.",
+        "explanation": "Stance aide l'équipe à adapter l'engagement et à répondre aux préoccupations."
+      },
+      {
+        "q": "Quand faut-il revoir la cartographie des parties prenantes ?",
+        "answer": "Aux portes du projet et lorsque les circonstances changent.",
+        "explanation": "L'influence, l'intérêt et la position peuvent changer au cours du projet."
+      }
+    ],
+    "recap": [
+      "Cartographiez les parties prenantes par influence et par intérêt, puis planifiez leur engagement.",
+      "Évaluez la position et attribuez un propriétaire aux relations clés.",
+      "Incluez le personnel de première ligne, et pas seulement les dirigeants."
+    ]
+  },
+  "G1.3": {
+    "why": "Les ceintures vertes doivent garantir que le projet résout un problème client, et non une commodité interne. Les CTQ transforment le langage du client en spécifications mesurables auxquelles le processus peut être tenu.",
+    "what": "La voix du client provient d'entretiens, d'enquêtes, de plaintes, de groupes de discussion, d'observations et de données de garantie. Un arbre CTQ relie un besoin général à un moteur puis à une exigence mesurable. Chaque CTQ a besoin d'une définition opérationnelle, d'un objectif, de limites de spécification et d'une définition claire des défauts. Les limites de spécification définissent les performances acceptables ; ce ne sont pas les mêmes que les limites de contrôle.",
+    "how": [
+      "Recueillez les COV à partir de plusieurs sources, pas seulement d'une seule enquête.",
+      "Regroupez les déclarations similaires par thèmes.",
+      "Construisez une arborescence CTQ du besoin au pilote en passant par l'exigence mesurable.",
+      "Définissez la métrique, la cible et les limites de spécification supérieures ou inférieures.",
+      "Définissez ce qui constitue un défaut.",
+      "Validez le CTQ et les spécifications avec les clients ou les experts en processus."
+    ],
+    "where": "Utilisez VOC et CTQ dans chaque projet Green Belt. Exemple : un client dit : « Je veux que ma décision de prêt soit rapide. » Le conducteur est le moment de la décision. Le CTQ c'est le délai entre une demande complète et une décision, avec un objectif de deux jours ouvrables et une spécification supérieure de trois jours. Une décision qui prend plus de trois jours est un défaut.",
+    "when_not": "N'inventez pas de CTQ sans la contribution du client. Ne confondez pas un CTQ avec une solution, telle que « nous avons besoin d'une nouvelle application ». Les exigences légales, de sécurité et réglementaires sont des exigences obligatoires et non des préférences facultatives du client.",
+    "common_mistakes": [
+      "Rédaction des besoins dans un langage de solution.",
+      "Créer trop de CTQ et perdre la concentration.",
+      "Fixer un cahier des charges sans vérifier qu'il est mesurable et réalisable."
+    ],
+    "quick_check": [
+      {
+        "q": "À quoi se connecte un arbre CTQ ?",
+        "answer": "Un besoin du client avec des pilotes et des exigences mesurables.",
+        "explanation": "L'arbre traduit la voix du client en métriques de processus."
+      },
+      {
+        "q": "Quelle est la différence entre une limite de spécification et une limite de contrôle ?",
+        "answer": "Une limite de spécification définit les exigences du client ou de conception ; une limite de contrôle décrit la variation du processus.",
+        "explanation": "Les spécifications proviennent des exigences ; les limites de contrôle proviennent des données de processus."
+      },
+      {
+        "q": "Qu’est-ce qui rend un CTQ utilisable ?",
+        "answer": "Il est mesurable, a un objectif ou une spécification et a une définition claire du défaut.",
+        "explanation": "Sans cela, l’équipe ne peut pas le mesurer ou l’améliorer."
+      }
+    ],
+    "recap": [
+      "VOC capture les besoins des clients ; Les CTQ les rendent mesurables.",
+      "Définissez la métrique, la cible, les limites de spécification et la règle de défaut.",
+      "Validez les CTQ avec les clients et gardez-les concentrés."
+    ]
+  },
+  "G2.1": {
+    "why": "Sans plan de collecte de données, les données sont souvent incomplètes, incohérentes ou incapables de répondre à la question du projet. Un plan garantit que les bonnes données sont collectées de la bonne manière.",
+    "what": "Un plan de collecte de données définit la définition métrique et opérationnelle, le type de données, la source, l'emplacement, le collecteur, le moment, la méthode d'échantillonnage, la taille de l'échantillon, le formulaire d'enregistrement et la méthode de validation. Il prévoit également une analyse du système de mesure. Les données existantes doivent être utilisées lorsqu’elles sont fiables ; de nouvelles données sont nécessaires lorsque les données actuelles ne peuvent pas répondre à la question.",
+    "how": [
+      "Écrivez la question à laquelle les données doivent répondre.",
+      "Définissez la métrique de manière opérationnelle, y compris les points de début et d'arrêt.",
+      "Choisissez la source de données et vérifiez sa qualité.",
+      "Décidez de la méthode d’échantillonnage et de la taille de l’échantillon.",
+      "Concevez ou sélectionnez le formulaire d’enregistrement.",
+      "Piloter le plan et former les collecteurs.",
+      "Vérifiez l’exactitude et l’exhaustivité d’un échantillon de dossiers."
+    ],
+    "where": "Utilisez un plan de collecte de données à chaque phase de mesure et pour toute décision importante. Exemple : pour le service d'urgence, le début est l'horodatage d'arrivée et la fin est l'horodatage d'attribution des lits d'hospitalisation. La source est le dossier de santé électronique. Recueillez tous les patients admis pendant quatre semaines, stratifiez-les par équipe et par jour, et validez vingt enregistrements par rapport au système source.",
+    "when_not": "Ne collectez pas de nouvelles données lorsque des données validées existantes répondent déjà à la question. Ne collectez pas de données sans poser une question claire et ne collectez pas trop de données simplement parce que les données sont disponibles.",
+    "common_mistakes": [
+      "Des définitions opérationnelles vagues que différents collectionneurs interprètent différemment.",
+      "Aucun plan d'échantillonnage, les données sont donc pratiques plutôt que représentatives.",
+      "Ignorer l’analyse du système de mesure et faire confiance aux mauvaises données."
+    ],
+    "quick_check": [
+      {
+        "q": "Qu’est-ce qu’une définition opérationnelle ?",
+        "answer": "Une description précise de la façon dont une métrique est mesurée, y compris les règles de démarrage, d'arrêt et de comptage.",
+        "explanation": "Cela garantit que différentes personnes mesurent la même chose de la même manière."
+      },
+      {
+        "q": "Quand faut-il utiliser les données existantes ?",
+        "answer": "Lorsqu’ils sont fiables, pertinents et suffisants pour répondre à la question.",
+        "explanation": "La collecte de nouvelles données prend du temps et doit être justifiée."
+      },
+      {
+        "q": "Pourquoi piloter un plan de collecte de données ?",
+        "answer": "Pour rechercher des définitions peu claires, des champs manquants et des problèmes de collecte avant le déploiement complet.",
+        "explanation": "Un pilote évite des semaines de données inutilisables."
+      }
+    ],
+    "recap": [
+      "Un plan de collecte de données définit la métrique, la source, l'échantillonnage, les collecteurs et la validation.",
+      "Utiliser des définitions opérationnelles et piloter le plan.",
+      "Préférez les données existantes fiables aux nouvelles collectes inutiles."
+    ]
+  },
+  "G2.2": {
+    "why": "Mesurer chaque unité est souvent impossible ou trop coûteux. Un bon échantillon permet à l’équipe de déduire la population avec une incertitude connue ; un échantillon biaisé conduit à des conclusions erronées.",
+    "what": "La population est toute unité d’intérêt ; l'échantillon est le sous-ensemble mesuré. L'échantillonnage aléatoire donne à chaque unité une chance égale et réduit les biais de sélection. L'échantillonnage stratifié divise la population en groupes homogènes, tels que l'équipe ou la région, et des échantillons au sein de chacun. L'échantillonnage systématique prend chaque kième unité mais peut s'aligner sur un modèle caché. L'échantillonnage de commodité est facile mais souvent biaisé.",
+    "how": [
+      "Définir la population et la base de sondage.",
+      "Choisissez un échantillonnage aléatoire, stratifié ou systématique pour répondre à la question.",
+      "Décidez de la taille de l’échantillon en fonction de la confiance, de la marge d’erreur et de la variabilité.",
+      "Sélectionnez les unités en utilisant une méthode aléatoire et documentez-les.",
+      "Vérifiez la représentativité de l’échantillon.",
+      "Enregistrez les non-réponses ou les données manquantes et ajustez le plan."
+    ],
+    "where": "Utilisez l'échantillonnage pour les audits, les enquêtes auprès des clients, les contrôles de qualité et les études de processus. Exemple : une équipe a 1 000 factures par mois et en sélectionne 100 au hasard avec un générateur de nombres aléatoires. Ils stratifient par factures de fin de mois et factures régulières afin que les deux types soient représentés. Ils évitent de prélever uniquement les factures faciles à récupérer.",
+    "when_not": "Ne pas échantillonner lorsque la population est petite ou que le risque est élevé et qu’une inspection à 100 % est requise. N’utilisez pas d’échantillon de convenance pour tirer des conclusions sur une population et n’ignorez pas le biais de non-réponse.",
+    "common_mistakes": [
+      "Utiliser les unités les plus faciles d’accès.",
+      "Échantillonnage d’une seule équipe, région ou type de produit.",
+      "Un échantillon si petit que la marge d’erreur est trop large pour être utile."
+    ],
+    "quick_check": [
+      {
+        "q": "Quel est le principal avantage de l’échantillonnage aléatoire ?",
+        "answer": "Cela réduit le biais de sélection et prend en charge l’inférence sur la population.",
+        "explanation": "Chaque unité a une chance égale d'être sélectionnée."
+      },
+      {
+        "q": "Quand l’échantillonnage stratifié est-il utile ?",
+        "answer": "Lorsque la population comprend des groupes distincts qui doivent être représentés.",
+        "explanation": "L'échantillonnage au sein de chaque groupe garantit la couverture de segments importants."
+      },
+      {
+        "q": "Pourquoi un échantillon de convenance peut-il être trompeur ?",
+        "answer": "Il se peut que cela surreprésente les unités faciles d’accès et oublie des pans importants de la population.",
+        "explanation": "L’échantillonnage de convenance n’est pas aléatoire et peut créer un biais de sélection."
+      }
+    ],
+    "recap": [
+      "Définissez la population, la base de sondage, la méthode et la taille.",
+      "Utilisez un échantillonnage aléatoire ou stratifié pour réduire les biais.",
+      "Évitez les échantillons de convenance à des fins d’inférence et vérifiez la représentativité."
+    ]
+  },
+  "G2.3": {
+    "why": "La variation des mesures peut ressembler à une variation du processus. Avant l'analyse de capacité ou le test d'hypothèse, confirmez que le système de mesure peut distinguer les bonnes pièces des mauvaises.",
+    "what": "L'analyse du système de mesure évalue l'exactitude par le biais, la linéarité et la stabilité, et la précision par la répétabilité et la reproductibilité. La répétabilité est une variation lorsqu'un évaluateur mesure la même pièce à plusieurs reprises. La reproductibilité est la variation entre les évaluateurs mesurant les mêmes pièces. Une étude de Gage R&R estime les deux. %GRR compare la variation de mesure à la variation totale ; plus bas c'est mieux. Le nombre de catégories distinctes, ou NDC, indique le nombre de niveaux différents que le système peut distinguer.",
+    "how": [
+      "Sélectionnez dix pièces qui couvrent la gamme réelle du processus.",
+      "Faites appel à deux ou trois évaluateurs qui effectuent normalement la mesure.",
+      "Demandez à chaque évaluateur de mesurer chaque pièce deux ou trois fois, dans un ordre aléatoire et à l'aveugle.",
+      "Analysez l'étude dans Minitab sous Stat > Quality Tools > Gage Study > Gage R&R, ou dans un modèle Excel validé.",
+      "Interpréter le %GRR : un taux inférieur à 10 % est généralement acceptable, un taux de 10 à 30 % est acceptable sous certaines conditions et un taux supérieur à 30 % est généralement inacceptable.",
+      "Vérifiez NDC ; cinq catégories ou plus sont souhaitables. S'il est faible, améliorez le système avant de collecter les données de processus."
+    ],
+    "where": "Utilisez Gage R&R pour l'inspection dimensionnelle, les tests en laboratoire, le temps de traitement des appels, la notation des enquêtes et toute mesure qui déterminera une décision. Exemple : un système de mesure comporte 18 % de GRR et quatre catégories distinctes. C'est acceptable sous certaines conditions, donc l'équipe améliore le luminaire avant d'utiliser les données pour une étude de capacité.",
+    "when_not": "N'exécutez pas un R&R Gage standard sur des tests destructifs ; utilisez une conception imbriquée. N'utilisez pas un seul évaluateur, car cela manque de reproductibilité. Ne sautez pas MSA lorsque les données justifient une décision coûteuse.",
+    "common_mistakes": [
+      "Utiliser des pièces qui ne représentent pas la gamme de processus.",
+      "Ne pas aveugler les évaluateurs sur les lectures précédentes.",
+      "Blâmer le processus pour la variation créée par le système de mesure."
+    ],
+    "quick_check": [
+      {
+        "q": "Quelle est la différence entre répétabilité et reproductibilité ?",
+        "answer": "La répétabilité est la variation effectuée par un évaluateur sur la même pièce ; la reproductibilité est une variation entre les évaluateurs.",
+        "explanation": "Gage R&R sépare la variation de l'équipement de la variation de l'évaluateur."
+      },
+      {
+        "q": "Que mesure le %GRR ?",
+        "answer": "Variation de mesure en pourcentage de la variation totale.",
+        "explanation": "Un %GRR inférieur signifie que le système de mesure est mieux à même de voir les différences réelles des processus."
+      },
+      {
+        "q": "Quelle valeur NDC est souhaitable ?",
+        "answer": "Cinq catégories distinctes ou plus.",
+        "explanation": "NDC indique combien de niveaux le système de mesure peut distinguer."
+      }
+    ],
+    "recap": [
+      "MSA vérifie si le système de mesure est suffisamment précis et exact.",
+      "Gage R&R sépare la répétabilité de la reproductibilité.",
+      "Utilisez %GRR et NDC pour décider s’il convient d’améliorer le système de mesure."
+    ]
+  },
+  "G2.4": {
+    "why": "Les statistiques descriptives résument le centre, la propagation et la forme avant l'inférence. Ils révèlent des valeurs aberrantes, des biais et une instabilité qu’une moyenne à elle seule cacherait.",
+    "what": "La moyenne est la moyenne arithmétique. La médiane est la valeur médiane lorsque les données sont classées. Le mode est la valeur la plus fréquente. La plage est le maximum moins le minimum. L'écart type estime la distance typique par rapport à la moyenne et la variance est son carré. L'intervalle interquartile correspond au troisième quartile moins le premier quartile. Utilisez la médiane et l'IQR pour les données asymétriques ou les données comportant des valeurs aberrantes ; utilisez la moyenne et l’écart type pour les données à peu près symétriques.",
+    "how": [
+      "Tracez les données avant de les résumer.",
+      "Calculez le centre avec la moyenne ou la médiane.",
+      "Calculez l'écart avec l'écart type, la plage ou l'IQR.",
+      "Recherchez les valeurs aberrantes, les asymétries et les pics multiples.",
+      "Choisissez le résumé qui correspond à la forme et à la question."
+    ],
+    "where": "Utilisez des statistiques descriptives pour les références, les comparaisons avant et après, les entrées de capacités et les contrôles de qualité des données. Exemple : les temps de service sont de 10, 12, 11, 13, 12 et 60 minutes. La moyenne est d'environ 19,7 minutes, mais la médiane est de 12 minutes car la valeur de 60 minutes est une valeur aberrante. Ne signaler que la moyenne exagérerait l’expérience typique.",
+    "when_not": "N'utilisez pas la moyenne seule pour les données asymétriques ou les données comportant des valeurs aberrantes. Ne comparez pas les écarts types sans contexte et n’ignorez pas l’ordre temporel lorsque le processus peut changer.",
+    "common_mistakes": [
+      "Signaler une moyenne pour des données fortement asymétriques.",
+      "Utiliser l’écart type sans vérifier les valeurs aberrantes.",
+      "Utiliser des formules de population lorsque les données constituent un échantillon."
+    ],
+    "quick_check": [
+      {
+        "q": "Quel résumé est le plus robuste aux valeurs aberrantes ?",
+        "answer": "La médiane.",
+        "explanation": "La médiane dépend de la position et non de la taille des valeurs extrêmes."
+      },
+      {
+        "q": "Que décrit l’écart type ?",
+        "answer": "La répartition typique des données autour de la moyenne.",
+        "explanation": "Un écart type plus grand signifie plus de variation."
+      },
+      {
+        "q": "Pourquoi tracer les données avant de calculer les statistiques ?",
+        "answer": "Pour voir la forme, les valeurs aberrantes, les écarts et les multiples pics cachés par un seul nombre.",
+        "explanation": "Les graphiques évitent les résumés trompeurs."
+      }
+    ],
+    "recap": [
+      "La moyenne, la médiane, l'écart type, la plage et l'IQR décrivent différents aspects des données.",
+      "Utilisez la médiane et l'IQR pour les données asymétriques ou les valeurs aberrantes.",
+      "Tracez toujours les données avant de choisir un résumé."
+    ]
+  },
+  "G2.5": {
+    "why": "De nombreuses méthodes de capabilité et d’hypothèse supposent une normalité approximative. La courbe normale et la règle 68-95-99,7 aident l'équipe à interpréter les variations et à reconnaître quand cette hypothèse n'est pas sûre.",
+    "what": "Une distribution normale est en forme de cloche et symétrique, définie par sa moyenne et son écart type. Environ 68 % des valeurs se situent à moins d’un écart type de la moyenne, environ 95 % à moins de deux et environ 99,7 % à moins de trois. Un score z est le nombre d'écarts types d'une valeur par rapport à la moyenne : z est égal à x moins la moyenne, divisé par l'écart type. Vérifiez la normalité avec un histogramme, un diagramme de probabilité normale et un test tel qu'Anderson-Darling.",
+    "how": [
+      "Tracez un histogramme et un tracé de probabilité normale.",
+      "Exécutez un test de normalité et interprétez la valeur p dans son contexte.",
+      "N'oubliez pas qu'une valeur p élevée ne prouve pas la normalité ; il échoue seulement à le rejeter.",
+      "Si ce n'est pas normal, envisagez une transformation, une méthode non paramétrique ou une distribution différente.",
+      "Revérifiez les hypothèses après toute transformation."
+    ],
+    "where": "Utilisez des contrôles de normalité avant les études de capacité, les cartes de contrôle et les tests T. Exemple : un processus a une moyenne de 100 et un écart type de 10, donc environ 95 % des valeurs se situent entre 80 et 120. Une valeur de 125 a un score z de 2,5. Dans Excel, utilisez NORM.DIST ou NORM.S.DIST ; dans Minitab, utilisez Graphique > Tracé de probabilité.",
+    "when_not": "Ne présumez pas la normalité des temps de cycle, des décomptes ou des proportions asymétriques. Ne vous fiez pas à un test de normalité avec un petit échantillon et ne transformez pas les données sans expliquer ce que signifie le résultat transformé.",
+    "common_mistakes": [
+      "Traiter chaque ensemble de données comme d’habitude.",
+      "Utiliser un test de normalité comme seul contrôle.",
+      "Confondre la règle empirique des 95 % avec un intervalle de confiance de 95 %."
+    ],
+    "quick_check": [
+      {
+        "q": "Environ quel pourcentage de données normales se situe à moins de deux écarts types de la moyenne ?",
+        "answer": "Environ 95%.",
+        "explanation": "La règle empirique donne environ 68 %, 95 % et 99,7 % pour un, deux et trois écarts types."
+      },
+      {
+        "q": "Un processus a une moyenne de 50 et un écart type de 5. Quel est le score z pour 62 ?",
+        "answer": "2.4.",
+        "explanation": "z est égal à (62 - 50) / 5 = 2,4."
+      },
+      {
+        "q": "Un test de normalité donne p = 0,01. Que doit faire l’équipe ?",
+        "answer": "Traitez la normalité comme discutable et envisagez une transformation, une autre distribution ou une méthode non paramétrique.",
+        "explanation": "Une petite valeur p est une preuve contre la normalité."
+      }
+    ],
+    "recap": [
+      "Les données normales sont symétriques et résumées par moyenne et écart type.",
+      "Utilisez la règle 68-95-99,7 et les scores z pour interpréter la variation.",
+      "Vérifiez la normalité avant les méthodes qui la supposent."
+    ]
+  },
+  "G2.6": {
+    "why": "Le niveau Sigma et le DPMO placent la qualité sur une échelle commune et relient les défauts à la capacité du processus. Ils aident les équipes à comparer et à suivre les améliorations.",
+    "what": "Une opportunité est une chance qu'un défaut se produise. Le DPMO correspond aux défauts divisés par les unités multipliées par les opportunités, multipliés par un million. Le rendement est égal à un moins les défauts divisé par les opportunités. Le niveau Sigma est trouvé à partir de DPMO en utilisant la distribution normale inverse. De nombreuses organisations ajoutent un décalage de 1,5 sigma pour tenir compte de la dérive à long terme ; indiquez toujours si le numéro est à court ou à long terme.",
+    "how": [
+      "Définissez clairement un défaut et une opportunité.",
+      "Comptez les défauts, les unités et les opportunités sur la même période.",
+      "Calculez le DPMO : les défauts divisés par les unités multipliés par les opportunités, puis multipliés par un million.",
+      "Convertissez DPMO en valeur z avec la normale inverse, puis ajoutez 1,5 si vous utilisez la convention à long terme.",
+      "Dans Excel, utilisez NORM.S.INV(1 - DPMO/1000000) + 1.5.",
+      "Comparez les performances de base et améliorées en utilisant les mêmes définitions."
+    ],
+    "where": "Utilisez DPMO et le niveau sigma pour les défauts de fabrication, les erreurs de service, les processus de soins de santé et le travail transactionnel. Exemple : 10 défauts répartis sur 1 000 unités avec cinq opportunités chacun donnent 10 divisé par 5 000, soit 0,002. Cela représente 2 000 DPMO et un rendement de 99,8 %. La normale inverse de 0,998 est d’environ 2,88 ; l'ajout du décalage de 1,5 donne environ 4,38 sigma.",
+    "when_not": "Ne gonflez pas le nombre d’opportunités pour améliorer le niveau sigma. N'utilisez pas DPMO lorsque les définitions de défauts sont incohérentes et ne comparez pas les niveaux sigma entre les processus avec des définitions d'opportunités différentes.",
+    "common_mistakes": [
+      "Compter les unités défectueuses comme des défauts, ou l’inverse.",
+      "Utiliser le mauvais nombre d’opportunités.",
+      "Oublier de préciser si le décalage de 1,5 a été appliqué."
+    ],
+    "quick_check": [
+      {
+        "q": "Cinq défauts, 500 unités et quatre opportunités par unité. Qu’est-ce que le DPMO ?",
+        "answer": "2 500 DPMO.",
+        "explanation": "5 / (500 x 4) = 0,0025, soit 2 500 par million."
+      },
+      {
+        "q": "Que représente un décalage de 1,5 sigma ?",
+        "answer": "Un ajustement pour la dérive du processus à long terme.",
+        "explanation": "Le changement est une convention ; l'équipe doit indiquer si elle a été utilisée."
+      },
+      {
+        "q": "Pourquoi les définitions des opportunités doivent-elles être cohérentes ?",
+        "answer": "Différents nombres d'opportunités modifient le niveau DPMO et sigma, rendant les comparaisons invalides.",
+        "explanation": "Le niveau Sigma n’est comparable que lorsque les règles de comptage sont les mêmes."
+      }
+    ],
+    "recap": [
+      "DPMO est égal aux défauts divisés par les unités multipliées par les opportunités, multipliées par un million.",
+      "Le niveau Sigma provient de la normale inverse du rendement, souvent avec un décalage de 1,5.",
+      "Gardez les définitions des défauts et des opportunités cohérentes."
+    ]
+  },
+  "G2.7": {
+    "why": "Les indices de capacité comparent la répartition et le centrage du processus avec les limites des spécifications. Ils montrent si le processus peut répondre aux exigences et s'il faut réduire les variations ou se recentrer.",
+    "what": "Cp est égal à la largeur de spécification divisée par six sigma : (USL - LSL) / (6 sigma). Il décrit la capacité potentielle si le processus était parfaitement centré. Cpk est égal au minimum de (USL - moyenne) / (3 sigma) et (moyenne - LSL) / (3 sigma). Cela tient compte du centrage, donc Cpk est toujours inférieur ou égal à Cp. Ppk utilise un sigma global à long terme. Les cibles sont un Cpk d'au moins 1,33, avec une force de 1,67 ou plus.",
+    "how": [
+      "Confirmez que le processus est stable et que les données sont à peu près normales.",
+      "Estimez le sigma en utilisant la variation intra-sous-groupe pour Cp et Cpk.",
+      "Calculez Cp à partir de la largeur de spécification.",
+      "Calculez Cpk à partir de la distance jusqu'à la limite de spécification la plus proche.",
+      "Décidez si vous souhaitez réduire la variation ou déplacer la moyenne.",
+      "Revérifiez la capacité après l’amélioration."
+    ],
+    "where": "Utilisez l'analyse de capacité pour les tolérances de fabrication, les spécifications de temps de service, les délais d'exécution du laboratoire et la précision des transactions. Exemple : USL 20, LSL 10, moyenne 16 et sigma 1,5. Cp est égal à 10/9 = 1,11. Cpk est égal au minimum de (20 - 16) / 4,5 = 0,89 et (16 - 10) / 4,5 = 1,33, donc Cpk est de 0,89. Le processus n’est pas capable ; centrer la moyenne sur 15 ferait monter Cpk à 1,11.",
+    "when_not": "Ne calculez pas Cp ou Cpk sur un processus instable. N'utilisez pas d'indice de capacité basé sur la normale pour des données clairement non normales sans une méthode appropriée. Ne comparez pas les indices calculés avec des spécifications ou des conventions sigma différentes.",
+    "common_mistakes": [
+      "En utilisant le sigma global mais en appelant le résultat Cp.",
+      "Ignorer le centrage et rapporter uniquement Cp.",
+      "Capacité de calcul avant de vérifier la stabilité."
+    ],
+    "quick_check": [
+      {
+        "q": "Quelle est la différence entre Cp et Cpk ?",
+        "answer": "Cp mesure la propagation potentielle ; Cpk tient également compte du centrage.",
+        "explanation": "Un processus peut avoir un bon Cp mais un mauvais Cpk s'il est décentré."
+      },
+      {
+        "q": "USL 30, LSL 10, moyenne 22, sigma 2. Que sont Cp et Cpk ?",
+        "answer": "Cp = 1,67 et Cpk = 1,33.",
+        "explanation": "Cp = 20/12 = 1,67 ; Cpk = min(8/6, 12/6) = 1,33."
+      },
+      {
+        "q": "Un processus a Cpk 0,8. Qu'est-ce que cela suggère ?",
+        "answer": "Le processus n’est pas performant et produit probablement des défauts.",
+        "explanation": "Un Cpk inférieur à 1,0 signifie que la spécification est plus étroite que l'étendue du processus par rapport à la moyenne."
+      }
+    ],
+    "recap": [
+      "Cp mesure la capacité potentielle ; Cpk mesure la capacité réelle avec centrage.",
+      "Cpk est toujours inférieur ou égal à Cp.",
+      "Confirmez la stabilité et la normalité avant de faire confiance aux indices de capacité."
+    ]
+  },
+  "G3.1": {
+    "why": "Les graphiques révèlent des modèles, des valeurs aberrantes et des relations que cachent les statistiques récapitulatives. Le bon affichage rend les données faciles à interpréter ; un mauvais affichage peut induire l'équipe en erreur.",
+    "what": "Un histogramme montre la distribution des données continues : forme, centre, répartition, lacunes et valeurs aberrantes. Un diagramme en boîte compare les distributions entre les groupes en utilisant la médiane, les quartiles, l'intervalle interquartile et les valeurs aberrantes. Un diagramme de séquences trace les données dans le temps afin de révéler les tendances, les changements et les cycles. Un nuage de points montre la relation entre deux variables continues, notamment la direction, la force, la forme et les valeurs aberrantes.",
+    "how": [
+      "Énoncez la question à laquelle le graphique doit répondre.",
+      "Identifiez les types de données et le nombre de groupes.",
+      "Choisissez l'affichage : histogramme ou diagramme en boîte pour la distribution, diagramme d'exécution pour le temps, nuage de points pour les relations.",
+      "Étiquetez les deux axes, les unités et la période de temps.",
+      "Tracez toutes les données et recherchez des modèles ou des points inhabituels.",
+      "Vérifiez le modèle par rapport aux connaissances du processus avant de tirer des conclusions."
+    ],
+    "where": "Utilisez des graphiques dans tout le DMAIC. Dans un centre d'appels, un histogramme montre la répartition du temps de traitement, un diagramme en boîte compare les équipes, un graphique d'exécution montre les tendances quotidiennes et un nuage de points explore le temps de traitement par rapport à la satisfaction. Dans le domaine des soins de santé, un diagramme de parcours peut montrer le temps d'attente avant et après un changement ; un box plot peut comparer les quartiers.",
+    "when_not": "N'utilisez pas d'histogramme pour les données catégorielles. N'utilisez pas de nuage de points lorsqu'une variable est catégorielle. Évitez les graphiques 3D ou les diagrammes circulaires lorsqu'une comparaison précise est importante, et ne tronquez pas les axes pour exagérer les différences.",
+    "common_mistakes": [
+      "Choisir un graphique qui ne correspond pas à la question ou au type de données.",
+      "Tronquer un axe pour qu'un petit changement paraisse important.",
+      "Traiter un modèle dans un graphique comme preuve de cause."
+    ],
+    "quick_check": [
+      {
+        "q": "Quel graphique montre le mieux une distribution de données continues ?",
+        "answer": "Un histogramme.",
+        "explanation": "Les histogrammes regroupent les valeurs continues dans des groupes et affichent la forme et la répartition."
+      },
+      {
+        "q": "Quel graphique compare les distributions entre plusieurs groupes ?",
+        "answer": "Une boîte à moustaches.",
+        "explanation": "Les boîtes à moustaches montrent la médiane, les quartiles et les valeurs aberrantes pour chaque groupe."
+      },
+      {
+        "q": "Quel graphique montre la relation entre deux variables continues ?",
+        "answer": "Un nuage de points.",
+        "explanation": "Les nuages ​​de points affichent des valeurs appariées et révèlent la direction et la force."
+      }
+    ],
+    "recap": [
+      "Faites correspondre le graphique à la question et au type de données.",
+      "Les histogrammes et les diagrammes en boîte montrent les distributions ; les graphiques d'exécution affichent l'heure ; les nuages ​​de points montrent les relations.",
+      "Les graphiques suggèrent des tendances, mais les causes nécessitent une analyse plus approfondie."
+    ]
+  },
+  "G3.2": {
+    "why": "Les équipes sautent souvent vers des solutions avant de comprendre le problème. L'analyse structurée des causes profondes augmente la certitude que le correctif s'attaque à la cause réelle plutôt qu'à un symptôme.",
+    "what": "L'analyse des causes profondes est une enquête structurée qui combine l'observation des processus, les diagrammes en arête de poisson, les 5 pourquoi, la stratification, l'analyse de Pareto et les contrôles statistiques. La stratification divise les données par équipe, produit, région, opérateur ou autre facteur pour voir où se concentre le problème. Une cause profonde est la raison sous-jacente pour laquelle un problème survient ; les causes contributives rendent la situation pire ou plus probable.",
+    "how": [
+      "Définissez le problème avec des données et une métrique claire.",
+      "Cartographiez le processus et observez le travail là où il se produit.",
+      "Réfléchissez aux causes possibles avec un diagramme en arête de poisson.",
+      "Stratifiez les données pour déterminer où et quand le problème survient.",
+      "Utilisez 5 pourquoi sur les causes les plus probables, en vérifiant chaque réponse.",
+      "Confirmez la cause avec des données, un pilote ou une comparaison conçue.",
+      "Sélectionnez la cause première et associez-la à une solution exploitable."
+    ],
+    "where": "Utilisez l’analyse des causes profondes des défauts, des retards, des erreurs, des plaintes et des incidents. Exemple : les rapports de laboratoire sont en retard. La stratification montre que le problème est concentré dans les tests statistiques effectués sur le quart de soir. Une arête de poisson et 5 Pourquoi indiquent que les tests statistiques sont groupés avec des tests de routine. Un pilote avec un seuil de priorité confirme la cause et réduit les rapports en retard.",
+    "when_not": "Ne démarrez pas l’analyse des causes profondes avant que le problème ne soit clairement défini. N'utilisez pas une enquête complète pour un correctif simple et connu. Ne vous arrêtez pas à la corrélation ou à la première cause plausible.",
+    "common_mistakes": [
+      "Choisir d’abord une solution, puis rechercher des causes qui la soutiennent.",
+      "Accepter une seule cause sans vérifier les interactions.",
+      "Laisser de côté les personnes de première ligne qui savent comment le travail se déroule réellement."
+    ],
+    "quick_check": [
+      {
+        "q": "A quoi sert la stratification ?",
+        "answer": "Il divise les données en groupes pour voir où se concentre un problème.",
+        "explanation": "La stratification par équipe, produit ou région réduit souvent rapidement la cause."
+      },
+      {
+        "q": "Pourquoi combiner arête de poisson et 5 Pourquoi ?",
+        "answer": "Fishbone élargit la recherche des causes ; 5 Pourquoi analyse les plus probables.",
+        "explanation": "Ensemble, ils soutiennent une réflexion à la fois divergente et ciblée."
+      },
+      {
+        "q": "Comment confirmer une cause profonde suspectée ?",
+        "answer": "Avec des données, un pilote ou une comparaison conçue.",
+        "explanation": "Une cause plausible ne suffit pas ; il faut le tester."
+      }
+    ],
+    "recap": [
+      "L'analyse des causes profondes combine l'observation, les outils de causes, la stratification et les données.",
+      "Confirmez la cause avant de mettre en œuvre une solution.",
+      "Incluez les connaissances de première ligne et évitez les reproches."
+    ]
+  },
+  "G3.3": {
+    "why": "L'AMDEC détecte les modes de défaillance avant qu'ils ne causent des dommages, afin que l'équipe puisse prévenir les problèmes plutôt que d'y réagir. C’est particulièrement utile lorsqu’un processus ou une conception change.",
+    "what": "L'analyse des modes de défaillance et de leurs effets répertorie chaque mode de défaillance, son effet, sa gravité, sa cause, son occurrence, les contrôles actuels et sa détection. La gravité, l'occurrence et la détection sont notées de 1 à 10. Le numéro de priorité du risque est égal à la gravité multipliée par l'occurrence et par la détection. Un RPN plus élevé signifie une priorité plus élevée, mais un score de gravité élevé exige une attention même lorsque le RPN est faible. Certaines organisations utilisent des tables de priorité d'action au lieu de RPN.",
+    "how": [
+      "Définir le processus ou la portée de la conception et constituer une équipe interfonctionnelle.",
+      "Répertorier les modes d'échec : comment l'étape pourrait échouer.",
+      "Décrivez l'effet sur le client ou l'étape en aval et notez la gravité.",
+      "Identifiez les causes et l’occurrence du score.",
+      "Répertoriez les contrôles actuels et la détection des scores.",
+      "Calculez le RPN et hiérarchisez les éléments de haute gravité et à RPN élevé.",
+      "Attribuez des actions, des propriétaires et des dates, puis notez à nouveau après les actions."
+    ],
+    "where": "Utilisez l'AMDEC dans les domaines de la fabrication, des soins de santé, des logiciels, des services et de la conception. Exemple : la saisie d'une commande de médicaments peut échouer en cas de dose erronée. La gravité est de 9, l'occurrence est de 4 et la détection est de 3, ce qui donne un RPN de 108. L'ajout de la lecture de codes-barres réduit l'occurrence à 1 et la détection à 2, ce qui abaisse le RPN à 18.",
+    "when_not": "N’exécutez pas l’AMDEC comme un exercice de paperasse ponctuel. Ne laissez pas un RPN faible prévaloir sur un score de gravité élevé, et n'obtenez pas de score sans les personnes qui connaissent le processus.",
+    "common_mistakes": [
+      "Des modes de défaillance vagues sur lesquels il est impossible d’agir.",
+      "Gonfler ou dégonfler les scores pour les adapter à une priorité préférée.",
+      "Aucune action assignée ni aucune nouvelle notation après améliorations."
+    ],
+    "quick_check": [
+      {
+        "q": "Comment est calculé le RPN ?",
+        "answer": "Détection des temps d'occurrence et de gravité.",
+        "explanation": "Chaque facteur est noté de 1 à 10, donc le RPN va de 1 à 1 000."
+      },
+      {
+        "q": "Pourquoi une panne de haute gravité peut-elle nécessiter une action même avec un faible RPN ?",
+        "answer": "Les conséquences peuvent être inacceptables, quelle que soit la fréquence.",
+        "explanation": "La gravité reflète le préjudice, et non seulement la probabilité."
+      },
+      {
+        "q": "Que doit-il se passer une fois les actions mises en œuvre ?",
+        "answer": "Réévaluez la gravité, l’occurrence et la détection pour confirmer la réduction du risque.",
+        "explanation": "L'AMDEC est un document évolutif, pas une liste unique."
+      }
+    ],
+    "recap": [
+      "L'AMDEC donne la priorité aux modes de défaillance en utilisant la gravité, l'occurrence, la détection et le RPN.",
+      "Une gravité élevée mérite toujours une attention particulière.",
+      "Attribuez des actions et réévaluez-les pour confirmer la réduction des risques."
+    ]
+  },
+  "G3.4": {
+    "why": "Les ceintures vertes ont besoin de savoir si une différence observée est réelle ou simplement due au hasard. Les tests d’hypothèses empêchent les équipes de réagir au bruit et de passer à côté des effets réels.",
+    "what": "L’hypothèse nulle ne fait état d’aucune différence ni d’aucun effet. L’alternative énonce une différence ou un effet. Choisissez un test en fonction du type de données et de la conception : t à un échantillon, t à deux échantillons, t apparié, ANOVA, test du chi carré ou test de proportion. Le niveau de signification, alpha, est souvent de 0,05. La valeur p est la probabilité que les données soient au moins aussi extrêmes que celles observées, en supposant que la valeur nulle est vraie. Ce n’est pas la probabilité que la valeur nulle soit vraie.",
+    "how": [
+      "Énoncez la question pratique.",
+      "Écrivez les hypothèses nulles et alternatives.",
+      "Choisissez alpha et le test approprié.",
+      "Vérifiez les hypothèses de test.",
+      "Exécutez le test et lisez la valeur p et l’intervalle de confiance.",
+      "Si p est inférieur à alpha, rejetez la valeur nulle ; sinon, ne le rejetez pas.",
+      "Interprétez l’ampleur de l’effet et son importance pratique."
+    ],
+    "where": "Utilisez des tests d'hypothèse pour comparer les équipes, les fournisseurs, les performances avant et après ou les groupes. Exemple : comparez le délai d’exécution moyen pour deux équipes. Le nul est égal aux moyens ; l'alternative est des moyens différents. Un test t à deux échantillons donne p = 0,02 avec alpha 0,05, donc rejetez la valeur nulle. L'intervalle de confiance à 95 % pour la différence est de 2 à 18 minutes, ce qui peut être ou non important en pratique.",
+    "when_not": "Ne testez pas un processus instable. Ne recherchez pas les valeurs p en testant de nombreuses combinaisons. Ne confondez pas signification statistique et signification pratique, et n'utilisez pas de test à deux échantillons lorsque les données sont appariées.",
+    "common_mistakes": [
+      "Dire la valeur p correspond à la probabilité que la valeur nulle soit vraie.",
+      "Dire « accepter le nul » au lieu de « ne pas rejeter le nul ».",
+      "Ignorer les hypothèses, l’ampleur de l’effet ou les tests multiples."
+    ],
+    "quick_check": [
+      {
+        "q": "Que signifie p = 0,03 avec alpha 0,05 ?",
+        "answer": "Rejetez l’hypothèse nulle.",
+        "explanation": "Le résultat observé est peu probable sous la valeur nulle au niveau de signification choisi."
+      },
+      {
+        "q": "Que signifie p = 0,20 avec alpha 0,05 ?",
+        "answer": "Ne parvient pas à rejeter l’hypothèse nulle.",
+        "explanation": "Il n’y a pas suffisamment de preuves pour rejeter la nullité ; la valeur nulle n'est pas prouvée."
+      },
+      {
+        "q": "Qu'est-ce qu'une erreur de type I ?",
+        "answer": "Rejeter une véritable hypothèse nulle.",
+        "explanation": "Une erreur de type I est un faux positif ; alpha est sa probabilité."
+      }
+    ],
+    "recap": [
+      "Les tests d'hypothèse comparent les effets observés avec le hasard.",
+      "Interprétez les valeurs p par rapport à l’alpha et rapportez la taille de l’effet.",
+      "L’importance statistique ne signifie pas automatiquement l’importance pratique."
+    ]
+  },
+  "G3.5": {
+    "why": "La corrélation aide les équipes à rechercher les relations entre les variables et à décider où approfondir leurs recherches. C’est également une source courante de fausses conclusions lorsque l’on suppose qu’il y a un lien de causalité.",
+    "what": "Le coefficient de corrélation r va de -1 à +1. Une valeur proche de +1 indique une forte relation linéaire positive ; près de -1 indique une forte relation négative ; près de 0 indique peu ou pas de relation linéaire. Le carré de r est la proportion de variation partagée par les deux variables. La corrélation de Pearson est utilisée pour les relations linéaires entre des variables continues ; La corrélation de Spearman est utilisée pour les relations monotones, les données ordinales ou les données avec des valeurs aberrantes.",
+    "how": [
+      "Tracez un nuage de points avant de calculer la corrélation.",
+      "Vérifiez la linéarité, les valeurs aberrantes et les groupes séparés.",
+      "Choisissez Pearson ou Spearman en fonction des données.",
+      "Calculez r et, si nécessaire, sa valeur p.",
+      "Interpréter la force et la direction dans leur contexte.",
+      "Étudiez la causalité avec une expérience ou une conception plus solide."
+    ],
+    "where": "Utilisez la corrélation pour filtrer les variables avant la régression ou la conception d'expériences. Les exemples incluent les heures d'étude par rapport aux résultats de l'examen, le temps d'attente par rapport à la satisfaction ou la température par rapport au taux de défauts. Si les heures d'étude et le score ont r = 0,6, la relation est modérée et positive, et le r au carré est de 0,36, ce qui signifie que 36 % de la variation est partagée.",
+    "when_not": "N'utilisez pas la corrélation pour des relations clairement non linéaires. Ne l'utilisez pas avec des données catégorielles ; utilisez plutôt un test du chi carré. Ne déduisez pas la causalité à partir de la corrélation, car une confusion, une causalité inverse ou une coïncidence peuvent expliquer le modèle.",
+    "common_mistakes": [
+      "Conclure qu’une variable provoque l’autre.",
+      "Ignorer les valeurs aberrantes ou les modèles courbes qui déforment r.",
+      "Combiner différents groupes et créer une corrélation globale trompeuse."
+    ],
+    "quick_check": [
+      {
+        "q": "Qu'indique r = -0,8 ?",
+        "answer": "Une forte relation linéaire négative.",
+        "explanation": "À mesure qu’une variable augmente, l’autre tend à diminuer."
+      },
+      {
+        "q": "Qu'indique r = 0 ?",
+        "answer": "Aucune relation linéaire.",
+        "explanation": "Il peut toujours y avoir une relation non linéaire, c'est pourquoi un nuage de points est important."
+      },
+      {
+        "q": "La corrélation prouve-t-elle la causalité ?",
+        "answer": "Non, cela montre uniquement l’association.",
+        "explanation": "La confusion, la causalité inverse ou le hasard peuvent créer une corrélation."
+      }
+    ],
+    "recap": [
+      "La corrélation mesure la force et la direction d'une relation linéaire.",
+      "Tracez d'abord les données et vérifiez les valeurs aberrantes et la non-linéarité.",
+      "La corrélation n’est pas la causalité."
+    ]
+  },
+  "G3.6": {
+    "why": "La régression quantifie une relation et permet la prédiction, pas seulement la détection. Il estime dans quelle mesure un changement dans une variable est associé à un changement dans la réponse.",
+    "what": "La régression linéaire simple correspond à une droite : y est égal à b0 plus b1 fois x, plus l'erreur. La pente b1 est la variation prévue de y pour une augmentation d’une unité de x. L'ordonnée à l'origine b0 est le y prédit lorsque x est nul, ce qui peut ne pas avoir de sens. R au carré est la proportion de variation de y expliquée par x. Un résidu est observé moins prévu. Vérifiez la linéarité, l'indépendance, la variance constante et les résidus normaux avant de vous fier à l'inférence.",
+    "how": [
+      "Tracez un nuage de points et recherchez un motif linéaire.",
+      "Ajustez le modèle dans Excel à l'aide de Régression ou LINEST, ou dans Minitab à l'aide de Stat > Régression > Ajuster le modèle de régression.",
+      "Interprétez la pente, l'origine, le R au carré, la valeur p et l'intervalle de confiance.",
+      "Examinez les tracés résiduels pour détecter la courbure, les variations de propagation et les valeurs aberrantes.",
+      "Vérifiez les points influents et l’étendue des données.",
+      "Utilisez le modèle pour la prédiction uniquement dans la plage observée."
+    ],
+    "where": "Utilisez la régression pour les facteurs de coûts, le temps de cycle, la qualité et l'optimisation des processus. Exemple : le temps d'attente par rapport à la satisfaction a une pente de -0,8 points par minute et un R au carré de 0,45. Une augmentation de dix minutes est associée à un score de satisfaction inférieur d'environ huit points. Le modèle explique 45 % de la variation, donc d’autres facteurs comptent également.",
+    "when_not": "N'utilisez pas de régression simple pour une relation clairement courbe. N'extrapolez pas au-delà de la plage de données et n'alléguez pas de causalité à partir d'une régression observationnelle. N'ajustez pas un modèle à un processus instable ou à des groupes agrégés sans vérifier les données sous-jacentes.",
+    "common_mistakes": [
+      "Traiter un R carré élevé comme une preuve que le modèle est correct.",
+      "Ignorer les tracés résiduels et les valeurs aberrantes influentes.",
+      "Utiliser la régression pour affirmer que x provoque y."
+    ],
+    "quick_check": [
+      {
+        "q": "Que signifie la pente dans une régression simple ?",
+        "answer": "Changement prévu dans la réponse pour une augmentation d’une unité du prédicteur.",
+        "explanation": "La pente estime la force et la direction de la relation linéaire."
+      },
+      {
+        "q": "Que mesure le R au carré ?",
+        "answer": "La proportion de variation dans la réponse expliquée par le modèle.",
+        "explanation": "Le R au carré va de 0 à 1 et ne constitue pas en soi un bon modèle."
+      },
+      {
+        "q": "Pourquoi vérifier les parcelles résiduelles ?",
+        "answer": "Pour détecter la courbure, la répartition inégale, les valeurs aberrantes et autres violations d'hypothèses.",
+        "explanation": "Les modèles résiduels révèlent des problèmes que les statistiques récapitulatives peuvent cacher."
+      }
+    ],
+    "recap": [
+      "La régression simple estime une relation linéaire et prend en charge la prédiction.",
+      "Interprétez ensemble la pente, le R au carré et les résidus.",
+      "N’extrapolez pas et ne déduisez pas de causalité à partir de la seule régression."
+    ]
+  },
+  "G3.7": {
+    "why": "Comparer plusieurs groupes avec des tests t répétés augmente le risque de faux positif. L'ANOVA teste si les moyennes d'un groupe diffèrent tout en contrôlant le taux d'erreur global.",
+    "what": "ANOVA signifie Analyse de Variance. L'hypothèse nulle est que toutes les moyennes des groupes sont égales ; l’alternative est qu’au moins une moyenne diffère. La statistique F est la variation entre les groupes divisée par la variation au sein du groupe. Un grand F signifie que les différences entre les groupes sont grandes par rapport au bruit à l'intérieur des groupes. Un résultat significatif n’identifie pas quel groupe diffère ; utilisez un test post-hoc tel que Tukey.",
+    "how": [
+      "Définir la réponse et les groupes.",
+      "Tracez des boîtes à moustaches pour voir le modèle et vérifier les valeurs aberrantes.",
+      "Vérifiez les hypothèses : groupes indépendants, résidus approximativement normaux et répartition similaire.",
+      "Exécutez une ANOVA unidirectionnelle dans Excel Data Analysis ou Minitab.",
+      "Lisez la statistique F et la valeur p.",
+      "Si cela est significatif, effectuez un test post-hoc pour identifier les différents groupes.",
+      "Indiquez l’ampleur de l’effet et son importance pratique, pas seulement la valeur p."
+    ],
+    "where": "Utilisez l'ANOVA pour comparer les fournisseurs, les équipes, les machines, les régions, les méthodes de formation ou les départements. Exemple : le temps moyen de traitement des appels entre quatre équipes donne F = 4,8 et p = 0,004, donc au moins une équipe diffère. Une comparaison Tukey montre que l’équipe C est plus lente. L’équipe étudie ensuite les différences en matière de charge de travail, de personnel et de processus.",
+    "when_not": "N'utilisez pas d'ANOVA unidirectionnelle ordinaire pour des mesures répétées sur les mêmes unités sans le modèle approprié. Ne l'utilisez pas lorsque les hypothèses sont gravement violées ; considérez Welch ANOVA ou Kruskal-Wallis. Utilisez un test t pour deux groupes.",
+    "common_mistakes": [
+      "Exécution de plusieurs tests t au lieu d’une seule ANOVA.",
+      "S'arrêter à une valeur p significative sans test post-hoc.",
+      "Ignorer les variances inégales ou les résidus non normaux."
+    ],
+    "quick_check": [
+      {
+        "q": "Que teste l’ANOVA ?",
+        "answer": "Si les moyennes de trois groupes ou plus diffèrent.",
+        "explanation": "Le nul est que toutes les moyennes de groupe sont égales."
+      },
+      {
+        "q": "Qu'indique une grande statistique F ?",
+        "answer": "La variation entre les groupes est importante par rapport à la variation au sein du groupe.",
+        "explanation": "Cela suggère que les moyennes du groupe peuvent différer."
+      },
+      {
+        "q": "Que faire après une ANOVA significative ?",
+        "answer": "Exécutez un test post-hoc pour identifier les groupes qui diffèrent.",
+        "explanation": "L'ANOVA à elle seule ne permet pas de déterminer quel groupe est différent."
+      }
+    ],
+    "recap": [
+      "L'ANOVA compare les moyennes de trois groupes ou plus.",
+      "Un test F significatif nécessite une analyse post-hoc pour localiser les différences.",
+      "Vérifiez les hypothèses et signalez l’ampleur de l’effet."
+    ]
+  },
+  "G4.1": {
+    "why": "Les équipes génèrent de nombreuses solutions possibles. Une méthode de sélection transparente empêche les idées favorites de gagner et aide l'équipe à choisir une option efficace, réalisable et durable.",
+    "what": "La sélection de solutions compare les candidats en termes d'impact, d'effort, de temps, de coût, de risque, de faisabilité et d'acceptation des parties prenantes. Les outils courants incluent la matrice impact-effort, la notation pondérée, la matrice de Pugh, l’analyse coûts-avantages et l’évaluation des risques. La solution doit s’attaquer à la cause profonde vérifiée et améliorer le CTQ. Une solution prometteuse est généralement testée avant sa mise en œuvre complète.",
+    "how": [
+      "Reformulez la cause première vérifiée et le CTQ qu’elle affecte.",
+      "Répertoriez les solutions candidates sans encore les évaluer.",
+      "Convenez des critères et des pondérations avec l’équipe et le sponsor.",
+      "Notez chaque candidat et calculez un total pondéré.",
+      "Évaluez les risques, la faisabilité et les conséquences imprévues.",
+      "Sélectionnez un ou deux candidats pour un projet pilote.",
+      "Documentez la justification et la décision."
+    ],
+    "where": "Utilisez la sélection de solutions dans chaque phase d’amélioration. Exemple : une clinique souhaite réduire l'attente. L’ajout d’une deuxième infirmière de triage obtient un impact élevé, un effort et un coût moyens, et un risque faible. L'allongement des heures entraîne un impact moyen et un effort élevé. Les nouveaux logiciels présentent un coût élevé et des délais de livraison longs. L’équipe pilote d’abord l’infirmière de triage.",
+    "when_not": "N'utilisez pas de notation pour justifier une décision déjà prise. N'ignorez pas les contraintes réglementaires ou de sécurité et ne sélectionnez pas de solution avant que la cause première n'ait été vérifiée.",
+    "common_mistakes": [
+      "Choisir une solution préférée avant d’évaluer les alternatives.",
+      "Critères de pondération pour produire un gagnant prédéterminé.",
+      "Ignorer les efforts de mise en œuvre, les risques ou l’acceptation des parties prenantes."
+    ],
+    "quick_check": [
+      {
+        "q": "Qu’est-ce qu’une matrice impact-effort aide une équipe à faire ?",
+        "answer": "Comparez les solutions en fonction de l’impact attendu et de l’effort de mise en œuvre.",
+        "explanation": "Il met en évidence les gains rapides et signale les options nécessitant beaucoup d’efforts et à faible impact."
+      },
+      {
+        "q": "Pourquoi lier une solution à la cause première vérifiée ?",
+        "answer": "Pour augmenter les chances que le correctif supprime réellement le problème.",
+        "explanation": "Une solution qui ne s’attaque pas à la cause ne peut traiter que les symptômes."
+      },
+      {
+        "q": "Pourquoi un projet pilote avant une mise en œuvre complète ?",
+        "answer": "Tester la solution en conditions réelles avec un risque limité.",
+        "explanation": "Un projet pilote fournit des preuves et révèle des effets inattendus."
+      }
+    ],
+    "recap": [
+      "Sélectionnez des solutions en fonction de l'impact, de l'effort, du risque, du coût et de la faisabilité.",
+      "Liez la solution à la cause première vérifiée et au CTQ.",
+      "Pilotez le candidat le plus fort avant de le mettre à l’échelle."
+    ]
+  },
+  "G4.2": {
+    "why": "Un pilote teste une solution en conditions réelles avec un risque limité. Il fournit des preuves avant un déploiement complet et révèle les problèmes qu'un plan ou une simulation manquerait.",
+    "what": "Un plan pilote définit l'objectif, la portée, le site ou l'équipe, la durée, les mesures de réussite, la référence, les rôles, la formation, la collecte de données, la communication, le plan de restauration et les critères de décision. L'équipe compare les performances du pilote avec la référence ou un groupe témoin. Une décision d’y aller, de ne pas y aller ou d’adaptation est prise à partir de données et non d’enthousiasme.",
+    "how": [
+      "Rédigez l’objectif du pilote et les mesures de réussite.",
+      "Choisissez une zone, une équipe ou un quart de travail représentatif.",
+      "Établissez une base de référence avant le début du projet pilote.",
+      "Former les personnes qui utiliseront la nouvelle méthode.",
+      "Exécutez le pilote suffisamment longtemps pour constater un effet stable.",
+      "Collectez des données et surveillez les conséquences inattendues.",
+      "Comparez les résultats et décidez d’évoluer, de vous adapter ou d’arrêter.",
+      "Documenter les leçons apprises pour le déploiement."
+    ],
+    "where": "Utilisez des projets pilotes dans les domaines de la santé, de la fabrication, des logiciels, de la vente au détail, de la banque et de l'éducation. Exemple : la lecture de codes-barres est testée dans un service pendant quatre semaines. La base de référence est de douze erreurs médicamenteuses par mois et l’objectif est une réduction de 50 %. Le projet pilote enregistre cinq erreurs par mois sans retard dans le flux de travail, ce qui permet à l'équipe de s'adapter à d'autres services.",
+    "when_not": "Ne pas piloter dans une zone non représentative et généraliser sans vérifier. Ne sautez pas la ligne de base et n'exécutez pas le pilote trop brièvement pour voir l'effet. N'ignorez pas les effets secondaires sur les autres départements.",
+    "common_mistakes": [
+      "Aucun critère de réussite ni référence.",
+      "Pas de plan de retour en arrière si le pilote crée un problème sérieux.",
+      "Ignorer les commentaires du personnel et les conséquences inattendues."
+    ],
+    "quick_check": [
+      {
+        "q": "Pourquoi un pilote a-t-il besoin d’une base de référence ?",
+        "answer": "Comparer les performances du pilote avec les performances actuelles.",
+        "explanation": "Sans base de référence, l’équipe ne peut pas dire si le changement a fonctionné."
+      },
+      {
+        "q": "Qu'est-ce qu'un plan de restauration ?",
+        "answer": "Une manière prédéfinie de revenir à l'ancienne méthode si le pilote échoue ou cause des dommages.",
+        "explanation": "Cela limite les risques lors des tests."
+      },
+      {
+        "q": "Quelles décisions peuvent suivre un pilote ?",
+        "answer": "Évoluez, adaptez ou arrêtez.",
+        "explanation": "Le résultat du pilote détermine la prochaine étape."
+      }
+    ],
+    "recap": [
+      "Un pilote teste une solution avec des mesures claires et un risque limité.",
+      "Utilisez une référence, une zone représentative et un plan de restauration.",
+      "Décidez d’évoluer, d’adapter ou d’arrêter en fonction des données."
+    ]
+  },
+  "G4.3": {
+    "why": "L'erreur humaine est inévitable. Poka-yoke conçoit le processus de manière à ce que les erreurs soient difficiles à commettre ou soient détectées immédiatement, ce qui est plus fiable que les rappels ou la formation seuls.",
+    "what": "Poka-yoke signifie protection contre les erreurs. La prévention rend une erreur impossible ou très difficile, comme un connecteur qui ne s'adapte que dans un seul sens. La détection détecte immédiatement une erreur, comme par exemple un scanner qui rejette le mauvais bracelet patient. Un bon poka-yoke est simple, proche de l'œuvre, et conçu avec les personnes qui l'utilisent. Elle est plus efficace lorsqu’elle est associée à une analyse des causes profondes.",
+    "how": [
+      "Identifiez le mode de défaillance à l’aide de l’AMDEC ou de l’analyse des causes profondes.",
+      "Comprenez comment et où l'erreur se produit.",
+      "Choisissez d’abord la prévention ; recourir à la détection si la prévention n’est pas pratique.",
+      "Concevez une règle simple en matière d'appareil, de contrôle ou de logiciel.",
+      "Testez-le avec de vrais utilisateurs dans le flux de travail réel.",
+      "Surveillez les nouvelles erreurs ou solutions de contournement.",
+      "Standardisez et attribuez la propriété."
+    ],
+    "where": "Utilisez Poka-Yoke dans les montages de fabrication, la lecture de codes-barres de médicaments, la validation de formulaires logiciels, les connecteurs à code couleur, les étapes de séquence forcée et les contrôles de liste de contrôle. Exemple : scanner le bracelet du patient et le code-barres du médicament évite de donner le mauvais médicament au mauvais patient. Un exemple plus simple est un client de messagerie qui avertit lorsque le message mentionne une pièce jointe mais qu'aucune n'est jointe.",
+    "when_not": "Ne comptez pas sur le poka-yoke pour des erreurs de jugement complexes qui nécessitent une formation ou une aide à la décision. Ne créez pas tellement d’alertes que les gens les ignorent. N'ajoutez pas de périphérique sans tester s'il correspond au flux de travail réel.",
+    "common_mistakes": [
+      "Choisir la détection lorsque la prévention est pratique.",
+      "Ajout d'alarmes que les utilisateurs désactivent ou ignorent.",
+      "Traiter le poka-yoke comme un substitut à la recherche de la cause profonde."
+    ],
+    "quick_check": [
+      {
+        "q": "Quelle est la différence entre prévention et détection en poka-yoke ?",
+        "answer": "La prévention rend une erreur impossible ou difficile ; la détection l’attrape immédiatement.",
+        "explanation": "La prévention est généralement plus forte car l’erreur n’atteint jamais le client."
+      },
+      {
+        "q": "Pourquoi le poka-yoke est-il plus fiable qu'un rappel ?",
+        "answer": "Cela modifie le processus afin que l'erreur soit bloquée ou détectée, plutôt que de compter sur la mémoire.",
+        "explanation": "Les rappels peuvent être oubliés ; une protection contre les erreurs bien conçue est intégrée au travail."
+      },
+      {
+        "q": "Que faire après avoir installé un poka-yoke ?",
+        "answer": "Surveillez les nouvelles erreurs, les solutions de contournement et les effets inattendus.",
+        "explanation": "Les utilisateurs peuvent trouver des moyens de contourner un contrôle qui ne correspond pas au flux de travail."
+      }
+    ],
+    "recap": [
+      "Poka-yoke prévient les erreurs ou les détecte immédiatement.",
+      "Privilégiez la prévention, gardez la conception simple et testez-la auprès des utilisateurs.",
+      "Associez la protection contre les erreurs à l’analyse et à la surveillance des causes profondes."
+    ]
+  },
+  "G4.4": {
+    "why": "Les ceintures vertes doivent souvent améliorer le flux et les délais, et pas seulement les taux de défauts. Les outils Lean réduisent les attentes, les retards de lots et les retouches sans investissement important en capital.",
+    "what": "Le flux signifie que le travail se déroule en douceur avec un minimum de lots et de transferts. Pull signifie que la demande en aval déclenche le travail au lieu de pousser le travail avant les besoins. Le travail standard documente la méthode, la séquence et les contrôles de qualité les plus connus. Le changement rapide, ou SMED, sépare la configuration interne de la configuration externe et réduit le temps de changement. Le temps Takt est le temps de travail disponible divisé par la demande du client.",
+    "how": [
+      "Cartographiez la chaîne de valeur et identifiez les retards et les transferts.",
+      "Calculez le temps takt à partir du temps disponible et de la demande du client.",
+      "Réduisez la taille des lots et les approbations inutiles.",
+      "Introduisez le pull là où la demande et l’offre le rendent pratique.",
+      "Standardisez la méthode la plus connue et formez-vous à celle-ci.",
+      "Réduisez le temps de changement en déplaçant le travail en dehors de la fenêtre de changement."
+    ],
+    "where": "Utilisez les outils Lean dans les secteurs de la fabrication, de la santé, de la banque, de l'informatique, de la vente au détail et de l'éducation. Exemple : une clinique dispose de 480 minutes de temps disponible et de 60 patients, le temps takt est donc de 8 minutes. Si l’étape en cours prend 12 minutes, il s’agit d’un goulot d’étranglement. L'équipe redistribue le travail et standardise la nouvelle méthode pour rapprocher le pas du takt.",
+    "when_not": "Ne forcez pas le tirage là où la demande est très variable ou où l’offre est limitée sans tampons appropriés. Ne supprimez pas les contrôles nécessaires pour accélérer un processus et n’utilisez pas les outils Lean comme substitut à la réduction des variations.",
+    "common_mistakes": [
+      "Installer Kanban avant que le processus ne soit stable.",
+      "Réduire la taille des lots sans vérifier la capacité en aval.",
+      "Rédiger un travail standard sans formation ni implication de première ligne."
+    ],
+    "quick_check": [
+      {
+        "q": "Comment est calculé le temps takt ?",
+        "answer": "Temps de travail disponible divisé par la demande du client.",
+        "explanation": "Le Takt time détermine le rythme dont le processus a besoin pour répondre à la demande des clients."
+      },
+      {
+        "q": "Que signifie tirer dans le Lean ?",
+        "answer": "Le travail est déclenché par la demande en aval plutôt que poussé avant elle.",
+        "explanation": "Pull réduit la surproduction et l’excès de travail en cours."
+      },
+      {
+        "q": "Quel est l’objectif d’un changement rapide ?",
+        "answer": "Réduire le temps et le gaspillage nécessaires pour passer d’un produit ou d’une tâche à un autre.",
+        "explanation": "Des changements plus courts permettent des lots plus petits et un flux plus flexible."
+      }
+    ],
+    "recap": [
+      "Les outils Lean améliorent le flux, le tirage, le travail standard et le changement.",
+      "Utilisez le takt time pour comprendre le rythme requis.",
+      "Stabilisez le processus et impliquez les personnes qui effectuent le travail."
+    ]
+  },
+  "G4.5": {
+    "why": "Tester un facteur à la fois manque des interactions et gaspille des exécutions. Le plan d’expériences teste plusieurs facteurs ensemble et montre quels paramètres sont réellement importants.",
+    "what": "Un facteur est une variable d'entrée ; un niveau est un paramètre de ce facteur ; une réponse est la sortie mesurée ; une analyse est un essai expérimental. Un effet principal est la variation moyenne de la réponse lorsqu'un facteur change. Une interaction signifie que l’effet d’un facteur dépend du niveau d’un autre. La randomisation protège contre les variables cachées et la réplication fournit une estimation de l'erreur expérimentale.",
+    "how": [
+      "Définir l’objectif et la métrique de réponse.",
+      "Choisissez les facteurs et leurs niveaux.",
+      "Sélectionnez un plan, tel qu'une factorielle complète à deux niveaux ou une factorielle fractionnaire pour le dépistage.",
+      "Randomisez l’ordre d’exécution et incluez les répétitions.",
+      "Exécutez l’expérience et enregistrez la réponse.",
+      "Analysez les principaux effets et interactions dans un logiciel tel que Minitab.",
+      "Exécutez des essais de confirmation avec les paramètres recommandés."
+    ],
+    "where": "Utilisez DOE pour l’optimisation des processus, la conception des produits et la robustesse. Exemple : la température du four à 150 ou 170 degrés et la durée à 20 ou 30 minutes affectent la résistance. Un plan deux par deux avec deux répétitions nécessite huit analyses. Si la meilleure température dépend du temps, les facteurs interagissent et doivent être combinés et non un par un.",
+    "when_not": "N'utilisez pas le DOE lorsque les facteurs sont dangereux ou impossibles à contrôler. N'expérimentez pas avant que le système de mesure soit adéquat et ne confondez pas les effets en sautant la randomisation.",
+    "common_mistakes": [
+      "Changer un facteur à la fois et manquer d’interactions.",
+      "Pas de réplication, l'équipe ne peut donc pas estimer l'erreur.",
+      "Trop de facteurs dans une seule expérience sans plan de sélection."
+    ],
+    "quick_check": [
+      {
+        "q": "Qu’est-ce qu’un facteur dans le DOE ?",
+        "answer": "Une variable d'entrée qui est délibérément modifiée dans l'expérience.",
+        "explanation": "Les facteurs sont définis à différents niveaux pour voir leur effet sur la réponse."
+      },
+      {
+        "q": "Qu'est-ce qu'une interaction ?",
+        "answer": "Lorsque l’effet d’un facteur dépend du niveau d’un autre facteur.",
+        "explanation": "Les interactions sont l’une des principales raisons pour lesquelles le DOE surpasse les tests un facteur à la fois."
+      },
+      {
+        "q": "Pourquoi randomiser l'ordre d'exécution ?",
+        "answer": "Pour se protéger contre les variables cachées telles que le temps, la température ou la dérive de l'opérateur.",
+        "explanation": "La randomisation propage des effets incontrôlés à travers l’expérience."
+      }
+    ],
+    "recap": [
+      "Le DOE teste plusieurs facteurs et estime les principaux effets et interactions.",
+      "Randomisez, reproduisez et utilisez une conception adaptée à l’objectif.",
+      "Confirmez l’optimum prévu avec des exécutions de validation."
+    ]
+  },
+  "G5.1": {
+    "why": "Les cartes de contrôle séparent les variations de cause commune des signaux de cause spéciale. Ils indiquent à l’équipe quand agir et quand laisser le processus tranquille, ce qui est essentiel pour pérenniser une amélioration.",
+    "what": "Pour des données continues, utilisez une carte X-bar et R pour les petits sous-groupes, une carte X-bar et S pour les sous-groupes plus grands ou une carte I-MR pour les valeurs individuelles. Pour les données d'attribut, utilisez un diagramme p pour la proportion de défauts avec une taille d'échantillon variable, un diagramme np pour le nombre de défectueux avec une taille d'échantillon constante, un diagramme c pour les défauts par unité avec une taille d'unité constante ou un diagramme u pour les défauts par unité avec une taille d'unité variable. Les limites de contrôle proviennent des données de processus et non des spécifications.",
+    "how": [
+      "Choisissez le graphique en fonction du type de données, de la taille du sous-groupe et de la taille de l'échantillon.",
+      "Collectez environ 20 à 25 sous-groupes ou points de base.",
+      "Calculez la ligne médiane et les limites de contrôle.",
+      "Tracez les nouvelles données dans l’ordre chronologique.",
+      "Appliquez des règles pour les points au-delà des limites, des courses, des tendances et des modèles inhabituels.",
+      "Recherchez les causes particulières avant de modifier le processus.",
+      "Recalculez les limites uniquement après un changement de processus connu."
+    ],
+    "where": "Utilisez des graphiques de contrôle pour les dimensions de fabrication, les temps d'attente dans les hôpitaux, les rapports en retard, les taux de défauts, le temps de traitement des appels et les erreurs de transaction. Exemple : un graphique I-MR suit le temps d'attente quotidien, un graphique à barres X et R suit cinq échantillons par heure et un graphique P suit le pourcentage de rapports en retard lorsque le volume varie.",
+    "when_not": "N'utilisez pas les limites de spécification comme limites de contrôle. Ne recalculez pas les limites uniquement pour masquer un signal et n'utilisez pas de diagramme attributaire pour les données continues.",
+    "common_mistakes": [
+      "Choisir le mauvais graphique pour le type de données.",
+      "Trop peu de points de référence, produisant des limites peu fiables.",
+      "Réagir à une variation de cause commune comme s’il s’agissait d’une cause particulière."
+    ],
+    "quick_check": [
+      {
+        "q": "Quel graphique est utilisé pour les mesures individuelles au fil du temps ?",
+        "answer": "Un graphique I-MR.",
+        "explanation": "Les graphiques I-MR suivent les valeurs individuelles et la plage de déplacement."
+      },
+      {
+        "q": "Quel graphique est utilisé pour la proportion de défectueux avec une taille d'échantillon variable ?",
+        "answer": "Un tableau p.",
+        "explanation": "Les graphiques p permettent de varier la taille de l’échantillon."
+      },
+      {
+        "q": "D’où viennent les limites de contrôle ?",
+        "answer": "À partir des données du processus et non des spécifications du client.",
+        "explanation": "Les limites de contrôle décrivent la variation naturelle du processus."
+      }
+    ],
+    "recap": [
+      "Faites correspondre la carte de contrôle au type de données et à la taille de l’échantillon.",
+      "Les limites de contrôle proviennent des données de processus et non des spécifications.",
+      "Recherchez les causes particulières et recalculez uniquement après des modifications du processus."
+    ]
+  },
+  "G5.2": {
+    "why": "Les améliorations diminuent sans surveillance. Un plan de contrôle définit comment le processus sera surveillé, qui réagit en cas de dérive et comment les gains seront protégés.",
+    "what": "Un plan de contrôle répertorie l'étape du processus, la métrique ou CTQ, la spécification, la méthode de mesure, la taille et la fréquence de l'échantillon, le graphique ou la méthode de surveillance, le plan de réaction, le propriétaire et le chemin de remontée d'informations. Le plan de réaction indique ce qu'il faut vérifier, qui prévenir, comment contenir le problème et quelles mesures correctives prendre. Le plan est lié aux travaux standard, à l'AMDEC et aux cartes de contrôle.",
+    "how": [
+      "Identifiez les mesures critiques qui doivent être surveillées.",
+      "Définir la méthode et la fréquence de mesure.",
+      "Choisissez le graphique ou l’approche de suivi et le déclencheur de l’action.",
+      "Rédigez un plan de réaction spécifique pour chaque déclencheur.",
+      "Attribuez un propriétaire et un chemin d’escalade.",
+      "Formez les personnes qui utiliseront le plan.",
+      "Auditez le plan et mettez-le à jour lorsque le processus change."
+    ],
+    "where": "Utilisez un plan de contrôle pour chaque processus amélioré, en particulier lors du transfert du projet. Exemple : les erreurs de médication sont suivies mensuellement sur un graphique P. Si le taux dépasse la limite de contrôle, le propriétaire vérifie les rapports, examine les cas, vérifie si le travail standard a été suivi et en informe le responsable de la pharmacie.",
+    "when_not": "Ne créez pas un plan de contrôle que personne n’utilise. Ne surveillez pas trop de métriques au point de perdre les plus importantes, et ne définissez pas de déclencheur sans capacité de réponse.",
+    "common_mistakes": [
+      "Aucun propriétaire nommé ni chemin d'escalade.",
+      "Un plan de réaction qui dit seulement « enquêter » sans étapes spécifiques.",
+      "Surveillance des métriques retardées sans avertissement précoce."
+    ],
+    "quick_check": [
+      {
+        "q": "Que doit contenir un plan de réaction ?",
+        "answer": "Que vérifier, qui informer, comment contenir le problème et quelles mesures correctives prendre.",
+        "explanation": "Un plan de réaction spécifique rend le suivi réalisable."
+      },
+      {
+        "q": "Pourquoi un plan de contrôle a-t-il besoin d'un propriétaire ?",
+        "answer": "Quelqu’un doit être responsable de la surveillance et de la réponse.",
+        "explanation": "Sans appropriation, les signaux sont souvent ignorés."
+      },
+      {
+        "q": "Quand un plan de contrôle doit-il être mis à jour ?",
+        "answer": "Lorsque le processus, la mesure ou le risque change.",
+        "explanation": "Un plan obsolète peut surveiller une mauvaise chose."
+      }
+    ],
+    "recap": [
+      "Un plan de contrôle définit les métriques, l'échantillonnage, les déclencheurs, les réactions et les propriétaires.",
+      "Précisez le plan de réaction et attribuez des responsabilités.",
+      "Auditez et mettez à jour le plan lorsque le processus change."
+    ]
+  },
+  "G5.3": {
+    "why": "Le travail standard est la base des gains durables. Sans une norme claire, les gens reviennent aux anciennes méthodes et les améliorations disparaissent lentement.",
+    "what": "Une procédure opérationnelle standard documente la méthode la plus connue pour une tâche. Le travail standard va plus loin en définissant la séquence, le calendrier, les contrôles de qualité, la sécurité et le résultat attendu. Une SOP utilisable comprend l'objectif, la portée, les rôles, les instructions étape par étape, les visuels, les points de décision, les exceptions et l'historique des révisions. Il doit être rédigé avec les personnes qui effectuent le travail et disponible sur le lieu d'utilisation.",
+    "how": [
+      "Observez et documentez la meilleure méthode actuelle.",
+      "Impliquez les personnes qui effectuent le travail.",
+      "Rédigez la procédure avec des photos, des captures d'écran ou des diagrammes simples.",
+      "Testez le brouillon dans le flux de travail réel et révisez-le.",
+      "Former les utilisateurs et vérifier les compétences.",
+      "Placez l'étalon au point d'utilisation.",
+      "Vérifier le respect et réviser grâce au contrôle des changements."
+    ],
+    "where": "Utilisez un travail standard dans les domaines de la santé, de la fabrication, des services, de l'informatique, de la banque et de l'éducation. Exemple : une liste de contrôle de décharge répertorie chaque étape, le propriétaire, le calendrier et le chemin d'escalade. Cela réduit les étapes manquées et rend les transferts prévisibles. Une équipe logicielle peut utiliser une liste de contrôle de publication de la même manière.",
+    "when_not": "N'écrivez pas de procédure rigide pour un travail véritablement créatif ou très variable sans règles de décision claires. Ne créez pas de documents de bibliothèque que personne ne lit et ne standardisez pas un processus avant qu'il ne soit amélioré.",
+    "common_mistakes": [
+      "Rédiger la SOP sans les personnes qui font le travail.",
+      "Rendre le document trop long ou difficile à utiliser sur le lieu de travail.",
+      "Aucun processus de formation, d’audit ou de révision."
+    ],
+    "quick_check": [
+      {
+        "q": "Qu’est-ce qui rend une SOP utilisable ?",
+        "answer": "Des étapes, des visuels, des rôles, des exceptions et un accès clairs au point d'utilisation.",
+        "explanation": "Une SOP utilisable soutient le vrai travail plutôt que de ramasser la poussière."
+      },
+      {
+        "q": "Pourquoi impliquer le personnel de première ligne dans la rédaction des travaux standards ?",
+        "answer": "Ils connaissent le processus réel et peuvent identifier les étapes pratiques et les points d’échec.",
+        "explanation": "La participation améliore la précision et l’adoption."
+      },
+      {
+        "q": "Le travail standard est-il permanent ?",
+        "answer": "Non. Il doit être mis à jour via le contrôle des modifications lorsqu’une meilleure méthode est éprouvée.",
+        "explanation": "Le travail standard est actuellement la meilleure méthode, et non une règle figée."
+      }
+    ],
+    "recap": [
+      "Le travail standard documente la méthode, la séquence et les contrôles de qualité les plus connus.",
+      "Écrivez-le avec les utilisateurs, testez-le, formez-le et conservez-le au point d'utilisation.",
+      "Vérifier le respect et améliorer la norme grâce au contrôle des changements."
+    ]
+  },
+  "G6.1": {
+    "why": "Les projets de la ceinture verte nécessitent une planification, une gestion des risques, une communication et une clôture. Les outils techniques seuls ne donnent pas de résultats si le travail est en retard, si la portée dérive ou si le transfert est faible.",
+    "what": "La gestion de projet d'amélioration couvre la portée, le calendrier, les ressources, les parties prenantes, les risques, la communication, les contrôles de qualité, le contrôle des modifications et la clôture. Une structure de répartition du travail divise le travail en tâches gérables. Un diagramme de Gantt montre le calendrier et les dépendances. Un journal RAID suit les risques, les hypothèses, les problèmes et les dépendances. Les examens du péage confirment que chaque phase DMAIC est terminée.",
+    "how": [
+      "Définissez la portée, les livrables et les dates des jalons.",
+      "Construisez une structure de répartition du travail et estimez l’effort.",
+      "Séquencer les tâches et identifier le chemin critique.",
+      "Tenez un journal RAID et examinez-le chaque semaine.",
+      "Communiquer le statut au sponsor et aux parties prenantes.",
+      "Organisez des examens de porte avant de passer à la phase suivante.",
+      "Clôturez le projet avec un transfert de responsabilité, les leçons apprises et la validation des avantages."
+    ],
+    "where": "Utilisez la gestion de projet sur chaque projet Green Belt, en particulier le travail interfonctionnel. Exemple : un projet de décharge de douze semaines comporte une répartition du travail par phase DMAIC, un diagramme de Gantt, un stand-up hebdomadaire, un journal RAID, des revues de porte avec le sponsor et un transfert au responsable du service.",
+    "when_not": "Ne construisez pas un plan de projet lourd pour une petite solution qui prend une journée. Ne vous fiez pas à un diagramme de Gantt sans comprendre les dépendances, et n'ignorez pas les risques car le travail technique semble simple.",
+    "common_mistakes": [
+      "Aucune répartition du travail, donc les tâches et les propriétaires ne sont pas clairs.",
+      "Un calendrier optimiste sans imprévu.",
+      "Aucun journal des risques, mauvaise communication ou aucune clôture formelle."
+    ],
+    "quick_check": [
+      {
+        "q": "Qu'est-ce qu'un journal RAID ?",
+        "answer": "Un journal des risques, des hypothèses, des problèmes et des dépendances.",
+        "explanation": "RAID maintient les menaces et les contraintes du projet visibles."
+      },
+      {
+        "q": "Quel est le chemin critique ?",
+        "answer": "La plus longue séquence de tâches dépendantes qui détermine la durée du projet.",
+        "explanation": "Un retard sur le chemin critique retarde l’ensemble du projet."
+      },
+      {
+        "q": "Pourquoi clôturer un projet ?",
+        "answer": "Pour confirmer les avantages, transférer la propriété et capturer les leçons apprises.",
+        "explanation": "La clôture empêche le projet de s’effondrer sans responsabilité."
+      }
+    ],
+    "recap": [
+      "Planifiez la portée, le calendrier, les risques, la communication et les portes.",
+      "Utilisez une structure de répartition du travail, un diagramme de Gantt et un journal RAID.",
+      "Clôturez avec le transfert de responsabilité, la validation des avantages et les leçons apprises."
+    ]
+  },
+  "G6.2": {
+    "why": "Les ceintures vertes ont besoin de logiciels pour analyser les données de manière efficace et reproductible. Savoir quel outil utiliser et vérifier ses hypothèses permet d’éviter les erreurs et de gagner du temps.",
+    "what": "Excel est utile pour les statistiques descriptives, les graphiques d'exécution, les histogrammes, les nuages ​​de points, la régression, les tests t et l'ANOVA simple. Minitab est plus puissant pour Gage R&R, l'analyse de capabilité, les cartes de contrôle, la régression, l'ANOVA et la conception d'expériences. Les deux outils nécessitent des données claires, la bonne méthode et l’interprétation des hypothèses et des graphiques.",
+    "how": [
+      "Nettoyer et structurer les données avant analyse.",
+      "Choisissez la méthode qui correspond à la question et au type de données.",
+      "Exécutez l'analyse dans Excel ou Minitab.",
+      "Vérifiez les hypothèses et les graphiques de diagnostic.",
+      "Interprétez le résultat, y compris l’ampleur de l’effet et les intervalles de confiance.",
+      "Enregistrez le fichier avec un nom de version clair.",
+      "Documentez les étapes afin que l’analyse puisse être répétée."
+    ],
+    "where": "Utilisez Excel pour des résumés rapides et des graphiques simples, et Minitab pour des statistiques avancées et DOE. Exemple : un test t sur deux échantillons peut être exécuté dans les deux outils ; comparez la valeur p et l’intervalle de confiance. Une étude de capabilité est généralement plus rapide dans Minitab sous Stat > Outils qualité > Analyse de capabilité > Normal.",
+    "when_not": "N'utilisez pas de logiciel sans comprendre la méthode et ses hypothèses. Ne faites pas confiance aveuglément aux paramètres par défaut et n'utilisez pas Excel pour des DOE complexes lorsqu'un package statistique validé est disponible.",
+    "common_mistakes": [
+      "Analyser le mauvais type de données ou inclure des lignes masquées.",
+      "Utiliser l'alpha par défaut sans vérifier la norme du projet.",
+      "Ignorer les vérifications d'hypothèses et les tracés de diagnostic."
+    ],
+    "quick_check": [
+      {
+        "q": "Quel outil est généralement le plus puissant pour le DOE et l’analyse de capabilité ?",
+        "answer": "Minitab.",
+        "explanation": "Minitab dispose de menus dédiés au DOE, aux capacités, au MSA et aux cartes de contrôle."
+      },
+      {
+        "q": "Que devez-vous faire avant d’exécuter une analyse ?",
+        "answer": "Nettoyez les données et confirmez que la méthode correspond à la question et au type de données.",
+        "explanation": "Une bonne analyse commence par de bonnes données et la bonne méthode."
+      },
+      {
+        "q": "Pourquoi documenter les étapes d’analyse ?",
+        "answer": "Le travail peut ainsi être répété, révisé et défendu.",
+        "explanation": "La reproductibilité est essentielle pour la confiance et l’audit."
+      }
+    ],
+    "recap": [
+      "Excel gère des résumés rapides et des tests simples ; Minitab gère les statistiques avancées et le DOE.",
+      "Nettoyez les données, choisissez la bonne méthode et vérifiez les hypothèses.",
+      "Documentez l’analyse afin qu’elle puisse être reproduite."
+    ]
+  }
+}

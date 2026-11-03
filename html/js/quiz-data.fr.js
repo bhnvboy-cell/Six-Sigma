@@ -1,0 +1,3589 @@
+// Auto-generated from data/i18n/fr/quizzes.json. Do not edit by hand.
+// Run: node scripts/build-localized-data.js
+const quizBank = {
+  "white": [
+    {
+      "q": "Que signifie DMAIC ?",
+      "options": [
+        "Définir, Mesurer, Analyser, Améliorer, Contrôler",
+        "Concevoir, réaliser, évaluer, mettre en œuvre, vérifier",
+        "Déterminer, Cartographier, Analyser, Améliorer, Confirmer",
+        "Définir, Gérer, Analyser, Mettre en œuvre, Clôturer"
+      ],
+      "correct": 0,
+      "explanation": "DMAIC est la méthode d'amélioration Six Sigma de base."
+    },
+    {
+      "q": "Six Sigma a été développé dans quelle entreprise ?",
+      "options": [
+        "Motorola",
+        "Électricité générale",
+        "Gué",
+        "Toyota"
+      ],
+      "correct": 0,
+      "explanation": "Motorola a développé Six Sigma dans les années 1980 ; GE l'a ensuite rendu célèbre."
+    },
+    {
+      "q": "Le coût de mauvaise qualité (COPQ) comprend quels coûts ?",
+      "options": [
+        "Coûts de prévention, d’évaluation, de défaillance interne et de défaillance externe",
+        "Uniquement les salaires des employés",
+        "Uniquement les coûts des matières premières",
+        "Uniquement les frais de marketing"
+      ],
+      "correct": 0,
+      "explanation": "Le COPQ couvre les coûts de prévention, d’évaluation, de défaillance interne et de défaillance externe."
+    },
+    {
+      "q": "Un CTQ est mieux décrit comme :",
+      "options": [
+        "Une sorte de carte de contrôle",
+        "Un porteur de projet",
+        "Une plainte d'un client",
+        "Un besoin client mesurable"
+      ],
+      "correct": 3,
+      "explanation": "CTQ signifie essentiel à la qualité : un besoin client traduit en une exigence mesurable."
+    },
+    {
+      "q": "Lequel de ces déchets fait partie des 8 déchets ?",
+      "options": [
+        "Innovation",
+        "En attendant",
+        "Entraînement",
+        "Prévision"
+      ],
+      "correct": 1,
+      "explanation": "L'attente est l'un des 8 gaspillages ; l’innovation, la formation et la prévision ne le sont pas."
+    },
+    {
+      "q": "La variation qui est toujours présente dans un processus stable est appelée :",
+      "options": [
+        "Variation pour cause spéciale",
+        "Variation de cause commune",
+        "Variation attribuable",
+        "Erreur de mesure"
+      ],
+      "correct": 1,
+      "explanation": "La variation de cause commune est la variation naturelle et continue d’un processus stable."
+    },
+    {
+      "q": "Un défaut est :",
+      "options": [
+        "Toute étape du processus",
+        "Toute erreur d'un employé",
+        "Toute suggestion client",
+        "Tout résultat qui ne répond pas à une spécification ou à une exigence"
+      ],
+      "correct": 3,
+      "explanation": "Un défaut est une sortie qui ne répond pas à une exigence ou à une spécification."
+    },
+    {
+      "q": "Une ceinture blanche généralement :",
+      "options": [
+        "Détient le budget du projet",
+        "Dirige des projets transversaux complexes",
+        "Prend en charge les projets avec la collecte de données et les améliorations locales",
+        "Certifie d'autres ceintures"
+      ],
+      "correct": 2,
+      "explanation": "Les ceintures blanches soutiennent des projets et appliquent des outils de base dans leur propre travail."
+    },
+    {
+      "q": "COV signifie :",
+      "options": [
+        "Voix du client",
+        "Variation du coût",
+        "Valeur du contrôle",
+        "Vérification de la conformité"
+      ],
+      "correct": 0,
+      "explanation": "VOC est la voix du client : ce dont les clients ont besoin et ce qu'ils apprécient."
+    },
+    {
+      "q": "L’objectif principal du Lean est de :",
+      "options": [
+        "Remplacer toutes les statistiques",
+        "Augmenter l'inventaire",
+        "Réduire les déchets et améliorer le flux",
+        "Ajouter plus d'approbations"
+      ],
+      "correct": 2,
+      "explanation": "Lean se concentre sur l'élimination du gaspillage et l'amélioration des flux du point de vue du client."
+    },
+    {
+      "q": "De quel système est née la pensée Lean ?",
+      "options": [
+        "Le programme qualité de Motorola",
+        "ISO 9001",
+        "La chaîne de montage Ford",
+        "Le système de production Toyota"
+      ],
+      "correct": 3,
+      "explanation": "Le Lean est né du système de production Toyota, avec Taiichi Ohno comme personnage clé."
+    },
+    {
+      "q": "La saisie des mêmes données client dans trois systèmes distincts est un exemple de :",
+      "options": [
+        "En attendant",
+        "Surtraitement",
+        "Transport",
+        "Inventaire"
+      ],
+      "correct": 1,
+      "explanation": "Le surtraitement signifie effectuer plus de travail que ce dont le client a besoin, comme une saisie de données redondante."
+    },
+    {
+      "q": "Produire des rapports que personne ne lit est un exemple de :",
+      "options": [
+        "Mouvement",
+        "Défauts",
+        "Compétences inutilisées",
+        "Surproduction"
+      ],
+      "correct": 3,
+      "explanation": "La surproduction signifie produire plus que ce dont le client a besoin ou peut en utiliser."
+    },
+    {
+      "q": "Qui est responsable du maintien du processus après la fin d’un projet d’amélioration ?",
+      "options": [
+        "Le partenaire financier",
+        "La ceinture blanche",
+        "Le parrain",
+        "Le propriétaire du processus"
+      ],
+      "correct": 3,
+      "explanation": "Le propriétaire du processus est propriétaire du processus et de ses résultats après la clôture du projet."
+    },
+    {
+      "q": "Quel rôle dirige généralement un projet interfonctionnel complexe à temps plein ?",
+      "options": [
+        "Ceinture noire",
+        "Ceinture blanche",
+        "Ceinture jaune",
+        "Ceinture verte"
+      ],
+      "correct": 0,
+      "explanation": "Les ceintures noires dirigent des projets complexes à plein temps et coachent les ceintures vertes."
+    },
+    {
+      "q": "Quelle est la meilleure première étape pour démarrer un projet DMAIC ?",
+      "options": [
+        "Définir le problème et l'objectif",
+        "Exécuter un test d'hypothèse",
+        "Acheter un nouveau logiciel",
+        "Choisissez une solution"
+      ],
+      "correct": 0,
+      "explanation": "Définir clarifie le problème, le client, l'objectif et la portée avant la collecte de données ou les solutions."
+    },
+    {
+      "q": "Une panne de machine ponctuelle qui entraîne un retard est un exemple de :",
+      "options": [
+        "Variation normale",
+        "Erreur de mesure",
+        "Variation de cause commune",
+        "Variation pour cause spéciale"
+      ],
+      "correct": 3,
+      "explanation": "La variation de cause particulière provient d'un événement spécifique en dehors du modèle de processus normal."
+    },
+    {
+      "q": "Une arborescence CTQ connecte un besoin client à :",
+      "options": [
+        "Une carte de contrôle",
+        "Un fournisseur",
+        "Une exigence mesurable",
+        "Un budget de projet"
+      ],
+      "correct": 2,
+      "explanation": "Un arbre CTQ traduit un large besoin client en pilotes et exigences mesurables."
+    },
+    {
+      "q": "Les revues de formation et de conception sont des exemples de quelle catégorie COPQ ?",
+      "options": [
+        "Panne externe",
+        "Prévention",
+        "Évaluation",
+        "Panne interne"
+      ],
+      "correct": 1,
+      "explanation": "Les coûts de prévention sont dépensés pour arrêter les défauts avant qu’ils ne surviennent."
+    },
+    {
+      "q": "Un hôpital suit les réadmissions une fois les patients rentrés chez eux. Il s'agit principalement d'un exemple de :",
+      "options": [
+        "Coût de la prévention",
+        "Coût d'évaluation",
+        "Coût d'une défaillance externe",
+        "Coût d'une défaillance interne"
+      ],
+      "correct": 2,
+      "explanation": "Les coûts de défaillance externes surviennent après que le client a reçu le service."
+    },
+    {
+      "q": "Dans les huit gaspillages, les idées et compétences inutilisées des employés sont appelées :",
+      "options": [
+        "Surproduction",
+        "Talents inutilisés",
+        "Transport",
+        "En attendant"
+      ],
+      "correct": 1,
+      "explanation": "Les talents inutilisés sont le gaspillage des connaissances, des compétences et des idées des gens."
+    },
+    {
+      "q": "Un bon énoncé du problème doit inclure :",
+      "options": [
+        "Noms des personnes à blâmer",
+        "Une solution et un budget privilégiés",
+        "Quoi, où, quand et combien",
+        "Seulement un objectif"
+      ],
+      "correct": 2,
+      "explanation": "Un énoncé de problème utile décrit l’écart avec les données probantes : quoi, où, quand et ampleur."
+    },
+    {
+      "q": "Quelle étape constitue un travail nécessaire sans valeur ajoutée ?",
+      "options": [
+        "Retravailler un défaut",
+        "Une inspection de sécurité légalement requise",
+        "En attente d'un lot à remplir",
+        "Inventaire excédentaire"
+      ],
+      "correct": 1,
+      "explanation": "Le travail nécessaire sans valeur ajoutée n'ajoute pas de valeur au client mais est requis ; réduisez-le autant que possible."
+    },
+    {
+      "q": "Quelle est la meilleure action après la réussite d’un projet pilote ?",
+      "options": [
+        "Commencez immédiatement un nouveau projet",
+        "Arrêter de mesurer",
+        "Standardisez le changement et attribuez un propriétaire",
+        "Supprimer le plan de contrôle"
+      ],
+      "correct": 2,
+      "explanation": "La normalisation et l’appropriation font durer l’amélioration."
+    },
+    {
+      "q": "Qu’est-ce qui est le signe d’une culture d’amélioration saine ?",
+      "options": [
+        "Les gens signalent des problèmes sans crainte d’être blâmés",
+        "Les dirigeants accusent le personnel d'erreurs",
+        "Les équipes cachent les quasi-accidents",
+        "Aucun problème n'est jamais signalé"
+      ],
+      "correct": 0,
+      "explanation": "La sécurité psychologique encourage le signalement précoce et l’apprentissage des problèmes."
+    }
+  ],
+  "yellow": [
+    {
+      "q": "SIPOC signifie :",
+      "options": [
+        "Fournisseurs, idées, processus, propriétaires, coûts",
+        "Systèmes, entrées, processus, sorties, contrôles",
+        "Fournisseurs, intrants, processus, résultats, clients",
+        "Étapes, entrées, personnes, sorties, contrôles"
+      ],
+      "correct": 2,
+      "explanation": "SIPOC fournit une vue d'ensemble d'un processus et de ses limites."
+    },
+    {
+      "q": "Le principe de Pareto est souvent résumé comme suit :",
+      "options": [
+        "Règle du 50/50",
+        "Règle des 80/20",
+        "Règle des 90/10",
+        "Règle des 70/30"
+      ],
+      "correct": 1,
+      "explanation": "Environ 80 % des effets proviennent d’environ 20 % des causes."
+    },
+    {
+      "q": "Un diagramme en arête de poisson est utilisé pour :",
+      "options": [
+        "Rédiger une SOP",
+        "Calculer la capacité",
+        "Réfléchissez aux causes possibles d’un problème",
+        "Construire une carte de contrôle"
+      ],
+      "correct": 2,
+      "explanation": "Le diagramme en arête de poisson (Ishikawa) organise les causes possibles en catégories."
+    },
+    {
+      "q": "L’objectif principal des 5 Pourquoi est de :",
+      "options": [
+        "Définir les spécifications",
+        "Attribuer le blâme",
+        "Trouver une cause fondamentale exploitable",
+        "Compter les défauts"
+      ],
+      "correct": 2,
+      "explanation": "5 Whys demande pourquoi à plusieurs reprises pour passer des symptômes aux causes profondes."
+    },
+    {
+      "q": "La première étape des 5S est la suivante :",
+      "options": [
+        "Soutenir",
+        "Briller",
+        "Trier",
+        "Standardiser"
+      ],
+      "correct": 2,
+      "explanation": "5S commence par Trier : supprimez ce qui n’est pas nécessaire."
+    },
+    {
+      "q": "Une feuille de contrôle sert à :",
+      "options": [
+        "Enregistrez les données de manière standard et reproductible",
+        "Remplacer une carte de contrôle",
+        "Calculer le retour sur investissement",
+        "Demande prévisionnelle"
+      ],
+      "correct": 0,
+      "explanation": "Une feuille de contrôle est un formulaire simple permettant une collecte cohérente de données."
+    },
+    {
+      "q": "Une cartographie des processus doit montrer :",
+      "options": [
+        "Uniquement les données financières",
+        "Seule la sortie finale",
+        "Étapes, décisions, transferts et retards",
+        "Uniquement les noms des employés"
+      ],
+      "correct": 2,
+      "explanation": "Une bonne cartographie des processus montre comment le travail se déroule réellement, y compris les transferts et les points de décision."
+    },
+    {
+      "q": "Une charte de projet doit comprendre :",
+      "options": [
+        "Seulement une liste d'employés",
+        "Seule la solution finale",
+        "Problème, objectif, portée, équipe et calendrier",
+        "Seulement un budget"
+      ],
+      "correct": 2,
+      "explanation": "La charte définit les limites du projet, son objectif et sa responsabilité."
+    },
+    {
+      "q": "Lors d’un brainstorming, la meilleure première règle est la suivante :",
+      "options": [
+        "Différer le jugement et générer de nombreuses idées",
+        "N'acceptez que les idées des managers",
+        "Limiter l'équipe à deux idées",
+        "Jugez immédiatement chaque idée"
+      ],
+      "correct": 0,
+      "explanation": "Différer le jugement augmente la génération d’idées avant l’évaluation."
+    },
+    {
+      "q": "La réflexion Lean de base se concentre sur :",
+      "options": [
+        "Ajout d'approbations",
+        "Valeur, flux, attraction et perfection",
+        "Augmentation de la taille du lot",
+        "Maximiser l'inventaire"
+      ],
+      "correct": 1,
+      "explanation": "La pensée Lean relie la valeur, le flux, l’attraction et l’amélioration continue."
+    },
+    {
+      "q": "Qu'est-ce qui définit le mieux un processus ?",
+      "options": [
+        "Une liste d'objectifs des employés",
+        "Une seule tâche effectuée par une seule personne",
+        "Un ensemble d'étapes qui transforment les entrées en sorties pour un client",
+        "Un organigramme du département"
+      ],
+      "correct": 2,
+      "explanation": "Un processus transforme les entrées en sorties pour un client."
+    },
+    {
+      "q": "Un transfert de travail d’une équipe à une autre s’appelle :",
+      "options": [
+        "Un goulot d'étranglement",
+        "Un transfert",
+        "Un cahier des charges",
+        "Une limite de contrôle"
+      ],
+      "correct": 1,
+      "explanation": "Les transferts sont des points courants où des retards et des pertes d'informations se produisent."
+    },
+    {
+      "q": "Dans un diagramme SIPOC, qui reçoit les résultats du processus ?",
+      "options": [
+        "Clients",
+        "Propriétaires de processus",
+        "Fournisseurs",
+        "Entrées"
+      ],
+      "correct": 0,
+      "explanation": "Les clients reçoivent les résultats ; ils peuvent être internes ou externes."
+    },
+    {
+      "q": "Combien d’étapes de haut niveau un SIPOC doit-il généralement afficher ?",
+      "options": [
+        "Dix à quinze",
+        "Vingt ou plus",
+        "Un ou deux",
+        "Quatre à sept"
+      ],
+      "correct": 3,
+      "explanation": "Le SIPOC reste à un niveau élevé, avec généralement quatre à sept étapes de processus."
+    },
+    {
+      "q": "Sur un organigramme, que représente un losange ?",
+      "options": [
+        "Début ou fin",
+        "Étape du processus",
+        "Point de décision",
+        "Retard"
+      ],
+      "correct": 2,
+      "explanation": "Un losange montre où le processus bifurque en fonction d'une condition."
+    },
+    {
+      "q": "Pourquoi les couloirs sont-ils utilisés sur une carte de processus ?",
+      "options": [
+        "Pour calculer la capacité du processus",
+        "Pour répertorier les réclamations des clients",
+        "Pour définir les limites des spécifications",
+        "Pour montrer qui effectue chaque étape et exposer les transferts"
+      ],
+      "correct": 3,
+      "explanation": "Les couloirs organisent les étapes par rôle ou par service et rendent les transferts visibles."
+    },
+    {
+      "q": "Quelle phase DMAIC établit la référence ?",
+      "options": [
+        "Improve",
+        "Define",
+        "Measure",
+        "Analyze"
+      ],
+      "correct": 2,
+      "explanation": "Measure définit la métrique et collecte les données de base."
+    },
+    {
+      "q": "Qu’est-ce qu’un examen de porte DMAIC ?",
+      "options": [
+        "Un audit financier",
+        "Une enquête client",
+        "Une règle de carte de contrôle",
+        "Un point de contrôle pour décider si la phase est terminée et si le projet doit se poursuivre"
+      ],
+      "correct": 3,
+      "explanation": "Les examens de porte empêchent les travaux faibles de passer à la phase suivante."
+    },
+    {
+      "q": "Un bon énoncé du problème comprend :",
+      "options": [
+        "Quoi, où, quand et combien",
+        "Seulement un objectif",
+        "Les noms des personnes à blâmer",
+        "Une solution privilégiée"
+      ],
+      "correct": 0,
+      "explanation": "Un énoncé du problème décrit l’écart avec les preuves, et non une cause ou une solution."
+    },
+    {
+      "q": "Pourquoi une charte définit-elle le travail hors champ ?",
+      "options": [
+        "Pour augmenter le budget",
+        "Pour éviter toute dérive de la portée et garder l'équipe concentrée",
+        "Pour éviter de mesurer les résultats",
+        "Pour remplacer le propriétaire du processus"
+      ],
+      "correct": 1,
+      "explanation": "Des limites explicites aident l’équipe à dire non à un travail sans rapport."
+    },
+    {
+      "q": "Parmi ces données, lesquelles sont des données continues ?",
+      "options": [
+        "Réussir ou échouer",
+        "Type de défaut",
+        "Nom du département",
+        "Il est temps de résoudre un ticket"
+      ],
+      "correct": 3,
+      "explanation": "Le temps est mesuré sur une échelle continue."
+    },
+    {
+      "q": "La satisfaction enregistrée comme mauvaise, passable ou bonne est :",
+      "options": [
+        "Données catégorielles ordinales",
+        "Un histogramme",
+        "Un taux de défauts",
+        "Données continues"
+      ],
+      "correct": 0,
+      "explanation": "Les catégories ont un ordre, elles sont donc ordinales."
+    },
+    {
+      "q": "Quel est l’objectif principal d’une feuille de contrôle ?",
+      "options": [
+        "Pour remplacer une cartographie de processus",
+        "Pour prévoir la demande",
+        "Pour enregistrer les données de manière cohérente en temps réel",
+        "Pour calculer la capacité"
+      ],
+      "correct": 2,
+      "explanation": "Une feuille de contrôle standard réduit les variations et les erreurs dans la collecte de données."
+    },
+    {
+      "q": "Une feuille de contrôle contient 30 % d'entrées dans « autres ». Qu'est-ce que cela signifie habituellement ?",
+      "options": [
+        "Les catégories doivent être revues ou affinées",
+        "Les données sont continues",
+        "L'échantillon est trop grand",
+        "Le processus est parfait"
+      ],
+      "correct": 0,
+      "explanation": "Une grande catégorie « autre » signifie généralement que des catégories sont manquantes ou peu claires."
+    },
+    {
+      "q": "Quel graphique est le meilleur pour montrer une tendance au fil du temps ?",
+      "options": [
+        "Graphique à barres",
+        "Graphique de Pareto",
+        "Histogramme",
+        "Graphique d'exécution"
+      ],
+      "correct": 3,
+      "explanation": "Exécutez les graphiques en traçant les données dans l'ordre chronologique avec une ligne centrale."
+    },
+    {
+      "q": "Quel graphique convient le mieux pour montrer la distribution de données continues ?",
+      "options": [
+        "Histogramme",
+        "Graphique d'exécution",
+        "Graphique de Pareto",
+        "Carte des couloirs"
+      ],
+      "correct": 0,
+      "explanation": "Les histogrammes regroupent les valeurs continues dans des groupes."
+    },
+    {
+      "q": "Un diagramme de Pareto combine :",
+      "options": [
+        "Deux histogrammes",
+        "Un diagramme de progression et une arête de poisson",
+        "Un diagramme circulaire et une limite de contrôle",
+        "Barres triées et ligne de pourcentage cumulé"
+      ],
+      "correct": 3,
+      "explanation": "Les barres montrent la fréquence et la ligne montre la contribution cumulée."
+    },
+    {
+      "q": "Un défaut basse fréquence provoque de graves dommages. Que doit faire l’équipe ?",
+      "options": [
+        "Déplacez-le vers « autre »",
+        "Faites la moyenne avec des défauts courants",
+        "Ignorez-le car Pareto se concentre sur la fréquence",
+        "Traitez-le en priorité car la gravité et le risque comptent également"
+      ],
+      "correct": 3,
+      "explanation": "Pareto donne la priorité à la fréquence, mais la gravité et la sécurité peuvent l'emporter sur la fréquence."
+    },
+    {
+      "q": "Qu'est-ce qui se trouve en tête d'un diagramme en arête de poisson ?",
+      "options": [
+        "Le propriétaire du processus",
+        "L'effet ou le problème étudié",
+        "La solution choisie",
+        "Le budget du projet"
+      ],
+      "correct": 1,
+      "explanation": "Le chef expose le problème ; les os contiennent des causes possibles."
+    },
+    {
+      "q": "Un diagramme en arête de poisson prouve-t-il la cause profonde ?",
+      "options": [
+        "Non, car il ne montre que des solutions",
+        "Oui, si tous les 6M sont utilisés",
+        "Oui, si l'équipe est d'accord",
+        "Non, les causes possibles doivent être validées avec des données"
+      ],
+      "correct": 3,
+      "explanation": "Fishbone est un outil de brainstorming et d’organisation, et non une preuve de cause."
+    },
+    {
+      "q": "Quel est l’objectif des 5 Pourquoi ?",
+      "options": [
+        "Pour atteindre une cause première vérifiée et exploitable",
+        "Attribuer le blâme",
+        "Pour calculer le DPMO",
+        "Poser exactement cinq questions"
+      ],
+      "correct": 0,
+      "explanation": "Cinq est un guide ; le véritable test est de savoir si la cause est exploitable et vérifiée."
+    },
+    {
+      "q": "Pourquoi une équipe devrait-elle éviter de s'arrêter à « l'erreur humaine » dans les 5 Pourquoi ?",
+      "options": [
+        "Cela demande trop de questions",
+        "Ce n'est pas autorisé dans DMAIC",
+        "C'est toujours la véritable cause profonde",
+        "Il explique rarement les conditions du processus qui ont permis l'erreur"
+      ],
+      "correct": 3,
+      "explanation": "Demandez ce qui, dans le processus, a rendu l'erreur possible ou difficile à détecter."
+    },
+    {
+      "q": "Quel est l’ordre correct des 5S ?",
+      "options": [
+        "Standardiser, trier, briller, mettre de l'ordre, maintenir",
+        "Trier, Mettre en ordre, Faire briller, Standardiser, Soutenir",
+        "Briller, Trier, Entretenir, Standardiser, Mettre en ordre",
+        "Mettre en ordre, trier, briller, maintenir, standardiser"
+      ],
+      "correct": 1,
+      "explanation": "5S commence par Sort et se termine par Sustain."
+    },
+    {
+      "q": "Que comprend Shine à part le nettoyage ?",
+      "options": [
+        "Commande de nouvelles fournitures",
+        "Inspection des anomalies",
+        "Rédaction de la charte du projet",
+        "Calculer le retour sur investissement"
+      ],
+      "correct": 1,
+      "explanation": "Le nettoyage est aussi l’occasion de détecter les usures, les fuites et les éléments manquants."
+    },
+    {
+      "q": "Quels sont les cinq principes Lean ?",
+      "options": [
+        "Définir, Mesurer, Analyser, Améliorer, Contrôler",
+        "Valeur, flux de valeur, flux, traction, perfection",
+        "Trier, définir, faire briller, normaliser, maintenir",
+        "Planifier, faire, vérifier, agir, maintenir"
+      ],
+      "correct": 1,
+      "explanation": "La pensée Lean relie la valeur, la chaîne de valeur, le flux, l’attraction et la perfection."
+    },
+    {
+      "q": "En Lean, tirer signifie :",
+      "options": [
+        "Pousser le travail à l'étape suivante le plus rapidement possible",
+        "Déclencher les travaux en fonction de la demande du client",
+        "Maximiser l'inventaire",
+        "Ajout d'approbations"
+      ],
+      "correct": 1,
+      "explanation": "Pull réduit la surproduction et l’excès de travail en cours."
+    },
+    {
+      "q": "Quelle est la première règle du brainstorming ?",
+      "options": [
+        "Critiquez immédiatement les idées",
+        "Générer des idées sans les juger",
+        "Seul le manager parle",
+        "Limiter l'équipe à trois idées"
+      ],
+      "correct": 1,
+      "explanation": "Les critiques précoces réduisent le nombre et la variété des idées."
+    },
+    {
+      "q": "Pourquoi recourir au brainstorming silencieux ?",
+      "options": [
+        "Réduire la domination et inclure des membres de l’équipe plus calmes",
+        "Pour ralentir la réunion",
+        "Pour éviter de documenter les idées",
+        "Pour que l'animateur décide"
+      ],
+      "correct": 0,
+      "explanation": "Écrire des idées crée d’abord une session plus équilibrée."
+    },
+    {
+      "q": "Pourquoi une équipe a-t-elle besoin d’une règle de décision ?",
+      "options": [
+        "Pour remplacer la charte de projet",
+        "Pour éviter de mesurer les résultats",
+        "Pour augmenter le nombre de réunions",
+        "Clarifier la manière dont les décisions seront prises et éviter les blocages"
+      ],
+      "correct": 3,
+      "explanation": "Une règle de décision indique à l'équipe si elle doit utiliser le consensus, le consentement ou la décision du leader."
+    },
+    {
+      "q": "Que devrait contenir chaque action ?",
+      "options": [
+        "Un propriétaire et une date d'échéance",
+        "Un budget et un sponsor",
+        "Une carte de contrôle",
+        "Un diagramme en arête de poisson"
+      ],
+      "correct": 0,
+      "explanation": "Les actions sans propriété ni dates ne sont généralement pas réalisées."
+    }
+  ],
+  "green": [
+    {
+      "q": "Une étude Gage R&R estime :",
+      "options": [
+        "Répétabilité et reproductibilité d'un système de mesure",
+        "Demande du client",
+        "Retour sur investissement du projet",
+        "Capacité du processus"
+      ],
+      "correct": 0,
+      "explanation": "Gage R&R sépare la variation de l'équipement (répétabilité) de la variation de l'évaluateur (reproductibilité)."
+    },
+    {
+      "q": "Un %GRR inférieur à 10 % est généralement considéré :",
+      "options": [
+        "Acceptable",
+        "Une cause particulière",
+        "Un indice de capacité",
+        "Inacceptable"
+      ],
+      "correct": 0,
+      "explanation": "En dessous de 10 % est généralement acceptable ; 10 à 30 % peuvent être acceptables sous certaines conditions."
+    },
+    {
+      "q": "Cpk est calculé comme suit :",
+      "options": [
+        "DPMO / 1 000 000",
+        "Moyenne/écart type",
+        "(USL - LSL) / 6 sigma",
+        "min((USL - moyenne)/3 sigma, (moyenne - LSL)/3 sigma)"
+      ],
+      "correct": 3,
+      "explanation": "Cpk utilise la distance entre la moyenne et la limite de spécification la plus proche."
+    },
+    {
+      "q": "DPMO est égal à :",
+      "options": [
+        "Défauts / (unités x opportunités) x 1 000 000",
+        "Unités / défauts",
+        "Sigma/6",
+        "Défauts / unités"
+      ],
+      "correct": 0,
+      "explanation": "DPMO correspond aux défauts par million d'opportunités."
+    },
+    {
+      "q": "Une valeur p inférieure à alpha signifie :",
+      "options": [
+        "Rejeter l'hypothèse nulle",
+        "Prouver que l'alternative est vraie",
+        "Les données ne sont pas valides",
+        "Accepter l'hypothèse nulle"
+      ],
+      "correct": 0,
+      "explanation": "Lorsque p < alpha, le résultat est statistiquement significatif, rejetez donc l'hypothèse nulle."
+    },
+    {
+      "q": "Une erreur de type I est :",
+      "options": [
+        "Une erreur d'échantillonnage",
+        "Ne pas rejeter une fausse hypothèse nulle",
+        "Rejeter une véritable hypothèse nulle",
+        "Une erreur de mesure"
+      ],
+      "correct": 2,
+      "explanation": "L’erreur de type I est un faux positif : rejeter une vraie hypothèse nulle."
+    },
+    {
+      "q": "L'ANOVA est utilisée pour comparer :",
+      "options": [
+        "Moyens de trois groupes ou plus",
+        "Deux écarts types",
+        "Un point de données",
+        "Deux proportions"
+      ],
+      "correct": 0,
+      "explanation": "L'ANOVA compare les moyennes de trois groupes ou plus."
+    },
+    {
+      "q": "Un coefficient de corrélation va de :",
+      "options": [
+        "0 à 1",
+        "-1 à 1",
+        "-100 à 100",
+        "0 à 100"
+      ],
+      "correct": 1,
+      "explanation": "La corrélation va de -1 (parfait négatif) à +1 (parfait positif)."
+    },
+    {
+      "q": "Une carte de contrôle est conçue pour détecter :",
+      "options": [
+        "Modifications de la portée du projet",
+        "Roulement du personnel",
+        "Plaintes des clients",
+        "Variation pour cause spéciale"
+      ],
+      "correct": 3,
+      "explanation": "Les cartes de contrôle distinguent les variations de cause commune des signaux de cause spéciale."
+    },
+    {
+      "q": "Poka-yoke signifie :",
+      "options": [
+        "Réduction des coûts",
+        "Échantillonnage aléatoire",
+        "Conception d'expériences",
+        "Anti-erreur"
+      ],
+      "correct": 3,
+      "explanation": "Poka-yoke évite les erreurs ou les rend immédiatement visibles."
+    },
+    {
+      "q": "Quel ensemble d’éléments appartient à une charte de projet ?",
+      "options": [
+        "Seulement une liste de défauts",
+        "Seule la carte de contrôle",
+        "Problème, objectif, portée, équipe et calendrier",
+        "Seule la solution finale"
+      ],
+      "correct": 2,
+      "explanation": "Une charte définit le problème, l'objectif, la portée, l'équipe, les mesures et les jalons."
+    },
+    {
+      "q": "Un énoncé de problème bien rédigé doit éviter :",
+      "options": [
+        "Nommer une cause ou une solution préférée",
+        "La localisation du problème",
+        "La taille de l'écart",
+        "Une mesure de base"
+      ],
+      "correct": 0,
+      "explanation": "L'énoncé du problème décrit l'écart ; les causes sont étudiées plus tard."
+    },
+    {
+      "q": "Une partie prenante ayant une grande influence et un grand intérêt doit être :",
+      "options": [
+        "Surveillé avec un minimum d'effort",
+        "Géré de près et impliqué dans les décisions",
+        "Resté satisfait des mises à jour occasionnelles",
+        "Ignoré à moins qu'ils ne se plaignent"
+      ],
+      "correct": 1,
+      "explanation": "Les parties prenantes ayant une grande influence et un grand intérêt peuvent fortement influencer le projet et se soucier du résultat."
+    },
+    {
+      "q": "Quel est l’objectif principal de la cartographie des parties prenantes ?",
+      "options": [
+        "Planifier l’engagement en fonction de l’influence et de l’intérêt",
+        "Pour remplacer la charte de projet",
+        "Pour sélectionner le test statistique",
+        "Pour calculer le retour sur investissement du projet"
+      ],
+      "correct": 0,
+      "explanation": "La cartographie des parties prenantes aide l’équipe à planifier qui impliquer et à quelle fréquence."
+    },
+    {
+      "q": "Une exigence essentielle à la qualité devrait être :",
+      "options": [
+        "Mesurable et lié à un besoin client",
+        "Une solution privilégiée",
+        "Une règle de carte de contrôle",
+        "Un vague souhait du client"
+      ],
+      "correct": 0,
+      "explanation": "Un CTQ traduit un besoin client en une exigence mesurable."
+    },
+    {
+      "q": "Quelle est la différence entre les limites de spécification et les limites de contrôle ?",
+      "options": [
+        "C'est la même chose",
+        "Les spécifications proviennent des exigences ; les limites de contrôle proviennent des données de processus",
+        "Les limites de contrôle proviennent des clients ; les spécifications proviennent des opérateurs",
+        "Les spécifications s'appliquent uniquement aux données d'attribut"
+      ],
+      "correct": 1,
+      "explanation": "Les spécifications définissent les performances acceptables ; les limites de contrôle décrivent la variation naturelle du processus."
+    },
+    {
+      "q": "Une définition opérationnelle décrit :",
+      "options": [
+        "La solution finale",
+        "Le budget du projet",
+        "Comment exactement une métrique est mesurée et comptée",
+        "Le planning des réunions d'équipe"
+      ],
+      "correct": 2,
+      "explanation": "Les définitions opérationnelles garantissent que différentes personnes mesurent la même chose de la même manière."
+    },
+    {
+      "q": "Quand est-il approprié d’utiliser des données existantes au lieu de collecter de nouvelles données ?",
+      "options": [
+        "Lorsque les données sont fiables, pertinentes et suffisantes",
+        "Uniquement lorsque l'échantillon est supérieur à 1 000",
+        "Jamais; de nouvelles données sont toujours nécessaires",
+        "Chaque fois que les données sont faciles à trouver"
+      ],
+      "correct": 0,
+      "explanation": "Les données existantes doivent être utilisées lorsqu’elles peuvent répondre de manière fiable à la question."
+    },
+    {
+      "q": "Quel est le principal avantage de l’échantillonnage aléatoire ?",
+      "options": [
+        "Il élimine les erreurs de mesure",
+        "Cela supprime le besoin de calculer la taille de l'échantillon",
+        "Il garantit un échantillon parfait",
+        "Cela réduit les biais de sélection"
+      ],
+      "correct": 3,
+      "explanation": "L'échantillonnage aléatoire donne à chaque unité une chance égale de sélection."
+    },
+    {
+      "q": "L'échantillonnage stratifié est particulièrement utile lorsque :",
+      "options": [
+        "La taille de l'échantillon est de un",
+        "Les données sont purement catégoriques",
+        "La population comprend des groupes distincts qui doivent être représentés",
+        "Chaque unité est identique"
+      ],
+      "correct": 2,
+      "explanation": "L'échantillonnage stratifié garantit que les groupes importants sont représentés."
+    },
+    {
+      "q": "Quelle mesure du centre est la plus robuste aux valeurs aberrantes ?",
+      "options": [
+        "Écart type",
+        "Signifier",
+        "Médian",
+        "Gamme"
+      ],
+      "correct": 2,
+      "explanation": "La médiane dépend de la position et non de la taille des valeurs extrêmes."
+    },
+    {
+      "q": "L'écart type décrit :",
+      "options": [
+        "La répartition typique des données autour de la moyenne",
+        "La plus grande valeur",
+        "Le nombre de défauts",
+        "La valeur la plus fréquente"
+      ],
+      "correct": 0,
+      "explanation": "Un écart type plus grand signifie plus de variation autour de la moyenne."
+    },
+    {
+      "q": "Dans une distribution normale, quel pourcentage environ des valeurs se situe à moins de deux écarts types de la moyenne ?",
+      "options": [
+        "50%",
+        "68%",
+        "95%",
+        "99.7%"
+      ],
+      "correct": 2,
+      "explanation": "La règle empirique donne environ 68 %, 95 % et 99,7 % pour un, deux et trois écarts types."
+    },
+    {
+      "q": "Comment est calculé un z-score ?",
+      "options": [
+        "(x + moyenne) / plage",
+        "écart type / moyenne",
+        "(x - moyenne) / écart type",
+        "moyenne / écart type"
+      ],
+      "correct": 2,
+      "explanation": "Un score z exprime le nombre d’écarts types d’une valeur par rapport à la moyenne."
+    },
+    {
+      "q": "Cinq défauts, 500 unités et quatre opportunités par unité donnent quoi DPMO ?",
+      "options": [
+        "250",
+        "1,000",
+        "2,500",
+        "4,000"
+      ],
+      "correct": 2,
+      "explanation": "5 / (500 x 4) = 0,0025, soit 2 500 défauts par million d'opportunités."
+    },
+    {
+      "q": "Le décalage de 1,5 sigma utilisé dans de nombreux calculs au niveau sigma explique :",
+      "options": [
+        "Largeur de spécification",
+        "Erreur de mesure",
+        "Dérive du processus à long terme",
+        "Taille de l'échantillon"
+      ],
+      "correct": 2,
+      "explanation": "Le changement est une convention pour une dérive de processus à long terme."
+    },
+    {
+      "q": "Quelle est la principale différence entre Cp et Cpk ?",
+      "options": [
+        "Cp est utilisé uniquement pour les données d'attribut",
+        "Cp tient compte du centrage ; Cpk ne le fait pas",
+        "Cp mesure la propagation potentielle ; Cpk compte pour le centrage",
+        "Cpk est toujours plus grand que Cp"
+      ],
+      "correct": 2,
+      "explanation": "Cp décrit la capacité potentielle ; Cpk reflète le centrage réel."
+    },
+    {
+      "q": "Un procédé avec Cpk de 0,8 est généralement :",
+      "options": [
+        "Marginalement capable",
+        "Pas capable",
+        "Parfaitement centré",
+        "Très performant"
+      ],
+      "correct": 1,
+      "explanation": "Un Cpk inférieur à 1,0 indique que le processus n'est pas capable."
+    },
+    {
+      "q": "Quel graphique montre le mieux la distribution des données continues ?",
+      "options": [
+        "Graphique de Pareto",
+        "Carte des couloirs",
+        "Graphique d'exécution",
+        "Histogramme"
+      ],
+      "correct": 3,
+      "explanation": "Les histogrammes regroupent les valeurs continues dans des groupes et affichent la forme et la répartition."
+    },
+    {
+      "q": "Quel graphique convient le mieux pour comparer les distributions sur plusieurs groupes ?",
+      "options": [
+        "Diagramme circulaire",
+        "Nuage de points",
+        "Carte de contrôle",
+        "Boîte à moustaches"
+      ],
+      "correct": 3,
+      "explanation": "Les boîtes à moustaches comparent la médiane, les quartiles et les valeurs aberrantes entre les groupes."
+    },
+    {
+      "q": "Que fait la stratification dans l’analyse des causes profondes ?",
+      "options": [
+        "Il remplace le besoin de données",
+        "Il divise les données en groupes pour voir où se concentre le problème",
+        "Il supprime toute variation",
+        "Cela prouve la causalité"
+      ],
+      "correct": 1,
+      "explanation": "La stratification par équipe, produit ou région réduit souvent rapidement la cause."
+    },
+    {
+      "q": "Comment confirmer une cause profonde suspectée ?",
+      "options": [
+        "Avec des données, un pilote ou une comparaison conçue",
+        "De l'avis du sponsor",
+        "En choisissant la solution la plus chère",
+        "Par vote d'équipe"
+      ],
+      "correct": 0,
+      "explanation": "Une cause plausible doit être testée avec des preuves."
+    },
+    {
+      "q": "Comment le numéro de priorité du risque dans FMEA est-il calculé ?",
+      "options": [
+        "Occurrence x détection uniquement",
+        "Gravité + occurrence + détection",
+        "Gravité x occurrence x détection",
+        "Gravité / occurrence / détection"
+      ],
+      "correct": 2,
+      "explanation": "Le RPN va de 1 à 1 000 car chaque facteur est noté de 1 à 10."
+    },
+    {
+      "q": "Un mode de défaillance a un RPN faible mais une gravité de 10. Que doit faire l'équipe ?",
+      "options": [
+        "Ignorez-le car le RPN est faible",
+        "Agir parce qu’une gravité élevée peut l’emporter sur la fréquence",
+        "Déplacez-le vers la catégorie « autre »",
+        "Faites la moyenne avec d'autres modes de défaillance"
+      ],
+      "correct": 1,
+      "explanation": "Une gravité élevée peut nécessiter une action même lorsque le RPN est faible."
+    },
+    {
+      "q": "Un coefficient de corrélation de -0,8 indique :",
+      "options": [
+        "Aucune relation",
+        "Une relation causale",
+        "Une relation faible et positive",
+        "Une forte relation linéaire négative"
+      ],
+      "correct": 3,
+      "explanation": "À mesure qu’une variable augmente, l’autre tend à diminuer."
+    },
+    {
+      "q": "Quelle affirmation concernant la corrélation est correcte ?",
+      "options": [
+        "La corrélation s'applique uniquement aux données catégorielles",
+        "Une corrélation de zéro ne prouve aucune relation d'aucune sorte",
+        "La corrélation prouve la causalité",
+        "La corrélation montre une association, pas une causalité"
+      ],
+      "correct": 3,
+      "explanation": "La confusion, la causalité inverse ou le hasard peuvent créer une corrélation."
+    },
+    {
+      "q": "En régression simple, la pente représente :",
+      "options": [
+        "La probabilité que le modèle soit vrai",
+        "Le nombre de groupes",
+        "Le changement prévu dans la réponse pour une augmentation d'une unité du prédicteur",
+        "La variation totale de la réponse"
+      ],
+      "correct": 2,
+      "explanation": "La pente estime la force et la direction de la relation linéaire."
+    },
+    {
+      "q": "Mesures R au carré :",
+      "options": [
+        "La pente de la ligne",
+        "La proportion de variation de réponse expliquée par le modèle",
+        "La valeur p",
+        "La taille de l'échantillon"
+      ],
+      "correct": 1,
+      "explanation": "Le R au carré va de 0 à 1 et ne constitue pas en soi un bon modèle."
+    },
+    {
+      "q": "Une grande statistique F dans l'ANOVA suggère :",
+      "options": [
+        "La réponse est catégorique",
+        "La variation entre les groupes est importante par rapport à la variation au sein du groupe",
+        "Toutes les moyennes de groupe sont identiques",
+        "La taille de l'échantillon est trop petite"
+      ],
+      "correct": 1,
+      "explanation": "Un grand F suggère que les moyennes du groupe peuvent différer."
+    },
+    {
+      "q": "Après une ANOVA unidirectionnelle significative, que doit faire l’équipe ?",
+      "options": [
+        "Exécutez un test post-hoc pour identifier les groupes qui diffèrent",
+        "Passer à un diagramme circulaire",
+        "Recalculer les limites de contrôle",
+        "Arrêtez car l'analyse est terminée"
+      ],
+      "correct": 0,
+      "explanation": "L'ANOVA à elle seule ne permet pas de déterminer quel groupe est différent."
+    },
+    {
+      "q": "Qu’est-ce qu’une matrice impact-effort aide une équipe à faire ?",
+      "options": [
+        "Calculer le DPMO",
+        "Concevoir une expérience",
+        "Rédiger une SOP",
+        "Comparez les solutions en fonction de l'impact attendu et de l'effort de mise en œuvre"
+      ],
+      "correct": 3,
+      "explanation": "Il met en évidence les gains rapides et signale les options nécessitant beaucoup d’efforts et à faible impact."
+    },
+    {
+      "q": "Pourquoi une solution devrait-elle être liée à la cause première vérifiée ?",
+      "options": [
+        "Pour rendre le projet plus cher",
+        "Pour éviter de mesurer les résultats",
+        "Pour remplacer le plan de contrôle",
+        "Pour augmenter les chances que le correctif supprime le problème"
+      ],
+      "correct": 3,
+      "explanation": "Une solution qui ne s’attaque pas à la cause ne peut traiter que les symptômes."
+    },
+    {
+      "q": "Pourquoi un pilote a-t-il besoin d’une base de référence ?",
+      "options": [
+        "Pour augmenter la taille de l'échantillon",
+        "Pour sélectionner l'équipe",
+        "Pour rédiger la charte",
+        "Pour comparer les performances du pilote avec les performances actuelles"
+      ],
+      "correct": 3,
+      "explanation": "Sans base de référence, l’équipe ne peut pas dire si le changement a fonctionné."
+    },
+    {
+      "q": "Quel est l’objectif d’un plan de rollback dans un pilote ?",
+      "options": [
+        "Revenir à l'ancienne méthode si le pilote échoue ou cause des dommages",
+        "Pour calculer la capacité",
+        "Pour sélectionner une carte de contrôle",
+        "Pour remplacer la ligne de base"
+      ],
+      "correct": 0,
+      "explanation": "Un plan de restauration limite les risques lors des tests."
+    },
+    {
+      "q": "Quelle est la différence entre prévention et détection en poka-yoke ?",
+      "options": [
+        "Ils sont identiques",
+        "La prévention s'applique uniquement aux logiciels",
+        "La prévention rend une erreur impossible ou difficile ; la détection l'attrape immédiatement",
+        "La détection évite les erreurs ; la prévention les retrouve plus tard"
+      ],
+      "correct": 2,
+      "explanation": "La prévention est généralement plus forte car l’erreur n’atteint jamais le client."
+    },
+    {
+      "q": "Pourquoi le poka-yoke est-il généralement plus fiable qu’un rappel ?",
+      "options": [
+        "Cela modifie le processus afin que l'erreur soit bloquée ou détectée",
+        "Il faut que les gens se souviennent",
+        "Cela augmente le nombre d’approbations",
+        "Cela élimine le besoin de formation"
+      ],
+      "correct": 0,
+      "explanation": "Une protection contre les erreurs bien conçue est intégrée au travail."
+    },
+    {
+      "q": "Comment est calculé le temps takt ?",
+      "options": [
+        "Temps d'installation divisé par la taille du lot",
+        "Temps de travail disponible divisé par la demande du client",
+        "Demande client divisée par le temps disponible",
+        "Total des défauts divisé par unités"
+      ],
+      "correct": 1,
+      "explanation": "Le Takt time détermine le rythme dont le processus a besoin pour répondre à la demande des clients."
+    },
+    {
+      "q": "Une carte Kanban autorise le travail en amont uniquement lorsqu'une demande en aval existe. Ceci est un exemple de :",
+      "options": [
+        "L'inventaire est maximisé",
+        "Les approbations sont ajoutées",
+        "Les travaux sont déclenchés par la demande en aval",
+        "Les travaux sont repoussés le plus tôt possible"
+      ],
+      "correct": 2,
+      "explanation": "Pull réduit la surproduction et l’excès de travail en cours."
+    },
+    {
+      "q": "Au DOE, un facteur est :",
+      "options": [
+        "La sortie mesurée",
+        "Une erreur aléatoire",
+        "La taille de l'échantillon",
+        "Une variable d'entrée délibérément modifiée dans l'expérience"
+      ],
+      "correct": 3,
+      "explanation": "Les facteurs sont définis à différents niveaux pour voir leur effet sur la réponse."
+    },
+    {
+      "q": "Pourquoi randomiser l’ordre d’exécution dans une expérience ?",
+      "options": [
+        "Pour prolonger l'expérience",
+        "Pour éliminer le besoin de répétitions",
+        "Pour garantir un résultat significatif",
+        "Pour se protéger contre les variables cachées"
+      ],
+      "correct": 3,
+      "explanation": "La randomisation propage des effets incontrôlés à travers l’expérience."
+    },
+    {
+      "q": "Quelle carte de contrôle est utilisée pour les mesures individuelles au fil du temps ?",
+      "options": [
+        "X-bar et R avec des sous-groupes de cinq",
+        "I-MR",
+        "graphique p",
+        "graphique np"
+      ],
+      "correct": 1,
+      "explanation": "Les graphiques I-MR suivent les valeurs individuelles et la plage de déplacement."
+    },
+    {
+      "q": "Quel graphique est utilisé pour déterminer la proportion de produits défectueux lorsque la taille de l'échantillon varie ?",
+      "options": [
+        "graphique p",
+        "graphique np",
+        "graphique c",
+        "Graphique I-MR"
+      ],
+      "correct": 0,
+      "explanation": "Les graphiques p permettent de varier la taille de l’échantillon."
+    },
+    {
+      "q": "Que doit inclure un plan de réaction d’un plan de contrôle ?",
+      "options": [
+        "Seulement un graphique",
+        "Que vérifier, qui informer, confinement et mesures correctives",
+        "Uniquement le nom du sponsor",
+        "Seule la limite de spécification"
+      ],
+      "correct": 1,
+      "explanation": "Un plan de réaction spécifique rend le suivi réalisable."
+    },
+    {
+      "q": "Pourquoi un plan de contrôle a-t-il besoin d’un propriétaire nommé ?",
+      "options": [
+        "Pour éviter la formation",
+        "Quelqu'un doit être responsable de la surveillance et de la réponse",
+        "Pour augmenter le budget du projet",
+        "Pour remplacer le propriétaire du processus"
+      ],
+      "correct": 1,
+      "explanation": "Sans appropriation, les signaux sont souvent ignorés."
+    },
+    {
+      "q": "Qu’est-ce qui rend une SOP utilisable ?",
+      "options": [
+        "Seulement une liste de signatures",
+        "Un document rangé à l'écart du travail",
+        "Des étapes, des visuels, des rôles, des exceptions et un accès clairs au point d'utilisation",
+        "Un long récit sans visuels"
+      ],
+      "correct": 2,
+      "explanation": "Une SOP utilisable soutient le vrai travail plutôt que de ramasser la poussière."
+    },
+    {
+      "q": "Le travail standard est-il permanent ?",
+      "options": [
+        "Uniquement pour la fabrication",
+        "Non; c'est la meilleure méthode actuelle et peut être améliorée grâce au contrôle des changements",
+        "Oui; ça ne doit jamais changer",
+        "Seulement si le sponsor approuve chaque étape"
+      ],
+      "correct": 1,
+      "explanation": "Le travail standard est actuellement la meilleure méthode, et non une règle figée."
+    },
+    {
+      "q": "A quoi sert un journal RAID dans la gestion de projet ?",
+      "options": [
+        "Rédiger une SOP",
+        "Suivi des risques, des hypothèses, des problèmes et des dépendances",
+        "Calcul du DPMO",
+        "Sélection d'une carte de contrôle"
+      ],
+      "correct": 1,
+      "explanation": "RAID maintient les menaces et les contraintes du projet visibles."
+    },
+    {
+      "q": "Quel est le chemin critique dans un planning de projet ?",
+      "options": [
+        "Le budget du projet",
+        "La plus longue séquence de tâches dépendantes qui détermine la durée du projet",
+        "La tâche la plus courte du projet",
+        "La liste de toutes les parties prenantes"
+      ],
+      "correct": 1,
+      "explanation": "Un retard sur le chemin critique retarde l’ensemble du projet."
+    },
+    {
+      "q": "Quel outil est généralement le plus puissant pour le DOE et l’analyse de capabilité ?",
+      "options": [
+        "Bloc-notes",
+        "PowerPoint",
+        "Une calculatrice",
+        "Minionglet"
+      ],
+      "correct": 3,
+      "explanation": "Minitab dispose de menus dédiés au DOE, aux capacités, au MSA et aux cartes de contrôle."
+    },
+    {
+      "q": "Pourquoi documenter les étapes d’une analyse statistique ?",
+      "options": [
+        "Pour agrandir le fichier",
+        "Pour éviter de vérifier les hypothèses",
+        "Pour remplacer la charte de projet",
+        "Ainsi, le travail peut être répété, révisé et défendu"
+      ],
+      "correct": 3,
+      "explanation": "La reproductibilité est essentielle pour la confiance et l’audit."
+    }
+  ],
+  "black": [
+    {
+      "q": "Une ceinture noire souhaite utiliser un intervalle de confiance basé sur la normale pour la durée de cycle moyenne d'un processus asymétrique. L'échantillon compte 45 observations. Which statement about the Central Limit Theorem supports this approach?",
+      "options": [
+        "Les grands échantillons sont toujours biaisés",
+        "La variation disparaît avec de grands échantillons",
+        "Toutes les données sont normales",
+        "Les moyennes de l’échantillon tendent vers la normalité à mesure que la taille de l’échantillon augmente"
+      ],
+      "correct": 3,
+      "explanation": "Pour des échantillons suffisamment grands, la distribution d’échantillonnage de la moyenne est approximativement normale."
+    },
+    {
+      "q": "Lors d'un test d'hypothèse sur la résistance des matériaux d'un nouveau fournisseur, l'équipe souhaite augmenter les chances de détecter une réelle amélioration. Quel concept devraient-ils développer ?",
+      "options": [
+        "La moyenne de l'échantillon",
+        "La probabilité de rejeter un vrai nul",
+        "La probabilité de détecter un véritable effet",
+        "La probabilité d'une erreur de type I"
+      ],
+      "correct": 2,
+      "explanation": "La puissance est de 1 - bêta, la chance de trouver un effet qui existe réellement."
+    },
+    {
+      "q": "Les données sur les temps de réparation d'une équipe restent fortement faussées, même après la transformation. Pourquoi l’équipe devrait-elle envisager des méthodes non paramétriques ?",
+      "options": [
+        "L'échantillon est énorme",
+        "Vous voulez éviter toutes les hypothèses",
+        "Les données sont parfaitement normales avec des variances égales",
+        "Les hypothèses de distribution ne sont pas respectées"
+      ],
+      "correct": 3,
+      "explanation": "Les tests non paramétriques sont utiles lorsque la normalité ou d'autres hypothèses sont douteuses."
+    },
+    {
+      "q": "Un hôpital souhaite modéliser si un patient est réadmis dans les 30 jours en fonction de l'âge, de la gravité et du score de sortie. La régression logistique est appropriée car la réponse est :",
+      "options": [
+        "Toujours normal",
+        "Continu",
+        "Binaire (oui/non)",
+        "Un décompte"
+      ],
+      "correct": 2,
+      "explanation": "La régression logistique modélise la probabilité d'un résultat binaire."
+    },
+    {
+      "q": "Une sortie de régression pour un modèle de délai de livraison indique R-carré = 0,74. Comment l’équipe doit-elle interpréter cette valeur ?",
+      "options": [
+        "La taille de l'échantillon",
+        "La pente de la ligne",
+        "La proportion de variation expliquée par le modèle",
+        "La valeur p"
+      ],
+      "correct": 2,
+      "explanation": "R au carré est la fraction de variation de réponse expliquée par les prédicteurs."
+    },
+    {
+      "q": "Un modèle de régression pour la consommation de combustible inclut la température extérieure et les degrés-jours de chauffage, qui évoluent presque simultanément. Les coefficients changent de signe lorsque l'un des prédicteurs est supprimé. Quel problème est présent ?",
+      "options": [
+        "Les résidus sont normaux",
+        "L'échantillon est trop grand",
+        "La réponse est binaire",
+        "Les prédicteurs sont fortement corrélés les uns aux autres"
+      ],
+      "correct": 3,
+      "explanation": "La multicolinéarité rend les estimations de coefficients instables et difficiles à interpréter."
+    },
+    {
+      "q": "Une équipe dispose de huit facteurs potentiels et d’une capacité d’exécution limitée pour une expérience de dépistage. Quelle approche de conception correspond le mieux à cette situation ?",
+      "options": [
+        "Évitez la randomisation",
+        "Remplacer l'analyse de capabilité",
+        "Dépistez de nombreux facteurs avec moins d’analyses",
+        "Éliminez toutes les interactions"
+      ],
+      "correct": 2,
+      "explanation": "Les factorielles fractionnaires réduisent les exécutions lorsque de nombreux facteurs sont candidats."
+    },
+    {
+      "q": "Après sélection, trois facteurs affectent de manière significative le rendement et l’équipe soupçonne une courbure. La méthodologie de la surface de réponse est utilisée pour faire quoi ?",
+      "options": [
+        "Trouver les paramètres de facteur optimaux",
+        "Test de normalité uniquement",
+        "Construire des plans de contrôle",
+        "Calculer le COPQ"
+      ],
+      "correct": 0,
+      "explanation": "RSM modélise la courbure et aide à localiser les paramètres optimaux."
+    },
+    {
+      "q": "Un processus chimique a dérivé d'environ 0,3 sigma sur plusieurs heures. Une carte EWMA est particulièrement utile pour quoi ?",
+      "options": [
+        "Calcul de la taille de l'échantillon",
+        "Détection de petits changements",
+        "Uniquement les données d'attribut",
+        "Concevoir des expériences"
+      ],
+      "correct": 1,
+      "explanation": "EWMA pondère davantage les données récentes et détecte les petits changements de processus."
+    },
+    {
+      "q": "Un processus est stable mais sa sortie est fortement asymétrique à droite et ne correspond pas à un modèle normal. Comment évaluer la capacité ?",
+      "options": [
+        "Utilisez uniquement la moyenne",
+        "Doublez les limites de spécification",
+        "Ignorer la distribution",
+        "Transformez les données ou ajustez une distribution appropriée"
+      ],
+      "correct": 3,
+      "explanation": "Transformez ou ajustez une distribution appropriée avant d’estimer la capacité."
+    },
+    {
+      "q": "Un ingénieur qualité enregistre le nombre d'unités défectueuses en lots fixes de 50 pièces inspectées, avec des unités indépendantes et une probabilité de défaut constante. Quelle distribution modélise le décompte ?",
+      "options": [
+        "Exponentiel",
+        "Weibull",
+        "Binôme",
+        "Normale"
+      ],
+      "correct": 2,
+      "explanation": "La distribution binomiale comporte un nombre fixe d'essais avec deux résultats et une probabilité de succès constante."
+    },
+    {
+      "q": "Un processus de mesure produit une sortie continue et symétrique décrite uniquement par sa moyenne et son écart type. Quelle distribution correspond le mieux aux données ?",
+      "options": [
+        "Normale",
+        "Poisson",
+        "Binôme",
+        "Exponentiel"
+      ],
+      "correct": 0,
+      "explanation": "La distribution normale est la distribution classique continue et symétrique."
+    },
+    {
+      "q": "Un ingénieur en fiabilité dispose de données sur le temps de défaillance des pompes et a besoin d'un modèle flexible pour augmenter les taux de défaillance. La distribution de Weibull est particulièrement utile pour quoi ?",
+      "options": [
+        "Nombre de réussites ou d'échecs",
+        "Défauts par unité",
+        "Résultats de l'enquête Likert uniquement",
+        "Données sur les délais de défaillance et la fiabilité"
+      ],
+      "correct": 3,
+      "explanation": "Les paramètres de forme et d'échelle de Weibull le rendent flexible pour les données de fiabilité et de durée de vie."
+    },
+    {
+      "q": "Un échantillon de 36 bouteilles présente un écart type de procédé estimé à 2,4 ml. What is the standard error of the sample mean?",
+      "options": [
+        "Sigma divisé par la racine carrée de n",
+        "Sigma fois n",
+        "La moyenne de l'échantillon",
+        "La gamme"
+      ],
+      "correct": 0,
+      "explanation": "L'erreur type de la moyenne est l'écart type de la population divisé par la racine carrée de la taille de l'échantillon."
+    },
+    {
+      "q": "Une équipe augmente un échantillon de 100 à 400 observations tandis que l'écart type du processus reste le même. What happens to the standard error of the mean?",
+      "options": [
+        "Reste exactement le même",
+        "Devient négatif",
+        "Diminutions",
+        "Augmentations"
+      ],
+      "correct": 2,
+      "explanation": "L'erreur type diminue proportionnellement à la racine carrée de n."
+    },
+    {
+      "q": "Une ceinture noire doit justifier une inférence basée sur la normale sur un processus non normal en utilisant un échantillon de 60. Pourquoi le théorème central limite est-il pertinent ?",
+      "options": [
+        "Décrit la distribution d'échantillonnage de la moyenne pour les grands échantillons",
+        "Rend les données brutes normales",
+        "Élimine le besoin d’échantillonnage",
+        "Ne garantit aucune valeur aberrante"
+      ],
+      "correct": 0,
+      "explanation": "Il prend en charge l'inférence basée sur la normale sur les moyennes lorsque l'échantillon est suffisamment grand."
+    },
+    {
+      "q": "Un intervalle de confiance de 95 % pour le temps d’attente moyen est de 12 à 18 minutes. Quelle interprétation est correcte ?",
+      "options": [
+        "Environ 95 % des intervalles d'échantillons répétés contiendraient le vrai paramètre",
+        "Il y a 95 % de chances que le paramètre se trouve dans cet intervalle spécifique",
+        "95 % des données se trouvent dans l'intervalle",
+        "Le processus est capable à 95 %"
+      ],
+      "correct": 0,
+      "explanation": "La confiance réside dans la procédure à travers un échantillonnage répété, et non dans un intervalle réalisé."
+    },
+    {
+      "q": "Une équipe veut un intervalle de confiance avec une plus grande chance de couvrir la vraie moyenne. Si tout le reste reste pareil, quel changement devraient-ils apporter ?",
+      "options": [
+        "Augmenter la taille de l'échantillon",
+        "Réduire la variabilité",
+        "Réduire le niveau de confiance",
+        "Augmenter le niveau de confiance"
+      ],
+      "correct": 3,
+      "explanation": "Un niveau de confiance plus élevé nécessite une valeur critique plus grande et donc un intervalle plus large."
+    },
+    {
+      "q": "Un échantillon de 18 parties est utilisé pour estimer une moyenne et l'écart type de la population est inconnu. Quelle distribution doit fournir la valeur critique ?",
+      "options": [
+        "La distribution binomiale",
+        "La distribution de Poisson",
+        "Aucune valeur critique",
+        "La distribution t"
+      ],
+      "correct": 3,
+      "explanation": "La distribution t permet d'estimer l'écart type par rapport à l'échantillon."
+    },
+    {
+      "q": "Une ceinture noire explique la possibilité de détecter un effet réel d'un nouveau revêtement. Le pouvoir est la probabilité de quoi ?",
+      "options": [
+        "Rejeter une véritable hypothèse nulle",
+        "Faire une erreur de type I",
+        "Accepter toutes les hypothèses",
+        "Détecter un véritable effet"
+      ],
+      "correct": 3,
+      "explanation": "La puissance est égale à un moins bêta, la chance de détecter un effet existant."
+    },
+    {
+      "q": "Une équipe augmente la taille de son échantillon de 30 à 90 tandis que la taille de l'effet et l'alpha restent les mêmes. Qu’arrive-t-il au pouvoir statistique ?",
+      "options": [
+        "Le diminue",
+        "Le laisse inchangé",
+        "Le rend nul",
+        "L'augmente"
+      ],
+      "correct": 3,
+      "explanation": "Des échantillons plus grands réduisent l’erreur standard et facilitent la détection des effets réels."
+    },
+    {
+      "q": "Une équipe fixe le niveau de signification à 0,05 avant de tester une réclamation d'un fournisseur. Que contrôle cette valeur alpha ?",
+      "options": [
+        "Une erreur de type II",
+        "Détecter un véritable effet",
+        "Accepter l'alternative",
+        "Une erreur de type I"
+      ],
+      "correct": 3,
+      "explanation": "Alpha est le taux de faux positifs pour rejeter une véritable hypothèse nulle."
+    },
+    {
+      "q": "Une usine compare la résistance moyenne de quatre fournisseurs d’adhésifs. Quel test faut-il utiliser ?",
+      "options": [
+        "Test de McNemar",
+        "Qualité de l'ajustement du chi carré",
+        "ANOVA unidirectionnelle",
+        "Test t apparié"
+      ],
+      "correct": 2,
+      "explanation": "L'ANOVA teste si au moins une moyenne de groupe diffère tout en contrôlant l'erreur de type I."
+    },
+    {
+      "q": "Les mêmes 20 patients sont mesurés avant et après un traitement. Quel test est approprié pour le changement moyen ?",
+      "options": [
+        "Indépendance du chi carré",
+        "ANOVA unidirectionnelle",
+        "Test t apparié",
+        "Test t à deux échantillons"
+      ],
+      "correct": 2,
+      "explanation": "Le test t apparié tient compte de la corrélation au sein de chaque unité."
+    },
+    {
+      "q": "Une équipe croise les équipes (de jour ou de nuit) et le type de défaut pour voir s'ils sont liés. Which test should be used?",
+      "options": [
+        "Test t apparié",
+        "Test t sur un échantillon",
+        "Régression multiple",
+        "Test d'indépendance du chi carré"
+      ],
+      "correct": 3,
+      "explanation": "Le test d'indépendance compare les décomptes observés et attendus dans un tableau de contingence."
+    },
+    {
+      "q": "Deux lignes de production indépendantes sont comparées et leurs écarts diffèrent clairement. Le test t de Welch est préféré lorsque :",
+      "options": [
+        "La réponse est catégorique",
+        "Deux groupes indépendants ont des variances inégales",
+        "Les données sont appariées",
+        "Il y a trois groupes ou plus"
+      ],
+      "correct": 1,
+      "explanation": "Le test de Welch ne suppose pas des variances égales dans la population."
+    },
+    {
+      "q": "Un test t apparié est utilisé sur les mesures avant et après des mêmes unités. Quel est son principal avantage ?",
+      "options": [
+        "Fonctionne uniquement pour les proportions",
+        "Supprime la variation d'une unité à l'autre de la comparaison",
+        "Élimine le besoin de données",
+        "Permet trois groupes ou plus"
+      ],
+      "correct": 1,
+      "explanation": "L'analyse des différences au sein d'une unité augmente la précision lorsque les unités varient."
+    },
+    {
+      "q": "Une ANOVA unidirectionnelle rapporte p = 0,01 dans cinq groupes. Que peut conclure l’équipe ?",
+      "options": [
+        "Les écarts sont égaux",
+        "La moyenne d'au moins un groupe diffère",
+        "Chaque moyenne de groupe diffère",
+        "Le plus grand groupe est le meilleur"
+      ],
+      "correct": 1,
+      "explanation": "Le test global détecte au moins une différence ; des tests post-hoc identifient les groupes qui diffèrent."
+    },
+    {
+      "q": "Dans une ANOVA bidirectionnelle de température et de catalyseur, l'effet de la température change en fonction du niveau de catalyseur. Qu'est-ce qu'une interaction ?",
+      "options": [
+        "L'effet d'un facteur dépend du niveau de l'autre",
+        "Les deux facteurs sont insignifiants",
+        "Les résidus sont normaux",
+        "L'échantillon est apparié"
+      ],
+      "correct": 0,
+      "explanation": "Une interaction signifie que les facteurs n’agissent pas indépendamment."
+    },
+    {
+      "q": "Une ANOVA sur six machines est significative et l'équipe souhaite savoir quelles machines diffèrent tout en contrôlant les erreurs familiales. Quelle méthode convient ?",
+      "options": [
+        "Test de McNemar",
+        "Kappa",
+        "Durbin-Watson",
+        "Le test de Tukey"
+      ],
+      "correct": 3,
+      "explanation": "La procédure de différence honnêtement significative de Tukey s'ajuste pour des comparaisons multiples."
+    },
+    {
+      "q": "Les temps de cycle de deux groupes indépendants sont gravement anormaux et l’équipe souhaite une comparaison basée sur le classement. À quel test Mann-Whitney est-il l'alternative non paramétrique ?",
+      "options": [
+        "Le test du chi carré",
+        "Régression logistique",
+        "Le test t à deux échantillons",
+        "ANOVA unidirectionnelle"
+      ],
+      "correct": 2,
+      "explanation": "Mann-Whitney compare deux groupes indépendants à l'aide de classements."
+    },
+    {
+      "q": "Une équipe compare les classements de satisfaction dans trois magasins indépendants sans présumer de la normalité. Kruskal-Wallis est l'alternative non paramétrique à quel test ?",
+      "options": [
+        "Régression multiple",
+        "ANOVA unidirectionnelle",
+        "Test t apparié",
+        "Indépendance du chi carré"
+      ],
+      "correct": 1,
+      "explanation": "Kruskal-Wallis compare trois groupes indépendants ou plus en utilisant des classements."
+    },
+    {
+      "q": "Un tableau de contingence comporte plusieurs cellules avec des comptes attendus proches de 2. Que nécessite le test du chi carré ?",
+      "options": [
+        "Comptes attendus d'au moins cinq par cellule, ou un test exact",
+        "Catégories normalement distribuées",
+        "Observations appariées",
+        "Une réponse continue"
+      ],
+      "correct": 0,
+      "explanation": "Les petits nombres attendus rendent l’approximation du chi carré peu fiable."
+    },
+    {
+      "q": "Les mêmes inspecteurs classent 100 pièces comme réussite ou échec avant et après la formation. Quel test compare les résultats binaires appariés ?",
+      "options": [
+        "Test de McNemar",
+        "Qualité de l'ajustement du chi carré",
+        "Test t à deux échantillons",
+        "Mann-Whitney"
+      ],
+      "correct": 0,
+      "explanation": "Le test de McNemar prend en compte l'appariement des réponses binaires."
+    },
+    {
+      "q": "Une banque souhaite savoir si la région et le type de prêt sont liés à l'aide des chiffres figurant dans un tableau. Qu'examine le test du chi carré ?",
+      "options": [
+        "Association entre deux variables catégorielles",
+        "Différence entre deux moyens",
+        "Normalité des résidus",
+        "Inflation des écarts"
+      ],
+      "correct": 0,
+      "explanation": "Il compare les fréquences observées et attendues dans un tableau de contingence."
+    },
+    {
+      "q": "Deux évaluateurs sont d'accord sur 80 % des appels d'attributs, mais le hasard en produirait à lui seul 55 %. Kappa ajuste l'accord d'attribut pour quoi ?",
+      "options": [
+        "Taille de l'échantillon uniquement",
+        "Limites de spécification",
+        "Accord attendu par hasard",
+        "Unités de mesure"
+      ],
+      "correct": 2,
+      "explanation": "Kappa corrige le pourcentage d'accord par un accord aléatoire."
+    },
+    {
+      "q": "Un inspecteur mesure deux fois les mêmes 30 pièces pour vérifier la cohérence avec lui-même. Qu’est-ce que cela évalue ?",
+      "options": [
+        "Reproductibilité",
+        "Précision par rapport à une norme",
+        "Linéarité",
+        "Répétabilité"
+      ],
+      "correct": 3,
+      "explanation": "Le même évaluateur évalue les mêmes pièces plus d’une fois."
+    },
+    {
+      "q": "Un instrument est vérifié par rapport à un poids de référence certifié. Qu’est-ce que l’étalonnage établit principalement ?",
+      "options": [
+        "La capacité du processus",
+        "Traçabilité à un étalon et biais instrumental",
+        "Incertitude de mesure nulle",
+        "Un R&R de jauge parfait"
+      ],
+      "correct": 1,
+      "explanation": "L'étalonnage relie les lectures à une référence et identifie les biais ou les corrections."
+    },
+    {
+      "q": "Un laboratoire signale une incertitude élargie en utilisant un facteur de couverture de deux. Quel degré de confiance approximatif cela représente-t-il pour une distribution approximativement normale ?",
+      "options": [
+        "95 % de confiance",
+        "50 % de confiance",
+        "99,999 % de confiance",
+        "Aucune confiance"
+      ],
+      "correct": 0,
+      "explanation": "Pour une distribution approximativement normale, k est égal à deux, ce qui donne une couverture d'environ 95 %."
+    },
+    {
+      "q": "Dans un modèle prédisant la consommation d'énergie en fonction de la température, des heures de fonctionnement et de la charge, que représente le coefficient de température ?",
+      "options": [
+        "La taille de l'échantillon",
+        "Le changement dans la réponse par changement d'unité dans un prédicteur, en maintenant les autres constants",
+        "La variation totale de la réponse",
+        "La corrélation entre les résidus"
+      ],
+      "correct": 1,
+      "explanation": "Le coefficient est un effet ajusté pour ce prédicteur."
+    },
+    {
+      "q": "Une équipe continue d'ajouter des prédicteurs faibles à un modèle de régression. Pourquoi le R-carré ajusté est-il utile dans cette situation ?",
+      "options": [
+        "Remplace l'analyse résiduelle",
+        "Pénalise les prédicteurs qui n’améliorent pas suffisamment le modèle",
+        "Augmente toujours lorsque des prédicteurs sont ajoutés",
+        "Mesure la causalité"
+      ],
+      "correct": 1,
+      "explanation": "Contrairement au R carré ordinaire, il s’ajuste au nombre de prédicteurs."
+    },
+    {
+      "q": "Une sortie de régression multiple rapporte un test F global avec p < 0,001. Qu'est-ce qui est testé ?",
+      "options": [
+        "Le modèle dans son ensemble explique une variation significative",
+        "Chaque coefficient est différent de zéro",
+        "Les résidus sont indépendants",
+        "L'échantillon est suffisamment grand"
+      ],
+      "correct": 0,
+      "explanation": "Il teste le modèle dans son ensemble, et non chaque prédicteur individuel."
+    },
+    {
+      "q": "Un modèle construit sur des vitesses de machine de 40 à 80 unités par minute est utilisé pour prédire à 150 unités par minute. Pourquoi est-ce risqué ?",
+      "options": [
+        "La relation peut ne pas tenir en dehors de la plage observée",
+        "La régression ne peut pas faire de prédictions",
+        "R-carré devient nul",
+        "Les résidus disparaissent"
+      ],
+      "correct": 0,
+      "explanation": "Les modèles sont validés uniquement dans la plage des données observées."
+    },
+    {
+      "q": "Un modèle estime la probabilité d'une réclamation au titre de la garantie en fonction de l'âge et de l'utilisation du produit. Quel est le modèle de régression logistique dans ce cas ?",
+      "options": [
+        "Les log-cotes d'un événement binaire",
+        "Une réponse continue avec une variance constante",
+        "Compte par unité seulement",
+        "La moyenne de trois groupes"
+      ],
+      "correct": 0,
+      "explanation": "Il relie les prédicteurs aux log-cotes, puis à une probabilité."
+    },
+    {
+      "q": "Dans un modèle logistique, un prédicteur a un rapport de cotes de 2,3. Comment l’équipe doit-elle l’interpréter ?",
+      "options": [
+        "L'événement est impossible",
+        "Le modèle n'a aucun effet",
+        "Les probabilités de l'événement sont plus élevées à mesure que le prédicteur augmente",
+        "Chances inférieures de l'événement"
+      ],
+      "correct": 2,
+      "explanation": "L'exponentiation d'un coefficient positif donne un rapport de cotes supérieur à un."
+    },
+    {
+      "q": "Un modèle de risque de crédit est évalué par sa capacité à classer les défaillants avant les non-défaillants. L'AUC mesure quoi ?",
+      "options": [
+        "Discrimination entre événements et non-événements",
+        "Calibrage des probabilités prédites",
+        "Multicolinéarité",
+        "Normalité des prédicteurs"
+      ],
+      "correct": 0,
+      "explanation": "L'AUC mesure dans quelle mesure le modèle classe ou sépare les deux classes."
+    },
+    {
+      "q": "Un graphique résiduel/ajusté s'élargit à mesure que les valeurs ajustées augmentent. What does the pattern suggest?",
+      "options": [
+        "Variance inégale",
+        "Linéarité parfaite",
+        "Indépendance",
+        "Normalité"
+      ],
+      "correct": 0,
+      "explanation": "La variation de la répartition des résidus indique une hétéroscédasticité."
+    },
+    {
+      "q": "Une observation dans une régression a une distance de Cook bien supérieure à toutes les autres. Quelle est la distance de Cook utilisée pour identifier ?",
+      "options": [
+        "Des observations influentes",
+        "Le meilleur prédicteur",
+        "La taille de l'échantillon",
+        "Le niveau de confiance"
+      ],
+      "correct": 0,
+      "explanation": "La distance de Cook combine l'effet de levier et la taille résiduelle pour mesurer l'influence."
+    },
+    {
+      "q": "Un modèle de régression rapporte des facteurs d'inflation de variance de 12 et 15 pour deux prédicteurs. Qu’est-ce que cela signale ?",
+      "options": [
+        "Une réponse binaire",
+        "Une normalité parfaite",
+        "Multicolinéarité sévère",
+        "Aucune corrélation"
+      ],
+      "correct": 2,
+      "explanation": "Les VIF supérieurs à dix signalent que les coefficients peuvent être instables."
+    },
+    {
+      "q": "Deux prédicteurs dans une régression sont presque redondants et gonflent les erreurs types. Qu’est-ce qu’un remède raisonnable ?",
+      "options": [
+        "Utilisez un échantillon plus petit",
+        "Supprimer ou combiner des prédicteurs hautement corrélés",
+        "Ajouter plus de prédicteurs corrélés",
+        "Ignorer les erreurs standards"
+      ],
+      "correct": 1,
+      "explanation": "La combinaison ou la suppression de prédicteurs redondants stabilise le modèle."
+    },
+    {
+      "q": "Une équipe planifie une expérience factorielle complète à deux niveaux avec quatre facteurs et sans réplication. Combien de courses sont nécessaires ?",
+      "options": [
+        "16",
+        "8",
+        "32",
+        "4"
+      ],
+      "correct": 0,
+      "explanation": "Deux puissance quatre est égal à seize."
+    },
+    {
+      "q": "Une expérience factorielle comprend des points centraux répliqués. Qu’est-ce qu’ils aident l’équipe à détecter ?",
+      "options": [
+        "Multicolinéarité",
+        "Courbure",
+        "Randomisation",
+        "Blocage"
+      ],
+      "correct": 1,
+      "explanation": "Une différence entre les moyennes centrales et factorielles suggère une courbure."
+    },
+    {
+      "q": "Une équipe effectue tous les essais à basse température le lundi et tous les essais à haute température le mardi. La randomisation de l’ordre d’exécution protégerait contre quoi ?",
+      "options": [
+        "La nécessité de la réplication",
+        "Interactions",
+        "Tendances temporelles et effets de nuisance non mesurés",
+        "Toute erreur de mesure"
+      ],
+      "correct": 2,
+      "explanation": "La randomisation évite de confondre l’ordre avec les traitements."
+    },
+    {
+      "q": "Une équipe répète chaque condition expérimentale indépendamment. Que fournit la réplication ?",
+      "options": [
+        "Une garantie de significativité",
+        "Un moyen d'éviter la randomisation",
+        "Un substitut aux points centraux",
+        "Une estimation indépendante de l’erreur expérimentale"
+      ],
+      "correct": 3,
+      "explanation": "Les répétitions permettent d'estimer la variance de l'erreur."
+    },
+    {
+      "q": "Une conception de dépistage est étiquetée Résolution IV. Qu’est-ce que cela signifie pour l’interprétation ?",
+      "options": [
+        "Les principaux effets sont clairs, mais les interactions à deux facteurs sont aliasées",
+        "Toutes les interactions sont estimables",
+        "Les effets principaux sont alias les uns avec les autres",
+        "Aucun facteur n'est estimable"
+      ],
+      "correct": 0,
+      "explanation": "La résolution IV protège les principaux effets mais pas toutes les interactions à deux facteurs."
+    },
+    {
+      "q": "Une factorielle fractionnaire a des effets importants confondus avec d'autres interactions à deux facteurs. Un design pliable sert à quoi faire ?",
+      "options": [
+        "Supprimez le besoin de répliques",
+        "Éliminer le blocage",
+        "Effets importants du déalias",
+        "Augmenter le nombre de facteurs"
+      ],
+      "correct": 2,
+      "explanation": "Les exécutions complémentaires séparent les effets qui sont confondus."
+    },
+    {
+      "q": "Une équipe mène des expériences sur deux équipes et souhaite éviter que les différences entre équipes ne soient confondues avec les traitements. Le blocage sert à quoi ?",
+      "options": [
+        "Remplacer la réplication",
+        "Supprimer les variations de nuisance connues entre des groupes homogènes",
+        "Augmenter le nombre de traitements",
+        "Évitez la randomisation"
+      ],
+      "correct": 1,
+      "explanation": "Les blocs regroupent des unités expérimentales similaires afin que les variations nuisibles ne soient pas confondues avec les traitements."
+    },
+    {
+      "q": "Dans une conception en blocs complets randomisés avec cinq traitements, que contient chaque bloc ?",
+      "options": [
+        "Pas de réplication",
+        "Uniquement les points centraux",
+        "Chaque traitement une fois",
+        "Un seul traitement"
+      ],
+      "correct": 2,
+      "explanation": "Chaque bloc est un ensemble complet de traitements, randomisés au sein du bloc."
+    },
+    {
+      "q": "Une équipe doit ajuster un modèle quadratique après une expérience factorielle. Une conception composite centrale ajoute quels points ?",
+      "options": [
+        "Uniquement les points d'angle en double",
+        "Uniquement les points bloquants",
+        "Uniquement les facteurs de bruit",
+        "Points axiaux et centraux"
+      ],
+      "correct": 3,
+      "explanation": "Les points axiaux et centraux prennent en charge l'estimation des termes quadratiques."
+    },
+    {
+      "q": "Une équipe a déjà identifié les quelques facteurs importants et doit désormais optimiser ses réglages. La méthodologie de la surface de réponse est appropriée pour quoi ?",
+      "options": [
+        "Filtrer initialement des dizaines de facteurs",
+        "Remplacer l'analyse du système de mesure",
+        "Calculer le kappa",
+        "Trouvez les paramètres optimaux une fois que les facteurs importants sont connus"
+      ],
+      "correct": 3,
+      "explanation": "RSM modélise la courbure et optimise un ensemble plus restreint de facteurs importants."
+    },
+    {
+      "q": "Dans une étude de conception robuste, l’humidité varie sur le terrain mais ne peut pas être contrôlée en production. L'humidité est-elle mieux traitée comme quoi ?",
+      "options": [
+        "Un facteur que l’équipe peut fixer librement",
+        "Toujours une variable bloquante",
+        "Une sorte de point central",
+        "Une variable qui affecte la réponse mais qui est difficile ou coûteuse à contrôler"
+      ],
+      "correct": 3,
+      "explanation": "Une conception robuste recherche des réglages insensibles aux facteurs de bruit."
+    },
+    {
+      "q": "Une équipe de conception souhaite un produit qui fonctionne de manière cohérente dans une gamme de conditions d'utilisation. Quel est l’objectif d’une conception robuste ?",
+      "options": [
+        "Éliminez toutes les variations",
+        "Évitez les exécutions de confirmation",
+        "Obtenez des performances stables dans des conditions de bruit",
+        "Maximiser la moyenne uniquement"
+      ],
+      "correct": 2,
+      "explanation": "Les meilleurs réglages fonctionnent bien même lorsque les facteurs de bruit varient."
+    },
+    {
+      "q": "Un processus se déplace légèrement et y reste. Une carte CUSUM est particulièrement utile pour quoi ?",
+      "options": [
+        "Concevoir des expériences",
+        "Calcul de la taille de l'échantillon",
+        "Détection de petits changements soutenus",
+        "Uniquement des données catégorielles"
+      ],
+      "correct": 2,
+      "explanation": "CUSUM accumule les écarts par rapport à la cible pour détecter de petits changements persistants."
+    },
+    {
+      "q": "Un graphique EWMA utilise une petite constante de lissage. Quel est l’effet sur la sensibilité des graphiques ?",
+      "options": [
+        "Ignore complètement l'histoire",
+        "Élimine le besoin de limites de contrôle",
+        "Fonctionne uniquement pour les données d'attribut",
+        "Donne plus de poids aux données historiques et détecte des changements plus petits"
+      ],
+      "correct": 3,
+      "explanation": "Un lambda plus petit lisse davantage et est sensible aux petits changements."
+    },
+    {
+      "q": "Un processus stable a une sortie lognormale. Quelle approche donne une estimation de capacité défendable ?",
+      "options": [
+        "Assumer la normalité malgré tout",
+        "Utilisez uniquement la moyenne du processus",
+        "Ignorer les limites des spécifications",
+        "Transformez les données ou ajustez une distribution appropriée"
+      ],
+      "correct": 3,
+      "explanation": "La capacité doit être basée sur un modèle adapté aux données."
+    },
+    {
+      "q": "Une équipe souhaite calculer Cp et Cpk. Quelle condition le processus doit-il satisfaire en premier ?",
+      "options": [
+        "Incontrôlable",
+        "Écurie",
+        "Toujours en augmentation",
+        "Non mesuré"
+      ],
+      "correct": 1,
+      "explanation": "Un processus stable est nécessaire avant que les indices de capacité puissent être interprétés."
+    },
+    {
+      "q": "Un atelier réalise de nombreuses petites séries de production de différents numéros de pièces. À quoi sert la SPC à court terme ?",
+      "options": [
+        "Objectifs spécifiques à une pièce et variation à court terme",
+        "Limites de spécification",
+        "La moyenne globale de l'entreprise uniquement",
+        "Plaintes des clients"
+      ],
+      "correct": 0,
+      "explanation": "La standardisation permet à différents courts tirages de partager un graphique."
+    },
+    {
+      "q": "Un tableau de groupe combine plusieurs produits. Quels produits mutualiser ?",
+      "options": [
+        "Produit sur des équipements différents uniquement",
+        "Similaire dans le processus et la structure de variation",
+        "Complètement sans rapport",
+        "Toujours le volume le plus élevé"
+      ],
+      "correct": 1,
+      "explanation": "La mise en commun de processus contrairement à ceux-ci crée des limites et des signaux trompeurs."
+    },
+    {
+      "q": "Une chaîne de valeur montre de longs délais d’attente et des mouvements excessifs. Le Lean se concentre principalement sur quoi ?",
+      "options": [
+        "Concevoir des expériences",
+        "Supprimer les déchets et améliorer les flux",
+        "Réduire la variation avec des statistiques uniquement",
+        "Audit financier"
+      ],
+      "correct": 1,
+      "explanation": "Le Lean cible le travail et les flux sans valeur ajoutée."
+    },
+    {
+      "q": "Un processus présente des taux de défauts élevés et des résultats incohérents. Six Sigma se concentre principalement sur quoi ?",
+      "options": [
+        "Réduire les variations et les défauts grâce aux données",
+        "Augmentation des stocks",
+        "Suppression de toute la documentation",
+        "Éviter la mesure"
+      ],
+      "correct": 0,
+      "explanation": "Six Sigma utilise des méthodes structurées et des statistiques pour améliorer la cohérence."
+    },
+    {
+      "q": "Une cartographie de la chaîne de valeur montre 2 heures de traitement et 3 jours d'attente. Que comprend le délai de livraison ?",
+      "options": [
+        "Uniquement le temps de cycle machine",
+        "Seulement le temps d'installation",
+        "Tout le temps écoulé entre la demande et la livraison, y compris l'attente",
+        "Uniquement du temps de traitement à valeur ajoutée"
+      ],
+      "correct": 2,
+      "explanation": "Le délai de livraison prend en compte l'attente ainsi que le traitement."
+    },
+    {
+      "q": "A cell has 420 minutes of available work time per shift and customer demand of 210 units per shift. Qu’est-ce que le temps takt ?",
+      "options": [
+        "Temps de travail disponible divisé par la demande du client",
+        "Demande divisée par les stocks",
+        "Temps de traitement multiplié par la taille du lot",
+        "Délai total divisé par les défauts"
+      ],
+      "correct": 0,
+      "explanation": "Le temps Takt détermine le rythme requis pour répondre à la demande des clients."
+    },
+    {
+      "q": "Une ligne mesure une disponibilité de 90 %, des performances de 95 % et une qualité de 98 %. L’OEE est le produit de quoi ?",
+      "options": [
+        "Sécurité, moral et coût",
+        "Rendement, rebut et délai de livraison",
+        "Disponibilité, performance et qualité",
+        "Vitesse, coût et inventaire"
+      ],
+      "correct": 2,
+      "explanation": "L’efficacité globale de l’équipement combine ces trois éléments."
+    },
+    {
+      "q": "Les opérateurs nettoient, inspectent et serrent les raccords sur leurs propres machines à chaque quart de travail. Qu’est-ce que la maintenance autonome ?",
+      "options": [
+        "La maintenance est externalisée",
+        "L'équipement fonctionne jusqu'à la panne",
+        "Les opérateurs ne touchent jamais aux équipements",
+        "Les opérateurs effectuent le nettoyage de base, l'inspection et l'entretien mineur"
+      ],
+      "correct": 3,
+      "explanation": "Les opérateurs s’approprient l’état de base de l’équipement."
+    },
+    {
+      "q": "Lors d'un changement, certaines tâches ne peuvent être effectuées qu'après l'arrêt de la machine. Les tâches de configuration interne sont celles qui :",
+      "options": [
+        "Peut être fait pendant que la machine fonctionne",
+        "Ne nécessite aucun outil",
+        "Est toujours inutile",
+        "Ne peut être effectué que lorsque la machine est arrêtée"
+      ],
+      "correct": 3,
+      "explanation": "SMED vise à convertir le travail interne en travail externe."
+    },
+    {
+      "q": "Une équipe chronomètre un passage de la dernière bonne pièce avant le passage à la première bonne pièce suivante. Le temps de changement est mesuré à partir de quoi à quoi ?",
+      "options": [
+        "La dernière bonne partie avant le passage à la première bonne partie après",
+        "Du début de l’installation à la fin de la paperasse",
+        "Du premier changement d'outil au dernier",
+        "Le passage du précédent au suivant"
+      ],
+      "correct": 0,
+      "explanation": "Celui-ci mesure la totalité du temps de production perdu."
+    },
+    {
+      "q": "Une cellule de travail documente le temps takt, la séquence de travail et l'inventaire standard. Le travail standard comprend quoi ?",
+      "options": [
+        "Uniquement des objectifs financiers",
+        "Temps Takt, séquence de travail et inventaire standard",
+        "Seulement un titre de poste",
+        "Seules les règles de sécurité"
+      ],
+      "correct": 1,
+      "explanation": "Le travail standard définit la meilleure méthode actuelle et ses éléments clés."
+    },
+    {
+      "q": "Une équipe améliore un processus puis met à jour la méthode documentée. Comment traiter le travail standard ?",
+      "options": [
+        "Un substitut à la formation",
+        "La meilleure méthode actuelle, mise à jour lorsque le processus s'améliore",
+        "Permanent et jamais changé",
+        "Écrit sans intervention de l'opérateur"
+      ],
+      "correct": 1,
+      "explanation": "Il s’agit d’une base d’amélioration et non d’une règle figée."
+    },
+    {
+      "q": "Un lieu de travail organise les outils, supprime les éléments inutiles et maintient le nouvel agencement. Quel ensemble d’étapes décrit les 5S ?",
+      "options": [
+        "Sécurité, rapidité, économies, service, durabilité",
+        "Trier, échantillonner, étudier, résoudre, maintenir",
+        "Standardiser, simplifier, accélérer, servir, vendre",
+        "Trier, mettre de l'ordre, faire briller, standardiser, maintenir"
+      ],
+      "correct": 3,
+      "explanation": "5S crée et maintient un lieu de travail organisé."
+    },
+    {
+      "q": "Un tableau de production affiche l'état, les objectifs et les écarts en un coup d'œil. Quel est le but de ce management visuel ?",
+      "options": [
+        "Audits inutiles",
+        "Conditions normales et anormales évidentes en un coup d'œil",
+        "Tous les problèmes invisibles",
+        "Documents plus longs"
+      ],
+      "correct": 1,
+      "explanation": "Les signaux visuels aident les gens à voir rapidement l’état et les écarts."
+    },
+    {
+      "q": "Une entreprise conçoit un nouveau service et suit la feuille de route DFSS. Quelle séquence correspond à DMADV ?",
+      "options": [
+        "Définir, Mesurer, Analyser, Développer, Valider",
+        "Concevoir, mesurer, évaluer, déployer, vérifier",
+        "Définir, Gérer, Analyser, Livrer, Valider",
+        "Définir, mesurer, analyser, concevoir, vérifier"
+      ],
+      "correct": 3,
+      "explanation": "DMADV est la feuille de route DFSS pour la conception de nouveaux processus ou produits."
+    },
+    {
+      "q": "Une entreprise crée une nouvelle plate-forme de produits sans aucun processus existant à améliorer. DFSS sert à quoi ?",
+      "options": [
+        "Surveiller uniquement un processus stable",
+        "Calculer un intervalle de confiance",
+        "Concevoir un nouveau produit, service ou processus",
+        "Résoudre un problème connu dans un processus existant"
+      ],
+      "correct": 2,
+      "explanation": "DMAIC est généralement meilleur pour améliorer un processus existant."
+    },
+    {
+      "q": "Dans une Maison de la Qualité, les colonnes répertorient les besoins des clients. Comment s’appellent-ils ?",
+      "options": [
+        "Modes de défaillance",
+        "Besoins du client",
+        "Exigences techniques",
+        "Limites de contrôle"
+      ],
+      "correct": 1,
+      "explanation": "Ce qui représente les besoins de la voix du client."
+    },
+    {
+      "q": "Le toit triangulaire d’une Maison de Qualité montre quoi ?",
+      "options": [
+        "Le budget du projet",
+        "Limites des cartes de contrôle",
+        "Corrélations entre les exigences techniques",
+        "Réclamations clients uniquement"
+      ],
+      "correct": 2,
+      "explanation": "La toiture révèle des compromis et des synergies entre les exigences techniques."
+    },
+    {
+      "q": "Les clients sont mécontents lorsqu'un élément de sécurité de base manque, mais ne disent rien lorsqu'il est présent. Une caractéristique de qualité incontournable, à quoi sert-elle ?",
+      "options": [
+        "N'a aucun effet sur la satisfaction",
+        "Est toujours une fonctionnalité de performance",
+        "Provoque de l’insatisfaction lorsqu’il est absent mais n’enchante pas lorsqu’il est présent",
+        "Ravie toujours les clients"
+      ],
+      "correct": 2,
+      "explanation": "Les fonctionnalités indispensables sont des attentes fondamentales."
+    },
+    {
+      "q": "Une nouvelle alerte mobile ravit les clients lorsqu'ils sont présents mais ne suscite aucune plainte en cas d'absence. À quoi sert une caractéristique de qualité attrayante ?",
+      "options": [
+        "N'a aucun effet client",
+        "Ravie lorsqu'il est présent mais ne provoque pas d'insatisfaction lorsqu'il est absent",
+        "Provoque de l’insatisfaction en cas d’absence",
+        "S'améliore linéairement avec les performances"
+      ],
+      "correct": 1,
+      "explanation": "Les fonctionnalités attrayantes sont des différenciateurs inattendus."
+    },
+    {
+      "q": "Une équipe FMEA évalue la gravité des effets d’une défaillance potentielle. La gravité dans les taux FMEA quoi ?",
+      "options": [
+        "Coût du projet",
+        "Impact de l'effet d'échec",
+        "Probabilité de la cause",
+        "Capacité à détecter la panne"
+      ],
+      "correct": 1,
+      "explanation": "La gravité décrit la gravité de l'effet."
+    },
+    {
+      "q": "A team replaces RPN with Action Priority in FMEA. Pourquoi est-ce fait ?",
+      "options": [
+        "Utilise uniquement la détection",
+        "Élimine le besoin d’actions",
+        "Accorde plus de poids à la gravité et évite une équivalence de score trompeuse",
+        "Ignore la gravité"
+      ],
+      "correct": 2,
+      "explanation": "Différentes combinaisons de risques peuvent produire le même RPN, de sorte que la priorité aux actions améliore la concentration."
+    },
+    {
+      "q": "Dans le modèle de changement ADKAR, que représente le premier élément, A ?",
+      "options": [
+        "Conscience",
+        "Capacité",
+        "Analyse",
+        "Action"
+      ],
+      "correct": 0,
+      "explanation": "La prise de conscience, c'est comprendre pourquoi le changement est nécessaire."
+    },
+    {
+      "q": "Une fois qu’un nouveau processus est lancé, les dirigeants auditent, reconnaissent et encadrent le nouveau comportement. Que signifie le renforcement dans ADKAR ?",
+      "options": [
+        "Démarrer le projet",
+        "Évitez de communiquer",
+        "Remplacer la formation",
+        "Faire perdurer le nouveau comportement"
+      ],
+      "correct": 3,
+      "explanation": "La reconnaissance, les audits et les systèmes soutiennent l’adoption."
+    },
+    {
+      "q": "Les membres de l’équipe signalent les erreurs lors d’une autopsie sans crainte d’embarras. Quelle condition cela démontre-t-il ?",
+      "options": [
+        "Prendre des décisions seul",
+        "Parlez des risques et des erreurs sans crainte d’humiliation",
+        "Évitez toute responsabilité",
+        "Ignorer les objectifs de l'équipe"
+      ],
+      "correct": 1,
+      "explanation": "Il favorise l’apprentissage et un débat honnête."
+    },
+    {
+      "q": "Une charte de projet désigne une personne comme seul propriétaire du résultat et de la décision finale. De quel rôle RACI s'agit-il ?",
+      "options": [
+        "Attribué",
+        "Responsable",
+        "Consultatif",
+        "Approuvé"
+      ],
+      "correct": 1,
+      "explanation": "La personne responsable est propriétaire du résultat et de la décision."
+    },
+    {
+      "q": "Une équipe de direction classe les projets candidats par adéquation stratégique, impact, faisabilité, risque et urgence. Quels sont les critères de sélection des projets ?",
+      "options": [
+        "Seulement des gains rapides",
+        "Adéquation stratégique, impact, faisabilité, risque et urgence",
+        "Seulement le coût le plus bas",
+        "Seule la préférence du sponsor"
+      ],
+      "correct": 1,
+      "explanation": "Un ensemble équilibré de critères améliore les décisions de portefeuille."
+    },
+    {
+      "q": "Un portefeuille comprend de petites améliorations rapides ainsi que des projets stratégiques à long terme. Qu’est-ce que cela illustre ?",
+      "options": [
+        "Uniquement des projets faciles",
+        "Uniquement des projets sans risque",
+        "Gains rapides et projets stratégiques plus importants",
+        "Uniquement des projets à long terme"
+      ],
+      "correct": 2,
+      "explanation": "L’équilibre crée une dynamique tout en recherchant une valeur stratégique."
+    },
+    {
+      "q": "Le bénéfice d'un projet se vérifie par une réduction des dépenses en heures supplémentaires qui apparaît dans le compte de résultat. L'épargne dure, à quoi ça sert ?",
+      "options": [
+        "Les avis des clients sont-ils",
+        "Ne peut pas être mesuré",
+        "Affecter le P&L ou les flux de trésorerie",
+        "Ne sont que théoriques"
+      ],
+      "correct": 2,
+      "explanation": "Les économies concrètes sont des améliorations financières réelles et vérifiables."
+    },
+    {
+      "q": "Un projet coûte 120 000 $ et devrait rapporter 30 000 $ d'économies par mois. Que mesure la période de récupération ?",
+      "options": [
+        "La capacité du processus",
+        "Le temps nécessaire pour récupérer l’investissement du projet",
+        "Le coût total du projet",
+        "Le taux de défauts"
+      ],
+      "correct": 1,
+      "explanation": "Un retour sur investissement plus court signifie une récupération plus rapide des liquidités."
+    },
+    {
+      "q": "Deux projets pluriannuels ont des calendriers de trésorerie différents. La VAN représente quoi ?",
+      "options": [
+        "Comptes pour la valeur temporelle de l'argent",
+        "Ignore les flux de trésorerie",
+        "Toujours égal au retour sur investissement",
+        "Évite l'examen financier"
+      ],
+      "correct": 0,
+      "explanation": "Les flux de trésorerie futurs sont actualisés à leur valeur actuelle."
+    },
+    {
+      "q": "A Black Belt mentor guides a Green Belt through a difficult analysis instead of doing it for her. Quel est l’objectif principal du mentor ?",
+      "options": [
+        "Développer les capacités du mentoré plutôt que de prendre en charge le travail",
+        "Réaliser le projet personnellement",
+        "Évitez de donner des commentaires",
+        "Remplacer le sponsor"
+      ],
+      "correct": 0,
+      "explanation": "Le mentorat développe le jugement et les compétences."
+    },
+    {
+      "q": "Avant qu'un projet passe de Mesurer à Analyser, les réviseurs vérifient les données, la logique et l'état de préparation. Que vérifie une porte de phase ?",
+      "options": [
+        "Seulement le budget",
+        "Seule la présence de l'équipe",
+        "Seul le rapport final",
+        "Logique, preuves et préparation avant la phase suivante"
+      ],
+      "correct": 3,
+      "explanation": "Les examens de porte empêchent les travaux faibles d’avancer."
+    },
+    {
+      "q": "Un mentor répond à la question d'un mentoré avec une question approfondie qui aide le mentoré à raisonner. Que fait le mentor ?",
+      "options": [
+        "Éviter le suivi",
+        "Posez des questions qui aident le mentoré à raisonner",
+        "Donnez la réponse immédiatement",
+        "Ignorer les données du projet"
+      ],
+      "correct": 1,
+      "explanation": "Les questions renforcent le jugement et l’appropriation indépendants."
+    }
+  ],
+  "master": [
+    {
+      "q": "Une organisation aligne les objectifs à long terme sur les priorités d’amélioration annuelles à tous les niveaux. Qu’est-ce que Hoshin Kanri ?",
+      "options": [
+        "Une méthode d'échantillonnage",
+        "Un type de MSA",
+        "Une carte de contrôle",
+        "Déploiement d'une stratégie qui aligne les objectifs dans toute l'organisation"
+      ],
+      "correct": 3,
+      "explanation": "Hoshin Kanri transforme les priorités stratégiques en travaux d'amélioration."
+    },
+    {
+      "q": "Lors du déploiement de la stratégie, les dirigeants et les équipes échangent des ébauches d'objectifs et de plans jusqu'à ce qu'ils se mettent d'accord. Qu’est-ce que le catchball ?",
+      "options": [
+        "Un échantillon aléatoire",
+        "Dialogue itératif pour aligner les objectifs et les ressources",
+        "Une règle de carte de contrôle",
+        "Un ratio financier"
+      ],
+      "correct": 1,
+      "explanation": "Catchball est le processus d'alignement de va-et-vient entre les niveaux."
+    },
+    {
+      "q": "Un analyste financier confirme qu'un avantage du projet a réduit les coûts d'exploitation réels dans le compte de résultat. De quel type d’avantage s’agit-il ?",
+      "options": [
+        "Avantages qui affectent le P&L ou les flux de trésorerie",
+        "Scores de satisfaction des employés",
+        "Avis clients",
+        "Coûts théoriques évités"
+      ],
+      "correct": 0,
+      "explanation": "Les économies concrètes sont des avantages financiers réels et vérifiables."
+    },
+    {
+      "q": "Un comité de pilotage équilibre l’impact, le risque, la capacité et l’adéquation stratégique lors du choix des projets. La priorisation du portefeuille doit prendre en compte quoi ?",
+      "options": [
+        "Valeur, risque, capacité et adéquation stratégique",
+        "Seulement la vitesse",
+        "Seul le nombre de projets",
+        "Seulement le coût"
+      ],
+      "correct": 0,
+      "explanation": "Un portefeuille sain équilibre l’impact, le risque, les ressources et la stratégie."
+    },
+    {
+      "q": "Une entreprise mondiale souhaite une référence internationale pour les méthodes et les rôles Six Sigma. Que propose la norme ISO 13053 ?",
+      "options": [
+        "Audit financier",
+        "Méthodes et rôles Six Sigma",
+        "Tests de logiciels",
+        "Gestion environnementale"
+      ],
+      "correct": 1,
+      "explanation": "La norme ISO 13053 fournit des conseils sur les méthodes et les rôles Six Sigma."
+    },
+    {
+      "q": "Un candidat à la certification compare les corpus de connaissances publiés par deux organisations professionnelles. ASQ et IASSC sont mieux décrits comme quoi ?",
+      "options": [
+        "Fournisseurs de logiciels",
+        "Organismes de certification dotés de corpus de connaissances définis",
+        "Distributions statistiques",
+        "Types de cartes de contrôle"
+      ],
+      "correct": 1,
+      "explanation": "L'ASQ et l'IASSC publient des normes de certification et des BoK."
+    },
+    {
+      "q": "Un directeur général demande un tableau de bord qui équilibre les résultats financiers avec les clients, les processus internes et l'apprentissage. Quelles sont les quatre perspectives incluses dans le Balanced Scorecard ?",
+      "options": [
+        "Planifier, Faire, Vérifier, Agir",
+        "Finances, clients, processus internes, apprentissage et croissance",
+        "Coût, rapidité, qualité, risque",
+        "Définir, Mesurer, Analyser, Améliorer"
+      ],
+      "correct": 1,
+      "explanation": "Le tableau de bord équilibré équilibre les mesures financières et non financières."
+    },
+    {
+      "q": "Une usine compare ses performances et ses pratiques de maintenance à celles d’un opérateur de premier ordre dans un autre secteur. Qu’est-ce que l’analyse comparative ?",
+      "options": [
+        "Copier exactement un concurrent",
+        "Comparer les performances avec les meilleures pratiques et adapter les pratiques",
+        "Établir un budget",
+        "Exécuter un test t"
+      ],
+      "correct": 1,
+      "explanation": "L'analyse comparative utilise des comparaisons externes pour identifier les opportunités d'amélioration."
+    },
+    {
+      "q": "Il est demandé à un analyste d'utiliser les données d'un client sans son consentement pour améliorer un modèle. Quel devoir éthique s’applique ?",
+      "options": [
+        "Utiliser toutes les données disponibles quel que soit le consentement",
+        "Protéger la vie privée et utiliser les données de manière responsable",
+        "Cacher l'incertitude",
+        "Changer les résultats pour plaire aux dirigeants"
+      ],
+      "correct": 1,
+      "explanation": "L’éthique exige la confidentialité, l’honnêteté, la compétence et une utilisation appropriée des données."
+    },
+    {
+      "q": "Un Master Black Belt consacre du temps à la stratégie de déploiement, à la gouvernance du portefeuille et à l'encadrement d'autres ceintures. Qu'est-ce qui décrit le mieux le rôle ?",
+      "options": [
+        "Remplace l'équipe financière",
+        "Ne gère que de petits projets locaux",
+        "Déploie la stratégie, gouverne les portefeuilles, coache et consulte",
+        "Évite le travail statistique"
+      ],
+      "correct": 2,
+      "explanation": "Les MBB travaillent au niveau du système : déploiement, gouvernance, coaching et conseil."
+    },
+    {
+      "q": "Une équipe de déploiement de stratégie utilise une matrice X. Quel est le lien entre la matrice X ?",
+      "options": [
+        "Uniquement les budgets financiers",
+        "Évaluations des performances individuelles",
+        "Objectifs à long terme, objectifs annuels, priorités d'amélioration et cibles",
+        "Limites de contrôle et limites de spécification"
+      ],
+      "correct": 2,
+      "explanation": "La matrice X relie visuellement l’orientation stratégique aux priorités et mesures de déploiement."
+    },
+    {
+      "q": "Une entreprise décrit une orientation ambitieuse à long terme qui guide sa stratégie pendant des années. Qu’est-ce que le « vrai nord » à Hoshin Kanri ?",
+      "options": [
+        "Une règle de carte de contrôle",
+        "Un contrat fournisseur",
+        "Une orientation ambitieuse à long terme pour l’organisation",
+        "Une réduction des coûts à court terme"
+      ],
+      "correct": 2,
+      "explanation": "True North décrit l'aspiration à long terme de l'organisation."
+    },
+    {
+      "q": "Une équipe de direction examine mensuellement le déploiement de la stratégie et ajuste les plans à l’aide du PDCA. Quelle est cette pratique ?",
+      "options": [
+        "Concentrez-vous uniquement sur les dépenses du projet",
+        "Remplacer la gestion quotidienne",
+        "Appliquer le PDCA à une cadence régulière",
+        "Cela n'arrive qu'une fois par an"
+      ],
+      "correct": 2,
+      "explanation": "Des révisions et des ajustements fréquents assurent la réactivité du déploiement."
+    },
+    {
+      "q": "Une entreprise adopte 25 priorités stratégiques pour l’année et peine à progresser. What is the likely Hoshin failure?",
+      "options": [
+        "Fixer trop de priorités",
+        "Utiliser trop peu de mesures",
+        "Impliquant trop de niveaux",
+        "Examiner les progrès trop souvent"
+      ],
+      "correct": 0,
+      "explanation": "Trop de priorités diluent la concentration et les ressources."
+    },
+    {
+      "q": "Un planificateur envoie un objectif fixe aux services sans discussion, puis se demande pourquoi il échoue. Qu’est-ce que le planificateur a omis ?",
+      "options": [
+        "Un audit financier",
+        "Dialogue itératif pour aligner les objectifs, les ressources et les plans locaux",
+        "Une annonce d’objectif à sens unique",
+        "Une méthode d'échantillonnage aléatoire"
+      ],
+      "correct": 1,
+      "explanation": "Catchball est un alignement bidirectionnel structuré entre les niveaux."
+    },
+    {
+      "q": "Après les séances de catchball, que devrait avoir chaque fonction ?",
+      "options": [
+        "Une liste d'excuses",
+        "Une seule réunion annuelle",
+        "Plans documentés avec propriétaires, mesures et dates de révision",
+        "Un énoncé de vision plus long"
+      ],
+      "correct": 2,
+      "explanation": "Le dialogue doit se transformer en plans d’exécution responsables."
+    },
+    {
+      "q": "A catchball process keeps lowering targets until every team can easily meet them. Qu'est-ce qui n'a pas fonctionné ?",
+      "options": [
+        "Aligne les fonctions",
+        "Dilue chaque cible jusqu'à ce que ce soit facile",
+        "Inclut les contraintes locales",
+        "Accords sur les documents"
+      ],
+      "correct": 1,
+      "explanation": "Catchball doit préserver l’intention stratégique tout en rendant l’exécution réalisable."
+    },
+    {
+      "q": "Qui doit être impliqué dans le catchball pour un objectif transversal ?",
+      "options": [
+        "Uniquement l'équipe de direction",
+        "Uniquement des consultants externes",
+        "Seul le département des finances",
+        "Plusieurs niveaux et fonctions affectés par les objectifs"
+      ],
+      "correct": 3,
+      "explanation": "Le dialogue inter-niveaux et interfonctionnel améliore l’alignement."
+    },
+    {
+      "q": "Un programme définit qui décide, qui est responsable et comment les problèmes dégénèrent. Que définit la gouvernance ?",
+      "options": [
+        "Droits de décision, responsabilité et escalade",
+        "La méthode statistique pour chaque projet",
+        "Le plan de commercialisation",
+        "Le cursus de formation uniquement"
+      ],
+      "correct": 0,
+      "explanation": "La gouvernance clarifie qui décide et qui possède les résultats."
+    },
+    {
+      "q": "A steering committee meets to remove cross-project blockers and allocate resources. Sur quoi doit-il se concentrer ?",
+      "options": [
+        "Tâches quotidiennes du projet",
+        "Exécution d'analyses statistiques",
+        "Rédaction d'ouvrages standards",
+        "Orientation, ressources, risques et conflits entre projets"
+      ],
+      "correct": 3,
+      "explanation": "Les comités directeurs éliminent les obstacles et prennent des décisions au niveau du portefeuille."
+    },
+    {
+      "q": "Avant de financer la phase suivante, les évaluateurs examinent les preuves et l’état de préparation. Que vérifie une porte de phase ?",
+      "options": [
+        "Seule la présence de l'équipe",
+        "Seul le rapport final",
+        "Preuves et préparation avant la phase suivante",
+        "Seul le budget du projet"
+      ],
+      "correct": 2,
+      "explanation": "Les barrières empêchent les travaux faibles de consommer davantage de ressources."
+    },
+    {
+      "q": "Un PMO fournit une surveillance et des modèles, tandis qu'une unité commerciale en possède les avantages. Comment répartir les responsabilités ?",
+      "options": [
+        "Le PMO soutient la gouvernance ; le propriétaire de l'entreprise reste responsable",
+        "Le PMO possède tous les avantages",
+        "Le PMO remplace le sponsor",
+        "Le PMO évite de rendre compte"
+      ],
+      "correct": 0,
+      "explanation": "Le PMO permet la surveillance mais ne remplace pas la responsabilité de l'entreprise."
+    },
+    {
+      "q": "Une entreprise revoit son portefeuille de projets chaque trimestre à mesure que la capacité et les priorités changent. Pourquoi est-ce nécessaire ?",
+      "options": [
+        "Les finances exigent des examens mensuels",
+        "Tous les projets ont la même valeur",
+        "Changement des priorités, des capacités et des données probantes",
+        "Les projets ne changent jamais"
+      ],
+      "correct": 2,
+      "explanation": "Un rééquilibrage régulier permet de conserver les ressources sur les travaux à plus forte valeur ajoutée."
+    },
+    {
+      "q": "Un portefeuille comporte des critères explicites pour arrêter les projets qui ne justifient plus un investissement. Quelle est cette pratique ?",
+      "options": [
+        "Punir les porteurs de projets",
+        "Eviter tout risque",
+        "Garantir la réussite de chaque projet",
+        "Stopper les projets qui ne justifient plus l’investissement"
+      ],
+      "correct": 3,
+      "explanation": "Les sorties anticipées libèrent de la capacité pour de meilleures opportunités."
+    },
+    {
+      "q": "Un portefeuille contient plus de projets que les personnes et les capitaux disponibles ne peuvent en réaliser. Quelle contrainte a été violée ?",
+      "options": [
+        "Seulement le nombre d'idées",
+        "Uniquement le calendrier marketing",
+        "Uniquement des benchmarks externes",
+        "Personnes disponibles, capitaux et attention de la direction"
+      ],
+      "correct": 3,
+      "explanation": "La capacité est une réelle contrainte sur l’exécution du portefeuille."
+    },
+    {
+      "q": "Un portefeuille comprend à la fois des gains rapides et de grandes initiatives stratégiques. Qu'est-ce que cela apporte ?",
+      "options": [
+        "Uniquement des projets à long terme",
+        "Uniquement des projets à faible risque",
+        "Seuls les projets dans une seule fonction",
+        "Gains rapides et projets stratégiques plus importants"
+      ],
+      "correct": 3,
+      "explanation": "L’équilibre crée une dynamique tout en recherchant une valeur stratégique."
+    },
+    {
+      "q": "Les finances examinent la base de référence d'un projet, le type d'avantages, le calendrier et l'impact en espèces. Que documente un plan de réalisation des avantages ?",
+      "options": [
+        "Seulement le nombre de ceintures",
+        "La référence, le type de prestation, le calendrier et l’impact en espèces",
+        "Seul le calendrier du projet",
+        "Uniquement la satisfaction du client"
+      ],
+      "correct": 1,
+      "explanation": "La finance valide si les avantages réclamés sont réels et mesurables."
+    },
+    {
+      "q": "Un projet libère des capacités mais ne réduit pas immédiatement les dépenses. Que doit-il se passer pour que l’avantage se transforme en espèces ?",
+      "options": [
+        "Double comptage",
+        "Une carte de contrôle",
+        "Validation et redéploiement éventuel en cash",
+        "Aucune preuve"
+      ],
+      "correct": 2,
+      "explanation": "Les économies indirectes peuvent représenter des coûts évités ou des capacités libérées, et non des liquidités automatiques."
+    },
+    {
+      "q": "Un PMO compare les avantages prévus avec les avantages réalisés chaque mois. Que compare un outil de suivi des avantages ?",
+      "options": [
+        "Des bénéfices prévus avec des bénéfices réalisés",
+        "Employés avec managers",
+        "Limites de contrôle avec spécifications",
+        "Fournisseurs avec clients"
+      ],
+      "correct": 0,
+      "explanation": "Le suivi montre si les avantages se matérialisent réellement."
+    },
+    {
+      "q": "Deux projets revendiquent tous deux le même avantage en matière de coûts évités. Pourquoi est-ce un problème ?",
+      "options": [
+        "Améliore la précision financière",
+        "Réduit les risques du projet",
+        "Simplifie la gouvernance",
+        "Surestime la valeur du portefeuille"
+      ],
+      "correct": 3,
+      "explanation": "Le même avantage compté deux fois gonfle le business case."
+    },
+    {
+      "q": "Un coach structure une conversation autour de l’objectif, de la réalité, des options et de la volonté. De quel modèle s'agit-il ?",
+      "options": [
+        "Objectif, Résultat, Sortie, Travail",
+        "Guider, Réfléchir, Observer, Gagner",
+        "Objectif, réalité, options, volonté",
+        "Grandir, réviser, organiser, travailler"
+      ],
+      "correct": 2,
+      "explanation": "GROW structure une conversation de coaching vers l’action."
+    },
+    {
+      "q": "Un manager aide un employé à améliorer une compétence de présentation spécifique, tandis qu'un mentor le conseille sur le développement de carrière. Qu’est-ce qui distingue le coaching ?",
+      "options": [
+        "C'est toujours à plus long terme",
+        "Évite les commentaires",
+        "Ne nécessite aucune expertise",
+        "Se concentre sur des objectifs de performance spécifiques"
+      ],
+      "correct": 3,
+      "explanation": "Le coaching vise la performance ; le mentorat est un développement plus large."
+    },
+    {
+      "q": "Un coach répond au problème d'un chef d'équipe en lui demandant quelles options il a déjà essayées. Que fait le coach ?",
+      "options": [
+        "Pose des questions qui construisent le raisonnement du coaché",
+        "Donne la réponse immédiatement",
+        "Évite les preuves",
+        "Reprend le projet"
+      ],
+      "correct": 0,
+      "explanation": "Les questions renforcent le jugement et l’appropriation indépendants."
+    },
+    {
+      "q": "Un coach prend en charge le projet d'un coaché ​​et réalise l'analyse à sa place. What coaching mistake is this?",
+      "options": [
+        "Suivi des actions",
+        "Résoudre le projet pour le coaché",
+        "Donner des commentaires spécifiques",
+        "Observer le travail"
+      ],
+      "correct": 1,
+      "explanation": "Le coaching doit renforcer les capacités et non créer une dépendance."
+    },
+    {
+      "q": "A capability plan emphasizes challenging assignments first, then relationships, then formal courses. De quel principe s'agit-il ?",
+      "options": [
+        "Expérience, relations et formation formelle dans cet ordre",
+        "Uniquement une formation en classe",
+        "Uniquement des cours en ligne",
+        "Uniquement les examens de certification"
+      ],
+      "correct": 0,
+      "explanation": "La plupart des capacités se développent grâce à un travail stimulant et à un coaching."
+    },
+    {
+      "q": "Une entreprise évalue la capacité de la bande en examinant les résultats du projet et les compétences démontrées, et pas seulement les heures de formation. Qu’est-ce qui est appliqué ?",
+      "options": [
+        "Compétence démontrée et résultats du projet",
+        "Heures de formation uniquement",
+        "Registres de présence",
+        "Nombre de diapositives"
+      ],
+      "correct": 0,
+      "explanation": "L'application et les résultats comptent plus que le temps passé au siège."
+    },
+    {
+      "q": "Les praticiens de plusieurs sites se réunissent mensuellement pour partager des méthodes et résoudre des problèmes courants. Qu’est-ce qu’une communauté de pratique ?",
+      "options": [
+        "Éliminer la gouvernance",
+        "Éviter le travail standard",
+        "Partager les connaissances et résoudre les problèmes entre praticiens",
+        "Remplacement de toutes les formations"
+      ],
+      "correct": 2,
+      "explanation": "Les communautés connectent les praticiens et soutiennent l’apprentissage."
+    },
+    {
+      "q": "A certification program requires verified project evidence in addition to an exam. Pourquoi cela renforce-t-il la certification ?",
+      "options": [
+        "Uniquement paiement d'une redevance",
+        "Seule la fréquentation",
+        "Demande vérifiée et preuves de projet",
+        "Uniquement un examen à choix multiples"
+      ],
+      "correct": 2,
+      "explanation": "Les preuves d'application distinguent la capacité des performances des tests."
+    },
+    {
+      "q": "Un client demande une analyse de régression mais ne peut pas indiquer la décision qu'elle appuiera. Que doit faire le consultant en premier ?",
+      "options": [
+        "Collectez plus de données",
+        "Rédiger le rapport final",
+        "Clarifier la décision et la question",
+        "Choisissez un test préféré"
+      ],
+      "correct": 2,
+      "explanation": "La sélection de la méthode suit la formulation du problème."
+    },
+    {
+      "q": "Un modèle utilise des données provenant d'une méthode d'échantillonnage inconnue et d'un processus de collecte peu clair. Pourquoi la provenance des données est-elle importante ?",
+      "options": [
+        "Élimine l'incertitude",
+        "Remplace l'analyse de sensibilité",
+        "Détermine si les données peuvent prendre en charge l'inférence prévue",
+        "Garantit la normalité"
+      ],
+      "correct": 2,
+      "explanation": "Les méthodes d’échantillonnage, de mesure et de collecte limitent les conclusions."
+    },
+    {
+      "q": "Une équipe vérifie si sa conclusion change lorsque des hypothèses alternatives raisonnables sont utilisées. Que vérifie l’analyse de sensibilité ?",
+      "options": [
+        "Le logiciel est rapide",
+        "Les conclusions sont valables sous d’autres hypothèses raisonnables",
+        "La valeur p est inférieure à 0,05",
+        "L'échantillon est grand"
+      ],
+      "correct": 1,
+      "explanation": "Il teste la robustesse du résultat."
+    },
+    {
+      "q": "Un consultant sélectionne un test t avant de comprendre la question commerciale. De quelle erreur de conseil s'agit-il ?",
+      "options": [
+        "Documenter les données",
+        "Expliquer l'incertitude",
+        "Commencer par une méthode plutôt que par la question",
+        "Vérification des hypothèses"
+      ],
+      "correct": 2,
+      "explanation": "Un conseil axé sur la méthode peut répondre à la mauvaise question."
+    },
+    {
+      "q": "Une équipe L&D suit l'analyse, la conception, le développement, la mise en œuvre et l'évaluation. De quel modèle s'agit-il ?",
+      "options": [
+        "Analyser, définir, livrer, améliorer, évaluer",
+        "Évaluer, concevoir, déployer, inspecter, expliquer",
+        "Demander, développer, mettre en œuvre, évaluer",
+        "Analyse, conception, développement, mise en œuvre, évaluation"
+      ],
+      "correct": 3,
+      "explanation": "ADDIE est un processus de conception pédagogique structuré."
+    },
+    {
+      "q": "A training designer writes an objective that states what learners will be able to demonstrate. Qu’est-ce qui le rend utile ?",
+      "options": [
+        "Performance observable et évaluable",
+        "Un sujet vague",
+        "Les diplômes du formateur",
+        "La durée du cours"
+      ],
+      "correct": 0,
+      "explanation": "Des objectifs clairs guident la conception et l’évaluation."
+    },
+    {
+      "q": "Une évaluation de formation mesure la réaction, l’apprentissage, le comportement et les résultats. De quel modèle s'agit-il ?",
+      "options": [
+        "Planifier, faire, vérifier, agir",
+        "Définir, mesurer, analyser, améliorer",
+        "Entrée, processus, sortie, feedback",
+        "Réaction, apprentissage, comportement et résultats"
+      ],
+      "correct": 3,
+      "explanation": "Ils évaluent la formation en fonction de la réaction aux résultats commerciaux."
+    },
+    {
+      "q": "Une entreprise associe une formation en classe à un coaching et à une pratique sur le terrain. Qu’est-ce que cela améliore ?",
+      "options": [
+        "Évaluer uniquement la satisfaction",
+        "Candidature et coaching sur le terrain",
+        "Livraison sous forme de cours uniquement",
+        "Aucune pratique"
+      ],
+      "correct": 1,
+      "explanation": "Le transfert nécessite de la pratique et du soutien dans l’environnement de travail réel."
+    },
+    {
+      "q": "Une entreprise applique le DFSS à l’ensemble d’un portefeuille avec une gouvernance et des méthodes communes. Qu’est-ce que le déploiement DFSS ?",
+      "options": [
+        "Remplacer tout le travail Lean",
+        "Appliquer DFSS à l’ensemble d’un portefeuille avec une gouvernance et des méthodes communes",
+        "Exécution d'un projet de conception isolé",
+        "Éviter les commentaires des clients"
+      ],
+      "correct": 1,
+      "explanation": "Enterprise DFSS étend la capacité de conception à l’ensemble de l’organisation."
+    },
+    {
+      "q": "Une équipe de conception traduit les exigences du client en exigences de conception mesurables. Que traduit le déploiement de la fonction qualité ?",
+      "options": [
+        "Coûts dans les budgets",
+        "Projets en portefeuilles",
+        "Les exigences du client en exigences de conception mesurables",
+        "Limites de contrôle dans les spécifications"
+      ],
+      "correct": 2,
+      "explanation": "Les CTQ connectent la voix du client aux décisions de conception."
+    },
+    {
+      "q": "Une équipe de conception comprend des fournisseurs clés pendant le développement du concept. Pourquoi?",
+      "options": [
+        "Remplacer la recherche client",
+        "Réduisez les risques de conception, les retouches et les retards de lancement",
+        "Augmenter la paperasse",
+        "Éviter la vérification"
+      ],
+      "correct": 1,
+      "explanation": "La capacité du fournisseur affecte la faisabilité et la qualité de la conception."
+    },
+    {
+      "q": "Une équipe apporte une modification mineure à faible risque à un processus existant. Pour quoi le DFSS complet est-il le moins approprié ?",
+      "options": [
+        "Une modification mineure à faible risque apportée à un processus existant",
+        "Une nouvelle plateforme de produits",
+        "Une nouvelle conception de services",
+        "Une nouvelle installation complexe"
+      ],
+      "correct": 0,
+      "explanation": "Adaptez la rigueur au risque et à la nouveauté de la conception."
+    },
+    {
+      "q": "Un leader de la transformation commence par montrer pourquoi le statu quo est intenable. De quelle étape de Kotter s'agit-il ?",
+      "options": [
+        "Créer un sentiment d’urgence",
+        "Déclarez la victoire",
+        "Récompensez l’ancien comportement",
+        "Évitez de communiquer"
+      ],
+      "correct": 0,
+      "explanation": "L’urgence motive l’action et la constitution de coalitions."
+    },
+    {
+      "q": "Une transformation réussit parce que les cadres intermédiaires traduisent les orientations dans leur travail quotidien. Pourquoi les managers intermédiaires sont-ils critiques ?",
+      "options": [
+        "Remplacer le parrainage des dirigeants",
+        "Traduire les orientations dans le travail quotidien et influencer leur adoption",
+        "Approuver uniquement les budgets",
+        "Évitez les contacts en première ligne"
+      ],
+      "correct": 1,
+      "explanation": "Ils relient l’intention du leadership à la réalité opérationnelle."
+    },
+    {
+      "q": "Un programme de changement célèbre les premiers résultats visibles. Pourquoi les victoires à court terme sont-elles importantes ?",
+      "options": [
+        "Évitez les mesures",
+        "Créer une dynamique et démontrer que le changement peut fonctionner",
+        "Remplacer la vision",
+        "Mettre fin à l'effort de changement"
+      ],
+      "correct": 1,
+      "explanation": "Les premiers résultats visibles soutiennent l’engagement."
+    },
+    {
+      "q": "Une entreprise intègre un nouveau processus dans les rôles, les incitations et les routines après son lancement. Que signifie soutenir le changement ?",
+      "options": [
+        "Supprimer tous les contrôles",
+        "Revenir aux anciennes méthodes",
+        "L'intégrer dans les rôles, les incitations, les processus et la culture",
+        "L'annoncer une fois"
+      ],
+      "correct": 2,
+      "explanation": "L'ancrage empêche la réversion après le lancement."
+    },
+    {
+      "q": "Une entreprise souhaite changer sa culture en modifiant le comportement, les routines, les indicateurs et les récompenses des dirigeants. Quel est le principal levier ?",
+      "options": [
+        "Comportement, routines, mesures et récompenses du leader",
+        "Affiches et slogans",
+        "La disposition du bâtiment uniquement",
+        "Publicité externe"
+      ],
+      "correct": 0,
+      "explanation": "Ce que les dirigeants font et récompensent indique ce qui compte."
+    },
+    {
+      "q": "Une équipe de transformation encourage les gens à signaler des erreurs sans crainte. Qu'est-ce que la sécurité psychologique ?",
+      "options": [
+        "Éviter la responsabilité",
+        "Éliminer les normes",
+        "Des questions décourageantes",
+        "Laisser les gens soulever des problèmes et des erreurs sans crainte"
+      ],
+      "correct": 3,
+      "explanation": "Les problèmes cachés ne peuvent être résolus."
+    },
+    {
+      "q": "Les dirigeants suivent une routine quotidienne documentée de promenades gemba, de révisions et de coaching. Qu’est-ce que le travail standard d’un leader ?",
+      "options": [
+        "Une routine documentée de comportements de leader qui renforcent le système d'exploitation",
+        "Une liste d'objectifs financiers",
+        "Une charte de projet",
+        "Une carte de contrôle"
+      ],
+      "correct": 0,
+      "explanation": "Elle rend la culture visible à travers des actions quotidiennes."
+    },
+    {
+      "q": "Un programme culturel s'appuie sur des affiches et des slogans sans changer les systèmes ni les comportements. Pourquoi est-ce susceptible d’échouer ?",
+      "options": [
+        "Des slogans sans changement de comportement ou de système",
+        "Modélisation des leaders",
+        "Des récompenses alignées",
+        "Routines quotidiennes"
+      ],
+      "correct": 0,
+      "explanation": "Les slogans à eux seuls ne changent pas les comportements."
+    },
+    {
+      "q": "Une revue de stratégie utilise les perspectives financières, clients, processus internes, ainsi que l’apprentissage et la croissance. Quelles sont les quatre perspectives qui composent le Balanced Scorecard ?",
+      "options": [
+        "Coût, rapidité, qualité et risque",
+        "Définir, mesurer, analyser et améliorer",
+        "Planifier, faire, vérifier et agir",
+        "Finances, clients, processus internes, apprentissage et croissance"
+      ],
+      "correct": 3,
+      "explanation": "Il équilibre les résultats avec les facteurs de performance future."
+    },
+    {
+      "q": "Une entreprise affiche des liens de cause à effet entre les objectifs stratégiques. Que montre une carte stratégique ?",
+      "options": [
+        "Un calendrier de projet",
+        "Une carte de contrôle",
+        "Liens de cause à effet entre les objectifs stratégiques",
+        "Uniquement les résultats financiers"
+      ],
+      "correct": 2,
+      "explanation": "La carte explique comment les capacités et les processus déterminent les résultats."
+    },
+    {
+      "q": "Une mesure prédit la fidélisation future des clients plutôt que de confirmer les résultats passés. De quel type de mesure s’agit-il ?",
+      "options": [
+        "Prédit les résultats futurs",
+        "Confirme uniquement les résultats passés",
+        "Est toujours financier",
+        "Ne peut pas être suivi"
+      ],
+      "correct": 0,
+      "explanation": "Les indicateurs avancés fournissent des signaux précoces sur les performances futures."
+    },
+    {
+      "q": "Un tableau de bord répertorie 60 KPI sans rapport et sans orientation stratégique. What scorecard mistake is this?",
+      "options": [
+        "Examen des résultats",
+        "Équilibrer les perspectives",
+        "Créer un dump KPI sans orientation stratégique",
+        "Utiliser une carte stratégique"
+      ],
+      "correct": 2,
+      "explanation": "Trop de mesures sans rapport diluent l’attention."
+    },
+    {
+      "q": "Une étude de référence compare à la fois les résultats et les pratiques qui les permettent. L'analyse comparative doit comparer quoi ?",
+      "options": [
+        "Uniquement les prix",
+        "Uniquement les supports marketing",
+        "Uniquement les organigrammes",
+        "Résultats et pratiques habilitantes"
+      ],
+      "correct": 3,
+      "explanation": "Comprendre les pratiques explique pourquoi les résultats diffèrent."
+    },
+    {
+      "q": "A benchmark compares defect rates across plants of different sizes and product mixes. Que garantit la normalisation ?",
+      "options": [
+        "Que toutes les métriques sont ignorées",
+        "Que les concurrents partagent des données",
+        "Que les résultats sont toujours identiques",
+        "Comparaison équitable malgré les différences d’échelle ou de composition"
+      ],
+      "correct": 3,
+      "explanation": "La normalisation empêche les comparaisons entre des pommes et des oranges."
+    },
+    {
+      "q": "Un hôpital compare son processus de planification à celui d'une compagnie aérienne. Qu’est-ce que le benchmarking fonctionnel ?",
+      "options": [
+        "Un processus similaire dans différentes industries ou organisations",
+        "Uniquement des concurrents directs",
+        "Uniquement les services internes",
+        "Uniquement des ratios financiers"
+      ],
+      "correct": 0,
+      "explanation": "L'analyse comparative fonctionnelle s'étend au-delà du secteur industriel pour identifier les meilleures pratiques."
+    },
+    {
+      "q": "Après une étude de référence, que doit faire l’organisation de la pratique étudiée ?",
+      "options": [
+        "Copiez exactement la pratique",
+        "Évitez les mesures",
+        "Adapter, piloter, mettre en œuvre et mesurer la pratique",
+        "Déposez le rapport et arrêtez"
+      ],
+      "correct": 2,
+      "explanation": "L’apprentissage doit se transformer en action adaptée."
+    },
+    {
+      "q": "Une usine connecte les machines avec des capteurs IoT, des analyses cloud et des systèmes cyber-physiques. Qu’est-ce que l’Industrie 4.0 ?",
+      "options": [
+        "Uniquement assemblage manuel",
+        "Uniquement la comptabilité financière",
+        "Uniquement SPC traditionnel",
+        "IoT, systèmes cyber-physiques, cloud, automatisation et analyses avancées"
+      ],
+      "correct": 3,
+      "explanation": "L'Industrie 4.0 relie les opérations physiques aux données et à l'intelligence numériques."
+    },
+    {
+      "q": "Un modèle estime quels clients sont susceptibles de se désinscrire au prochain trimestre. Quelle est cette utilisation de l’analyse ?",
+      "options": [
+        "Décrire uniquement les données passées",
+        "Remplacer toutes les connaissances sur les processus",
+        "Évitez la qualité des données",
+        "Estimer les résultats ou les risques futurs"
+      ],
+      "correct": 3,
+      "explanation": "Les modèles prédictifs soutiennent les décisions avant que les événements ne se produisent."
+    },
+    {
+      "q": "Un fabricant gère un modèle virtuel d'une ligne de production à des fins de simulation et de surveillance. Qu’est-ce qu’un jumeau numérique ?",
+      "options": [
+        "Un double du dossier papier",
+        "Une sorte de carte de contrôle",
+        "Un audit financier",
+        "Un modèle virtuel d'un actif physique ou d'un processus"
+      ],
+      "correct": 3,
+      "explanation": "Les jumeaux numériques prennent en charge la surveillance, la simulation et l'optimisation."
+    },
+    {
+      "q": "Une entreprise achète une plateforme d’analyse avant de définir une décision ou un dossier de valeur. What analytics failure does this illustrate?",
+      "options": [
+        "Définir d'abord le problème",
+        "Valider le modèle",
+        "Surveillance des performances",
+        "Projets axés sur la technologie sans décision ni argumentaire de valeur"
+      ],
+      "correct": 3,
+      "explanation": "L’analytique doit servir une décision réelle et un besoin commercial."
+    },
+    {
+      "q": "Une entreprise définit qui possède les données, comment la qualité est garantie et qui peut y accéder. Que couvre la gouvernance des données ?",
+      "options": [
+        "Uniquement du contenu marketing",
+        "Uniquement les calendriers de projet",
+        "Contrôles de propriété, de qualité, d'accès, de rétention et de cycle de vie",
+        "Uniquement les licences de logiciels"
+      ],
+      "correct": 2,
+      "explanation": "La gouvernance rend les données fiables et utilisées de manière responsable."
+    },
+    {
+      "q": "Une unité commerciale désigne une personne chargée de maintenir la qualité, la signification et l’utilisation appropriée des données. De quoi est responsable un gestionnaire de données ?",
+      "options": [
+        "Maintenance matérielle uniquement",
+        "Uniquement les rapports financiers",
+        "Uniquement la formation des utilisateurs",
+        "Qualité des données, signification et utilisation appropriée"
+      ],
+      "correct": 3,
+      "explanation": "Les stewards gèrent les données au nom de l’entreprise."
+    },
+    {
+      "q": "Un modèle fonctionne globalement bien mais nuit à un groupe démographique. Pourquoi les tests de biais sont-ils importants ?",
+      "options": [
+        "Il élimine le besoin de gouvernance des données",
+        "Les modèles peuvent produire des résultats injustes ou néfastes entre les groupes",
+        "Il garantit des prédictions parfaites",
+        "Il remplace la surveillance humaine"
+      ],
+      "correct": 1,
+      "explanation": "Des données ou une conception biaisées peuvent conduire à des décisions discriminatoires."
+    },
+    {
+      "q": "Un modèle aux enjeux élevés fait des recommandations, mais une personne peut les examiner et les ignorer. Qu’est-ce que l’évaluation humaine ?",
+      "options": [
+        "Une personne peut revoir ou annuler les décisions du modèle",
+        "Le modèle n'est jamais surveillé",
+        "Personne n'est responsable",
+        "Toutes les décisions sont automatisées"
+      ],
+      "correct": 0,
+      "explanation": "La surveillance soutient la responsabilité et la sécurité."
+    },
+    {
+      "q": "Une entreprise souhaite obtenir des conseils sur les rôles Six Sigma et DMAIC. Que couvre la norme ISO 13053 ?",
+      "options": [
+        "Permis environnementaux",
+        "Méthodes Six Sigma, rôles et DMAIC",
+        "Audit financier",
+        "Licence de logiciel"
+      ],
+      "correct": 1,
+      "explanation": "C'est une référence internationale pour la pratique Six Sigma."
+    },
+    {
+      "q": "Un site affirme que la certification ISO 13053 garantit le zéro défaut. Qu’apporte réellement la norme ISO 13053 ?",
+      "options": [
+        "Croissance des bénéfices",
+        "Des projets parfaits",
+        "Zéro défaut",
+        "Des conseils cohérents, des résultats commerciaux non garantis"
+      ],
+      "correct": 3,
+      "explanation": "La norme soutient la pratique ; les résultats dépendent de l’exécution."
+    },
+    {
+      "q": "Une multinationale souhaite un langage commun pour les rôles et méthodes Six Sigma sur tous les sites. Que propose la norme ISO 13053 ?",
+      "options": [
+        "Pas de gouvernance",
+        "Un langage commun pour les rôles, les méthodes et les attentes",
+        "Moins besoin de données",
+        "Certification automatique"
+      ],
+      "correct": 1,
+      "explanation": "Des normes communes améliorent la cohérence et la comparabilité."
+    },
+    {
+      "q": "Une entreprise crée une documentation complète pour la norme ISO 13053 mais ne modifie pas ses pratiques. Que faut-il éviter ?",
+      "options": [
+        "Examen du déploiement",
+        "Devenir un exercice de paperasse sans changement de pratique",
+        "Aligner les rôles",
+        "Formation des praticiens"
+      ],
+      "correct": 1,
+      "explanation": "L’objectif est la capacité, pas seulement la documentation."
+    },
+    {
+      "q": "Un programme de certification publie les sujets et les compétences que les candidats doivent connaître. Qu’est-ce qu’un corpus de connaissances ?",
+      "options": [
+        "Une carte de contrôle",
+        "Un état financier",
+        "Les sujets et compétences attendus pour une certification",
+        "La stratégie d'une entreprise"
+      ],
+      "correct": 2,
+      "explanation": "Il guide le programme et l’évaluation."
+    },
+    {
+      "q": "Un candidat compare les exigences de certification de deux organismes professionnels qui publient des corpus de connaissances. Que sont l'ASQ et l'IASSC ?",
+      "options": [
+        "Organismes de certification dotés de corpus de connaissances définis",
+        "Progiciels statistiques",
+        "Types de cartes de contrôle",
+        "Distributions d'échantillonnage"
+      ],
+      "correct": 0,
+      "explanation": "Les deux organisations publient des normes de certification."
+    },
+    {
+      "q": "Une certification nécessite un projet d’amélioration vérifié. Qu’est-ce que cela démontre ?",
+      "options": [
+        "Seule la vitesse des examens",
+        "Seule la fréquentation",
+        "Uniquement l'adhésion",
+        "Ces connaissances peuvent être appliquées dans la pratique"
+      ],
+      "correct": 3,
+      "explanation": "L'application est différente des performances des tests."
+    },
+    {
+      "q": "Un employeur compare les certifications ASQ et IASSC et trouve des exigences différentes. L'employeur doit conclure que les certifications sont :",
+      "options": [
+        "Uniquement les références financières",
+        "Non reconnu par les employeurs",
+        "Différentes exigences et corpus de connaissances",
+        "Toujours identique"
+      ],
+      "correct": 2,
+      "explanation": "Les organisations doivent comparer soigneusement les exigences."
+    },
+    {
+      "q": "Un organisme de certification évalue à la fois les connaissances et l’application pratique. Qu’est-ce qui rend cette approche rigoureuse ?",
+      "options": [
+        "Connaissance et application pratique",
+        "Paiement uniquement",
+        "Seule la popularité",
+        "Seulement des années de service"
+      ],
+      "correct": 0,
+      "explanation": "La connaissance et l’application renforcent ensemble la crédibilité."
+    },
+    {
+      "q": "Un consultant se voit proposer un travail en dehors de son expertise statistique. Que nécessite le travail dans le cadre de la compétence ?",
+      "options": [
+        "Accepter chaque mission",
+        "Éviter toutes les statistiques",
+        "Masquage des limitations",
+        "Pratiquer uniquement là où vous possédez les connaissances et les compétences nécessaires pour être fiable"
+      ],
+      "correct": 3,
+      "explanation": "Les limites de compétences protègent les clients et la profession."
+    },
+    {
+      "q": "Un organisme professionnel exige une recertification périodique. Quel est son but ?",
+      "options": [
+        "Veiller à ce que les praticiens maintiennent leurs connaissances et compétences actuelles",
+        "Augmenter les frais uniquement",
+        "Remplacer les preuves du projet",
+        "Évitez l’éthique"
+      ],
+      "correct": 0,
+      "explanation": "Les méthodes et les normes évoluent avec le temps."
+    },
+    {
+      "q": "Il est demandé à un praticien certifié de modifier les résultats pour plaire à un leader. Quel principe éthique s’applique ?",
+      "options": [
+        "Confidentialité, intégrité et rapports véridiques",
+        "Changer les résultats pour plaire aux dirigeants",
+        "Réclamer des informations d'identification que vous ne détenez pas",
+        "Ignorer les conflits d’intérêts"
+      ],
+      "correct": 0,
+      "explanation": "L'éthique protège la confiance dans la profession."
+    },
+    {
+      "q": "Un leader de la transformation se concentre sur la conviction, l'engagement et la culture tandis qu'un chef de projet suit les tâches. Qu’est-ce qui distingue le leadership du changement ?",
+      "options": [
+        "Suit uniquement les tâches et les budgets",
+        "Évite la communication",
+        "Ignore la culture",
+        "Renforce la confiance, l’engagement et une attention soutenue"
+      ],
+      "correct": 3,
+      "explanation": "Le leadership du changement aborde l’aspect humain et politique de la transformation."
+    },
+    {
+      "q": "Les salariés adoptent un nouveau processus parce que les dirigeants le suivent visiblement. Comment les dirigeants modélisent-ils le changement ?",
+      "options": [
+        "Déléguer tous les comportements",
+        "Éviter la visibilité",
+        "Actions et décisions cohérentes",
+        "Annonces uniquement"
+      ],
+      "correct": 2,
+      "explanation": "Les gens regardent plus ce que font les dirigeants que ce qu’ils disent."
+    },
+    {
+      "q": "Lors d'un changement, les employés font part de leurs inquiétudes concernant la charge de travail et la formation. La résistance doit-elle être traitée comme quoi ?",
+      "options": [
+        "Un défaut purement personnel",
+        "Informations sur les obstacles et les préoccupations",
+        "Déloyauté",
+        "Une raison pour arrêter d'écouter"
+      ],
+      "correct": 1,
+      "explanation": "La résistance révèle souvent des risques réels ou des besoins non satisfaits."
+    },
+    {
+      "q": "Une transformation est menée par les managers, les superviseurs et les coachs de première ligne dans toutes les fonctions. Qu’est-ce que le leadership distribué ?",
+      "options": [
+        "Leadership du changement partagé entre les niveaux et les fonctions",
+        "Seul le PDG dirige",
+        "Personne n'est responsable",
+        "Le leadership est externalisé"
+      ],
+      "correct": 0,
+      "explanation": "Une large appropriation augmente la portée et la durabilité."
+    },
+    {
+      "q": "Un PMO identifie, planifie, mesure, suit et maintient les avantages après la clôture du projet. Qu’est-ce que la gestion des avantages sociaux ?",
+      "options": [
+        "Seulement une réduction des coûts",
+        "Uniquement les enquêtes clients",
+        "Identifier, planifier, mesurer, suivre et pérenniser les avantages",
+        "Seule la clôture du projet"
+      ],
+      "correct": 2,
+      "explanation": "Les bénéfices doivent être gérés au-delà de la réalisation du projet."
+    },
+    {
+      "q": "Un responsable nommé est responsable du suivi et de la réalisation d’un avantage spécifique. De quoi est responsable le titulaire d’un avantage ?",
+      "options": [
+        "Organiser uniquement des réunions",
+        "Suivi et réalisation d’un bénéfice défini",
+        "Approuver uniquement les dépenses",
+        "Rédiger uniquement la charte"
+      ],
+      "correct": 1,
+      "explanation": "La propriété évite que les prestations deviennent orphelines."
+    },
+    {
+      "q": "Un projet fournit un nouveau tableau de bord, qui améliore ensuite la vitesse de décision. Qu'est-ce qu'un avantage ?",
+      "options": [
+        "Une rencontre",
+        "Un changement de performance ou de comportement",
+        "Un document livré",
+        "Une tâche de projet"
+      ],
+      "correct": 1,
+      "explanation": "Les extrants permettent des résultats, mais les résultats créent de la valeur."
+    },
+    {
+      "q": "Six mois après le lancement, une équipe compare les avantages réels avec l'analyse de rentabilisation. Qu’est-ce qu’un examen de la concrétisation des avantages ?",
+      "options": [
+        "Arrêter toutes les mesures",
+        "Vérifier si les avantages promis ont été réalisés",
+        "Célébrer le lancement uniquement",
+        "Ignorer la finance"
+      ],
+      "correct": 1,
+      "explanation": "Les avis comparent les résultats réels avec l’analyse de rentabilisation."
+    },
+    {
+      "q": "Une entreprise souhaite déployer un nouveau système d'exploitation. Quelle séquence est judicieuse ?",
+      "options": [
+        "Entraînez-vous seulement, puis arrêtez-vous",
+        "Mobiliser, concevoir, piloter, mettre à l’échelle et pérenniser",
+        "Mettre à l'échelle, piloter, concevoir, mobiliser, arrêter",
+        "Lancez-vous partout à la fois"
+      ],
+      "correct": 1,
+      "explanation": "La séquence construit des preuves et des capacités avant l'expansion."
+    },
+    {
+      "q": "Une entreprise teste une nouvelle méthode sur deux sites avant de la déployer à grande échelle. Pourquoi?",
+      "options": [
+        "Éviter toute mesure",
+        "Supprimer le parrainage",
+        "Garantir le succès",
+        "Tester l’approche et renforcer les capacités avec un risque limité"
+      ],
+      "correct": 3,
+      "explanation": "Les projets pilotes génèrent un apprentissage avant un engagement plus large."
+    },
+    {
+      "q": "Après le lancement d’un déploiement, quels éléments sont nécessaires pour pérenniser les résultats ?",
+      "options": [
+        "Propriété, routines, mesure et renforcement",
+        "Un seul événement de lancement",
+        "Pas de gouvernance",
+        "Pas de renforcement des capacités"
+      ],
+      "correct": 0,
+      "explanation": "Sans renforcement, les résultats s’érodent après le lancement."
+    },
+    {
+      "q": "Une entreprise étend une nouvelle méthode à tous les sites avant de renforcer ses capacités ou son parrainage. De quel échec de déploiement s'agit-il ?",
+      "options": [
+        "Construire des coachs internes",
+        "Examen des avantages",
+        "Mise à l'échelle avant que les capacités et le parrainage ne soient en place",
+        "Piloter d’abord"
+      ],
+      "correct": 2,
+      "explanation": "Une mise à l’échelle prématurée propage les faiblesses plutôt que les capacités."
+    },
+    {
+      "q": "Une synthèse Master Black Belt intègre la stratégie, la gouvernance, le portefeuille, les capacités, le changement et les avantages. Qu’est-ce que cela reflète ?",
+      "options": [
+        "Uniquement des tests statistiques",
+        "Uniquement prestation de formation",
+        "Uniquement les chartes de projet",
+        "Stratégie, gouvernance, portefeuille, capacité, changement et avantages"
+      ],
+      "correct": 3,
+      "explanation": "Le leadership en matière de déploiement nécessite une vue système intégrée."
+    },
+    {
+      "q": "Un déploiement s'étend à de nouveaux sites en adaptant les pratiques éprouvées aux conditions locales. Sur quoi la mise à l’échelle doit-elle se concentrer ?",
+      "options": [
+        "Élargir ce qui fonctionne avec des personnes compétentes et une adaptation locale",
+        "Copier chaque détail sans contexte",
+        "Supprimer la mesure",
+        "Abandonner la gouvernance"
+      ],
+      "correct": 0,
+      "explanation": "Mettre à l’échelle des pratiques éprouvées tout en s’adaptant aux conditions locales."
+    }
+  ]
+};

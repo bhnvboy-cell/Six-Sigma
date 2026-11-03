@@ -1,0 +1,926 @@
+{
+  "M1.1": {
+    "why": "Les portefeuilles d'amélioration dérivent lorsque les projets sont sélectionnés localement et que la stratégie reste dans un document de planification. Hoshin Kanri relie l'orientation à long terme aux priorités annuelles, aux projets et au travail quotidien.",
+    "what": "Hoshin Kanri est le déploiement de stratégie. Il commence par une véritable vision du Nord, fixe des objectifs de percée sur trois à cinq ans et les traduit en objectifs annuels et en priorités d'amélioration. La matrice X relie les objectifs à long terme, les objectifs annuels, les initiatives d'amélioration et les cibles à améliorer. Catchball aligne les objectifs et les ressources à travers les niveaux. Des examens réguliers appliquent la planification-exécution-vérification-action au déploiement lui-même, et pas seulement aux projets.",
+    "how": [
+      "Définir la vision et les lacunes stratégiques les plus importantes.",
+      "Fixez-vous un petit nombre d’objectifs de percée sur trois à cinq ans.",
+      "Traduisez-les en objectifs annuels et en cibles mesurables.",
+      "Construisez la matrice X et liez les priorités aux projets.",
+      "Cascadez les objectifs via le catchball et convenez des ressources.",
+      "Examinez les progrès à une cadence régulière et ajustez-les.",
+      "Connectez le déploiement à la gestion quotidienne et au travail standard."
+    ],
+    "where": "Utilisez Hoshin Kanri dans les entreprises, les systèmes de santé, les agences publiques et les fabricants multisites. Exemple : un objectif sur trois ans visant à réduire les délais de livraison de 30 % devient des objectifs annuels en matière de flux, de qualité et de performance des fournisseurs, chacun étant lié à des projets détenus.",
+    "when_not": "Ne transformez pas Hoshin en une longue liste d’objectifs annuels. Ne répercutez pas les cibles sans ressources ni autorité. Ne remplacez pas le déploiement de stratégie par la gestion quotidienne et la résolution de problèmes.",
+    "common_mistakes": [
+      "Fixer trop de priorités.",
+      "Sauter le catchball et imposer des cibles.",
+      "Examiner les progrès seulement une fois par an."
+    ],
+    "quick_check": [
+      {
+        "q": "Qu’est-ce que Hoshin Kanri ?",
+        "answer": "Déploiement d'une stratégie qui aligne les objectifs à long terme avec les priorités annuelles et les travaux d'amélioration.",
+        "explanation": "Il relie la direction, les ressources, les projets et la révision."
+      },
+      {
+        "q": "Quel est le lien entre la matrice X ?",
+        "answer": "Objectifs à long terme, objectifs annuels, priorités d’amélioration et cibles.",
+        "explanation": "La matrice rend visible l’alignement stratégique."
+      },
+      {
+        "q": "Pourquoi limiter le nombre d’objectifs révolutionnaires à un faible nombre ?",
+        "answer": "Concentrer les ressources et l’attention sur les lacunes les plus importantes.",
+        "explanation": "Trop de priorités diluent l’exécution."
+      }
+    ],
+    "recap": [
+      "Hoshin Kanri aligne la stratégie, les projets et le travail quotidien.",
+      "Utilisez quelques objectifs révolutionnaires et une matrice X.",
+      "Déployez via catchball et examinez avec PDCA."
+    ]
+  },
+  "M1.2": {
+    "why": "Une stratégie n’est déployée que lorsque les équipes locales la comprennent, la façonnent et s’approprient leur part. Catchball transforme un objectif de premier niveau en un plan réalisable sans perdre l'intention stratégique.",
+    "what": "Catchball est un dialogue structuré et itératif entre les niveaux de l’organisation. Les dirigeants partagent la direction, les contraintes et les objectifs. Les équipes réagissent avec des connaissances, des capacités, des risques et des idées d’amélioration locales. Les objectifs, les ressources et le calendrier sont négociés jusqu'à ce qu'ils soient ambitieux mais réalisables. Le résultat est documenté dans les plans de déploiement, les A3 et les cadences de révision. Le catchball n’est ni un commandement imposé d’en haut, ni un consensus illimité.",
+    "how": [
+      "Rédiger les objectifs stratégiques et les cibles de déploiement.",
+      "Informez chaque niveau de l’orientation, de la justification et des contraintes.",
+      "Demandez aux équipes de rédiger des plans locaux et d’identifier les lacunes.",
+      "Vérifiez l’alignement vertical et entre les fonctions.",
+      "Négociez les ressources, le calendrier et les mesures.",
+      "Documentez les plans convenus, les propriétaires et les dates de révision.",
+      "Examinez les progrès et renégociez lorsque les conditions changent."
+    ],
+    "where": "Utilisez catchball dans Hoshin Kanri, la planification annuelle, les programmes de transformation et les déploiements multi-sites. Exemple : un objectif hospitalier visant à réduire la durée du séjour est discuté avec les responsables cliniques, opérationnels et financiers afin que la capacité en lits, la sécurité et la planification des sorties soient alignées.",
+    "when_not": "N'utilisez pas de catchball pour diluer chaque cible jusqu'à ce que ce soit facile. Ne laissez pas cela devenir une réunion sans fin. Ne sautez pas la documentation ou la révision.",
+    "common_mistakes": [
+      "Annoncer des objectifs sans écouter les contraintes locales.",
+      "Permettre que des objectifs fonctionnels contradictoires restent non résolus.",
+      "Omission d'enregistrer les accords et les propriétaires."
+    ],
+    "quick_check": [
+      {
+        "q": "Qu’est-ce que le catchball ?",
+        "answer": "Dialogue itératif pour aligner les objectifs, les ressources et les plans locaux à tous les niveaux.",
+        "explanation": "Il combine orientation stratégique et connaissance locale."
+      },
+      {
+        "q": "Pourquoi le catchball n’est-il pas simplement un consensus ?",
+        "answer": "Les dirigeants conservent leur intention stratégique tandis que les équipes négocient une exécution réalisable.",
+        "explanation": "L’objectif est l’alignement et non l’accord unanime sur tout."
+      },
+      {
+        "q": "Que devrait résulter du catchball ?",
+        "answer": "Plans documentés avec propriétaires, mesures, ressources et dates de révision.",
+        "explanation": "Le dialogue doit se transformer en action responsable."
+      }
+    ],
+    "recap": [
+      "Catchball aligne stratégie et exécution grâce à un dialogue structuré.",
+      "Équilibrer l’ambition avec les capacités et contraintes locales.",
+      "Documentez les accords et examinez-les régulièrement."
+    ]
+  },
+  "M1.3": {
+    "why": "Les grands programmes d’amélioration échouent lorsque les droits de décision, la responsabilité et l’escalade ne sont pas clairs. La gouvernance permet d’aligner, de financer et de contrôler le travail sans devenir une bureaucratie.",
+    "what": "La gouvernance du programme définit qui décide, qui est responsable, comment les projets sont agréés et comment les risques sont augmentés. Les éléments typiques comprennent un comité de pilotage, un bureau de gestion du programme, des sponsors, des rôles de ceinture, des étapes, des examens de portefeuille, un suivi des avantages et un chemin de remontée des problèmes. La gouvernance donne la direction et élimine les obstacles ; la direction gère le travail quotidien. Un RACI rend les droits de décision explicites.",
+    "how": [
+      "Définir les résultats et la portée du programme.",
+      "Établir le comité de pilotage et les droits de décision.",
+      "Clarifiez les rôles des sponsors, des chefs de projet, des ceintures et du PMO.",
+      "Charte des projets et définition des étapes.",
+      "Définir des mécanismes de reporting, de risque et d’escalade.",
+      "Allouez des ressources et résolvez les conflits entre projets.",
+      "Examinez les avantages et rééquilibrez le portefeuille."
+    ],
+    "where": "Utilisez la gouvernance des programmes pour les déploiements Lean Six Sigma d'entreprise, les bureaux de transformation, les programmes multi-sites et les changements réglementaires ou technologiques importants. Exemple : un comité de pilotage résout un conflit de ressources entre deux projets de grande valeur au lieu de laisser les deux stagner.",
+    "when_not": "Ne créez pas de couches de gouvernance qui ralentissent chaque décision. Ne confondez pas un PMO avec le propriétaire d’entreprise responsable. Ne procédez pas à des examens de porte comme des tampons en caoutchouc.",
+    "common_mistakes": [
+      "Droits de propriété et de décision peu clairs.",
+      "Trop de comités dont les pouvoirs se chevauchent.",
+      "Approuver des projets sans suivi des avantages."
+    ],
+    "quick_check": [
+      {
+        "q": "Quel est le but de la gouvernance du programme ?",
+        "answer": "Définir les droits de décision, la responsabilité, la gestion des risques et l’alignement.",
+        "explanation": "La gouvernance maintient le programme contrôlé et stratégiquement aligné."
+      },
+      {
+        "q": "En quoi la gouvernance diffère-t-elle de la gestion ?",
+        "answer": "La gouvernance définit l'orientation et la surveillance ; la direction exécute le travail quotidien.",
+        "explanation": "Les deux sont nécessaires, mais leur rôle n’est pas le même."
+      },
+      {
+        "q": "A quoi sert une porte de scène ?",
+        "answer": "Il examine les preuves et l’état de préparation avant que les travaux avancent.",
+        "explanation": "Les barrières empêchent les projets faibles de consommer plus de ressources."
+      }
+    ],
+    "recap": [
+      "La gouvernance clarifie les décisions, la responsabilité et l’escalade.",
+      "Gardez les structures légères et concentrez-vous sur l’élimination des obstacles.",
+      "Reliez les portes aux preuves et à la réalisation des avantages."
+    ]
+  },
+  "M1.4": {
+    "why": "Les entreprises ont plus d’idées d’amélioration que de capacités. La sélection du portefeuille équilibre la valeur stratégique, le risque, la faisabilité et les contraintes de ressources dans l'ensemble de l'organisation.",
+    "what": "La sélection de portefeuille est un processus récurrent et non une approbation unique. Les candidats sont notés en fonction de leur adéquation stratégique, de leur impact client et financier, de leur faisabilité, de leur risque, de leur urgence et de leur valeur d'apprentissage. Le portefeuille doit correspondre aux personnes disponibles, au capital et à l'attention de la direction. Les dépendances, la duplication et l'équilibre du cycle de vie sont pris en compte. Les étapes et les critères d'arrêt permettent aux projets faibles de s'arrêter plus tôt.",
+    "how": [
+      "Inventorier les projets candidats et les besoins d’amélioration.",
+      "Convenez de critères stratégiques et financiers pondérés.",
+      "Notez les candidats avec des preuves validées.",
+      "Évaluez la capacité, les dépendances et les risques.",
+      "Sélectionnez un portefeuille équilibré et attribuez des sponsors.",
+      "Examinez les performances et rééquilibrez-les à une cadence définie.",
+      "Arrêter ou reconcevoir les projets qui ne justifient plus un investissement."
+    ],
+    "where": "Utilisez la sélection de portefeuilles dans les opérations multisites, les programmes de transformation, les portefeuilles de produits et les bureaux d'amélioration de l'entreprise. Exemple : un portefeuille comprend des gains opérationnels rapides, un projet numérique stratégique et une initiative de renforcement des capacités plutôt que de financer un seul type.",
+    "when_not": "N’optimisez pas chaque fonction localement aux dépens de l’entreprise. Ne financez pas toutes les idées valables. Ne considérez pas le portefeuille comme fixe pour l’année.",
+    "common_mistakes": [
+      "Aucun lien explicite avec la stratégie.",
+      "Trop de projets actifs pour la capacité disponible.",
+      "Aucun critère de mise à mort ni rééquilibrage périodique."
+    ],
+    "quick_check": [
+      {
+        "q": "Pourquoi la sélection de portefeuille est-elle récurrente ?",
+        "answer": "Les priorités, les capacités et les données probantes évoluent avec le temps.",
+        "explanation": "Un rééquilibrage régulier permet de conserver les ressources sur les travaux à plus forte valeur ajoutée."
+      },
+      {
+        "q": "Que doit équilibrer un portefeuille ?",
+        "answer": "Valeur stratégique, risque, faisabilité, calendrier et renforcement des capacités.",
+        "explanation": "Un portefeuille équilibré évite une concentration excessive."
+      },
+      {
+        "q": "Pourquoi définir des critères de mise à mort ?",
+        "answer": "Arrêter les projets qui ne justifient plus la poursuite des investissements.",
+        "explanation": "Les sorties anticipées libèrent de la capacité pour de meilleures opportunités."
+      }
+    ],
+    "recap": [
+      "Gérer les travaux d'amélioration en tant que portefeuille d'entreprise.",
+      "Équilibrez stratégie, valeur, risque et capacité.",
+      "Révisez régulièrement et arrêtez rapidement les projets faibles."
+    ]
+  },
+  "M1.5": {
+    "why": "Les allégations d’amélioration perdent leur crédibilité lorsque les économies sont théoriques, comptabilisées deux fois ou n’apparaissent jamais dans les états financiers. La validation financière rend le dossier des prestations défendable.",
+    "what": "La validation financière confirme la référence, le type de prestation, le calendrier et l'impact en espèces avec le financement. Les économies importantes affectent les dépenses ou les flux de trésorerie. Les économies indirectes évitent des coûts ou des capacités libres et peuvent nécessiter un redéploiement pour devenir réalité. L'analyse peut utiliser le retour sur investissement, le retour sur investissement, la VAN ou le TRI. Un système de suivi des avantages attribue la propriété et compare les résultats prévus aux résultats réalisés. La validation vérifie également la double comptabilisation et les coûts permanents.",
+    "how": [
+      "Définir l’hypothèse du bénéfice et la méthode de mesure.",
+      "Validez la référence avec les opérations et les finances.",
+      "Classez les avantages en versions matérielles, logicielles ou de capacité.",
+      "Incluez les coûts de mise en œuvre, de fonctionnement et de maintien.",
+      "Calculez le retour sur investissement, le retour sur investissement et la VAN ou le TRI, selon le cas.",
+      "Obtenez l’approbation financière et désignez un propriétaire des avantages.",
+      "Suivez les bénéfices réalisés et réconciliez les écarts."
+    ],
+    "where": "Utilisez la validation financière pour les portefeuilles, les programmes de transformation, les projets d'investissement et les projets DMAIC individuels. Exemple : la réduction des heures supplémentaires constitue une économie importante uniquement lorsque le budget des heures supplémentaires diminue réellement ; la capacité libérée est limitée jusqu’à ce qu’elle soit redéployée ou vendue.",
+    "when_not": "N’acceptez pas les demandes d’épargne non validées. Ne comptez pas les avantages théoriques ou comptés deux fois. Ne traitez pas l’épargne indirecte comme de l’argent liquide sans accord de financement.",
+    "common_mistakes": [
+      "Aucune référence validée.",
+      "Comptabiliser la libération de capacité comme une économie de trésorerie automatique.",
+      "Ne pas savoir si les avantages ont été réalisés."
+    ],
+    "quick_check": [
+      {
+        "q": "Qu’est-ce qui rend l’épargne difficile ?",
+        "answer": "Cela affecte les dépenses réelles, le compte de résultat ou les flux de trésorerie.",
+        "explanation": "Les économies matérielles sont des améliorations financières vérifiables."
+      },
+      {
+        "q": "Pourquoi impliquer la finance dès le début ?",
+        "answer": "Valider la référence, le type de prestations et les hypothèses financières.",
+        "explanation": "Un examen précoce évite les litiges et les réclamations exagérées."
+      },
+      {
+        "q": "Qu'est-ce qu'un outil de suivi des avantages ?",
+        "answer": "Un enregistrement des avantages prévus par rapport aux avantages réalisés avec les propriétaires et le calendrier.",
+        "explanation": "Cela permet de garder la réalisation des bénéfices visible et responsable."
+      }
+    ],
+    "recap": [
+      "Validez les références et les types d’avantages avec le service financier.",
+      "Séparez les économies matérielles, les économies logicielles et la libération de capacité.",
+      "Suivez la réalisation et rapprochez les avantages prévus des avantages réels."
+    ]
+  },
+  "M2.1": {
+    "why": "La certification ne garantit pas la réussite du projet. Le coaching aide les ceintures à appliquer des méthodes, à réfléchir aux problèmes et à renforcer la confiance tout en protégeant la qualité du projet.",
+    "what": "Le coaching est une conversation structurée qui améliore les performances grâce à des objectifs, des observations, des questions, des commentaires et des actions. Le modèle GROW utilise l'objectif, la réalité, les options et la volonté. Un coach demande plus qu'il ne dit, aide la ceinture à raisonner et examine les preuves aux portes du projet. Le coaching couvre à la fois la méthode technique et le comportement de leadership. Cela diffère du mentorat, qui est un développement de carrière plus large, et de la gestion des performances, qui évalue formellement la personne.",
+    "how": [
+      "Convenez des objectifs du coaching et des attentes du projet.",
+      "Observez le travail, les données et les interactions de l'équipe.",
+      "Utilisez des questions pour tester la logique et les hypothèses.",
+      "Donnez des commentaires spécifiques liés aux preuves.",
+      "Convenez des actions et des dates de suivi.",
+      "Examiner les progrès aux portes du projet.",
+      "Augmentez les risques lorsque la capacité ou le support est manquant."
+    ],
+    "where": "Utilisez le coaching pour les ceintures vertes et noires, les chefs de projet, les praticiens Lean et les sponsors d'amélioration. Exemple : un coach demande à un Green Belt d'expliquer pourquoi l'échantillon choisi conforte la conclusion plutôt que de recalculer l'analyse à sa place.",
+    "when_not": "Ne résolvez pas le projet pour le coaché. Ne coachez pas sans confiance, sans temps ou sans expertise pertinente. Ne transformez pas le coaching en une évaluation surprise des performances.",
+    "common_mistakes": [
+      "Donner des réponses au lieu de construire un raisonnement.",
+      "Donner de vagues commentaires sans preuve.",
+      "Ignorer le suivi et la responsabilité."
+    ],
+    "quick_check": [
+      {
+        "q": "Que signifie GROW ?",
+        "answer": "Objectif, réalité, options et volonté.",
+        "explanation": "Il s’agit d’un modèle de conversation de coaching structuré."
+      },
+      {
+        "q": "En quoi le coaching diffère-t-il du mentorat ?",
+        "answer": "Le coaching se concentre sur la performance et les objectifs spécifiques ; le mentorat est un développement plus large.",
+        "explanation": "Les deux développent des capacités mais servent des objectifs différents."
+      },
+      {
+        "q": "Pourquoi un coach devrait-il poser des questions ?",
+        "answer": "Développer le jugement indépendant et l’appropriation du coaché.",
+        "explanation": "Les questions créent un apprentissage que les réponses seules ne suffisent pas."
+      }
+    ],
+    "recap": [
+      "Coachez avec des questions, des preuves et des commentaires spécifiques.",
+      "Concentrez-vous à la fois sur la méthode technique et sur le leadership.",
+      "Renforcez les capacités plutôt que de prendre en charge le travail."
+    ]
+  },
+  "M2.2": {
+    "why": "Quelques ceintures solides ne peuvent pas transformer une organisation. Le renforcement des capacités crée un pipeline durable de praticiens, de dirigeants et de coachs internes.",
+    "what": "Le renforcement des capacités est un système, pas un catalogue de cours. Il comprend un modèle de compétences, une évaluation des compétences, des parcours d'apprentissage, une certification, des projets de pratique, du coaching, des communautés de pratique et une gestion des connaissances. Le principe 70-20-10 met l'accent sur l'apprentissage par le biais d'un travail et de relations stimulantes, soutenu par une formation formelle. Le mentorat offre un développement à long terme et une orientation professionnelle. Les progrès doivent être mesurés par la compétence démontrée et non par les heures de présence.",
+    "how": [
+      "Définir les compétences pour chaque ceinture et rôle de leadership.",
+      "Évaluer les capacités et les lacunes actuelles.",
+      "Concevoir des parcours d’apprentissage et des exigences de certification.",
+      "Combinez formation, projets pratiques, coaching et mentorat.",
+      "Construire des communautés de pratique et de partage de connaissances.",
+      "Évaluer les capacités démontrées et les résultats du projet.",
+      "Actualisez le modèle à mesure que la stratégie et la technologie évoluent."
+    ],
+    "where": "Utilisez le renforcement des capacités pour les programmes de ceinture, les leaders Lean, les spécialistes techniques et la planification de la succession. Exemple : un candidat Green Belt termine une formation, applique des outils sur un projet réel, reçoit un coaching aux portes et démontre ses compétences avant la certification.",
+    "when_not": "N’assimilez pas les heures de formation aux capacités. Ne faites pas de mentorat sans structure ni attentes. Ne créez pas de dépendance dans laquelle le mentor apporte toujours la réponse.",
+    "common_mistakes": [
+      "Formation unique sans pratique.",
+      "Aucune évaluation des compétences ni norme de certification.",
+      "Pas de sponsoring ni de temps de développement."
+    ],
+    "quick_check": [
+      {
+        "q": "Que signifie 70-20-10 ?",
+        "answer": "La majeure partie de l’apprentissage vient de l’expérience et des relations, la formation formelle ne représentant qu’une composante mineure.",
+        "explanation": "Il équilibre la pratique sur le terrain, le coaching et les cours."
+      },
+      {
+        "q": "Comment évaluer la capacité ?",
+        "answer": "Grâce à une compétence démontrée et aux résultats du projet.",
+        "explanation": "La participation seule ne démontre pas la capacité."
+      },
+      {
+        "q": "Pourquoi créer des communautés de pratique ?",
+        "answer": "Partager des connaissances, résoudre des problèmes et pérenniser l’apprentissage.",
+        "explanation": "Les communautés connectent les praticiens au-delà de la formation formelle."
+      }
+    ],
+    "recap": [
+      "Développez les capacités grâce à un système et non à des cours isolés.",
+      "Combinez pratique, coaching, mentorat et évaluation.",
+      "Mesurer les compétences et les résultats démontrés."
+    ]
+  },
+  "M2.3": {
+    "why": "Les conseils statistiques façonnent les décisions, les investissements et les risques. Un statisticien-conseil doit définir le véritable problème, choisir des méthodes défendables et communiquer clairement son incertitude.",
+    "what": "Le conseil statistique suit un processus structuré : contrat avec le client, clarification de la décision, définition de l'estimation, évaluation de la provenance des données, sélection d'une méthode, vérification des hypothèses, test de sensibilité, interprétation et transfert. Il sépare la signification statistique de la signification pratique et explique l'incertitude en termes commerciaux. Un bon conseil documente également les données et le code, respecte l'éthique et reconnaît lorsque les données disponibles ne peuvent pas répondre à la question.",
+    "how": [
+      "Clarifiez la décision et la question à laquelle les données doivent répondre.",
+      "Définissez la population, la réponse et la comparaison.",
+      "Évaluez la qualité, l’échantillonnage et la mesure des données.",
+      "Choisissez une méthode qui correspond au design.",
+      "Vérifiez les hypothèses et effectuez des analyses de sensibilité.",
+      "Expliquez les résultats avec des intervalles et un impact pratique.",
+      "Documenter l’analyse et suivre l’utilisation."
+    ],
+    "where": "Utilisez le conseil statistique dans les revues de projets, le DOE, la régression, le MSA, la capacité, la fiabilité et la modélisation prédictive. Exemple : une équipe demande quel fournisseur est le meilleur. Le consultant vérifie d'abord si les échantillons sont comparables et si le système de mesure est adéquat.",
+    "when_not": "N’acceptez pas une question mal formulée et ne vous précipitez pas sur une méthode. Ne sur-ajustez pas et n’impliquez pas de fausses certitudes. N’analysez pas les données dont la provenance ou la qualité est inconnue.",
+    "common_mistakes": [
+      "Commencer par une méthode préférée au lieu de la question.",
+      "Ignorer la provenance des données et les erreurs de mesure.",
+      "Surcharger les clients avec du jargon au lieu d'une interprétation pertinente pour la décision."
+    ],
+    "quick_check": [
+      {
+        "q": "Que doit clarifier en premier un consultant en statistiques ?",
+        "answer": "La décision et la question à laquelle les données doivent répondre.",
+        "explanation": "La sélection de la méthode suit la formulation du problème."
+      },
+      {
+        "q": "Pourquoi la provenance des données est-elle importante ?",
+        "answer": "Il détermine si les données peuvent étayer l’inférence souhaitée.",
+        "explanation": "Conclusions sur les limites de qualité de l’échantillonnage et des mesures."
+      },
+      {
+        "q": "Qu’est-ce que l’analyse de sensibilité ?",
+        "answer": "Vérifier si les conclusions sont valables sous des hypothèses alternatives raisonnables.",
+        "explanation": "Il teste la robustesse du résultat."
+      }
+    ],
+    "recap": [
+      "Cadrez la décision avant de choisir une méthode.",
+      "Évaluez la qualité des données et vérifiez les hypothèses.",
+      "Communiquez clairement l’incertitude et l’impact pratique."
+    ]
+  },
+  "M2.4": {
+    "why": "La formation doit changer ce que les gens peuvent faire, et pas seulement ce qu'ils ont entendu. Une bonne conception renforce les compétences et transfère l’apprentissage au travail réel.",
+    "what": "La conception de la formation suit généralement ADDIE : analyse, conception, développement, mise en œuvre et évaluation. Des objectifs d’apprentissage clairs décrivent des performances observables. L’apprentissage des adultes favorise la pertinence, la pratique, le feedback et le renforcement espacé. L'évaluation peut utiliser les niveaux de Kirkpatrick : réaction, apprentissage, comportement et résultats. Les approches mixtes combinent enseignement, simulation, coaching et missions sur le terrain.",
+    "how": [
+      "Analysez l’écart de performance et l’audience.",
+      "Rédigez des objectifs d’apprentissage mesurables.",
+      "Activités de conception, pratique et évaluation.",
+      "Développer du matériel et les piloter.",
+      "Offrez des opportunités de candidature.",
+      "Évaluez l’apprentissage, le changement de comportement et les résultats.",
+      "Améliorez la conception en vous basant sur des preuves."
+    ],
+    "where": "Utilisez la conception de formation pour les programmes de ceinture, les déploiements de logiciels, les programmes de sécurité, le développement du leadership et la certification technique. Exemple : un cours de statistiques comprend un ensemble de données réelles, une mission de projet et un coaching plutôt que des cours magistraux seuls.",
+    "when_not": "N'utilisez pas de formation lorsque la cause première est des attentes floues, des outils manquants ou une mauvaise conception des processus. Ne comptez pas sur des cours magistraux uniquement pour des compétences complexes. N’évaluez pas uniquement les scores de satisfaction.",
+    "common_mistakes": [
+      "Dumping de contenu sans pratique.",
+      "Aucun projet de transfert vers l'emploi.",
+      "Évaluer la réaction mais pas l'apprentissage ou les résultats."
+    ],
+    "quick_check": [
+      {
+        "q": "Que signifie ADDIE ?",
+        "answer": "Analyse, conception, développement, mise en œuvre et évaluation.",
+        "explanation": "Il s’agit d’un processus de conception pédagogique structuré."
+      },
+      {
+        "q": "Qu’est-ce qui rend un objectif d’apprentissage utile ?",
+        "answer": "Il décrit les performances observables qui peuvent être évaluées.",
+        "explanation": "Des objectifs clairs guident la conception et l’évaluation."
+      },
+      {
+        "q": "Quels sont les quatre niveaux de Kirkpatrick ?",
+        "answer": "Réaction, apprentissage, comportement et résultats.",
+        "explanation": "Ils évaluent la formation depuis la réponse immédiate jusqu'à l'impact commercial."
+      }
+    ],
+    "recap": [
+      "Concevez la formation autour de la performance et non de la couverture du contenu.",
+      "Utilisez la pratique, les commentaires et le transfert au travail.",
+      "Évaluez l’apprentissage, le comportement et les résultats."
+    ]
+  },
+  "M3.1": {
+    "why": "DFSS offre le plus de valeur lorsqu'il est géré à l'échelle d'un portefeuille d'entreprise, et non appliqué projet par projet. Enterprise DFSS relie la capacité de conception à la stratégie, aux fournisseurs et aux décisions de lancement.",
+    "what": "Enterprise DFSS applique les méthodes de conception Six-Sigma à un portefeuille de nouveaux produits, services et processus. Il utilise les feuilles de route standard DMADV ou DFSS, les portes d'étape, la voix du client, le flux CTQ, QFD, FMEA, DOE, la simulation Monte Carlo, la fiabilité et la conception pour X. La gouvernance équilibre la vitesse, le risque et l’utilisation des ressources. La réutilisation des connaissances et l’intégration des fournisseurs améliorent la cohérence et les délais de mise sur le marché.",
+    "how": [
+      "Alignez le portefeuille de conception avec la stratégie et les besoins des clients.",
+      "Établir une feuille de route DFSS standard et des critères d’entrée.",
+      "Construisez des équipes de conception et des capacités interfonctionnelles.",
+      "Traduisez les COV en CTQ et en exigences de conception.",
+      "Appliquer les méthodes de risque, d’expérimentation, de simulation et de fiabilité.",
+      "Intégrez les fournisseurs et les opérations de fabrication ou de service dès le début.",
+      "Vérifiez la capacité et capturez les leçons pour les réutiliser."
+    ],
+    "where": "Utilisez le DFSS d'entreprise dans le développement de produits, la conception de services, les logiciels, les soins de santé et les projets d'investissement. Exemple : une équipe de plate-forme utilise les normes CTQ et FMEA communes à toutes les variantes de produits, réduisant ainsi le travail de conception en double et les échecs tardifs.",
+    "when_not": "N’appliquez pas l’ensemble de l’appareil DFSS à des modifications mineures à faible risque. Ne laissez pas les barrières et la documentation étouffer l’innovation. Ne considérez pas DFSS comme une liste de contrôle d'outils sans contexte client et commercial.",
+    "common_mistakes": [
+      "Exécution de DFSS en tant que projets isolés sans vue de portefeuille.",
+      "Travail de voix du client tardif ou faible.",
+      "Ignorer la vérification et la réutilisation des leçons."
+    ],
+    "quick_check": [
+      {
+        "q": "Qu’est-ce qu’Enterprise DFSS ?",
+        "answer": "Appliquer DFSS à l’ensemble d’un portefeuille avec une gouvernance et des méthodes communes.",
+        "explanation": "Il étend la capacité de conception au-delà des projets individuels."
+      },
+      {
+        "q": "Pourquoi intégrer les fournisseurs tôt ?",
+        "answer": "Pour réduire les risques de conception, les retouches et les retards de lancement.",
+        "explanation": "La capacité du fournisseur affecte la faisabilité et la qualité de la conception."
+      },
+      {
+        "q": "Qu’est-ce que le flux CTQ ?",
+        "answer": "Traduire les exigences des clients en exigences de conception mesurables.",
+        "explanation": "Il relie la voix du client aux décisions de conception."
+      }
+    ],
+    "recap": [
+      "Gérez DFSS en tant que portefeuille d'entreprise avec des normes communes.",
+      "Traduire les besoins des clients en CTQ et exigences de conception.",
+      "Vérifiez la capacité et réutilisez les leçons dans tous les projets."
+    ]
+  },
+  "M3.2": {
+    "why": "Les grandes transformations modifient les rôles, les systèmes et les relations de pouvoir. Un déploiement techniquement solide peut toujours échouer si les gens ne comprennent pas, ne soutiennent pas ou ne savent pas comment travailler selon la nouvelle méthode.",
+    "what": "Le changement organisationnel aligne le leadership, la communication, les capacités, les incitations et la structure. La séquence de Kotter construit l'urgence, une coalition directrice, une vision, la communication, l'autonomisation, les victoires à court terme, la consolidation et l'ancrage. ADKAR diagnostique l'état de préparation individuel et le modèle de Lewin décrit le dégel, le changement et la recongélation. L’évolution nécessite l’engagement des managers intermédiaires et des systèmes de performance alignés.",
+    "how": [
+      "Élaborez un argumentaire clair en faveur du changement et une vision convaincante.",
+      "Formez une coalition avec autorité et crédibilité.",
+      "Évaluez l’état de préparation et la résistance des parties prenantes.",
+      "Communiquez à plusieurs reprises via plusieurs canaux.",
+      "Impliquez les gens et éliminez les obstacles structurels.",
+      "Obtenez des gains visibles à court terme.",
+      "Ancrez les changements dans les rôles, les incitations et le travail standard."
+    ],
+    "where": "Utilisez le changement organisationnel pour les déploiements Lean Six Sigma, les déploiements ERP ou technologiques, les restructurations, les fusions et les nouveaux modèles opérationnels. Exemple : une entreprise lance un nouveau processus de planification mais ne modifie pas les incitations des planificateurs, de sorte que le comportement revient aux anciennes priorités.",
+    "when_not": "Ne considérez pas le changement comme un seul plan de communication. N'ignorez pas les incitations et le pouvoir. Ne déclarez pas la victoire après le pilote.",
+    "common_mistakes": [
+      "Parrainage exécutif faible ou absent.",
+      "Sauter les cadres intermédiaires qui influencent le travail quotidien.",
+      "A défaut de renforcer le changement après le lancement."
+    ],
+    "quick_check": [
+      {
+        "q": "Pourquoi les managers intermédiaires sont-ils essentiels au changement ?",
+        "answer": "Ils traduisent les orientations dans le travail quotidien et influencent leur adoption.",
+        "explanation": "Ils relient l’intention du leadership à la réalité de première ligne."
+      },
+      {
+        "q": "Qu'est-ce qu'une victoire à court terme ?",
+        "answer": "Un premier résultat visible et crédible qui crée une dynamique.",
+        "explanation": "Les victoires démontrent que le changement peut fonctionner."
+      },
+      {
+        "q": "Que signifie ancrer un changement ?",
+        "answer": "L'intégrer dans les rôles, les incitations, les processus et la culture.",
+        "explanation": "L'ancrage empêche le retour aux anciennes méthodes."
+      }
+    ],
+    "recap": [
+      "Le changement nécessite du leadership, de l’engagement, des capacités et du renforcement.",
+      "Créez une urgence, des coalitions et des victoires visibles.",
+      "Ancrer le changement dans les systèmes et les routines quotidiennes."
+    ]
+  },
+  "M3.3": {
+    "why": "Les outils et les projets disparaissent sans une culture qui soutient la résolution de problèmes, la transparence et l'apprentissage. La culture détermine si l’amélioration devient un comportement quotidien ou un programme temporaire.",
+    "what": "La culture est le modèle de croyances, de comportements et de symboles partagés. Il est façonné par le comportement des dirigeants, les routines, les mesures, les récompenses, l'embauche et les histoires plus que par les slogans. Une culture d’amélioration continue valorise les clients, les données, le respect des personnes, la sécurité psychologique et l’apprentissage de l’échec. Les réunions quotidiennes, les promenades gemba, la réflexion A3 et le travail standard des dirigeants rendent la culture visible et enseignable.",
+    "how": [
+      "Évaluez les croyances et les comportements actuels avec des preuves.",
+      "Définir les quelques comportements qui expriment la culture souhaitée.",
+      "Engagez les dirigeants à modéliser ces comportements de manière visible.",
+      "Alignez les mesures, la reconnaissance, la promotion et l’embauche.",
+      "Créez des routines quotidiennes qui renforcent la résolution de problèmes.",
+      "Enseigner et coacher les comportements par la pratique.",
+      "Mesurez les progrès et corrigez les incohérences."
+    ],
+    "where": "Utilisez le renforcement de la culture dans les transformations d’entreprise, les programmes de sécurité, les systèmes qualité et les fusions. Exemple : les dirigeants demandent d'abord les mauvaises nouvelles dans les évaluations, récompensent publiquement l'identification précoce des problèmes et arrêtent de blâmer les individus pour les défaillances du système.",
+    "when_not": "N'essayez pas de changer la culture avec des affiches ou des slogans. Ne copiez pas la culture d'une autre organisation sans vous adapter au contexte. N’utilisez pas la culture comme excuse pour éviter les problèmes structurels.",
+    "common_mistakes": [
+      "Les dirigeants disent une chose et en récompensent une autre.",
+      "Une reconnaissance qui privilégie la lutte contre les incendies à la prévention.",
+      "Aucune routine quotidienne pour renforcer le comportement souhaité."
+    ],
+    "quick_check": [
+      {
+        "q": "Qu’est-ce qui façonne le plus fortement la culture ?",
+        "answer": "Comportement, routines, mesures et récompenses du leader.",
+        "explanation": "Ce qui est mesuré et récompensé indique ce qui compte."
+      },
+      {
+        "q": "Pourquoi la sécurité psychologique fait-elle partie de la culture d’amélioration ?",
+        "answer": "Les gens doivent pouvoir soulever des problèmes et des erreurs sans crainte.",
+        "explanation": "Les problèmes cachés ne peuvent être résolus."
+      },
+      {
+        "q": "Qu’est-ce que le travail standard d’un leader ?",
+        "answer": "Une routine documentée de comportements de leader qui renforcent le système d'exploitation.",
+        "explanation": "Elle rend la culture visible à travers des actions quotidiennes."
+      }
+    ],
+    "recap": [
+      "La culture se construit à travers des comportements, des routines et des systèmes.",
+      "Les dirigeants doivent modéliser et récompenser les comportements souhaités.",
+      "Utilisez la gestion quotidienne pour rendre visible la culture d’amélioration."
+    ]
+  },
+  "M3.4": {
+    "why": "Les mesures financières rendent compte du passé. Un tableau de bord équilibré ajoute des mesures sur les clients, les processus et les capacités qui montrent si la stratégie est exécutée et si les performances futures sont en cours de construction.",
+    "what": "Le tableau de bord prospectif utilise quatre perspectives : financière, client, processus interne, et apprentissage et croissance. Une carte stratégique montre les liens de cause à effet entre les objectifs. Chaque objectif comporte des mesures, des cibles et des initiatives. Les mesures avancées prédisent les résultats futurs, tandis que les mesures retardées confirment les résultats. La carte de pointage doit être répercutée et examinée, et non utilisée comme une longue liste de KPI sans rapport.",
+    "how": [
+      "Clarifier la stratégie et les thèmes stratégiques.",
+      "Définir des objectifs dans chaque perspective.",
+      "Construisez une carte stratégique avec des liens de causalité.",
+      "Sélectionnez quelques mesures, objectifs et initiatives.",
+      "Cascadez les tableaux de bord vers les unités et les équipes.",
+      "Examinez les résultats et apprenez à une cadence régulière.",
+      "Ajustez les objectifs et les initiatives à mesure que la stratégie évolue."
+    ],
+    "where": "Utilisez le tableau de bord prospectif dans les entreprises, les organismes publics, les organisations à but non lucratif et les opérations multisites. Exemple : un hôpital associe la formation du personnel et la culture de sécurité à la fiabilité des processus, à l'expérience des patients et à la performance financière.",
+    "when_not": "Ne transformez pas la carte de pointage en un vidage de KPI. N’ignorez pas la logique causale et la stratégie. Ne compliquez pas trop les mesures et n’utilisez pas uniquement les résultats financiers.",
+    "common_mistakes": [
+      "Trop de mesures sans orientation stratégique.",
+      "Aucun lien entre les indicateurs avancés et retardés.",
+      "Examiner le tableau de bord sans prendre de décision."
+    ],
+    "quick_check": [
+      {
+        "q": "Quelles sont les quatre perspectives du tableau de bord équilibré ?",
+        "answer": "Finances, clients, processus internes, apprentissage et croissance.",
+        "explanation": "Ils équilibrent les résultats avec les moteurs de la performance future."
+      },
+      {
+        "q": "Qu'est-ce qu'une carte stratégique ?",
+        "answer": "Un diagramme de cause à effet reliant les objectifs stratégiques.",
+        "explanation": "Il montre comment les capacités et les processus déterminent les résultats."
+      },
+      {
+        "q": "Quelle est la différence entre les mesures avancées et retardées ?",
+        "answer": "Les principales mesures prédisent : les mesures tardives confirment les résultats.",
+        "explanation": "Les deux sont nécessaires pour gérer les performances."
+      }
+    ],
+    "recap": [
+      "Équilibrer les mesures financières et non financières.",
+      "Utilisez une carte stratégique pour montrer la logique causale.",
+      "Gardez la carte de pointage ciblée et examinez-la pour prendre des décisions."
+    ]
+  },
+  "M3.5": {
+    "why": "L'analyse comparative révèle des écarts de performance et de meilleures pratiques, mais copier des chiffres sans comprendre le contexte peut conduire à de mauvaises cibles et à une imitation ratée.",
+    "what": "L'analyse comparative compare les processus, les pratiques et les résultats par rapport à des références internes ou externes. Les types incluent interne, compétitif, fonctionnel et générique. Une étude disciplinée définit le processus, mesure l’état actuel, sélectionne des partenaires comparables, collecte des données valides, analyse les lacunes, adapte les pratiques, met en œuvre et examine. La normalisation et la compréhension des processus empêchent les comparaisons entre des pommes et des oranges.",
+    "how": [
+      "Définir le processus, la portée et les mesures de performance.",
+      "Établir une base de référence interne fiable.",
+      "Sélectionnez des partenaires de référence comparables.",
+      "Recueillir des données sur les résultats et les pratiques habilitantes.",
+      "Normaliser et analyser les écarts.",
+      "Adapter plutôt que copier aveuglément les pratiques.",
+      "Piloter, mettre en œuvre et mesurer l’amélioration."
+    ],
+    "where": "Utilisez l'analyse comparative dans les domaines de la fabrication, des soins de santé, des opérations de services, des chaînes d'approvisionnement et des services publics. Exemple : comparez le temps passé entre le service d'urgence et le médecin après ajustement en fonction de l'acuité des patients et de la composition des cas.",
+    "when_not": "Ne comparez pas les processus qui ne sont pas comparables. Ne vous arrêtez pas à un écart numérique sans comprendre les pratiques. Ne copiez pas la solution d'une autre organisation sans vous adapter aux contraintes locales.",
+    "common_mistakes": [
+      "Comparaison de métriques non normalisées.",
+      "Utiliser des données de mauvaise qualité ou autodéclarées.",
+      "Traiter la visite sur site comme un livrable plutôt que comme une mise en œuvre."
+    ],
+    "quick_check": [
+      {
+        "q": "Qu’est-ce que le benchmarking fonctionnel ?",
+        "answer": "Comparer un processus similaire dans différentes industries ou organisations.",
+        "explanation": "Il recherche les meilleures pratiques au-delà des concurrents directs."
+      },
+      {
+        "q": "Pourquoi normaliser les données de référence ?",
+        "answer": "Faire des comparaisons équitables malgré des échelles, des combinaisons ou des conditions différentes.",
+        "explanation": "La normalisation évite les écarts trompeurs."
+      },
+      {
+        "q": "Que doit-il se passer après une étude de référence ?",
+        "answer": "Adapter, piloter, mettre en œuvre et mesurer la pratique.",
+        "explanation": "L’apprentissage doit se transformer en action."
+      }
+    ],
+    "recap": [
+      "Comparez à la fois les résultats et les pratiques habilitantes.",
+      "Assurer la comparabilité et la qualité des données.",
+      "Adaptez-vous et mettez en œuvre plutôt que de copier aveuglément."
+    ]
+  },
+  "M4.1": {
+    "why": "Les capteurs, les systèmes connectés et les grands ensembles de données créent de nouvelles façons de prédire et de contrôler les performances. Les Master Black Belts doivent connecter l’analyse aux problèmes de processus réels et gérer les risques.",
+    "what": "L'Industrie 4.0 comprend l'IoT, les systèmes cyber-physiques, les plateformes cloud, les jumeaux numériques, l'automatisation et l'IA ou l'apprentissage automatique. L'analyse va du descriptif et du diagnostic au prédictif et prescriptif. Un pipeline de données fiable, la qualité des données, la validation du modèle, le déploiement et la surveillance sont nécessaires. La technologie opérationnelle et la technologie de l’information doivent converger en toute sécurité. L'analyse doit soutenir une décision définie et non exister en tant que vitrine technologique.",
+    "how": [
+      "Définissez le problème, la décision et la valeur en jeu.",
+      "Évaluez la disponibilité, la qualité et la gouvernance des données.",
+      "Choisissez des analyses descriptives, prédictives ou prescriptives.",
+      "Pilotez avec des experts en processus et validez le modèle.",
+      "Déployez avec surveillance, maintenance et sécurité.",
+      "Mesurez l’impact commercial et faites évoluer ce qui fonctionne.",
+      "Gérez la confidentialité, les préjugés, la sécurité et l’adoption des changements."
+    ],
+    "where": "Utilisez l'analyse et l'Industrie 4.0 pour la maintenance prédictive, l'inspection basée sur la vision, la prévision de la demande, l'optimisation de la chaîne d'approvisionnement et la prévision des risques cliniques. Exemple : les données des capteurs prédisent une panne d'équipement, mais le processus de maintenance et le système de pièces de rechange doivent également changer pour que la prédiction crée de la valeur.",
+    "when_not": "N'utilisez pas d'analyses avancées pour un problème simple que des outils standards peuvent résoudre. N’ignorez pas la mauvaise qualité des données ou la mauvaise connaissance des processus. Ne déployez pas de modèles sans surveillance et gouvernance.",
+    "common_mistakes": [
+      "Projets axés sur la technologie sans décision ni argumentaire de valeur.",
+      "Modèles de formation sur des données biaisées ou peu fiables.",
+      "Aucun plan de maintenance du modèle ou d’adoption opérationnelle."
+    ],
+    "quick_check": [
+      {
+        "q": "Qu’est-ce que l’analyse prédictive ?",
+        "answer": "Utiliser des données pour estimer les résultats ou les risques futurs.",
+        "explanation": "Les modèles prédictifs soutiennent les décisions avant que les événements ne se produisent."
+      },
+      {
+        "q": "Pourquoi la gouvernance des données est-elle essentielle ?",
+        "answer": "Il garantit la qualité, la sécurité, la confidentialité et une utilisation appropriée des données.",
+        "explanation": "Les modèles sont aussi fiables que leurs données et leurs contrôles."
+      },
+      {
+        "q": "Qu’est-ce qu’un jumeau numérique ?",
+        "answer": "Modèle virtuel d'un actif physique ou d'un processus utilisé pour la surveillance et la simulation.",
+        "explanation": "Les jumeaux numériques prennent en charge la prédiction, l'optimisation et les tests."
+      }
+    ],
+    "recap": [
+      "Commencez l’analyse avec une décision et un argumentaire de valeur.",
+      "Garantir la qualité, la validation, la sécurité et la gouvernance des données.",
+      "Connectez les modèles aux processus de changement et aux résultats commerciaux."
+    ]
+  },
+  "M4.2": {
+    "why": "L’analyse et l’amélioration dépendent de données auxquelles les gens peuvent faire confiance et qu’ils utilisent de manière responsable. Une mauvaise gouvernance crée de mauvaises décisions, des atteintes à la vie privée, des modèles biaisés et une perte de crédibilité.",
+    "what": "La gouvernance des données définit la propriété, la gestion, les normes de qualité, l'accès, la conservation et les contrôles du cycle de vie. L'éthique des données aborde la confidentialité, le consentement, l'équité, la transparence, la responsabilité et la surveillance humaine. Les rôles incluent les propriétaires de données, les gestionnaires et les dépositaires. Des réglementations telles que le RGPD et la HIPAA fixent des exigences légales, mais la pratique éthique va au-delà d'une conformité minimale. Les modèles doivent être suffisamment explicables pour la décision et surveillés pour détecter les biais et les dérives.",
+    "how": [
+      "Inventorier les données et définir leur finalité et leur sensibilité.",
+      "Attribuez des responsabilités de propriété, d’intendance et d’accès.",
+      "Définissez des normes de qualité, de rétention et de métadonnées.",
+      "Mener des évaluations d’impact sur la vie privée et l’éthique.",
+      "Testez les biais et surveillez les performances du modèle.",
+      "Documenter les décisions et fournir un examen humain si nécessaire.",
+      "Auditer la conformité et former l’organisation."
+    ],
+    "where": "Utilisez la gouvernance et l’éthique des données dans les soins de santé, la finance, les ressources humaines, l’analyse client et les systèmes critiques pour la sécurité. Exemple : un modèle de recrutement doit être testé pour déterminer son impact disparate, explicable par les décideurs et soumis à un examen humain.",
+    "when_not": "Ne traitez pas la gouvernance comme une question uniquement informatique. Ne collectez pas de données sans finalité ou consentement défini. Ne présumez pas qu’un modèle est juste parce qu’il utilise des variables neutres.",
+    "common_mistakes": [
+      "Pas de propriété claire des données.",
+      "Tout collecter et conserver indéfiniment.",
+      "Déployer des modèles opaques sans responsabilité."
+    ],
+    "quick_check": [
+      {
+        "q": "Qu’est-ce que la gestion des données ?",
+        "answer": "Responsabilité de la qualité, de la signification et de l'utilisation appropriée des données.",
+        "explanation": "Les stewards gèrent les données au nom de l’entreprise."
+      },
+      {
+        "q": "Pourquoi tester les biais des modèles ?",
+        "answer": "Détecter les résultats injustes ou préjudiciables entre les groupes.",
+        "explanation": "Des données ou une conception biaisées peuvent produire des décisions discriminatoires."
+      },
+      {
+        "q": "Qu’est-ce que la surveillance humaine dans l’analyse ?",
+        "answer": "Une personne examine ou peut annuler les décisions de modèle conséquentes.",
+        "explanation": "La surveillance soutient la responsabilité et la sécurité."
+      }
+    ],
+    "recap": [
+      "Gouvernez les données grâce à des contrôles de propriété, de qualité, d’accès et de cycle de vie.",
+      "Appliquez la confidentialité, l’équité, la transparence et la responsabilité.",
+      "Surveillez les modèles et tenez les humains responsables des décisions qui en découlent."
+    ]
+  },
+  "M5.1": {
+    "why": "Les organisations mondiales ont besoin d’une référence commune pour les rôles, les méthodes et la qualité Six Sigma. La norme ISO 13053 fournit des lignes directrices internationales qui soutiennent la cohérence et la crédibilité.",
+    "what": "La norme ISO 13053 aborde les principes fondamentaux de Six Sigma ainsi que les outils et techniques DMAIC. Il couvre les rôles, les compétences, la sélection des projets, le déploiement, la mesure des processus, l'analyse, l'amélioration et le contrôle. La norme est une orientation et non une garantie de résultats commerciaux. Il peut être utilisé pour aligner les attentes en matière de formation, de gouvernance et de projet sur l’ensemble des sites et des fournisseurs.",
+    "how": [
+      "Cartographier les pratiques actuelles par rapport à la norme.",
+      "Identifiez les lacunes dans les rôles, les méthodes et la gouvernance.",
+      "Alignez les attentes en matière de formation et de certification.",
+      "Documentez l’approche de déploiement et les preuves.",
+      "Former les dirigeants et les praticiens à la norme.",
+      "Auditer l’alignement et améliorer le système.",
+      "Révisez la norme à mesure qu’elle évolue."
+    ],
+    "where": "Utilisez la norme ISO 13053 dans les déploiements multinationaux, les programmes de qualité des fournisseurs, les industries réglementées et les organisations recherchant un langage d'amélioration commun. Exemple : une entreprise aligne les programmes d'études de la ceinture et les portes des projets dans toutes les régions en utilisant la norme comme référence.",
+    "when_not": "Ne poursuivez pas l’alignement comme un exercice de paperasse. Ne laissez pas la norme remplacer le jugement ou l’orientation client. Ne présumez pas qu’un modèle de mise en œuvre convient à chaque organisation.",
+    "common_mistakes": [
+      "Se concentrer sur un certificat plutôt que sur une capacité.",
+      "Créer de la documentation sans changer les pratiques.",
+      "Comprendre à tort la norme comme une recette prescriptive."
+    ],
+    "quick_check": [
+      {
+        "q": "Que couvre la norme ISO 13053 ?",
+        "answer": "Principes fondamentaux, rôles, DMAIC, outils et conseils de déploiement de Six Sigma.",
+        "explanation": "Il constitue une référence internationale pour la pratique Six Sigma."
+      },
+      {
+        "q": "La norme ISO 13053 est-elle une garantie de résultats ?",
+        "answer": "Non, il s’agit d’un guide pour une pratique cohérente.",
+        "explanation": "Les résultats commerciaux dépendent de l’exécution et du contexte."
+      },
+      {
+        "q": "Pourquoi utiliser une norme commune sur tous les sites ?",
+        "answer": "Pour aligner le langage, les rôles et les attentes en matière de qualité.",
+        "explanation": "La cohérence soutient la comparaison et la gouvernance."
+      }
+    ],
+    "recap": [
+      "La norme ISO 13053 fournit des lignes directrices internationales Six Sigma.",
+      "Utilisez-le pour aligner les rôles, les méthodes et le déploiement.",
+      "Concentrez-vous sur les capacités et les résultats, pas sur la paperasse."
+    ]
+  },
+  "M5.2": {
+    "why": "Les organismes professionnels définissent des corpus de connaissances et des normes de certification. Les comprendre aide les organisations à développer des capacités crédibles et à comparer les options de formation.",
+    "what": "ASQ propose des certifications telles que Certified Six Sigma Green Belt, Black Belt et Manager of Quality/Organisational Excellence. L'IASSC propose des certifications Green et Black Belt avec son propre corpus de connaissances. Les programmes diffèrent en termes d'éligibilité, de contenu des examens, d'exigences du projet et de recertification. La certification démontre des connaissances et, dans certains programmes, une expérience de projet, mais elle ne prouve pas en soi l'impact commercial.",
+    "how": [
+      "Sélectionnez la norme qui correspond aux besoins de l'organisation.",
+      "Cartographiez le programme d’études avec l’ensemble des connaissances.",
+      "Évaluer à la fois les connaissances et l’application pratique.",
+      "Choisissez une formation et une surveillance crédibles.",
+      "Exigez des projets réels et des preuves, le cas échéant.",
+      "Maintenir la certification et le développement continu.",
+      "Évaluez si les praticiens certifiés produisent des résultats."
+    ],
+    "where": "Utilisez ces normes pour le recrutement, la certification interne, l’approvisionnement en formation et les parcours de carrière. Exemple : une entreprise mappe son programme Green Belt sur les sujets ASQ et IASSC, puis ajoute une véritable exigence de projet et de coaching.",
+    "when_not": "Ne considérez pas la certification comme une preuve de réussite du projet. Ne présumez pas que les normes sont identiques. N'achetez pas de certification sans évaluation pratique.",
+    "common_mistakes": [
+      "Gérer une usine de certification.",
+      "Test uniquement la mémorisation.",
+      "Ignorer la recertification et le développement continu."
+    ],
+    "quick_check": [
+      {
+        "q": "Que définit un corpus de connaissances ?",
+        "answer": "Les sujets et compétences attendus pour une certification.",
+        "explanation": "Il guide la conception des programmes et des examens."
+      },
+      {
+        "q": "Pourquoi ajouter des preuves de projet à la certification ?",
+        "answer": "Confirmer que les connaissances peuvent être appliquées dans la pratique.",
+        "explanation": "Les examens à eux seuls ne démontrent pas la capacité du projet."
+      },
+      {
+        "q": "Les certifications ASQ et IASSC sont-elles identiques ?",
+        "answer": "Non, ils ont des exigences et des connaissances différentes.",
+        "explanation": "Les organisations doivent les comparer soigneusement."
+      }
+    ],
+    "recap": [
+      "Les normes professionnelles définissent les attentes en matière de connaissances et de certification.",
+      "Combinez l’évaluation des connaissances avec des preuves pratiques.",
+      "Évaluer la certification par capacité et résultats."
+    ]
+  },
+  "M5.3": {
+    "why": "La certification ne crée la confiance que lorsqu’elle est rigoureuse et éthique. Une certification faible nuit à la crédibilité et peut propager de mauvaises pratiques.",
+    "what": "La certification comprend généralement l'éligibilité, la formation, l'examen, les preuves de projet et la recertification. L'éthique couvre les limites des compétences, la confidentialité, les conflits d'intérêts, l'intégrité des données, les affirmations véridiques, la sécurité et le traitement équitable. Les codes professionnels exigent que les praticiens travaillent dans le cadre de leur expertise et évitent de déformer leurs résultats ou leurs qualifications. Un organisme de certification a besoin de normes claires, d’une évaluation indépendante et d’un processus de plainte ou de violation.",
+    "how": [
+      "Définir l’éligibilité, les compétences et les exigences en matière de preuves.",
+      "Utilisez des évaluations valides et fiables.",
+      "Vérifier les projets et les références.",
+      "Publier un code d’éthique et une politique en matière de conflits d’intérêts.",
+      "Assurer la recertification et la formation continue.",
+      "Enquêter équitablement sur les plaintes.",
+      "Publier les résultats et améliorer le programme."
+    ],
+    "where": "Utilisez les normes de certification et d’éthique pour les programmes de ceinture internes, les accréditations externes, la qualification des fournisseurs et le développement professionnel. Exemple : un candidat à la ceinture doit soumettre un projet réel avec une base de référence vérifiée, une analyse, un plan de contrôle et une confirmation du sponsor.",
+    "when_not": "Ne certifiez pas uniquement sur la performance aux examens pour les rôles qui nécessitent une candidature. Ne tolérez pas les réclamations frauduleuses concernant les projets. Ne pratiquez pas en dehors de vos compétences.",
+    "common_mistakes": [
+      "Certifier sans preuves de projet vérifiées.",
+      "Aucune recertification ni développement continu.",
+      "Ignorer les conflits d’intérêts ou les plaintes éthiques."
+    ],
+    "quick_check": [
+      {
+        "q": "Pourquoi les preuves de projet sont-elles importantes dans la certification ?",
+        "answer": "Cela montre que les connaissances ont été appliquées à un problème réel.",
+        "explanation": "L'application est différente de la performance à l'examen."
+      },
+      {
+        "q": "Que signifie travailler dans le cadre de la compétence ?",
+        "answer": "Ne pratiquez que là où vous possédez les connaissances et les compétences nécessaires pour être fiable.",
+        "explanation": "Il protège les clients et la profession."
+      },
+      {
+        "q": "Pourquoi avoir une recertification ?",
+        "answer": "Veiller à ce que les praticiens maintiennent leurs connaissances et compétences actuelles.",
+        "explanation": "Les méthodes et les normes évoluent avec le temps."
+      }
+    ],
+    "recap": [
+      "La certification nécessite une évaluation rigoureuse et une application vérifiée.",
+      "L'éthique protège les clients, les données et la crédibilité professionnelle.",
+      "Exiger une recertification et appliquer les normes."
+    ]
+  },
+  "M6.1": {
+    "why": "Le leadership du changement n’est pas la même chose que la gestion de projet. Les dirigeants doivent créer de la confiance, modéliser de nouveaux comportements et maintenir leur attention lorsque l’amélioration devient difficile.",
+    "what": "Le leadership en matière de changement crée une urgence, une vision convaincante, une coalition solide et un engagement émotionnel. Il communique par des actions ainsi que par des paroles, élimine les barrières et répartit le leadership entre les niveaux. Les dirigeants racontent une histoire crédible, prennent des décisions symboliques et restent visibles. Ils gèrent la résistance avec empathie et preuves plutôt qu’avec autorité seule.",
+    "how": [
+      "Créez un argumentaire clair en faveur du changement et une vision partagée.",
+      "Construisez une coalition crédible et influente.",
+      "Communiquez de manière cohérente et écoutez activement.",
+      "Modélisez les comportements et les décisions que vous attendez.",
+      "Supprimer les barrières structurelles et politiques.",
+      "Célébrez les progrès et apprenez des échecs.",
+      "Ancrer le changement dans les systèmes, les rôles et les routines."
+    ],
+    "where": "Utilisez le leadership du changement dans les transformations, les fusions, les déploiements numériques, les programmes de sécurité et le changement culturel. Exemple : un responsable d'usine participe aux réunions quotidiennes, demande d'abord les mauvaises nouvelles et donne suite aux barrières levées par les opérateurs.",
+    "when_not": "Ne comptez pas uniquement sur l’autorité et la conformité. Ne déléguez pas le changement à une équipe de projet sans parrainage visible. N'ignorez pas l'émotion et la perte.",
+    "common_mistakes": [
+      "Messages incohérents entre les paroles et les actions.",
+      "Attention du leadership qui disparaît après le lancement.",
+      "Traiter la résistance comme une déloyauté plutôt que comme une information."
+    ],
+    "quick_check": [
+      {
+        "q": "Pourquoi les dirigeants doivent-ils modéliser le changement ?",
+        "answer": "Les gens regardent davantage les comportements que les annonces.",
+        "explanation": "La crédibilité dépend d’une action cohérente."
+      },
+      {
+        "q": "Qu’est-ce que le leadership distribué ?",
+        "answer": "Leadership du changement partagé entre les niveaux et les fonctions.",
+        "explanation": "Cela élargit l’appropriation au-delà de l’équipe de direction."
+      },
+      {
+        "q": "Comment les dirigeants devraient-ils traiter la résistance ?",
+        "answer": "En tant qu’informations à comprendre et à traiter, pas simplement à supprimer.",
+        "explanation": "La résistance révèle souvent de véritables obstacles ou préoccupations."
+      }
+    ],
+    "recap": [
+      "Diriger le changement grâce à une vision, une crédibilité et un comportement visible.",
+      "Construisez des coalitions et répartissez la propriété.",
+      "Maintenir l’attention et ancrer le changement."
+    ]
+  },
+  "M6.2": {
+    "why": "Un projet n’a pas de valeur car il se termine à temps ; cela est précieux lorsque les avantages promis sont mesurés, réalisés et durables. La réalisation des avantages maintient l’amélioration liée à l’analyse de rentabilisation.",
+    "what": "La gestion de la réalisation des avantages identifie les avantages, définit la manière dont ils seront mesurés, attribue des propriétaires, suit les progrès et confirme les résultats après la mise en œuvre. Un registre des avantages enregistre la référence, l'objectif, le calendrier, le propriétaire et les preuves. Les avantages peuvent être des économies concrètes, des économies indirectes, une réduction des coûts, une libération de capacité, une réduction des risques ou des résultats pour les clients. Les résultats sont des livrables ; les résultats sont des changements dans les performances ; les avantages sont la valeur mesurable créée.",
+    "how": [
+      "Définir les avantages et les inconvénients dans la charte du projet.",
+      "Établir une référence et une méthode de mesure validées.",
+      "Attribuez un propriétaire de bénéfice et un plan de réalisation.",
+      "Examiner les prévisions de bénéfices aux portes du projet.",
+      "Mesurez les résultats réels après la mise en œuvre.",
+      "Réconcilier avec la finance et combler les lacunes.",
+      "Maintenir les contrôles et la propriété après le transfert."
+    ],
+    "where": "Utilisez la réalisation des avantages pour les portefeuilles, les transformations, les projets technologiques et les projets DMAIC individuels. Exemple : la réduction des coûts liés aux défauts est suivie pendant six mois après la clôture du projet pour confirmer que les économies atteignent le budget.",
+    "when_not": "Ne comptez pas les bénéfices théoriques qui n’atteignent jamais l’entreprise. N'arrêtez pas le suivi à la clôture du projet. Ne comptez pas deux fois le même avantage dans tous les projets.",
+    "common_mistakes": [
+      "Aucun avantage pour le propriétaire après la clôture du projet.",
+      "Aucune référence ni aucune preuve.",
+      "Traiter l’épargne douce comme de l’argent garanti."
+    ],
+    "quick_check": [
+      {
+        "q": "Quelle est la différence entre un résultat et un résultat ?",
+        "answer": "Un résultat est un livrable ; un résultat est un changement de performance ou de comportement.",
+        "explanation": "Les avantages proviennent des résultats, et non seulement des extrants."
+      },
+      {
+        "q": "Pourquoi attribuer un bénéficiaire aux avantages ?",
+        "answer": "Rendre quelqu'un responsable du suivi et de la réalisation des bénéfices.",
+        "explanation": "La propriété empêche les avantages de disparaître après le lancement."
+      },
+      {
+        "q": "Que doit contenir un registre des prestations ?",
+        "answer": "Référence, objectif, calendrier, propriétaire et preuves pour chaque avantage.",
+        "explanation": "Cela rend la réalisation des bénéfices vérifiable et visible."
+      }
+    ],
+    "recap": [
+      "Gérez les avantages depuis la ligne de base jusqu’à la réalisation.",
+      "Attribuez des propriétaires et suivez les résultats après la clôture du projet.",
+      "Concilier les prestations réclamées avec les finances et les preuves."
+    ]
+  },
+  "M6.3": {
+    "why": "Diriger un déploiement nécessite d'intégrer la stratégie, la gouvernance, le portefeuille, les capacités, le changement et les avantages. La pierre angulaire teste si un Master Black Belt peut construire un système, pas seulement exécuter un projet.",
+    "what": "Une feuille de route de déploiement évalue la maturité et l'état de préparation, aligne le programme sur la stratégie, définit la gouvernance et les rôles, sélectionne un portefeuille équilibré, renforce les capacités, standardise les méthodes et gère la culture et le changement. Le déploiement passe généralement par la mobilisation, la conception, le pilotage, la mise à l'échelle et le maintien. Le succès dépend du parrainage, de personnes compétentes, de mesures utiles et de renforcement.",
+    "how": [
+      "Évaluer l’état de préparation, la maturité et les priorités stratégiques de l’organisation.",
+      "Obtenez un mandat et construisez une coalition.",
+      "Concevoir la gouvernance, les rôles, les normes et les critères de portefeuille.",
+      "Pilote avec des équipes compétentes et un sponsoring visible.",
+      "Renforcez vos capacités grâce à la formation, au coaching et à la pratique.",
+      "Faites évoluer ce qui fonctionne et adaptez-vous aux conditions locales.",
+      "Examinez les résultats, maintenez les routines et actualisez la stratégie."
+    ],
+    "where": "Utilisez le leadership en matière de déploiement au niveau de l’entreprise, du site ou au niveau fonctionnel. Exemple : un site démarre avec une seule chaîne de valeur et un petit portefeuille, prouve ses résultats, développe des coachs internes, puis s'étend à d'autres chaînes de valeur avec des normes communes.",
+    "when_not": "Ne lancez pas un déploiement big-bang sans capacité ni parrainage. Ne copiez pas le modèle d'une autre organisation sans adaptation. Ne considérez pas le déploiement comme un lancement unique.",
+    "common_mistakes": [
+      "Pas de parrainage exécutif ni de mandat clair.",
+      "Mise à l'échelle avant que le pilote ne démontre ses capacités.",
+      "Se concentrer sur les outils tout en ignorant la culture, la gouvernance et les avantages."
+    ],
+    "quick_check": [
+      {
+        "q": "Qu'est-ce qu'une séquence de déploiement sensée ?",
+        "answer": "Mobiliser, concevoir, piloter, mettre à l’échelle et pérenniser.",
+        "explanation": "Il construit des preuves et des capacités avant une large expansion."
+      },
+      {
+        "q": "Pourquoi piloter avant de faire évoluer ?",
+        "answer": "Tester l’approche et renforcer les capacités avec un risque limité.",
+        "explanation": "Les projets pilotes fournissent un apprentissage avant un engagement plus large."
+      },
+      {
+        "q": "Que doit inclure le maintien en puissance ?",
+        "answer": "Propriété, routines, mesure et renforcement.",
+        "explanation": "Sans cela, les résultats s'érodent après le lancement."
+      }
+    ],
+    "recap": [
+      "Dirigez le déploiement en tant que système, et non en tant que série de projets.",
+      "Développez le parrainage, la gouvernance, les capacités et un portefeuille équilibré.",
+      "Pilotez, mettez à l’échelle et maintenez avec mesure et renforcement."
+    ]
+  }
+}

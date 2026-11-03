@@ -113,7 +113,7 @@
       "exam": {
         "questions": 25,
         "passingScore": 80,
-        "format": "Multiple choice and short scenario questions drawn from the lesson quick checks."
+        "format": "25 multiple-choice questions with four options and explanations."
       },
       "cheatSheet": [
         "COPQ = prevention + appraisal + internal failure + external failure costs",
@@ -134,7 +134,7 @@
       "level": 2,
       "color": "yellow",
       "icon": "fa-certificate",
-      "lessonTarget": "12-15",
+      "lessonTarget": "15-17",
       "studyTime": "15-20 hours",
       "audience": "Team members, supervisors, and process owners who support Green and Black Belt projects.",
       "prerequisites": "White Belt or equivalent basic quality awareness.",
@@ -143,7 +143,8 @@
         "Map a process with SIPOC and a process map",
         "Build a basic project charter and data collection sheet",
         "Use Pareto, fishbone, 5 Whys, check sheets, and basic charts",
-        "Contribute to brainstorming, 5S, and team-based improvement"
+        "Contribute to brainstorming, 5S, and team-based improvement",
+        "Explain how a control plan and a basic control chart sustain an improvement"
       ],
       "modules": [
         {
@@ -161,12 +162,13 @@
         {
           "id": "yellow-2",
           "number": 2,
-          "title": "DMAIC and Project Charters",
-          "duration": "60 min",
-          "summary": "Go deeper into DMAIC and learn the basic charter questions: why the project exists, what is in scope, how success is measured, and who is accountable.",
+          "title": "DMAIC, Charters, and Control",
+          "duration": "90 min",
+          "summary": "Go deeper into DMAIC and learn the basic charter questions: why the project exists, what is in scope, how success is measured, and who is accountable. Finish with the Control phase so the gain is held after the project closes.",
           "lessons": [
             {"id": "Y2.1", "order": 1, "title": "DMAIC in Detail", "objective": "List the key activities and deliverables of each DMAIC phase."},
-            {"id": "Y2.2", "order": 2, "title": "Project Charter Basics", "objective": "Write a problem statement, goal, scope, team, and milestone plan."}
+            {"id": "Y2.2", "order": 2, "title": "Project Charter Basics", "objective": "Write a problem statement, goal, scope, team, and milestone plan."},
+            {"id": "Y2.3", "order": 3, "title": "Control Plans and Basic SPC", "objective": "Build a control plan and read a basic control chart so the improvement is sustained."}
           ]
         },
         {
@@ -213,6 +215,7 @@
         {"topic": "Process mapping", "lessons": ["Y1.3"]},
         {"topic": "DMAIC in detail", "lessons": ["Y2.1"]},
         {"topic": "Project charter basics", "lessons": ["Y2.2"]},
+        {"topic": "Control plans and basic SPC", "lessons": ["Y2.3"]},
         {"topic": "Data types", "lessons": ["Y3.1"]},
         {"topic": "Check sheets", "lessons": ["Y3.2"]},
         {"topic": "Basic charts", "lessons": ["Y3.3"]},
@@ -226,24 +229,26 @@
       ],
       "project": {
         "title": "Reduce Waiting in a Service Process",
-        "brief": "Map one service process with SIPOC and a flowchart, collect two weeks of waiting-time data on a check sheet, build a Pareto chart of delay reasons, and run a 5 Whys on the top reason."
+        "brief": "Map one service process with SIPOC and a flowchart, collect two weeks of waiting-time data on a check sheet, build a Pareto chart of delay reasons, run a 5 Whys on the top reason, and draft a one-page control plan for the improved process."
       },
       "exam": {
         "questions": 40,
         "passingScore": 80,
-        "format": "Scenario-based multiple choice plus one process-map exercise."
+        "format": "40 multiple-choice questions with four options and explanations."
       },
       "cheatSheet": [
         "SIPOC = Suppliers, Inputs, Process, Outputs, Customers",
         "Pareto principle: roughly 80% of effects come from about 20% of causes",
         "5 Whys: ask why until you reach a cause you can act on",
-        "5S = Sort, Set in order, Shine, Standardize, Sustain"
+        "5S = Sort, Set in order, Shine, Standardize, Sustain",
+        "Control plan = metric, target, monitoring method, frequency, owner, and reaction plan"
       ],
       "nextChecklist": [
         "I can draw a SIPOC for a process I own.",
         "I can build a check sheet and a Pareto chart.",
         "I can facilitate a 5 Whys without blaming a person.",
-        "I can explain how 5S supports flow."
+        "I can explain how 5S supports flow.",
+        "I can draft a control plan and read a basic control chart."
       ]
     },
     {
@@ -383,7 +388,7 @@
       "exam": {
         "questions": 60,
         "passingScore": 80,
-        "format": "Multiple choice, calculation questions, and a case-based DMAIC review."
+        "format": "60 multiple-choice questions with four options and explanations, including calculations."
       },
       "cheatSheet": [
         "Z = (X - mean) / standard deviation",
@@ -552,7 +557,7 @@
       "exam": {
         "questions": 100,
         "passingScore": 80,
-        "format": "Multiple choice, calculations, interpretation of software output, and a case-based defense."
+        "format": "100 multiple-choice questions with four options and explanations, including calculations and output interpretation."
       },
       "cheatSheet": [
         "Use non-parametric tests when normality or equal-variance assumptions fail.",
@@ -687,7 +692,7 @@
       "exam": {
         "questions": 100,
         "passingScore": 80,
-        "format": "Case-based multiple choice, portfolio defense, and statistical consulting scenarios."
+        "format": "100 case-based multiple-choice questions with four options and explanations."
       },
       "cheatSheet": [
         "Hoshin Kanri aligns breakthrough objectives with daily management.",

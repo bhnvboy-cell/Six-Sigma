@@ -391,11 +391,17 @@
                 <span class="resource-heading-icon"><i class="fas fa-lock"></i></span>
                 <div><h1>${S.escapeHtml(template.title)}</h1><p>${S.escapeHtml(template.description)}</p></div>
             </div>`;
+        const apiUser = S.isApiUser();
         byId("resourceFormArea").innerHTML = '<div class="resource-locked-panel">' +
             '<i class="fas fa-lock"></i>' +
             '<h2>Unlocks at ' + S.escapeHtml(S.beltName(template.minBelt)) + '</h2>' +
-            '<p>Your current resource level is ' + S.escapeHtml(S.beltName(S.currentBelt())) + '. Update your belt level in your profile to open this template.</p>' +
-            '<a href="profile.html#beltLevel" class="btn btn-primary"><i class="fas fa-award me-1"></i>Update belt level</a> ' +
+            '<p>Your current belt is ' + S.escapeHtml(S.beltName(S.currentBelt())) + '. ' +
+            (apiUser
+                ? 'Pass the required belt exam in Quizzes to open this template.'
+                : 'Update your belt level in your profile to open this template.') + '</p>' +
+            (apiUser
+                ? '<a href="quizzes.html?belt=' + encodeURIComponent(template.minBelt) + '" class="btn btn-primary"><i class="fas fa-graduation-cap me-1"></i>Go to belt exams</a> '
+                : '<a href="profile.html#beltLevel" class="btn btn-primary"><i class="fas fa-award me-1"></i>Update belt level</a> ') +
             '<a href="resources.html" class="btn btn-outline-secondary">Back to Resources</a></div>';
     }
 
@@ -458,16 +464,21 @@
         setStatus("Template cleared", "warning");
     }
 
-    function saveCopy() {
+    async function saveCopy() {
         const S = store();
         if (!S.currentUser()) {
             root.location.href = loginReturnUrl();
             return;
         }
+        const saveButton = byId("saveBtn");
+        if (saveButton && saveButton.disabled) return;
+        if (saveButton) saveButton.disabled = true;
         const data = collectData();
         const copyName = byId("copyNameInput").value.trim() || S.projectNameFrom(state.template, data);
+        setStatus("Saving copy...");
         try {
-            const saved = S.saveCopy(state.template.id, state.copyId, copyName, data);
+            const result = await S.saveCopy(state.template.id, state.copyId, copyName, data);
+            const saved = result.copy;
             state.copyId = saved.id;
             byId("copyNameInput").value = saved.copyName;
             state.dirty = false;
@@ -477,9 +488,16 @@
             } catch (error) {
                 console.warn("The editor URL could not be updated.");
             }
-            setStatus("Saved to My Project on " + S.formatDate(saved.updatedAt) + ".", "saved");
+            setStatus(
+                result.offline
+                    ? "Saved in this browser. It will remain available in My Project while offline."
+                    : "Saved to My Project on " + S.formatDate(saved.updatedAt) + ".",
+                "saved"
+            );
         } catch (error) {
             setStatus(S.escapeHtml(error.message), "danger");
+        } finally {
+            if (saveButton) saveButton.disabled = false;
         }
     }
 
@@ -654,5 +672,16 @@
         if (state.printAfterLoad) root.setTimeout(exportPdf, 450);
     }
 
-    document.addEventListener("DOMContentLoaded", init);
+    document.addEventListener("DOMContentLoaded", async function () {
+        if (root.sessionReady) await root.sessionReady;
+        const S = store();
+        if (S && S.refreshCopies) {
+            try {
+                await S.refreshCopies();
+            } catch (error) {
+                console.warn(error.message);
+            }
+        }
+        init();
+    });
 }(typeof globalThis !== "undefined" ? globalThis : this));

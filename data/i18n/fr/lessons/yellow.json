@@ -1,0 +1,659 @@
+{
+  "Y1.1": {
+    "why": "Le travail se déroule à travers des processus et non par des tâches isolées. Voir l'ensemble du processus vous aide à déterminer où la valeur est créée, où les retards entrent et où les défauts sont transmis à la personne suivante.",
+    "what": "Un processus est un ensemble d'étapes qui transforment les entrées en sorties pour un client. Les intrants comprennent les matériaux, les informations, les personnes et l’énergie. Les résultats incluent des produits, des services et des informations. Un processus a des limites, des fournisseurs, des clients, des transferts et généralement un goulot d'étranglement. La pensée processus se concentre sur le flux et la valeur client plutôt que sur les départements ou les individus.",
+    "how": [
+      "Nommez le processus et son objectif en une phrase.",
+      "Définissez les limites de début et de fin.",
+      "Énumérez les principales entrées et sorties.",
+      "Identifiez les fournisseurs et les clients, y compris les internes.",
+      "Parcourez le processus et marquez les étapes, les transferts et les retards à valeur ajoutée.",
+      "Choisissez un domaine problématique à étudier avec des données."
+    ],
+    "where": "Utilisez la pensée processus partout où le travail se répète. Dans le domaine de la santé, suivez un patient de son admission à sa sortie. Dans le commerce de détail, suivez une commande du clic jusqu'à la livraison. En informatique, suivez un incident du signalement à la résolution. En banque, suivez un prêt depuis la demande jusqu'au financement. En éducation, suivre un étudiant de sa candidature à son inscription.",
+    "when_not": "N’utilisez pas la pensée processus pour une tâche ponctuelle et unique sans étapes répétables. Ne cartographiez pas à un niveau si bas que l'équipe se noie dans les détails et perd la vue du client.",
+    "common_mistakes": [
+      "Cartographier le processus idéal plutôt que le processus réel.",
+      "Ignorer les transferts, où les retards et les erreurs se concentrent souvent.",
+      "Fixer des limites si larges que le projet ne peut pas être achevé."
+    ],
+    "quick_check": [
+      {
+        "q": "Quelles sont les trois parties fondamentales de tout processus ?",
+        "answer": "Entrées, étapes du processus et sorties.",
+        "explanation": "Un processus transforme les entrées en sorties pour un client."
+      },
+      {
+        "q": "Pourquoi les transferts sont-ils importants dans la réflexion processus ?",
+        "answer": "Ce sont des points communs où se produisent des retards, des erreurs et des pertes d’informations.",
+        "explanation": "Le travail attend souvent ou change de mains aux frontières départementales."
+      },
+      {
+        "q": "Une équipe cartographie un processus depuis le premier contact client jusqu'à la facture finale. Qu’ont-ils défini ?",
+        "answer": "Les limites du processus.",
+        "explanation": "Les limites indiquent où commence et se termine le processus."
+      }
+    ],
+    "recap": [
+      "Un processus transforme les entrées en sorties pour un client.",
+      "Les limites, les fournisseurs, les clients et les transferts définissent la vue du processus.",
+      "Cartographiez le processus réel, pas le processus idéal."
+    ]
+  },
+  "Y1.2": {
+    "why": "SIPOC donne à une équipe une vue d'une page d'un processus et de ses limites avant une cartographie détaillée. Cela aligne tout le monde sur le périmètre et évite que le projet ne dérive.",
+    "what": "SIPOC signifie Fournisseurs, Entrées, Processus, Sorties et Clients. Les fournisseurs fournissent les intrants. Le processus transforme ces entrées en quatre à sept étapes de haut niveau. Les résultats vont aux clients, qui peuvent être internes ou externes. SIPOC est un outil de définition de la portée, et non un organigramme détaillé.",
+    "how": [
+      "Écrivez le nom et le but du processus.",
+      "Définissez les points de début et de fin.",
+      "Répertoriez les sorties et les clients qui les reçoivent.",
+      "Répertoriez les intrants et les fournisseurs qui les fournissent.",
+      "Décrivez le processus en quatre à sept étapes de haut niveau, dans l'ordre.",
+      "Examinez le diagramme avec le propriétaire du processus et le personnel de première ligne."
+    ],
+    "where": "Utilisez SIPOC au début d'un projet DMAIC, lors d'un atelier de cadrage ou lorsque plusieurs services ont besoin d'une vue partagée. Pour la sortie des patients, les fournisseurs peuvent être le personnel de la pharmacie, du laboratoire et du service ; les entrées sont les médicaments, les résultats des tests et les critères de sortie ; les résultats sont le résumé de sortie, les médicaments et le rendez-vous de suivi ; les clients sont le patient, la famille et le prestataire de soins primaires.",
+    "when_not": "N'utilisez pas SIPOC pour une analyse détaillée des causes profondes ; utilisez une carte de processus, une arête de poisson ou 5 pourquoi. Ne répertoriez pas chaque micro-étape, sinon vous perdez la vue de haut niveau.",
+    "common_mistakes": [
+      "Transformer la colonne de processus en un organigramme détaillé.",
+      "Confondre les clients internes et externes.",
+      "Construire le SIPOC seul et ne jamais le valider avec les personnes qui font le travail."
+    ],
+    "quick_check": [
+      {
+        "q": "Que signifie SIPOC ?",
+        "answer": "Fournisseurs, intrants, processus, résultats, clients.",
+        "explanation": "SIPOC est un outil de cadrage de processus de haut niveau."
+      },
+      {
+        "q": "Combien d’étapes de processus un SIPOC doit-il généralement afficher ?",
+        "answer": "Quatre à sept étapes de haut niveau.",
+        "explanation": "SIPOC reste à un niveau élevé ; trop de détails va à l’encontre de son objectif."
+      },
+      {
+        "q": "Qui sont les clients d’un SIPOC ?",
+        "answer": "Les personnes ou les groupes qui reçoivent les résultats du processus, internes ou externes.",
+        "explanation": "Les clients peuvent être en dehors de l'organisation ou dans le service voisin."
+      }
+    ],
+    "recap": [
+      "SIPOC résume les fournisseurs, les intrants, les processus, les extrants et les clients.",
+      "Utilisez quatre à sept étapes de haut niveau et des limites claires.",
+      "Validez le SIPOC avec le propriétaire du processus et le personnel de première ligne."
+    ]
+  },
+  "Y1.3": {
+    "why": "Une cartographie des processus montre comment le travail se déroule réellement, y compris les décisions, les transferts et les boucles de reprise. Cela rend visibles les retards et les points d’échec afin que l’équipe puisse les cibler.",
+    "what": "Un organigramme utilise des symboles standard : un ovale pour le début et la fin, un rectangle pour une étape du processus, un losange pour une décision et un D pour le retard. Une carte à couloirs ajoute des couloirs pour chaque personne ou service, ce qui rend les transferts évidents. Un transfert est tout transfert de travail entre des personnes ou des groupes. Les boucles de retravail montrent où le travail recule.",
+    "how": [
+      "Définissez le début et la fin du processus.",
+      "Parcourez le processus et énumérez les étapes dans l’ordre dans lequel elles se produisent réellement.",
+      "Attribuez chaque étape à un couloir pour la personne ou le service qui l'effectue.",
+      "Ajoutez des points de décision, des transferts, des retards et des boucles de retouche.",
+      "Validez la carte avec le personnel de première ligne.",
+      "Marquez les étapes qui ajoutent de la valeur et celles qui créent du gaspillage."
+    ],
+    "where": "Utilisez des schémas de processus pour tout processus récurrent présentant des retards, des erreurs ou une propriété peu claire. Dans un centre de support, un ticket passe du client au tri, puis à l'affectation, à l'enquête et à la résolution. Le transfert du niveau un au niveau deux ajoute souvent de l'attente, et les informations manquantes créent une boucle de retravail. Dans le domaine des soins de santé, cartographiez le transfert d'un patient du service des urgences vers un service pour voir l'attente et la saisie de données en double.",
+    "when_not": "Ne passez pas des semaines à cartographier un processus qui est sur le point d'être remplacé. Ne créez pas de carte détaillée si l'équipe n'a besoin que d'une portée de haut niveau ; utilisez plutôt SIPOC.",
+    "common_mistakes": [
+      "Cartographier le processus officiel plutôt que le processus réel.",
+      "Laisser de côté les transferts et les boucles de retravail.",
+      "Cartographie à un niveau qui ne répond pas à la question du projet."
+    ],
+    "quick_check": [
+      {
+        "q": "Que représente un symbole de diamant sur un organigramme ?",
+        "answer": "Un point de décision.",
+        "explanation": "Les diamants montrent où le processus bifurque en fonction d'une condition."
+      },
+      {
+        "q": "Qu'est-ce qu'un transfert ?",
+        "answer": "Un transfert de travail d’une personne ou d’un groupe à une autre.",
+        "explanation": "Les transferts sont des sources courantes de retard et de perte d’informations."
+      },
+      {
+        "q": "Pourquoi utiliser des couloirs ?",
+        "answer": "Pour montrer qui effectue chaque étape et rendre les transferts visibles.",
+        "explanation": "Les couloirs organisent les étapes par rôle ou par service."
+      }
+    ],
+    "recap": [
+      "Les cartes de processus montrent le flux réel, y compris les décisions, les transferts et les retouches.",
+      "Les couloirs clarifient la propriété et exposent les retards de transfert.",
+      "Validez la carte avec les personnes qui effectuent les travaux."
+    ]
+  },
+  "Y2.1": {
+    "why": "Les ceintures jaunes doivent savoir ce qui se passe dans chaque phase DMAIC et quel résultat est attendu. Ces connaissances vous aident à contribuer à un travail utile et empêchent l'équipe de sauter des étapes critiques.",
+    "what": "Définir produit la charte, les exigences du client, le SIPOC, l'équipe, le problème et l'objectif. Measure produit un plan de collecte de données, des données de référence et une vérification de base de la qualité des mesures. Analyse produit des cartes de processus, des outils de causes profondes, des graphiques et des causes validées. Améliorer produit des solutions testées, un pilote et un plan de mise en œuvre. Le contrôle produit un plan de contrôle, un travail standard, une surveillance et un plan de réponse.",
+    "how": [
+      "Compléter les principaux livrables de la phase en cours.",
+      "Passez en revue les livrables avec le sponsor et le propriétaire du processus.",
+      "Organisez un examen de porte et décidez si vous souhaitez continuer.",
+      "Documentez les décisions, les risques et les actions ouvertes.",
+      "Transférer le résultat approuvé dans la phase suivante."
+    ],
+    "where": "Utilisez DMAIC pour améliorer un processus existant. Un laboratoire avec des rapports tardifs définit le problème et l'objectif, mesure la ligne de base, analyse le ramassage et le traitement par lots des coursiers, s'améliore avec une lecture de code-barres et contrôle avec un graphique quotidien et un propriétaire. Utilisez la même logique de phase dans les domaines bancaire, de la vente au détail, de la fabrication, de l'informatique et de l'éducation.",
+    "when_not": "N'utilisez pas DMAIC pour concevoir un tout nouveau processus ; utilisez DMADV. N'exécutez pas un projet DMAIC complet pour une solution simple et évidente ; utilisez un PDCA ou un Kaizen rapide. Pour un problème de sécurité urgent, commencez par contenir le problème.",
+    "common_mistakes": [
+      "Sauter Mesurer et passer de Définir à Analyser.",
+      "Traiter l’analyse comme un débat d’opinions plutôt que de preuves.",
+      "Clôture du projet sans plan de contrôle ni propriétaire de processus."
+    ],
+    "quick_check": [
+      {
+        "q": "Quelle phase DMAIC produit la ligne de base ?",
+        "answer": "Mesure.",
+        "explanation": "Measure définit la métrique et collecte les données de base."
+      },
+      {
+        "q": "Qu’est-ce qu’un examen de porte ?",
+        "answer": "Un point de contrôle où l'équipe et le sponsor décident si la phase est terminée et si le projet doit se poursuivre.",
+        "explanation": "Les examens de porte empêchent les travaux faibles d’avancer."
+      },
+      {
+        "q": "Quelle phase prouve qu’une solution a fonctionné ?",
+        "answer": "Améliorez-vous, avec un pilote et une mesure avant-après.",
+        "explanation": "Améliorer teste le changement ; Le contrôle le maintient alors."
+      }
+    ],
+    "recap": [
+      "Chaque phase DMAIC comporte des livrables spécifiques et un examen de porte.",
+      "Mesurer et analyser permettent au projet de s'appuyer sur des données probantes.",
+      "Le contrôle est nécessaire pour que l’amélioration dure."
+    ]
+  },
+  "Y2.2": {
+    "why": "Une charte de projet est le contrat entre l'équipe et le sponsor. Cela évite les dérives, clarifie la responsabilité et donne à chacun une définition commune du succès.",
+    "what": "Une charte comprend l'analyse de rentabilisation, un énoncé du problème, un objectif mesurable, les limites du champ d'application et hors du champ d'application, les rôles de l'équipe, les jalons, les mesures, les contraintes, les hypothèses et les approbations. Un bon énoncé du problème décrit quoi, où, quand et combien, sans nommer de cause ni de solution. Un bon objectif est spécifique, mesurable, réalisable, pertinent et limité dans le temps.",
+    "how": [
+      "Rédigez l’énoncé du problème avec des preuves de base.",
+      "Écrivez un objectif mesurable et une date cible.",
+      "Définissez ce qui est dans la portée et explicitement ce qui est hors de portée.",
+      "Nommez le sponsor, le propriétaire du processus, le chef d'équipe et les membres de l'équipe.",
+      "Fixez des jalons pour chaque phase DMAIC.",
+      "Définissez la métrique principale et obtenez l’approbation du sponsor."
+    ],
+    "where": "Utilisez une charte pour chaque projet d’amélioration, notamment transversal. Exemple : « Vingt pour cent des tickets d'assistance sont rouverts car les informations requises sont manquantes. » L’objectif pourrait être de réduire le taux de réouverture en dessous de 8 % en huit semaines. La portée est le formulaire de prise de ticket ; le remplacement du système CRM est hors de portée.",
+    "when_not": "Ne créez pas une charte complète pour une petite solution qui prend une heure ; utilisez une simple liste de tâches. Ne laissez pas la charte devenir un document rédigé une seule fois et jamais revu.",
+    "common_mistakes": [
+      "Une vague déclaration de problème telle que « les billets sont mauvais ».",
+      "Mettre une solution préférée dans l’énoncé du problème.",
+      "Aucune référence, aucune mesure ou aucun propriétaire de processus nommé."
+    ],
+    "quick_check": [
+      {
+        "q": "Que doit contenir un énoncé de problème ?",
+        "answer": "Quoi, où, quand et combien, avec des preuves.",
+        "explanation": "Un énoncé du problème décrit l'écart, et non la cause ou la solution."
+      },
+      {
+        "q": "Pourquoi définir des éléments hors champ ?",
+        "answer": "Pour éviter toute dérive de la portée et garder le projet concentré.",
+        "explanation": "Des limites explicites aident l’équipe à dire non à un travail sans rapport."
+      },
+      {
+        "q": "Qui doit approuver la charte ?",
+        "answer": "Le sponsor, avec la contribution du propriétaire du processus.",
+        "explanation": "L’approbation du sponsor confirme l’autorité, les ressources et les attentes."
+      }
+    ],
+    "recap": [
+      "Une charte définit le problème, l'objectif, la portée, l'équipe, les mesures et les jalons.",
+      "Gardez les causes et les solutions en dehors de l’énoncé du problème.",
+      "Obtenez l’approbation du sponsor et revisitez la charte lors des examens aux portes."
+    ]
+  },
+  "Y2.3": {
+    "why": "Les améliorations diminuent lorsque tout le monde revient à l’ancienne méthode. La phase de contrôle protège le gain en rendant la nouvelle méthode visible, mesurable, appropriée et facile à suivre. Un plan de contrôle et une simple carte de contrôle indiquent au propriétaire du processus quand agir et quand laisser le processus tranquille.",
+    "what": "Un plan de contrôle est un accord d'une page qui nomme la mesure, l'objectif ou la spécification, comment et à quelle fréquence elle est mesurée, à qui elle appartient et que faire lorsqu'elle dépasse les limites. Une carte de contrôle trace la métrique au fil du temps avec une ligne centrale et des limites afin que l'équipe puisse séparer la variation normale d'un signal réel. Pour les données continues, un graphique d'individus et de plage mobile (I-MR) est un point de départ courant ; pour le décompte des défauts ou des réussites/échecs, un tableau P ou C convient. Le travail standard, la gestion visuelle et la correction des erreurs (poka-yoke) soutiennent le plan en faisant de la bonne méthode la méthode la plus simple.",
+    "how": [
+      "Convenez d’une métrique principale et de sa cible ou de ses spécifications.",
+      "Définissez la méthode de mesure, la taille de l’échantillon, la fréquence et le propriétaire des données.",
+      "Tracez une analyse ou une carte de contrôle et calculez les limites uniquement une fois que le processus est stable.",
+      "Rédigez un plan de réaction indiquant qui fait quoi lorsqu'un signal apparaît.",
+      "Mettez à jour le travail standard, la formation et les contrôles visuels pour correspondre à la nouvelle méthode.",
+      "Remettez le plan au propriétaire du processus et examinez-le à une cadence fixe."
+    ],
+    "where": "Utilisez des plans de contrôle après chaque amélioration, pas seulement dans la fabrication. Exemple : une clinique réduit les absences aux rendez-vous avec des appels de rappel. Le plan de contrôle suit le taux de non-présentation chaque semaine, nomme le responsable de la réception comme propriétaire et exige une réunion chaque fois que deux semaines dépassent 8 %. Une équipe logicielle suit les défauts échappés par version sur une carte P et examine la règle lorsqu'un signal apparaît. Dans une usine, un tableau I-MR du volume de remplissage indique quand ajuster le remplissage.",
+    "when_not": "Ne calculez pas les limites de contrôle à partir d'un processus instable ou de produits et d'équipes mélangés ; stratifier et stabiliser d’abord. Ne transformez pas le plan de contrôle en un long classeur que personne ne lit. Ne réagissez pas sur chaque point ; utilisez les règles du graphique. Ne définissez pas de plan de contrôle sans propriétaire nommé et sans plan de réaction.",
+    "common_mistakes": [
+      "Aucun propriétaire de processus nommé ni aucun plan de réaction.",
+      "Mesurer une métrique différente de celle améliorée par le projet.",
+      "Recalculer les limites de contrôle à chaque fois qu'un point semble mauvais.",
+      "Traiter la variation de cause commune comme une cause particulière et procéder à un ajustement excessif.",
+      "Laisser le plan de contrôle dans le dossier du projet plutôt que dans le processus."
+    ],
+    "quick_check": [
+      {
+        "q": "Qu'est-ce qui fait partie d'un plan de contrôle ?",
+        "answer": "La métrique, la cible ou la spécification, la méthode de mesure, la fréquence, le propriétaire et le plan de réaction.",
+        "explanation": "Un plan de contrôle rend explicite la surveillance et la réponse."
+      },
+      {
+        "q": "Pourquoi les limites de contrôle devraient-elles attendre que le processus soit stable ?",
+        "answer": "Les limites d'un processus instable décrivent l'instabilité et non la variation normale.",
+        "explanation": "Stabilisez et stratifiez d’abord, puis fixez des limites."
+      },
+      {
+        "q": "A quoi sert un plan de réaction ?",
+        "answer": "Il indique au propriétaire quoi vérifier et faire lorsque le graphique signale un changement.",
+        "explanation": "Un signal sans réponse ne maintient pas le gain."
+      }
+    ],
+    "recap": [
+      "Les plans de contrôle nomment la métrique, la méthode, la fréquence, le propriétaire et le plan de réaction.",
+      "Les cartes de contrôle séparent les variations normales des signaux réels.",
+      "Le travail standard et la correction des erreurs font que la nouvelle méthode perdure."
+    ]
+  },
+  "Y3.1": {
+    "why": "Le type de données détermine quels résumés, graphiques et tests sont valides. Traiter les données catégorielles comme des étiquettes continues ou moyennes conduit à des conclusions erronées.",
+    "what": "Les données continues peuvent prendre n'importe quelle valeur dans une plage et sont mesurées : temps, poids, longueur, température ou coût. Les données discrètes comptent les catégories ou les occurrences : réussite ou échec, type de défaut, nombre de plaintes ou nombre de patients. Les données discrètes peuvent être binaires, comptées ou ordinales. Les données continues sont résumées avec la moyenne, la médiane, l'écart type et la plage ; les données discrètes sont résumées avec les décomptes, les proportions, les pourcentages et le mode.",
+    "how": [
+      "Énoncez la question à laquelle vous devez répondre.",
+      "Identifiez si les données sont continues ou discrètes.",
+      "Choisissez un résumé qui correspond au type de données.",
+      "Vérifiez comment les données seront enregistrées et vérifiées.",
+      "Tracez un graphique qui correspond à la question et au type de données."
+    ],
+    "where": "Dans la fabrication, le diamètre est continu tandis que le type de défaut est discret. Dans le domaine des soins de santé, la durée du séjour est continue tandis que la réadmission, oui ou non, est discrète. Dans le commerce de détail, la valeur de la commande est continue tandis que le motif du retour est catégorique. En informatique, le temps de réponse est continu tandis que la gravité est ordinale. Utilisez le type de données pour choisir des résumés avant d'ouvrir un outil graphique.",
+    "when_not": "Ne calculez pas la moyenne des étiquettes de catégorie telles que la couleur ou le département. N'utilisez pas d'histogramme pour les catégories. Ne transformez pas les données continues en réussite ou en échec trop tôt, car vous perdez la capacité de voir les variations.",
+    "common_mistakes": [
+      "Faire la moyenne des catégories et signaler un nombre dénué de sens.",
+      "Utiliser un graphique qui ne correspond pas au type de données.",
+      "Mélanger des unités ou des périodes de temps dans un même résumé."
+    ],
+    "quick_check": [
+      {
+        "q": "Quelles sont les données continues ?",
+        "answer": "Il est temps de résoudre un ticket.",
+        "explanation": "Le temps est mesuré sur une échelle continue."
+      },
+      {
+        "q": "Une enquête enregistre la satisfaction comme mauvaise, passable ou bonne. De quel type de données s’agit-il ?",
+        "answer": "Données catégorielles ordinales.",
+        "explanation": "Les catégories ont un ordre, mais la distance qui les sépare n'est pas une quantité mesurée."
+      },
+      {
+        "q": "Qu'est-ce qu'un bon résumé des types de défauts ?",
+        "answer": "Nombres ou pourcentages par catégorie, affichés dans un graphique à barres ou Pareto.",
+        "explanation": "Les données catégorielles sont résumées par fréquence."
+      }
+    ],
+    "recap": [
+      "Les données continues sont mesurées ; les données discrètes sont comptées ou catégorisées.",
+      "Faites correspondre le résumé et le graphique au type de données.",
+      "Ne faites pas la moyenne des étiquettes et ne masquez pas les variations continues trop tôt."
+    ]
+  },
+  "Y3.2": {
+    "why": "De bonnes données commencent par un bon enregistrement. Une feuille de contrôle rend la collecte cohérente, réduit les erreurs et facilite la vérification lorsque les données sont examinées ultérieurement.",
+    "what": "Une feuille de contrôle est un formulaire structuré permettant d'enregistrer des données en temps réel. Il définit quoi enregistrer, quand, où, qui et comment. Les types courants incluent des feuilles de pointage pour les types de défauts, des feuilles de localisation, des feuilles de fréquence et des listes de contrôle simples. Une feuille de contrôle utile est courte, sans ambiguïté et comprend la date, l'heure, l'équipe, le collecteur, le processus et des définitions claires pour chaque catégorie.",
+    "how": [
+      "Définissez la question et les données nécessaires pour y répondre.",
+      "Répertoriez les catégories ou les colonnes.",
+      "Rédigez une définition claire et un exemple pour chaque catégorie.",
+      "Ajoutez des champs de date, d’heure, d’équipe, de collecteur et de processus.",
+      "Pilotez le formulaire avec quelques utilisateurs et révisez-le.",
+      "Vérifiez quotidiennement les entrées et résolvez rapidement les enregistrements peu clairs."
+    ],
+    "where": "Utilisez des feuilles de contrôle pour le nombre de défauts de fabrication, les temps d'attente dans le secteur de la santé, les motifs de retour dans le commerce de détail, les catégories de tickets en informatique et les soumissions tardives dans le secteur de l'éducation. Ils sont particulièrement utiles lorsque le personnel de première ligne, très occupé, doit enregistrer des données pendant le travail plutôt qu'après.",
+    "when_not": "N'utilisez pas de feuille de contrôle pour des données qui existent déjà de manière fiable dans un système. Ne créez pas un formulaire de cinquante colonnes que personne ne remplira. Ne collectez pas de données sans définitions, car différentes personnes enregistreront différemment le même événement.",
+    "common_mistakes": [
+      "Catégories qui se chevauchent ou ne s’excluent pas mutuellement.",
+      "Pas de définitions, donc les collectionneurs interprètent les catégories différemment.",
+      "Un formulaire si complexe que les gens sautent des champs ou inventent des raccourcis."
+    ],
+    "quick_check": [
+      {
+        "q": "Quel est l’objectif principal d’une feuille de contrôle ?",
+        "answer": "Pour enregistrer les données de manière cohérente en temps réel.",
+        "explanation": "Un formulaire standard réduit les variations et les erreurs dans la collecte de données."
+      },
+      {
+        "q": "Que doit contenir chaque feuille de contrôle ?",
+        "answer": "Effacez les catégories, les définitions, la date et l’heure, le collecteur et le processus.",
+        "explanation": "Ces champs rendent les données traçables et vérifiables."
+      },
+      {
+        "q": "Une équipe découvre que 30 % des entrées de défauts se trouvent dans la catégorie « autres ». Que devraient-ils faire ?",
+        "answer": "Passez en revue les « autres » commentaires et affinez les catégories.",
+        "explanation": "Une grande catégorie « autre » signifie généralement que des catégories sont manquantes ou peu claires."
+      }
+    ],
+    "recap": [
+      "Les feuilles de contrôle standardisent la collecte de données en temps réel.",
+      "Gardez le formulaire simple, définissez chaque catégorie et pilotez-le.",
+      "Vérifiez les données quotidiennement et affinez les catégories lorsque le nombre « autres » augmente."
+    ]
+  },
+  "Y3.3": {
+    "why": "Les graphiques révèlent des modèles que les tableaux cachent. Le bon graphique aide une équipe à voir rapidement les variations, la répartition et les priorités, sans les induire en erreur.",
+    "what": "Un diagramme de séquences trace les données par ordre chronologique avec une ligne centrale et montre les tendances, les changements, les cycles et les valeurs aberrantes. Un histogramme regroupe les données continues dans des groupes et affiche la forme, le centre, la répartition, les espaces et les valeurs aberrantes. Un graphique à barres compare les nombres ou les valeurs entre les catégories. Choisissez par question : la tendance temporelle utilise un graphique de séquences, la distribution utilise un histogramme et la comparaison de catégories utilise un graphique à barres.",
+    "how": [
+      "Énoncez la question à laquelle le tableau doit répondre.",
+      "Identifiez le type de données.",
+      "Choisissez le tableau correspondant.",
+      "Étiquetez les deux axes, les unités et la période de temps.",
+      "Tracez toutes les données dans le bon ordre.",
+      "Recherchez des modèles et vérifiez-les par rapport aux connaissances sur les processus."
+    ],
+    "where": "Utilisez des diagrammes d'exécution pour les défauts quotidiens, les temps d'attente, les ventes ou les temps de réponse. Utilisez des histogrammes pour les délais de livraison, la durée du séjour des patients ou la durée des appels. Utilisez des graphiques à barres pour les motifs de réclamation, les types de défauts ou les comparaisons régionales. Un diagramme de séquences peut révéler un changement après un nouveau processus ; un histogramme peut révéler deux pics issus de deux décalages.",
+    "when_not": "N'utilisez pas d'histogramme pour les données catégorielles. N'utilisez pas de graphique à barres pour une tendance temporelle à moins que le temps ne soit véritablement catégorique. N'utilisez pas de diagramme de séquences pour les catégories non ordonnées et évitez les diagrammes 3D ou circulaires lorsqu'une comparaison précise est importante.",
+    "common_mistakes": [
+      "Choisir un graphique qui ne correspond pas au type de données.",
+      "Tronquer un axe pour que les petites différences paraissent grandes.",
+      "Regrouper trop de catégories dans un seul graphique."
+    ],
+    "quick_check": [
+      {
+        "q": "Quel graphique montre le mieux une tendance au fil du temps ?",
+        "answer": "Un diagramme de parcours.",
+        "explanation": "Exécutez les graphiques en traçant les données dans l'ordre chronologique avec une ligne centrale."
+      },
+      {
+        "q": "Quel graphique montre le mieux la distribution des données continues ?",
+        "answer": "Un histogramme.",
+        "explanation": "Les histogrammes regroupent les valeurs continues dans des groupes."
+      },
+      {
+        "q": "Quel graphique compare le mieux le nombre de plaintes par catégorie ?",
+        "answer": "Un graphique à barres.",
+        "explanation": "Les graphiques à barres comparent les valeurs entre les catégories."
+      }
+    ],
+    "recap": [
+      "Les graphiques d'exécution montrent les modèles temporels ; les histogrammes montrent les distributions ; les graphiques à barres comparent les catégories.",
+      "Étiquetez les axes, les unités et les périodes.",
+      "Choisissez le graphique en fonction de la question et du type de données, et non par habitude."
+    ]
+  },
+  "Y3.4": {
+    "why": "Toutes les causes ne sont pas égales. L'analyse Pareto aide une équipe à se concentrer sur les quelques causes qui créent l'essentiel du problème au lieu d'essayer de tout résoudre d'un coup.",
+    "what": "Le principe de Pareto dit qu’environ 80 % des effets proviennent d’environ 20 % des causes. Un graphique de Pareto est un graphique à barres trié du plus grand au plus petit avec une ligne de pourcentage cumulé. Les barres indiquent la fréquence ; la ligne indique la part du total qui a été prise en compte. Les « quelques personnes vitales » sont les catégories qui contribuent le plus à l'effet.",
+    "how": [
+      "Définissez le problème, la période et l’unité de comptage.",
+      "Choisissez des catégories mutuellement exclusives.",
+      "Collectez les décomptes pour chaque catégorie.",
+      "Triez les catégories de la plus grande à la plus petite.",
+      "Calculez chaque pourcentage et le pourcentage cumulé.",
+      "Dessinez les barres et la ligne cumulée.",
+      "Sélectionnez les principales catégories qui atteignent environ 80 % et étudiez-les."
+    ],
+    "where": "Utilisez Pareto pour les types de défauts, les plaintes des clients, les raisons de temps d'arrêt, les causes de réadmission à l'hôpital, les catégories d'incidents informatiques et les raisons de retour au détail. Exemple : 100 commandes en retard réparties en trafic 40, four 25, chauffeur 20, adresse 10 et autres 5. Les pourcentages cumulés sont 40 %, 65 %, 85 %, 95 % et 100 %, les trois premières catégories représentent donc 85 % du problème.",
+    "when_not": "N'utilisez pas Pareto pour des données continues sans créer de catégories significatives. Ne l'utilisez pas lorsque les catégories se chevauchent ou lorsque « autre » est grand. Ne présumez pas que la répartition est exactement de 80/20 et n’ignorez pas un problème de sécurité basse fréquence qui cause toujours de graves dommages.",
+    "common_mistakes": [
+      "Laisser les barres non triées.",
+      "Utiliser des catégories qui se chevauchent ou un grand compartiment « autre ».",
+      "Traiter Pareto comme une preuve de cause plutôt que comme un outil de priorisation."
+    ],
+    "quick_check": [
+      {
+        "q": "Que combine un diagramme de Pareto ?",
+        "answer": "Barres triées et ligne de pourcentage cumulé.",
+        "explanation": "Il montre à la fois la fréquence et la contribution cumulée."
+      },
+      {
+        "q": "Quels sont les « quelques personnes vitales » ?",
+        "answer": "Le petit nombre de catégories qui expliquent l’essentiel de l’effet.",
+        "explanation": "Ce sont les catégories prioritaires à étudier."
+      },
+      {
+        "q": "Un défaut basse fréquence provoque de graves dommages. Pareto devrait-il vous faire l’ignorer ?",
+        "answer": "Non. La gravité et la sécurité peuvent l’emporter sur la fréquence.",
+        "explanation": "Pareto donne la priorité à la fréquence, pas seulement au risque."
+      }
+    ],
+    "recap": [
+      "Pareto trie les catégories et ajoute une ligne de pourcentage cumulé.",
+      "Concentrez-vous sur les quelques catégories vitales qui créent le plus d’effet.",
+      "Utilisez la gravité et le risque parallèlement à la fréquence."
+    ]
+  },
+  "Y4.1": {
+    "why": "Les diagrammes en arête de poisson aident une équipe à réfléchir à de nombreuses causes possibles avant de passer à une seule. Ils organisent la réflexion et exposent les domaines que l’équipe n’a pas pris en compte.",
+    "what": "Un diagramme en arête de poisson, ou Ishikawa, place l'effet ou le problème en tête et les causes possibles sur les os. Les catégories courantes sont les personnes, les processus, les équipements, les matériaux, les mesures et l'environnement, souvent appelées les 6M. Les causes se divisent en sous-causes. Le diagramme est un outil de brainstorming et d’organisation ; cela ne prouve pas quelle cause est réelle.",
+    "how": [
+      "Écrivez un problème ou un effet spécifique en tête du diagramme.",
+      "Mettez-vous d’accord sur les principales catégories de causes.",
+      "Les idées de brainstorming sont silencieuses pour que les membres silencieux de l'équipe contribuent.",
+      "Placez chaque cause sur l’os concerné.",
+      "Demandez pourquoi ajouter des sous-causes lorsque cela est utile.",
+      "Utilisez le vote par points ou les données pour sélectionner les causes probables.",
+      "Validez les causes sélectionnées avec des données avant d’agir."
+    ],
+    "where": "Utilisez l'arête de poisson pour les défauts de fabrication, les retards dans les soins de santé, les incidents informatiques, les plaintes des détaillants, les erreurs bancaires et les soumissions tardives dans le domaine de l'éducation. Pour les rapports de laboratoire en retard, les causes peuvent inclure le personnel et la formation sous Personnes, le traitement par lots et le ramassage par courrier sous Processus, les pannes d'imprimante ou d'analyseur sous Équipement, et la circulation ou la météo sous Environnement.",
+    "when_not": "N'utilisez pas une arête de poisson comme seule analyse. N'incluez pas les causes sur lesquelles l'équipe ne peut pas influencer et ne laissez pas une personne bruyante dominer la session. Ne confondez pas le problème avec ses causes.",
+    "common_mistakes": [
+      "Un énoncé du problème si vaste que le diagramme devient ingérable.",
+      "Écrire des solutions sur les os plutôt que sur les causes.",
+      "Ignorer la validation et traiter chaque idée comme une cause avérée."
+    ],
+    "quick_check": [
+      {
+        "q": "Qu'est-ce qui se trouve en tête d'un diagramme en arête de poisson ?",
+        "answer": "L’effet ou le problème étudié.",
+        "explanation": "Le chef expose le problème ; les os contiennent des causes possibles."
+      },
+      {
+        "q": "Quelles sont les catégories 6M courantes ?",
+        "answer": "Personnes, processus, équipements, matériaux, mesures et environnement.",
+        "explanation": "Ces catégories incitent à une large recherche des causes."
+      },
+      {
+        "q": "Un diagramme en arête de poisson prouve-t-il la cause profonde ?",
+        "answer": "Non. Il organise les causes possibles qui doivent être validées avec des données.",
+        "explanation": "Fishbone est un outil de brainstorming, pas une preuve."
+      }
+    ],
+    "recap": [
+      "Fishbone organise les causes possibles autour des 6M.",
+      "Réfléchissez globalement, puis validez les causes probables avec des données.",
+      "Gardez l'effet spécifique et gardez les solutions hors des os."
+    ]
+  },
+  "Y4.2": {
+    "why": "5 Whys fait passer une équipe des symptômes aux causes profondes exploitables sans statistiques complexes. C’est simple, mais il est facile de faire de mauvais résultats si les réponses sont acceptées sans preuves.",
+    "what": "Les 5 Pourquoi sont une technique de questionnement : demandez pourquoi à plusieurs reprises jusqu'à ce que vous atteigniez une cause sur laquelle vous pouvez agir. Ce n’est pas une règle selon laquelle la réponse doit être composée exactement de cinq questions. Commencez par un problème spécifique, vérifiez chaque réponse et arrêtez-vous lorsque la cause est à la fois exploitable et étayée par des preuves. Concentrez-vous sur le processus, et non sur le fait de blâmer les gens, et faites une branche lorsqu'il y a plusieurs causes.",
+    "how": [
+      "Énoncez le problème avec les données.",
+      "Demandez pourquoi le problème est survenu.",
+      "Vérifiez la réponse avec des preuves ou des observations.",
+      "Demandez à nouveau pourquoi à propos de la réponse vérifiée.",
+      "Continuez jusqu'à ce que vous atteigniez une cause fondamentale exploitable.",
+      "Testez la cause, corrigez-la et confirmez le résultat."
+    ],
+    "where": "Utilisez 5 pourquoi après qu'une arête de poisson ou un Pareto ait réduit les causes probables. Exemple : les rapports de laboratoire sont en retard. Pourquoi? Le coursier arrive après la date limite. Pourquoi? Le ramassage est prévu à 17h00 mais les rapports sont prêts à 17h30. Pourquoi? Le laboratoire attend de regrouper tous les tests. Pourquoi? Il n’y a pas de règle de priorité pour les tests statistiques. La cause première est l’absence de règle de priorisation ; le correctif est une coupure de statistiques et une collecte dédiée.",
+    "when_not": "N'utilisez pas une seule chaîne de 5 Pourquoi pour un problème complexe avec plusieurs causes interagissantes ; branche à la place. Ne l’utilisez pas lorsque vous n’avez aucune preuve ou lorsque le véritable objectif est de blâmer quelqu’un.",
+    "common_mistakes": [
+      "S'arrêter à un symptôme tel que « le personnel était occupé ».",
+      "Accepter des opinions comme des faits sans vérification.",
+      "S'arrêter à « l'erreur humaine » au lieu de demander ce qui a permis l'erreur."
+    ],
+    "quick_check": [
+      {
+        "q": "Quel est l’objectif des 5 Pourquoi ?",
+        "answer": "Atteindre une cause fondamentale exploitable, et ne pas se contenter de poser cinq questions.",
+        "explanation": "Le chiffre cinq est un guide ; le véritable test est de savoir si la cause est exploitable et vérifiée."
+      },
+      {
+        "q": "Pourquoi faut-il éviter de s'arrêter à « l'erreur humaine » ?",
+        "answer": "Il identifie rarement les conditions du processus qui ont permis l'erreur.",
+        "explanation": "Demandez ce qui, dans le processus, a rendu l'erreur possible ou difficile à détecter."
+      },
+      {
+        "q": "Que faire lorsqu'un problème a plusieurs causes ?",
+        "answer": "Branchez le questionnement et étudiez chaque cause séparément.",
+        "explanation": "Une seule chaîne linéaire peut manquer des causes en interaction."
+      }
+    ],
+    "recap": [
+      "5 Pourquoi passe du symptôme à la cause vérifiée et exploitable.",
+      "Utilisez des preuves à chaque étape et concentrez-vous sur le processus.",
+      "Branchez lorsque plusieurs causes existent."
+    ]
+  },
+  "Y4.3": {
+    "why": "5S crée un lieu de travail propre, organisé et sûr où les déchets et les anomalies sont faciles à détecter. Il prend en charge le travail standard et contribue à la pérennité des améliorations.",
+    "what": "Les cinq étapes sont Trier, Mettre en ordre, Briller, Standardiser et Maintenir. Le tri supprime les éléments inutiles. Mis en ordre, tout est clair. Briller signifie nettoyer et inspecter. Standardiser crée des règles, des étiquettes et des normes visuelles. Maintenir les habitudes, les audits et l’appropriation. Certaines organisations ajoutent la sécurité comme sixième S.",
+    "how": [
+      "Choisissez un domaine et définissez son objectif.",
+      "Triez les éléments et marquez rouge tout ce qui n’est pas nécessaire.",
+      "Définissez des emplacements, des étiquettes et des limites visuelles.",
+      "Nettoyez la zone et inspectez les problèmes pendant le nettoyage.",
+      "Rédigez des normes avec des photos, des listes de contrôle et des propriétaires.",
+      "Planifiez des audits et examinez régulièrement les résultats."
+    ],
+    "where": "Utilisez les 5S dans les ateliers de fabrication, les salles de fournitures des hôpitaux, les entrepôts de vente au détail, les succursales bancaires, les salles de classe et les disques informatiques partagés. Exemple : une salle de fournitures d'hôpital supprime les articles périmés, étiquette les bacs par niveau, nettoie et inspecte les étagères, affiche une présentation standard et effectue des audits chaque semaine. Une équipe numérique peut appliquer les mêmes étapes à un Drive partagé ou à une file d’attente de billetterie.",
+    "when_not": "N'exécutez pas 5S comme un nettoyage ponctuel sans normes ni propriété. Ne jetez pas d’éléments sans un processus de décision rouge et n’appliquez pas les 5S à une zone qui est sur le point d’être repensée.",
+    "common_mistakes": [
+      "Faire le ménage, mais sans jamais établir de normes ou d'habitudes d'audit.",
+      "Les éléments marqués en rouge disparaissent sans décision.",
+      "Juger 5S par l'apparence plutôt que par la sécurité, le flux et le temps de recherche."
+    ],
+    "quick_check": [
+      {
+        "q": "Quels sont les cinq S dans l’ordre ?",
+        "answer": "Trier, mettre en ordre, briller, normaliser, maintenir.",
+        "explanation": "Chaque étape s’appuie sur la précédente."
+      },
+      {
+        "q": "Que comprend Shine à part le nettoyage ?",
+        "answer": "Inspecter la zone et l’équipement pour déceler toute anomalie.",
+        "explanation": "Le nettoyage est aussi l’occasion de détecter les usures, les fuites et les éléments manquants."
+      },
+      {
+        "q": "Pourquoi le maintien est-il important ?",
+        "answer": "Sans audits, sans propriété et sans habitudes, le quartier retrouve son ancien état.",
+        "explanation": "Sustain transforme les 5S en une routine plutôt qu'en un événement."
+      }
+    ],
+    "recap": [
+      "5S signifie trier, mettre en ordre, briller, standardiser, maintenir.",
+      "Les normes visuelles et l’appropriation font que le résultat reste fidèle.",
+      "Utilisez 5S pour améliorer la sécurité, le flux et le temps de recherche, pas seulement l'apparence."
+    ]
+  },
+  "Y4.4": {
+    "why": "La pensée Lean aide les équipes à améliorer le flux et à réduire les attentes et les retouches sans grands projets d'investissement. Il complète l'accent mis par Six Sigma sur la réduction des variations.",
+    "what": "Les cinq principes Lean sont la valeur, la chaîne de valeur, le flux, l'attraction et la perfection. La valeur est définie par le client. La chaîne de valeur est la séquence d'étapes qui créent de la valeur. Le flux signifie que le travail se déroule en douceur, sans retards de traitement par lots. Pull signifie que le travail est déclenché par la demande plutôt que poussé devant elle. La perfection signifie une amélioration continue. Les outils courants incluent le travail standard, la gestion visuelle, le kanban et le flux monobloc.",
+    "how": [
+      "Définir la valeur du point de vue du client.",
+      "Cartographiez la chaîne de valeur et identifiez les retards et les gaspillages.",
+      "Améliorez le flux en réduisant la taille des lots et les transferts inutiles.",
+      "Introduisez le pull là où la demande et l’offre le rendent pratique.",
+      "Standardisez la nouvelle méthode et continuez à vous améliorer."
+    ],
+    "where": "Utilisez Lean dans les secteurs de la fabrication, de la santé, de la vente au détail, de l’informatique, de la banque et de l’éducation. Exemple : une banque regroupe les approbations de prêts, les demandes attendent donc un examen quotidien. La formation croisée et un système de traction quotidien réduisent le délai de livraison de dix jours à quatre. Dans le domaine des soins de santé, le fait de rapprocher les fournitures du point d’utilisation réduit les déplacements et les attentes des infirmières.",
+    "when_not": "N’introduisez pas d’attraction là où la demande est très variable ou où l’offre est limitée sans tampons appropriés. Ne supprimez pas les contrôles nécessaires pour accélérer un processus et ne recherchez pas le flux au détriment de la sécurité ou de la qualité.",
+    "common_mistakes": [
+      "Considérer le Lean comme un exercice de réduction des coûts ou d’effectifs.",
+      "Installer Kanban sans stabiliser le processus au préalable.",
+      "Ignorer la variabilité de la demande et créer de nouveaux goulots d’étranglement."
+    ],
+    "quick_check": [
+      {
+        "q": "Quels sont les cinq principes Lean ?",
+        "answer": "Valeur, flux de valeur, flux, attraction et perfection.",
+        "explanation": "Ces principes guident la réduction des déchets et l’amélioration des flux."
+      },
+      {
+        "q": "Que signifie tirer ?",
+        "answer": "Le travail est déclenché par la demande du client plutôt que poussé en avant.",
+        "explanation": "Pull réduit la surproduction et l’excès de travail en cours."
+      },
+      {
+        "q": "Pourquoi la réduction de la taille des lots peut-elle améliorer le flux ?",
+        "answer": "Des lots plus petits réduisent le temps d’attente et accélèrent les retours.",
+        "explanation": "Le travail avance dans le processus de manière plus continue."
+      }
+    ],
+    "recap": [
+      "Lean améliore la valeur, le flux, l’attraction et la perfection.",
+      "Réduisez la taille des lots et les transferts pour raccourcir les délais.",
+      "Standardisez l’amélioration et accordez la priorité à la sécurité et à la qualité."
+    ]
+  },
+  "Y5.1": {
+    "why": "Les bonnes solutions nécessitent de nombreuses idées avant d’être sélectionnées. Le brainstorming génère des options et engage l’équipe, mais seulement lorsqu’il est mené de manière à éviter tout jugement et toute domination précoces.",
+    "what": "Le brainstorming signifie générer d’abord de nombreuses idées et les évaluer ensuite. Les méthodes utiles incluent le brainstorming silencieux, le partage à tour de rôle, la rédaction de réflexions et le regroupement par affinité. Les règles sont les suivantes : viser la quantité, retenir les critiques, s'appuyer sur les idées des autres, accueillir les idées folles et maintenir une conversation à la fois. Après avoir généré des idées, regroupez-les et votez avant de les évaluer avec les données.",
+    "how": [
+      "Énoncez une question claire pour la session.",
+      "Donnez à chacun cinq à dix minutes pour rédiger ses idées en silence.",
+      "Partagez vos idées à tour de rôle sans les juger.",
+      "Clarifiez uniquement, puis regroupez les idées similaires avec une cartographie d'affinité.",
+      "Utilisez le vote par points pour sélectionner les candidats les plus forts.",
+      "Évaluez les meilleures idées avec des données et un petit test."
+    ],
+    "where": "Utilisez le brainstorming pour l’analyse des causes profondes, la conception de solutions, la planification de projets et les réunions d’équipe. Exemple : une clinique souhaite réduire l'attente. Les idées se regroupent en planification, personnel, espace et communication. L'équipe vote, puis teste les deux meilleures idées et mesure l'effet.",
+    "when_not": "Ne réfléchissez pas lorsque la réponse est fixée par la réglementation, la sécurité ou des données claires. N'utilisez pas le brainstorming pour prendre une décision urgente en matière de sécurité et ne laissez pas un manager dominer ou critiquer les idées pendant la génération.",
+    "common_mistakes": [
+      "Juger les idées pendant qu’elles sont encore en train d’être générées.",
+      "Laisser une personne dominer la conversation.",
+      "Se terminant par une liste d'idées mais sans évaluation ni propriétaire."
+    ],
+    "quick_check": [
+      {
+        "q": "Quelle est la première règle du brainstorming ?",
+        "answer": "Générez des idées sans les juger.",
+        "explanation": "Les critiques précoces réduisent le nombre et la variété des idées."
+      },
+      {
+        "q": "Pourquoi recourir au brainstorming silencieux ?",
+        "answer": "Cela donne aux membres les plus discrets une chance de contribuer et réduit la domination.",
+        "explanation": "Écrire des idées crée d’abord une session plus équilibrée."
+      },
+      {
+        "q": "Que doit-il se passer une fois les idées générées ?",
+        "answer": "Regroupez, votez et évaluez les meilleures idées avec des données.",
+        "explanation": "La génération n’est que la première étape ; la sélection et les tests viennent ensuite."
+      }
+    ],
+    "recap": [
+      "Générez d’abord de nombreuses idées et jugez plus tard.",
+      "Utilisez la génération silencieuse et le regroupement par affinité pour inclure tout le monde.",
+      "Évaluez les meilleures idées avec des données et un petit test."
+    ]
+  },
+  "Y5.2": {
+    "why": "L’amélioration est un travail d’équipe. Des rôles clairs, des règles de base et des règles de décision maintiennent les réunions productives et évitent que le projet ne s'enlise dans la confusion.",
+    "what": "Une équipe efficace a un objectif clair, des rôles définis, des règles de base, une règle de décision, une cadence de réunion et une sécurité psychologique. Les rôles peuvent inclure celui de responsable, de facilitateur, d’enregistreur, de chronométreur, de propriétaire de données et de sponsor. Les règles de base peuvent couvrir les heures de début et de fin, un intervenant à la fois, le respect et la documentation des décisions. Les règles de décision incluent le consensus, le consentement ou le leader décide après contribution.",
+    "how": [
+      "Définir le but de l'équipe et le résultat attendu.",
+      "Attribuez des rôles et confirmez les engagements de temps.",
+      "Convenez de règles de base et d’une règle de décision.",
+      "Établissez un ordre du jour et une cadence de réunion.",
+      "Enregistrez les décisions, les actions, les propriétaires et les dates d'échéance.",
+      "Examinez l’efficacité de l’équipe et ajustez-la."
+    ],
+    "where": "Utilisez des pratiques de travail d'équipe claires sur chaque projet, en particulier les projets interfonctionnels. Exemple : une équipe de projet de sortie se réunit chaque semaine, fait tourner l'animateur, utilise un journal d'action et prend des décisions par consentement. Chaque réunion se termine par un propriétaire et une date pour chaque action.",
+    "when_not": "Ne surchargez pas une petite tâche à deux. N’utilisez pas le consensus lorsqu’il existe déjà un responsable décisionnel clair et ne laissez pas les règles de base devenir une bureaucratie.",
+    "common_mistakes": [
+      "Pas de rôles clairs ni de règle de décision.",
+      "Des réunions sans ordre du jour, sans actions ni suivi.",
+      "Éviter les conflits afin que les vrais problèmes ne soient jamais résolus."
+    ],
+    "quick_check": [
+      {
+        "q": "Pourquoi une équipe a-t-elle besoin d’une règle de décision ?",
+        "answer": "Clarifier la manière dont les décisions seront prises et éviter les blocages.",
+        "explanation": "Une règle de décision indique à l'équipe si elle doit utiliser le consensus, le consentement ou la décision du leader."
+      },
+      {
+        "q": "Que devrait avoir chaque action ?",
+        "answer": "Un propriétaire et une date d'échéance.",
+        "explanation": "Les actions sans propriété ni dates ne sont généralement pas réalisées."
+      },
+      {
+        "q": "Quel est le rôle de l'animateur ?",
+        "answer": "Pour guider le processus, garder l’équipe concentrée et garantir que chacun contribue.",
+        "explanation": "L'animateur gère le processus de la réunion, pas les décisions relatives au contenu."
+      }
+    ],
+    "recap": [
+      "Un objectif, des rôles, des règles de base et des règles de décision claires rendent les équipes efficaces.",
+      "Enregistrez les décisions et les actions avec les propriétaires et les dates.",
+      "Examinez le fonctionnement de l’équipe, pas seulement ce qu’elle produit."
+    ]
+  }
+}

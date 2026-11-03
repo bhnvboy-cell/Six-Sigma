@@ -1,0 +1,1701 @@
+{
+  "version": "2.0",
+  "updated": "2026-10-29",
+  "source": "Aligned to ASQ, IASSC, and ISO 13053 Bodies of Knowledge",
+  "belts": [
+    {
+      "id": "white",
+      "name": "Weißer Gürtel",
+      "level": 1,
+      "color": "white",
+      "icon": "fa-medal",
+      "lessonTarget": "8-10",
+      "studyTime": "6-8 Stunden",
+      "audience": "Neue Mitarbeiter, Mitarbeiter an vorderster Front, Vorgesetzte und alle, die zum ersten Mal an einem Verbesserungsprojekt teilnehmen.",
+      "prerequisites": "Keiner. Beginnen Sie hier ohne Vorkenntnisse.",
+      "previousRecap": "Kein vorheriger Gürtel. Dieser Kurs beginnt mit der gemeinsamen Sprache von Qualität, Verschwendung, Variation und DMAIC.",
+      "outcomes": [
+        "Erklären Sie, was Lean Six Sigma ist und woher es kommt",
+        "Erkennen Sie Verschwendung, Abweichungen, Mängel und Kosten schlechter Qualität",
+        "Beschreiben Sie VOC, CTQ, DMAIC und die Bandrollen",
+        "Tragen Sie nützliche Daten und Ideen zu einem Teamprojekt bei"
+      ],
+      "modules": [
+        {
+          "id": "white-1",
+          "number": 1,
+          "title": "Qualitätsgrundlagen",
+          "duration": "90 Min",
+          "summary": "Bauen Sie die gemeinsame Sprache der Qualität auf: Woher kommen Six Sigma und Lean, warum schlechte Qualität Geld kostet, wie Kunden Wert definieren und warum Variation wichtig ist.",
+          "lessons": [
+            {
+              "id": "W1.1",
+              "order": 1,
+              "title": "Geschichte von Six Sigma und Lean",
+              "objective": "Trace Six Sigma von Motorola und GE und Lean vom Toyota Production System."
+            },
+            {
+              "id": "W1.2",
+              "order": 2,
+              "title": "Qualitätsgrundlagen und Kosten schlechter Qualität",
+              "objective": "Definieren Sie Qualität, Prävention, Bewertung und Fehlerkosten und berechnen Sie ein einfaches COPQ-Beispiel."
+            },
+            {
+              "id": "W1.3",
+              "order": 3,
+              "title": "Kunden: VOC und CTQ",
+              "objective": "Verwandeln Sie Kundenwünsche in messbare, entscheidende Qualitätsanforderungen."
+            },
+            {
+              "id": "W1.4",
+              "order": 4,
+              "title": "Variation und Mängel",
+              "objective": "Erklären Sie häufige und besondere Ursachenvariationen und definieren Sie einen Fehler in einfacher Sprache."
+            },
+            {
+              "id": "W1.5",
+              "order": 5,
+              "title": "DMAIC-Übersicht",
+              "objective": "Beschreiben Sie die fünf DMAIC-Phasen und die Hauptfragen, die jede Phase beantwortet."
+            }
+          ]
+        },
+        {
+          "id": "white-2",
+          "number": 2,
+          "title": "Menschen, Verschwendung und erste Projekte",
+          "duration": "80 Min",
+          "summary": "Lernen Sie, die acht Verschwendungen zu erkennen, zu verstehen, wer was bei einem Projekt tut, und sich die Kultur und Gewohnheiten anzueignen, die dafür sorgen, dass Verbesserungen Bestand haben.",
+          "lessons": [
+            {
+              "id": "W2.1",
+              "order": 1,
+              "title": "Die 8 Abfälle",
+              "objective": "Identifizieren Sie die acht Verschwendungen in den Bereichen Gesundheitswesen, Einzelhandel, Fertigung, IT, Bankwesen und Bildung."
+            },
+            {
+              "id": "W2.2",
+              "order": 2,
+              "title": "Rollen und Verantwortlichkeiten",
+              "objective": "Erklären Sie die Rollen des Weißen, Gelben, Grünen, Schwarzen und Master Black Belt sowie die Sponsorenrolle."
+            },
+            {
+              "id": "W2.3",
+              "order": 3,
+              "title": "Kultur und Denkweise",
+              "objective": "Beschreiben Sie Respekt vor Menschen, datenbasierte Entscheidungen und eine Lernkultur ohne Schuldzuweisungen."
+            },
+            {
+              "id": "W2.4",
+              "order": 4,
+              "title": "Ihr erstes Verbesserungsprojekt",
+              "objective": "Verwenden Sie eine einfache Geschichte im A3-Stil, um eine kleine, sichere Verbesserung zu planen."
+            }
+          ]
+        }
+      ],
+      "coverageChecklist": [
+        {
+          "topic": "Geschichte (Motorola, GE)",
+          "lessons": [
+            "W1.1"
+          ]
+        },
+        {
+          "topic": "Qualitätsgrundlagen",
+          "lessons": [
+            "W1.2"
+          ]
+        },
+        {
+          "topic": "Kosten für schlechte Qualität",
+          "lessons": [
+            "W1.2"
+          ]
+        },
+        {
+          "topic": "Kunden (VOC, CTQ)",
+          "lessons": [
+            "W1.3"
+          ]
+        },
+        {
+          "topic": "8 Abfälle",
+          "lessons": [
+            "W2.1"
+          ]
+        },
+        {
+          "topic": "Variation",
+          "lessons": [
+            "W1.4"
+          ]
+        },
+        {
+          "topic": "Mängel",
+          "lessons": [
+            "W1.4"
+          ]
+        },
+        {
+          "topic": "DMAIC-Übersicht",
+          "lessons": [
+            "W1.5"
+          ]
+        },
+        {
+          "topic": "Rollen",
+          "lessons": [
+            "W2.2"
+          ]
+        },
+        {
+          "topic": "Kultur",
+          "lessons": [
+            "W2.3"
+          ]
+        }
+      ],
+      "project": {
+        "title": "Bereinigen Sie eine Kundenübergabe",
+        "brief": "Wählen Sie eine Übergabe aus, die Ihnen gehört (z. B. eine Patientenübergabe, eine Auftragsübergabe oder ein Support-Ticket). Zeichnen Sie auf, was passiert, identifizieren Sie zwei Verschwendungen, messen Sie, wie lange die Übergabe dauert, testen Sie eine kleine Änderung und bestätigen Sie das Ergebnis."
+      },
+      "exam": {
+        "questions": 25,
+        "passingScore": 80,
+        "format": "25 Multiple-Choice-Fragen mit vier Optionen und Erklärungen."
+      },
+      "cheatSheet": [
+        "COPQ = Prävention + Bewertung + interner Fehler + externe Fehlerkosten",
+        "VOC = Stimme des Kunden; CTQ = entscheidend für die Qualität, eine messbare Kundenanforderung",
+        "DMAIC = Definieren, Messen, Analysieren, Verbessern, Kontrollieren",
+        "8 Verschwendungen = Transport, Inventar, Bewegung, Warten, Überproduktion, Überverarbeitung, Mängel, Fähigkeiten"
+      ],
+      "nextChecklist": [
+        "Ich kann Lean vs. Six Sigma jeweils in einem Satz erklären.",
+        "Ich kann die DMAIC-Phasen der Reihe nach benennen.",
+        "Ich kann in meinem eigenen Arbeitsbereich mindestens drei Abfälle erkennen.",
+        "Ich kann erklären, was VOC und CTQ bedeuten."
+      ]
+    },
+    {
+      "id": "yellow",
+      "name": "Gelber Gürtel",
+      "level": 2,
+      "color": "yellow",
+      "icon": "fa-certificate",
+      "lessonTarget": "15-17",
+      "studyTime": "15-20 Stunden",
+      "audience": "Teammitglieder, Vorgesetzte und Prozessverantwortliche, die Green- und Black Belt-Projekte unterstützen.",
+      "prerequisites": "Weißer Gürtel oder gleichwertiges grundlegendes Qualitätsbewusstsein.",
+      "previousRecap": "Zusammenfassung des White Belt: Qualität bedeutet, die Anforderungen der Kunden zu erfüllen; Verschwendung und Variation verursachen Mängel und Kosten; DMAIC ist der Verbesserungspfad; Jeder hat eine Rolle.",
+      "outcomes": [
+        "Bilden Sie einen Prozess mit SIPOC und einer Prozesslandkarte ab",
+        "Erstellen Sie eine grundlegende Projektcharta und ein Datenerfassungsblatt",
+        "Verwenden Sie Pareto, Fischgrätenmuster, 5-Warum-Diagramme, Kontrollblätter und einfache Diagramme",
+        "Tragen Sie zu Brainstorming, 5S und teambasierter Verbesserung bei",
+        "Erklären Sie, wie ein Kontrollplan und eine grundlegende Kontrollkarte eine Verbesserung aufrechterhalten"
+      ],
+      "modules": [
+        {
+          "id": "yellow-1",
+          "number": 1,
+          "title": "Prozessdenken",
+          "duration": "70 Min",
+          "summary": "Betrachten Sie Arbeit als einen Prozess mit Lieferanten, Inputs, Schritten, Outputs und Kunden. Lernen Sie, Prozessgrenzen zu definieren und zu zeichnen, was tatsächlich passiert, und nicht, was die Leute denken, dass es passiert.",
+          "lessons": [
+            {
+              "id": "Y1.1",
+              "order": 1,
+              "title": "Prozessdenken",
+              "objective": "Erklären Sie Inputs, Outputs, Grenzen und den Kunden eines Prozesses."
+            },
+            {
+              "id": "Y1.2",
+              "order": 2,
+              "title": "SIPOC",
+              "objective": "Erstellen Sie ein Lieferanten-, Input-, Prozess-, Output- und Kundendiagramm."
+            },
+            {
+              "id": "Y1.3",
+              "order": 3,
+              "title": "Prozessabbildung",
+              "objective": "Erstellen Sie einen Swimlane oder ein Flussdiagramm und kennzeichnen Sie Übergaben und Entscheidungspunkte."
+            }
+          ]
+        },
+        {
+          "id": "yellow-2",
+          "number": 2,
+          "title": "DMAIC, Charters und Kontrolle",
+          "duration": "90 Min",
+          "summary": "Gehen Sie tiefer in DMAIC ein und lernen Sie die grundlegenden Fragen der Charta kennen: Warum das Projekt existiert, was es umfasst, wie der Erfolg gemessen wird und wer dafür verantwortlich ist. Beenden Sie die Kontrollphase, damit der Gewinn auch nach Abschluss des Projekts erhalten bleibt.",
+          "lessons": [
+            {
+              "id": "Y2.1",
+              "order": 1,
+              "title": "DMAIC im Detail",
+              "objective": "Listen Sie die wichtigsten Aktivitäten und Ergebnisse jeder DMAIC-Phase auf."
+            },
+            {
+              "id": "Y2.2",
+              "order": 2,
+              "title": "Grundlagen der Projektcharta",
+              "objective": "Schreiben Sie eine Problembeschreibung, ein Ziel, einen Umfang, ein Team und einen Meilensteinplan."
+            },
+            {
+              "id": "Y2.3",
+              "order": 3,
+              "title": "Kontrollpläne und grundlegende SPC",
+              "objective": "Erstellen Sie einen Kontrollplan und lesen Sie ein grundlegendes Kontrolldiagramm, damit die Verbesserung nachhaltig ist."
+            }
+          ]
+        },
+        {
+          "id": "yellow-3",
+          "number": 3,
+          "title": "Daten und Basisdiagramme",
+          "duration": "90 Min",
+          "summary": "Sammeln Sie vertrauenswürdige Daten und zeigen Sie diese ehrlich an. Üben Sie Prüfblätter, Laufdiagramme, Histogramme, Balkendiagramme und Pareto-Analysen.",
+          "lessons": [
+            {
+              "id": "Y3.1",
+              "order": 1,
+              "title": "Datentypen",
+              "objective": "Unterscheiden Sie zwischen kontinuierlichen und diskreten Daten und wählen Sie eine geeignete Zusammenfassung."
+            },
+            {
+              "id": "Y3.2",
+              "order": 2,
+              "title": "Scheckblätter",
+              "objective": "Entwerfen Sie ein einfaches Formular, das die Aufzeichnung und Überprüfung von Daten erleichtert."
+            },
+            {
+              "id": "Y3.3",
+              "order": 3,
+              "title": "Grundlegende Diagramme",
+              "objective": "Wählen und interpretieren Sie Laufdiagramme, Histogramme und Balkendiagramme."
+            },
+            {
+              "id": "Y3.4",
+              "order": 4,
+              "title": "Pareto-Analyse",
+              "objective": "Verwenden Sie die 80/20-Regel, um die wenigen Ursachen zu priorisieren, die das größte Problem verursachen."
+            }
+          ]
+        },
+        {
+          "id": "yellow-4",
+          "number": 4,
+          "title": "Grundursache und Lean-Grundlagen",
+          "duration": "90 Min",
+          "summary": "Gehen Sie von den Symptomen zu den Ursachen über, indem Sie Fischgrätenmuster und 5 Warums anwenden, und beseitigen Sie dann alltägliche Reibungen mit 5S und grundlegendem Lean-Denken.",
+          "lessons": [
+            {
+              "id": "Y4.1",
+              "order": 1,
+              "title": "Fischgrätendiagramm",
+              "objective": "Brainstormen Sie Ursachen für Menschen, Prozesse, Geräte, Materialien, Messungen und Umgebung."
+            },
+            {
+              "id": "Y4.2",
+              "order": 2,
+              "title": "5 Warum",
+              "objective": "Stellen Sie gezielte Warum-Fragen, bis die umsetzbare Grundursache gefunden ist."
+            },
+            {
+              "id": "Y4.3",
+              "order": 3,
+              "title": "5S",
+              "objective": "Sortieren, ordnen, glänzen, standardisieren und aufrechterhalten."
+            },
+            {
+              "id": "Y4.4",
+              "order": 4,
+              "title": "Basic Lean",
+              "objective": "Nutzen Sie Mehrwert, Fluss, Anziehungskraft und Perfektion, um Wartezeiten und Nacharbeit zu reduzieren."
+            }
+          ]
+        },
+        {
+          "id": "yellow-5",
+          "number": 5,
+          "title": "Menschen und Teamarbeit",
+          "duration": "50 Min",
+          "summary": "Generieren Sie bessere Ideen und helfen Sie einem Team, Entscheidungen zu treffen, ohne die leisen Stimmen oder Beweise zu verlieren.",
+          "lessons": [
+            {
+              "id": "Y5.1",
+              "order": 1,
+              "title": "Brainstorming",
+              "objective": "Führen Sie eine stille Ideengenerierung und Affinitätsgruppierung durch, bevor Sie Ideen beurteilen."
+            },
+            {
+              "id": "Y5.2",
+              "order": 2,
+              "title": "Teamarbeit",
+              "objective": "Definieren Sie Rollen, Grundregeln, Entscheidungsregeln und Besprechungsgewohnheiten für ein Verbesserungsteam."
+            }
+          ]
+        }
+      ],
+      "coverageChecklist": [
+        {
+          "topic": "Prozessdenken",
+          "lessons": [
+            "Y1.1"
+          ]
+        },
+        {
+          "topic": "SIPOC",
+          "lessons": [
+            "Y1.2"
+          ]
+        },
+        {
+          "topic": "Prozessabbildung",
+          "lessons": [
+            "Y1.3"
+          ]
+        },
+        {
+          "topic": "DMAIC im Detail",
+          "lessons": [
+            "Y2.1"
+          ]
+        },
+        {
+          "topic": "Grundlagen der Projektcharta",
+          "lessons": [
+            "Y2.2"
+          ]
+        },
+        {
+          "topic": "Kontrollpläne und grundlegende SPC",
+          "lessons": [
+            "Y2.3"
+          ]
+        },
+        {
+          "topic": "Datentypen",
+          "lessons": [
+            "Y3.1"
+          ]
+        },
+        {
+          "topic": "Überprüfen Sie die Blätter",
+          "lessons": [
+            "Y3.2"
+          ]
+        },
+        {
+          "topic": "Grundlegende Diagramme",
+          "lessons": [
+            "Y3.3"
+          ]
+        },
+        {
+          "topic": "Pareto",
+          "lessons": [
+            "Y3.4"
+          ]
+        },
+        {
+          "topic": "Fischgräte",
+          "lessons": [
+            "Y4.1"
+          ]
+        },
+        {
+          "topic": "5 Warum",
+          "lessons": [
+            "Y4.2"
+          ]
+        },
+        {
+          "topic": "5S",
+          "lessons": [
+            "Y4.3"
+          ]
+        },
+        {
+          "topic": "Basic Lean",
+          "lessons": [
+            "Y4.4"
+          ]
+        },
+        {
+          "topic": "Brainstorming",
+          "lessons": [
+            "Y5.1"
+          ]
+        },
+        {
+          "topic": "Teamarbeit",
+          "lessons": [
+            "Y5.2"
+          ]
+        }
+      ],
+      "project": {
+        "title": "Reduzieren Sie Wartezeiten in einem Serviceprozess",
+        "brief": "Bilden Sie einen Serviceprozess mit SIPOC und einem Flussdiagramm ab, sammeln Sie zwei Wochen Wartezeitdaten auf einem Prüfblatt, erstellen Sie ein Pareto-Diagramm der Verzögerungsgründe, führen Sie eine 5-Why-Analyse für den Hauptgrund durch und entwerfen Sie einen einseitigen Kontrollplan für den verbesserten Prozess."
+      },
+      "exam": {
+        "questions": 40,
+        "passingScore": 80,
+        "format": "40 Multiple-Choice-Fragen mit vier Optionen und Erklärungen."
+      },
+      "cheatSheet": [
+        "SIPOC = Lieferanten, Inputs, Prozesse, Outputs, Kunden",
+        "Pareto-Prinzip: Etwa 80 % der Wirkungen entstehen durch etwa 20 % der Ursachen",
+        "5 Warum: Fragen Sie nach dem Warum, bis Sie eine Ursache gefunden haben, auf die Sie reagieren können",
+        "5S = Sortieren, in Ordnung bringen, glänzen, standardisieren, aufrechterhalten",
+        "Kontrollplan = Metrik, Ziel, Überwachungsmethode, Häufigkeit, Eigentümer und Reaktionsplan"
+      ],
+      "nextChecklist": [
+        "Ich kann einen SIPOC für einen Prozess zeichnen, der mir gehört.",
+        "Ich kann ein Kontrollblatt und ein Pareto-Diagramm erstellen.",
+        "Ich kann ein 5-Warum ermöglichen, ohne einer Person die Schuld zu geben.",
+        "Ich kann erklären, wie 5S den Fluss unterstützt.",
+        "Ich kann einen Kontrollplan entwerfen und eine einfache Kontrollkarte lesen."
+      ]
+    },
+    {
+      "id": "green",
+      "name": "Grüner Gürtel",
+      "level": 3,
+      "color": "green",
+      "icon": "fa-trophy",
+      "lessonTarget": "25-30",
+      "studyTime": "40-60 Stunden",
+      "audience": "Projektleiter und Prozessverantwortliche, die nebenberuflich DMAIC-Projekte mit einem Black Belt oder Sponsor durchführen.",
+      "prerequisites": "Yellow Belt oder gleichwertige Erfahrung in der Prozessverbesserung.",
+      "previousRecap": "Zusammenfassung des Gelben Gürtels: Prozesse haben Lieferanten, Inputs, Schritte, Outputs und Kunden; Daten müssen konsistent erfasst werden; Pareto, Fischgrätenmuster und 5 Warum helfen bei der Ursachensuche.",
+      "outcomes": [
+        "Leiten Sie ein kleines bis mittleres DMAIC-Projekt von der Gründung bis zur Kontrolle",
+        "Planen Sie Datenerfassung, Probenahme und Messsystemstudien",
+        "Verwenden Sie deskriptive Statistiken, Fähigkeitstests, Hypothesentests und einfache Regression",
+        "Wählen Sie Lösungen aus, testen Sie sie und übergeben Sie einen Kontrollplan"
+      ],
+      "modules": [
+        {
+          "id": "green-1",
+          "number": 1,
+          "title": "Define",
+          "duration": "90 Min",
+          "summary": "Verwandeln Sie eine vage Beschwerde in ein begrenztes Projekt mit einem klaren Kunden, einem messbaren Ziel und benannten Stakeholdern.",
+          "lessons": [
+            {
+              "id": "G1.1",
+              "order": 1,
+              "title": "Projektcharta",
+              "objective": "Schreiben Sie eine Problemstellung, ein Ziel, einen Umfang, einen Business Case, ein Team und einen Zeitplan."
+            },
+            {
+              "id": "G1.2",
+              "order": 2,
+              "title": "Stakeholder",
+              "objective": "Ordnen Sie Einfluss und Interesse zu und planen Sie das Engagement."
+            },
+            {
+              "id": "G1.3",
+              "order": 3,
+              "title": "VOC und CTQ",
+              "objective": "Übersetzen Sie die Kundensprache in messbare CTQs und Spezifikationen."
+            }
+          ]
+        },
+        {
+          "id": "green-2",
+          "number": 2,
+          "title": "Measure",
+          "duration": "4 Stunden",
+          "summary": "Erstellen Sie ein vertrauenswürdiges Messsystem, beschreiben Sie die Daten und vergleichen Sie die Prozessleistung mit den Kundenspezifikationen.",
+          "lessons": [
+            {
+              "id": "G2.1",
+              "order": 1,
+              "title": "Datenerfassungsplan",
+              "objective": "Definieren Sie, was, wo, wann, wer und wie Daten erfasst werden sollen."
+            },
+            {
+              "id": "G2.2",
+              "order": 2,
+              "title": "Probenahme",
+              "objective": "Wählen Sie zufällige, geschichtete oder systematische Stichproben und vermeiden Sie Verzerrungen."
+            },
+            {
+              "id": "G2.3",
+              "order": 3,
+              "title": "Messsystemanalyse",
+              "objective": "Führen Sie eine Gage R&R durch und interpretieren Sie %GRR und die Anzahl unterschiedlicher Kategorien."
+            },
+            {
+              "id": "G2.4",
+              "order": 4,
+              "title": "Beschreibende Statistik",
+              "objective": "Berechnen und interpretieren Sie Mittelwert, Median, Standardabweichung und Bereich."
+            },
+            {
+              "id": "G2.5",
+              "order": 5,
+              "title": "Normalverteilung",
+              "objective": "Verwenden Sie die 68-95-99,7-Regel und überprüfen Sie die Normalität vor der Fähigkeitsanalyse."
+            },
+            {
+              "id": "G2.6",
+              "order": 6,
+              "title": "Sigma Level und DPMO",
+              "objective": "Wandeln Sie Fehler und Chancen in DPMO und Sigma-Ebene um."
+            },
+            {
+              "id": "G2.7",
+              "order": 7,
+              "title": "Cp und Cpk",
+              "objective": "Berechnen Sie Fähigkeitsindizes und erklären Sie den Unterschied zwischen potenzieller und tatsächlicher Fähigkeit."
+            }
+          ]
+        },
+        {
+          "id": "green-3",
+          "number": 3,
+          "title": "Analyze",
+          "duration": "4 Stunden",
+          "summary": "Verwenden Sie Diagramme, Ursachentools, Risikoanalysen und statistische Tests, um reale Ursachen von Lärm zu trennen.",
+          "lessons": [
+            {
+              "id": "G3.1",
+              "order": 1,
+              "title": "Grafiken und Datenanzeigen",
+              "objective": "Wählen Sie Histogramme, Boxplots, Laufdiagramme und Streudiagramme für die Frage aus."
+            },
+            {
+              "id": "G3.2",
+              "order": 2,
+              "title": "Ursachenanalyse",
+              "objective": "Kombinieren Sie Fishbone, 5 Whys, Stratifizierung und Prozessbeobachtung."
+            },
+            {
+              "id": "G3.3",
+              "order": 3,
+              "title": "FMEA",
+              "objective": "Bewerten Sie Schweregrad, Auftreten und Erkennung und priorisieren Sie Fehlermodi."
+            },
+            {
+              "id": "G3.4",
+              "order": 4,
+              "title": "Grundlagen des Hypothesentests",
+              "objective": "Bilden Sie Null- und Alternativhypothesen und interpretieren Sie p-Werte richtig."
+            },
+            {
+              "id": "G3.5",
+              "order": 5,
+              "title": "Korrelation",
+              "objective": "Messen Sie die Stärke und Richtung einer linearen Beziehung."
+            },
+            {
+              "id": "G3.6",
+              "order": 6,
+              "title": "Einfache Regression",
+              "objective": "Passen Sie eine Linie an, interpretieren Sie Steigung und R-Quadrat und prüfen Sie die Residuen."
+            },
+            {
+              "id": "G3.7",
+              "order": 7,
+              "title": "ANOVA-Einführung",
+              "objective": "Vergleichen Sie Mittelwerte über drei oder mehr Gruppen und lesen Sie den F-Test."
+            }
+          ]
+        },
+        {
+          "id": "green-4",
+          "number": 4,
+          "title": "Improve",
+          "duration": "2,5 Stunden",
+          "summary": "Wählen Sie nachweisbare Lösungen, testen Sie sie sicher, machen Sie den Prozess fehlersicher und beginnen Sie mit der Gestaltung von Experimenten.",
+          "lessons": [
+            {
+              "id": "G4.1",
+              "order": 1,
+              "title": "Lösungsauswahl",
+              "objective": "Nutzen Sie Auswirkungen, Aufwand, Risiko und Kosten, um zwischen möglichen Lösungen auszuwählen."
+            },
+            {
+              "id": "G4.2",
+              "order": 2,
+              "title": "Pilotversuche",
+              "objective": "Entwerfen Sie einen kleinen Versuch mit klaren Erfolgsmaßstäben und einem Rollback-Plan."
+            },
+            {
+              "id": "G4.3",
+              "order": 3,
+              "title": "Poka-Yoke",
+              "objective": "Fügen Sie fehlersichere Geräte oder Kontrollen hinzu, die Fehler verhindern oder erkennen."
+            },
+            {
+              "id": "G4.4",
+              "order": 4,
+              "title": "Schlanke Tools zur Verbesserung",
+              "objective": "Wenden Sie Flow, Pull, Standardarbeit und schnelles Umstellungsdenken an."
+            },
+            {
+              "id": "G4.5",
+              "order": 5,
+              "title": "DOE-Einführung",
+              "objective": "Erklären Sie Faktoren, Ebenen, Reaktionen und warum Experimente Ein-Faktor-Tests übertreffen."
+            }
+          ]
+        },
+        {
+          "id": "green-5",
+          "number": 5,
+          "title": "Control",
+          "duration": "2 Stunden",
+          "summary": "Behalten Sie die Gewinne bei, indem Sie den Prozess überwachen, den neuen Standard dokumentieren und klare Verantwortlichkeiten zuweisen.",
+          "lessons": [
+            {
+              "id": "G5.1",
+              "order": 1,
+              "title": "Kontrollkarten",
+              "objective": "Wählen Sie X-bar/R-, I-MR-, p-, np-, c- oder u-Karten aus und wenden Sie Grundregeln an."
+            },
+            {
+              "id": "G5.2",
+              "order": 2,
+              "title": "Kontrollpläne",
+              "objective": "Dokumentieren Sie Metriken, Stichproben, Reaktionen und Eigentümer."
+            },
+            {
+              "id": "G5.3",
+              "order": 3,
+              "title": "SOPs und Standardisierung",
+              "objective": "Verfassen Sie brauchbare Standardwerke und trainieren Sie diese."
+            }
+          ]
+        },
+        {
+          "id": "green-6",
+          "number": 6,
+          "title": "Projektmanagement und Software",
+          "duration": "2 Stunden",
+          "summary": "Führen Sie das Projekt professionell durch und nutzen Sie Excel oder Minitab für die Kernanalysen.",
+          "lessons": [
+            {
+              "id": "G6.1",
+              "order": 1,
+              "title": "Projektmanagement",
+              "objective": "Planen Sie Aufgaben, verwalten Sie Risiken, kommunizieren Sie den Status und schließen Sie das Projekt ab."
+            },
+            {
+              "id": "G6.2",
+              "order": 2,
+              "title": "Excel- und Minitab-Grundlagen",
+              "objective": "Verwenden Sie deskriptive Statistiken, Regelkarten, Fähigkeits- und T-Tests in Software."
+            }
+          ]
+        }
+      ],
+      "coverageChecklist": [
+        {
+          "topic": "Definieren Sie: Charter",
+          "lessons": [
+            "G1.1"
+          ]
+        },
+        {
+          "topic": "Definieren Sie: Stakeholder",
+          "lessons": [
+            "G1.2"
+          ]
+        },
+        {
+          "topic": "Definieren: VOC/CTQ",
+          "lessons": [
+            "G1.3"
+          ]
+        },
+        {
+          "topic": "Maßnahme: Datentarif",
+          "lessons": [
+            "G2.1"
+          ]
+        },
+        {
+          "topic": "Maßnahme: Probenahme",
+          "lessons": [
+            "G2.2"
+          ]
+        },
+        {
+          "topic": "Maß: MSA",
+          "lessons": [
+            "G2.3"
+          ]
+        },
+        {
+          "topic": "Maßnahme: deskriptive Statistik",
+          "lessons": [
+            "G2.4"
+          ]
+        },
+        {
+          "topic": "Maß: Normalverteilung",
+          "lessons": [
+            "G2.5"
+          ]
+        },
+        {
+          "topic": "Maß: Sigma-Level",
+          "lessons": [
+            "G2.6"
+          ]
+        },
+        {
+          "topic": "Maßnahme: DPMO",
+          "lessons": [
+            "G2.6"
+          ]
+        },
+        {
+          "topic": "Maß: Cp/Cpk",
+          "lessons": [
+            "G2.7"
+          ]
+        },
+        {
+          "topic": "Analysieren: Diagramme",
+          "lessons": [
+            "G3.1"
+          ]
+        },
+        {
+          "topic": "Analysieren: Grundursache",
+          "lessons": [
+            "G3.2"
+          ]
+        },
+        {
+          "topic": "Analysieren: FMEA",
+          "lessons": [
+            "G3.3"
+          ]
+        },
+        {
+          "topic": "Analysieren: Grundlagen des Hypothesentests",
+          "lessons": [
+            "G3.4"
+          ]
+        },
+        {
+          "topic": "Analysieren: Korrelation",
+          "lessons": [
+            "G3.5"
+          ]
+        },
+        {
+          "topic": "Analysieren: einfache Regression",
+          "lessons": [
+            "G3.6"
+          ]
+        },
+        {
+          "topic": "Analysieren: ANOVA-Einführung",
+          "lessons": [
+            "G3.7"
+          ]
+        },
+        {
+          "topic": "Verbessern: Lösungsauswahl",
+          "lessons": [
+            "G4.1"
+          ]
+        },
+        {
+          "topic": "Verbessern: Pilot",
+          "lessons": [
+            "G4.2"
+          ]
+        },
+        {
+          "topic": "Verbessern: Poka-Yoke",
+          "lessons": [
+            "G4.3"
+          ]
+        },
+        {
+          "topic": "Verbessern: Schlanke Tools",
+          "lessons": [
+            "G4.4"
+          ]
+        },
+        {
+          "topic": "Verbessern: DOE-Einführung",
+          "lessons": [
+            "G4.5"
+          ]
+        },
+        {
+          "topic": "Kontrolle: Kontrollkarten",
+          "lessons": [
+            "G5.1"
+          ]
+        },
+        {
+          "topic": "Kontrolle: Kontrollplan",
+          "lessons": [
+            "G5.2"
+          ]
+        },
+        {
+          "topic": "Kontrolle: SOPs",
+          "lessons": [
+            "G5.3"
+          ]
+        },
+        {
+          "topic": "Projektmanagement",
+          "lessons": [
+            "G6.1"
+          ]
+        },
+        {
+          "topic": "Excel/Minitab-Grundlagen",
+          "lessons": [
+            "G6.2"
+          ]
+        }
+      ],
+      "project": {
+        "title": "Reduzieren Sie Nichterscheinen bei Terminen",
+        "brief": "Chartern Sie ein Projekt, um Nichterscheinen in einer Klinik, Bankfiliale oder einem Servicecenter zu reduzieren. Erstellen Sie einen Datenplan, überprüfen Sie das Messsystem, ermitteln Sie die No-Show-Rate, führen Sie einen Pareto- und Hypothesentest durch, testen Sie eine Erinnerungslösung und übergeben Sie eine Kontrollkarte und einen Kontrollplan."
+      },
+      "exam": {
+        "questions": 60,
+        "passingScore": 80,
+        "format": "60 Multiple-Choice-Fragen mit vier Optionen und Erklärungen, inklusive Berechnungen."
+      },
+      "cheatSheet": [
+        "Z = (X – Mittelwert) / Standardabweichung",
+        "DPMO = Mängel / (Einheiten x Chancen) x 1.000.000",
+        "Cp = (USL – LSL) / 6 Sigma; Cpk = min((USL – Mittelwert)/3 Sigma, (Mittelwert – LSL)/3 Sigma)",
+        "p-value < alpha: reject the null hypothesis"
+      ],
+      "nextChecklist": [
+        "Ich kann einen Datenerfassungsplan und einen Stichprobenplan erstellen.",
+        "Ich kann einen Gage R&R und einen Fähigkeitsbericht interpretieren.",
+        "Ich kann für eine Frage einen einfachen Hypothesentest auswählen.",
+        "Ich kann eine Kontrollkarte und einen Kontrollplan übergeben."
+      ]
+    },
+    {
+      "id": "black",
+      "name": "Schwarzer Gürtel",
+      "level": 4,
+      "color": "black",
+      "icon": "fa-crown",
+      "lessonTarget": "35-45",
+      "studyTime": "80-100 Stunden",
+      "audience": "Vollzeit-Verbesserungsleiter, die komplexe, funktionsübergreifende Projekte leiten und Green Belts coachen.",
+      "prerequisites": "Green Belt-Zertifizierung und Abschluss von mindestens einem DMAIC-Projekt.",
+      "previousRecap": "Zusammenfassung des Grünen Gürtels: DMAIC-Projekte benötigen eine Charta, vertrauenswürdige Messungen, Fähigkeitsanalysen, Hypothesentests, Piloten und Kontrollpläne; einfache Regression und ANOVA unterstützen Entscheidungen.",
+      "outcomes": [
+        "Leiten Sie komplexe DMAIC- und Designprojekte funktionsübergreifend",
+        "Wenden Sie erweiterte Statistiken, Regressionen und geplante Experimente an",
+        "Behandeln Sie Attributmesssysteme, nicht normale Daten und erweiterte SPC",
+        "Integrieren Sie Lean, DFSS, Change Leadership, Finanzen und Mentoring"
+      ],
+      "modules": [
+        {
+          "id": "black-1",
+          "number": 1,
+          "title": "Wahrscheinlichkeit und Folgerung",
+          "duration": "5 Stunden",
+          "summary": "Schaffen Sie die statistische Grundlage für eine erweiterte Entscheidungsfindung: Verteilungen, Stichproben, Konfidenz, Aussagekraft und das vollständige Toolkit zum Testen von Hypothesen.",
+          "lessons": [
+            {
+              "id": "B1.1",
+              "order": 1,
+              "title": "Wahrscheinlichkeitsverteilungen",
+              "objective": "Erkennen Sie normale, binomiale, Poisson-, exponentielle und Weibull-Muster."
+            },
+            {
+              "id": "B1.2",
+              "order": 2,
+              "title": "Stichprobenverteilungen und der zentrale Grenzwertsatz",
+              "objective": "Erklären Sie, warum sich Stichprobenmittel vorhersehbar verhalten."
+            },
+            {
+              "id": "B1.3",
+              "order": 3,
+              "title": "Konfidenzintervalle",
+              "objective": "Interpretieren Sie Intervallschätzungen für Mittelwerte, Anteile und Unterschiede."
+            },
+            {
+              "id": "B1.4",
+              "order": 4,
+              "title": "Leistung und Stichprobengröße",
+              "objective": "Balance zwischen Alpha, Beta, Effektgröße und Stichprobengröße."
+            },
+            {
+              "id": "B1.5",
+              "order": 5,
+              "title": "Auswahl des richtigen Hypothesentests",
+              "objective": "Wählen Sie einen Test aus Datentyp, Anzahl der Gruppen und Annahmen aus."
+            },
+            {
+              "id": "B1.6",
+              "order": 6,
+              "title": "t-Tests",
+              "objective": "Führen Sie T-Tests mit einer Stichprobe, zwei Stichproben und gepaarten T-Tests durch."
+            },
+            {
+              "id": "B1.7",
+              "order": 7,
+              "title": "ANOVA",
+              "objective": "Führen Sie eine einfaktorielle und zweifaktorielle ANOVA durch und interpretieren Sie Wechselwirkungen."
+            },
+            {
+              "id": "B1.8",
+              "order": 8,
+              "title": "Nichtparametrische Tests",
+              "objective": "Verwenden Sie Mann-Whitney-, Kruskal-Wallis- und Vorzeichentests, wenn Annahmen fehlschlagen."
+            },
+            {
+              "id": "B1.9",
+              "order": 9,
+              "title": "Chi-Quadrat-Tests",
+              "objective": "Testen Sie Unabhängigkeit und Anpassungsgüte für kategoriale Daten."
+            }
+          ]
+        },
+        {
+          "id": "black-2",
+          "number": 2,
+          "title": "Messsysteme",
+          "duration": "2 Stunden",
+          "summary": "Erweitern Sie MSA auf Pass/Fail- und kategoriale Beurteilungen und verstehen Sie Kalibrierung und Unsicherheit.",
+          "lessons": [
+            {
+              "id": "B2.1",
+              "order": 1,
+              "title": "Attribut MSA",
+              "objective": "Führen Sie eine Attributübereinstimmungsanalyse durch und interpretieren Sie Kappa."
+            },
+            {
+              "id": "B2.2",
+              "order": 2,
+              "title": "Messunsicherheit und Kalibrierung",
+              "objective": "Separate Kalibrierung, Bias, Linearität und Unsicherheit."
+            }
+          ]
+        },
+        {
+          "id": "black-3",
+          "number": 3,
+          "title": "Regression und Modellierung",
+          "duration": "3 Stunden",
+          "summary": "Modellieren Sie Beziehungen mit mehreren Prädiktoren und binären Ergebnissen und prüfen Sie dann, ob das Modell vertrauenswürdig ist.",
+          "lessons": [
+            {
+              "id": "B3.1",
+              "order": 1,
+              "title": "Multiple Regression",
+              "objective": "Interpretieren Sie Koeffizienten, angepasstes R-Quadrat und allgemeine Modelltests."
+            },
+            {
+              "id": "B3.2",
+              "order": 2,
+              "title": "Logistische Regression",
+              "objective": "Modellieren Sie Ja/Nein-Ergebnisse mit Quotenverhältnissen."
+            },
+            {
+              "id": "B3.3",
+              "order": 3,
+              "title": "Regressionsdiagnostik",
+              "objective": "Überprüfen Sie Residuen, Hebelwirkung, Einfluss und mangelnde Passgenauigkeit."
+            },
+            {
+              "id": "B3.4",
+              "order": 4,
+              "title": "Multikollinearität und Modellbildung",
+              "objective": "Erkennen Sie korrelierte Prädiktoren und wählen Sie ein sparsames Modell."
+            }
+          ]
+        },
+        {
+          "id": "black-4",
+          "number": 4,
+          "title": "Versuchsplanung",
+          "duration": "4 Stunden",
+          "summary": "Entwerfen Sie effiziente Experimente, überprüfen Sie viele Faktoren, optimieren Sie Reaktionen und machen Sie Designs robust gegenüber Rauschen.",
+          "lessons": [
+            {
+              "id": "B4.1",
+              "order": 1,
+              "title": "Vollfaktorielles DOE",
+              "objective": "Entwerfen und analysieren Sie eine vollständige Fakultät mit Haupteffekten und Wechselwirkungen."
+            },
+            {
+              "id": "B4.2",
+              "order": 2,
+              "title": "Bruchfaktorielles DOE",
+              "objective": "Screenen Sie viele Faktoren mit Designs der Auflösung III, IV und V."
+            },
+            {
+              "id": "B4.3",
+              "order": 3,
+              "title": "Blockierung und Randomisierung",
+              "objective": "Schützen Sie Experimente vor störenden Variablen."
+            },
+            {
+              "id": "B4.4",
+              "order": 4,
+              "title": "Antwortoberflächenmethoden",
+              "objective": "Finden Sie optimale Einstellungen mit Zentralverbund- oder Box-Behnken-Designs."
+            },
+            {
+              "id": "B4.5",
+              "order": 5,
+              "title": "Robustes Design und Taguchi",
+              "objective": "Reduzieren Sie die Geräuschempfindlichkeit mithilfe von Kontroll- und Geräuschfaktoren."
+            }
+          ]
+        },
+        {
+          "id": "black-5",
+          "number": 5,
+          "title": "Erweiterte SPC und Funktionalität",
+          "duration": "2,5 Stunden",
+          "summary": "Überwachen Sie komplexe Prozesse mit erweiterten Diagrammen und verarbeiten Sie Funktionen, wenn die Daten nicht normal sind oder die Durchläufe kurz sind.",
+          "lessons": [
+            {
+              "id": "B5.1",
+              "order": 1,
+              "title": "Erweiterter SPC",
+              "objective": "Verwenden Sie CUSUM-, EWMA- und multivariate Diagramme entsprechend."
+            },
+            {
+              "id": "B5.2",
+              "order": 2,
+              "title": "Nicht normale Fähigkeit",
+              "objective": "Transformieren Sie Daten oder passen Sie eine Verteilung an, bevor Sie die Leistungsfähigkeit berechnen."
+            },
+            {
+              "id": "B5.3",
+              "order": 3,
+              "title": "Kurzfristige SPC",
+              "objective": "Überwachen Sie kleine Chargen mit Standard- oder Zieldiagrammen."
+            }
+          ]
+        },
+        {
+          "id": "black-6",
+          "number": 6,
+          "title": "Lean und DFSS",
+          "duration": "4 Stunden",
+          "summary": "Integrieren Sie Lean-Flow-Tools mit Six Sigma und entwerfen Sie neue Prozesse gleich beim ersten Mal mit DMADV, QFD und Kano.",
+          "lessons": [
+            {
+              "id": "B6.1",
+              "order": 1,
+              "title": "Lean Six Sigma-Integration",
+              "objective": "Kombinieren Sie Verschwendungsreduzierung und Variantenreduzierung in einer Strategie."
+            },
+            {
+              "id": "B6.2",
+              "order": 2,
+              "title": "Wertstrom-Mapping",
+              "objective": "Bilden Sie den Material- und Informationsfluss ab und berechnen Sie die Durchlaufzeit."
+            },
+            {
+              "id": "B6.3",
+              "order": 3,
+              "title": "TPM",
+              "objective": "Verbessern Sie die Gerätezuverlässigkeit durch autonome und geplante Wartung."
+            },
+            {
+              "id": "B6.4",
+              "order": 4,
+              "title": "SMED",
+              "objective": "Reduzieren Sie die Umrüstzeit, indem Sie interne und externe Arbeit trennen."
+            },
+            {
+              "id": "B6.5",
+              "order": 5,
+              "title": "Standardwerk",
+              "objective": "Dokumentieren Sie die aktuell beste Methode mit Takt, Reihenfolge und Inventar."
+            },
+            {
+              "id": "B6.6",
+              "order": 6,
+              "title": "5S und visuelles Management",
+              "objective": "Schaffen Sie einen selbsterklärenden, selbstreinigenden Arbeitsplatz."
+            },
+            {
+              "id": "B6.7",
+              "order": 7,
+              "title": "Design für Six Sigma (DMADV)",
+              "objective": "Definieren, messen, analysieren, entwerfen und überprüfen Sie einen neuen Prozess oder ein neues Produkt."
+            },
+            {
+              "id": "B6.8",
+              "order": 8,
+              "title": "QFD",
+              "objective": "Übersetzen Sie Kundenbedürfnisse mit dem House of Quality in Designanforderungen."
+            },
+            {
+              "id": "B6.9",
+              "order": 9,
+              "title": "Kano-Modell",
+              "objective": "Klassifizieren Sie die Funktionen als einfach, leistungsstark oder erfreulich."
+            }
+          ]
+        },
+        {
+          "id": "black-7",
+          "number": 7,
+          "title": "Führung und Finanzen",
+          "duration": "3 Stunden",
+          "summary": "Leiten Sie komplexe Veränderungen, bauen Sie Projektpipelines auf, weisen Sie den finanziellen Nutzen nach und entwickeln Sie andere Gürtel.",
+          "lessons": [
+            {
+              "id": "B7.1",
+              "order": 1,
+              "title": "Erweiterte FMEA",
+              "objective": "Nutzen Sie Aktionspriorität, Risikoüberprüfung und Integration mit Kontrollplänen."
+            },
+            {
+              "id": "B7.2",
+              "order": 2,
+              "title": "Änderungsmanagement",
+              "objective": "Verwenden Sie einen strukturierten Ansatz, um Bewusstsein, Verlangen, Wissen, Fähigkeiten und Verstärkung aufzubauen."
+            },
+            {
+              "id": "B7.3",
+              "order": 3,
+              "title": "Teamführung",
+              "objective": "Führen Sie funktionsübergreifende Teams, bewältigen Sie Konflikte und treffen Sie Entscheidungen."
+            },
+            {
+              "id": "B7.4",
+              "order": 4,
+              "title": "Projektauswahl",
+              "objective": "Priorisieren Sie Projekte nach Wirkung, Machbarkeit, Risiko und strategischer Eignung."
+            },
+            {
+              "id": "B7.5",
+              "order": 5,
+              "title": "Finanzanalyse (COPQ, ROI)",
+              "objective": "Erstellen Sie einen Vorteilsfall mit harten und weichen Ersparnissen."
+            },
+            {
+              "id": "B7.6",
+              "order": 6,
+              "title": "Mentoring",
+              "objective": "Coachen Sie Green Belts und überprüfen Sie die Projektlogik und -statistiken."
+            }
+          ]
+        }
+      ],
+      "coverageChecklist": [
+        {
+          "topic": "Erweiterte Statistiken und Wahrscheinlichkeitsverteilungen",
+          "lessons": [
+            "B1.1",
+            "B1.2"
+          ]
+        },
+        {
+          "topic": "Attribut MSA",
+          "lessons": [
+            "B2.1"
+          ]
+        },
+        {
+          "topic": "Vollständige Hypothesenprüfung (t-Tests)",
+          "lessons": [
+            "B1.6"
+          ]
+        },
+        {
+          "topic": "ANOVA",
+          "lessons": [
+            "B1.7"
+          ]
+        },
+        {
+          "topic": "Nicht parametrisch",
+          "lessons": [
+            "B1.8"
+          ]
+        },
+        {
+          "topic": "Chi-Quadrat",
+          "lessons": [
+            "B1.9"
+          ]
+        },
+        {
+          "topic": "Multiple Regression",
+          "lessons": [
+            "B3.1"
+          ]
+        },
+        {
+          "topic": "Logistische Regression",
+          "lessons": [
+            "B3.2"
+          ]
+        },
+        {
+          "topic": "Volle DOE",
+          "lessons": [
+            "B4.1"
+          ]
+        },
+        {
+          "topic": "Bruchteil des DOE",
+          "lessons": [
+            "B4.2"
+          ]
+        },
+        {
+          "topic": "Antwortoberflächenmethoden",
+          "lessons": [
+            "B4.4"
+          ]
+        },
+        {
+          "topic": "Erweiterter SPC",
+          "lessons": [
+            "B5.1"
+          ]
+        },
+        {
+          "topic": "Nicht normale Fähigkeit",
+          "lessons": [
+            "B5.2"
+          ]
+        },
+        {
+          "topic": "Lean Six Sigma",
+          "lessons": [
+            "B6.1"
+          ]
+        },
+        {
+          "topic": "Wertstrom-Mapping",
+          "lessons": [
+            "B6.2"
+          ]
+        },
+        {
+          "topic": "TPM",
+          "lessons": [
+            "B6.3"
+          ]
+        },
+        {
+          "topic": "Design für Six Sigma (DMADV)",
+          "lessons": [
+            "B6.7"
+          ]
+        },
+        {
+          "topic": "QFD",
+          "lessons": [
+            "B6.8"
+          ]
+        },
+        {
+          "topic": "Kano",
+          "lessons": [
+            "B6.9"
+          ]
+        },
+        {
+          "topic": "FMEA",
+          "lessons": [
+            "B7.1"
+          ]
+        },
+        {
+          "topic": "Änderungsmanagement",
+          "lessons": [
+            "B7.2"
+          ]
+        },
+        {
+          "topic": "Teamführung",
+          "lessons": [
+            "B7.3"
+          ]
+        },
+        {
+          "topic": "Projektauswahl",
+          "lessons": [
+            "B7.4"
+          ]
+        },
+        {
+          "topic": "Finanzanalyse (COPQ, ROI)",
+          "lessons": [
+            "B7.5"
+          ]
+        },
+        {
+          "topic": "Mentoring",
+          "lessons": [
+            "B7.6"
+          ]
+        }
+      ],
+      "project": {
+        "title": "Reduzieren Sie Durchlaufzeiten und Fehler in einem funktionsübergreifenden Prozess",
+        "brief": "Leiten Sie ein vollständiges DMAIC-Projekt für einen komplexen Prozess wie Kreditgenehmigungen, Patientenentlassung oder Softwarefreigabe. Dazu gehören MSA, Fähigkeit, Hypothesentests, Regression, ein geplantes Experiment, ein Pilotprojekt und ein Kontrollplan mit finanzieller Validierung."
+      },
+      "exam": {
+        "questions": 100,
+        "passingScore": 80,
+        "format": "100 Multiple-Choice-Fragen mit vier Optionen und Erklärungen, einschließlich Berechnungen und Ausgabeinterpretation."
+      },
+      "cheatSheet": [
+        "Verwenden Sie nichtparametrische Tests, wenn Normalitäts- oder Varianzgleichheitsannahmen fehlschlagen.",
+        "R-Quadrat erklärt Varianz; Das angepasste R-Quadrat bestraft zusätzliche Prädiktoren.",
+        "Resolution-IV-Designs aliasen Haupteffekte nicht mit Zwei-Faktor-Wechselwirkungen.",
+        "Fähigkeit für nichtnormale Daten: Transformieren, Anpassen einer Verteilung oder Verwenden nichtparametrischer Methoden."
+      ],
+      "nextChecklist": [
+        "Ich kann einen Hypothesentest aus einem Szenario auswählen und interpretieren.",
+        "Ich kann ein multiples Regressionsmodell erstellen und diagnostizieren.",
+        "Ich kann ein Screening-Experiment entwerfen und analysieren.",
+        "Ich kann ein funktionsübergreifendes Projekt leiten und einen Green Belt betreuen."
+      ]
+    },
+    {
+      "id": "master-black",
+      "name": "Meister des schwarzen Gürtels",
+      "level": 5,
+      "color": "master",
+      "icon": "fa-star",
+      "lessonTarget": "20-25",
+      "studyTime": "60-80 Stunden",
+      "audience": "Erfahrene Black Belts, die Bereitstellungen entwerfen, Portfolios verwalten, zu Statistiken beraten und organisatorische Fähigkeiten aufbauen.",
+      "prerequisites": "Black Belt-Zertifizierung und eine Erfolgsbilanz bei der Leitung komplexer Projekte.",
+      "previousRecap": "Zusammenfassung des Black Belt: Komplexe Projekte erfordern erweiterte Statistiken, geplante Experimente, Lean und DFSS, Change Leadership und validierte finanzielle Vorteile.",
+      "outcomes": [
+        "Setzen Sie mit Hoshin Kanri eine Strategie um und verwalten Sie ein Verbesserungsportfolio",
+        "Validieren Sie finanzielle Vorteile und wählen Sie Projekte nach strategischem Wert aus",
+        "Coachen Sie Black Belts und beraten Sie bei fortgeschrittenen statistischen Fragen",
+        "Entwerfen Sie Schulungen, bauen Sie eine Kultur auf und integrieren Sie Analysen und Industrie 4.0",
+        "Wenden Sie die Zertifizierungsstandards und Ethiknormen ISO 13053, ASQ und IASSC an"
+      ],
+      "modules": [
+        {
+          "id": "master-1",
+          "number": 1,
+          "title": "Strategiebereitstellung",
+          "duration": "4 Stunden",
+          "summary": "Verknüpfen Sie Verbesserungsarbeit mit Strategie durch Hoshin Kanri, Governance, Portfolioauswahl und validierte finanzielle Vorteile.",
+          "lessons": [
+            {
+              "id": "M1.1",
+              "order": 1,
+              "title": "Hoshin Kanri",
+              "objective": "Kaskadieren Sie strategische Ziele in jährliche Verbesserungsprioritäten."
+            },
+            {
+              "id": "M1.2",
+              "order": 2,
+              "title": "Strategieeinsatz und Catchball",
+              "objective": "Nutzen Sie Catchball, um Ziele, Ressourcen und Maßnahmen aufeinander abzustimmen."
+            },
+            {
+              "id": "M1.3",
+              "order": 3,
+              "title": "Programm-Governance",
+              "objective": "Entwerfen Sie Lenkungsausschüsse, Überprüfungsrhythmen und Eskalationspfade."
+            },
+            {
+              "id": "M1.4",
+              "order": 4,
+              "title": "Auswahl des Projektportfolios",
+              "objective": "Bringen Sie Auswirkungen, Risiko, Kapazität und strategische Eignung in Einklang."
+            },
+            {
+              "id": "M1.5",
+              "order": 5,
+              "title": "Finanzielle Validierung",
+              "objective": "Überprüfen Sie echte Einsparungen, vermeiden Sie Doppelzählungen und verfolgen Sie die Realisierung."
+            }
+          ]
+        },
+        {
+          "id": "master-2",
+          "number": 2,
+          "title": "Coaching und Beratung",
+          "duration": "3 Stunden",
+          "summary": "Entwickeln Sie Gürtel und Führungskräfte durch Coaching, Mentoring, statistische Beratung und Schulungsdesign.",
+          "lessons": [
+            {
+              "id": "M2.1",
+              "order": 1,
+              "title": "Coaching-Gürtel",
+              "objective": "Nutzen Sie Fragen, Beobachtungen und Feedback, um das Projektdenken zu verbessern."
+            },
+            {
+              "id": "M2.2",
+              "order": 2,
+              "title": "Mentoring und Kompetenzaufbau",
+              "objective": "Bauen Sie eine Pipeline von Gürteln und Fachexperten auf."
+            },
+            {
+              "id": "M2.3",
+              "order": 3,
+              "title": "Statistische Beratung",
+              "objective": "Diagnostizieren Sie Analyseprobleme und empfehlen Sie vertretbare Methoden."
+            },
+            {
+              "id": "M2.4",
+              "order": 4,
+              "title": "Trainingsdesign",
+              "objective": "Entwerfen Sie praxisorientierte Lehrpläne mit Bewertung und Transfer."
+            }
+          ]
+        },
+        {
+          "id": "master-3",
+          "number": 3,
+          "title": "Unternehmenstransformation",
+          "duration": "4 Stunden",
+          "summary": "Skalieren Sie Verbesserungen im gesamten Unternehmen mit DFSS, Änderungsmanagement, Kultur, Balanced Scorecards und Benchmarking.",
+          "lessons": [
+            {
+              "id": "M3.1",
+              "order": 1,
+              "title": "Unternehmens-DFSS",
+              "objective": "Setzen Sie Designmethoden in der gesamten Produkt-, Service- und Prozessentwicklung ein."
+            },
+            {
+              "id": "M3.2",
+              "order": 2,
+              "title": "Organisatorischer Wandel",
+              "objective": "Nutzen Sie Veränderungsmodelle, Stakeholder-Pläne und Verstärkung."
+            },
+            {
+              "id": "M3.3",
+              "order": 3,
+              "title": "Kulturgebäude",
+              "objective": "Machen Sie Verbesserung, Respekt und datenbasierte Entscheidungen zu einem Teil Ihrer täglichen Arbeit."
+            },
+            {
+              "id": "M3.4",
+              "order": 4,
+              "title": "Balanced Scorecard",
+              "objective": "Verbinden Sie Finanz-, Kunden-, Prozess- und Lernmaßnahmen."
+            },
+            {
+              "id": "M3.5",
+              "order": 5,
+              "title": "Benchmarking",
+              "objective": "Vergleichen Sie die Leistung mit erstklassigen Prozessen und passen Sie Praktiken an."
+            }
+          ]
+        },
+        {
+          "id": "master-4",
+          "number": 4,
+          "title": "Analytik und Industrie 4.0",
+          "duration": "2 Stunden",
+          "summary": "Integrieren Sie moderne Analysen, Automatisierung und Datenverwaltung in die Verbesserungsarbeit.",
+          "lessons": [
+            {
+              "id": "M4.1",
+              "order": 1,
+              "title": "Analytik und Industrie 4.0",
+              "objective": "Nutzen Sie Sensoren, Dashboards, Vorhersagemodelle und Automatisierung."
+            },
+            {
+              "id": "M4.2",
+              "order": 2,
+              "title": "Datenverwaltung und Ethik",
+              "objective": "Schützen Sie die Privatsphäre, stellen Sie die Datenqualität sicher und nutzen Sie Analysen verantwortungsbewusst."
+            }
+          ]
+        },
+        {
+          "id": "master-5",
+          "number": 5,
+          "title": "Standards und Zertifizierung",
+          "duration": "2,5 Stunden",
+          "summary": "Verstehen Sie die Standards und ethischen Erwartungen hinter der Zertifizierung und Bereitstellung.",
+          "lessons": [
+            {
+              "id": "M5.1",
+              "order": 1,
+              "title": "ISO 13053",
+              "objective": "Erklären Sie den ISO-Standard für Six Sigma-Methoden und -Rollen."
+            },
+            {
+              "id": "M5.2",
+              "order": 2,
+              "title": "ASQ- und IASSC-Standards",
+              "objective": "Vergleichen Sie Zertifizierungsstellen, BoKs und Prüfungserwartungen."
+            },
+            {
+              "id": "M5.3",
+              "order": 3,
+              "title": "Zertifizierung und Ethik",
+              "objective": "Wenden Sie die Regeln für Wahrhaftigkeit, Kompetenz, Vertraulichkeit und Interessenkonflikte an."
+            }
+          ]
+        },
+        {
+          "id": "master-6",
+          "number": 6,
+          "title": "Führung und Wert",
+          "duration": "3 Stunden",
+          "summary": "Leiten Sie eine Bereitstellung, beweisen Sie den Wert und sorgen Sie für nachhaltige Verbesserungen über einzelne Projekte hinaus.",
+          "lessons": [
+            {
+              "id": "M6.1",
+              "order": 1,
+              "title": "Führung ändern",
+              "objective": "Führen Sie Führungskräfte durch Widerstand, Politik und konkurrierende Prioritäten."
+            },
+            {
+              "id": "M6.2",
+              "order": 2,
+              "title": "ROI und Nutzenrealisierung",
+              "objective": "Verfolgen Sie Kosten, Nutzen, Cashflow und Wert im Zeitverlauf."
+            },
+            {
+              "id": "M6.3",
+              "order": 3,
+              "title": "Schlussstein: Einen Einsatz leiten",
+              "objective": "Erstellen Sie eine Bereitstellungs-Roadmap, ein Governance-Modell und einen Messplan."
+            }
+          ]
+        }
+      ],
+      "coverageChecklist": [
+        {
+          "topic": "Strategieeinsatz (Hoshin Kanri)",
+          "lessons": [
+            "M1.1",
+            "M1.2"
+          ]
+        },
+        {
+          "topic": "Programmverwaltung",
+          "lessons": [
+            "M1.3"
+          ]
+        },
+        {
+          "topic": "Auswahl des Projektportfolios",
+          "lessons": [
+            "M1.4"
+          ]
+        },
+        {
+          "topic": "Finanzielle Validierung",
+          "lessons": [
+            "M1.5"
+          ]
+        },
+        {
+          "topic": "Coaching und Mentoring",
+          "lessons": [
+            "M2.1",
+            "M2.2"
+          ]
+        },
+        {
+          "topic": "Statistische Beratung",
+          "lessons": [
+            "M2.3"
+          ]
+        },
+        {
+          "topic": "Unternehmens-DFSS",
+          "lessons": [
+            "M3.1"
+          ]
+        },
+        {
+          "topic": "Organisatorischer Wandel",
+          "lessons": [
+            "M3.2"
+          ]
+        },
+        {
+          "topic": "Kulturaufbau",
+          "lessons": [
+            "M3.3"
+          ]
+        },
+        {
+          "topic": "Trainingsdesign",
+          "lessons": [
+            "M2.4"
+          ]
+        },
+        {
+          "topic": "Balanced Scorecard",
+          "lessons": [
+            "M3.4"
+          ]
+        },
+        {
+          "topic": "Benchmarking",
+          "lessons": [
+            "M3.5"
+          ]
+        },
+        {
+          "topic": "Analytics und Industrie 4.0-Integration",
+          "lessons": [
+            "M4.1"
+          ]
+        },
+        {
+          "topic": "Ethik",
+          "lessons": [
+            "M4.2",
+            "M5.3"
+          ]
+        },
+        {
+          "topic": "Zertifizierungsstandards (ISO 13053, ASQ, IASSC)",
+          "lessons": [
+            "M5.1",
+            "M5.2"
+          ]
+        }
+      ],
+      "project": {
+        "title": "Erstellen Sie einen Bereitstellungsplan zur Unternehmensverbesserung",
+        "brief": "Erstellen Sie einen 12-monatigen Bereitstellungsplan für eine Organisation mit mehreren Standorten: Strategiekarte, Hoshin-Prioritäten, Governance, Portfolio, Schulungspipeline, finanzielle Validierung und eine Balanced Scorecard."
+      },
+      "exam": {
+        "questions": 100,
+        "passingScore": 80,
+        "format": "100 fallbasierte Multiple-Choice-Fragen mit vier Optionen und Erklärungen."
+      },
+      "cheatSheet": [
+        "Hoshin Kanri bringt bahnbrechende Ziele mit dem täglichen Management in Einklang.",
+        "Harte Einsparungen wirken sich auf die Gewinn- und Verlustrechnung oder den Cashflow aus; Weiche Einsparungen werden vermieden oder theoretische Kosten.",
+        "Bei der Portfolioauswahl werden Wert, Risiko, Kapazität und strategische Eignung in Einklang gebracht.",
+        "ISO 13053 beschreibt Six Sigma-Methoden und -Rollen; ASQ und IASSC definieren BoKs und Prüfungen."
+      ],
+      "nextChecklist": [
+        "Ich kann ein Projektportfolio mit strategischen Zielen verknüpfen.",
+        "Ich kann einen Black Belt durch eine statistische Meinungsverschiedenheit coachen.",
+        "Ich kann einen Schulungs- und Zertifizierungspfad entwerfen.",
+        "Ich kann finanzielle Vorteile ohne Doppelzählung validieren."
+      ]
+    }
+  ]
+}

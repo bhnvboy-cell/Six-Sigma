@@ -37,6 +37,8 @@ class Config:
     SQL_TRUST_SERVER_CERTIFICATE = os.getenv("SQL_TRUST_SERVER_CERTIFICATE", "yes")
     SQL_CONNECT_TIMEOUT = int(os.getenv("SQL_CONNECT_TIMEOUT", "5"))
 
+    TRUST_PROXY_HEADERS = _env_bool("TRUST_PROXY_HEADERS", False)
+
     FRONTEND_ORIGINS = _env_list(
         "FRONTEND_ORIGINS",
         [
@@ -47,11 +49,13 @@ class Config:
         ],
     )
 
+    SESSION_COOKIE_NAME = os.getenv("SESSION_COOKIE_NAME", "lss_session")
     SESSION_COOKIE_HTTPONLY = True
     SESSION_COOKIE_SAMESITE = os.getenv("SESSION_COOKIE_SAMESITE", "Lax")
     SESSION_COOKIE_SECURE = _env_bool("SESSION_COOKIE_SECURE", False)
     PERMANENT_SESSION_LIFETIME = timedelta(hours=int(os.getenv("SESSION_HOURS", "24")))
+    BCRYPT_ROUNDS = int(os.getenv("BCRYPT_ROUNDS", "12"))
 
-    EXAM_PASS_PERCENT = float(os.getenv("EXAM_PASS_PERCENT", "70"))
+    EXAM_PASS_PERCENT = float(os.getenv("EXAM_PASS_PERCENT", "80"))
     MAX_CONTENT_LENGTH = int(os.getenv("MAX_UPLOAD_MB", "10")) * 1024 * 1024
     JSON_SORT_KEYS = False

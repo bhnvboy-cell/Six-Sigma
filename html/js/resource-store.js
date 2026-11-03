@@ -62,19 +62,32 @@
         }
     }
 
-    function setBelt(value) {
+    function isApiUser() {
+        const user = currentUser();
+        return Boolean(
+            user &&
+            user.authMode === "api" &&
+            /^\d+$/.test(String(user.userId || "")) &&
+            root.LssApi
+        );
+    }
+
+    async function setBelt(value) {
         const belt = normalizeBelt(value);
+        if (isApiUser()) {
+            throw new Error("Belt levels are awarded by passing official exams.");
+        }
         try {
             localStorage.setItem("lss_belt_level", belt);
         } catch (error) {
-            return belt;
+            console.warn("Belt preference could not be stored.");
         }
         const user = currentUser();
         if (user && typeof root.saveUser === "function") {
             user.beltLevel = belt;
             root.saveUser(user);
         }
-        return belt;
+        return { belt: belt, offline: true };
     }
 
     function isUnlocked(template, belt) {
@@ -127,7 +140,14 @@
         return template.title;
     }
 
-    function saveCopy(templateId, id, copyName, data) {
+    function copyStatus(template, data) {
+        const percent = completeness(template, data);
+        if (percent >= 100) return "Complete";
+        if (percent > 0) return "In Progress";
+        return "Draft";
+    }
+
+    function saveLocalCopy(templateId, id, copyName, data) {
         const user = currentUser();
         if (!user || !user.userId) throw new Error("Sign in to save this template.");
         const template = templateById(templateId);
@@ -137,39 +157,175 @@
         const copies = Array.isArray(store[user.userId]) ? store[user.userId] : [];
         const cleanName = String(copyName || "").trim() || projectNameFrom(template, data);
         const existing = id ? copies.find(function (copy) { return copy.id === id; }) : null;
+        let saved;
         if (existing) {
             existing.copyName = cleanName;
             existing.projectName = projectNameFrom(template, data);
             existing.data = data;
+            existing.status = copyStatus(template, data);
             existing.updatedAt = now;
             existing.resourceId = templateId;
+            saved = existing;
         } else {
-            copies.push({
+            saved = {
                 id: newId(),
                 resourceId: templateId,
                 copyName: cleanName,
                 projectName: projectNameFrom(template, data),
-                status: "Draft",
+                status: copyStatus(template, data),
                 data: data,
                 createdAt: now,
                 updatedAt: now
-            });
+            };
+            copies.push(saved);
         }
         store[user.userId] = copies;
         writeStore(store);
-        return existing || copies[copies.length - 1];
+        return saved;
     }
 
-    function deleteCopy(id) {
+    function serverCopyToLocal(copy) {
+        return {
+            id: copy.clientId || "remote-" + copy.userResourceId,
+            remoteId: copy.userResourceId,
+            resourceId: copy.resourceId,
+            copyName: copy.copyName,
+            projectName: copy.projectName || "",
+            status: copy.status || "Draft",
+            data: copy.data || {},
+            createdAt: copy.createdAt,
+            updatedAt: copy.updatedAt
+        };
+    }
+
+    function applyServerCopy(copy, localId) {
         const user = currentUser();
-        if (!user || !user.userId) return false;
+        if (!user || !user.userId) return copy;
+        const mapped = serverCopyToLocal(copy);
+        mapped.id = localId || mapped.id;
         const store = readStore();
         const copies = Array.isArray(store[user.userId]) ? store[user.userId] : [];
-        const next = copies.filter(function (copy) { return copy.id !== id; });
-        if (next.length === copies.length) return false;
-        store[user.userId] = next;
+        const index = copies.findIndex(function (item) {
+            return item.id === mapped.id || (mapped.remoteId && String(item.remoteId) === String(mapped.remoteId));
+        });
+        if (index >= 0) {
+            copies[index] = Object.assign({}, copies[index], mapped);
+        } else {
+            copies.push(mapped);
+        }
+        store[user.userId] = copies;
         writeStore(store);
-        return true;
+        return mapped;
+    }
+
+    async function saveCopy(templateId, id, copyName, data) {
+        const local = saveLocalCopy(templateId, id, copyName, data);
+        if (!isApiUser()) return { copy: local, offline: true };
+        const body = {
+            resourceId: local.resourceId,
+            copyName: local.copyName,
+            projectName: local.projectName,
+            status: local.status,
+            data: local.data
+        };
+        try {
+            let remote;
+            if (local.remoteId) {
+                try {
+                    remote = await root.LssApi.updateCopy(local.remoteId, body);
+                } catch (error) {
+                    if (error.status !== 404) throw error;
+                    remote = await root.LssApi.createCopy(Object.assign({ clientId: local.id }, body));
+                }
+            } else {
+                remote = await root.LssApi.createCopy(Object.assign({ clientId: local.id }, body));
+            }
+            return { copy: applyServerCopy(remote, local.id), offline: false };
+        } catch (error) {
+            if (root.LssApi.isUnavailable(error)) {
+                return { copy: local, offline: true, error: error };
+            }
+            throw error;
+        }
+    }
+
+    async function deleteCopy(id) {
+        const user = currentUser();
+        if (!user || !user.userId) return { deleted: false, offline: true };
+        const store = readStore();
+        const copies = Array.isArray(store[user.userId]) ? store[user.userId] : [];
+        const removed = copies.find(function (copy) { return copy.id === id; });
+        if (!removed) return { deleted: false, offline: false };
+        store[user.userId] = copies.filter(function (copy) { return copy.id !== id; });
+        writeStore(store);
+        if (!isApiUser() || !removed.remoteId) {
+            return { deleted: true, offline: !isApiUser() };
+        }
+        try {
+            await root.LssApi.deleteCopy(removed.remoteId);
+            return { deleted: true, offline: false };
+        } catch (error) {
+            if (root.LssApi.isUnavailable(error)) {
+                return { deleted: true, offline: true, error: error };
+            }
+            if (error.status !== 404) {
+                const restored = readStore();
+                const current = Array.isArray(restored[user.userId]) ? restored[user.userId] : [];
+                current.push(removed);
+                restored[user.userId] = current;
+                writeStore(restored);
+                throw error;
+            }
+            return { deleted: true, offline: false };
+        }
+    }
+
+    async function refreshCopies() {
+        if (!isApiUser()) return listCopies();
+        try {
+            const remoteCopies = await root.LssApi.listCopies();
+            const user = currentUser();
+            const store = readStore();
+            const copies = Array.isArray(store[user.userId]) ? store[user.userId] : [];
+            const serverClientIds = new Set(remoteCopies.map(function (copy) { return copy.clientId; }).filter(Boolean));
+            const unsynced = copies.filter(function (copy) {
+                return !copy.remoteId && !serverClientIds.has(copy.id);
+            });
+            const merged = unsynced.concat(remoteCopies.map(serverCopyToLocal));
+            merged.sort(function (a, b) {
+                return String(b.updatedAt || "").localeCompare(String(a.updatedAt || ""));
+            });
+            store[user.userId] = merged;
+            writeStore(store);
+            return listCopies();
+        } catch (error) {
+            if (root.LssApi.isUnavailable(error)) return listCopies();
+            throw error;
+        }
+    }
+
+    function localMigrationPayload() {
+        const store = readStore();
+        const seen = {};
+        const items = [];
+        Object.keys(store).forEach(function (key) {
+            const copies = store[key];
+            if (!Array.isArray(copies)) return;
+            copies.forEach(function (copy) {
+                if (!copy || !copy.id || copy.remoteId || seen[copy.id]) return;
+                if (!templateById(copy.resourceId)) return;
+                seen[copy.id] = true;
+                items.push({
+                    clientId: copy.id,
+                    resourceId: copy.resourceId,
+                    copyName: copy.copyName,
+                    projectName: copy.projectName || "",
+                    status: copy.status || "Draft",
+                    data: copy.data || {}
+                });
+            });
+        });
+        return items;
     }
 
     function fieldHasValue(field, value) {
@@ -235,6 +391,7 @@
         normalizeBelt: normalizeBelt,
         beltName: beltName,
         currentUser: currentUser,
+        isApiUser: isApiUser,
         currentBelt: currentBelt,
         setBelt: setBelt,
         isUnlocked: isUnlocked,
@@ -242,6 +399,8 @@
         getCopy: getCopy,
         saveCopy: saveCopy,
         deleteCopy: deleteCopy,
+        refreshCopies: refreshCopies,
+        localMigrationPayload: localMigrationPayload,
         copiesForTemplate: copiesForTemplate,
         projectNameFrom: projectNameFrom,
         completeness: completeness,

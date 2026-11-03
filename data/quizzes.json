@@ -1,0 +1,3587 @@
+{
+  "white": [
+    {
+      "q": "What does DMAIC stand for?",
+      "options": [
+        "Define, Measure, Analyze, Improve, Control",
+        "Design, Make, Assess, Implement, Check",
+        "Determine, Map, Analyze, Improve, Confirm",
+        "Define, Manage, Analyze, Implement, Close"
+      ],
+      "correct": 0,
+      "explanation": "DMAIC is the core Six Sigma improvement method."
+    },
+    {
+      "q": "Six Sigma was developed at which company?",
+      "options": [
+        "Motorola",
+        "General Electric",
+        "Ford",
+        "Toyota"
+      ],
+      "correct": 0,
+      "explanation": "Motorola developed Six Sigma in the 1980s; GE later made it famous."
+    },
+    {
+      "q": "Cost of poor quality (COPQ) includes which costs?",
+      "options": [
+        "Prevention, appraisal, internal failure, and external failure costs",
+        "Only employee salaries",
+        "Only raw material costs",
+        "Only marketing costs"
+      ],
+      "correct": 0,
+      "explanation": "COPQ covers prevention, appraisal, internal failure, and external failure costs."
+    },
+    {
+      "q": "A CTQ is best described as:",
+      "options": [
+        "A type of control chart",
+        "A project sponsor",
+        "A customer complaint",
+        "A measurable customer requirement"
+      ],
+      "correct": 3,
+      "explanation": "CTQ means critical to quality: a customer need translated into a measurable requirement."
+    },
+    {
+      "q": "Which of these is one of the 8 wastes?",
+      "options": [
+        "Innovation",
+        "Waiting",
+        "Training",
+        "Forecasting"
+      ],
+      "correct": 1,
+      "explanation": "Waiting is one of the 8 wastes; innovation, training, and forecasting are not."
+    },
+    {
+      "q": "Variation that is always present in a stable process is called:",
+      "options": [
+        "Special cause variation",
+        "Common cause variation",
+        "Assignable variation",
+        "Measurement error"
+      ],
+      "correct": 1,
+      "explanation": "Common cause variation is the natural, ongoing variation of a stable process."
+    },
+    {
+      "q": "A defect is:",
+      "options": [
+        "Any process step",
+        "Any employee mistake",
+        "Any customer suggestion",
+        "Any output that does not meet a specification or requirement"
+      ],
+      "correct": 3,
+      "explanation": "A defect is an output that fails to meet a requirement or specification."
+    },
+    {
+      "q": "A White Belt typically:",
+      "options": [
+        "Owns the project budget",
+        "Leads complex cross-functional projects",
+        "Supports projects with data collection and local improvements",
+        "Certifies other belts"
+      ],
+      "correct": 2,
+      "explanation": "White Belts support projects and apply basic tools in their own work."
+    },
+    {
+      "q": "VOC stands for:",
+      "options": [
+        "Voice of the Customer",
+        "Variation of Cost",
+        "Value of Control",
+        "Verification of Compliance"
+      ],
+      "correct": 0,
+      "explanation": "VOC is the voice of the customer: what customers need and value."
+    },
+    {
+      "q": "The main goal of Lean is to:",
+      "options": [
+        "Replace all statistics",
+        "Increase inventory",
+        "Reduce waste and improve flow",
+        "Add more approvals"
+      ],
+      "correct": 2,
+      "explanation": "Lean focuses on removing waste and improving flow from the customer's point of view."
+    },
+    {
+      "q": "Lean thinking grew primarily from which system?",
+      "options": [
+        "Motorola's quality program",
+        "ISO 9001",
+        "The Ford assembly line",
+        "The Toyota Production System"
+      ],
+      "correct": 3,
+      "explanation": "Lean grew from the Toyota Production System, with Taiichi Ohno as a key figure."
+    },
+    {
+      "q": "Entering the same customer data into three separate systems is an example of:",
+      "options": [
+        "Waiting",
+        "Overprocessing",
+        "Transportation",
+        "Inventory"
+      ],
+      "correct": 1,
+      "explanation": "Overprocessing means doing more work than the customer requires, such as redundant data entry."
+    },
+    {
+      "q": "Producing reports that nobody reads is an example of:",
+      "options": [
+        "Motion",
+        "Defects",
+        "Unused skills",
+        "Overproduction"
+      ],
+      "correct": 3,
+      "explanation": "Overproduction means making more output than the customer needs or can use."
+    },
+    {
+      "q": "Who is responsible for sustaining the process after an improvement project ends?",
+      "options": [
+        "The finance partner",
+        "The White Belt",
+        "The sponsor",
+        "The process owner"
+      ],
+      "correct": 3,
+      "explanation": "The process owner owns the process and its results after the project closes."
+    },
+    {
+      "q": "Which role typically leads a complex cross-functional project full-time?",
+      "options": [
+        "Black Belt",
+        "White Belt",
+        "Yellow Belt",
+        "Green Belt"
+      ],
+      "correct": 0,
+      "explanation": "Black Belts lead complex projects full-time and coach Green Belts."
+    },
+    {
+      "q": "What is the best first step when starting a DMAIC project?",
+      "options": [
+        "Define the problem and goal",
+        "Run a hypothesis test",
+        "Buy new software",
+        "Choose a solution"
+      ],
+      "correct": 0,
+      "explanation": "Define clarifies the problem, customer, goal, and scope before data collection or solutions."
+    },
+    {
+      "q": "A one-time machine breakdown that causes a delay is an example of:",
+      "options": [
+        "Normal variation",
+        "Measurement error",
+        "Common cause variation",
+        "Special cause variation"
+      ],
+      "correct": 3,
+      "explanation": "Special cause variation comes from a specific event outside the normal process pattern."
+    },
+    {
+      "q": "A CTQ tree connects a customer need to:",
+      "options": [
+        "A control chart",
+        "A supplier",
+        "A measurable requirement",
+        "A project budget"
+      ],
+      "correct": 2,
+      "explanation": "A CTQ tree translates a broad customer need into measurable drivers and requirements."
+    },
+    {
+      "q": "Training and design reviews are examples of which COPQ category?",
+      "options": [
+        "External failure",
+        "Prevention",
+        "Appraisal",
+        "Internal failure"
+      ],
+      "correct": 1,
+      "explanation": "Prevention costs are spent to stop defects before they happen."
+    },
+    {
+      "q": "A hospital tracks readmissions after patients go home. This is primarily an example of:",
+      "options": [
+        "Prevention cost",
+        "Appraisal cost",
+        "External failure cost",
+        "Internal failure cost"
+      ],
+      "correct": 2,
+      "explanation": "External failure costs occur after the customer receives the service."
+    },
+    {
+      "q": "In the eight wastes, unused employee ideas and skills are called:",
+      "options": [
+        "Overproduction",
+        "Unused talent",
+        "Transportation",
+        "Waiting"
+      ],
+      "correct": 1,
+      "explanation": "Unused talent is the waste of not using people's knowledge, skills, and ideas."
+    },
+    {
+      "q": "A good problem statement should include:",
+      "options": [
+        "Names of people to blame",
+        "A preferred solution and budget",
+        "What, where, when, and how much",
+        "Only a goal"
+      ],
+      "correct": 2,
+      "explanation": "A useful problem statement describes the gap with evidence: what, where, when, and magnitude."
+    },
+    {
+      "q": "Which step is necessary non-value-added work?",
+      "options": [
+        "Reworking a defect",
+        "A legally required safety inspection",
+        "Waiting for a batch to fill",
+        "Excess inventory"
+      ],
+      "correct": 1,
+      "explanation": "Necessary non-value-added work does not add customer value but is required; reduce it where possible."
+    },
+    {
+      "q": "What is the best action after a pilot succeeds?",
+      "options": [
+        "Start a new project immediately",
+        "Stop measuring",
+        "Standardize the change and assign an owner",
+        "Remove the control plan"
+      ],
+      "correct": 2,
+      "explanation": "Standardization and ownership make the improvement last."
+    },
+    {
+      "q": "Which is a sign of a healthy improvement culture?",
+      "options": [
+        "People report problems without fear of blame",
+        "Leaders blame staff for errors",
+        "Teams hide near misses",
+        "No problems are ever reported"
+      ],
+      "correct": 0,
+      "explanation": "Psychological safety encourages early reporting and learning from problems."
+    }
+  ],
+  "yellow": [
+    {
+      "q": "SIPOC stands for:",
+      "options": [
+        "Suppliers, Ideas, Process, Owners, Costs",
+        "Systems, Inputs, Process, Outputs, Checks",
+        "Suppliers, Inputs, Process, Outputs, Customers",
+        "Steps, Inputs, People, Outputs, Controls"
+      ],
+      "correct": 2,
+      "explanation": "SIPOC provides a high-level view of a process and its boundaries."
+    },
+    {
+      "q": "The Pareto principle is often summarized as:",
+      "options": [
+        "50/50 rule",
+        "80/20 rule",
+        "90/10 rule",
+        "70/30 rule"
+      ],
+      "correct": 1,
+      "explanation": "Roughly 80% of effects come from about 20% of causes."
+    },
+    {
+      "q": "A fishbone diagram is used to:",
+      "options": [
+        "Write an SOP",
+        "Calculate capability",
+        "Brainstorm possible causes of a problem",
+        "Build a control chart"
+      ],
+      "correct": 2,
+      "explanation": "The fishbone (Ishikawa) diagram organizes possible causes into categories."
+    },
+    {
+      "q": "The main purpose of 5 Whys is to:",
+      "options": [
+        "Set specifications",
+        "Assign blame",
+        "Find an actionable root cause",
+        "Count defects"
+      ],
+      "correct": 2,
+      "explanation": "5 Whys asks why repeatedly to move from symptoms to root causes."
+    },
+    {
+      "q": "The first step of 5S is:",
+      "options": [
+        "Sustain",
+        "Shine",
+        "Sort",
+        "Standardize"
+      ],
+      "correct": 2,
+      "explanation": "5S begins with Sort: remove what is not needed."
+    },
+    {
+      "q": "A check sheet is used to:",
+      "options": [
+        "Record data in a standard, repeatable way",
+        "Replace a control chart",
+        "Calculate ROI",
+        "Forecast demand"
+      ],
+      "correct": 0,
+      "explanation": "A check sheet is a simple form for consistent data collection."
+    },
+    {
+      "q": "A process map should show:",
+      "options": [
+        "Only financial data",
+        "Only the final output",
+        "Steps, decisions, handoffs, and delays",
+        "Only employee names"
+      ],
+      "correct": 2,
+      "explanation": "A good process map shows how work actually flows, including handoffs and decision points."
+    },
+    {
+      "q": "A project charter should include:",
+      "options": [
+        "Only a list of employees",
+        "Only the final solution",
+        "Problem, goal, scope, team, and timeline",
+        "Only a budget"
+      ],
+      "correct": 2,
+      "explanation": "The charter defines the project boundary, purpose, and accountability."
+    },
+    {
+      "q": "During brainstorming, the best first rule is:",
+      "options": [
+        "Defer judgment and generate many ideas",
+        "Only accept manager ideas",
+        "Limit the team to two ideas",
+        "Judge every idea immediately"
+      ],
+      "correct": 0,
+      "explanation": "Deferring judgment increases idea generation before evaluation."
+    },
+    {
+      "q": "Basic Lean thinking focuses on:",
+      "options": [
+        "Adding approvals",
+        "Value, flow, pull, and perfection",
+        "Increasing batch size",
+        "Maximizing inventory"
+      ],
+      "correct": 1,
+      "explanation": "Lean thinking connects value, flow, pull, and continuous improvement."
+    },
+    {
+      "q": "What best defines a process?",
+      "options": [
+        "A list of employee goals",
+        "A single task done by one person",
+        "A set of steps that turns inputs into outputs for a customer",
+        "A department org chart"
+      ],
+      "correct": 2,
+      "explanation": "A process transforms inputs into outputs for a customer."
+    },
+    {
+      "q": "A transfer of work from one team to another is called:",
+      "options": [
+        "A bottleneck",
+        "A handoff",
+        "A specification",
+        "A control limit"
+      ],
+      "correct": 1,
+      "explanation": "Handoffs are common points where delays and information loss occur."
+    },
+    {
+      "q": "In a SIPOC diagram, who receives the process outputs?",
+      "options": [
+        "Customers",
+        "Process owners",
+        "Suppliers",
+        "Inputs"
+      ],
+      "correct": 0,
+      "explanation": "Customers receive the outputs; they can be internal or external."
+    },
+    {
+      "q": "How many high-level steps should a SIPOC usually show?",
+      "options": [
+        "Ten to fifteen",
+        "Twenty or more",
+        "One or two",
+        "Four to seven"
+      ],
+      "correct": 3,
+      "explanation": "SIPOC stays at a high level, usually with four to seven process steps."
+    },
+    {
+      "q": "On a flowchart, what does a diamond represent?",
+      "options": [
+        "Start or end",
+        "Process step",
+        "Decision point",
+        "Delay"
+      ],
+      "correct": 2,
+      "explanation": "A diamond shows where the process branches based on a condition."
+    },
+    {
+      "q": "Why are swimlanes used on a process map?",
+      "options": [
+        "To calculate process capability",
+        "To list customer complaints",
+        "To set specification limits",
+        "To show who performs each step and expose handoffs"
+      ],
+      "correct": 3,
+      "explanation": "Swimlanes organize steps by role or department and make handoffs visible."
+    },
+    {
+      "q": "Which DMAIC phase establishes the baseline?",
+      "options": [
+        "Improve",
+        "Define",
+        "Measure",
+        "Analyze"
+      ],
+      "correct": 2,
+      "explanation": "Measure defines the metric and collects baseline data."
+    },
+    {
+      "q": "What is a DMAIC gate review?",
+      "options": [
+        "A financial audit",
+        "A customer survey",
+        "A control chart rule",
+        "A checkpoint to decide whether the phase is complete and the project should proceed"
+      ],
+      "correct": 3,
+      "explanation": "Gate reviews prevent weak work from moving to the next phase."
+    },
+    {
+      "q": "A good problem statement includes:",
+      "options": [
+        "What, where, when, and how much",
+        "Only a goal",
+        "The names of people to blame",
+        "A preferred solution"
+      ],
+      "correct": 0,
+      "explanation": "A problem statement describes the gap with evidence, not a cause or solution."
+    },
+    {
+      "q": "Why does a charter define out-of-scope work?",
+      "options": [
+        "To increase the budget",
+        "To prevent scope creep and keep the team focused",
+        "To avoid measuring results",
+        "To replace the process owner"
+      ],
+      "correct": 1,
+      "explanation": "Explicit boundaries help the team say no to unrelated work."
+    },
+    {
+      "q": "Which of these is continuous data?",
+      "options": [
+        "Pass or fail",
+        "Defect type",
+        "Department name",
+        "Time to resolve a ticket"
+      ],
+      "correct": 3,
+      "explanation": "Time is measured on a continuous scale."
+    },
+    {
+      "q": "Satisfaction recorded as poor, fair, or good is:",
+      "options": [
+        "Ordinal categorical data",
+        "A histogram",
+        "A defect rate",
+        "Continuous data"
+      ],
+      "correct": 0,
+      "explanation": "The categories have an order, so they are ordinal."
+    },
+    {
+      "q": "What is the main purpose of a check sheet?",
+      "options": [
+        "To replace a process map",
+        "To forecast demand",
+        "To record data consistently in real time",
+        "To calculate capability"
+      ],
+      "correct": 2,
+      "explanation": "A standard check sheet reduces variation and errors in data collection."
+    },
+    {
+      "q": "A check sheet has 30% of entries in 'other.' What does this usually mean?",
+      "options": [
+        "Categories need review or refinement",
+        "The data are continuous",
+        "The sample is too large",
+        "The process is perfect"
+      ],
+      "correct": 0,
+      "explanation": "A large 'other' category usually means categories are missing or unclear."
+    },
+    {
+      "q": "Which chart is best for showing a trend over time?",
+      "options": [
+        "Bar chart",
+        "Pareto chart",
+        "Histogram",
+        "Run chart"
+      ],
+      "correct": 3,
+      "explanation": "Run charts plot data in time order with a center line."
+    },
+    {
+      "q": "Which chart is best for showing the distribution of continuous data?",
+      "options": [
+        "Histogram",
+        "Run chart",
+        "Pareto chart",
+        "Swimlane map"
+      ],
+      "correct": 0,
+      "explanation": "Histograms group continuous values into bins."
+    },
+    {
+      "q": "A Pareto chart combines:",
+      "options": [
+        "Two histograms",
+        "A run chart and a fishbone",
+        "A pie chart and a control limit",
+        "Sorted bars and a cumulative percentage line"
+      ],
+      "correct": 3,
+      "explanation": "The bars show frequency and the line shows cumulative contribution."
+    },
+    {
+      "q": "A low-frequency defect causes serious harm. What should the team do?",
+      "options": [
+        "Move it to 'other'",
+        "Average it with common defects",
+        "Ignore it because Pareto focuses on frequency",
+        "Treat it as a priority because severity and risk also matter"
+      ],
+      "correct": 3,
+      "explanation": "Pareto prioritizes frequency, but severity and safety can outweigh frequency."
+    },
+    {
+      "q": "What goes at the head of a fishbone diagram?",
+      "options": [
+        "The process owner",
+        "The effect or problem being studied",
+        "The chosen solution",
+        "The project budget"
+      ],
+      "correct": 1,
+      "explanation": "The head states the problem; the bones hold possible causes."
+    },
+    {
+      "q": "Does a fishbone diagram prove the root cause?",
+      "options": [
+        "No, because it only shows solutions",
+        "Yes, if all 6Ms are used",
+        "Yes, if the team agrees",
+        "No, possible causes must be validated with data"
+      ],
+      "correct": 3,
+      "explanation": "Fishbone is a brainstorming and organizing tool, not proof of cause."
+    },
+    {
+      "q": "What is the goal of 5 Whys?",
+      "options": [
+        "To reach a verified, actionable root cause",
+        "To assign blame",
+        "To calculate DPMO",
+        "To ask exactly five questions"
+      ],
+      "correct": 0,
+      "explanation": "Five is a guide; the real test is whether the cause is actionable and verified."
+    },
+    {
+      "q": "Why should a team avoid stopping at 'human error' in 5 Whys?",
+      "options": [
+        "It takes too many questions",
+        "It is not allowed in DMAIC",
+        "It is always the true root cause",
+        "It rarely explains the process conditions that allowed the error"
+      ],
+      "correct": 3,
+      "explanation": "Ask what in the process made the error possible or hard to detect."
+    },
+    {
+      "q": "What is the correct order of 5S?",
+      "options": [
+        "Standardize, Sort, Shine, Set in order, Sustain",
+        "Sort, Set in order, Shine, Standardize, Sustain",
+        "Shine, Sort, Sustain, Standardize, Set in order",
+        "Set in order, Sort, Shine, Sustain, Standardize"
+      ],
+      "correct": 1,
+      "explanation": "5S starts with Sort and ends with Sustain."
+    },
+    {
+      "q": "What does Shine include besides cleaning?",
+      "options": [
+        "Ordering new supplies",
+        "Inspecting for abnormalities",
+        "Writing the project charter",
+        "Calculating ROI"
+      ],
+      "correct": 1,
+      "explanation": "Cleaning is also a chance to detect wear, leaks, and missing items."
+    },
+    {
+      "q": "What are the five Lean principles?",
+      "options": [
+        "Define, Measure, Analyze, Improve, Control",
+        "Value, value stream, flow, pull, perfection",
+        "Sort, Set, Shine, Standardize, Sustain",
+        "Plan, Do, Check, Act, Sustain"
+      ],
+      "correct": 1,
+      "explanation": "Lean thinking connects value, value stream, flow, pull, and perfection."
+    },
+    {
+      "q": "In Lean, pull means:",
+      "options": [
+        "Pushing work to the next step as fast as possible",
+        "Triggering work based on customer demand",
+        "Maximizing inventory",
+        "Adding approvals"
+      ],
+      "correct": 1,
+      "explanation": "Pull reduces overproduction and excess work in progress."
+    },
+    {
+      "q": "What is the first rule of brainstorming?",
+      "options": [
+        "Criticize ideas immediately",
+        "Generate ideas without judging them",
+        "Only the manager speaks",
+        "Limit the team to three ideas"
+      ],
+      "correct": 1,
+      "explanation": "Early criticism reduces the number and variety of ideas."
+    },
+    {
+      "q": "Why use silent brainstorming?",
+      "options": [
+        "To reduce domination and include quieter team members",
+        "To slow the meeting down",
+        "To avoid documenting ideas",
+        "To make the facilitator decide"
+      ],
+      "correct": 0,
+      "explanation": "Writing ideas first creates a more balanced session."
+    },
+    {
+      "q": "Why does a team need a decision rule?",
+      "options": [
+        "To replace the project charter",
+        "To avoid measuring results",
+        "To increase the number of meetings",
+        "To clarify how decisions will be made and prevent stalls"
+      ],
+      "correct": 3,
+      "explanation": "A decision rule tells the team whether to use consensus, consent, or leader decision."
+    },
+    {
+      "q": "What should every action item have?",
+      "options": [
+        "An owner and a due date",
+        "A budget and a sponsor",
+        "A control chart",
+        "A fishbone diagram"
+      ],
+      "correct": 0,
+      "explanation": "Actions without ownership and dates usually do not get done."
+    }
+  ],
+  "green": [
+    {
+      "q": "A Gage R&R study estimates:",
+      "options": [
+        "Repeatability and reproducibility of a measurement system",
+        "Customer demand",
+        "Project ROI",
+        "Process capability"
+      ],
+      "correct": 0,
+      "explanation": "Gage R&R separates equipment variation (repeatability) from appraiser variation (reproducibility)."
+    },
+    {
+      "q": "%GRR below 10% is generally considered:",
+      "options": [
+        "Acceptable",
+        "A special cause",
+        "A capability index",
+        "Unacceptable"
+      ],
+      "correct": 0,
+      "explanation": "Below 10% is generally acceptable; 10-30% may be conditionally acceptable."
+    },
+    {
+      "q": "Cpk is calculated as:",
+      "options": [
+        "DPMO / 1,000,000",
+        "Mean / standard deviation",
+        "(USL - LSL) / 6 sigma",
+        "min((USL - mean)/3 sigma, (mean - LSL)/3 sigma)"
+      ],
+      "correct": 3,
+      "explanation": "Cpk uses the distance from the mean to the nearest specification limit."
+    },
+    {
+      "q": "DPMO equals:",
+      "options": [
+        "Defects / (units x opportunities) x 1,000,000",
+        "Units / defects",
+        "Sigma / 6",
+        "Defects / units"
+      ],
+      "correct": 0,
+      "explanation": "DPMO is defects per million opportunities."
+    },
+    {
+      "q": "A p-value below alpha means:",
+      "options": [
+        "Reject the null hypothesis",
+        "Prove the alternative is true",
+        "The data are invalid",
+        "Accept the null hypothesis"
+      ],
+      "correct": 0,
+      "explanation": "When p < alpha, the result is statistically significant, so reject the null hypothesis."
+    },
+    {
+      "q": "A Type I error is:",
+      "options": [
+        "A sampling error",
+        "Failing to reject a false null hypothesis",
+        "Rejecting a true null hypothesis",
+        "A measurement error"
+      ],
+      "correct": 2,
+      "explanation": "Type I error is a false positive: rejecting a true null hypothesis."
+    },
+    {
+      "q": "ANOVA is used to compare:",
+      "options": [
+        "Means of three or more groups",
+        "Two standard deviations",
+        "One data point",
+        "Two proportions"
+      ],
+      "correct": 0,
+      "explanation": "ANOVA compares means across three or more groups."
+    },
+    {
+      "q": "A correlation coefficient ranges from:",
+      "options": [
+        "0 to 1",
+        "-1 to 1",
+        "-100 to 100",
+        "0 to 100"
+      ],
+      "correct": 1,
+      "explanation": "Correlation ranges from -1 (perfect negative) to +1 (perfect positive)."
+    },
+    {
+      "q": "A control chart is designed to detect:",
+      "options": [
+        "Project scope changes",
+        "Employee turnover",
+        "Customer complaints",
+        "Special cause variation"
+      ],
+      "correct": 3,
+      "explanation": "Control charts distinguish common cause variation from special cause signals."
+    },
+    {
+      "q": "Poka-yoke means:",
+      "options": [
+        "Cost cutting",
+        "Random sampling",
+        "Design of experiments",
+        "Mistake-proofing"
+      ],
+      "correct": 3,
+      "explanation": "Poka-yoke prevents errors or makes them immediately visible."
+    },
+    {
+      "q": "Which set of items belongs in a project charter?",
+      "options": [
+        "Only a list of defects",
+        "Only the control chart",
+        "Problem, goal, scope, team, and timeline",
+        "Only the final solution"
+      ],
+      "correct": 2,
+      "explanation": "A charter defines the problem, goal, scope, team, metric, and milestones."
+    },
+    {
+      "q": "A well-written problem statement should avoid:",
+      "options": [
+        "Naming a cause or preferred solution",
+        "The location of the problem",
+        "The size of the gap",
+        "A baseline measure"
+      ],
+      "correct": 0,
+      "explanation": "The problem statement describes the gap; causes are investigated later."
+    },
+    {
+      "q": "A stakeholder with high influence and high interest should be:",
+      "options": [
+        "Monitored with minimal effort",
+        "Managed closely and involved in decisions",
+        "Kept satisfied with occasional updates",
+        "Ignored unless they complain"
+      ],
+      "correct": 1,
+      "explanation": "High-influence, high-interest stakeholders can strongly affect the project and care about the outcome."
+    },
+    {
+      "q": "What is the main purpose of stakeholder mapping?",
+      "options": [
+        "To plan engagement based on influence and interest",
+        "To replace the project charter",
+        "To select the statistical test",
+        "To calculate project ROI"
+      ],
+      "correct": 0,
+      "explanation": "Stakeholder mapping helps the team plan who to engage and how often."
+    },
+    {
+      "q": "A critical-to-quality requirement should be:",
+      "options": [
+        "Measurable and linked to a customer need",
+        "A preferred solution",
+        "A control chart rule",
+        "A vague customer wish"
+      ],
+      "correct": 0,
+      "explanation": "A CTQ translates a customer need into a measurable requirement."
+    },
+    {
+      "q": "What is the difference between specification limits and control limits?",
+      "options": [
+        "They are the same thing",
+        "Specifications come from requirements; control limits come from process data",
+        "Control limits come from customers; specifications come from operators",
+        "Specifications only apply to attribute data"
+      ],
+      "correct": 1,
+      "explanation": "Specifications define acceptable performance; control limits describe natural process variation."
+    },
+    {
+      "q": "An operational definition describes:",
+      "options": [
+        "The final solution",
+        "The project budget",
+        "Exactly how a metric is measured and counted",
+        "The team meeting schedule"
+      ],
+      "correct": 2,
+      "explanation": "Operational definitions ensure different people measure the same thing the same way."
+    },
+    {
+      "q": "When is it appropriate to use existing data instead of collecting new data?",
+      "options": [
+        "When the data are reliable, relevant, and sufficient",
+        "Only when the sample is larger than 1,000",
+        "Never; new data are always required",
+        "Whenever the data are easy to find"
+      ],
+      "correct": 0,
+      "explanation": "Existing data should be used when they can answer the question reliably."
+    },
+    {
+      "q": "What is the main benefit of random sampling?",
+      "options": [
+        "It eliminates measurement error",
+        "It removes the need for a sample size calculation",
+        "It guarantees a perfect sample",
+        "It reduces selection bias"
+      ],
+      "correct": 3,
+      "explanation": "Random sampling gives every unit an equal chance of selection."
+    },
+    {
+      "q": "Stratified sampling is most useful when:",
+      "options": [
+        "The sample size is one",
+        "The data are purely categorical",
+        "The population contains distinct groups that must be represented",
+        "Every unit is identical"
+      ],
+      "correct": 2,
+      "explanation": "Stratified sampling ensures important groups are represented."
+    },
+    {
+      "q": "Which measure of center is most robust to outliers?",
+      "options": [
+        "Standard deviation",
+        "Mean",
+        "Median",
+        "Range"
+      ],
+      "correct": 2,
+      "explanation": "The median depends on position, not the size of extreme values."
+    },
+    {
+      "q": "Standard deviation describes:",
+      "options": [
+        "The typical spread of data around the mean",
+        "The largest value",
+        "The number of defects",
+        "The most frequent value"
+      ],
+      "correct": 0,
+      "explanation": "A larger standard deviation means more variation around the mean."
+    },
+    {
+      "q": "In a normal distribution, about what percentage of values lies within two standard deviations of the mean?",
+      "options": [
+        "50%",
+        "68%",
+        "95%",
+        "99.7%"
+      ],
+      "correct": 2,
+      "explanation": "The empirical rule gives approximately 68%, 95%, and 99.7% for one, two, and three standard deviations."
+    },
+    {
+      "q": "How is a z-score calculated?",
+      "options": [
+        "(x + mean) / range",
+        "standard deviation / mean",
+        "(x - mean) / standard deviation",
+        "mean / standard deviation"
+      ],
+      "correct": 2,
+      "explanation": "A z-score expresses how many standard deviations a value lies from the mean."
+    },
+    {
+      "q": "Five defects, 500 units, and four opportunities per unit give what DPMO?",
+      "options": [
+        "250",
+        "1,000",
+        "2,500",
+        "4,000"
+      ],
+      "correct": 2,
+      "explanation": "5 / (500 x 4) = 0.0025, which is 2,500 defects per million opportunities."
+    },
+    {
+      "q": "The 1.5-sigma shift used in many sigma-level calculations accounts for:",
+      "options": [
+        "Specification width",
+        "Measurement error",
+        "Long-term process drift",
+        "Sample size"
+      ],
+      "correct": 2,
+      "explanation": "The shift is a convention for long-term process drift."
+    },
+    {
+      "q": "What is the main difference between Cp and Cpk?",
+      "options": [
+        "Cp is used only for attribute data",
+        "Cp accounts for centering; Cpk does not",
+        "Cp measures potential spread; Cpk accounts for centering",
+        "Cpk is always larger than Cp"
+      ],
+      "correct": 2,
+      "explanation": "Cp describes potential capability; Cpk reflects actual centering."
+    },
+    {
+      "q": "A process with Cpk of 0.8 is generally:",
+      "options": [
+        "Marginally capable",
+        "Not capable",
+        "Perfectly centered",
+        "Highly capable"
+      ],
+      "correct": 1,
+      "explanation": "A Cpk below 1.0 indicates the process is not capable."
+    },
+    {
+      "q": "Which graph best shows the distribution of continuous data?",
+      "options": [
+        "Pareto chart",
+        "Swimlane map",
+        "Run chart",
+        "Histogram"
+      ],
+      "correct": 3,
+      "explanation": "Histograms group continuous values into bins and show shape and spread."
+    },
+    {
+      "q": "Which graph is best for comparing distributions across several groups?",
+      "options": [
+        "Pie chart",
+        "Scatter plot",
+        "Control chart",
+        "Box plot"
+      ],
+      "correct": 3,
+      "explanation": "Box plots compare median, quartiles, and outliers across groups."
+    },
+    {
+      "q": "What does stratification do in root cause analysis?",
+      "options": [
+        "It replaces the need for data",
+        "It splits data into groups to see where the problem concentrates",
+        "It removes all variation",
+        "It proves causation"
+      ],
+      "correct": 1,
+      "explanation": "Stratification by shift, product, or region often narrows the cause quickly."
+    },
+    {
+      "q": "How should a suspected root cause be confirmed?",
+      "options": [
+        "With data, a pilot, or a designed comparison",
+        "By the sponsor's opinion",
+        "By choosing the most expensive solution",
+        "By team vote"
+      ],
+      "correct": 0,
+      "explanation": "A plausible cause must be tested with evidence."
+    },
+    {
+      "q": "How is the risk priority number in FMEA calculated?",
+      "options": [
+        "Occurrence x detection only",
+        "Severity + occurrence + detection",
+        "Severity x occurrence x detection",
+        "Severity / occurrence / detection"
+      ],
+      "correct": 2,
+      "explanation": "RPN ranges from 1 to 1,000 because each factor is scored from 1 to 10."
+    },
+    {
+      "q": "A failure mode has low RPN but severity 10. What should the team do?",
+      "options": [
+        "Ignore it because the RPN is low",
+        "Act because high severity can outweigh frequency",
+        "Move it to the 'other' category",
+        "Average it with other failure modes"
+      ],
+      "correct": 1,
+      "explanation": "High severity can require action even when the RPN is low."
+    },
+    {
+      "q": "A correlation coefficient of -0.8 indicates:",
+      "options": [
+        "No relationship",
+        "A causal relationship",
+        "A weak positive relationship",
+        "A strong negative linear relationship"
+      ],
+      "correct": 3,
+      "explanation": "As one variable increases, the other tends to decrease."
+    },
+    {
+      "q": "Which statement about correlation is correct?",
+      "options": [
+        "Correlation only applies to categorical data",
+        "A correlation of zero proves no relationship of any kind",
+        "Correlation proves causation",
+        "Correlation shows association, not causation"
+      ],
+      "correct": 3,
+      "explanation": "Confounding, reverse causation, or chance can create correlation."
+    },
+    {
+      "q": "In simple regression, the slope represents:",
+      "options": [
+        "The probability that the model is true",
+        "The number of groups",
+        "The predicted change in the response for a one-unit increase in the predictor",
+        "The total variation in the response"
+      ],
+      "correct": 2,
+      "explanation": "The slope estimates the strength and direction of the linear relationship."
+    },
+    {
+      "q": "R-squared measures:",
+      "options": [
+        "The slope of the line",
+        "The proportion of response variation explained by the model",
+        "The p-value",
+        "The sample size"
+      ],
+      "correct": 1,
+      "explanation": "R-squared ranges from 0 to 1 and does not by itself prove a good model."
+    },
+    {
+      "q": "A large F-statistic in ANOVA suggests:",
+      "options": [
+        "The response is categorical",
+        "Between-group variation is large relative to within-group variation",
+        "All group means are identical",
+        "The sample size is too small"
+      ],
+      "correct": 1,
+      "explanation": "A large F suggests the group means may differ."
+    },
+    {
+      "q": "After a significant one-way ANOVA, what should the team do?",
+      "options": [
+        "Run a post-hoc test to identify which groups differ",
+        "Switch to a pie chart",
+        "Recalculate the control limits",
+        "Stop because the analysis is complete"
+      ],
+      "correct": 0,
+      "explanation": "ANOVA alone does not say which group is different."
+    },
+    {
+      "q": "What does an impact-effort matrix help a team do?",
+      "options": [
+        "Calculate DPMO",
+        "Design an experiment",
+        "Write an SOP",
+        "Compare solutions by expected impact and implementation effort"
+      ],
+      "correct": 3,
+      "explanation": "It highlights quick wins and flags high-effort, low-impact options."
+    },
+    {
+      "q": "Why should a solution be linked to the verified root cause?",
+      "options": [
+        "To make the project more expensive",
+        "To avoid measuring results",
+        "To replace the control plan",
+        "To increase the chance the fix removes the problem"
+      ],
+      "correct": 3,
+      "explanation": "A solution that does not address the cause may only treat symptoms."
+    },
+    {
+      "q": "Why does a pilot need a baseline?",
+      "options": [
+        "To increase the sample size",
+        "To select the team",
+        "To write the charter",
+        "To compare pilot performance with current performance"
+      ],
+      "correct": 3,
+      "explanation": "Without a baseline, the team cannot tell whether the change worked."
+    },
+    {
+      "q": "What is the purpose of a rollback plan in a pilot?",
+      "options": [
+        "To return to the old method if the pilot fails or causes harm",
+        "To calculate capability",
+        "To select a control chart",
+        "To replace the baseline"
+      ],
+      "correct": 0,
+      "explanation": "A rollback plan limits risk during testing."
+    },
+    {
+      "q": "What is the difference between prevention and detection in poka-yoke?",
+      "options": [
+        "They are identical",
+        "Prevention applies only to software",
+        "Prevention makes an error impossible or difficult; detection catches it immediately",
+        "Detection prevents errors; prevention finds them later"
+      ],
+      "correct": 2,
+      "explanation": "Prevention is generally stronger because the error never reaches the customer."
+    },
+    {
+      "q": "Why is poka-yoke generally more reliable than a reminder?",
+      "options": [
+        "It changes the process so the error is blocked or caught",
+        "It relies on people remembering",
+        "It increases the number of approvals",
+        "It eliminates the need for training"
+      ],
+      "correct": 0,
+      "explanation": "Well-designed mistake-proofing is built into the work."
+    },
+    {
+      "q": "How is takt time calculated?",
+      "options": [
+        "Setup time divided by batch size",
+        "Available work time divided by customer demand",
+        "Customer demand divided by available time",
+        "Total defects divided by units"
+      ],
+      "correct": 1,
+      "explanation": "Takt time sets the pace the process needs to meet customer demand."
+    },
+    {
+      "q": "A kanban card authorizes upstream work only when downstream demand exists. This is an example of:",
+      "options": [
+        "Inventory is maximized",
+        "Approvals are added",
+        "Work is triggered by downstream demand",
+        "Work is pushed as early as possible"
+      ],
+      "correct": 2,
+      "explanation": "Pull reduces overproduction and excess work in progress."
+    },
+    {
+      "q": "In DOE, a factor is:",
+      "options": [
+        "The measured output",
+        "A random error",
+        "The sample size",
+        "An input variable deliberately changed in the experiment"
+      ],
+      "correct": 3,
+      "explanation": "Factors are set at different levels to see their effect on the response."
+    },
+    {
+      "q": "Why randomize the run order in an experiment?",
+      "options": [
+        "To make the experiment longer",
+        "To eliminate the need for replicates",
+        "To guarantee a significant result",
+        "To protect against lurking variables"
+      ],
+      "correct": 3,
+      "explanation": "Randomization spreads uncontrolled effects across the experiment."
+    },
+    {
+      "q": "Which control chart is used for individual measurements over time?",
+      "options": [
+        "X-bar and R with subgroups of five",
+        "I-MR",
+        "p chart",
+        "np chart"
+      ],
+      "correct": 1,
+      "explanation": "I-MR charts track individual values and the moving range."
+    },
+    {
+      "q": "Which chart is used for the proportion defective when sample size varies?",
+      "options": [
+        "p chart",
+        "np chart",
+        "c chart",
+        "I-MR chart"
+      ],
+      "correct": 0,
+      "explanation": "p charts allow the sample size to vary."
+    },
+    {
+      "q": "What should a control plan reaction plan include?",
+      "options": [
+        "Only a graph",
+        "What to check, whom to notify, containment, and corrective action",
+        "Only the name of the sponsor",
+        "Only the specification limit"
+      ],
+      "correct": 1,
+      "explanation": "A specific reaction plan makes monitoring actionable."
+    },
+    {
+      "q": "Why does a control plan need a named owner?",
+      "options": [
+        "To avoid training",
+        "Someone must be accountable for monitoring and responding",
+        "To increase the project budget",
+        "To replace the process owner"
+      ],
+      "correct": 1,
+      "explanation": "Without ownership, signals are often ignored."
+    },
+    {
+      "q": "What makes an SOP usable?",
+      "options": [
+        "Only a list of signatures",
+        "A document stored away from the work",
+        "Clear steps, visuals, roles, exceptions, and access at the point of use",
+        "A long narrative with no visuals"
+      ],
+      "correct": 2,
+      "explanation": "A usable SOP supports the real work rather than gathering dust."
+    },
+    {
+      "q": "Is standard work permanent?",
+      "options": [
+        "Only for manufacturing",
+        "No; it is the current best method and can be improved through change control",
+        "Yes; it must never change",
+        "Only if the sponsor approves every step"
+      ],
+      "correct": 1,
+      "explanation": "Standard work is the current best method, not a frozen rule."
+    },
+    {
+      "q": "What is a RAID log used for in project management?",
+      "options": [
+        "Writing an SOP",
+        "Tracking risks, assumptions, issues, and dependencies",
+        "Calculating DPMO",
+        "Selecting a control chart"
+      ],
+      "correct": 1,
+      "explanation": "RAID keeps project threats and constraints visible."
+    },
+    {
+      "q": "What is the critical path in a project schedule?",
+      "options": [
+        "The project budget",
+        "The longest sequence of dependent tasks that determines project duration",
+        "The shortest task in the project",
+        "The list of all stakeholders"
+      ],
+      "correct": 1,
+      "explanation": "Delay on the critical path delays the whole project."
+    },
+    {
+      "q": "Which tool is generally stronger for DOE and capability analysis?",
+      "options": [
+        "Notepad",
+        "PowerPoint",
+        "A calculator",
+        "Minitab"
+      ],
+      "correct": 3,
+      "explanation": "Minitab has dedicated menus for DOE, capability, MSA, and control charts."
+    },
+    {
+      "q": "Why document the steps of a statistical analysis?",
+      "options": [
+        "To make the file larger",
+        "To avoid checking assumptions",
+        "To replace the project charter",
+        "So the work can be repeated, reviewed, and defended"
+      ],
+      "correct": 3,
+      "explanation": "Reproducibility is essential for trust and audit."
+    }
+  ],
+  "black": [
+    {
+      "q": "A Black Belt wants to use a normal-based confidence interval for average cycle time from a skewed process. The sample has 45 observations. Which statement about the Central Limit Theorem supports this approach?",
+      "options": [
+        "Large samples are always biased",
+        "Variation disappears with large samples",
+        "All data are normal",
+        "Sample means tend toward normality as sample size grows"
+      ],
+      "correct": 3,
+      "explanation": "For sufficiently large samples, the sampling distribution of the mean is approximately normal."
+    },
+    {
+      "q": "During a hypothesis test on a new supplier's material strength, the team wants to increase the chance of detecting a real improvement. Which concept should they increase?",
+      "options": [
+        "The sample mean",
+        "The probability of rejecting a true null",
+        "The probability of detecting a true effect",
+        "The probability of a Type I error"
+      ],
+      "correct": 2,
+      "explanation": "Power is 1 - beta, the chance of finding an effect that is really there."
+    },
+    {
+      "q": "A team's repair-time data remain heavily skewed even after transformation. Why should the team consider non-parametric methods?",
+      "options": [
+        "The sample is enormous",
+        "You want to avoid all assumptions",
+        "Data are perfectly normal with equal variances",
+        "Distributional assumptions are not met"
+      ],
+      "correct": 3,
+      "explanation": "Non-parametric tests are useful when normality or other assumptions are questionable."
+    },
+    {
+      "q": "A hospital wants to model whether a patient is readmitted within 30 days using age, severity, and discharge score. Logistic regression is appropriate because the response is:",
+      "options": [
+        "Always normal",
+        "Continuous",
+        "Binary (yes/no)",
+        "A count"
+      ],
+      "correct": 2,
+      "explanation": "Logistic regression models the probability of a binary outcome."
+    },
+    {
+      "q": "A regression output for a delivery-time model reports R-squared = 0.74. How should the team interpret this value?",
+      "options": [
+        "The sample size",
+        "The slope of the line",
+        "The proportion of variation explained by the model",
+        "The p-value"
+      ],
+      "correct": 2,
+      "explanation": "R-squared is the fraction of response variation explained by the predictors."
+    },
+    {
+      "q": "A regression model for fuel use includes outside temperature and heating-degree days, which move almost together. Coefficients change sign when either predictor is removed. What problem is present?",
+      "options": [
+        "The residuals are normal",
+        "The sample is too large",
+        "The response is binary",
+        "Predictors are highly correlated with each other"
+      ],
+      "correct": 3,
+      "explanation": "Multicollinearity makes coefficient estimates unstable and hard to interpret."
+    },
+    {
+      "q": "A team has eight potential factors and limited run capacity for a screening experiment. Which design approach best fits this situation?",
+      "options": [
+        "Avoid randomization",
+        "Replace capability analysis",
+        "Screen many factors with fewer runs",
+        "Eliminate all interactions"
+      ],
+      "correct": 2,
+      "explanation": "Fractional factorials reduce runs when many factors are candidates."
+    },
+    {
+      "q": "After screening, three factors significantly affect yield and the team suspects curvature. Response surface methodology is used to do what?",
+      "options": [
+        "Find optimum factor settings",
+        "Test for normality only",
+        "Build control plans",
+        "Calculate COPQ"
+      ],
+      "correct": 0,
+      "explanation": "RSM models curvature and helps locate optimal settings."
+    },
+    {
+      "q": "A chemical process has drifted by about 0.3 sigma over several hours. An EWMA chart is especially useful for what?",
+      "options": [
+        "Calculating sample size",
+        "Detecting small shifts",
+        "Only attribute data",
+        "Designing experiments"
+      ],
+      "correct": 1,
+      "explanation": "EWMA weights recent data more heavily and detects small process shifts."
+    },
+    {
+      "q": "A process is stable but its output is strongly right-skewed and does not fit a normal model. How should capability be assessed?",
+      "options": [
+        "Use only the mean",
+        "Double the specification limits",
+        "Ignore the distribution",
+        "Transform the data or fit an appropriate distribution"
+      ],
+      "correct": 3,
+      "explanation": "Transform or fit a suitable distribution before estimating capability."
+    },
+    {
+      "q": "A quality engineer records the number of defective units in fixed lots of 50 inspected parts, with independent units and a constant defect probability. Which distribution models the count?",
+      "options": [
+        "Exponential",
+        "Weibull",
+        "Binomial",
+        "Normal"
+      ],
+      "correct": 2,
+      "explanation": "The binomial distribution has a fixed number of trials with two outcomes and a constant success probability."
+    },
+    {
+      "q": "A measurement process produces a continuous, symmetric output described only by its mean and standard deviation. Which distribution best fits the data?",
+      "options": [
+        "Normal",
+        "Poisson",
+        "Binomial",
+        "Exponential"
+      ],
+      "correct": 0,
+      "explanation": "The normal distribution is the classic continuous, symmetric distribution."
+    },
+    {
+      "q": "A reliability engineer has time-to-failure data for pumps and needs a flexible model for increasing failure rates. The Weibull distribution is especially useful for what?",
+      "options": [
+        "Pass or fail counts",
+        "Defects per unit",
+        "Survey Likert scores only",
+        "Time-to-failure and reliability data"
+      ],
+      "correct": 3,
+      "explanation": "The Weibull shape and scale parameters make it flexible for reliability and life data."
+    },
+    {
+      "q": "A sample of 36 bottles has an estimated process standard deviation of 2.4 ml. What is the standard error of the sample mean?",
+      "options": [
+        "Sigma divided by the square root of n",
+        "Sigma times n",
+        "The sample mean",
+        "The range"
+      ],
+      "correct": 0,
+      "explanation": "The standard error of the mean is the population standard deviation divided by the square root of the sample size."
+    },
+    {
+      "q": "A team increases a sample from 100 to 400 observations while the process standard deviation stays the same. What happens to the standard error of the mean?",
+      "options": [
+        "Stays exactly the same",
+        "Becomes negative",
+        "Decreases",
+        "Increases"
+      ],
+      "correct": 2,
+      "explanation": "The standard error shrinks in proportion to the square root of n."
+    },
+    {
+      "q": "A Black Belt must justify normal-based inference on a non-normal process using a sample of 60. Why is the Central Limit Theorem relevant?",
+      "options": [
+        "Describes the sampling distribution of the mean for large samples",
+        "Makes raw data normal",
+        "Eliminates the need for sampling",
+        "Guarantees no outliers"
+      ],
+      "correct": 0,
+      "explanation": "It supports normal-based inference about means when the sample is sufficiently large."
+    },
+    {
+      "q": "A 95% confidence interval for mean wait time is 12 to 18 minutes. Which interpretation is correct?",
+      "options": [
+        "About 95% of intervals from repeated samples would contain the true parameter",
+        "There is a 95% chance the parameter is in this specific interval",
+        "95% of the data lie in the interval",
+        "The process is 95% capable"
+      ],
+      "correct": 0,
+      "explanation": "The confidence is in the procedure across repeated sampling, not in one realized interval."
+    },
+    {
+      "q": "A team wants a confidence interval with a higher chance of covering the true mean. If all else stays the same, which change should they make?",
+      "options": [
+        "Increasing the sample size",
+        "Reducing variability",
+        "Reducing the confidence level",
+        "Increasing the confidence level"
+      ],
+      "correct": 3,
+      "explanation": "A higher confidence level requires a larger critical value and therefore a wider interval."
+    },
+    {
+      "q": "A sample of 18 parts is used to estimate a mean, and the population standard deviation is unknown. Which distribution should provide the critical value?",
+      "options": [
+        "The binomial distribution",
+        "The Poisson distribution",
+        "No critical value",
+        "The t distribution"
+      ],
+      "correct": 3,
+      "explanation": "The t distribution accounts for estimating the standard deviation from the sample."
+    },
+    {
+      "q": "A Black Belt explains the chance of detecting a real effect of a new coating. Power is the probability of what?",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Making a Type I error",
+        "Accepting every hypothesis",
+        "Detecting a true effect"
+      ],
+      "correct": 3,
+      "explanation": "Power equals one minus beta, the chance of detecting an effect that exists."
+    },
+    {
+      "q": "A team increases its sample size from 30 to 90 while the effect size and alpha stay the same. What happens to statistical power?",
+      "options": [
+        "Decreases it",
+        "Leaves it unchanged",
+        "Makes it zero",
+        "Increases it"
+      ],
+      "correct": 3,
+      "explanation": "Larger samples reduce standard error and make real effects easier to detect."
+    },
+    {
+      "q": "A team sets the significance level at 0.05 before testing a supplier claim. What does this alpha value control?",
+      "options": [
+        "A Type II error",
+        "Detecting a true effect",
+        "Accepting the alternative",
+        "A Type I error"
+      ],
+      "correct": 3,
+      "explanation": "Alpha is the false-positive rate for rejecting a true null hypothesis."
+    },
+    {
+      "q": "A plant compares mean strength across four adhesive suppliers. Which test should be used?",
+      "options": [
+        "McNemar test",
+        "Chi-square goodness of fit",
+        "One-way ANOVA",
+        "Paired t-test"
+      ],
+      "correct": 2,
+      "explanation": "ANOVA tests whether at least one group mean differs while controlling Type I error."
+    },
+    {
+      "q": "The same 20 patients are measured before and after a treatment. Which test is appropriate for the mean change?",
+      "options": [
+        "Chi-square independence",
+        "One-way ANOVA",
+        "Paired t-test",
+        "Two-sample t-test"
+      ],
+      "correct": 2,
+      "explanation": "The paired t-test accounts for correlation within each unit."
+    },
+    {
+      "q": "A team cross-tabulates shift (day or night) and defect type to see whether they are related. Which test should be used?",
+      "options": [
+        "Paired t-test",
+        "One-sample t-test",
+        "Multiple regression",
+        "Chi-square test of independence"
+      ],
+      "correct": 3,
+      "explanation": "The independence test compares observed and expected counts in a contingency table."
+    },
+    {
+      "q": "Two independent production lines are compared, and their variances clearly differ. Welch's t-test is preferred when:",
+      "options": [
+        "The response is categorical",
+        "Two independent groups have unequal variances",
+        "The data are paired",
+        "There are three or more groups"
+      ],
+      "correct": 1,
+      "explanation": "Welch's test does not assume equal population variances."
+    },
+    {
+      "q": "A paired t-test is used on before-and-after measurements from the same units. What is its main advantage?",
+      "options": [
+        "Works only for proportions",
+        "Removes unit-to-unit variation from the comparison",
+        "Eliminates the need for data",
+        "Allows three or more groups"
+      ],
+      "correct": 1,
+      "explanation": "Analyzing within-unit differences increases precision when units vary."
+    },
+    {
+      "q": "A one-way ANOVA reports p = 0.01 across five groups. What can the team conclude?",
+      "options": [
+        "The variances are equal",
+        "At least one group mean differs",
+        "Every group mean differs",
+        "The largest group is best"
+      ],
+      "correct": 1,
+      "explanation": "The overall test detects at least one difference; post-hoc tests identify which groups differ."
+    },
+    {
+      "q": "In a two-way ANOVA of temperature and catalyst, the effect of temperature changes depending on the catalyst level. What is an interaction?",
+      "options": [
+        "The effect of one factor depends on the level of the other",
+        "Both factors are insignificant",
+        "The residuals are normal",
+        "The sample is paired"
+      ],
+      "correct": 0,
+      "explanation": "An interaction means the factors do not act independently."
+    },
+    {
+      "q": "An ANOVA across six machines is significant, and the team wants to know which machines differ while controlling familywise error. Which method fits?",
+      "options": [
+        "McNemar's test",
+        "Kappa",
+        "Durbin-Watson",
+        "Tukey's test"
+      ],
+      "correct": 3,
+      "explanation": "Tukey's honestly significant difference procedure adjusts for multiple comparisons."
+    },
+    {
+      "q": "Cycle times from two independent groups are severely non-normal, and the team wants a rank-based comparison. Mann-Whitney is the non-parametric alternative to which test?",
+      "options": [
+        "The chi-square test",
+        "Logistic regression",
+        "The two-sample t-test",
+        "One-way ANOVA"
+      ],
+      "correct": 2,
+      "explanation": "Mann-Whitney compares two independent groups using ranks."
+    },
+    {
+      "q": "A team compares satisfaction ranks across three independent stores without assuming normality. Kruskal-Wallis is the non-parametric alternative to which test?",
+      "options": [
+        "Multiple regression",
+        "One-way ANOVA",
+        "Paired t-test",
+        "Chi-square independence"
+      ],
+      "correct": 1,
+      "explanation": "Kruskal-Wallis compares three or more independent groups using ranks."
+    },
+    {
+      "q": "A contingency table has several cells with expected counts near 2. What does the chi-square test require?",
+      "options": [
+        "Expected counts of at least about five per cell, or an exact test",
+        "Normally distributed categories",
+        "Paired observations",
+        "A continuous response"
+      ],
+      "correct": 0,
+      "explanation": "Small expected counts make the chi-square approximation unreliable."
+    },
+    {
+      "q": "The same inspectors classify 100 parts as pass or fail before and after training. Which test compares the paired binary results?",
+      "options": [
+        "McNemar's test",
+        "Chi-square goodness of fit",
+        "Two-sample t-test",
+        "Mann-Whitney"
+      ],
+      "correct": 0,
+      "explanation": "McNemar's test accounts for the pairing of binary responses."
+    },
+    {
+      "q": "A bank wants to know whether region and loan type are related using counts in a table. What does the chi-square test examine?",
+      "options": [
+        "Association between two categorical variables",
+        "Difference between two means",
+        "Normality of residuals",
+        "Variance inflation"
+      ],
+      "correct": 0,
+      "explanation": "It compares observed and expected frequencies in a contingency table."
+    },
+    {
+      "q": "Two appraisers agree on 80% of attribute calls, but chance alone would produce 55%. Kappa adjusts attribute agreement for what?",
+      "options": [
+        "Sample size only",
+        "Specification limits",
+        "Agreement expected by chance",
+        "Measurement units"
+      ],
+      "correct": 2,
+      "explanation": "Kappa corrects percent agreement for chance agreement."
+    },
+    {
+      "q": "One inspector measures the same 30 parts twice to check consistency with himself. What does this assess?",
+      "options": [
+        "Reproducibility",
+        "Accuracy against a standard",
+        "Linearity",
+        "Repeatability"
+      ],
+      "correct": 3,
+      "explanation": "The same appraiser evaluates the same parts more than once."
+    },
+    {
+      "q": "An instrument is checked against a certified reference weight. What does calibration primarily establish?",
+      "options": [
+        "The process capability",
+        "Traceability to a standard and instrument bias",
+        "Zero measurement uncertainty",
+        "A perfect gage R&R"
+      ],
+      "correct": 1,
+      "explanation": "Calibration links readings to a reference and identifies bias or correction."
+    },
+    {
+      "q": "A lab reports expanded uncertainty using a coverage factor of two. What approximate confidence does this represent for an approximately normal distribution?",
+      "options": [
+        "95% confidence",
+        "50% confidence",
+        "99.999% confidence",
+        "No confidence"
+      ],
+      "correct": 0,
+      "explanation": "For an approximately normal distribution, k equals two gives about 95% coverage."
+    },
+    {
+      "q": "In a model predicting energy use from temperature, run hours, and load, what does the temperature coefficient represent?",
+      "options": [
+        "The sample size",
+        "The change in the response per unit change in a predictor, holding others constant",
+        "The total variation in the response",
+        "The correlation between residuals"
+      ],
+      "correct": 1,
+      "explanation": "The coefficient is an adjusted effect for that predictor."
+    },
+    {
+      "q": "A team keeps adding weak predictors to a regression model. Why is adjusted R-squared useful in this situation?",
+      "options": [
+        "Replaces residual analysis",
+        "Penalizes predictors that do not improve the model enough",
+        "Always increases when predictors are added",
+        "Measures causation"
+      ],
+      "correct": 1,
+      "explanation": "Unlike ordinary R-squared, it adjusts for the number of predictors."
+    },
+    {
+      "q": "A multiple regression output reports an overall F test with p < 0.001. What is being tested?",
+      "options": [
+        "The model as a whole explains significant variation",
+        "Every coefficient is nonzero",
+        "The residuals are independent",
+        "The sample is large enough"
+      ],
+      "correct": 0,
+      "explanation": "It tests the model overall, not each individual predictor."
+    },
+    {
+      "q": "A model built on machine speeds from 40 to 80 units per minute is used to predict at 150 units per minute. Why is this risky?",
+      "options": [
+        "The relationship may not hold outside the observed range",
+        "Regression cannot make predictions",
+        "R-squared becomes zero",
+        "Residuals disappear"
+      ],
+      "correct": 0,
+      "explanation": "Models are validated only within the range of observed data."
+    },
+    {
+      "q": "A model estimates the probability of a warranty claim from product age and usage. What does logistic regression model in this case?",
+      "options": [
+        "The log-odds of a binary event",
+        "A continuous response with constant variance",
+        "Counts per unit only",
+        "The mean of three groups"
+      ],
+      "correct": 0,
+      "explanation": "It links predictors to the log-odds and then to a probability."
+    },
+    {
+      "q": "In a logistic model, a predictor has an odds ratio of 2.3. How should the team interpret it?",
+      "options": [
+        "The event is impossible",
+        "The model has no effect",
+        "Higher odds of the event as the predictor increases",
+        "Lower odds of the event"
+      ],
+      "correct": 2,
+      "explanation": "Exponentiating a positive coefficient gives an odds ratio above one."
+    },
+    {
+      "q": "A credit-risk model is evaluated by its ability to rank defaulters above non-defaulters. The AUC measures what?",
+      "options": [
+        "Discrimination between events and non-events",
+        "Calibration of predicted probabilities",
+        "Multicollinearity",
+        "Normality of predictors"
+      ],
+      "correct": 0,
+      "explanation": "AUC measures how well the model ranks or separates the two classes."
+    },
+    {
+      "q": "A residual-versus-fitted plot widens as fitted values increase. What does the pattern suggest?",
+      "options": [
+        "Unequal variance",
+        "Perfect linearity",
+        "Independence",
+        "Normality"
+      ],
+      "correct": 0,
+      "explanation": "Changing spread of residuals indicates heteroscedasticity."
+    },
+    {
+      "q": "One observation in a regression has a Cook's distance far above all others. What is Cook's distance used to identify?",
+      "options": [
+        "Influential observations",
+        "The best predictor",
+        "The sample size",
+        "The confidence level"
+      ],
+      "correct": 0,
+      "explanation": "Cook's distance combines leverage and residual size to measure influence."
+    },
+    {
+      "q": "A regression model reports variance inflation factors of 12 and 15 for two predictors. What does this signal?",
+      "options": [
+        "A binary response",
+        "Perfect normality",
+        "Severe multicollinearity",
+        "No correlation"
+      ],
+      "correct": 2,
+      "explanation": "VIFs above ten signal that coefficients may be unstable."
+    },
+    {
+      "q": "Two predictors in a regression are nearly redundant and inflate the standard errors. What is a reasonable remedy?",
+      "options": [
+        "Use a smaller sample",
+        "Remove or combine highly correlated predictors",
+        "Add more correlated predictors",
+        "Ignore the standard errors"
+      ],
+      "correct": 1,
+      "explanation": "Combining or removing redundant predictors stabilizes the model."
+    },
+    {
+      "q": "A team plans a two-level full factorial experiment with four factors and no replication. How many runs are required?",
+      "options": [
+        "16",
+        "8",
+        "32",
+        "4"
+      ],
+      "correct": 0,
+      "explanation": "Two to the fourth power equals sixteen."
+    },
+    {
+      "q": "A factorial experiment includes replicated center points. What do they help the team detect?",
+      "options": [
+        "Multicollinearity",
+        "Curvature",
+        "Randomization",
+        "Blocking"
+      ],
+      "correct": 1,
+      "explanation": "A difference between center and factorial averages suggests curvature."
+    },
+    {
+      "q": "A team runs all low-temperature trials on Monday and all high-temperature trials on Tuesday. Randomizing run order would protect against what?",
+      "options": [
+        "The need for replication",
+        "Interactions",
+        "Time trends and unmeasured nuisance effects",
+        "All measurement error"
+      ],
+      "correct": 2,
+      "explanation": "Randomization prevents order from being confounded with treatments."
+    },
+    {
+      "q": "A team repeats each experimental condition independently. What does replication provide?",
+      "options": [
+        "A guarantee of significance",
+        "A way to avoid randomization",
+        "A substitute for center points",
+        "An independent estimate of experimental error"
+      ],
+      "correct": 3,
+      "explanation": "Replicate runs allow the error variance to be estimated."
+    },
+    {
+      "q": "A screening design is labeled Resolution IV. What does this mean for interpretation?",
+      "options": [
+        "Main effects are clear, but two-factor interactions are aliased with each other",
+        "All interactions are estimable",
+        "Main effects are aliased with each other",
+        "No factors are estimable"
+      ],
+      "correct": 0,
+      "explanation": "Resolution IV protects main effects but not all two-factor interactions."
+    },
+    {
+      "q": "A fractional factorial has important effects confounded with other two-factor interactions. A foldover design is used to do what?",
+      "options": [
+        "Remove the need for replicates",
+        "Eliminate blocking",
+        "De-alias important effects",
+        "Increase the number of factors"
+      ],
+      "correct": 2,
+      "explanation": "Complementary runs separate effects that were confounded."
+    },
+    {
+      "q": "A team runs experiments on two shifts and wants to keep shift differences from being confused with treatments. Blocking is used to do what?",
+      "options": [
+        "Replace replication",
+        "Remove known nuisance variation between homogeneous groups",
+        "Increase the number of treatments",
+        "Avoid randomization"
+      ],
+      "correct": 1,
+      "explanation": "Blocks group similar experimental units so nuisance variation is not confounded with treatments."
+    },
+    {
+      "q": "In a randomized complete block design with five treatments, what does each block contain?",
+      "options": [
+        "No replication",
+        "Only center points",
+        "Every treatment once",
+        "Only one treatment"
+      ],
+      "correct": 2,
+      "explanation": "Each block is a complete set of treatments, randomized within the block."
+    },
+    {
+      "q": "A team needs to fit a quadratic model after a factorial experiment. A central composite design adds which points?",
+      "options": [
+        "Only duplicate corner points",
+        "Only blocking points",
+        "Only noise factors",
+        "Axial and center points"
+      ],
+      "correct": 3,
+      "explanation": "Axial and center points support estimation of quadratic terms."
+    },
+    {
+      "q": "A team has already identified the few important factors and now needs to optimize their settings. Response surface methodology is appropriate for what?",
+      "options": [
+        "Screen dozens of factors initially",
+        "Replace measurement system analysis",
+        "Calculate kappa",
+        "Find optimum settings after important factors are known"
+      ],
+      "correct": 3,
+      "explanation": "RSM models curvature and optimizes a smaller set of important factors."
+    },
+    {
+      "q": "In a robust design study, humidity varies in the field but cannot be controlled in production. Humidity is best treated as what?",
+      "options": [
+        "A factor the team can freely set",
+        "Always a blocking variable",
+        "A type of center point",
+        "A variable that affects the response but is hard or expensive to control"
+      ],
+      "correct": 3,
+      "explanation": "Robust design seeks settings that are insensitive to noise factors."
+    },
+    {
+      "q": "A design team wants a product that performs consistently across a range of user conditions. What is the goal of robust design?",
+      "options": [
+        "Eliminate all variation",
+        "Avoid confirmation runs",
+        "Achieve stable performance across noise conditions",
+        "Maximize the mean only"
+      ],
+      "correct": 2,
+      "explanation": "The best settings perform well even when noise factors vary."
+    },
+    {
+      "q": "A process shifts by a small amount and stays there. A CUSUM chart is especially useful for what?",
+      "options": [
+        "Designing experiments",
+        "Calculating sample size",
+        "Detecting small sustained shifts",
+        "Only categorical data"
+      ],
+      "correct": 2,
+      "explanation": "CUSUM accumulates deviations from target to detect small persistent changes."
+    },
+    {
+      "q": "An EWMA chart uses a small smoothing constant. What is the effect on chart sensitivity?",
+      "options": [
+        "Ignores history completely",
+        "Eliminates the need for control limits",
+        "Works only for attribute data",
+        "Gives more weight to historical data and detects smaller shifts"
+      ],
+      "correct": 3,
+      "explanation": "A smaller lambda smooths more and is sensitive to small shifts."
+    },
+    {
+      "q": "A stable process has a lognormal output. Which approach gives a defensible capability estimate?",
+      "options": [
+        "Assume normality regardless",
+        "Use only the process mean",
+        "Ignore specification limits",
+        "Transform the data or fit an appropriate distribution"
+      ],
+      "correct": 3,
+      "explanation": "Capability should be based on a model that fits the data."
+    },
+    {
+      "q": "A team wants to compute Cp and Cpk. What condition must the process satisfy first?",
+      "options": [
+        "Out of control",
+        "Stable",
+        "Always increasing",
+        "Unmeasured"
+      ],
+      "correct": 1,
+      "explanation": "A stable process is required before capability indices can be interpreted."
+    },
+    {
+      "q": "A shop runs many short production runs of different part numbers. Short-run SPC uses what?",
+      "options": [
+        "Part-specific targets and short-term variation",
+        "Specification limits",
+        "The overall company average only",
+        "Customer complaints"
+      ],
+      "correct": 0,
+      "explanation": "Standardization lets different short runs share a chart."
+    },
+    {
+      "q": "A group chart combines several products. Which products should be pooled?",
+      "options": [
+        "Produced on different equipment only",
+        "Similar in process and variation structure",
+        "Completely unrelated",
+        "Always the highest volume"
+      ],
+      "correct": 1,
+      "explanation": "Pooling unlike processes creates misleading limits and signals."
+    },
+    {
+      "q": "A value stream shows long waiting times and excess motion. Lean primarily focuses on what?",
+      "options": [
+        "Designing experiments",
+        "Removing waste and improving flow",
+        "Reducing variation with statistics only",
+        "Financial auditing"
+      ],
+      "correct": 1,
+      "explanation": "Lean targets non-value-added work and flow."
+    },
+    {
+      "q": "A process has high defect rates and inconsistent output. Six Sigma primarily focuses on what?",
+      "options": [
+        "Reducing variation and defects with data",
+        "Increasing inventory",
+        "Eliminating all documentation",
+        "Avoiding measurement"
+      ],
+      "correct": 0,
+      "explanation": "Six Sigma uses structured methods and statistics to improve consistency."
+    },
+    {
+      "q": "A value stream map shows 2 hours of processing and 3 days of waiting. What does lead time include?",
+      "options": [
+        "Only machine cycle time",
+        "Only setup time",
+        "All elapsed time from request to delivery, including waiting",
+        "Only value-added processing time"
+      ],
+      "correct": 2,
+      "explanation": "Lead time captures waiting as well as processing."
+    },
+    {
+      "q": "A cell has 420 minutes of available work time per shift and customer demand of 210 units per shift. What is takt time?",
+      "options": [
+        "Available work time divided by customer demand",
+        "Demand divided by inventory",
+        "Process time times batch size",
+        "Total lead time divided by defects"
+      ],
+      "correct": 0,
+      "explanation": "Takt time sets the pace required to meet customer demand."
+    },
+    {
+      "q": "A line measures availability of 90%, performance of 95%, and quality of 98%. OEE is the product of what?",
+      "options": [
+        "Safety, morale, and cost",
+        "Yield, scrap, and lead time",
+        "Availability, performance, and quality",
+        "Speed, cost, and inventory"
+      ],
+      "correct": 2,
+      "explanation": "Overall Equipment Effectiveness combines these three components."
+    },
+    {
+      "q": "Operators clean, inspect, and tighten fittings on their own machines each shift. What is autonomous maintenance?",
+      "options": [
+        "Maintenance is outsourced",
+        "Equipment is run to failure",
+        "Operators never touch equipment",
+        "Operators perform basic cleaning, inspection, and minor maintenance"
+      ],
+      "correct": 3,
+      "explanation": "Operators take ownership of basic equipment condition."
+    },
+    {
+      "q": "During a changeover, some tasks can be done only after the machine stops. Internal setup tasks are those that:",
+      "options": [
+        "Can be done while the machine runs",
+        "Requires no tools",
+        "Is always unnecessary",
+        "Can only be done while the machine is stopped"
+      ],
+      "correct": 3,
+      "explanation": "SMED aims to convert internal work to external work."
+    },
+    {
+      "q": "A team times a changeover from the last good part before the change to the first good part after it. Changeover time is measured from what to what?",
+      "options": [
+        "The last good part before the change to the first good part after it",
+        "The start of setup to the end of paperwork",
+        "The first tool change to the last",
+        "The previous shift to the next"
+      ],
+      "correct": 0,
+      "explanation": "This measures the full lost production time."
+    },
+    {
+      "q": "A work cell documents takt time, work sequence, and standard inventory. Standard work includes what?",
+      "options": [
+        "Only financial targets",
+        "Takt time, work sequence, and standard inventory",
+        "Only a job title",
+        "Only safety rules"
+      ],
+      "correct": 1,
+      "explanation": "Standard work defines the current best method and its key elements."
+    },
+    {
+      "q": "A team improves a process and then updates the documented method. How should standard work be treated?",
+      "options": [
+        "A substitute for training",
+        "The current best method, updated when the process improves",
+        "Permanent and never changed",
+        "Written without operator input"
+      ],
+      "correct": 1,
+      "explanation": "It is a baseline for improvement, not a frozen rule."
+    },
+    {
+      "q": "A workplace organizes tools, removes unneeded items, and sustains the new arrangement. Which set of steps describes 5S?",
+      "options": [
+        "Safety, speed, savings, service, sustain",
+        "Sort, sample, study, solve, sustain",
+        "Standardize, simplify, speed, serve, sell",
+        "Sort, set in order, shine, standardize, sustain"
+      ],
+      "correct": 3,
+      "explanation": "5S creates and maintains an organized workplace."
+    },
+    {
+      "q": "A production board shows status, targets, and deviations at a glance. What is the purpose of this visual management?",
+      "options": [
+        "Audits unnecessary",
+        "Normal and abnormal conditions obvious at a glance",
+        "All problems invisible",
+        "Documents longer"
+      ],
+      "correct": 1,
+      "explanation": "Visual signals help people see status and deviations quickly."
+    },
+    {
+      "q": "A company is designing a new service and follows the DFSS roadmap. Which sequence matches DMADV?",
+      "options": [
+        "Define, Measure, Analyze, Develop, Validate",
+        "Design, Measure, Assess, Deploy, Verify",
+        "Define, Manage, Analyze, Deliver, Validate",
+        "Define, Measure, Analyze, Design, Verify"
+      ],
+      "correct": 3,
+      "explanation": "DMADV is the DFSS roadmap for designing new processes or products."
+    },
+    {
+      "q": "A firm is creating a new product platform with no existing process to improve. DFSS is used for what?",
+      "options": [
+        "Only monitoring a stable process",
+        "Calculating a confidence interval",
+        "Designing a new product, service, or process",
+        "Fixing a known problem in an existing process"
+      ],
+      "correct": 2,
+      "explanation": "DMAIC is usually better for improving an existing process."
+    },
+    {
+      "q": "In a House of Quality, the columns list customer needs. What are these called?",
+      "options": [
+        "Failure modes",
+        "Customer needs",
+        "Technical requirements",
+        "Control limits"
+      ],
+      "correct": 1,
+      "explanation": "The whats represent voice-of-the-customer needs."
+    },
+    {
+      "q": "The triangular roof of a House of Quality shows what?",
+      "options": [
+        "The project budget",
+        "Control chart limits",
+        "Correlations among technical requirements",
+        "Customer complaints only"
+      ],
+      "correct": 2,
+      "explanation": "The roof reveals tradeoffs and synergies between technical requirements."
+    },
+    {
+      "q": "Customers are dissatisfied when a basic safety feature is missing but say nothing when it is present. A must-be quality characteristic does what?",
+      "options": [
+        "Has no effect on satisfaction",
+        "Is always a performance feature",
+        "Causes dissatisfaction when absent but does not delight when present",
+        "Always delights customers"
+      ],
+      "correct": 2,
+      "explanation": "Must-be features are basic expectations."
+    },
+    {
+      "q": "A new mobile alert delights customers when present but causes no complaint when absent. An attractive quality characteristic does what?",
+      "options": [
+        "Has no customer effect",
+        "Delights when present but does not cause dissatisfaction when absent",
+        "Causes dissatisfaction when absent",
+        "Improves linearly with performance"
+      ],
+      "correct": 1,
+      "explanation": "Attractive features are unexpected differentiators."
+    },
+    {
+      "q": "An FMEA team rates how serious the effect of a potential failure would be. Severity in FMEA rates what?",
+      "options": [
+        "Cost of the project",
+        "Impact of the failure effect",
+        "Likelihood of the cause",
+        "Ability to detect the failure"
+      ],
+      "correct": 1,
+      "explanation": "Severity describes how bad the effect is."
+    },
+    {
+      "q": "A team replaces RPN with Action Priority in FMEA. Why is this done?",
+      "options": [
+        "Uses only detection",
+        "Eliminates the need for actions",
+        "Gives more weight to severity and avoids misleading score equivalence",
+        "Ignores severity"
+      ],
+      "correct": 2,
+      "explanation": "Different risk combinations can produce the same RPN, so action priority improves focus."
+    },
+    {
+      "q": "In the ADKAR change model, what does the first element, A, represent?",
+      "options": [
+        "Awareness",
+        "Ability",
+        "Analysis",
+        "Action"
+      ],
+      "correct": 0,
+      "explanation": "Awareness is understanding why the change is needed."
+    },
+    {
+      "q": "After a new process is launched, leaders audit, recognize, and coach the new behavior. What does reinforcement in ADKAR mean?",
+      "options": [
+        "Start the project",
+        "Avoid communication",
+        "Replace training",
+        "Make the new behavior stick"
+      ],
+      "correct": 3,
+      "explanation": "Recognition, audits, and systems sustain adoption."
+    },
+    {
+      "q": "Team members report errors during a postmortem without fear of embarrassment. What condition does this demonstrate?",
+      "options": [
+        "Make decisions alone",
+        "Speak up about risks and errors without fear of humiliation",
+        "Avoid all accountability",
+        "Ignore team goals"
+      ],
+      "correct": 1,
+      "explanation": "It supports learning and honest debate."
+    },
+    {
+      "q": "A project charter lists one person as the single owner of the outcome and final decision. Which RACI role is this?",
+      "options": [
+        "Assigned",
+        "Accountable",
+        "Advisory",
+        "Approved"
+      ],
+      "correct": 1,
+      "explanation": "The accountable person owns the outcome and decision."
+    },
+    {
+      "q": "A leadership team ranks candidate projects by strategic fit, impact, feasibility, risk, and urgency. Project selection criteria include what?",
+      "options": [
+        "Only quick wins",
+        "Strategic fit, impact, feasibility, risk, and urgency",
+        "Only the lowest cost",
+        "Only the sponsor's preference"
+      ],
+      "correct": 1,
+      "explanation": "A balanced set of criteria improves portfolio decisions."
+    },
+    {
+      "q": "A portfolio includes small rapid improvements alongside long strategic projects. What does this illustrate?",
+      "options": [
+        "Only easy projects",
+        "Only projects with no risk",
+        "Quick wins and larger strategic projects",
+        "Only long-term projects"
+      ],
+      "correct": 2,
+      "explanation": "Balance builds momentum while pursuing strategic value."
+    },
+    {
+      "q": "A project's benefit is verified as a reduction in overtime expense that shows up in the profit and loss statement. Hard savings do what?",
+      "options": [
+        "Are customer opinions",
+        "Cannot be measured",
+        "Affect the P&L or cash flow",
+        "Are only theoretical"
+      ],
+      "correct": 2,
+      "explanation": "Hard savings are real, verifiable financial improvements."
+    },
+    {
+      "q": "A project costs $120,000 and is expected to return $30,000 per month in savings. What does payback period measure?",
+      "options": [
+        "The process capability",
+        "The time required to recover the project investment",
+        "The total project cost",
+        "The defect rate"
+      ],
+      "correct": 1,
+      "explanation": "Shorter payback means faster recovery of cash."
+    },
+    {
+      "q": "Two multiyear projects have different cash-flow timing. NPV accounts for what?",
+      "options": [
+        "Accounts for the time value of money",
+        "Ignores cash flow",
+        "Always equals ROI",
+        "Avoids finance review"
+      ],
+      "correct": 0,
+      "explanation": "Future cash flows are discounted to present value."
+    },
+    {
+      "q": "A Black Belt mentor guides a Green Belt through a difficult analysis instead of doing it for her. What is the mentor's primary goal?",
+      "options": [
+        "Build the mentee's capability rather than take over the work",
+        "Complete the project personally",
+        "Avoid giving feedback",
+        "Replace the sponsor"
+      ],
+      "correct": 0,
+      "explanation": "Mentoring develops judgment and skills."
+    },
+    {
+      "q": "Before a project moves from Measure to Analyze, reviewers check the data, logic, and readiness. What does a phase gate check?",
+      "options": [
+        "Only the budget",
+        "Only team attendance",
+        "Only the final report",
+        "Logic, evidence, and readiness before the next phase"
+      ],
+      "correct": 3,
+      "explanation": "Gate reviews prevent weak work from advancing."
+    },
+    {
+      "q": "A mentor responds to a mentee's question with a probing question that helps the mentee reason. What is the mentor doing?",
+      "options": [
+        "Avoid follow-up",
+        "Ask questions that help the mentee reason",
+        "Give the answer immediately",
+        "Ignore project data"
+      ],
+      "correct": 1,
+      "explanation": "Questions build independent judgment and ownership."
+    }
+  ],
+  "master": [
+    {
+      "q": "An organization aligns long-term goals with annual improvement priorities across all levels. What is Hoshin Kanri?",
+      "options": [
+        "A sampling method",
+        "A type of MSA",
+        "A control chart",
+        "Strategy deployment that aligns goals across the organization"
+      ],
+      "correct": 3,
+      "explanation": "Hoshin Kanri cascades strategic priorities into improvement work."
+    },
+    {
+      "q": "During strategy deployment, leaders and teams exchange drafts of goals and plans until they agree. What is catchball?",
+      "options": [
+        "A random sample",
+        "Iterative dialogue to align goals and resources",
+        "A control chart rule",
+        "A financial ratio"
+      ],
+      "correct": 1,
+      "explanation": "Catchball is the back-and-forth alignment process between levels."
+    },
+    {
+      "q": "A finance analyst confirms that a project benefit reduced actual operating cost in the profit and loss statement. What type of benefit is this?",
+      "options": [
+        "Benefits that affect the P&L or cash flow",
+        "Employee satisfaction scores",
+        "Customer opinions",
+        "Theoretical avoided costs"
+      ],
+      "correct": 0,
+      "explanation": "Hard savings are real, verifiable financial benefits."
+    },
+    {
+      "q": "A steering committee balances impact, risk, capacity, and strategic fit when choosing projects. Portfolio prioritization should consider what?",
+      "options": [
+        "Value, risk, capacity, and strategic fit",
+        "Only speed",
+        "Only the number of projects",
+        "Only cost"
+      ],
+      "correct": 0,
+      "explanation": "A healthy portfolio balances impact, risk, resources, and strategy."
+    },
+    {
+      "q": "A global company wants an international reference for Six Sigma methods and roles. What does ISO 13053 provide?",
+      "options": [
+        "Financial auditing",
+        "Six Sigma methods and roles",
+        "Software testing",
+        "Environmental management"
+      ],
+      "correct": 1,
+      "explanation": "ISO 13053 provides guidance on Six Sigma methods and roles."
+    },
+    {
+      "q": "A certification candidate compares Bodies of Knowledge published by two professional organizations. ASQ and IASSC are best described as what?",
+      "options": [
+        "Software vendors",
+        "Certification bodies with defined Bodies of Knowledge",
+        "Statistical distributions",
+        "Control chart types"
+      ],
+      "correct": 1,
+      "explanation": "ASQ and IASSC publish certification standards and BoKs."
+    },
+    {
+      "q": "A chief executive asks for a scorecard that balances financial results with customers, internal processes, and learning. What four perspectives does the Balanced Scorecard include?",
+      "options": [
+        "Plan, Do, Check, Act",
+        "Financial, customer, internal process, learning and growth",
+        "Cost, speed, quality, risk",
+        "Define, Measure, Analyze, Improve"
+      ],
+      "correct": 1,
+      "explanation": "The balanced scorecard balances financial and non-financial measures."
+    },
+    {
+      "q": "A plant compares its maintenance performance and practices with a best-in-class operator in another industry. What is benchmarking?",
+      "options": [
+        "Copying a competitor exactly",
+        "Comparing performance with best-in-class and adapting practices",
+        "Setting a budget",
+        "Running a t-test"
+      ],
+      "correct": 1,
+      "explanation": "Benchmarking uses external comparisons to identify improvement opportunities."
+    },
+    {
+      "q": "An analyst is asked to use customer data without consent to improve a model. Which ethical duty applies?",
+      "options": [
+        "Using all available data regardless of consent",
+        "Protecting privacy and using data responsibly",
+        "Hiding uncertainty",
+        "Changing results to please leaders"
+      ],
+      "correct": 1,
+      "explanation": "Ethics requires privacy, honesty, competence, and appropriate use of data."
+    },
+    {
+      "q": "A Master Black Belt spends time on deployment strategy, portfolio governance, and coaching other belts. What best describes the role?",
+      "options": [
+        "Replaces the finance team",
+        "Only runs small local projects",
+        "Deploys strategy, governs portfolios, coaches, and consults",
+        "Avoids statistical work"
+      ],
+      "correct": 2,
+      "explanation": "MBBs work at the system level: deployment, governance, coaching, and consulting."
+    },
+    {
+      "q": "A strategy deployment team uses an X-matrix. What does the X-matrix link?",
+      "options": [
+        "Only financial budgets",
+        "Individual performance ratings",
+        "Long-term objectives, annual objectives, improvement priorities, and targets",
+        "Control limits and specification limits"
+      ],
+      "correct": 2,
+      "explanation": "The X-matrix visually connects strategic direction to deployment priorities and measures."
+    },
+    {
+      "q": "A company describes a long-term aspirational direction that guides strategy for years. What is the 'True North' in Hoshin Kanri?",
+      "options": [
+        "A control chart rule",
+        "A supplier contract",
+        "A long-term aspirational direction for the organization",
+        "A short-term cost cut"
+      ],
+      "correct": 2,
+      "explanation": "True north describes the organization's long-term aspiration."
+    },
+    {
+      "q": "A leadership team reviews strategy deployment monthly and adjusts plans using PDCA. What is this practice?",
+      "options": [
+        "Focus only on project spend",
+        "Replace daily management",
+        "Apply PDCA at a regular cadence",
+        "Happen only once a year"
+      ],
+      "correct": 2,
+      "explanation": "Frequent review and adjustment keep deployment responsive."
+    },
+    {
+      "q": "A company adopts 25 strategic priorities for the year and struggles to make progress. What is the likely Hoshin failure?",
+      "options": [
+        "Setting too many priorities",
+        "Using too few measures",
+        "Involving too many levels",
+        "Reviewing progress too often"
+      ],
+      "correct": 0,
+      "explanation": "Too many priorities dilute focus and resources."
+    },
+    {
+      "q": "A planner sends a fixed target to departments with no discussion, then wonders why it fails. What did the planner omit?",
+      "options": [
+        "A financial audit",
+        "Iterative dialogue to align goals, resources, and local plans",
+        "A one-way target announcement",
+        "A random sampling method"
+      ],
+      "correct": 1,
+      "explanation": "Catchball is structured two-way alignment between levels."
+    },
+    {
+      "q": "After catchball sessions, what should each function have?",
+      "options": [
+        "A list of excuses",
+        "A single annual meeting",
+        "Documented plans with owners, measures, and review dates",
+        "A longer vision statement"
+      ],
+      "correct": 2,
+      "explanation": "Dialogue must turn into accountable execution plans."
+    },
+    {
+      "q": "A catchball process keeps lowering targets until every team can easily meet them. What went wrong?",
+      "options": [
+        "Aligns functions",
+        "Dilutes every target until it is easy",
+        "Includes local constraints",
+        "Documents agreements"
+      ],
+      "correct": 1,
+      "explanation": "Catchball should preserve strategic intent while making execution feasible."
+    },
+    {
+      "q": "Who should be involved in catchball for a cross-functional goal?",
+      "options": [
+        "Only the executive team",
+        "Only external consultants",
+        "Only the finance department",
+        "Multiple levels and functions affected by the goals"
+      ],
+      "correct": 3,
+      "explanation": "Cross-level and cross-functional dialogue improves alignment."
+    },
+    {
+      "q": "A program defines who decides, who is accountable, and how issues escalate. What does governance define?",
+      "options": [
+        "Decision rights, accountability, and escalation",
+        "The statistical method for each project",
+        "The marketing plan",
+        "The training curriculum only"
+      ],
+      "correct": 0,
+      "explanation": "Governance clarifies who decides and who owns outcomes."
+    },
+    {
+      "q": "A steering committee meets to remove cross-project blockers and allocate resources. What should it focus on?",
+      "options": [
+        "Daily project tasks",
+        "Running statistical analyses",
+        "Writing standard work",
+        "Direction, resources, risks, and cross-project conflicts"
+      ],
+      "correct": 3,
+      "explanation": "Steering committees remove barriers and make portfolio-level decisions."
+    },
+    {
+      "q": "Before funding the next phase, reviewers examine evidence and readiness. What does a phase gate review?",
+      "options": [
+        "Only team attendance",
+        "Only the final report",
+        "Evidence and readiness before the next phase",
+        "Only the project budget"
+      ],
+      "correct": 2,
+      "explanation": "Gates prevent weak work from consuming more resources."
+    },
+    {
+      "q": "A PMO provides oversight and templates, while a business unit owns the benefit. How should accountability be divided?",
+      "options": [
+        "The PMO supports governance; the business owner remains accountable",
+        "The PMO owns all benefits",
+        "The PMO replaces the sponsor",
+        "The PMO avoids reporting"
+      ],
+      "correct": 0,
+      "explanation": "The PMO enables oversight but does not replace business accountability."
+    },
+    {
+      "q": "A company reviews its project portfolio every quarter as capacity and priorities change. Why is this necessary?",
+      "options": [
+        "Finance requires monthly exams",
+        "All projects have equal value",
+        "Priorities, capacity, and evidence change",
+        "Projects never change"
+      ],
+      "correct": 2,
+      "explanation": "Regular rebalancing keeps resources on the highest-value work."
+    },
+    {
+      "q": "A portfolio has explicit criteria for stopping projects that no longer justify investment. What is this practice?",
+      "options": [
+        "Punish project leaders",
+        "Avoid all risk",
+        "Guarantee every project succeeds",
+        "Stop projects that no longer justify investment"
+      ],
+      "correct": 3,
+      "explanation": "Early exits free capacity for better opportunities."
+    },
+    {
+      "q": "A portfolio contains more projects than the available people and capital can deliver. Which constraint was violated?",
+      "options": [
+        "Only the number of ideas",
+        "Only the marketing calendar",
+        "Only external benchmarks",
+        "Available people, capital, and management attention"
+      ],
+      "correct": 3,
+      "explanation": "Capacity is a real constraint on portfolio execution."
+    },
+    {
+      "q": "A portfolio includes both quick wins and large strategic initiatives. What does this provide?",
+      "options": [
+        "Only long-term projects",
+        "Only low-risk projects",
+        "Only projects in one function",
+        "Quick wins and larger strategic projects"
+      ],
+      "correct": 3,
+      "explanation": "Balance builds momentum while pursuing strategic value."
+    },
+    {
+      "q": "Finance reviews a project's baseline, benefit type, timing, and cash impact. What does a benefits realization plan document?",
+      "options": [
+        "Only the number of belts",
+        "The baseline, benefit type, timing, and cash impact",
+        "Only the project schedule",
+        "Only customer satisfaction"
+      ],
+      "correct": 1,
+      "explanation": "Finance validates whether claimed benefits are real and measurable."
+    },
+    {
+      "q": "A project frees capacity but does not immediately reduce spending. What must happen for the benefit to become cash?",
+      "options": [
+        "Double counting",
+        "A control chart",
+        "Validation and possible redeployment to become cash",
+        "No evidence"
+      ],
+      "correct": 2,
+      "explanation": "Soft savings may represent avoided cost or freed capacity, not automatic cash."
+    },
+    {
+      "q": "A PMO compares planned benefits with realized benefits each month. What does a benefits tracker compare?",
+      "options": [
+        "Planned benefits with realized benefits",
+        "Employees with managers",
+        "Control limits with specifications",
+        "Suppliers with customers"
+      ],
+      "correct": 0,
+      "explanation": "Tracking shows whether benefits actually materialize."
+    },
+    {
+      "q": "Two projects both claim the same avoided-cost benefit. Why is this a problem?",
+      "options": [
+        "Improves finance accuracy",
+        "Reduces project risk",
+        "Simplifies governance",
+        "Overstates the value of the portfolio"
+      ],
+      "correct": 3,
+      "explanation": "The same benefit counted twice inflates the business case."
+    },
+    {
+      "q": "A coach structures a conversation around Goal, Reality, Options, and Will. Which model is this?",
+      "options": [
+        "Goal, Result, Output, Work",
+        "Guide, Reflect, Observe, Win",
+        "Goal, Reality, Options, Will",
+        "Grow, Review, Organize, Work"
+      ],
+      "correct": 2,
+      "explanation": "GROW structures a coaching conversation toward action."
+    },
+    {
+      "q": "A manager helps an employee improve a specific presentation skill, while a mentor advises on career development. What distinguishes coaching?",
+      "options": [
+        "Is always longer term",
+        "Avoids feedback",
+        "Requires no expertise",
+        "Focuses on specific performance goals"
+      ],
+      "correct": 3,
+      "explanation": "Coaching targets performance; mentoring is broader development."
+    },
+    {
+      "q": "A coach responds to a team lead's problem by asking what options she has already tried. What is the coach doing?",
+      "options": [
+        "Asks questions that build the coachee's reasoning",
+        "Gives the answer immediately",
+        "Avoids evidence",
+        "Takes over the project"
+      ],
+      "correct": 0,
+      "explanation": "Questions build independent judgment and ownership."
+    },
+    {
+      "q": "A coach takes over a coachee's project and completes the analysis for him. What coaching mistake is this?",
+      "options": [
+        "Following up on actions",
+        "Solving the project for the coachee",
+        "Giving specific feedback",
+        "Observing the work"
+      ],
+      "correct": 1,
+      "explanation": "Coaching should build capability, not create dependency."
+    },
+    {
+      "q": "A capability plan emphasizes challenging assignments first, then relationships, then formal courses. Which principle is this?",
+      "options": [
+        "Experience, relationships, and formal training in that order",
+        "Only classroom training",
+        "Only online courses",
+        "Only certification exams"
+      ],
+      "correct": 0,
+      "explanation": "Most capability develops through challenging work and coaching."
+    },
+    {
+      "q": "A company evaluates belt capability by reviewing project results and demonstrated competence, not just training hours. What is being applied?",
+      "options": [
+        "Demonstrated competence and project results",
+        "Training hours only",
+        "Attendance records",
+        "Number of slides"
+      ],
+      "correct": 0,
+      "explanation": "Application and results matter more than seat time."
+    },
+    {
+      "q": "Practitioners from several sites meet monthly to share methods and solve common problems. What is a community of practice?",
+      "options": [
+        "Eliminating governance",
+        "Avoiding standard work",
+        "Sharing knowledge and solving problems across practitioners",
+        "Replacing all training"
+      ],
+      "correct": 2,
+      "explanation": "Communities connect practitioners and sustain learning."
+    },
+    {
+      "q": "A certification program requires verified project evidence in addition to an exam. Why does this strengthen the certification?",
+      "options": [
+        "Only payment of a fee",
+        "Only attendance",
+        "Verified application and project evidence",
+        "Only a multiple-choice exam"
+      ],
+      "correct": 2,
+      "explanation": "Evidence of application distinguishes capability from test performance."
+    },
+    {
+      "q": "A client asks for a regression analysis but cannot state the decision it will support. What should the consultant do first?",
+      "options": [
+        "Collect more data",
+        "Write the final report",
+        "Clarify the decision and the question",
+        "Choose a favorite test"
+      ],
+      "correct": 2,
+      "explanation": "Method selection follows problem framing."
+    },
+    {
+      "q": "A model uses data from an unknown sampling method and an unclear collection process. Why does data provenance matter?",
+      "options": [
+        "Eliminates uncertainty",
+        "Replaces sensitivity analysis",
+        "Determines whether the data can support the intended inference",
+        "Guarantees normality"
+      ],
+      "correct": 2,
+      "explanation": "Sampling, measurement, and collection methods limit conclusions."
+    },
+    {
+      "q": "A team checks whether its conclusion changes when reasonable alternative assumptions are used. What does sensitivity analysis check?",
+      "options": [
+        "The software is fast",
+        "Conclusions hold under reasonable alternative assumptions",
+        "The p-value is below 0.05",
+        "The sample is large"
+      ],
+      "correct": 1,
+      "explanation": "It tests the robustness of the result."
+    },
+    {
+      "q": "A consultant selects a t-test before understanding the business question. What consulting mistake is this?",
+      "options": [
+        "Documenting data",
+        "Explaining uncertainty",
+        "Starting with a method instead of the question",
+        "Checking assumptions"
+      ],
+      "correct": 2,
+      "explanation": "Method-first consulting can answer the wrong question."
+    },
+    {
+      "q": "An L and D team follows Analysis, Design, Development, Implementation, and Evaluation. Which model is this?",
+      "options": [
+        "Analyze, Define, Deliver, Improve, Evaluate",
+        "Assess, Design, Deploy, Inspect, Explain",
+        "Ask, Develop, Implement, Evaluate",
+        "Analysis, Design, Development, Implementation, Evaluation"
+      ],
+      "correct": 3,
+      "explanation": "ADDIE is a structured instructional design process."
+    },
+    {
+      "q": "A training designer writes an objective that states what learners will be able to demonstrate. What makes it useful?",
+      "options": [
+        "Observable performance that can be assessed",
+        "A vague topic",
+        "The instructor's credentials",
+        "The course length"
+      ],
+      "correct": 0,
+      "explanation": "Clear objectives guide design and evaluation."
+    },
+    {
+      "q": "A training evaluation measures reaction, learning, behavior, and results. Which model is this?",
+      "options": [
+        "Plan, do, check, act",
+        "Define, measure, analyze, improve",
+        "Input, process, output, feedback",
+        "Reaction, learning, behavior, and results"
+      ],
+      "correct": 3,
+      "explanation": "They evaluate training from reaction to business results."
+    },
+    {
+      "q": "A company pairs classroom training with on-the-job coaching and practice. What does this improve?",
+      "options": [
+        "Evaluating satisfaction only",
+        "On-the-job application and coaching",
+        "Lecture-only delivery",
+        "No practice"
+      ],
+      "correct": 1,
+      "explanation": "Transfer requires practice and support in the real work environment."
+    },
+    {
+      "q": "A company applies DFSS across a portfolio with common governance and methods. What is DFSS deployment?",
+      "options": [
+        "Replacing all Lean work",
+        "Applying DFSS across a portfolio with common governance and methods",
+        "Running one isolated design project",
+        "Avoiding customer input"
+      ],
+      "correct": 1,
+      "explanation": "Enterprise DFSS scales design capability across the organization."
+    },
+    {
+      "q": "A design team translates customer requirements into measurable design requirements. What does quality function deployment translate?",
+      "options": [
+        "Costs into budgets",
+        "Projects into portfolios",
+        "Customer requirements into measurable design requirements",
+        "Control limits into specifications"
+      ],
+      "correct": 2,
+      "explanation": "CTQs connect voice of the customer to design decisions."
+    },
+    {
+      "q": "A design team includes key suppliers during concept development. Why?",
+      "options": [
+        "Replace customer research",
+        "Reduce design risk, rework, and launch delays",
+        "Increase paperwork",
+        "Avoid verification"
+      ],
+      "correct": 1,
+      "explanation": "Supplier capability affects design feasibility and quality."
+    },
+    {
+      "q": "A team is making a low-risk minor change to an existing process. Full DFSS is least appropriate for what?",
+      "options": [
+        "A low-risk minor change to an existing process",
+        "A new product platform",
+        "A new service design",
+        "A complex new facility"
+      ],
+      "correct": 0,
+      "explanation": "Scale the rigor to the risk and novelty of the design."
+    },
+    {
+      "q": "A transformation leader begins by showing why the status quo is untenable. Which Kotter step is this?",
+      "options": [
+        "Create a sense of urgency",
+        "Declare victory",
+        "Reward the old behavior",
+        "Avoid communication"
+      ],
+      "correct": 0,
+      "explanation": "Urgency motivates action and coalition building."
+    },
+    {
+      "q": "A transformation succeeds because middle managers translate direction into daily work. Why are middle managers critical?",
+      "options": [
+        "Replace executive sponsorship",
+        "Translate direction into daily work and influence adoption",
+        "Only approve budgets",
+        "Avoid front-line contact"
+      ],
+      "correct": 1,
+      "explanation": "They connect leadership intent with operational reality."
+    },
+    {
+      "q": "A change program celebrates visible early results. Why are short-term wins important?",
+      "options": [
+        "Avoid measurement",
+        "Build momentum and demonstrate that change can work",
+        "Replace the vision",
+        "End the change effort"
+      ],
+      "correct": 1,
+      "explanation": "Visible early results sustain commitment."
+    },
+    {
+      "q": "A company embeds a new process in roles, incentives, and routines after launch. What does sustaining change mean?",
+      "options": [
+        "Removing all controls",
+        "Returning to old methods",
+        "Embedding it in roles, incentives, processes, and culture",
+        "Announcing it once"
+      ],
+      "correct": 2,
+      "explanation": "Anchoring prevents reversion after the launch."
+    },
+    {
+      "q": "A company wants to change culture by changing leader behavior, routines, metrics, and rewards. What is the main lever?",
+      "options": [
+        "Leader behavior, routines, metrics, and rewards",
+        "Posters and slogans",
+        "The building layout only",
+        "External advertising"
+      ],
+      "correct": 0,
+      "explanation": "What leaders do and reward signals what matters."
+    },
+    {
+      "q": "A transformation team encourages people to raise errors without fear. What is psychological safety?",
+      "options": [
+        "Avoiding accountability",
+        "Eliminating standards",
+        "Discouraging questions",
+        "Letting people raise problems and errors without fear"
+      ],
+      "correct": 3,
+      "explanation": "Hidden problems cannot be solved."
+    },
+    {
+      "q": "Leaders follow a documented daily routine of gemba walks, reviews, and coaching. What is leader standard work?",
+      "options": [
+        "A documented routine of leader behaviors that reinforce the operating system",
+        "A list of financial targets",
+        "A project charter",
+        "A control chart"
+      ],
+      "correct": 0,
+      "explanation": "It makes culture visible through daily actions."
+    },
+    {
+      "q": "A culture program relies on posters and slogans without changing systems or behavior. Why is it likely to fail?",
+      "options": [
+        "Slogans without changes in behavior or systems",
+        "Leader modeling",
+        "Aligned rewards",
+        "Daily routines"
+      ],
+      "correct": 0,
+      "explanation": "Slogans alone do not change behavior."
+    },
+    {
+      "q": "A strategy review uses financial, customer, internal process, and learning and growth perspectives. What four perspectives make up the Balanced Scorecard?",
+      "options": [
+        "Cost, speed, quality, and risk",
+        "Define, measure, analyze, and improve",
+        "Plan, do, check, and act",
+        "Financial, customer, internal process, and learning and growth"
+      ],
+      "correct": 3,
+      "explanation": "It balances results with the drivers of future performance."
+    },
+    {
+      "q": "A company displays cause-and-effect links among strategic objectives. What does a strategy map show?",
+      "options": [
+        "A project schedule",
+        "A control chart",
+        "Cause-and-effect links between strategic objectives",
+        "Only financial results"
+      ],
+      "correct": 2,
+      "explanation": "The map explains how capabilities and processes drive outcomes."
+    },
+    {
+      "q": "A metric predicts future customer retention rather than confirming past results. What type of measure is this?",
+      "options": [
+        "Predicts future results",
+        "Confirms past results only",
+        "Is always financial",
+        "Cannot be tracked"
+      ],
+      "correct": 0,
+      "explanation": "Leading measures provide early signals about future performance."
+    },
+    {
+      "q": "A scorecard lists 60 unrelated KPIs with no strategic focus. What scorecard mistake is this?",
+      "options": [
+        "Reviewing results",
+        "Balancing perspectives",
+        "Creating a KPI dump with no strategic focus",
+        "Using a strategy map"
+      ],
+      "correct": 2,
+      "explanation": "Too many unrelated measures dilute attention."
+    },
+    {
+      "q": "A benchmark study compares both results and the practices that enable them. Benchmarking should compare what?",
+      "options": [
+        "Only prices",
+        "Only marketing materials",
+        "Only organizational charts",
+        "Both results and enabling practices"
+      ],
+      "correct": 3,
+      "explanation": "Understanding practices explains why results differ."
+    },
+    {
+      "q": "A benchmark compares defect rates across plants of different sizes and product mixes. What does normalization ensure?",
+      "options": [
+        "That all metrics are ignored",
+        "That competitors share data",
+        "That results are always identical",
+        "Fair comparison despite differences in scale or mix"
+      ],
+      "correct": 3,
+      "explanation": "Normalization prevents apples-to-oranges comparisons."
+    },
+    {
+      "q": "A hospital benchmarks its scheduling process against an airline's boarding process. What is functional benchmarking?",
+      "options": [
+        "A similar process across different industries or organizations",
+        "Only direct competitors",
+        "Only internal departments",
+        "Only financial ratios"
+      ],
+      "correct": 0,
+      "explanation": "Functional benchmarking looks beyond the industry for best practice."
+    },
+    {
+      "q": "After a benchmark study, what should the organization do with the practice it studied?",
+      "options": [
+        "Copy the practice exactly",
+        "Avoid measurement",
+        "Adapt, pilot, implement, and measure the practice",
+        "File the report and stop"
+      ],
+      "correct": 2,
+      "explanation": "Learning must turn into adapted action."
+    },
+    {
+      "q": "A plant connects machines with IoT sensors, cloud analytics, and cyber-physical systems. What is Industry 4.0?",
+      "options": [
+        "Only manual assembly",
+        "Only financial accounting",
+        "Only traditional SPC",
+        "IoT, cyber-physical systems, cloud, automation, and advanced analytics"
+      ],
+      "correct": 3,
+      "explanation": "Industry 4.0 connects physical operations with digital data and intelligence."
+    },
+    {
+      "q": "A model estimates which customers are likely to churn next quarter. What is this use of analytics?",
+      "options": [
+        "Describe past data only",
+        "Replace all process knowledge",
+        "Avoid data quality",
+        "Estimate future outcomes or risk"
+      ],
+      "correct": 3,
+      "explanation": "Predictive models support decisions before events occur."
+    },
+    {
+      "q": "A manufacturer maintains a virtual model of a production line for simulation and monitoring. What is a digital twin?",
+      "options": [
+        "A duplicate paper record",
+        "A type of control chart",
+        "A financial audit",
+        "A virtual model of a physical asset or process"
+      ],
+      "correct": 3,
+      "explanation": "Digital twins support monitoring, simulation, and optimization."
+    },
+    {
+      "q": "A company buys an analytics platform before defining a decision or value case. What analytics failure does this illustrate?",
+      "options": [
+        "Defining the problem first",
+        "Validating the model",
+        "Monitoring performance",
+        "Technology-first projects without a decision or value case"
+      ],
+      "correct": 3,
+      "explanation": "Analytics must serve a real decision and business need."
+    },
+    {
+      "q": "A company defines who owns data, how quality is ensured, and who can access it. What does data governance cover?",
+      "options": [
+        "Only marketing content",
+        "Only project schedules",
+        "Ownership, quality, access, retention, and lifecycle controls",
+        "Only software licenses"
+      ],
+      "correct": 2,
+      "explanation": "Governance makes data trustworthy and responsibly used."
+    },
+    {
+      "q": "A business unit assigns someone to maintain data quality, meaning, and appropriate use. What is a data steward responsible for?",
+      "options": [
+        "Only hardware maintenance",
+        "Only financial reporting",
+        "Only user training",
+        "Data quality, meaning, and appropriate use"
+      ],
+      "correct": 3,
+      "explanation": "Stewards manage data on behalf of the business."
+    },
+    {
+      "q": "A model performs well overall but harms one demographic group. Why is bias testing important?",
+      "options": [
+        "It eliminates the need for data governance",
+        "Models can produce unfair or harmful outcomes across groups",
+        "It guarantees perfect predictions",
+        "It replaces human oversight"
+      ],
+      "correct": 1,
+      "explanation": "Biased data or design can lead to discriminatory decisions."
+    },
+    {
+      "q": "A high-stakes model makes recommendations, but a person can review and override them. What is human-in-the-loop review?",
+      "options": [
+        "A person can review or override model decisions",
+        "The model is never monitored",
+        "No one is accountable",
+        "All decisions are automated"
+      ],
+      "correct": 0,
+      "explanation": "Oversight supports accountability and safety."
+    },
+    {
+      "q": "A company wants guidance on Six Sigma roles and DMAIC. What does ISO 13053 cover?",
+      "options": [
+        "Environmental permits",
+        "Six Sigma methods, roles, and DMAIC",
+        "Financial auditing",
+        "Software licensing"
+      ],
+      "correct": 1,
+      "explanation": "It is an international reference for Six Sigma practice."
+    },
+    {
+      "q": "A site claims that ISO 13053 certification guarantees zero defects. What does ISO 13053 actually provide?",
+      "options": [
+        "Profit growth",
+        "Perfect projects",
+        "Zero defects",
+        "Consistent guidance, not guaranteed business results"
+      ],
+      "correct": 3,
+      "explanation": "The standard supports practice; results depend on execution."
+    },
+    {
+      "q": "A multinational wants a common language for Six Sigma roles and methods across sites. What does ISO 13053 provide?",
+      "options": [
+        "No governance",
+        "A common language for roles, methods, and expectations",
+        "Less need for data",
+        "Automatic certification"
+      ],
+      "correct": 1,
+      "explanation": "Common standards improve consistency and comparability."
+    },
+    {
+      "q": "A company creates extensive documentation for ISO 13053 but does not change practice. What should it avoid?",
+      "options": [
+        "Reviewing deployment",
+        "Becoming a paperwork exercise without practice change",
+        "Aligning roles",
+        "Training practitioners"
+      ],
+      "correct": 1,
+      "explanation": "The goal is capability, not documentation alone."
+    },
+    {
+      "q": "A certification program publishes the topics and competencies candidates must know. What is a Body of Knowledge?",
+      "options": [
+        "A control chart",
+        "A financial statement",
+        "The topics and competencies expected for a certification",
+        "A company's strategy"
+      ],
+      "correct": 2,
+      "explanation": "It guides curriculum and assessment."
+    },
+    {
+      "q": "A candidate compares certification requirements from two professional bodies that publish Bodies of Knowledge. What are ASQ and IASSC?",
+      "options": [
+        "Certification bodies with defined Bodies of Knowledge",
+        "Statistical software packages",
+        "Control chart types",
+        "Sampling distributions"
+      ],
+      "correct": 0,
+      "explanation": "Both organizations publish certification standards."
+    },
+    {
+      "q": "A certification requires a verified improvement project. What does this demonstrate?",
+      "options": [
+        "Only exam speed",
+        "Only attendance",
+        "Only membership",
+        "That knowledge can be applied in practice"
+      ],
+      "correct": 3,
+      "explanation": "Application is different from test performance."
+    },
+    {
+      "q": "An employer compares ASQ and IASSC certifications and finds different requirements. The employer should conclude that the certifications are:",
+      "options": [
+        "Only financial credentials",
+        "Not recognized by employers",
+        "Different in requirements and bodies of knowledge",
+        "Always identical"
+      ],
+      "correct": 2,
+      "explanation": "Organizations should compare requirements carefully."
+    },
+    {
+      "q": "A certification body assesses both knowledge and practical application. What makes this approach rigorous?",
+      "options": [
+        "Both knowledge and practical application",
+        "Only payment",
+        "Only popularity",
+        "Only years of service"
+      ],
+      "correct": 0,
+      "explanation": "Knowledge and application together build credibility."
+    },
+    {
+      "q": "A consultant is offered work outside her statistical expertise. What does working within competence require?",
+      "options": [
+        "Accepting every assignment",
+        "Avoiding all statistics",
+        "Hiding limitations",
+        "Practicing only where you have the knowledge and skill to be reliable"
+      ],
+      "correct": 3,
+      "explanation": "Competence boundaries protect clients and the profession."
+    },
+    {
+      "q": "A professional body requires periodic recertification. What is its purpose?",
+      "options": [
+        "Ensure practitioners maintain current knowledge and skills",
+        "Increase fees only",
+        "Replace project evidence",
+        "Avoid ethics"
+      ],
+      "correct": 0,
+      "explanation": "Methods and standards evolve over time."
+    },
+    {
+      "q": "A certified practitioner is asked to alter results to please a leader. Which ethical principle applies?",
+      "options": [
+        "Confidentiality, integrity, and truthful reporting",
+        "Changing results to please leaders",
+        "Claiming credentials you do not hold",
+        "Ignoring conflicts of interest"
+      ],
+      "correct": 0,
+      "explanation": "Ethics protect trust in the profession."
+    },
+    {
+      "q": "A transformation leader focuses on belief, commitment, and culture while a project manager tracks tasks. What distinguishes change leadership?",
+      "options": [
+        "Only tracks tasks and budgets",
+        "Avoids communication",
+        "Ignores culture",
+        "Builds belief, commitment, and sustained attention"
+      ],
+      "correct": 3,
+      "explanation": "Change leadership addresses the human and political side of transformation."
+    },
+    {
+      "q": "Employees adopt a new process because leaders visibly follow it. How do leaders model change?",
+      "options": [
+        "Delegating all behavior",
+        "Avoiding visibility",
+        "Consistent actions and decisions",
+        "Announcements only"
+      ],
+      "correct": 2,
+      "explanation": "People watch what leaders do more than what they say."
+    },
+    {
+      "q": "During a change, employees raise concerns about workload and training. Resistance should be treated as what?",
+      "options": [
+        "A purely personal defect",
+        "Information about barriers and concerns",
+        "Disloyalty",
+        "A reason to stop listening"
+      ],
+      "correct": 1,
+      "explanation": "Resistance often reveals real risks or unmet needs."
+    },
+    {
+      "q": "A transformation is led by managers, supervisors, and frontline coaches across functions. What is distributed leadership?",
+      "options": [
+        "Change leadership shared across levels and functions",
+        "Only the CEO leads",
+        "No one is accountable",
+        "Leadership is outsourced"
+      ],
+      "correct": 0,
+      "explanation": "Broad ownership increases reach and sustainability."
+    },
+    {
+      "q": "A PMO identifies, plans, measures, tracks, and sustains benefits after project closure. What is benefits management?",
+      "options": [
+        "Only cost cutting",
+        "Only customer surveys",
+        "Identifying, planning, measuring, tracking, and sustaining benefits",
+        "Only project closure"
+      ],
+      "correct": 2,
+      "explanation": "Benefits must be managed beyond project delivery."
+    },
+    {
+      "q": "A named manager is accountable for tracking and realizing a specific benefit. What is a benefit owner responsible for?",
+      "options": [
+        "Only running meetings",
+        "Tracking and realizing a defined benefit",
+        "Only approving expenses",
+        "Only writing the charter"
+      ],
+      "correct": 1,
+      "explanation": "Ownership prevents benefits from being orphaned."
+    },
+    {
+      "q": "A project delivers a new dashboard, which then improves decision speed. What is a benefit?",
+      "options": [
+        "A meeting",
+        "A change in performance or behavior",
+        "A delivered document",
+        "A project task"
+      ],
+      "correct": 1,
+      "explanation": "Outputs enable outcomes, but outcomes create value."
+    },
+    {
+      "q": "Six months after launch, a team compares actual benefits with the business case. What is a benefits realization review?",
+      "options": [
+        "Stop all measurement",
+        "Verify whether promised benefits were realized",
+        "Celebrate launch only",
+        "Ignore finance"
+      ],
+      "correct": 1,
+      "explanation": "Reviews compare actual results with the business case."
+    },
+    {
+      "q": "A company wants to deploy a new operating system. Which sequence is sensible?",
+      "options": [
+        "Train only, then stop",
+        "Mobilize, design, pilot, scale, and sustain",
+        "Scale, pilot, design, mobilize, stop",
+        "Launch everywhere at once"
+      ],
+      "correct": 1,
+      "explanation": "The sequence builds evidence and capability before expansion."
+    },
+    {
+      "q": "A company pilots a new method at two sites before scaling it. Why?",
+      "options": [
+        "Avoiding all measurement",
+        "Eliminating sponsorship",
+        "Guaranteeing success",
+        "Testing the approach and building capability with limited risk"
+      ],
+      "correct": 3,
+      "explanation": "Pilots generate learning before wider commitment."
+    },
+    {
+      "q": "After a deployment launch, which elements are needed to sustain results?",
+      "options": [
+        "Ownership, routines, measurement, and reinforcement",
+        "A single launch event",
+        "No governance",
+        "No capability building"
+      ],
+      "correct": 0,
+      "explanation": "Without reinforcement, results erode after launch."
+    },
+    {
+      "q": "A company scales a new method to all sites before building capability or sponsorship. What deployment failure is this?",
+      "options": [
+        "Building internal coaches",
+        "Reviewing benefits",
+        "Scaling before capability and sponsorship are in place",
+        "Piloting first"
+      ],
+      "correct": 2,
+      "explanation": "Premature scaling spreads weakness instead of capability."
+    },
+    {
+      "q": "A Master Black Belt capstone integrates strategy, governance, portfolio, capability, change, and benefits. What does this reflect?",
+      "options": [
+        "Only statistical tests",
+        "Only training delivery",
+        "Only project charters",
+        "Strategy, governance, portfolio, capability, change, and benefits"
+      ],
+      "correct": 3,
+      "explanation": "Deployment leadership requires an integrated system view."
+    },
+    {
+      "q": "A deployment expands to new sites by adapting proven practices to local conditions. What should scaling focus on?",
+      "options": [
+        "Expanding what works with capable people and local adaptation",
+        "Copying every detail without context",
+        "Removing measurement",
+        "Abandoning governance"
+      ],
+      "correct": 0,
+      "explanation": "Scale proven practices while adapting to local conditions."
+    }
+  ]
+}

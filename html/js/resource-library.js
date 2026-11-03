@@ -48,7 +48,9 @@
                         ${saved ? `<a href="my-project.html" class="saved-count"><i class="fas fa-folder-check me-1"></i>${saved} saved</a>` : '<span class="text-muted small">No saved copies</span>'}
                         ${unlocked
                             ? `<a class="btn btn-sm btn-primary" href="${editorLink}">${saved ? "New copy" : "Open template"}<i class="fas fa-arrow-right ms-1"></i></a>`
-                            : `<a class="btn btn-sm btn-outline-secondary" href="profile.html#beltLevel"><i class="fas fa-lock me-1"></i>Unlock at ${S.escapeHtml(S.beltName(template.minBelt))}</a>`}
+                            : S.isApiUser()
+                                ? `<a class="btn btn-sm btn-outline-secondary" href="quizzes.html?belt=${encodeURIComponent(template.minBelt)}"><i class="fas fa-lock me-1"></i>Pass ${S.escapeHtml(S.beltName(template.minBelt))} exam</a>`
+                                : `<a class="btn btn-sm btn-outline-secondary" href="profile.html#beltLevel"><i class="fas fa-lock me-1"></i>Unlock at ${S.escapeHtml(S.beltName(template.minBelt))}</a>`}
                     </div>
                 </article>
             </div>`;
@@ -82,5 +84,16 @@
     }
 
     root.renderResourceLibrary = renderResourceLibrary;
-    document.addEventListener("DOMContentLoaded", renderResourceLibrary);
+    document.addEventListener("DOMContentLoaded", async function () {
+        if (root.sessionReady) await root.sessionReady;
+        const S = root.ResourceStore;
+        if (S && S.refreshCopies) {
+            try {
+                await S.refreshCopies();
+            } catch (error) {
+                console.warn(error.message);
+            }
+        }
+        renderResourceLibrary();
+    });
 }(typeof globalThis !== "undefined" ? globalThis : this));

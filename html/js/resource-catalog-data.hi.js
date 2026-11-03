@@ -1,0 +1,1840 @@
+// Auto-generated from data/i18n/hi/resources.json. Do not edit by hand.
+// Run: node scripts/build-localized-data.js
+(function (root) {
+    "use strict";
+    var catalog = {
+  "version": 1,
+  "templates": [
+    {
+      "id": "project-charter",
+      "title": "परियोजना चार्टर",
+      "phase": "Define",
+      "minBelt": "white",
+      "icon": "fa-file-signature",
+      "estimatedMinutes": 30,
+      "description": "समस्या, लक्ष्य, कार्यक्षेत्र, टीम, मेट्रिक्स और मील के पत्थर को परिभाषित करके परियोजना को अधिकृत करें।",
+      "fields": [
+        {
+          "key": "projectName",
+          "label": "प्रोजेक्ट का नाम",
+          "type": "text",
+          "section": "परियोजना की मूल बातें",
+          "required": true,
+          "wide": true,
+          "placeholder": "बॉटलिंग लाइन भराव भिन्नता को कम करें"
+        },
+        {
+          "key": "projectLead",
+          "label": "प्रोजेक्ट लीड",
+          "type": "text",
+          "placeholder": "नाम और बेल्ट स्तर"
+        },
+        {
+          "key": "sponsor",
+          "label": "कार्यकारी प्रायोजक",
+          "type": "text",
+          "placeholder": "नाम और भूमिका"
+        },
+        {
+          "key": "startDate",
+          "label": "आरंभ करने की तिथि",
+          "type": "date"
+        },
+        {
+          "key": "targetDate",
+          "label": "लक्ष्य पूरा करना",
+          "type": "date"
+        },
+        {
+          "key": "problemStatement",
+          "label": "समस्या का विवरण",
+          "type": "textarea",
+          "section": "व्यापारिक मामला",
+          "required": true,
+          "rows": 3,
+          "wide": true,
+          "help": "बताएं कि क्या गलत है, कहां, कब और कितना। कारणों और समाधानों से बचें.",
+          "placeholder": "जनवरी से मार्च तक, लाइन 2 ने 4.2% कम भरी बोतलों का उत्पादन किया..."
+        },
+        {
+          "key": "businessCase",
+          "label": "व्यापारिक मामला",
+          "type": "textarea",
+          "section": "व्यापारिक मामला",
+          "required": true,
+          "rows": 3,
+          "wide": true,
+          "placeholder": "ग्राहक, लागत, अनुपालन या रणनीतिक प्रभाव के बारे में बताएं।"
+        },
+        {
+          "key": "goalStatement",
+          "label": "गोल स्टेटमेंट",
+          "type": "textarea",
+          "section": "व्यापारिक मामला",
+          "required": true,
+          "rows": 2,
+          "wide": true,
+          "help": "एक मीट्रिक, आधार रेखा, लक्ष्य और समय सीमा शामिल करें।",
+          "placeholder": "30 जून तक भराव भिन्नता को 3.8 मिली से घटाकर 1.5 मिली कर दें।"
+        },
+        {
+          "key": "scopeIn",
+          "label": "दायरे में",
+          "type": "textarea",
+          "section": "दायरा",
+          "rows": 3,
+          "placeholder": "पंक्ति 2 भराव, परिवर्तन, ऑपरेटर विधि, और भरण निरीक्षण।"
+        },
+        {
+          "key": "scopeOut",
+          "label": "दायरे से बाहर",
+          "type": "textarea",
+          "section": "दायरा",
+          "rows": 3,
+          "placeholder": "बोतल आपूर्तिकर्ता नया डिज़ाइन, पंक्ति 1, और गोदाम प्रबंधन।"
+        },
+        {
+          "key": "successMetrics",
+          "label": "सफलता के मेट्रिक्स",
+          "type": "table",
+          "section": "पैमाने",
+          "required": true,
+          "minRows": 3,
+          "columns": [
+            {
+              "key": "metric",
+              "label": "मीट्रिक",
+              "type": "text",
+              "placeholder": "मात्रा मानक विचलन भरें"
+            },
+            {
+              "key": "baseline",
+              "label": "आधारभूत",
+              "type": "text",
+              "placeholder": "3.8 मि.ली"
+            },
+            {
+              "key": "target",
+              "label": "लक्ष्य",
+              "type": "text",
+              "placeholder": "1.5 मि.ली"
+            },
+            {
+              "key": "dataSource",
+              "label": "डेटा स्रोत",
+              "type": "text",
+              "placeholder": "गेज भरें"
+            }
+          ]
+        },
+        {
+          "key": "team",
+          "label": "मूल समूह",
+          "type": "table",
+          "section": "टीम और मील के पत्थर",
+          "required": true,
+          "minRows": 3,
+          "columns": [
+            {
+              "key": "name",
+              "label": "नाम",
+              "type": "text"
+            },
+            {
+              "key": "role",
+              "label": "भूमिका",
+              "type": "text",
+              "placeholder": "प्रायोजक, नेतृत्व, संचालक"
+            },
+            {
+              "key": "responsibility",
+              "label": "ज़िम्मेदारी",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "key": "milestones",
+          "label": "मील के पत्थर",
+          "type": "table",
+          "section": "टीम और मील के पत्थर",
+          "required": true,
+          "minRows": 3,
+          "columns": [
+            {
+              "key": "milestone",
+              "label": "मील का पत्थर",
+              "type": "text",
+              "placeholder": "गेट को परिभाषित करें"
+            },
+            {
+              "key": "date",
+              "label": "Date",
+              "type": "date"
+            },
+            {
+              "key": "status",
+              "label": "स्थिति",
+              "type": "select",
+              "options": [
+                "की योजना बनाई",
+                "प्रगति पर है",
+                "पूरा",
+                "ख़तरे में"
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "projectName": "बॉटलिंग लाइन भराव भिन्नता को कम करें",
+        "projectLead": "जॉर्डन ली - ग्रीन बेल्ट",
+        "sponsor": "प्रिया शाह - प्लांट मैनेजर",
+        "startDate": "2026-01-12",
+        "targetDate": "2026-06-30",
+        "problemStatement": "जनवरी से मार्च तक, लाइन 2 ने 4.2% कम भरी हुई बोतलें और 2.1% अधिक भरी हुई बोतलों का उत्पादन किया, जिससे पुनः कार्य और ग्राहक शिकायतें पैदा हुईं।",
+        "businessCase": "भरण भिन्नता के कारण उत्पाद वितरण, पुनः कार्य और शीघ्र प्रतिस्थापन आदेशों में अनुमानित $84,000 की वार्षिक हानि होती है।",
+        "goalStatement": "30 जून 2026 तक भराव मात्रा मानक विचलन को 3.8 मिली से घटाकर 1.5 मिली और 499.5 मिली से कम अंडरफिल को खत्म करें।",
+        "scopeIn": "लाइन 2 फिलर, चेंजओवर विधि, ऑपरेटर सेटअप जांच, फिल गेज और शिफ्ट हैंडऑफ।",
+        "scopeOut": "बोतल आपूर्तिकर्ता का नया स्वरूप, पंक्ति 1, गोदाम प्रबंधन और ग्राहक पैकेजिंग परिवर्तन।",
+        "successMetrics": [
+          {
+            "metric": "मात्रा मानक विचलन भरें",
+            "baseline": "3.8 मि.ली",
+            "target": "1.5 मि.ली",
+            "dataSource": "गेज भरें"
+          },
+          {
+            "metric": "अंडरफ़िल दर",
+            "baseline": "4.2%",
+            "target": "0.5%",
+            "dataSource": "क्यूए निरीक्षण"
+          },
+          {
+            "metric": "वार्षिक उपहार लागत",
+            "baseline": "$84,000",
+            "target": "$20,000",
+            "dataSource": "वित्त रिपोर्ट"
+          }
+        ],
+        "team": [
+          {
+            "name": "जॉर्डन ली",
+            "role": "प्रोजेक्ट लीड",
+            "responsibility": "DMAIC निष्पादन और टीम सुविधा"
+          },
+          {
+            "name": "प्रिया शाह",
+            "role": "प्रायोजक",
+            "responsibility": "संसाधन और गेट अनुमोदन"
+          },
+          {
+            "name": "मातेओ रुइज़",
+            "role": "लाइन ऑपरेटर",
+            "responsibility": "प्रक्रिया ज्ञान और डेटा संग्रह"
+          },
+          {
+            "name": "एवरी चेन",
+            "role": "रखरखाव",
+            "responsibility": "भराव अंशांकन और मरम्मत"
+          }
+        ],
+        "milestones": [
+          {
+            "milestone": "गेट को परिभाषित करें",
+            "date": "2026-01-26",
+            "status": "पूरा"
+          },
+          {
+            "milestone": "गेट मापें",
+            "date": "2026-03-06",
+            "status": "प्रगति पर है"
+          },
+          {
+            "milestone": "पायलट सुधारें",
+            "date": "2026-05-15",
+            "status": "की योजना बनाई"
+          },
+          {
+            "milestone": "हैंडऑफ़ पर नियंत्रण रखें",
+            "date": "2026-06-30",
+            "status": "की योजना बनाई"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sipoc",
+      "title": "SIPOC",
+      "phase": "Define",
+      "minBelt": "white",
+      "icon": "fa-diagram-project",
+      "estimatedMinutes": 25,
+      "description": "आपूर्तिकर्ताओं, इनपुट, प्रक्रिया चरणों, आउटपुट और ग्राहकों को उच्च स्तर पर मैप करें।",
+      "fields": [
+        {
+          "key": "processName",
+          "label": "प्रक्रिया नाम",
+          "type": "text",
+          "section": "प्रक्रिया सीमाएँ",
+          "required": true,
+          "wide": true,
+          "placeholder": "बॉटलिंग लाइन 2 भरने और कैप लगाने की प्रक्रिया"
+        },
+        {
+          "key": "owner",
+          "label": "प्रोसेस ओनर",
+          "type": "text",
+          "section": "प्रक्रिया सीमाएँ"
+        },
+        {
+          "key": "startPoint",
+          "label": "कब शुरू होता है",
+          "type": "text",
+          "section": "प्रक्रिया सीमाएँ",
+          "placeholder": "खाली बोतलें भराव में प्रवेश करती हैं"
+        },
+        {
+          "key": "endPoint",
+          "label": "कब समाप्त होता है",
+          "type": "text",
+          "section": "प्रक्रिया सीमाएँ",
+          "placeholder": "ढकी हुई बोतलें लेबलर में प्रवेश करती हैं"
+        },
+        {
+          "key": "sipocRows",
+          "label": "एसआईपीओसी मानचित्र",
+          "type": "table",
+          "section": "एसआईपीओसी मानचित्र",
+          "required": true,
+          "minRows": 5,
+          "help": "पंक्तियाँ मुख्य प्रवाह दर्शाती हैं। एक आपूर्तिकर्ता एक से अधिक इनपुट फ़ीड कर सकता है और एक चरण कई आउटपुट उत्पन्न कर सकता है।",
+          "columns": [
+            {
+              "key": "supplier",
+              "label": "देने वाला",
+              "type": "text",
+              "placeholder": "बोतल आपूर्तिकर्ता"
+            },
+            {
+              "key": "input",
+              "label": "इनपुट",
+              "type": "text",
+              "placeholder": "500 मिलीलीटर की बोतल साफ करें"
+            },
+            {
+              "key": "step",
+              "label": "प्रक्रिया चरण",
+              "type": "text",
+              "placeholder": "बोतल भरें"
+            },
+            {
+              "key": "output",
+              "label": "उत्पादन",
+              "type": "text",
+              "placeholder": "भरी हुई बोतल"
+            },
+            {
+              "key": "customer",
+              "label": "ग्राहक",
+              "type": "text",
+              "placeholder": "कैप स्टेशन"
+            }
+          ]
+        },
+        {
+          "key": "notes",
+          "label": "सीमा नोट और धारणाएँ",
+          "type": "textarea",
+          "section": "एसआईपीओसी मानचित्र",
+          "rows": 3,
+          "wide": true
+        }
+      ],
+      "example": {
+        "processName": "बॉटलिंग लाइन 2 भरने और कैप लगाने की प्रक्रिया",
+        "owner": "प्रिया शाह",
+        "startPoint": "खाली बोतलें भराव में प्रवेश करती हैं",
+        "endPoint": "ढकी हुई बोतलें लेबलर में प्रवेश करती हैं",
+        "sipocRows": [
+          {
+            "supplier": "बोतल आपूर्तिकर्ता",
+            "input": "500 मिलीलीटर की बोतल साफ करें",
+            "step": "Load bottles",
+            "output": "संरेखित बोतल धारा",
+            "customer": "भरनेवाला"
+          },
+          {
+            "supplier": "उत्पाद टैंक",
+            "input": "तैयार पेय",
+            "step": "Fill bottle",
+            "output": "भरी हुई बोतल",
+            "customer": "कैप स्टेशन"
+          },
+          {
+            "supplier": "टोपी आपूर्तिकर्ता",
+            "input": "कैप और लाइनर",
+            "step": "Place and torque cap",
+            "output": "ढकी हुई बोतल",
+            "customer": "लेबलर"
+          },
+          {
+            "supplier": "रखरखाव",
+            "input": "कैलिब्रेटेड भराव",
+            "step": "Verify fill weight",
+            "output": "निरीक्षण रिकार्ड भरें",
+            "customer": "QA"
+          },
+          {
+            "supplier": "QA",
+            "input": "नमूनाकरण मानक",
+            "step": "Release lot",
+            "output": "उत्पादन लॉट जारी किया",
+            "customer": "गोदाम"
+          }
+        ],
+        "notes": "बोतल उतारने के बाद दायरा शुरू होता है और लेबलिंग से पहले समाप्त होता है। उत्पाद टैंक परिवर्तन शामिल हैं; आपूर्तिकर्ता बोतल डिज़ाइन को बाहर रखा गया है।"
+      }
+    },
+    {
+      "id": "voc-sheet",
+      "title": "वीओसी शीट",
+      "phase": "Define",
+      "minBelt": "yellow",
+      "icon": "fa-comments",
+      "estimatedMinutes": 30,
+      "description": "CTQ में अनुवाद करने से पहले ग्राहकों की आवाज़, ज़रूरतें, स्रोत और प्राथमिकता को कैप्चर करें।",
+      "fields": [
+        {
+          "key": "projectName",
+          "label": "प्रोजेक्ट का नाम",
+          "type": "text",
+          "section": "अनुसंधान का दायरा",
+          "required": true,
+          "wide": true
+        },
+        {
+          "key": "customerSegment",
+          "label": "ग्राहक क्षेत्र",
+          "type": "text",
+          "section": "अनुसंधान का दायरा",
+          "placeholder": "खुदरा बोतलबंद ग्राहक"
+        },
+        {
+          "key": "method",
+          "label": "संग्रहण विधि",
+          "type": "select",
+          "section": "अनुसंधान का दायरा",
+          "options": [
+            "साक्षात्कार",
+            "फोकस समूह",
+            "सर्वे",
+            "शिकायतों",
+            "सामाजिक श्रवण",
+            "अवलोकन",
+            "मिश्रित"
+          ]
+        },
+        {
+          "key": "sampleSize",
+          "label": "लोगों या अभिलेखों की समीक्षा की गई",
+          "type": "number",
+          "section": "अनुसंधान का दायरा",
+          "min": 1
+        },
+        {
+          "key": "period",
+          "label": "संग्रहण अवधि",
+          "type": "text",
+          "section": "अनुसंधान का दायरा",
+          "placeholder": "जनवरी-मार्च 2026"
+        },
+        {
+          "key": "voices",
+          "label": "ग्राहक की आवाजें",
+          "type": "table",
+          "section": "ग्राहक की आवाज",
+          "required": true,
+          "minRows": 4,
+          "columns": [
+            {
+              "key": "customer",
+              "label": "ग्राहक",
+              "type": "text",
+              "placeholder": "खुदरा क्रेता"
+            },
+            {
+              "key": "verbatim",
+              "label": "शब्दशः या अवलोकन",
+              "type": "text"
+            },
+            {
+              "key": "need",
+              "label": "अंतर्निहित आवश्यकता",
+              "type": "text"
+            },
+            {
+              "key": "source",
+              "label": "स्रोत",
+              "type": "text",
+              "placeholder": "साक्षात्कार, शिकायत"
+            },
+            {
+              "key": "priority",
+              "label": "प्राथमिकता",
+              "type": "select",
+              "options": [
+                "उच्च",
+                "मध्यम",
+                "कम"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "themes",
+          "label": "विषय-वस्तु और निहितार्थ",
+          "type": "textarea",
+          "section": "संश्लेषण",
+          "rows": 4,
+          "wide": true
+        }
+      ],
+      "example": {
+        "projectName": "बॉटलिंग लाइन भराव भिन्नता को कम करें",
+        "customerSegment": "खुदरा बोतलबंद ग्राहक",
+        "method": "मिश्रित",
+        "sampleSize": 42,
+        "period": "जनवरी-मार्च 2026",
+        "voices": [
+          {
+            "customer": "खुदरा क्रेता",
+            "verbatim": "कुछ मामले छोटे लगते हैं और ग्राहक शेल्फ पर शिकायत करते हैं।",
+            "need": "प्रत्येक बोतल में लगातार भरने की मात्रा",
+            "source": "Interview",
+            "priority": "उच्च"
+          },
+          {
+            "customer": "वितरक",
+            "verbatim": "हमें अंडरफ़िल के लिए अधिक प्रतिस्थापन क्रेडिट प्राप्त हो रहे हैं।",
+            "need": "विश्वसनीय मामले की मात्रा और गुणवत्ता",
+            "source": "Complaint log",
+            "priority": "उच्च"
+          },
+          {
+            "customer": "लाइन ऑपरेटर",
+            "verbatim": "बदलाव के बाद फिलर बह जाता है और हम इसे महसूस करके समायोजित करते हैं।",
+            "need": "स्थिर परिवर्तन सेटअप",
+            "source": "Observation",
+            "priority": "उच्च"
+          },
+          {
+            "customer": "गुणवत्ता लेखा परीक्षक",
+            "verbatim": "भरण रिकॉर्ड पूर्ण हैं लेकिन नमूनाकरण असंगत है।",
+            "need": "पता लगाने योग्य और लगातार निरीक्षण",
+            "source": "Audit",
+            "priority": "मध्यम"
+          }
+        ],
+        "themes": "ग्राहक बोतल-से-बोतल स्थिरता और केस की विश्वसनीयता की परवाह करते हैं। ऑपरेटरों को एक दोहराए जाने योग्य बदलाव मानक की आवश्यकता है। निरीक्षण डेटा मौजूद है लेकिन बहाव का पता लगाने के लिए इसका उपयोग तेज़ी से नहीं किया जाता है।"
+      }
+    },
+    {
+      "id": "ctq-tree",
+      "title": "सीटीक्यू वृक्ष",
+      "phase": "Define",
+      "minBelt": "green",
+      "icon": "fa-sitemap",
+      "estimatedMinutes": 30,
+      "description": "ग्राहकों की ज़रूरतों को ड्राइवर, महत्वपूर्ण-से-गुणवत्ता आवश्यकताओं और मापने योग्य विशिष्टताओं में अनुवाद करें।",
+      "fields": [
+        {
+          "key": "projectName",
+          "label": "प्रोजेक्ट का नाम",
+          "type": "text",
+          "section": "ग्राहक की जरूरत",
+          "required": true,
+          "wide": true
+        },
+        {
+          "key": "customer",
+          "label": "प्राथमिक ग्राहक",
+          "type": "text",
+          "section": "ग्राहक की जरूरत",
+          "required": true
+        },
+        {
+          "key": "need",
+          "label": "ग्राहक की जरूरत",
+          "type": "textarea",
+          "section": "ग्राहक की जरूरत",
+          "required": true,
+          "rows": 2,
+          "wide": true,
+          "placeholder": "मुझे प्रत्येक बोतल में लेबल की गई मात्रा शामिल करने की आवश्यकता है।"
+        },
+        {
+          "key": "tree",
+          "label": "CTQ प्रवाह-डाउन",
+          "type": "table",
+          "section": "CTQ प्रवाह-डाउन",
+          "required": true,
+          "minRows": 4,
+          "columns": [
+            {
+              "key": "need",
+              "label": "ज़रूरत",
+              "type": "text"
+            },
+            {
+              "key": "driver",
+              "label": "चालक",
+              "type": "text"
+            },
+            {
+              "key": "ctq",
+              "label": "CTQ",
+              "type": "text"
+            },
+            {
+              "key": "measure",
+              "label": "Measure",
+              "type": "text"
+            },
+            {
+              "key": "spec",
+              "label": "विनिर्देश",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "key": "validation",
+          "label": "ग्राहक के साथ सत्यापन",
+          "type": "textarea",
+          "section": "मान्यकरण",
+          "rows": 3,
+          "wide": true
+        }
+      ],
+      "example": {
+        "projectName": "बॉटलिंग लाइन भराव भिन्नता को कम करें",
+        "customer": "खुदरा बोतलबंद ग्राहक",
+        "need": "मुझे चाहिए कि प्रत्येक बोतल में लेबल की गई मात्रा हो और वह साफ, क्षतिग्रस्त डिब्बे में पहुंचे।",
+        "tree": [
+          {
+            "need": "सही मात्रा",
+            "driver": "सटीक भरण",
+            "ctq": "सहनशीलता के भीतर मात्रा भरें",
+            "measure": "एमएल में मात्रा भरें",
+            "spec": "499.5-500.7 मिली"
+          },
+          {
+            "need": "सही मात्रा",
+            "driver": "स्थिर भराव",
+            "ctq": "कम भरण भिन्नता",
+            "measure": "मानक विचलन",
+            "spec": "<= 1.5 मि.ली"
+          },
+          {
+            "need": "कोई लीक नहीं",
+            "driver": "कैप अखंडता",
+            "ctq": "रेंज में कैप टॉर्क",
+            "measure": "एन सेमी में टॉर्क",
+            "spec": "18-24 एन सेमी"
+          },
+          {
+            "need": "साफ़ मामला",
+            "driver": "कोई छलकाव नहीं",
+            "ctq": "कोई उत्पाद अवशेष नहीं",
+            "measure": "प्रति मामले में दृश्य दोष",
+            "spec": "0 दोष"
+          }
+        ],
+        "validation": "ग्राहक त्रैमासिक समीक्षा में पुष्टि की गई। ग्राहक ने भरण स्थिरता को प्रथम और मामले की सफ़ाई को दूसरा स्थान दिया।"
+      }
+    },
+    {
+      "id": "data-collection-plan",
+      "title": "डेटा संग्रहण योजना",
+      "phase": "Measure",
+      "minBelt": "yellow",
+      "icon": "fa-clipboard-list",
+      "estimatedMinutes": 35,
+      "description": "परिभाषित करें कि क्या मापना है, इसे कैसे मापना है, इसे कौन एकत्र करता है, और माप की गुणवत्ता कैसे संरक्षित की जाएगी।",
+      "fields": [
+        {
+          "key": "projectName",
+          "label": "प्रोजेक्ट का नाम",
+          "type": "text",
+          "section": "योजना स्वामित्व",
+          "required": true,
+          "wide": true
+        },
+        {
+          "key": "owner",
+          "label": "डेटा स्वामी",
+          "type": "text",
+          "section": "योजना स्वामित्व"
+        },
+        {
+          "key": "startDate",
+          "label": "संग्रह प्रारंभ",
+          "type": "date",
+          "section": "योजना स्वामित्व"
+        },
+        {
+          "key": "endDate",
+          "label": "संग्रह समाप्त",
+          "type": "date",
+          "section": "योजना स्वामित्व"
+        },
+        {
+          "key": "measures",
+          "label": "पैमाने",
+          "type": "table",
+          "section": "उपाय और तरीके",
+          "required": true,
+          "minRows": 4,
+          "columns": [
+            {
+              "key": "measure",
+              "label": "Measure",
+              "type": "text"
+            },
+            {
+              "key": "definition",
+              "label": "संचालनगत परिभाषा",
+              "type": "text"
+            },
+            {
+              "key": "type",
+              "label": "डेटा प्रकार",
+              "type": "select",
+              "options": [
+                "निरंतर",
+                "गुण",
+                "क्रमवाचक"
+              ]
+            },
+            {
+              "key": "method",
+              "label": "संग्रहण विधि",
+              "type": "text"
+            },
+            {
+              "key": "frequency",
+              "label": "आवृत्ति",
+              "type": "text"
+            },
+            {
+              "key": "sampleSize",
+              "label": "नमूने का आकार",
+              "type": "text"
+            },
+            {
+              "key": "owner",
+              "label": "एकत्र करनेवाला",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "key": "integrity",
+          "label": "डेटा अखंडता और माप-प्रणाली जांच",
+          "type": "textarea",
+          "section": "गुणवत्ता नियंत्रण",
+          "rows": 3,
+          "wide": true
+        },
+        {
+          "key": "risks",
+          "label": "संग्रह जोखिम और आकस्मिकताएँ",
+          "type": "textarea",
+          "section": "गुणवत्ता नियंत्रण",
+          "rows": 3,
+          "wide": true
+        }
+      ],
+      "example": {
+        "projectName": "बॉटलिंग लाइन भराव भिन्नता को कम करें",
+        "owner": "जॉर्डन ली",
+        "startDate": "2026-01-19",
+        "endDate": "2026-02-27",
+        "measures": [
+          {
+            "measure": "मात्रा भरें",
+            "definition": "शुद्ध उत्पाद की मात्रा को फिलर निकास पर कैलिब्रेटेड फिल गेज द्वारा मापा जाता है",
+            "type": "Continuous",
+            "method": "स्वचालित गेज निर्यात",
+            "frequency": "हर 15 मिनट में",
+            "sampleSize": "प्रति शिफ्ट में लगातार 20 बोतलें",
+            "owner": "लाइन ऑपरेटर"
+          },
+          {
+            "measure": "अंडरफ़िल दर",
+            "definition": "499.5 मिलीलीटर से नीचे की बोतलों को बोतलों से विभाजित करके निरीक्षण किया गया",
+            "type": "Attribute",
+            "method": "क्यूए नमूनाकरण",
+            "frequency": "प्रति घंटा",
+            "sampleSize": "12 बोतलें",
+            "owner": "क्यूए तकनीशियन"
+          },
+          {
+            "measure": "बदलाव की अवधि",
+            "definition": "बदलाव के बाद आखिरी अच्छी बोतल से पहली अच्छी बोतल तक के मिनट",
+            "type": "Continuous",
+            "method": "शिफ्ट लॉग",
+            "frequency": "प्रत्येक परिवर्तन",
+            "sampleSize": "सभी बदलाव",
+            "owner": "पाली ले गई"
+          },
+          {
+            "measure": "ऑपरेटर समायोजन गिनती",
+            "definition": "एक शिफ्ट के दौरान किए गए फिलर समायोजन की संख्या",
+            "type": "Attribute",
+            "method": "अवलोकन पत्रक",
+            "frequency": "प्रत्येक पारी",
+            "sampleSize": "सभी बदलाव",
+            "owner": "टीम के सदस्य"
+          }
+        ],
+        "integrity": "प्रत्येक पाली की शुरुआत में प्रमाणित 500 मिलीलीटर चेक वजन के विरुद्ध भरण गेज को सत्यापित करें। दो पर्यवेक्षक पहले सप्ताह को समानांतर रूप से एकत्र करते हैं। अध्ययन के लिए गेज अंशांकन रिकॉर्ड को फ्रीज करें।",
+        "risks": "अध्ययन के दौरान गेज बह सकता है। रखरखाव साप्ताहिक रूप से अंशांकन की जाँच करेगा। यदि क्यूए तकनीशियन अनुपस्थित है, तो शिफ्ट लीड बैकअप सैंपलिंग किट का उपयोग करता है।"
+      }
+    },
+    {
+      "id": "fishbone",
+      "title": "फ़िशबोन चित्र",
+      "phase": "Analyze",
+      "minBelt": "yellow",
+      "icon": "fa-fish",
+      "estimatedMinutes": 30,
+      "description": "डेटा के साथ परीक्षण करने से पहले 6M श्रेणियों में संभावित कारणों पर विचार-मंथन करें और उन्हें व्यवस्थित करें।",
+      "fields": [
+        {
+          "key": "problem",
+          "label": "प्रभाव या समस्या कथन",
+          "type": "textarea",
+          "section": "संकट",
+          "required": true,
+          "rows": 2,
+          "wide": true,
+          "placeholder": "भराव की मात्रा 499.5-500.7 मिली विनिर्देश से अधिक भिन्न होती है।"
+        },
+        {
+          "key": "team",
+          "label": "मंथन टीम",
+          "type": "text",
+          "section": "संकट",
+          "placeholder": "ऑपरेटर, रखरखाव, क्यूए, पर्यवेक्षक"
+        },
+        {
+          "key": "sessionDate",
+          "label": "सत्र की तारीख",
+          "type": "date",
+          "section": "संकट"
+        },
+        {
+          "key": "causes",
+          "label": "उम्मीदवार कारण",
+          "type": "table",
+          "section": "6M कारण",
+          "required": true,
+          "minRows": 8,
+          "columns": [
+            {
+              "key": "category",
+              "label": "वर्ग",
+              "type": "select",
+              "options": [
+                "आदमी",
+                "मशीन",
+                "सामग्री",
+                "तरीका",
+                "माप",
+                "प्रकृति माँ"
+              ]
+            },
+            {
+              "key": "cause",
+              "label": "संभावित कारण",
+              "type": "text"
+            },
+            {
+              "key": "evidence",
+              "label": "सबूत या सवाल",
+              "type": "text"
+            },
+            {
+              "key": "priority",
+              "label": "प्राथमिकता",
+              "type": "select",
+              "options": [
+                "उच्च",
+                "मध्यम",
+                "कम"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "rootCauses",
+          "label": "सत्यापन के लिए कारणों का चयन किया गया",
+          "type": "textarea",
+          "section": "सत्यापन योजना",
+          "rows": 3,
+          "wide": true
+        }
+      ],
+      "example": {
+        "problem": "भरण मात्रा 499.5-500.7 मिलीलीटर विनिर्देश से अधिक भिन्न होती है, जिससे अंडरफिल और उत्पाद सस्ता हो जाता है।",
+        "team": "ऑपरेटर, रखरखाव, क्यूए, पर्यवेक्षक",
+        "sessionDate": "2026-02-12",
+        "causes": [
+          {
+            "category": "आदमी",
+            "cause": "ऑपरेटर बदलाव के बाद फिलर को महसूस करके समायोजित करते हैं",
+            "evidence": "कोई मानक समायोजन विधि मौजूद नहीं है",
+            "priority": "उच्च"
+          },
+          {
+            "category": "मशीन",
+            "cause": "भराव वाल्व घिसाव",
+            "evidence": "वाल्व 4 को पिछले वर्ष दो बार बदला गया था",
+            "priority": "उच्च"
+          },
+          {
+            "category": "सामग्री",
+            "cause": "बोतल की ऊँचाई आपूर्तिकर्ता लॉट के अनुसार भिन्न होती है",
+            "evidence": "आने वाले निरीक्षण में 0.6 मिमी रेंज दिखाई देती है",
+            "priority": "मध्यम"
+          },
+          {
+            "category": "तरीका",
+            "cause": "चेंजओवर पर्ज समय मानकीकृत नहीं है",
+            "evidence": "शुद्धिकरण का समय 4 से 11 मिनट तक देखा गया",
+            "priority": "उच्च"
+          },
+          {
+            "category": "माप",
+            "cause": "हर शिफ्ट में फिल गेज की जाँच नहीं की जाती",
+            "evidence": "अंशांकन लॉग में अंतराल हैं",
+            "priority": "मध्यम"
+          },
+          {
+            "category": "प्रकृति माँ",
+            "cause": "उत्पाद के तापमान से चिपचिपाहट बदल जाती है",
+            "evidence": "दोपहर की दौड़ में अधिक विविधता दिखाई देती है",
+            "priority": "मध्यम"
+          }
+        ],
+        "rootCauses": "लाइन डेटा का उपयोग करके चेंजओवर पर्ज समय, ऑपरेटर समायोजन विधि, फिलर वाल्व की स्थिति और उत्पाद तापमान को सत्यापित करें। जब तक डेटा की समीक्षा नहीं हो जाती, तब तक मूल कारण का चयन न करें।"
+      }
+    },
+    {
+      "id": "five-whys",
+      "title": "5 क्यों",
+      "phase": "Analyze",
+      "minBelt": "white",
+      "icon": "fa-circle-question",
+      "estimatedMinutes": 20,
+      "description": "किसी विशिष्ट समस्या से लेकर सत्यापित मूल कारण और प्रतिकार तक का अभ्यास करें।",
+      "fields": [
+        {
+          "key": "problem",
+          "label": "समस्या का विवरण",
+          "type": "textarea",
+          "section": "संकट",
+          "required": true,
+          "rows": 2,
+          "wide": true
+        },
+        {
+          "key": "containment",
+          "label": "रोकथाम कार्रवाई",
+          "type": "textarea",
+          "section": "संकट",
+          "rows": 2,
+          "wide": true
+        },
+        {
+          "key": "why1",
+          "label": "क्यों 1",
+          "type": "textarea",
+          "section": "चेन क्यों?",
+          "rows": 2,
+          "wide": true
+        },
+        {
+          "key": "why2",
+          "label": "क्यों 2",
+          "type": "textarea",
+          "section": "चेन क्यों?",
+          "rows": 2,
+          "wide": true
+        },
+        {
+          "key": "why3",
+          "label": "क्यों 3",
+          "type": "textarea",
+          "section": "चेन क्यों?",
+          "rows": 2,
+          "wide": true
+        },
+        {
+          "key": "why4",
+          "label": "क्यों 4",
+          "type": "textarea",
+          "section": "चेन क्यों?",
+          "rows": 2,
+          "wide": true
+        },
+        {
+          "key": "why5",
+          "label": "क्यों 5",
+          "type": "textarea",
+          "section": "चेन क्यों?",
+          "rows": 2,
+          "wide": true
+        },
+        {
+          "key": "rootCause",
+          "label": "सत्यापित मूल कारण",
+          "type": "textarea",
+          "section": "कार्रवाई",
+          "required": true,
+          "rows": 3,
+          "wide": true,
+          "help": "केवल समूह सर्वसम्मति से नहीं, बल्कि सबूतों के साथ कारण की पुष्टि करें।"
+        },
+        {
+          "key": "countermeasure",
+          "label": "countermeasure",
+          "type": "textarea",
+          "section": "कार्रवाई",
+          "required": true,
+          "rows": 3,
+          "wide": true
+        },
+        {
+          "key": "owner",
+          "label": "कार्रवाई स्वामी",
+          "type": "text",
+          "section": "कार्रवाई"
+        },
+        {
+          "key": "dueDate",
+          "label": "नियत तारीख",
+          "type": "date",
+          "section": "कार्रवाई"
+        },
+        {
+          "key": "verification",
+          "label": "सत्यापन",
+          "type": "textarea",
+          "section": "कार्रवाई",
+          "rows": 2,
+          "wide": true
+        }
+      ],
+      "example": {
+        "problem": "लाइन 2 ने जनवरी में पहली पाली के दौरान 4.2% कम भरी बोतलों का उत्पादन किया।",
+        "containment": "सभी संदिग्ध लोगों को अलग कर दिया गया और उनका दोबारा निरीक्षण किया गया। टीम द्वारा सेटअप की समीक्षा करने के दौरान फिलर को रोक दिया गया था।",
+        "why1": "रन की शुरुआत में फिलर लक्ष्य मात्रा प्रदान नहीं कर रहा था।",
+        "why2": "उत्पाद परिवर्तन के बाद फिलर को काफी समय तक शुद्ध नहीं किया गया था।",
+        "why3": "परिवर्तन मानक शुद्धिकरण समय निर्दिष्ट नहीं करता है।",
+        "why4": "नए उत्पाद निर्माण को पेश किए जाने से पहले मानक लिखा गया था।",
+        "why5": "चिपचिपाहट में परिवर्तन होने पर परिवर्तन नियंत्रण प्रक्रिया के लिए फिलर सेटअप मानक की समीक्षा की आवश्यकता नहीं होती है।",
+        "rootCause": "उत्पाद निर्माण में परिवर्तन के बाद परिवर्तन मानक को अद्यतन नहीं किया गया, जिससे असंगत शुद्धिकरण समय की अनुमति मिली।",
+        "countermeasure": "परिवर्तन मानक में उत्पाद-विशिष्ट पर्ज समय और एक सत्यापन बोतल जांच जोड़ें।",
+        "owner": "मातेओ रुइज़",
+        "dueDate": "2026-03-20",
+        "verification": "अगले 10 बदलावों का ऑडिट करें और पुष्टि करें कि उत्पादन जारी होने से पहले पहली बोतल भराव लक्ष्य को पूरा करती है।"
+      }
+    },
+    {
+      "id": "pareto",
+      "title": "पेरेटो विश्लेषण",
+      "phase": "Analyze",
+      "minBelt": "yellow",
+      "icon": "fa-chart-column",
+      "estimatedMinutes": 25,
+      "description": "दोष या समस्या श्रेणियों को रैंक करें और महत्वपूर्ण कुछ को उपयोगी अनेक से अलग करें।",
+      "fields": [
+        {
+          "key": "problem",
+          "label": "मुद्दे का विश्लेषण किया जा रहा है",
+          "type": "text",
+          "section": "डेटा स्रोत",
+          "required": true,
+          "wide": true,
+          "placeholder": "बॉटलिंग लाइन दोष, जनवरी-मार्च 2026"
+        },
+        {
+          "key": "dataSource",
+          "label": "डेटा स्रोत",
+          "type": "text",
+          "section": "डेटा स्रोत",
+          "placeholder": "QA दोष लॉग"
+        },
+        {
+          "key": "period",
+          "label": "अवधि",
+          "type": "text",
+          "section": "डेटा स्रोत",
+          "placeholder": "जनवरी-मार्च 2026"
+        },
+        {
+          "key": "counts",
+          "label": "श्रेणी मायने रखती है",
+          "type": "table",
+          "section": "श्रेणी मायने रखती है",
+          "required": true,
+          "minRows": 6,
+          "sortBy": "गिनती करना",
+          "sortLabel": "गिनती के अनुसार क्रमबद्ध करें",
+          "help": "गिनती दर्ज करें, फिर घटते क्रम में क्रमबद्ध करें। शेयर और संचयी प्रतिशत की गणना स्वचालित रूप से की जाती है।",
+          "columns": [
+            {
+              "key": "category",
+              "label": "वर्ग",
+              "type": "text",
+              "placeholder": "अंडरफ़िल"
+            },
+            {
+              "key": "count",
+              "label": "गिनती करना",
+              "type": "number",
+              "min": 0,
+              "step": 1
+            },
+            {
+              "key": "share",
+              "label": "शेयर करना",
+              "compute": {
+                "op": "कुल प्रतिशत",
+                "field": "गिनती करना"
+              }
+            },
+            {
+              "key": "cumulative",
+              "label": "संचयी",
+              "compute": {
+                "op": "संचयी प्रतिशत",
+                "field": "गिनती करना"
+              }
+            }
+          ]
+        },
+        {
+          "key": "conclusion",
+          "label": "निष्कर्ष और फोकस",
+          "type": "textarea",
+          "section": "निष्कर्ष",
+          "rows": 3,
+          "wide": true,
+          "help": "उन कुछ श्रेणियों की पहचान करें जो कुल का लगभग 80% हैं।"
+        }
+      ],
+      "example": {
+        "problem": "बॉटलिंग लाइन दोष, जनवरी-मार्च 2026",
+        "dataSource": "QA दोष लॉग",
+        "period": "जनवरी-मार्च 2026",
+        "counts": [
+          {
+            "category": "अंडरफ़िल",
+            "count": 86
+          },
+          {
+            "category": "लेबल का गलत संरेखण",
+            "count": 24
+          },
+          {
+            "category": "कैप टॉर्क",
+            "count": 18
+          },
+          {
+            "category": "सील क्षति",
+            "count": 11
+          },
+          {
+            "category": "परिपूर्ण करना",
+            "count": 9
+          },
+          {
+            "category": "गंदी बोतल",
+            "count": 4
+          }
+        ],
+        "conclusion": "अंडरफ़िल सबसे बड़ी श्रेणी है और, लेबल मिसलिग्न्मेंट और कैप टॉर्क के साथ, अधिकांश दोष गणना के लिए जिम्मेदार है। पहले सुधार चक्र को अंडरफ़िल पर केंद्रित करें।"
+      }
+    },
+    {
+      "id": "fmea",
+      "title": "FMEA",
+      "phase": "Analyze",
+      "minBelt": "green",
+      "icon": "fa-triangle-exclamation",
+      "estimatedMinutes": 45,
+      "description": "स्वचालित आरपीएन गणना के साथ गंभीरता, घटना और पता लगाने के आधार पर विफलता मोड को प्राथमिकता दें।",
+      "fields": [
+        {
+          "key": "processName",
+          "label": "प्रक्रिया या उत्पाद",
+          "type": "text",
+          "section": "अध्ययन का दायरा",
+          "required": true,
+          "wide": true
+        },
+        {
+          "key": "team",
+          "label": "एफएमईए टीम",
+          "type": "text",
+          "section": "अध्ययन का दायरा"
+        },
+        {
+          "key": "reviewDate",
+          "label": "समीक्षा दिनांक",
+          "type": "date",
+          "section": "अध्ययन का दायरा"
+        },
+        {
+          "key": "scope",
+          "label": "दायरा और धारणाएँ",
+          "type": "textarea",
+          "section": "अध्ययन का दायरा",
+          "rows": 2,
+          "wide": true
+        },
+        {
+          "key": "failures",
+          "label": "विफलता मोड",
+          "type": "table",
+          "section": "विफलता मोड",
+          "required": true,
+          "minRows": 5,
+          "help": "गंभीरता, घटना और पहचान को 1 से 10 तक रेट करें। RPN = S x O x D और स्वचालित रूप से अपडेट होता है। आरपीएन 200 या उच्चतर को लाल रंग में हाइलाइट किया गया है; 100-199 एम्बर.",
+          "columns": [
+            {
+              "key": "step",
+              "label": "प्रक्रिया चरण",
+              "type": "text"
+            },
+            {
+              "key": "failure",
+              "label": "विफलता मोड",
+              "type": "text"
+            },
+            {
+              "key": "effect",
+              "label": "प्रभाव",
+              "type": "text"
+            },
+            {
+              "key": "severity",
+              "label": "S",
+              "type": "number",
+              "min": 1,
+              "max": 10,
+              "step": 1,
+              "width": "58px"
+            },
+            {
+              "key": "occurrence",
+              "label": "O",
+              "type": "number",
+              "min": 1,
+              "max": 10,
+              "step": 1,
+              "width": "58px"
+            },
+            {
+              "key": "detection",
+              "label": "D",
+              "type": "number",
+              "min": 1,
+              "max": 10,
+              "step": 1,
+              "width": "58px"
+            },
+            {
+              "key": "rpn",
+              "label": "RPN",
+              "compute": {
+                "op": "गुणा",
+                "fields": [
+                  "गंभीरता",
+                  "घटना",
+                  "का पता लगाने"
+                ]
+              },
+              "thresholds": {
+                "high": 200,
+                "medium": 100
+              },
+              "width": "72px"
+            },
+            {
+              "key": "action",
+              "label": "अनुशंसित कार्रवाई",
+              "type": "text"
+            },
+            {
+              "key": "owner",
+              "label": "मालिक",
+              "type": "text"
+            },
+            {
+              "key": "status",
+              "label": "स्थिति",
+              "type": "select",
+              "options": [
+                "खुला",
+                "प्रगति पर है",
+                "पूरा"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "actions",
+          "label": "प्राथमिकता वाली कार्रवाइयां और समीक्षा नोट",
+          "type": "textarea",
+          "section": "कार्य योजना",
+          "rows": 3,
+          "wide": true
+        }
+      ],
+      "example": {
+        "processName": "बॉटलिंग लाइन 2 भरें और ढक्कन लगाएं",
+        "team": "रखरखाव, ऑपरेटर, क्यूए, इंजीनियरिंग",
+        "reviewDate": "2026-02-20",
+        "scope": "फिल, कैप और चेंजओवर चरणों पर ध्यान दें। पैकेजिंग और पैलेटाइज़िंग इस समीक्षा के दायरे से बाहर हैं।",
+        "failures": [
+          {
+            "step": "Fill bottle",
+            "failure": "अंडरफ़िल",
+            "effect": "ग्राहक की शिकायत और पुनः कार्य",
+            "severity": 8,
+            "occurrence": 6,
+            "detection": 4,
+            "action": "उत्पाद-विशिष्ट पर्ज मानक स्थापित करें और पहली बोतल सत्यापित करें",
+            "owner": "जॉर्डन ली",
+            "status": "प्रगति पर है"
+          },
+          {
+            "step": "Fill bottle",
+            "failure": "परिपूर्ण करना",
+            "effect": "उत्पाद देना और फैलाना",
+            "severity": 5,
+            "occurrence": 4,
+            "detection": 3,
+            "action": "स्वचालित भरण-वॉल्यूम ट्रेंड अलार्म जोड़ें",
+            "owner": "एवरी चेन",
+            "status": "खुला"
+          },
+          {
+            "step": "Place cap",
+            "failure": "लो कैप टॉर्क",
+            "effect": "पारगमन के दौरान रिसाव",
+            "severity": 9,
+            "occurrence": 3,
+            "detection": 5,
+            "action": "हर 30 मिनट में टॉर्क सत्यापन जोड़ें",
+            "owner": "क्यूए तकनीशियन",
+            "status": "खुला"
+          },
+          {
+            "step": "Changeover",
+            "failure": "गलत भराव नुस्खा चुना गया",
+            "effect": "संपूर्ण रन के लिए गलत भरण मात्रा",
+            "severity": 8,
+            "occurrence": 2,
+            "detection": 2,
+            "action": "प्रारंभ से पहले रेसिपी स्कैन इंटरलॉक जोड़ें",
+            "owner": "इंजीनियरिंग",
+            "status": "खुला"
+          },
+          {
+            "step": "Fill bottle",
+            "failure": "घिसा हुआ भराव वाल्व",
+            "effect": "नोजलों में असंगत मात्रा",
+            "severity": 7,
+            "occurrence": 4,
+            "detection": 6,
+            "action": "निवारक रखरखाव में वाल्व घिसाव निरीक्षण जोड़ें",
+            "owner": "रखरखाव",
+            "status": "खुला"
+          }
+        ],
+        "actions": "गलत-रेसिपी इंटरलॉक और अंडरफिल पर्ज मानक को प्राथमिकता दें क्योंकि वे उच्च गंभीरता को कमजोर पहचान के साथ जोड़ते हैं। पायलट के बाद एफएमईए को दोबारा स्कोर करें।"
+      }
+    },
+    {
+      "id": "solution-matrix",
+      "title": "समाधान मैट्रिक्स",
+      "phase": "Improve",
+      "minBelt": "green",
+      "icon": "fa-table-cells-large",
+      "estimatedMinutes": 30,
+      "description": "पारदर्शी स्कोर का उपयोग करके प्रभाव, व्यवहार्यता, लागत और जोखिम के विरुद्ध उम्मीदवार समाधानों की तुलना करें।",
+      "fields": [
+        {
+          "key": "problem",
+          "label": "समस्या या अवसर",
+          "type": "text",
+          "section": "निर्णय प्रसंग",
+          "required": true,
+          "wide": true
+        },
+        {
+          "key": "decisionOwner",
+          "label": "निर्णय स्वामी",
+          "type": "text",
+          "section": "निर्णय प्रसंग"
+        },
+        {
+          "key": "decisionDate",
+          "label": "निर्णय तिथि",
+          "type": "date",
+          "section": "निर्णय प्रसंग"
+        },
+        {
+          "key": "criteria",
+          "label": "स्कोरिंग मार्गदर्शन",
+          "type": "textarea",
+          "section": "निर्णय प्रसंग",
+          "rows": 2,
+          "wide": true,
+          "help": "प्रत्येक मानदंड के लिए 1-5 पैमाने का उपयोग करें। कुल प्रत्येक मानदंड को समान महत्व देता है; यदि टीम विभिन्न भारों का उपयोग करती है तो चर्चा को समायोजित करें।"
+        },
+        {
+          "key": "solutions",
+          "label": "उम्मीदवार समाधान",
+          "type": "table",
+          "section": "समाधान स्कोरिंग",
+          "required": true,
+          "minRows": 4,
+          "help": "स्कोर प्रभाव, व्यवहार्यता, लागत और जोखिम 1 (खराब) से 5 (उत्कृष्ट) तक। कुल की गणना स्वचालित रूप से की जाती है.",
+          "columns": [
+            {
+              "key": "solution",
+              "label": "समाधान",
+              "type": "text"
+            },
+            {
+              "key": "impact",
+              "label": "प्रभाव",
+              "type": "number",
+              "min": 1,
+              "max": 5,
+              "step": 1,
+              "width": "78px"
+            },
+            {
+              "key": "feasibility",
+              "label": "साध्यता",
+              "type": "number",
+              "min": 1,
+              "max": 5,
+              "step": 1,
+              "width": "78px"
+            },
+            {
+              "key": "cost",
+              "label": "लागत",
+              "type": "number",
+              "min": 1,
+              "max": 5,
+              "step": 1,
+              "width": "78px"
+            },
+            {
+              "key": "risk",
+              "label": "जोखिम",
+              "type": "number",
+              "min": 1,
+              "max": 5,
+              "step": 1,
+              "width": "78px"
+            },
+            {
+              "key": "total",
+              "label": "कुल",
+              "compute": {
+                "op": "जोड़",
+                "fields": [
+                  "प्रभाव",
+                  "व्यवहार्यता",
+                  "लागत",
+                  "जोखिम"
+                ]
+              },
+              "thresholds": {
+                "high": 17,
+                "medium": 13
+              },
+              "tone": "अच्छा",
+              "width": "72px"
+            },
+            {
+              "key": "decision",
+              "label": "फ़ैसला",
+              "type": "select",
+              "options": [
+                "चयनित",
+                "पायलट",
+                "पकड़ना",
+                "अस्वीकार कर दिया"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "rationale",
+          "label": "निर्णय का औचित्य",
+          "type": "textarea",
+          "section": "फ़ैसला",
+          "rows": 3,
+          "wide": true
+        }
+      ],
+      "example": {
+        "problem": "लाइन 2 पर चेंजओवर भिन्नता और अंडरफिल को कम करें।",
+        "decisionOwner": "प्रिया शाह",
+        "decisionDate": "2026-04-10",
+        "criteria": "प्रभाव अपेक्षित दोष कमी को दर्शाता है। व्यवहार्यता डाउनटाइम और कौशल को दर्शाती है। लागत कार्यान्वयन व्यय को दर्शाती है. जोखिम सुरक्षा और उत्पाद-गुणवत्ता जोखिम को दर्शाता है।",
+        "solutions": [
+          {
+            "solution": "उत्पाद-विशिष्ट शुद्धिकरण मानक",
+            "impact": 5,
+            "feasibility": 5,
+            "cost": 5,
+            "risk": 4,
+            "decision": "चयनित"
+          },
+          {
+            "solution": "स्वचालित भरण प्रवृत्ति अलार्म",
+            "impact": 4,
+            "feasibility": 3,
+            "cost": 3,
+            "risk": 4,
+            "decision": "पायलट"
+          },
+          {
+            "solution": "सभी भराव वाल्व बदलें",
+            "impact": 4,
+            "feasibility": 2,
+            "cost": 1,
+            "risk": 3,
+            "decision": "पकड़ना"
+          },
+          {
+            "solution": "दूसरा ऑपरेटर चेक जोड़ें",
+            "impact": 2,
+            "feasibility": 4,
+            "cost": 4,
+            "risk": 3,
+            "decision": "अस्वीकार कर दिया"
+          }
+        ],
+        "rationale": "पर्ज मानक में प्रभाव, व्यवहार्यता, लागत और जोखिम का सबसे अच्छा संतुलन है। यदि पायलट परिणाम निरीक्षणों के बीच अंतर दिखाते हैं तो ट्रेंड अलार्म एक उपयोगी दूसरा चरण है।"
+      }
+    },
+    {
+      "id": "control-plan",
+      "title": "नियंत्रण योजना",
+      "phase": "Control",
+      "minBelt": "green",
+      "icon": "fa-sliders",
+      "estimatedMinutes": 40,
+      "description": "दस्तावेजीकरण करें कि बेहतर प्रक्रिया की निगरानी कैसे की जाएगी, कौन प्रतिक्रिया देता है, और सिग्नल आने पर क्या होता है।",
+      "fields": [
+        {
+          "key": "processName",
+          "label": "प्रक्रिया नाम",
+          "type": "text",
+          "section": "योजना स्वामित्व",
+          "required": true,
+          "wide": true
+        },
+        {
+          "key": "owner",
+          "label": "प्रोसेस ओनर",
+          "type": "text",
+          "section": "योजना स्वामित्व"
+        },
+        {
+          "key": "effectiveDate",
+          "label": "प्रभावी तिथि",
+          "type": "date",
+          "section": "योजना स्वामित्व"
+        },
+        {
+          "key": "revision",
+          "label": "दोहराव",
+          "type": "text",
+          "section": "योजना स्वामित्व",
+          "placeholder": "1.0"
+        },
+        {
+          "key": "controls",
+          "label": "वस्तुओं पर नियंत्रण रखें",
+          "type": "table",
+          "section": "वस्तुओं पर नियंत्रण रखें",
+          "required": true,
+          "minRows": 5,
+          "columns": [
+            {
+              "key": "step",
+              "label": "प्रक्रिया चरण",
+              "type": "text"
+            },
+            {
+              "key": "item",
+              "label": "नियंत्रण वस्तु",
+              "type": "text"
+            },
+            {
+              "key": "spec",
+              "label": "विनिर्देश",
+              "type": "text"
+            },
+            {
+              "key": "method",
+              "label": "नियंत्रण विधि",
+              "type": "text"
+            },
+            {
+              "key": "frequency",
+              "label": "आवृत्ति",
+              "type": "text"
+            },
+            {
+              "key": "owner",
+              "label": "मालिक",
+              "type": "text"
+            },
+            {
+              "key": "reaction",
+              "label": "प्रतिक्रिया की योजना",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "key": "monitoring",
+          "label": "निगरानी और वृद्धि नोट्स",
+          "type": "textarea",
+          "section": "निगरानी",
+          "rows": 3,
+          "wide": true
+        }
+      ],
+      "example": {
+        "processName": "बॉटलिंग लाइन 2 भरने की प्रक्रिया",
+        "owner": "प्रिया शाह",
+        "effectiveDate": "2026-06-01",
+        "revision": "1.0",
+        "controls": [
+          {
+            "step": "Changeover",
+            "item": "शुद्धिकरण का समय",
+            "spec": "उत्पाद ए: 8 मिनट",
+            "method": "सेटअप चेकलिस्ट और प्रथम-बोतल जांच",
+            "frequency": "प्रत्येक परिवर्तन",
+            "owner": "लाइन ऑपरेटर",
+            "reaction": "स्टॉप लाइन; बार-बार शुद्ध करना; शिफ्ट लीड को सूचित करें"
+          },
+          {
+            "step": "Fill",
+            "item": "मात्रा भरें",
+            "spec": "499.5-500.7 मिली",
+            "method": "गेज और प्रति घंटा क्यूए नमूना भरें",
+            "frequency": "हर 15 मिनट में",
+            "owner": "लाइन ऑपरेटर",
+            "reaction": "भराव समायोजित करें; पिछली अच्छी जाँच के बाद से संगरोध"
+          },
+          {
+            "step": "Cap",
+            "item": "कैप टॉर्क",
+            "spec": "18-24 एन सेमी",
+            "method": "टोक़ परीक्षक",
+            "frequency": "हर 30 मिनट में",
+            "owner": "क्यूए तकनीशियन",
+            "reaction": "कैप हेड बदलें; पुनः परीक्षण; उत्पाद पकड़ो"
+          },
+          {
+            "step": "Measurement",
+            "item": "गेज अंशांकन भरें",
+            "spec": "जाँच वजन के 0.2 मिलीलीटर के भीतर",
+            "method": "प्रमाणित जाँच वजन",
+            "frequency": "पारी की शुरुआत",
+            "owner": "पाली ले गई",
+            "reaction": "गेज को पुनः कैलिब्रेट करें या सेवा से हटा दें"
+          },
+          {
+            "step": "Response",
+            "item": "ट्रेंड अलार्म",
+            "spec": "केंद्र के एक तरफ लगातार तीन बिंदु",
+            "method": "एसपीसी चार्ट समीक्षा",
+            "frequency": "प्रत्येक पारी",
+            "owner": "प्रोसेस ओनर",
+            "reaction": "जांच खोलें और रखरखाव रिकॉर्ड की समीक्षा करें"
+          }
+        ],
+        "monitoring": "प्रक्रिया स्वामी प्रतिदिन एसपीसी डैशबोर्ड की समीक्षा करता है। बार-बार आने वाला सिग्नल 30 मिनट की रोकथाम जांच को ट्रिगर करता है। यदि एक सप्ताह में दो सिग्नल आते हैं तो प्लांट मैनेजर से शिकायत करें।"
+      }
+    },
+    {
+      "id": "project-closure",
+      "title": "प्रोजेक्ट क्लोजर चेकलिस्ट",
+      "phase": "Control",
+      "minBelt": "green",
+      "icon": "fa-clipboard-check",
+      "estimatedMinutes": 25,
+      "description": "प्रोजेक्ट बंद करने से पहले परिणाम, हैंडऑफ़, दस्तावेज़ीकरण और सीखे गए पाठों की पुष्टि करें।",
+      "fields": [
+        {
+          "key": "projectName",
+          "label": "प्रोजेक्ट का नाम",
+          "type": "text",
+          "section": "परियोजना सारांश",
+          "required": true,
+          "wide": true
+        },
+        {
+          "key": "projectLead",
+          "label": "प्रोजेक्ट लीड",
+          "type": "text",
+          "section": "परियोजना सारांश"
+        },
+        {
+          "key": "sponsor",
+          "label": "प्रायोजक",
+          "type": "text",
+          "section": "परियोजना सारांश"
+        },
+        {
+          "key": "closureDate",
+          "label": "समापन तिथि",
+          "type": "date",
+          "section": "परियोजना सारांश"
+        },
+        {
+          "key": "resultsSummary",
+          "label": "परिणाम सारांश",
+          "type": "textarea",
+          "section": "परिणाम",
+          "required": true,
+          "rows": 3,
+          "wide": true,
+          "placeholder": "आधार रेखा, लक्ष्य, वास्तविक परिणाम और वित्तीय लाभ।"
+        },
+        {
+          "key": "lessonsLearned",
+          "label": "सीख सीखी",
+          "type": "textarea",
+          "section": "परिणाम",
+          "required": true,
+          "rows": 3,
+          "wide": true
+        },
+        {
+          "key": "closureChecklist",
+          "label": "समापन चेकलिस्ट",
+          "type": "checklist",
+          "section": "समापन चेकलिस्ट",
+          "required": true,
+          "items": [
+            "परियोजना के उद्देश्य और CTQs पूरे हो गए",
+            "सुधार के परिणामों को डेटा के साथ सत्यापित किया गया",
+            "नियंत्रण योजना सक्रिय और स्वामित्व वाली है",
+            "प्रक्रिया दस्तावेज़ीकरण और प्रशिक्षण अद्यतन किया गया",
+            "वित्तीय लाभों को वित्त के साथ सत्यापित किया गया था",
+            "सीखे गए पाठों को ग्रहण किया गया और साझा किया गया",
+            "टीम और प्रायोजक की मान्यता पूरी हो गई है",
+            "प्रायोजक द्वारा अनुमोदित परियोजना समापन"
+          ]
+        },
+        {
+          "key": "signoff",
+          "label": "साइन ऑफ़",
+          "type": "table",
+          "section": "साइन ऑफ़",
+          "required": true,
+          "minRows": 3,
+          "columns": [
+            {
+              "key": "role",
+              "label": "भूमिका",
+              "type": "text",
+              "placeholder": "प्रायोजक"
+            },
+            {
+              "key": "name",
+              "label": "नाम",
+              "type": "text"
+            },
+            {
+              "key": "date",
+              "label": "Date",
+              "type": "date"
+            },
+            {
+              "key": "status",
+              "label": "स्थिति",
+              "type": "select",
+              "options": [
+                "लंबित",
+                "पर हस्ताक्षर किए"
+              ]
+            }
+          ]
+        }
+      ],
+      "example": {
+        "projectName": "बॉटलिंग लाइन भराव भिन्नता को कम करें",
+        "projectLead": "जॉर्डन ली",
+        "sponsor": "प्रिया शाह",
+        "closureDate": "2026-06-28",
+        "resultsSummary": "भरण मानक विचलन 1.5 मिली के लक्ष्य को पार करते हुए 3.8 मिली से गिरकर 1.3 मिली हो गया। अंडरफिल दर 4.2% से गिरकर 0.3% हो गई। वित्त ने वार्षिक लाभ में $61,000 का सत्यापन किया।",
+        "lessonsLearned": "परिवर्तन मानक उच्चतम-उत्तोलन नियंत्रण था। पायलट में ऑपरेटरों को शामिल करने से अपनाने में सुधार हुआ। पहले गेज सत्यापन ने माप चरण को छोटा कर दिया होगा।",
+        "closureChecklist": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false
+        ],
+        "signoff": [
+          {
+            "role": "प्रोजेक्ट लीड",
+            "name": "जॉर्डन ली",
+            "date": "2026-06-28",
+            "status": "पर हस्ताक्षर किए"
+          },
+          {
+            "role": "प्रोसेस ओनर",
+            "name": "प्रिया शाह",
+            "date": "2026-06-28",
+            "status": "पर हस्ताक्षर किए"
+          },
+          {
+            "role": "वित्त",
+            "name": "दाना ब्रुक्स",
+            "date": "2026-06-27",
+            "status": "पर हस्ताक्षर किए"
+          }
+        ]
+      }
+    }
+  ]
+};
+    if (typeof module === "object" && module.exports) module.exports = catalog;
+    root.RESOURCE_CATALOG = catalog;
+}(typeof globalThis !== "undefined" ? globalThis : this));

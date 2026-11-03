@@ -28,10 +28,18 @@ function allCurriculumModules() {
 
 function findCurriculumModule(param) {
     const rows = allCurriculumModules();
-    if (!param) return rows[0];
-    const byId = rows.find(row => String(row.mod.id) === String(param));
+    if (!param) {
+        const hash = (location.hash || "").replace(/^#/, "").replace(/^module-/, "").trim().toLowerCase();
+        if (hash) {
+            const byHash = rows.find(row => String(row.mod.id).toLowerCase() === hash);
+            if (byHash) return byHash;
+        }
+        return rows[0];
+    }
+    const clean = String(param).trim().toLowerCase();
+    const byId = rows.find(row => String(row.mod.id).toLowerCase() === clean);
     if (byId) return byId;
-    const numeric = parseInt(param, 10);
+    const numeric = parseInt(clean, 10);
     if (!isNaN(numeric) && rows[numeric - 1]) return rows[numeric - 1];
     return null;
 }
@@ -50,10 +58,13 @@ function renderLessonTable(mod) {
                         <th>Lesson</th>
                         <th>Learning objective</th>
                         <th style="width: 120px;">Content</th>
+                        <th style="width: 96px;">Progress</th>
                     </tr>
                 </thead>
                 <tbody>
-                    ${mod.lessons.map(lesson => `
+                    ${mod.lessons.map(lesson => {
+                        const done = window.ProgressStore ? window.ProgressStore.isLessonComplete(lesson.id) : false;
+                        return `
                         <tr id="lesson-${lessonAnchor(lesson.id)}">
                             <td><span class="badge bg-secondary">${escapeHtml(lesson.id)}</span></td>
                             <td class="fw-semibold">${escapeHtml(lesson.title)}</td>
@@ -61,7 +72,15 @@ function renderLessonTable(mod) {
                             <td>${lesson.content
                                 ? `<a href="#lesson-content-${lessonAnchor(lesson.id)}" class="badge bg-success text-decoration-none">Full lesson</a>`
                                 : '<span class="badge bg-light text-dark border">Plan</span>'}</td>
-                        </tr>`).join("")}
+                            <td>
+                                <button type="button" class="btn btn-sm ${done ? "btn-success" : "btn-outline-secondary"} lesson-progress-btn"
+                                    data-lesson-toggle data-lesson-id="${escapeHtml(lesson.id)}" data-module-id="${escapeHtml(mod.id)}"
+                                    aria-pressed="${done ? "true" : "false"}">
+                                    <i class="fas ${done ? "fa-check" : "fa-circle-plus"} me-1"></i>${done ? "Done" : "Mark"}
+                                </button>
+                            </td>
+                        </tr>`;
+                    }).join("")}
                 </tbody>
             </table>
         </div>`;
@@ -159,8 +178,10 @@ function renderLessonTemplateNote() {
 }
 
 function renderModuleExtras(belt, mod) {
-    const completed = getCompletedModules();
-    const isComplete = completed.includes(mod.id);
+    const status = window.ProgressStore
+        ? window.ProgressStore.moduleStatus(curriculumData, mod.id)
+        : { complete: false, completedLessons: 0, totalLessons: mod.lessons.length };
+    const isComplete = status.complete;
     return `
         <div class="row g-3 mb-4">
             <div class="col-lg-6">
@@ -191,26 +212,79 @@ function renderModuleExtras(belt, mod) {
         </div>`;
 }
 
-function getCompletedModules() {
+function progressNotice(message, tone) {
+    const host = document.getElementById("moduleContent");
+    if (!host) return;
+    const existing = document.getElementById("moduleProgressNotice");
+    if (existing) existing.remove();
+    const alert = document.createElement("div");
+    alert.id = "moduleProgressNotice";
+    alert.className = "alert alert-" + (tone || "info") + " alert-dismissible fade show py-2";
+    alert.innerHTML = escapeHtml(message) + '<button type="button" class="btn-close" data-bs-dismiss="alert"></button>';
+    host.insertBefore(alert, host.firstChild);
+}
+
+function syncLessonButtons() {
+    document.querySelectorAll("[data-lesson-toggle]").forEach(function (button) {
+        const done = window.ProgressStore
+            ? window.ProgressStore.isLessonComplete(button.getAttribute("data-lesson-id"))
+            : false;
+        button.setAttribute("aria-pressed", done ? "true" : "false");
+        button.className = "btn btn-sm " + (done ? "btn-success" : "btn-outline-secondary") + " lesson-progress-btn";
+        button.innerHTML = '<i class="fas ' + (done ? "fa-check" : "fa-circle-plus") + ' me-1"></i>' + (done ? "Done" : "Mark");
+    });
+}
+
+function syncModuleCompleteButton(mod) {
+    const button = document.getElementById("markCompleteBtn");
+    if (!button) return;
+    const status = window.ProgressStore
+        ? window.ProgressStore.moduleStatus(curriculumData, mod.id)
+        : { complete: false };
+    button.innerHTML = '<i class="fas ' + (status.complete ? "fa-check-circle" : "fa-check") + '"></i> ' +
+        (status.complete ? "Completed" : "Mark module complete");
+}
+
+async function markModuleComplete() {
+    const params = new URLSearchParams(location.search);
+    const found = findCurriculumModule(params.get("module") || params.get("id"));
+    if (!found || !window.ProgressStore) return;
+    const button = document.getElementById("markCompleteBtn");
+    if (button) button.disabled = true;
     try {
-        return JSON.parse(localStorage.getItem("lss_completed_modules") || "[]");
+        const result = await window.ProgressStore.completeModule(curriculumData, found.mod.id);
+        syncLessonButtons();
+        syncModuleCompleteButton(found.mod);
+        progressNotice(
+            result.offline
+                ? "Module completed in this browser. Server sync is unavailable."
+                : "Module completed and saved.",
+            result.offline ? "warning" : "success"
+        );
     } catch (error) {
-        return [];
+        progressNotice(error.message || "The module could not be completed.", "danger");
+    } finally {
+        if (button) button.disabled = false;
     }
 }
 
-function markModuleComplete() {
-    const params = new URLSearchParams(location.search);
-    const found = findCurriculumModule(params.get("module") || params.get("id"));
-    if (!found) return;
-    const completed = getCompletedModules();
-    if (!completed.includes(found.mod.id)) {
-        completed.push(found.mod.id);
-        localStorage.setItem("lss_completed_modules", JSON.stringify(completed));
-    }
-    const button = document.getElementById("markCompleteBtn");
-    if (button) {
-        button.innerHTML = '<i class="fas fa-check-circle"></i> Completed';
+async function toggleLesson(button) {
+    if (!window.ProgressStore || button.disabled) return;
+    const lessonId = button.getAttribute("data-lesson-id");
+    const moduleId = button.getAttribute("data-module-id");
+    const next = button.getAttribute("aria-pressed") !== "true";
+    button.disabled = true;
+    try {
+        const result = await window.ProgressStore.setLesson(curriculumData, moduleId, lessonId, next);
+        syncLessonButtons();
+        syncModuleCompleteButton({ id: moduleId });
+        if (result.offline) {
+            progressNotice("Progress saved in this browser. Server sync is unavailable.", "warning");
+        }
+    } catch (error) {
+        progressNotice(error.message || "The lesson progress could not be saved.", "danger");
+    } finally {
+        button.disabled = false;
     }
 }
 
@@ -234,13 +308,28 @@ function renderPreviousNext(found) {
         </div>`;
 }
 
-function loadModuleFromDB() {
+async function loadModuleFromDB() {
+    if (window.sessionReady) {
+        try {
+            await window.sessionReady;
+        } catch (e) {
+            console.warn("Session hydration check skipped:", e);
+        }
+    }
     const params = new URLSearchParams(location.search);
-    const found = findCurriculumModule(params.get("module") || params.get("id"));
+    const found = findCurriculumModule(params.get("module") || params.get("id") || params.get("mod"));
 
     if (!found) {
-        document.getElementById("moduleContent").innerHTML = '<div class="alert alert-danger">Module content not found. <a href="modules.html">Return to modules</a>.</div>';
+        document.getElementById("moduleContent").innerHTML = '<div class="alert alert-danger"><i class="fas fa-exclamation-triangle me-2"></i>Module content not found. <a href="modules.html" class="alert-link">Return to all training modules</a>.</div>';
         return;
+    }
+
+    if (window.ProgressStore) {
+        try {
+            await window.ProgressStore.load(curriculumData);
+        } catch (error) {
+            console.warn(error.message);
+        }
     }
 
     const {belt, mod} = found;
@@ -291,7 +380,23 @@ function loadModuleFromDB() {
             <a href="syllabus.html#${belt.id}" class="btn btn-outline-secondary"><i class="fas fa-scroll me-1"></i>View full syllabus</a>
         </div>`;
 
-    document.getElementById("moduleContent").innerHTML = html;
+    const contentHost = document.getElementById("moduleContent");
+    if (!contentHost.dataset.progressBound) {
+        contentHost.dataset.progressBound = "true";
+        contentHost.addEventListener("click", function (event) {
+            const button = event.target.closest("[data-lesson-toggle]");
+            if (button) toggleLesson(button);
+        });
+    }
+    contentHost.innerHTML = html;
+    syncLessonButtons();
+    syncModuleCompleteButton(mod);
 }
 
-document.addEventListener("DOMContentLoaded", loadModuleFromDB);
+document.addEventListener("DOMContentLoaded", function () {
+    loadModuleFromDB().catch(function (error) {
+        console.error("Failed to load module:", error);
+        document.getElementById("moduleContent").innerHTML =
+            '<div class="alert alert-danger"><i class="fas fa-exclamation-circle me-2"></i>Failed to load module: ' + escapeHtml(error.message || error) + '. <a href="modules.html" class="alert-link">Return to modules</a>.</div>';
+    });
+});

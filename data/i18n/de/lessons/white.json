@@ -1,0 +1,362 @@
+{
+  "W1.1": {
+    "why": "Wenn Sie wissen, woher Lean und Six Sigma kommen, können Sie erkennen, warum es diese Tools gibt. Sie wurden nicht als Theorie erfunden; Sie waren praktische Antworten auf echte Qualitäts- und Geschwindigkeitsprobleme.",
+    "what": "Six Sigma ist eine Qualitätsmethode, die Abweichungen und Fehler reduziert. Motorola entwickelte es in den 1980er Jahren und Bill Smith war einer der Schlüsselarchitekten. General Electric und Jack Welch machten es in den 1990er Jahren berühmt. Lean ist eine Geschwindigkeits- und Flussmethode, die aus dem Toyota Production System unter der Leitung von Taiichi Ohno hervorgegangen ist. Lean beseitigt Verschwendung; Six Sigma reduziert Variationen. Lean Six Sigma vereint beides.",
+    "how": [
+      "Beginnen Sie mit der Kundenanforderung, nicht mit dem Werkzeug.",
+      "Messen Sie die aktuelle Fehlerrate oder Durchlaufzeit.",
+      "Verwenden Sie DMAIC, um Variationen zu finden und zu reduzieren.",
+      "Nutzen Sie Lean-Tools, um Wartezeiten, Bewegungen, Lagerbestände und Nacharbeiten zu vermeiden.",
+      "Standardisieren Sie die verbesserte Methode und messen Sie weiter."
+    ],
+    "where": "Nutzen Sie die Geschichte als Kontext, nicht als Beweis. Ein Krankenhaus könnte Six Sigma nutzen, um Medikationsfehler zu reduzieren, und Lean nutzen, um die Wartezeiten der Patienten zu verkürzen. Eine Bank könnte Six Sigma nutzen, um die Nachbearbeitung von Krediten zu reduzieren, und Lean nutzen, um Genehmigungen zu beschleunigen. IT-Teams nutzen beides, um Release-Fehler und Wartezeiten zwischen den Teams zu reduzieren.",
+    "when_not": "Kopieren Sie kein berühmtes Programm, nur weil GE oder Toyota es verwendet haben. Betrachten Sie Lean nicht als Lizenz zum Personalabbau und betrachten Sie Six Sigma nicht nur als einen Statistikkurs.",
+    "common_mistakes": [
+      "Bei Lean geht es nur um Werkzeuge und bei Six Sigma geht es nur um Mathematik.",
+      "Das Programm einer anderen Organisation kopieren, ohne es an den lokalen Prozess anzupassen.",
+      "Nutzen Sie die Historie, um eine Lösung zu begründen, bevor Sie Daten sammeln."
+    ],
+    "quick_check": [
+      {
+        "q": "Welches Unternehmen hat Six Sigma entwickelt?",
+        "answer": "Motorola.",
+        "explanation": "Motorola entwickelte Six Sigma in den 1980er Jahren; GE machte es später populär."
+      },
+      {
+        "q": "Was ist der Schwerpunkt von Lean?",
+        "answer": "Abfall entfernen und den Fluss verbessern.",
+        "explanation": "Lean ist aus dem Toyota-Produktionssystem hervorgegangen und konzentriert sich auf Wertschöpfung, Fluss, Pull und Abfallbeseitigung."
+      },
+      {
+        "q": "Warum Lean und Six Sigma kombinieren?",
+        "answer": "Lean verbessert Geschwindigkeit und Fluss, während Six Sigma Qualität und Konsistenz verbessert.",
+        "explanation": "Gemeinsam thematisieren sie sowohl Verschwendung als auch Variation."
+      }
+    ],
+    "recap": [
+      "Six Sigma reduziert Abweichungen und Fehler; Motorola und GE spielen eine zentrale Rolle in seiner Geschichte.",
+      "Lean reduziert Verschwendung und verbessert den Fluss; es ist aus Toyota hervorgegangen.",
+      "Lean Six Sigma vereint beides, die Kundenanforderung steht jedoch immer im Vordergrund."
+    ]
+  },
+  "W1.2": {
+    "why": "Schlechte Qualität ist teuer, aber die Kosten verbergen sich oft in Nacharbeiten, Retouren, Inspektionen und verlorenen Kunden. Führungskräfte priorisieren Probleme, die sie in Bezug auf Geld und Kundenauswirkungen erkennen können.",
+    "what": "Qualität bedeutet, Kundenanforderungen konsequent zu erfüllen. Es ist nicht dasselbe wie Luxus oder Klasse. Die Kosten schlechter Qualität (COPQ) sind die Gesamtkosten, die dadurch entstehen, dass die Arbeit nicht gleich beim ersten Mal richtig ausgeführt wird. Es besteht aus vier Teilen: Präventionskosten wie Schulungen und Designprüfungen, Bewertungskosten wie Inspektion und Tests, interne Fehlerkosten wie Ausschuss und Nacharbeit vor der Lieferung und externe Fehlerkosten wie Rücksendungen, Beschwerden, Garantie und entgangene Geschäfte.",
+    "how": [
+      "Listen Sie die vier COPQ-Kategorien auf.",
+      "Schätzen Sie die Kosten in jeder Kategorie für einen Prozess oder Monat.",
+      "Fügen Sie die Kategorien hinzu, um den Gesamt-COPQ zu erhalten.",
+      "Teilen Sie die Werte durch Einheiten oder Umsatz, um einen fairen Vergleich zu ermöglichen.",
+      "Priorisieren Sie die größte kontrollierbare Kategorie."
+    ],
+    "where": "Eine Klinik kann die Kosten für die Wiederaufnahme zählen, ein Einzelhändler kann Retouren und Rücksendungen zählen, eine Fabrik kann Ausschuss und Nacharbeit zählen und ein IT-Team kann Stunden zur Fehlerbehebung zählen. Verwenden Sie COPQ, wenn Sie einen Business Case oder eine Prioritätenliste benötigen.",
+    "when_not": "Verwenden Sie COPQ nicht als vollständiges Buchhaltungssystem und zählen Sie keine Kosten doppelt, die bereits in einer anderen Kategorie enthalten sind. Benutzen Sie es nicht, um Einzelpersonen zu beschämen. Der Zweck besteht darin, den Prozess zu verbessern.",
+    "common_mistakes": [
+      "Zählen Sie nur Ausschuss und ignorieren Sie Inspektionen, Nacharbeiten und verlorene Kunden.",
+      "Doppelzählung der gleichen Kosten in zwei Kategorien.",
+      "Verwendung grober Schätzungen als exakte Finanzergebnisse ohne Validierung."
+    ],
+    "quick_check": [
+      {
+        "q": "Welche davon sind externe Ausfallkosten?",
+        "answer": "Kundenretouren und Gewährleistungsansprüche.",
+        "explanation": "Externe Fehler treten auf, nachdem der Kunde das Produkt oder die Dienstleistung erhalten hat."
+      },
+      {
+        "q": "Ein Prozess stellt 1.000 Einheiten her, weist 40 Fehler auf und die Behebung jedes Fehlers kostet 25 US-Dollar. Wie hoch sind die internen Ausfallkosten?",
+        "answer": "$1,000.",
+        "explanation": "40 Mängel x 25 $ = 1.000 $."
+      },
+      {
+        "q": "Was sind die vier COPQ-Kategorien?",
+        "answer": "Prävention, Beurteilung, internes Versagen und externes Versagen.",
+        "explanation": "Diese vier Kategorien decken die Kosten schlechter Qualität ab."
+      }
+    ],
+    "recap": [
+      "Qualität bedeutet, die Kundenanforderungen konsequent zu erfüllen.",
+      "COPQ umfasst Prävention, Bewertung, interne Fehler und externe Fehlerkosten.",
+      "Nutzen Sie COPQ, um Verbesserungen zu priorisieren und ein Geschäftsszenario zu erstellen, und nicht, um den Leuten die Schuld zu geben."
+    ]
+  },
+  "W1.3": {
+    "why": "Verbesserungen sind nur dann wichtig, wenn sie etwas ändern, das den Kunden am Herzen liegt. Ein Prozess kann intern schneller oder billiger erscheinen, während das Kundenerlebnis schlechter wird.",
+    "what": "Die Stimme des Kunden (VOC) ist die Sammlung von Kundenbedürfnissen, -wünschen, -beschwerden und -erwartungen. Kritisch für die Qualität (CTQ) ist eine messbare Anforderung, die aus dem VOC abgeleitet wird. Ein CTQ-Baum verknüpft ein breites Kundenbedürfnis mit einem Treiber und dann mit einem messbaren Merkmal. Beispielsweise kann „Ich möchte eine schnelle Antwort“ zu „Zeit bis zur ersten Antwort unter vier Stunden“ werden.",
+    "how": [
+      "Sammeln Sie VOC aus Interviews, Umfragen, Beschwerden und Beobachtungen.",
+      "Gruppieren Sie ähnliche Aussagen nach Themen.",
+      "Übersetzen Sie jedes Thema in einen messbaren CTQ.",
+      "Legen Sie ein Ziel oder eine Spezifikation und eine Messmethode fest.",
+      "Überprüfen Sie die CTQ mit Kunden oder Mitarbeitern an der Front."
+    ],
+    "where": "Verwenden Sie VOC und CTQ in jeder Branche. Im Gesundheitswesen kann aus „Ich möchte schnell gesehen werden“ eine „Zeit bis zum Arzttermin unter 20 Minuten“ werden. Im Banking kann „Ich möchte meinen Kreditstatus wissen“ zu „Statusaktualisierung innerhalb eines Werktages“ werden. Im Bildungsbereich kann aus „Ich möchte nützliches Feedback“ zu „Rückmeldung innerhalb von fünf Tagen“ werden.",
+    "when_not": "Verlassen Sie sich nicht nur auf eine Umfrage, wenn Sie den Prozess beobachten können. Erstellen Sie kein CTQ ohne einen echten Kunden oder einen klaren internen Kunden. Verwenden Sie keine VOC, wenn es sich um eine gesetzliche oder sicherheitsrelevante Anforderung handelt. Das sind zwingende Anforderungen, keine Präferenzen.",
+    "common_mistakes": [
+      "Eine Lösung mit einem Bedarf verwechseln, wie zum Beispiel „Wir brauchen eine neue App“ statt „Wir brauchen schnellere Antworten“.",
+      "Zu viele CTQs erstellen und den Fokus verlieren.",
+      "Schreiben eines CTQ, der nicht gemessen werden kann."
+    ],
+    "quick_check": [
+      {
+        "q": "Wofür steht VOC?",
+        "answer": "Stimme des Kunden.",
+        "explanation": "VOC ist die Sammlung von Kundenbedürfnissen und -erwartungen."
+      },
+      {
+        "q": "Was macht einen guten CTQ aus?",
+        "answer": "Es ist messbar und mit einem Kundenbedürfnis verknüpft.",
+        "explanation": "Ein CTQ übersetzt einen Bedarf in etwas, das der Prozess messen kann."
+      },
+      {
+        "q": "Ein Kunde sagt: „Ich möchte, dass meine Bestellung pünktlich ankommt.“ Welcher CTQ ist der Beste?",
+        "answer": "Prozentsatz der Bestellungen, die zum versprochenen Termin geliefert wurden.",
+        "explanation": "Dieser CTQ ist messbar und spiegelt direkt das Kundenbedürfnis wider."
+      }
+    ],
+    "recap": [
+      "VOC erfasst, was Kunden brauchen und schätzen.",
+      "CTQ übersetzt VOC in eine messbare Anforderung.",
+      "Ein nützlicher CTQ hat ein klares Ziel, eine klare Messmethode und eine klare Kundenbeziehung."
+    ]
+  },
+  "W1.4": {
+    "why": "Variation macht Prozesse unvorhersehbar. Selbst wenn der Durchschnitt gut aussieht, können Abweichungen zu Mängeln, Verzögerungen und unzufriedenen Kunden führen.",
+    "what": "Variation ist der Unterschied zwischen Ausgaben oder Prozessergebnissen im Zeitverlauf. Abweichungen aufgrund gemeinsamer Ursachen sind normal und in den Prozess integriert. Abweichungen aufgrund besonderer Ursachen sind auf ein bestimmtes Ereignis zurückzuführen, z. B. einen Maschinenausfall, einen neuen Lieferanten oder einen plötzlichen Nachfrageanstieg. Ein Fehler ist eine Ausgabe, die einer Spezifikation oder Anforderung nicht entspricht. Ein defektes Gerät kann einen oder mehrere Defekte aufweisen.",
+    "how": [
+      "Definieren Sie das Merkmal und die Spezifikation.",
+      "Sammeln Sie Daten in zeitlicher Reihenfolge.",
+      "Zeichnen Sie ein Laufdiagramm oder Histogramm.",
+      "Suchen Sie nach Mustern, Ausreißern und Verschiebungen.",
+      "Entfernen Sie zuerst Sonderursachen und reduzieren Sie dann die Abweichungen aufgrund gemeinsamer Ursachen."
+    ],
+    "where": "Ein Café kann die Servicezeit verfolgen; ein Krankenhaus kann die Wartezeit verfolgen; ein Softwareteam kann Release-Mängel verfolgen; Eine Bank kann Genehmigungszeiten verfolgen. Verwenden Sie die Variationsanalyse immer dann, wenn der Prozess stabil genug ist, um untersucht zu werden, und der Kunde eine messbare Anforderung hat.",
+    "when_not": "Reagieren Sie nicht auf jeden einzelnen Datenpunkt, als wäre es ein besonderer Anlass; Das ist Manipulation und macht die Sache normalerweise noch schlimmer. Versuchen Sie nicht, die Variation in einem Prozess zu reduzieren, der grundsätzlich nicht in der Lage ist und einer Neugestaltung bedarf.",
+    "common_mistakes": [
+      "Behandlung normaler Abweichungen aufgrund gemeinsamer Ursache als besonderes Ereignis.",
+      "Einer Person die Schuld für die durch den Prozess verursachten Abweichungen geben.",
+      "Es werden zu wenige Datenpunkte verwendet, um ein Muster zu erkennen."
+    ],
+    "quick_check": [
+      {
+        "q": "Was ist eine Variation aufgrund gemeinsamer Ursache?",
+        "answer": "Normale Variation, eingebaut in einen stabilen Prozess.",
+        "explanation": "Häufige Ursachenvariation ist die laufende, erwartete Variation des Prozesses."
+      },
+      {
+        "q": "Eine Servicezeit beträgt in der Regel 5-7 Minuten, ein Kunde wartet jedoch 45 Minuten. Welche Art von Variation wird die 45-minütige Wartezeit wahrscheinlich sein?",
+        "answer": "Variation aus besonderen Gründen.",
+        "explanation": "Es handelt sich um ein ungewöhnliches Ereignis außerhalb des normalen Musters."
+      },
+      {
+        "q": "Was ist ein Defekt?",
+        "answer": "Eine Ausgabe, die eine Spezifikation oder Anforderung nicht erfüllt.",
+        "explanation": "Ein Mangel ist die Nichterfüllung einer Anforderung."
+      }
+    ],
+    "recap": [
+      "Variation ist der Unterschied in den Prozessergebnissen im Laufe der Zeit.",
+      "Eine Variation aufgrund gemeinsamer Ursachen ist normal; Abweichungen aus besonderen Gründen haben ihren Ursprung in einer bestimmten Quelle.",
+      "Reduzieren Sie zuerst Sonderursachen und arbeiten Sie dann an Variationen aufgrund gemeinsamer Ursachen."
+    ]
+  },
+  "W1.5": {
+    "why": "DMAIC bietet Teams einen disziplinierten Weg von einem vagen Problem zu einer bewährten Lösung. Es verhindert das Springen zu Fixes und trägt dazu bei, den Gewinn aufrechtzuerhalten.",
+    "what": "DMAIC steht für Define, Measure, Analyze, Improve, Control. Definieren klärt das Problem, den Kunden, das Ziel und den Umfang. Measure erstellt eine Basislinie und überprüft die Daten. Analysieren findet Grundursachen. Verbessern Sie Auswahl- und Testlösungen. Die Steuerung standardisiert und überwacht den neuen Prozess. Jede Phase endet mit einer Gate-Überprüfung.",
+    "how": [
+      "Definieren: Schreiben Sie eine Problemstellung, ein Ziel, einen Umfang und ein Team.",
+      "Messen: Basisdaten sammeln und das Messsystem validieren.",
+      "Analysieren: Verwenden Sie Diagramme, Ursachentools und Tests, um Ursachen zu finden.",
+      "Verbessern: Wählen Sie eine Lösung, testen Sie sie und bestätigen Sie das Ergebnis.",
+      "Kontrolle: Dokumentieren Sie den Standard, überwachen Sie die Metrik und weisen Sie einen Eigentümer zu."
+    ],
+    "where": "Verwenden Sie DMAIC zur Verbesserung eines bestehenden Prozesses im Gesundheitswesen, im Bankwesen, im Einzelhandel, in der Fertigung, in der IT oder im Bildungswesen. Ein Labor hat beispielsweise 30 % verspätete Berichte. Definieren Sie das Problem und das Ziel. Messen Sie die Grundlinie; Analysieren Sie die Abholung und Stapelverarbeitung durch den Kurier. Verbessern Sie mit einem Barcode-Scan; Kontrolle mit einem Tagesdiagramm und einem Eigentümer. Verwenden Sie stattdessen DMADV, wenn Sie einen neuen Prozess von Grund auf entwerfen.",
+    "when_not": "Verwenden Sie DMAIC nicht für eine einfache, offensichtliche Lösung oder ein dringendes Sicherheitsproblem; Verwenden Sie zunächst ein schnelles Kaizen oder eine sofortige Eindämmung. Überspringen Sie die Maßnahme nicht, nur weil das Team glaubt, das Problem zu kennen.",
+    "common_mistakes": [
+      "Vom Definieren direkt zum Verbessern springen.",
+      "Die Basislinienmessung wird übersprungen, sodass das Team den Gewinn nicht nachweisen kann.",
+      "Beenden des Projekts ohne Kontrollplan und Eigentümer."
+    ],
+    "quick_check": [
+      {
+        "q": "Wie lauten die fünf DMAIC-Phasen in der Reihenfolge?",
+        "answer": "Definieren, messen, analysieren, verbessern, kontrollieren.",
+        "explanation": "DMAIC ist die Standard-Verbesserungssequenz."
+      },
+      {
+        "q": "In welcher Phase wird die Basislinie festgelegt?",
+        "answer": "Messen.",
+        "explanation": "In der Messphase werden die Basisdaten definiert und erfasst."
+      },
+      {
+        "q": "Was ist der Zweck der Kontrollphase?",
+        "answer": "Den verbesserten Prozess zu standardisieren und zu überwachen, damit der Gewinn anhält.",
+        "explanation": "Die Kontrolle bestätigt die neue Methode und weist das fortlaufende Eigentum zu."
+      }
+    ],
+    "recap": [
+      "DMAIC ist ein fünfstufiger Weg vom Problem zur nachhaltigen Verbesserung.",
+      "Messen und Analysieren verhindern Vermutungen; Verbessern Sie Testlösungen.",
+      "Kontrolle ist es, die den Gewinn dauerhaft macht."
+    ]
+  },
+  "W2.1": {
+    "why": "Verschwendung ist Arbeit, die Zeit, Geld oder Mühe verschlingt, ohne einen Mehrwert für den Kunden zu schaffen. Zu lernen, Verschwendung zu erkennen, ist die erste praktische Lean-Fähigkeit, da das meiste davon vor den Augen der Öffentlichkeit verborgen bleibt.",
+    "what": "Lean definiert acht Verschwendungen, die oft als TIMWOODS bezeichnet werden: Transport, Inventar, Bewegung, Warten, Überproduktion, Überverarbeitung, Mängel und ungenutzte Fähigkeiten. Wert ist das, wofür der Kunde bereit ist zu zahlen; Abfall ist alles andere. Manche Abfälle sind notwendig, wie zum Beispiel gesetzlich vorgeschriebene Inspektionen. Das Ziel besteht also darin, sie zu reduzieren und nicht, sie blind zu beseitigen.",
+    "how": [
+      "Gehen Sie den Prozess von Anfang bis Ende durch und listen Sie jeden Schritt auf.",
+      "Markieren Sie jeden Schritt als Mehrwert, notwendiger Nicht-Wertschöpfer oder Verschwendung.",
+      "Klassifizieren Sie den Abfall anhand der acht Kategorien.",
+      "Messen Sie die Verschwendung in Bezug auf Zeit, Kosten, Entfernung oder Mängel.",
+      "Wählen Sie einen Abfall aus, testen Sie eine kleine Änderung und messen Sie erneut."
+    ],
+    "where": "In einer Klinik ist das Warten von Patienten Warteverschwendung, der Gang des Personals zu einem entfernten Drucker ist Bewegung, abgelaufene Verbrauchsmaterialien sind Inventar und die erneute Eingabe derselben Daten ist Überverarbeitung. In der IT ist das Warten auf Genehmigungen ein Warten, ungenutzte Entwicklerfähigkeiten sind ungenutztes Talent und wieder geöffnete Tickets sind Mängel. Nutzen Sie die acht Abfälle immer dann, wenn Sie eine schnelle, gemeinsame Sprache für Dinge benötigen, die einen Prozess verlangsamen.",
+    "when_not": "Entfernen Sie keine Stufe, nur weil sie wie Verschwendung aussieht. Sicherheitsüberprüfungen, behördliche Überprüfungen und vom Kunden erforderliche Genehmigungen können notwendige, nicht wertschöpfende Arbeiten sein.",
+    "common_mistakes": [
+      "Abfallreduzierung mit Personalreduzierung gleichsetzen.",
+      "Vielbeschäftigte Menschen mit wertvoller Arbeit verwechseln.",
+      "Entfernen einer Kontrolle, die einen schwerwiegenden Defekt verhindert."
+    ],
+    "quick_check": [
+      {
+        "q": "Wofür steht das W in TIMWOODS?",
+        "answer": "Warten.",
+        "explanation": "TIMWOODS: Transport, Inventar, Bewegung, Warten, Überproduktion, Überverarbeitung, Mängel, Fähigkeiten."
+      },
+      {
+        "q": "Jede Stunde läuft eine Krankenschwester 200 Meter, um Vorräte einzusammeln. Welcher Abfall ist das?",
+        "answer": "Bewegung.",
+        "explanation": "Das Gehen selbst stellt für den Patienten keinen Mehrwert dar."
+      },
+      {
+        "q": "Sollen alle nicht wertschöpfenden Arbeitsabfälle beseitigt werden?",
+        "answer": "Nein. Es sind einige nicht wertschöpfende Arbeiten erforderlich, beispielsweise Sicherheits- oder Rechtsprüfungen.",
+        "explanation": "Notwendige, nicht wertschöpfende Arbeiten sollten nach Möglichkeit reduziert und nicht blind eliminiert werden."
+      }
+    ],
+    "recap": [
+      "Die acht Verschwendungen sind Transport, Inventar, Bewegung, Warten, Überproduktion, Überverarbeitung, Mängel und ungenutzte Fähigkeiten.",
+      "Der Wert wird vom Kunden definiert.",
+      "Es sind einige Arbeiten ohne Mehrwert erforderlich; vorsichtig reduzieren."
+    ]
+  },
+  "W2.2": {
+    "why": "Verbesserungsprojekte geraten ins Stocken, wenn niemand weiß, wer entscheidet, wer die Arbeit erledigt und wem das Ergebnis gehört. Klare Rollen machen aus guten Absichten abgeschlossene Projekte.",
+    "what": "Ein Sponsor oder Champion stellt Autorität, Ressourcen und Hilfe beim Abbau von Hindernissen zur Verfügung. Der Prozesseigentümer ist nach dem Projekt Eigentümer des Prozesses und erhält den Gewinn aufrecht. Ein Black Belt leitet hauptberuflich komplexe Projekte und coacht andere. Ein Green Belt leitet nebenberuflich Projekte in seinem eigenen Bereich. Gelb- und Weißgurte beteiligen sich und führen kleine lokale Verbesserungen durch. Ein Master Black Belt regelt den Einsatz und entwickelt Fähigkeiten. Teammitglieder, Fachexperten, Dateneigentümer und Finanzpartner sorgen für Wissen und Validierung.",
+    "how": [
+      "Nennen Sie den Sponsor und bestätigen Sie, welche Entscheidungen er treffen kann.",
+      "Identifizieren Sie den Prozessverantwortlichen, der mit der Änderung leben wird.",
+      "Wählen Sie einen Leiter und ein kleines Team mit dem erforderlichen Wissen.",
+      "Vereinbaren Sie Zeitverpflichtungen und Besprechungsrhythmen.",
+      "Schreiben Sie eine einfache RACI: Wer ist verantwortlich, rechenschaftspflichtig, konsultiert und informiert?"
+    ],
+    "where": "Sorgen Sie bei jedem Projekt für klare Rollenverteilung, insbesondere bei funktionsübergreifenden Projekten. Bei einem Krankenhausentlassungsprojekt könnte der Sponsor der Chief Operating Officer, der Prozessverantwortliche der Stationsleiter, der Leiter eine Green Belt-Krankenschwester und der Datenverantwortliche ein IT-Analyst sein. In einer Bank könnte der Prozessverantwortliche der Betriebsleiter sein und der Finanzpartner validiert den Nutzen.",
+    "when_not": "Erstellen Sie nicht für jede Aufgabe eine Rolle und laden Sie nicht jeden zu jedem Meeting ein. Akzeptieren Sie keinen Sponsor, der die Barrieren nicht beseitigen kann, und warten Sie nicht bis zum Ende, um den Prozessverantwortlichen zu identifizieren.",
+    "common_mistakes": [
+      "Nur ein Namenssponsor, der nie anwesend ist oder keine Entscheidungen trifft.",
+      "Kein Prozessverantwortlicher, daher verschwindet der Gewinn nach dem Projekt.",
+      "Ein Team, das so groß ist, dass Entscheidungen und Verantwortlichkeit verschwinden."
+    ],
+    "quick_check": [
+      {
+        "q": "Wem gehört der Prozess nach Abschluss des Verbesserungsprojekts?",
+        "answer": "Der Prozessbesitzer.",
+        "explanation": "Der Prozessverantwortliche hält den neuen Standard aufrecht und überwacht die Leistung."
+      },
+      {
+        "q": "Was ist die Hauptaufgabe eines Projektsponsors?",
+        "answer": "Stellen Sie Autorität und Ressourcen zur Verfügung und helfen Sie, Hindernisse abzubauen.",
+        "explanation": "Der Sponsor ist der Senior-Eigentümer, der das Projekt ermöglicht."
+      },
+      {
+        "q": "Wofür steht RACI?",
+        "answer": "Verantwortlich, rechenschaftspflichtig, konsultiert, informiert.",
+        "explanation": "RACI klärt Entscheidungsrechte und Kommunikation."
+      }
+    ],
+    "recap": [
+      "Jedes Projekt braucht einen Sponsor, einen Prozessverantwortlichen und eine klare Führung.",
+      "Passen Sie die Gürtelrolle an die Komplexität des Projekts und die Zeitverfügbarkeit an.",
+      "Verwenden Sie RACI, um Entscheidungsrechte explizit zu machen."
+    ]
+  },
+  "W2.3": {
+    "why": "Werkzeuge allein können Veränderungen nicht aufrechterhalten. Menschen halten Veränderungen aufrecht, wenn sie sich sicher fühlen, ihre Stimme zu erheben, den Daten zu vertrauen und zu sehen, wie Führungskräfte das neue Verhalten vorleben.",
+    "what": "Kultur ist die Gesamtheit gemeinsamer Überzeugungen und Verhaltensweisen, die die Art und Weise prägen, wie Arbeit erledigt wird. Mindset ist die Art und Weise, wie Menschen Probleme interpretieren und welche Rolle sie bei deren Lösung spielen. Eine Qualitätskultur konzentriert sich auf den Kunden, nutzt Daten statt Schuldzuweisungen, behandelt Probleme als Lerngelegenheiten, respektiert Menschen und erwartet von Führungskräften, dass sie dorthin gehen, wo die Arbeit stattfindet.",
+    "how": [
+      "Fragen Sie nach dem Prozess, nicht nach der Person: „Was hat diesen Fehler verursacht?“",
+      "Gehen Sie zur Gemba und beobachten Sie die eigentliche Arbeit.",
+      "Vielen Dank für die Meldung von Problemen und Beinaheunfällen.",
+      "Nutzen Sie Daten, um Annahmen zu testen und Ergebnisse offen zu teilen.",
+      "Machen Sie Verbesserungen zu einem routinemäßigen Bestandteil von Besprechungen und nicht zu einem besonderen Ereignis."
+    ],
+    "where": "Kultur ist überall wichtig, aber besonders deutlich wird sie im Gesundheitswesen, in der Luftfahrt, in der Fertigung und in der IT, wo Menschen Fehler verbergen, um Schuldzuweisungen zu vermeiden. In einem Krankenhaus kann ein Leiter, der die Meldung von Fehlern belohnt, dafür sorgen, dass die gemeldeten Fehler zunehmen, bevor der Schaden sinkt. Das kann ein Zeichen für verbesserte Sicherheit und nicht für schlechtere Leistung sein.",
+    "when_not": "Benutzen Sie „Kultur“ nicht als Entschuldigung für fehlende Daten, unklare Rollen oder schlechtes Prozessdesign. Erzwingen Sie keine positive Einstellung, wenn Menschen berechtigte Sicherheits- oder Ethikbedenken äußern.",
+    "common_mistakes": [
+      "Einzelpersonen für in den Prozess eingebaute Probleme verantwortlich machen.",
+      "Einführung von Tools, bevor Vertrauen und psychologische Sicherheit aufgebaut werden.",
+      "Sagen Sie „Wir haben ein Kulturproblem“, ohne das Führungsverhalten zu ändern."
+    ],
+    "quick_check": [
+      {
+        "q": "Was ist psychologische Sicherheit?",
+        "answer": "Der Glaube, dass man Probleme oder Ideen ungestraft ansprechen kann.",
+        "explanation": "Psychologische Sicherheit unterstützt das Lernen und die frühzeitige Problemerkennung."
+      },
+      {
+        "q": "Ein Leiter fragt: „Was hat diesen Fehler im Prozess verursacht?“ statt „Wer hat das getan?“ Welches Verhalten modelliert die Führungskraft?",
+        "answer": "Eine schuldfreie, prozessorientierte Denkweise.",
+        "explanation": "Die Frage lenkt die Aufmerksamkeit eher auf Systemursachen als auf Einzelpersonen."
+      },
+      {
+        "q": "Warum können gemeldete Fehler zunehmen, nachdem sich die Sicherheitskultur verbessert hat?",
+        "answer": "Menschen fühlen sich sicherer, wenn sie Probleme melden, die zuvor verborgen blieben.",
+        "explanation": "Mehr Berichte können die tatsächliche Fehlerquote aufdecken, bevor sie sinkt."
+      }
+    ],
+    "recap": [
+      "Kultur wird durch alltägliche Verhaltensweisen geprägt, insbesondere durch das Verhalten von Führungskräften.",
+      "Konzentrieren Sie sich auf den Prozess, nicht auf Schuldzuweisungen, und sorgen Sie dafür, dass Sie Ihre Meinung gefahrlos äußern können.",
+      "Tools funktionieren am besten, wenn Vertrauen und datenbasiertes Lernen an erster Stelle stehen."
+    ]
+  },
+  "W2.4": {
+    "why": "Ein kleines erstes Projekt schafft Selbstvertrauen, schafft einen sichtbaren Erfolg und vermittelt die Methode, ohne Sie zu überfordern. Es gibt Ihnen auch Beweise, um andere zu überzeugen.",
+    "what": "Ein gutes erstes Projekt hat einen kleinen Umfang, ist messbar, datenreich genug, um es zu studieren, wichtig für den Kunden, liegt in Ihrem Einflussbereich und kann in vier bis acht Wochen abgeschlossen werden. Verwenden Sie DMAIC oder einen einfachen Plan-Do-Check-Act-Zyklus. In einer einseitigen Charta werden Problem, Ziel, Umfang, Team, Metrik und Zeitplan aufgeführt.",
+    "how": [
+      "Wählen Sie einen wiederkehrenden Schmerzpunkt in Ihrem eigenen Arbeitsbereich aus.",
+      "Schreiben Sie eine Problemstellung mit Beweisen: Was, wo, wann und wie viel.",
+      "Legen Sie ein messbares Ziel und eine Grundlinie fest.",
+      "Ordnen Sie den Prozess zu und finden Sie eine wahrscheinliche Grundursache.",
+      "Testen Sie eine kleine Änderung, messen Sie das Ergebnis und standardisieren Sie, was funktioniert."
+    ],
+    "where": "Verwenden Sie diesen Ansatz für die Übergabe eines Support-Tickets, einen Check-in-Schritt in der Klinik, einen Retourenprozess im Einzelhandel oder einen Bericht, der immer zu spät kommt. Beispiel: Ein Support-Team hat 20 % der Tickets erneut geöffnet, weil wichtige Informationen fehlen. Das Team fügt ein erforderliches Feld hinzu, testet es zwei Wochen lang und reduziert die Nacharbeit auf 8 %.",
+    "when_not": "Beginnen Sie nicht mit einem politisch sensiblen, funktionsübergreifenden, kapitalintensiven oder schlecht gemessenen Problem. Wählen Sie kein Projekt, bei dem Sie keinen Einfluss auf den Prozess haben oder keinen Zugriff auf Daten haben.",
+    "common_mistakes": [
+      "Umfang zu groß für ein erstes Projekt.",
+      "Keine Basislinie, daher kann das Team keine Verbesserung nachweisen.",
+      "Beginnen Sie mit einer Lieblingslösung statt mit einem Problem und Daten."
+    ],
+    "quick_check": [
+      {
+        "q": "Was macht ein gutes erstes Verbesserungsprojekt aus?",
+        "answer": "Kleiner Umfang, messbar, kundenrelevant und in wenigen Wochen abschließbar.",
+        "explanation": "Ein erstes Projekt sollte klein genug sein, um es abzuschließen und daraus zu lernen."
+      },
+      {
+        "q": "Warum ist eine Grundlinie wichtig?",
+        "answer": "Es zeigt die aktuelle Performance und lässt Sie nachweisen, ob die Änderung funktioniert hat.",
+        "explanation": "Ohne eine Basislinie sind Verbesserungsansprüche nur Meinungen."
+      },
+      {
+        "q": "Was sollten Sie tun, nachdem ein Pilotprojekt erfolgreich war?",
+        "answer": "Standardisieren Sie die Änderung und weisen Sie einen Eigentümer zu, der sie überwacht.",
+        "explanation": "Standardisierung und Eigenverantwortung sorgen dafür, dass der Gewinn dauerhaft bleibt."
+      }
+    ],
+    "recap": [
+      "Fangen Sie klein an, messen Sie die Grundlinie und sind Sie innerhalb weniger Wochen fertig.",
+      "Verwenden Sie eine Grundursache und eine getestete Änderung anstelle einer umfassenden Neugestaltung.",
+      "Standardisieren Sie den Gewinn und teilen Sie das Ergebnis."
+    ]
+  }
+}

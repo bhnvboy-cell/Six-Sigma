@@ -1,0 +1,1125 @@
+{
+  "G1.1": {
+    "why": "Eine Charta ist der Vertrag zwischen dem Projektteam und dem Sponsor. Green Belts leiten oft Projekte, daher ist eine klare Charta für die Kontrolle des Umfangs, der Ressourcen und einer messbaren Definition des Erfolgs unerlässlich.",
+    "what": "Eine Green Belt-Charta umfasst den Geschäftsfall, die Problemstellung, das SMART-Ziel, innerhalb und außerhalb des Geltungsbereichs liegende Grenzen, Teamrollen, Zeitplan und Meilensteine, primäre Metrik, Risiken, Einschränkungen und Genehmigungen. Die Problemstellung beschreibt was, wo, wann und wie viel anhand grundlegender Beweise und vermeidet die Nennung einer Ursache oder Lösung. Der Business Case verknüpft das Projekt mit den Kundenauswirkungen, den Kosten schlechter Qualität oder der Strategie.",
+    "how": [
+      "Sammeln Sie Basisdaten, bevor Sie die Problemstellung schreiben.",
+      "Beschreiben Sie die Lücke mit Was, Wo, Wann und Wie viel.",
+      "Schreiben Sie ein spezifisches, messbares, erreichbares, relevantes und zeitgebundenes Ziel.",
+      "Definieren Sie die Prozessgrenzen und listen Sie Arbeiten außerhalb des Umfangs explizit auf.",
+      "Nennen Sie den Sponsor, den Prozessverantwortlichen, den Teamleiter und die Teammitglieder.",
+      "Legen Sie Meilensteine ​​für Definieren, Messen, Analysieren, Verbessern und Steuern fest.",
+      "Definieren Sie die primäre Metrik, Datenquelle und den erwarteten Nutzen.",
+      "Holen Sie sich die Zustimmung des Sponsors, bevor mit der umfangreichen Datenerfassung begonnen wird."
+    ],
+    "where": "Verwenden Sie für jedes Green Belt-Projekt, insbesondere für funktionsübergreifende Arbeiten, eine vollständige Charta. Beispiel: Eingelieferte Patienten warten durchschnittlich 6,2 Stunden vom Eintreffen des Notfalls bis zu einem stationären Bett, gegenüber einem Zielwert von 4 Stunden. Ziel ist es, den Median innerhalb von 12 Wochen auf 4 Stunden zu reduzieren. Der Umfang reicht von der Ankunft im Notfall bis zur Bettenzuweisung. Neubauten fallen nicht in den Geltungsbereich.",
+    "when_not": "Erstellen Sie keinen vollständigen Auftrag für eine kleine Reparatur, die eine Stunde dauert; Verwenden Sie eine Aufgabenliste. Nutzen Sie die Charta nicht, um eine bevorzugte Lösung festzulegen, bevor das Team das Problem analysiert hat.",
+    "common_mistakes": [
+      "Einfügen einer Ursache oder Lösung in die Problemstellung.",
+      "Ein vages Ziel wie „Flow verbessern“ ohne Kennzahl oder Datum.",
+      "Keine Basislinie, kein Prozessverantwortlicher oder Umfang, der so umfassend ist, dass das Projekt nicht abgeschlossen werden kann."
+    ],
+    "quick_check": [
+      {
+        "q": "Was sollte eine Problemstellung vermeiden?",
+        "answer": "Nennen Sie eine Ursache oder eine bevorzugte Lösung.",
+        "explanation": "Die Problemstellung beschreibt die Lücke mit den Beweisen; Die Ursachen werden später untersucht."
+      },
+      {
+        "q": "Warum ist eine Baseline in einer Charta wichtig?",
+        "answer": "Es zeigt die aktuelle Leistung und macht das Ziel und den späteren Nutzen glaubwürdig.",
+        "explanation": "Ohne eine Baseline kann das Team keine Verbesserung nachweisen."
+      },
+      {
+        "q": "Was bedeutet außerhalb des Geltungsbereichs?",
+        "answer": "Arbeiten, die das Projekt nicht behandeln wird.",
+        "explanation": "Explizite Ausschlüsse verhindern Scope Creep."
+      }
+    ],
+    "recap": [
+      "Eine Charta definiert das Problem, das Ziel, den Umfang, das Team, die Metrik und die Meilensteine.",
+      "Verwenden Sie Basisdaten und halten Sie Ursachen und Lösungen aus der Problemstellung heraus.",
+      "Die Zustimmung des Sponsors bestätigt Autorität, Ressourcen und Erwartungen."
+    ]
+  },
+  "G1.2": {
+    "why": "Projekte scheitern, wenn Schlüsselpersonen überrascht, ausgeschlossen oder aktiv Widerstand geleistet werden. Das Stakeholder-Mapping hilft dem Team, das Engagement zu planen, bevor es zu einem Problem wird.",
+    "what": "Ein Stakeholder ist jeder, der von dem Projekt betroffen ist oder Einfluss darauf nehmen kann. Ein gängiges Instrument ist das Einfluss-Interessen-Raster. Stakeholder mit hohem Einfluss und großem Interesse werden eng betreut. Hoher Einfluss und geringes Interesse werden befriedigt. Geringer Einfluss und hohes Interesse werden informiert. Geringe Einflussnahme und geringe Zinsen werden überwacht. Das Team bewertet außerdem die Haltung jedes Stakeholders: Unterstützer, Neutraler oder Blocker.",
+    "how": [
+      "Listen Sie alle Personen auf, die von dem Projekt betroffen sind oder Einfluss darauf nehmen können.",
+      "Bewerten Sie den Einfluss und das Interesse jedes Stakeholders.",
+      "Tragen Sie sie in das Einfluss-Interessen-Raster ein.",
+      "Bewerten Sie ihre aktuelle Haltung und was sie brauchen.",
+      "Wählen Sie eine Interaktionsmethode und -häufigkeit.",
+      "Weisen Sie jeder Schlüsselbeziehung einen Eigentümer zu.",
+      "Überprüfen Sie die Karte an jedem Projekttor."
+    ],
+    "where": "Nutzen Sie die Stakeholder-Zuordnung für funktionsübergreifende, regulierte oder politisch sensible Projekte. Bei einem Krankenhausentlassungsprojekt haben der Chief Operating Officer und die Stationsleiter großen Einfluss und großes Interesse; Die IT mag einen großen Einfluss haben, aber ein geringeres Interesse; Patienten und Familien haben großes Interesse und sollten durch Fokusgruppen oder Umfragen einbezogen werden.",
+    "when_not": "Erstellen Sie keine große Stakeholder-Map für eine kleine lokale Lösung mit zwei Teilnehmern. Verwechseln Sie Stakeholder nicht mit Kunden und betrachten Sie Engagement nicht als einmalige Kommunikation.",
+    "common_mistakes": [
+      "Bis zum Ende des Projekts fehlte ein Schlüsselblocker.",
+      "Nur nach oben kommunizieren und das Personal an der Front ignorieren.",
+      "Eine Karte ohne Engagement-Plan, Besitzer oder Follow-up."
+    ],
+    "quick_check": [
+      {
+        "q": "Wie sollte ein Stakeholder mit großem Einfluss und hohem Interesse gemanagt werden?",
+        "answer": "Eng, mit regelmäßigem Engagement und Einbindung in Entscheidungen.",
+        "explanation": "Diese Stakeholder können das Projekt stark beeinflussen und sich um das Ergebnis kümmern."
+      },
+      {
+        "q": "Warum die Haltung der Stakeholder abbilden?",
+        "answer": "Um zu verstehen, wer das Projekt unterstützt, neutral ist oder möglicherweise blockiert.",
+        "explanation": "Stance hilft dem Team dabei, das Engagement anzupassen und auf Bedenken einzugehen."
+      },
+      {
+        "q": "Wann sollte die Stakeholder-Map überprüft werden?",
+        "answer": "An Projekttoren und wenn sich die Umstände ändern.",
+        "explanation": "Einfluss, Interesse und Haltung können sich während des Projekts ändern."
+      }
+    ],
+    "recap": [
+      "Ordnen Sie Stakeholder nach Einfluss und Interesse zu und planen Sie dann das Engagement.",
+      "Bewerten Sie die Haltung und weisen Sie Schlüsselbeziehungen einen Eigentümer zu.",
+      "Beziehen Sie Mitarbeiter an vorderster Front mit ein, nicht nur Führungskräfte."
+    ]
+  },
+  "G1.3": {
+    "why": "Green Belts müssen sicherstellen, dass das Projekt ein Kundenproblem löst und nicht eine interne Annehmlichkeit. CTQs wandeln die Kundensprache in messbare Spezifikationen um, an die sich der Prozess halten kann.",
+    "what": "Die Stimme des Kunden stammt aus Interviews, Umfragen, Beschwerden, Fokusgruppen, Beobachtungen und Garantiedaten. Ein CTQ-Baum verknüpft einen allgemeinen Bedarf mit einem Treiber und dann mit einer messbaren Anforderung. Jede CTQ benötigt eine betriebliche Definition, ein Ziel, Spezifikationsgrenzen und eine klare Fehlerdefinition. Spezifikationsgrenzen definieren eine akzeptable Leistung; Sie sind nicht dasselbe wie Kontrollgrenzen.",
+    "how": [
+      "Sammeln Sie VOC aus mehreren Quellen, nicht nur aus einer einzigen Umfrage.",
+      "Gruppieren Sie ähnliche Aussagen nach Themen.",
+      "Erstellen Sie einen CTQ-Baum vom Bedarf über den Treiber bis hin zur messbaren Anforderung.",
+      "Definieren Sie die Metrik, das Ziel sowie die oberen oder unteren Spezifikationsgrenzen.",
+      "Definieren Sie, was als Mangel gilt.",
+      "Validieren Sie die CTQ und Spezifikation mit Kunden oder Prozessexperten."
+    ],
+    "where": "Verwenden Sie VOC und CTQ in jedem Green Belt-Projekt. Beispiel: Ein Kunde sagt: „Ich möchte meine Kreditentscheidung schnell treffen.“ Der Fahrer ist die Entscheidungszeit. Die CTQ ist die Zeit vom vollständigen Antrag bis zur Entscheidung, mit einer Zielvorgabe von zwei Werktagen und einer Obergrenze von drei Tagen. Eine Entscheidung, die länger als drei Tage in Anspruch nimmt, stellt einen Mangel dar.",
+    "when_not": "Erfinden Sie CTQs nicht ohne Kundeneingaben. Verwechseln Sie einen CTQ nicht mit einer Lösung wie „Wir brauchen eine neue App“. Bei rechtlichen, sicherheitstechnischen und behördlichen Anforderungen handelt es sich um zwingende Anforderungen und nicht um optionale Kundenpräferenzen.",
+    "common_mistakes": [
+      "Schreibbedürfnisse in Lösungssprache.",
+      "Zu viele CTQs erstellen und den Fokus verlieren.",
+      "Festlegung einer Spezifikation, ohne zu prüfen, ob sie messbar und erreichbar ist."
+    ],
+    "quick_check": [
+      {
+        "q": "Was verbindet ein CTQ-Baum?",
+        "answer": "Ein Kundenbedürfnis nach Treibern und messbaren Anforderungen.",
+        "explanation": "Der Baum übersetzt die Stimme des Kunden in Prozessmetriken."
+      },
+      {
+        "q": "Was ist der Unterschied zwischen einer Spezifikationsgrenze und einer Kontrollgrenze?",
+        "answer": "Eine Spezifikationsgrenze definiert Kunden- oder Designanforderungen; Eine Kontrollgrenze beschreibt die Prozessschwankung.",
+        "explanation": "Spezifikationen ergeben sich aus Anforderungen; Kontrollgrenzen stammen aus Prozessdaten."
+      },
+      {
+        "q": "Was macht einen CTQ nutzbar?",
+        "answer": "Es ist messbar, hat ein Ziel oder eine Spezifikation und eine klare Fehlerdefinition.",
+        "explanation": "Ohne diese kann das Team es nicht messen oder verbessern."
+      }
+    ],
+    "recap": [
+      "VOC erfasst Kundenbedürfnisse; CTQs machen sie messbar.",
+      "Definieren Sie die Metrik, das Ziel, die Spezifikationsgrenzen und die Fehlerregel.",
+      "Validieren Sie CTQs mit Kunden und sorgen Sie dafür, dass sie sich konzentrieren."
+    ]
+  },
+  "G2.1": {
+    "why": "Ohne einen Datenerfassungsplan sind die Daten häufig unvollständig, inkonsistent oder können die Projektfrage nicht beantworten. Ein Plan stellt sicher, dass die richtigen Daten auf die richtige Weise erfasst werden.",
+    "what": "Ein Datenerfassungsplan definiert die Metrik- und Betriebsdefinition, den Datentyp, die Quelle, den Standort, den Sammler, den Zeitpunkt, die Stichprobenmethode, die Stichprobengröße, die Aufzeichnungsform und die Validierungsmethode. Außerdem ist eine Messsystemanalyse geplant. Vorhandene Daten sollten verwendet werden, wenn sie zuverlässig sind; Neue Daten werden benötigt, wenn die aktuellen Daten die Frage nicht beantworten können.",
+    "how": [
+      "Schreiben Sie die Frage auf, die die Daten beantworten müssen.",
+      "Definieren Sie die Metrik operativ, einschließlich Start- und Stopppunkten.",
+      "Wählen Sie die Datenquelle und überprüfen Sie deren Qualität.",
+      "Legen Sie die Stichprobenmethode und die Stichprobengröße fest.",
+      "Entwerfen oder wählen Sie die Aufnahmeform aus.",
+      "Pilotieren Sie den Plan und schulen Sie die Sammler.",
+      "Überprüfen Sie eine Stichprobe der Aufzeichnungen auf Richtigkeit und Vollständigkeit."
+    ],
+    "where": "Verwenden Sie in jeder Maßnahmenphase und bei jeder wichtigen Entscheidung einen Datenerfassungsplan. Beispiel: Für die Bearbeitungszeit in der Notaufnahme ist der Anfang der Ankunftszeitstempel und das Ende der Zeitstempel der stationären Bettenzuweisung. Die Quelle ist die elektronische Gesundheitsakte. Sammeln Sie alle aufgenommenen Patienten vier Wochen lang, stratifizieren Sie sie nach Schicht und Tag und validieren Sie zwanzig Datensätze mit dem Quellsystem.",
+    "when_not": "Sammeln Sie keine neuen Daten, wenn vorhandene validierte Daten die Frage bereits beantworten. Sammeln Sie keine Daten ohne eine klare Frage und sammeln Sie nicht zu viel, nur weil Daten verfügbar sind.",
+    "common_mistakes": [
+      "Vage operative Definitionen, die von verschiedenen Sammlern unterschiedlich interpretiert werden.",
+      "Kein Stichprobenplan, daher sind die Daten eher praktisch als repräsentativ.",
+      "Verzichten Sie auf die Analyse von Messsystemen und vertrauen Sie auf schlechte Daten."
+    ],
+    "quick_check": [
+      {
+        "q": "Was ist eine operative Definition?",
+        "answer": "Eine genaue Beschreibung, wie eine Metrik gemessen wird, einschließlich Start-, Stopp- und Zählregeln.",
+        "explanation": "Dadurch wird sichergestellt, dass verschiedene Personen dasselbe auf die gleiche Weise messen."
+      },
+      {
+        "q": "Wann sollen vorhandene Daten genutzt werden?",
+        "answer": "Wenn sie zuverlässig, relevant und ausreichend sind, um die Frage zu beantworten.",
+        "explanation": "Das Sammeln neuer Daten kostet Zeit und sollte gerechtfertigt sein."
+      },
+      {
+        "q": "Warum einen Datenerfassungsplan testen?",
+        "answer": "Um unklare Definitionen, fehlende Felder und Sammlungsprobleme vor der vollständigen Einführung zu finden.",
+        "explanation": "Ein Pilot verhindert wochenlange unbrauchbare Daten."
+      }
+    ],
+    "recap": [
+      "Ein Datenerfassungsplan definiert die Metrik, Quelle, Stichprobe, Sammler und Validierung.",
+      "Verwenden Sie operative Definitionen und steuern Sie den Plan.",
+      "Bevorzugen Sie zuverlässige vorhandene Daten gegenüber unnötiger Neuerfassung."
+    ]
+  },
+  "G2.2": {
+    "why": "Die Messung jeder Einheit ist oft unmöglich oder zu kostspielig. Eine gute Stichprobe ermöglicht es dem Team, Rückschlüsse auf die Population mit bekannter Unsicherheit zu ziehen; Eine verzerrte Stichprobe führt zu falschen Schlussfolgerungen.",
+    "what": "Die Bevölkerung ist jede interessierende Einheit; Die Probe ist die gemessene Teilmenge. Zufällige Stichproben geben jeder Einheit die gleichen Chancen und verringern die Auswahlverzerrung. Bei der geschichteten Stichprobe wird die Bevölkerung in homogene Gruppen, z. B. Schicht oder Region, und Stichproben innerhalb jeder Gruppe unterteilt. Die systematische Stichprobenentnahme nimmt jede k-te Einheit in Anspruch, kann sich aber an einem verborgenen Muster orientieren. Convenience-Sampling ist einfach, aber oft voreingenommen.",
+    "how": [
+      "Definieren Sie die Grundgesamtheit und den Stichprobenrahmen.",
+      "Wählen Sie je nach Fragestellung zufällige, geschichtete oder systematische Stichproben.",
+      "Bestimmen Sie die Stichprobengröße anhand von Konfidenz, Fehlertoleranz und Variabilität.",
+      "Wählen Sie Einheiten nach einem Zufallsverfahren aus und dokumentieren Sie dies.",
+      "Überprüfen Sie die Stichprobe auf Repräsentativität.",
+      "Erfassen Sie Antwortausfälle oder fehlende Daten und passen Sie den Plan an."
+    ],
+    "where": "Nutzen Sie Stichproben für Audits, Kundenbefragungen, Qualitätsprüfungen und Prozessstudien. Beispiel: Ein Team hat 1.000 Rechnungen pro Monat und wählt mit einem Zufallsgenerator zufällig 100 aus. Sie sind nach Monatsendrechnungen und regulären Rechnungen geschichtet, sodass beide Arten dargestellt werden. Sie vermeiden es, nur die Rechnungen zu stichproben, die leicht abzurufen sind.",
+    "when_not": "Führen Sie keine Proben durch, wenn die Population klein ist oder das Risiko hoch ist und eine 100-prozentige Kontrolle erforderlich ist. Verwenden Sie keine Zufallsstichprobe, um Rückschlüsse auf eine Grundgesamtheit zu ziehen, und ignorieren Sie nicht den Non-Response-Bias.",
+    "common_mistakes": [
+      "Verwenden Sie die Einheiten, die am einfachsten zugänglich sind.",
+      "Bemusterung nur einer Schicht, Region oder Produktart.",
+      "Eine Stichprobe, die so klein ist, dass die Fehlerspanne zu groß ist, um nützlich zu sein."
+    ],
+    "quick_check": [
+      {
+        "q": "Was ist der Hauptvorteil der Zufallsstichprobe?",
+        "answer": "Es reduziert die Selektionsverzerrung und unterstützt Rückschlüsse auf die Bevölkerung.",
+        "explanation": "Jede Einheit hat die gleiche Chance, ausgewählt zu werden."
+      },
+      {
+        "q": "Wann ist eine geschichtete Stichprobe sinnvoll?",
+        "answer": "Wenn die Bevölkerung unterschiedliche Gruppen enthält, die vertreten sein sollten.",
+        "explanation": "Die Stichprobenziehung innerhalb jeder Gruppe stellt die Abdeckung wichtiger Segmente sicher."
+      },
+      {
+        "q": "Warum kann eine Convenience-Probe irreführend sein?",
+        "answer": "Es kann sein, dass leicht erreichbare Einheiten überrepräsentiert sind und wichtige Teile der Bevölkerung fehlen.",
+        "explanation": "Convenience-Sampling ist nicht zufällig und kann zu Selektionsverzerrungen führen."
+      }
+    ],
+    "recap": [
+      "Definieren Sie die Grundgesamtheit, den Stichprobenrahmen, die Methode und den Umfang.",
+      "Verwenden Sie Zufallsstichproben oder geschichtete Stichproben, um Verzerrungen zu reduzieren.",
+      "Vermeiden Sie Convenience-Stichproben für Rückschlüsse und prüfen Sie die Repräsentativität."
+    ]
+  },
+  "G2.3": {
+    "why": "Messabweichungen können wie Prozessabweichungen aussehen. Stellen Sie vor der Fähigkeitsanalyse oder dem Testen von Hypothesen sicher, dass das Messsystem gute von schlechten Teilen unterscheiden kann.",
+    "what": "Bei der Messsystemanalyse wird die Genauigkeit anhand von Bias, Linearität und Stabilität sowie die Präzision anhand von Wiederholbarkeit und Reproduzierbarkeit bewertet. Wiederholbarkeit ist die Variation, wenn ein Gutachter dasselbe Teil wiederholt misst. Unter Reproduzierbarkeit versteht man die Abweichung zwischen Gutachtern, die dieselben Teile messen. Eine Gage R&R-Studie schätzt beides. %GRR vergleicht die Messabweichung mit der Gesamtabweichung; niedriger ist besser. Die Anzahl der unterschiedlichen Kategorien (NDC) gibt an, wie viele verschiedene Ebenen das System unterscheiden kann.",
+    "how": [
+      "Wählen Sie zehn Teile aus, die den realen Prozessbereich abdecken.",
+      "Beauftragen Sie zwei bis drei Gutachter, die normalerweise die Messung durchführen.",
+      "Lassen Sie jeden Gutachter jedes Teil zwei- oder dreimal in zufälliger Reihenfolge und blind messen.",
+      "Analysieren Sie die Studie in Minitab unter Statistik > Qualitätstools > Gage-Studie > Gage R&R oder in einer validierten Excel-Vorlage.",
+      "Interpretieren Sie %GRR: unter 10 % ist im Allgemeinen akzeptabel, 10–30 % sind bedingt akzeptabel und über 30 % sind normalerweise inakzeptabel.",
+      "NDC prüfen; fünf oder mehr Kategorien sind wünschenswert. Wenn es schwach ist, verbessern Sie das System, bevor Sie Prozessdaten sammeln."
+    ],
+    "where": "Verwenden Sie Gage R&R für Maßprüfungen, Labortests, Anrufbearbeitungszeiten, Umfragebewertungen und alle Messungen, die eine Entscheidung beeinflussen. Beispiel: Ein Messsystem hat 18 % GRR und vier verschiedene Kategorien. Es ist bedingt akzeptabel, daher verbessert das Team die Vorrichtung, bevor es die Daten für eine Fähigkeitsstudie verwendet.",
+    "when_not": "Führen Sie bei zerstörenden Tests keinen standardmäßigen Gage R&R durch; Verwenden Sie ein verschachteltes Design. Verwenden Sie nicht nur einen Gutachter, da dies die Reproduzierbarkeit beeinträchtigt. Lassen Sie die MSA nicht aus, wenn die Daten eine kostspielige Entscheidung rechtfertigen.",
+    "common_mistakes": [
+      "Verwendung von Teilen, die nicht den Prozessbereich repräsentieren.",
+      "Versäumnis, Gutachter hinsichtlich früherer Messwerte blind zu machen.",
+      "Den Prozess für die durch das Messsystem verursachten Abweichungen verantwortlich machen."
+    ],
+    "quick_check": [
+      {
+        "q": "Was ist der Unterschied zwischen Wiederholbarkeit und Reproduzierbarkeit?",
+        "answer": "Wiederholbarkeit ist die Abweichung eines Gutachters am gleichen Teil; Reproduzierbarkeit ist die Variation zwischen Gutachtern.",
+        "explanation": "Gage R&R trennt Gerätevariationen von Gutachtervariationen."
+      },
+      {
+        "q": "Was misst %GRR?",
+        "answer": "Messvariation als Prozentsatz der Gesamtvariation.",
+        "explanation": "Ein niedrigerer %GRR bedeutet, dass das Messsystem tatsächliche Prozessunterschiede besser erkennen kann."
+      },
+      {
+        "q": "Welcher NDC-Wert ist wünschenswert?",
+        "answer": "Fünf oder mehr unterschiedliche Kategorien.",
+        "explanation": "NDC gibt an, wie viele Stufen das Messsystem unterscheiden kann."
+      }
+    ],
+    "recap": [
+      "MSA prüft, ob das Messsystem genau und präzise genug ist.",
+      "Gage R&R trennt Wiederholbarkeit von Reproduzierbarkeit.",
+      "Verwenden Sie %GRR und NDC, um zu entscheiden, ob das Messsystem verbessert werden soll."
+    ]
+  },
+  "G2.4": {
+    "why": "Deskriptive Statistiken fassen Zentrum, Ausbreitung und Form vor der Schlussfolgerung zusammen. Sie offenbaren Ausreißer, Abweichungen und Instabilitäten, die ein Durchschnittswert allein verbergen würde.",
+    "what": "Der Mittelwert ist das arithmetische Mittel. Der Median ist der Mittelwert bei der Sortierung der Daten. Der Modus ist der häufigste Wert. Der Bereich ist das Maximum minus das Minimum. Die Standardabweichung schätzt den typischen Abstand vom Mittelwert und die Varianz ist sein Quadrat. Der Interquartilbereich ist das dritte Quartil minus das erste Quartil. Verwenden Sie Median und IQR für verzerrte Daten oder Daten mit Ausreißern. Verwenden Sie Mittelwert und Standardabweichung für ungefähr symmetrische Daten.",
+    "how": [
+      "Zeichnen Sie die Daten grafisch auf, bevor Sie sie zusammenfassen.",
+      "Berechnen Sie den Mittelpunkt mit Mittelwert oder Median.",
+      "Berechnen Sie die Streuung mit Standardabweichung, Spanne oder IQR.",
+      "Suchen Sie nach Ausreißern, Verzerrungen und mehreren Spitzen.",
+      "Wählen Sie die Zusammenfassung, die zur Form und zur Frage passt."
+    ],
+    "where": "Verwenden Sie deskriptive Statistiken für Baselines, Vorher-Nachher-Vergleiche, Fähigkeitseingaben und Datenqualitätsprüfungen. Beispiel: Die Servicezeiten betragen 10, 12, 11, 13, 12 und 60 Minuten. Der Mittelwert liegt bei etwa 19,7 Minuten, der Median liegt jedoch bei 12 Minuten, da der 60-Minuten-Wert ein Ausreißer ist. Die Angabe nur des Mittelwerts würde die typische Erfahrung übertreiben.",
+    "when_not": "Verwenden Sie den Mittelwert nicht allein für verzerrte Daten oder Daten mit Ausreißern. Vergleichen Sie Standardabweichungen nicht ohne Kontext und ignorieren Sie nicht die zeitliche Reihenfolge, wenn sich der Prozess möglicherweise verschiebt.",
+    "common_mistakes": [
+      "Angabe eines Mittelwerts für stark verzerrte Daten.",
+      "Verwendung der Standardabweichung ohne Prüfung auf Ausreißer.",
+      "Verwendung von Populationsformeln, wenn es sich bei den Daten um eine Stichprobe handelt."
+    ],
+    "quick_check": [
+      {
+        "q": "Welche Zusammenfassung ist robuster gegenüber Ausreißern?",
+        "answer": "Der Median.",
+        "explanation": "Der Median hängt von der Position und nicht von der Größe der Extremwerte ab."
+      },
+      {
+        "q": "Was beschreibt die Standardabweichung?",
+        "answer": "Die typische Streuung der Daten um den Mittelwert.",
+        "explanation": "Eine größere Standardabweichung bedeutet mehr Variation."
+      },
+      {
+        "q": "Warum Daten grafisch darstellen, bevor Statistiken berechnet werden?",
+        "answer": "Um Formen, Ausreißer, Lücken und mehrere Spitzen zu sehen, die eine einzelne Zahl verbirgt.",
+        "explanation": "Grafiken verhindern irreführende Zusammenfassungen."
+      }
+    ],
+    "recap": [
+      "Mittelwert, Median, Standardabweichung, Bereich und IQR beschreiben verschiedene Aspekte von Daten.",
+      "Verwenden Sie Median und IQR für verzerrte Daten oder Ausreißer.",
+      "Stellen Sie die Daten immer grafisch dar, bevor Sie eine Zusammenfassung auswählen."
+    ]
+  },
+  "G2.5": {
+    "why": "Viele Fähigkeits- und Hypothesenmethoden gehen von einer ungefähren Normalität aus. Die Normalkurve und die 68-95-99,7-Regel helfen dem Team, Variationen zu interpretieren und zu erkennen, wann diese Annahme unsicher ist.",
+    "what": "Eine Normalverteilung ist glockenförmig und symmetrisch und wird durch ihren Mittelwert und ihre Standardabweichung definiert. Etwa 68 % der Werte liegen innerhalb einer Standardabweichung vom Mittelwert, etwa 95 % innerhalb von zwei und etwa 99,7 % innerhalb von drei. Ein Z-Score ist die Anzahl der Standardabweichungen, um die ein Wert vom Mittelwert abweicht: z ist gleich x minus dem Mittelwert, dividiert durch die Standardabweichung. Überprüfen Sie die Normalität mit einem Histogramm, einem Normalwahrscheinlichkeitsdiagramm und einem Test wie Anderson-Darling.",
+    "how": [
+      "Zeichnen Sie ein Histogramm und ein Normalwahrscheinlichkeitsdiagramm.",
+      "Führen Sie einen Normalitätstest durch und interpretieren Sie den p-Wert im Kontext.",
+      "Denken Sie daran, dass ein hoher p-Wert keine Normalität beweist; es scheitert nur daran, es abzulehnen.",
+      "Wenn die Verteilung nicht normal ist, ziehen Sie eine Transformation, eine nichtparametrische Methode oder eine andere Verteilung in Betracht.",
+      "Überprüfen Sie die Annahmen nach jeder Transformation erneut."
+    ],
+    "where": "Verwenden Sie Normalitätsprüfungen vor Fähigkeitsstudien, Regelkarten und T-Tests. Beispiel: Ein Prozess hat einen Mittelwert von 100 und eine Standardabweichung von 10, sodass etwa 95 % der Werte zwischen 80 und 120 liegen. Ein Wert von 125 hat einen Z-Score von 2,5. Verwenden Sie in Excel NORM.DIST oder NORM.S.DIST; Verwenden Sie in Minitab Diagramm > Wahrscheinlichkeitsdiagramm.",
+    "when_not": "Gehen Sie bei abweichenden Zykluszeiten, Zählungen oder Proportionen nicht von Normalität aus. Verlassen Sie sich nicht auf einen Normalitätstest mit einer kleinen Stichprobe und transformieren Sie keine Daten, ohne zu erklären, was das transformierte Ergebnis bedeutet.",
+    "common_mistakes": [
+      "Behandeln Sie jeden Datensatz als normal.",
+      "Verwendung eines Normalitätstests als einzige Überprüfung.",
+      "Verwechslung der empirischen 95 %-Regel mit einem 95 %-Konfidenzintervall."
+    ],
+    "quick_check": [
+      {
+        "q": "Ungefähr wie viel Prozent der Normaldaten liegen innerhalb von zwei Standardabweichungen vom Mittelwert?",
+        "answer": "Etwa 95 %.",
+        "explanation": "Die empirische Regel ergibt ungefähr 68 %, 95 % und 99,7 % für eine, zwei und drei Standardabweichungen."
+      },
+      {
+        "q": "Ein Prozess hat einen Mittelwert von 50 und eine Standardabweichung von 5. Wie hoch ist der Z-Score für 62?",
+        "answer": "2.4.",
+        "explanation": "z entspricht (62 - 50) / 5 = 2,4."
+      },
+      {
+        "q": "Ein Normalitätstest ergibt p = 0,01. Was soll das Team tun?",
+        "answer": "Behandeln Sie die Normalität als fragwürdig und ziehen Sie eine Transformation, eine andere Verteilung oder eine nichtparametrische Methode in Betracht.",
+        "explanation": "Ein kleiner p-Wert ist ein Beweis gegen die Normalität."
+      }
+    ],
+    "recap": [
+      "Normale Daten sind symmetrisch und werden nach Mittelwert und Standardabweichung zusammengefasst.",
+      "Verwenden Sie die 68-95-99,7-Regel und Z-Scores, um die Variation zu interpretieren.",
+      "Überprüfen Sie die Normalität vor Methoden, die sie annehmen."
+    ]
+  },
+  "G2.6": {
+    "why": "Sigma-Level und DPMO stellen Qualität auf einen gemeinsamen Maßstab und verbinden Mängel mit der Prozessfähigkeit. Sie helfen Teams beim Benchmarking und beim Verfolgen von Verbesserungen.",
+    "what": "Eine Chance ist die Chance, dass ein Fehler auftritt. DPMO ist Fehler dividiert durch Einheiten mal Chancen, multipliziert mit einer Million. Der Ertrag ist eins minus Mängel dividiert durch Chancen. Das Sigma-Niveau wird aus DPMO unter Verwendung der inversen Normalverteilung ermittelt. Viele Organisationen fügen eine 1,5-Sigma-Verschiebung hinzu, um der langfristigen Abweichung Rechnung zu tragen. Geben Sie immer an, ob es sich um eine kurzfristige oder langfristige Nummer handelt.",
+    "how": [
+      "Definieren Sie einen Mangel und eine Chance klar.",
+      "Zählen Sie Fehler, Einheiten und Chancen im gleichen Zeitraum.",
+      "DPMO berechnen: Fehler dividiert durch Einheiten mal Chancen, dann multipliziert mit einer Million.",
+      "Konvertieren Sie DPMO mit der Umkehrnormalen in einen Z-Wert und addieren Sie dann 1,5, wenn Sie die Langzeitkonvention verwenden.",
+      "Verwenden Sie in Excel NORM.S.INV(1 - DPMO/1000000) + 1,5.",
+      "Vergleichen Sie die Basisleistung und die verbesserte Leistung mit denselben Definitionen."
+    ],
+    "where": "Verwenden Sie DPMO und Sigma-Ebene für Herstellungsfehler, Servicefehler, Prozesse im Gesundheitswesen und Transaktionsarbeiten. Beispiel: 10 Fehler in 1.000 Einheiten mit jeweils fünf Möglichkeiten ergeben 10 geteilt durch 5.000 oder 0,002. Das sind 2.000 DPMO und eine Ausbeute von 99,8 %. Der inverse Normalwert von 0,998 beträgt etwa 2,88; Das Hinzufügen der 1,5-Verschiebung ergibt etwa 4,38 Sigma.",
+    "when_not": "Erhöhen Sie nicht die Anzahl der Gelegenheiten, damit die Sigma-Ebene besser aussieht. Verwenden Sie DPMO nicht, wenn Fehlerdefinitionen inkonsistent sind, und vergleichen Sie nicht die Sigma-Ebenen zwischen Prozessen mit unterschiedlichen Opportunity-Definitionen.",
+    "common_mistakes": [
+      "Defekte Einheiten werden als Defekte gezählt oder umgekehrt.",
+      "Die falsche Anzahl an Möglichkeiten nutzen.",
+      "Ich habe vergessen anzugeben, ob die 1,5-Schicht angewendet wurde."
+    ],
+    "quick_check": [
+      {
+        "q": "Fünf Fehler, 500 Einheiten und vier Möglichkeiten pro Einheit. Was ist DPMO?",
+        "answer": "2.500 DPMO.",
+        "explanation": "5 / (500 x 4) = 0,0025, also 2.500 pro Million."
+      },
+      {
+        "q": "Was bedeutet eine 1,5-Sigma-Verschiebung?",
+        "answer": "Eine Anpassung für langfristige Prozessdrift.",
+        "explanation": "Die Verschiebung ist eine Konvention; Das Team muss angeben, ob es verwendet wurde."
+      },
+      {
+        "q": "Warum müssen Chancendefinitionen konsistent sein?",
+        "answer": "Unterschiedliche Opportunity-Zählungen ändern DPMO und Sigma-Level, wodurch Vergleiche ungültig werden.",
+        "explanation": "Das Sigma-Niveau ist nur dann vergleichbar, wenn die Zählregeln gleich sind."
+      }
+    ],
+    "recap": [
+      "DPMO entspricht Fehlern geteilt durch Einheiten mal Chancen mal eine Million.",
+      "Das Sigma-Niveau ergibt sich aus dem umgekehrten Normalwert der Rendite, häufig mit einer Verschiebung von 1,5.",
+      "Halten Sie die Fehler- und Chancendefinitionen konsistent."
+    ]
+  },
+  "G2.7": {
+    "why": "Fähigkeitsindizes vergleichen die Prozessausbreitung und -zentrierung mit Spezifikationsgrenzen. Sie zeigen, ob der Prozess den Anforderungen gerecht wird und ob die Variation reduziert oder neu zentriert werden sollte.",
+    "what": "Cp entspricht der Spezifikationsbreite dividiert durch sechs Sigma: (USL – LSL) / (6 Sigma). Es beschreibt die potenzielle Leistungsfähigkeit, wenn der Prozess perfekt zentriert wäre. Cpk entspricht dem Minimum von (USL – Mittelwert) / (3 Sigma) und (Mittelwert – LSL) / (3 Sigma). Es berücksichtigt die Zentrierung, sodass Cpk immer kleiner oder gleich Cp ist. Ppk verwendet das allgemeine Langzeit-Sigma. Ziele sind ein Cpk von mindestens 1,33, wobei 1,67 oder höher stark sind.",
+    "how": [
+      "Bestätigen Sie, dass der Prozess stabil ist und die Daten ungefähr normal sind.",
+      "Schätzen Sie das Sigma mithilfe der Variation innerhalb der Untergruppe für Cp und Cpk.",
+      "Berechnen Sie Cp aus der Spezifikationsbreite.",
+      "Berechnen Sie Cpk aus der Entfernung zur nächstgelegenen Spezifikationsgrenze.",
+      "Entscheiden Sie, ob Sie die Variation reduzieren oder den Mittelwert verschieben möchten.",
+      "Überprüfen Sie die Fähigkeit nach der Verbesserung erneut."
+    ],
+    "where": "Nutzen Sie die Fähigkeitsanalyse für Fertigungstoleranzen, Servicezeitspezifikationen, Labordurchlaufzeiten und Transaktionsgenauigkeit. Beispiel: USL 20, LSL 10, Mittelwert 16 und Sigma 1,5. Cp entspricht 10 / 9 = 1,11. Cpk entspricht dem Minimum von (20 – 16) / 4,5 = 0,89 und (16 – 10) / 4,5 = 1,33, also beträgt Cpk 0,89. Der Prozess ist nicht fähig; Eine Zentrierung des Mittelwerts auf 15 würde den Cpk-Wert auf 1,11 erhöhen.",
+    "when_not": "Berechnen Sie Cp oder Cpk nicht für einen instabilen Prozess. Verwenden Sie keinen normalbasierten Fähigkeitsindex für eindeutig nicht normale Daten ohne eine geeignete Methode. Vergleichen Sie keine Indizes, die mit unterschiedlichen Spezifikationen oder Sigma-Konventionen berechnet wurden.",
+    "common_mistakes": [
+      "Verwenden Sie das Gesamtsigma, nennen Sie das Ergebnis jedoch Cp.",
+      "Zentrierung ignorieren und nur Cp melden.",
+      "Berechnung der Fähigkeit vor der Stabilitätsprüfung."
+    ],
+    "quick_check": [
+      {
+        "q": "Was ist der Unterschied zwischen Cp und Cpk?",
+        "answer": "Cp misst die potenzielle Ausbreitung; Cpk berücksichtigt auch die Zentrierung.",
+        "explanation": "Ein Prozess kann einen guten Cp, aber einen schlechten Cpk haben, wenn er außermittig ist."
+      },
+      {
+        "q": "USL 30, LSL 10, Mittelwert 22, Sigma 2. Was sind Cp und Cpk?",
+        "answer": "Cp = 1,67 und Cpk = 1,33.",
+        "explanation": "Cp = 20 / 12 = 1,67; Cpk = min(8/6, 12/6) = 1,33."
+      },
+      {
+        "q": "Ein Prozess hat Cpk 0,8. Was bedeutet das?",
+        "answer": "Der Prozess ist nicht leistungsfähig und führt wahrscheinlich zu Fehlern.",
+        "explanation": "Ein Cpk unter 1,0 bedeutet, dass die Spezifikation enger ist als die Prozessstreuung im Verhältnis zum Mittelwert."
+      }
+    ],
+    "recap": [
+      "Cp misst die potenzielle Fähigkeit; Cpk misst die tatsächliche Leistungsfähigkeit mit Zentrierung.",
+      "Cpk ist immer kleiner oder gleich Cp.",
+      "Bestätigen Sie Stabilität und Normalität, bevor Sie Fähigkeitsindizes vertrauen."
+    ]
+  },
+  "G3.1": {
+    "why": "Diagramme offenbaren Muster, Ausreißer und Beziehungen, die zusammenfassende Statistiken verbergen. Durch die richtige Anzeige sind die Daten leicht zu interpretieren; Die falsche Anzeige kann das Team in die Irre führen.",
+    "what": "Ein Histogramm zeigt die Verteilung kontinuierlicher Daten: Form, Mitte, Streuung, Lücken und Ausreißer. Ein Boxplot vergleicht Verteilungen zwischen Gruppen anhand des Medians, der Quartile, des Interquartilbereichs und der Ausreißer. Ein Laufdiagramm stellt Daten in zeitlicher Reihenfolge dar, um Trends, Verschiebungen und Zyklen aufzuzeigen. Ein Streudiagramm zeigt die Beziehung zwischen zwei kontinuierlichen Variablen, einschließlich Richtung, Stärke, Form und Ausreißern.",
+    "how": [
+      "Geben Sie die Frage an, die die Grafik beantworten soll.",
+      "Identifizieren Sie die Datentypen und die Anzahl der Gruppen.",
+      "Wählen Sie die Anzeige: Histogramm oder Boxplot für die Verteilung, Laufdiagramm für die Zeit, Streudiagramm für Beziehungen.",
+      "Beschriften Sie beide Achsen, Einheiten und Zeitraum.",
+      "Zeichnen Sie alle Daten grafisch auf und suchen Sie nach Mustern oder ungewöhnlichen Punkten.",
+      "Vergleichen Sie das Muster mit dem Prozesswissen, bevor Sie Schlussfolgerungen ziehen."
+    ],
+    "where": "Verwenden Sie im gesamten DMAIC Diagramme. In einem Callcenter zeigt ein Histogramm die Verteilung der Bearbeitungszeit, ein Boxplot vergleicht Teams, ein Laufdiagramm zeigt tägliche Trends und ein Streudiagramm untersucht die Bearbeitungszeit im Vergleich zur Zufriedenheit. Im Gesundheitswesen kann ein Laufdiagramm die Wartezeit vor und nach einer Änderung anzeigen; Ein Boxplot kann Bezirke vergleichen.",
+    "when_not": "Verwenden Sie kein Histogramm für kategoriale Daten. Verwenden Sie kein Streudiagramm, wenn eine Variable kategorial ist. Vermeiden Sie 3D- oder Kreisdiagramme, wenn es auf einen präzisen Vergleich ankommt, und kürzen Sie keine Achsen, um Unterschiede zu übertreiben.",
+    "common_mistakes": [
+      "Auswahl eines Diagramms, das nicht zur Frage oder zum Datentyp passt.",
+      "Eine Achse kürzen, sodass eine kleine Änderung groß aussieht.",
+      "Ein Muster in einem Diagramm als Beweis für die Ursache behandeln."
+    ],
+    "quick_check": [
+      {
+        "q": "Welches Diagramm zeigt die Verteilung kontinuierlicher Daten am besten?",
+        "answer": "Ein Histogramm.",
+        "explanation": "Histogramme gruppieren kontinuierliche Werte in Klassen und zeigen Form und Streuung."
+      },
+      {
+        "q": "Welches Diagramm vergleicht die Verteilungen über mehrere Gruppen hinweg?",
+        "answer": "Ein Boxplot.",
+        "explanation": "Boxplots zeigen Median, Quartile und Ausreißer für jede Gruppe."
+      },
+      {
+        "q": "Welcher Graph zeigt die Beziehung zwischen zwei kontinuierlichen Variablen?",
+        "answer": "Ein Streudiagramm.",
+        "explanation": "Streudiagramme zeigen gepaarte Werte an und verraten Richtung und Stärke."
+      }
+    ],
+    "recap": [
+      "Passen Sie das Diagramm an die Frage und den Datentyp an.",
+      "Histogramme und Boxplots zeigen Verteilungen; Laufdiagramme zeigen die Zeit an; Streudiagramme zeigen Zusammenhänge.",
+      "Diagramme deuten auf Muster hin, die Ursachen bedürfen jedoch einer weiteren Analyse."
+    ]
+  },
+  "G3.2": {
+    "why": "Teams suchen oft nach Lösungen, bevor sie das Problem verstehen. Eine strukturierte Ursachenanalyse erhöht die Sicherheit, dass die Lösung die tatsächliche Ursache und nicht ein Symptom behebt.",
+    "what": "Die Ursachenanalyse ist eine strukturierte Untersuchung, die Prozessbeobachtung, Fischgrätendiagramme, 5 Whys, Stratifizierung, Pareto-Analyse und statistische Überprüfungen kombiniert. Bei der Schichtung werden die Daten nach Schicht, Produkt, Region, Betreiber oder einem anderen Faktor aufgeteilt, um zu sehen, wo sich das Problem konzentriert. Eine Grundursache ist der zugrunde liegende Grund, warum ein Problem auftritt. Mitwirkende Ursachen machen es schlimmer oder wahrscheinlicher.",
+    "how": [
+      "Definieren Sie das Problem mit Daten und einer klaren Metrik.",
+      "Ordnen Sie den Prozess zu und beobachten Sie die Arbeit dort, wo sie stattfindet.",
+      "Brainstorming möglicher Ursachen mithilfe eines Fischgrätendiagramms.",
+      "Stratifizieren Sie die Daten, um einzugrenzen, wo und wann das Problem auftritt.",
+      "Verwenden Sie 5 Warums für die wahrscheinlichsten Ursachen und überprüfen Sie jede Antwort.",
+      "Bestätigen Sie die Ursache anhand von Daten, einem Pilotprojekt oder einem geplanten Vergleich.",
+      "Wählen Sie die Grundursache aus und verknüpfen Sie sie mit einer umsetzbaren Lösung."
+    ],
+    "where": "Nutzen Sie die Ursachenanalyse für Mängel, Verzögerungen, Fehler, Beschwerden und Vorfälle. Beispiel: Laborberichte sind verspätet. Die Schichtung zeigt, dass sich das Problem auf Statistiktests in der Abendschicht konzentriert. Ein Fishbone und 5 Whys deuten darauf hin, Statistiktests mit Routinetests zu bündeln. Ein Pilot mit Prioritätsabschaltung bestätigt die Ursache und reduziert verspätete Meldungen.",
+    "when_not": "Beginnen Sie nicht mit der Ursachenanalyse, bevor das Problem klar definiert ist. Verwenden Sie keine vollständige Untersuchung für eine einfache, bekannte Lösung. Bleiben Sie nicht bei der Korrelation oder der ersten plausiblen Ursache stehen.",
+    "common_mistakes": [
+      "Zuerst eine Lösung wählen und dann nach unterstützenden Ursachen suchen.",
+      "Akzeptieren einer einzelnen Ursache, ohne Wechselwirkungen zu prüfen.",
+      "Die Leute an vorderster Front, die wissen, wie die Arbeit wirklich abläuft, werden außen vor gelassen."
+    ],
+    "quick_check": [
+      {
+        "q": "Was bewirkt die Schichtung?",
+        "answer": "Es teilt Daten in Gruppen auf, um zu sehen, wo sich ein Problem konzentriert.",
+        "explanation": "Durch die Schichtung nach Schicht, Produkt oder Region lässt sich die Ursache oft schnell eingrenzen."
+      },
+      {
+        "q": "Warum Fischgrätenmuster und 5 Warums kombinieren?",
+        "answer": "Fishbone erweitert die Suche nach Ursachen; 5 Whys geht auf wahrscheinliche ein.",
+        "explanation": "Gemeinsam unterstützen sie sowohl divergentes als auch fokussiertes Denken."
+      },
+      {
+        "q": "Wie soll eine vermutete Grundursache bestätigt werden?",
+        "answer": "Mit Daten, einem Pilotprojekt oder einem entworfenen Vergleich.",
+        "explanation": "Eine plausible Ursache reicht nicht aus; es muss getestet werden."
+      }
+    ],
+    "recap": [
+      "Die Ursachenanalyse kombiniert Beobachtung, Ursachentools, Schichtung und Daten.",
+      "Bestätigen Sie die Ursache, bevor Sie eine Lösung implementieren.",
+      "Beziehen Sie das Wissen an vorderster Front ein und vermeiden Sie Schuldzuweisungen."
+    ]
+  },
+  "G3.3": {
+    "why": "FMEA findet Fehlerarten, bevor sie Schaden verursachen, sodass das Team Probleme verhindern kann, anstatt auf sie zu reagieren. Dies ist besonders wertvoll, wenn sich ein Prozess oder Design ändert.",
+    "what": "Die Fehlermöglichkeits- und Auswirkungsanalyse listet jeden Fehlermodus, seine Auswirkung, seinen Schweregrad, seine Ursache, sein Auftreten, seine aktuellen Kontrollen und seine Erkennung auf. Schweregrad, Vorkommen und Entdeckung werden mit 1 bis 10 bewertet. Die Risikoprioritätszahl ist Schweregrad mal Vorkommen mal Entdeckung. Eine höhere RPN bedeutet eine höhere Priorität, aber ein hoher Schweregrad erfordert Aufmerksamkeit, selbst wenn die RPN niedrig ist. Einige Organisationen verwenden Aktionsprioritätstabellen anstelle von RPN.",
+    "how": [
+      "Definieren Sie den Prozess- oder Designumfang und stellen Sie ein funktionsübergreifendes Team zusammen.",
+      "Fehlermodi auflisten: Wie der Schritt fehlschlagen könnte.",
+      "Beschreiben Sie die Auswirkung auf den Kunden oder den nachgelagerten Schritt und bewerten Sie den Schweregrad.",
+      "Identifizieren Sie Ursachen und bewerten Sie das Auftreten.",
+      "Listen Sie aktuelle Kontrollen und Score-Erkennung auf.",
+      "Berechnen Sie die RPN und priorisieren Sie Elemente mit hohem Schweregrad und hoher RPN.",
+      "Weisen Sie Aktionen, Eigentümer und Daten zu und bewerten Sie die Aktionen anschließend erneut."
+    ],
+    "where": "Nutzen Sie FMEA in den Bereichen Fertigung, Gesundheitswesen, Software, Service und Design. Beispiel: Die Eingabe einer Medikamentenverordnung kann aufgrund einer falschen Dosierung fehlschlagen. Der Schweregrad ist 9, das Vorkommen ist 4 und die Erkennung ist 3, was einen RPN von 108 ergibt. Durch Hinzufügen des Barcode-Scannens wird das Vorkommen auf 1 und die Erkennung auf 2 reduziert, wodurch der RPN auf 18 gesenkt wird.",
+    "when_not": "Führen Sie FMEA nicht als einmalige bürokratische Übung durch. Lassen Sie nicht zu, dass ein niedriger RPN einen hohen Schweregradwert außer Kraft setzt, und erzielen Sie keine Punkte ohne die Personen, die den Prozess kennen.",
+    "common_mistakes": [
+      "Vage Fehlermodi, auf die nicht reagiert werden kann.",
+      "Werte erhöhen oder verringern, um sie an eine bevorzugte Priorität anzupassen.",
+      "Keine zugewiesenen Aktionen oder keine erneute Bewertung nach Verbesserungen."
+    ],
+    "quick_check": [
+      {
+        "q": "Wie wird der RPN berechnet?",
+        "answer": "Schweregrad mal Auftreten mal Erkennung.",
+        "explanation": "Jeder Faktor wird mit 1 bis 10 bewertet, sodass der RPN zwischen 1 und 1.000 liegt."
+      },
+      {
+        "q": "Warum kann ein schwerwiegender Fehler auch bei einer niedrigen RPN Maßnahmen erfordern?",
+        "answer": "Die Folgen können unabhängig von der Häufigkeit inakzeptabel sein.",
+        "explanation": "Der Schweregrad spiegelt den Schaden wider, nicht nur die Wahrscheinlichkeit."
+      },
+      {
+        "q": "Was soll passieren, nachdem Maßnahmen umgesetzt wurden?",
+        "answer": "Bewerten Sie Schweregrad, Vorkommen und Erkennung erneut, um die Risikominderung zu bestätigen.",
+        "explanation": "FMEA ist ein lebendiges Dokument, keine einmalige Liste."
+      }
+    ],
+    "recap": [
+      "FMEA priorisiert Fehlermodi anhand von Schweregrad, Auftreten, Erkennung und RPZ.",
+      "Ein hoher Schweregrad verdient immer Aufmerksamkeit.",
+      "Weisen Sie Maßnahmen zu und bewerten Sie sie erneut, um die Risikominderung zu bestätigen."
+    ]
+  },
+  "G3.4": {
+    "why": "Green Belts müssen wissen, ob ein beobachteter Unterschied real ist oder einfach auf Zufall beruht. Das Testen von Hypothesen verhindert, dass Teams auf Lärm reagieren und tatsächliche Auswirkungen übersehen.",
+    "what": "Die Nullhypothese besagt, dass es keinen Unterschied oder keinen Effekt gibt. Die Alternative gibt einen Unterschied oder Effekt an. Wählen Sie einen Test basierend auf Datentyp und Design: T-Test bei einer Stichprobe, T-Test bei zwei Stichproben, gepaarter T-Test, ANOVA, Chi-Quadrat-Test oder ein Proportionaltest. Das Signifikanzniveau Alpha liegt häufig bei 0,05. Der p-Wert ist die Wahrscheinlichkeit, dass Daten mindestens so extrem sind wie beobachtet, vorausgesetzt, dass der Nullwert wahr ist. Es ist nicht die Wahrscheinlichkeit, dass die Null wahr ist.",
+    "how": [
+      "Formulieren Sie die praktische Frage.",
+      "Schreiben Sie die Null- und Alternativhypothese auf.",
+      "Wählen Sie Alpha und den entsprechenden Test.",
+      "Überprüfen Sie die Testannahmen.",
+      "Führen Sie den Test durch und lesen Sie den p-Wert und das Konfidenzintervall ab.",
+      "Wenn p kleiner als Alpha ist, lehnen Sie die Null ab. Andernfalls lehnen Sie es nicht ab.",
+      "Interpretieren Sie die Effektgröße und die praktische Bedeutung."
+    ],
+    "where": "Verwenden Sie Hypothesentests, um Schichten, Lieferanten, Vorher-Nachher-Leistungen oder Gruppen zu vergleichen. Beispiel: Vergleichen Sie die mittlere Durchlaufzeit für zwei Schichten. Die Null bedeutet gleich; Die Alternative sind andere Mittel. Ein t-Test bei zwei Stichproben ergibt p = 0,02 mit Alpha 0,05, also lehnen Sie die Null ab. Das 95 %-Konfidenzintervall für die Differenz beträgt 2 bis 18 Minuten, was in der Praxis wichtig sein kann oder auch nicht.",
+    "when_not": "Testen Sie keinen instabilen Prozess. Suchen Sie nicht nach p-Werten, indem Sie viele Kombinationen testen. Verwechseln Sie statistische Signifikanz nicht mit praktischer Signifikanz und verwenden Sie keinen Zwei-Stichproben-Test, wenn die Daten gepaart werden.",
+    "common_mistakes": [
+      "Der p-Wert ist die Wahrscheinlichkeit, dass die Null wahr ist.",
+      "Sagen Sie „Akzeptiere die Null“ statt „Akzeptiere die Null nicht.“",
+      "Ignorieren von Annahmen, Effektgrößen oder mehreren Tests."
+    ],
+    "quick_check": [
+      {
+        "q": "Was bedeutet p = 0,03 mit Alpha 0,05?",
+        "answer": "Lehnen Sie die Nullhypothese ab.",
+        "explanation": "Es ist unwahrscheinlich, dass das beobachtete Ergebnis auf dem gewählten Signifikanzniveau unter Null liegt."
+      },
+      {
+        "q": "Was bedeutet p = 0,20 mit Alpha 0,05?",
+        "answer": "Die Nullhypothese kann nicht abgelehnt werden.",
+        "explanation": "Es gibt nicht genügend Beweise, um die Null abzulehnen; Die Null ist nicht wahr."
+      },
+      {
+        "q": "Was ist ein Fehler vom Typ I?",
+        "answer": "Ablehnung einer wahren Nullhypothese.",
+        "explanation": "Ein Fehler vom Typ I ist ein falsch positives Ergebnis. Alpha ist seine Wahrscheinlichkeit."
+      }
+    ],
+    "recap": [
+      "Hypothesentests vergleichen beobachtete Effekte mit dem Zufall.",
+      "Interpretieren Sie p-Werte im Vergleich zu Alpha und berichten Sie über die Effektgröße.",
+      "Statistische Signifikanz bedeutet nicht automatisch praktische Bedeutung."
+    ]
+  },
+  "G3.5": {
+    "why": "Mithilfe der Korrelation können Teams nach Beziehungen zwischen Variablen suchen und entscheiden, wo weitere Untersuchungen durchgeführt werden sollen. Es ist auch eine häufige Quelle falscher Schlussfolgerungen, wenn ein Kausalzusammenhang angenommen wird.",
+    "what": "Der Korrelationskoeffizient r reicht von -1 bis +1. Ein Wert nahe +1 weist auf eine starke positive lineare Beziehung hin; nahe -1 weist auf eine starke negative Beziehung hin; nahe 0 weist auf eine geringe oder keine lineare Beziehung hin. Das Quadrat von r ist der Variationsanteil, den die beiden Variablen gemeinsam haben. Die Pearson-Korrelation wird für lineare Beziehungen zwischen kontinuierlichen Variablen verwendet; Die Spearman-Korrelation wird für monotone Beziehungen, ordinale Daten oder Daten mit Ausreißern verwendet.",
+    "how": [
+      "Zeichnen Sie ein Streudiagramm, bevor Sie die Korrelation berechnen.",
+      "Prüfen Sie auf Linearität, Ausreißer und separate Gruppen.",
+      "Wählen Sie basierend auf den Daten Pearson oder Spearman.",
+      "Berechnen Sie r und, falls erforderlich, seinen p-Wert.",
+      "Interpretieren Sie Stärke und Richtung im Kontext.",
+      "Untersuchen Sie die Ursache mit einem Experiment oder einem stärkeren Design."
+    ],
+    "where": "Verwenden Sie die Korrelation, um Variablen vor der Regression oder der Versuchsplanung zu überprüfen. Beispiele hierfür sind Lernstunden im Vergleich zu Prüfungsergebnissen, Wartezeit im Vergleich zur Zufriedenheit oder Temperatur im Vergleich zur Fehlerrate. Wenn Lernstunden und Punktzahl r = 0,6 haben, ist die Beziehung moderat und positiv, und das R-Quadrat beträgt 0,36, was bedeutet, dass 36 % der Variation geteilt werden.",
+    "when_not": "Verwenden Sie Korrelation nicht für eindeutig nichtlineare Beziehungen. Verwenden Sie es nicht mit kategorialen Daten. Verwenden Sie stattdessen einen Chi-Quadrat-Test. Schließen Sie nicht aus der Korrelation auf eine Kausalität, da das Muster durch Verwirrung, umgekehrte Kausalität oder Zufall erklärt werden kann.",
+    "common_mistakes": [
+      "Schlussfolgerung, dass eine Variable die andere verursacht.",
+      "Ignorieren von Ausreißern oder gekrümmten Mustern, die r verzerren.",
+      "Kombinieren verschiedener Gruppen und Erstellen einer irreführenden Gesamtkorrelation."
+    ],
+    "quick_check": [
+      {
+        "q": "Was bedeutet r = -0,8?",
+        "answer": "Eine starke negative lineare Beziehung.",
+        "explanation": "Wenn eine Variable zunimmt, nimmt die andere tendenziell ab."
+      },
+      {
+        "q": "Was bedeutet r = 0?",
+        "answer": "Keine lineare Beziehung.",
+        "explanation": "Möglicherweise besteht immer noch ein nichtlinearer Zusammenhang, weshalb ein Streudiagramm wichtig ist."
+      },
+      {
+        "q": "Beweist Korrelation eine Kausalität?",
+        "answer": "Nein. Es wird nur die Assoziation angezeigt.",
+        "explanation": "Durch Verwirrung, umgekehrte Kausalität oder Zufall kann eine Korrelation entstehen."
+      }
+    ],
+    "recap": [
+      "Korrelation misst die Stärke und Richtung einer linearen Beziehung.",
+      "Stellen Sie die Daten zunächst grafisch dar und prüfen Sie sie auf Ausreißer und Nichtlinearität.",
+      "Korrelation ist keine Kausalität."
+    ]
+  },
+  "G3.6": {
+    "why": "Die Regression quantifiziert eine Beziehung und ermöglicht eine Vorhersage, nicht nur eine Erkennung. Es schätzt, wie stark eine Änderung einer Variablen mit einer Änderung der Antwort verbunden ist.",
+    "what": "Eine einfache lineare Regression passt eine Linie an: y ist gleich b0 plus b1 mal x, plus Fehler. Die Steigung b1 ist die vorhergesagte Änderung von y für einen Anstieg von x um eine Einheit. Der Achsenabschnitt b0 ist das vorhergesagte y, wenn x Null ist, was möglicherweise nicht aussagekräftig ist. R-Quadrat ist der Anteil der Variation in y, der durch x erklärt wird. Es wird ein Residuum beobachtet minus vorhergesagt. Überprüfen Sie Linearität, Unabhängigkeit, konstante Varianz und normale Residuen, bevor Sie der Inferenz vertrauen.",
+    "how": [
+      "Zeichnen Sie ein Streudiagramm und prüfen Sie, ob ein lineares Muster vorliegt.",
+      "Passen Sie das Modell in Excel mithilfe von Regression oder LINEST oder in Minitab mithilfe von Statistik > Regression > Regressionsmodell anpassen an.",
+      "Interpretieren Sie Steigung, Achsenabschnitt, R-Quadrat, p-Wert und Konfidenzintervall.",
+      "Untersuchen Sie Residuendiagramme auf Krümmung, sich ändernde Streuung und Ausreißer.",
+      "Überprüfen Sie Einflusspunkte und die Reichweite der Daten.",
+      "Verwenden Sie das Modell zur Vorhersage nur innerhalb des beobachteten Bereichs."
+    ],
+    "where": "Nutzen Sie die Regression für Kostentreiber, Zykluszeit, Qualität und Prozessoptimierung. Beispiel: Wartezeit versus Zufriedenheit hat eine Steigung von -0,8 Punkten pro Minute und ein R-Quadrat von 0,45. Eine Steigerung um zehn Minuten ist mit einem um etwa acht Punkte niedrigeren Zufriedenheitswert verbunden. Das Modell erklärt 45 % der Variation, daher spielen auch andere Faktoren eine Rolle.",
+    "when_not": "Verwenden Sie die einfache Regression nicht für eine eindeutig gekrümmte Beziehung. Extrapolieren Sie nicht über den Datenbereich hinaus und behaupten Sie nicht, dass die Ursache auf einer beobachteten Regression beruht. Passen Sie ein Modell nicht an einen instabilen Prozess oder an aggregierte Gruppen an, ohne die zugrunde liegenden Daten zu überprüfen.",
+    "common_mistakes": [
+      "Betrachten Sie ein hohes R-Quadrat als Beweis dafür, dass das Modell korrekt ist.",
+      "Ignorieren von Restdiagrammen und einflussreichen Ausreißern.",
+      "Verwenden Sie die Regression, um zu behaupten, dass x y verursacht."
+    ],
+    "quick_check": [
+      {
+        "q": "Was bedeutet die Steigung bei der einfachen Regression?",
+        "answer": "Die vorhergesagte Änderung der Antwort für einen Anstieg des Prädiktors um eine Einheit.",
+        "explanation": "Die Steigung schätzt die Stärke und Richtung der linearen Beziehung."
+      },
+      {
+        "q": "Was misst das R-Quadrat?",
+        "answer": "Der Anteil der Variation in der Antwort, die durch das Modell erklärt wird.",
+        "explanation": "Das R-Quadrat reicht von 0 bis 1 und stellt an sich kein gutes Modell dar."
+      },
+      {
+        "q": "Warum Restplots prüfen?",
+        "answer": "Zur Erkennung von Krümmungen, ungleicher Ausbreitung, Ausreißern und anderen Verstößen gegen Annahmen.",
+        "explanation": "Restmuster offenbaren Probleme, die zusammenfassende Statistiken verbergen können."
+      }
+    ],
+    "recap": [
+      "Die einfache Regression schätzt eine lineare Beziehung und unterstützt die Vorhersage.",
+      "Interpretieren Sie Steigung, R-Quadrat und Residuen gemeinsam.",
+      "Extrapolieren oder schließen Sie keine Kausalität allein aus der Regression."
+    ]
+  },
+  "G3.7": {
+    "why": "Der Vergleich mehrerer Gruppen mit wiederholten T-Tests erhöht die Wahrscheinlichkeit eines falsch positiven Ergebnisses. ANOVA testet, ob sich irgendwelche Gruppenmittelwerte unterscheiden, während gleichzeitig die Gesamtfehlerrate kontrolliert wird.",
+    "what": "ANOVA steht für Varianzanalyse. Die Nullhypothese besagt, dass alle Gruppenmittelwerte gleich sind; Die Alternative besteht darin, dass mindestens ein Mittelwert unterschiedlich ist. Die F-Statistik ist die Variation zwischen Gruppen geteilt durch die Variation innerhalb der Gruppe. Ein großes F bedeutet, dass die Unterschiede zwischen den Gruppen im Vergleich zum Rauschen innerhalb der Gruppen groß sind. Ein signifikantes Ergebnis gibt nicht an, welche Gruppe sich unterscheidet; Verwenden Sie einen Post-hoc-Test wie Tukey.",
+    "how": [
+      "Definieren Sie die Reaktion und die Gruppen.",
+      "Plotbox-Plots, um das Muster zu erkennen und auf Ausreißer zu prüfen.",
+      "Überprüfen Sie die Annahmen: unabhängige Gruppen, ungefähr normale Residuen und ähnliche Streuung.",
+      "Führen Sie eine einfaktorielle ANOVA in Excel Data Analysis oder Minitab aus.",
+      "Lesen Sie die F-Statistik und den p-Wert.",
+      "Wenn dies signifikant ist, führen Sie einen Post-hoc-Test durch, um die unterschiedlichen Gruppen zu identifizieren.",
+      "Geben Sie die Effektgröße und die praktische Bedeutung an, nicht nur den p-Wert."
+    ],
+    "where": "Verwenden Sie ANOVA, um Lieferanten, Schichten, Maschinen, Regionen, Schulungsmethoden oder Abteilungen zu vergleichen. Beispiel: Die mittlere Anrufbearbeitungszeit über vier Teams ergibt F = 4,8 und p = 0,004, sodass mindestens ein Team unterschiedlich ist. Ein Tukey-Vergleich zeigt, dass Team C langsamer ist. Anschließend untersucht das Team Arbeitsbelastung, Personalbesetzung und Prozessunterschiede.",
+    "when_not": "Verwenden Sie keine gewöhnliche einfaktorielle ANOVA für wiederholte Messungen an denselben Einheiten ohne das entsprechende Modell. Verwenden Sie es nicht, wenn Annahmen schwerwiegend verletzt werden. Betrachten Sie die Welch-ANOVA oder Kruskal-Wallis. Verwenden Sie einen T-Test für zwei Gruppen.",
+    "common_mistakes": [
+      "Führen Sie viele t-Tests anstelle einer ANOVA durch.",
+      "Stoppen bei einem signifikanten p-Wert ohne Post-hoc-Test.",
+      "Ungleiche Varianzen oder nicht normale Residuen werden ignoriert."
+    ],
+    "quick_check": [
+      {
+        "q": "Was testet ANOVA?",
+        "answer": "Ob sich die Mittelwerte von drei oder mehr Gruppen unterscheiden.",
+        "explanation": "Die Null bedeutet, dass alle Gruppenmittelwerte gleich sind."
+      },
+      {
+        "q": "Was sagt eine große F-Statistik aus?",
+        "answer": "Die Variation zwischen den Gruppen ist im Vergleich zur Variation innerhalb der Gruppe groß.",
+        "explanation": "Dies deutet darauf hin, dass die Gruppenmittelwerte unterschiedlich sein können."
+      },
+      {
+        "q": "Was sollten Sie nach einer signifikanten ANOVA tun?",
+        "answer": "Führen Sie einen Post-hoc-Test durch, um festzustellen, welche Gruppen sich unterscheiden.",
+        "explanation": "Die ANOVA allein sagt nicht aus, welche Gruppe anders ist."
+      }
+    ],
+    "recap": [
+      "ANOVA vergleicht Mittelwerte über drei oder mehr Gruppen.",
+      "Ein signifikanter F-Test erfordert eine Post-hoc-Analyse, um Unterschiede zu lokalisieren.",
+      "Überprüfen Sie die Annahmen und geben Sie die Effektgröße an."
+    ]
+  },
+  "G4.1": {
+    "why": "Teams generieren viele mögliche Lösungen. Eine transparente Auswahlmethode verhindert, dass sich Lieblingsideen durchsetzen und hilft dem Team, eine Option auszuwählen, die effektiv, machbar und nachhaltig ist.",
+    "what": "Bei der Lösungsauswahl werden Kandidaten hinsichtlich Wirkung, Aufwand, Zeit, Kosten, Risiko, Durchführbarkeit und Akzeptanz durch die Stakeholder verglichen. Zu den gängigen Tools gehören die Impact-Effort-Matrix, die gewichtete Bewertung, die Pugh-Matrix, die Kosten-Nutzen-Analyse und die Risikobewertung. Die Lösung muss die verifizierte Grundursache angehen und die CTQ verbessern. Eine vielversprechende Lösung wird in der Regel vor der vollständigen Implementierung erprobt.",
+    "how": [
+      "Geben Sie die verifizierte Grundursache und die betroffene CTQ erneut an.",
+      "Listen Sie die möglichen Lösungen auf, ohne sie noch zu bewerten.",
+      "Vereinbaren Sie Kriterien und Gewichte mit dem Team und dem Sponsor.",
+      "Bewerten Sie jeden Kandidaten und berechnen Sie eine gewichtete Summe.",
+      "Bewerten Sie Risiko, Machbarkeit und unbeabsichtigte Folgen.",
+      "Wählen Sie einen oder zwei Kandidaten für einen Piloten aus.",
+      "Dokumentieren Sie die Begründung und die Entscheidung."
+    ],
+    "where": "Nutzen Sie die Lösungsauswahl in jeder Verbesserungsphase. Beispiel: Eine Klinik möchte Wartezeiten verkürzen. Die Hinzuziehung einer zweiten Triage-Krankenschwester schneidet bei der Auswirkung gut, bei Aufwand und Kosten als mittel und beim Risiko als gering ab. Eine Verlängerung der Arbeitszeit erzielt mittlere Auswirkungen und hohen Aufwand. Neue Software zeichnet sich durch hohe Kosten und lange Vorlaufzeiten aus. Das Team steuert zuerst die Triage-Krankenschwester.",
+    "when_not": "Nutzen Sie das Scoring nicht zur Rechtfertigung einer bereits getroffenen Entscheidung. Ignorieren Sie keine gesetzlichen oder sicherheitsrelevanten Einschränkungen und wählen Sie keine Lösung aus, bevor die Grundursache überprüft wurde.",
+    "common_mistakes": [
+      "Wählen Sie eine Lieblingslösung, bevor Sie Alternativen bewerten.",
+      "Gewichtungskriterien zur Ermittlung eines vorher festgelegten Gewinners.",
+      "Implementierungsaufwand, Risiko oder Akzeptanz der Stakeholder werden ignoriert."
+    ],
+    "quick_check": [
+      {
+        "q": "Was hilft eine Impact-Effort-Matrix einem Team?",
+        "answer": "Vergleichen Sie Lösungen nach erwarteter Wirkung und Implementierungsaufwand.",
+        "explanation": "Es hebt schnelle Erfolge hervor und weist auf Optionen mit hohem Aufwand und geringen Auswirkungen hin."
+      },
+      {
+        "q": "Warum eine Lösung mit der verifizierten Grundursache verknüpfen?",
+        "answer": "Um die Chance zu erhöhen, dass das Problem tatsächlich behoben wird.",
+        "explanation": "Eine Lösung, die nicht die Ursache bekämpft, kann möglicherweise nur die Symptome behandeln."
+      },
+      {
+        "q": "Warum ein Pilotprojekt vor der vollständigen Implementierung?",
+        "answer": "Die Lösung unter realen Bedingungen mit begrenztem Risiko testen.",
+        "explanation": "Ein Pilot liefert Beweise und deckt unbeabsichtigte Auswirkungen auf."
+      }
+    ],
+    "recap": [
+      "Wählen Sie Lösungen anhand von Auswirkungen, Aufwand, Risiko, Kosten und Machbarkeit aus.",
+      "Verknüpfen Sie die Lösung mit der verifizierten Grundursache und CTQ.",
+      "Testen Sie den stärksten Kandidaten, bevor Sie skalieren."
+    ]
+  },
+  "G4.2": {
+    "why": "Ein Pilot testet eine Lösung unter realen Bedingungen mit begrenztem Risiko. Es liefert Beweise vor einem vollständigen Rollout und deckt Probleme auf, die ein Plan oder eine Simulation übersehen würde.",
+    "what": "Ein Pilotplan definiert Ziel, Umfang, Standort oder Schicht, Dauer, Erfolgskennzahlen, Basislinie, Rollen, Schulung, Datenerfassung, Kommunikation, Rollback-Plan und Entscheidungskriterien. Das Team vergleicht die Leistung des Piloten mit der Ausgangsleistung oder einer Kontrollgruppe. Die Entscheidung „Go“, „No Go“ oder „Adapt“ wird auf der Grundlage von Daten getroffen, nicht aus Begeisterung.",
+    "how": [
+      "Schreiben Sie das Pilotziel und die Erfolgskennzahlen auf.",
+      "Wählen Sie einen repräsentativen Bereich, ein Team oder eine Schicht.",
+      "Legen Sie vor Beginn des Pilotprojekts eine Basislinie fest.",
+      "Schulen Sie die Leute, die die neue Methode anwenden werden.",
+      "Lassen Sie den Piloten lange genug laufen, um einen stabilen Effekt zu sehen.",
+      "Sammeln Sie Daten und überwachen Sie unbeabsichtigte Folgen.",
+      "Vergleichen Sie die Ergebnisse und entscheiden Sie, ob Sie skalieren, anpassen oder aufhören möchten.",
+      "Dokumentieren Sie die gewonnenen Erkenntnisse für den Rollout."
+    ],
+    "where": "Nutzen Sie Pilotprojekte in den Bereichen Gesundheitswesen, Fertigung, Software, Einzelhandel, Bankwesen und Bildung. Beispiel: Das Scannen von Barcodes wird vier Wochen lang auf einer Station im Pilotversuch durchgeführt. Der Ausgangswert liegt bei zwölf Medikationsfehlern pro Monat und das Ziel ist eine Reduzierung um 50 %. Das Pilotprojekt erfasst fünf Fehler pro Monat ohne Verzögerung im Arbeitsablauf, sodass das Team auf andere Stationen ausgeweitet werden kann.",
+    "when_not": "Pilotieren Sie nicht in einem nicht repräsentativen Bereich und verallgemeinern Sie, ohne es zu überprüfen. Überspringen Sie nicht die Grundlinie und lassen Sie den Piloten nicht zu kurz laufen, um den Effekt zu sehen. Ignorieren Sie nicht die Nebenwirkungen auf andere Abteilungen.",
+    "common_mistakes": [
+      "Keine Erfolgskriterien oder Grundlinie.",
+      "Kein Rollback-Plan, wenn der Pilot ein ernstes Problem verursacht.",
+      "Ignorieren von Mitarbeiterfeedback und unbeabsichtigten Konsequenzen."
+    ],
+    "quick_check": [
+      {
+        "q": "Warum braucht ein Pilot eine Basislinie?",
+        "answer": "Vergleich der Pilotenleistung mit der aktuellen Leistung.",
+        "explanation": "Ohne eine Baseline kann das Team nicht sagen, ob die Änderung funktioniert hat."
+      },
+      {
+        "q": "Was ist ein Rollback-Plan?",
+        "answer": "Eine vordefinierte Möglichkeit, zur alten Methode zurückzukehren, wenn das Pilotprojekt fehlschlägt oder Schaden anrichtet.",
+        "explanation": "Es begrenzt das Risiko während des Tests."
+      },
+      {
+        "q": "Welche Entscheidungen kann ein Pilot treffen?",
+        "answer": "Skalieren, anpassen oder stoppen.",
+        "explanation": "Das Pilotergebnis bestimmt den nächsten Schritt."
+      }
+    ],
+    "recap": [
+      "Ein Pilot testet eine Lösung mit klaren Metriken und begrenztem Risiko.",
+      "Verwenden Sie eine Baseline, einen repräsentativen Bereich und einen Rollback-Plan.",
+      "Entscheiden Sie, ob Sie datenbasiert skalieren, anpassen oder stoppen möchten."
+    ]
+  },
+  "G4.3": {
+    "why": "Menschliches Versagen ist unvermeidlich. Poka-Yoke gestaltet den Prozess so, dass Fehler schwer zu machen sind oder sofort erkannt werden, was zuverlässiger ist als Erinnerungen oder Schulungen allein.",
+    "what": "Poka-Yoke bedeutet Fehlervermeidung. Durch die Vorbeugung wird ein Fehler unmöglich oder sehr erschwert, beispielsweise wenn ein Stecker nur in einer Richtung passt. Die Erkennung erkennt einen Fehler sofort, etwa wenn ein Scanner das falsche Patientenarmband ablehnt. Gutes Poka-Yoke ist einfach, nah an der Arbeit und wird gemeinsam mit den Menschen entwickelt, die es verwenden. Es ist am effektivsten, wenn es mit einer Ursachenanalyse kombiniert wird.",
+    "how": [
+      "Identifizieren Sie den Fehlermodus mithilfe von FMEA oder Ursachenanalyse.",
+      "Verstehen Sie, wie und wo der Fehler auftritt.",
+      "Wählen Sie zuerst Prävention; Verwenden Sie die Erkennung, wenn eine Prävention nicht praktikabel ist.",
+      "Entwerfen Sie ein einfaches Gerät, eine einfache Prüfung oder eine Softwareregel.",
+      "Testen Sie es mit echten Benutzern im echten Workflow.",
+      "Überwachen Sie auf neue Fehler oder Problemumgehungen.",
+      "Standardisieren und Eigentumsrechte zuweisen."
+    ],
+    "where": "Verwenden Sie Poka-Yoke in Fertigungsvorrichtungen, beim Scannen von Medikamenten-Barcodes, bei der Software-Formularvalidierung, bei farbcodierten Anschlüssen, bei erzwungenen Sequenzschritten und bei Checklistenkontrollen. Beispiel: Das Scannen des Patientenarmbandes und des Medikamenten-Barcodes verhindert, dass dem falschen Patienten das falsche Medikament verabreicht wird. Ein einfacheres Beispiel ist ein E-Mail-Client, der warnt, wenn in der Nachricht ein Anhang erwähnt wird, dieser aber nicht angehängt ist.",
+    "when_not": "Verlassen Sie sich bei komplexen Beurteilungsfehlern, die Schulung oder Entscheidungsunterstützung erfordern, nicht auf Poka-Yoke. Erstellen Sie nicht so viele Warnungen, dass die Leute sie ignorieren. Fügen Sie kein Gerät hinzu, ohne zu testen, ob es zum tatsächlichen Arbeitsablauf passt.",
+    "common_mistakes": [
+      "Wählen Sie die Erkennung, wenn Prävention praktisch ist.",
+      "Hinzufügen von Alarmen, die Benutzer deaktivieren oder ignorieren.",
+      "Die Behandlung von Poka-Yoke ist ein Ersatz für die Suche nach der Grundursache."
+    ],
+    "quick_check": [
+      {
+        "q": "Was ist der Unterschied zwischen Prävention und Erkennung bei Poka-Yoke?",
+        "answer": "Vorbeugung macht einen Fehler unmöglich oder erschwert; Die Erkennung erkennt es sofort.",
+        "explanation": "Prävention ist im Allgemeinen stärker, da der Fehler nie den Kunden erreicht."
+      },
+      {
+        "q": "Warum ist Poka-Yoke zuverlässiger als eine Erinnerung?",
+        "answer": "Es ändert den Prozess, sodass der Fehler blockiert oder abgefangen wird, anstatt sich auf den Speicher zu verlassen.",
+        "explanation": "Erinnerungen können vergessen werden; Eine gut durchdachte Fehlerkorrektur ist in die Arbeit integriert."
+      },
+      {
+        "q": "Was sollten Sie nach der Installation eines Poka-Yoke tun?",
+        "answer": "Überwachen Sie auf neue Fehler, Problemumgehungen und unbeabsichtigte Auswirkungen.",
+        "explanation": "Es kann sein, dass Menschen Wege finden, ein Steuerelement zu umgehen, das nicht zum Arbeitsablauf passt."
+      }
+    ],
+    "recap": [
+      "Poka-Yoke verhindert Fehler bzw. erkennt sie sofort.",
+      "Bevorzugen Sie Prävention, halten Sie das Design einfach und testen Sie es mit Benutzern.",
+      "Kombinieren Sie Fehlersicherheit mit Ursachenanalyse und -überwachung."
+    ]
+  },
+  "G4.4": {
+    "why": "Green Belts müssen häufig den Fluss und die Durchlaufzeit verbessern, nicht nur die Fehlerraten. Schlanke Tools reduzieren Wartezeiten, Chargenverzögerungen und Nacharbeiten ohne große Kapitalinvestitionen.",
+    "what": "Flow bedeutet, dass die Arbeit reibungslos mit minimaler Stapelverarbeitung und minimalen Übergaben abläuft. Pull bedeutet, dass die nachgelagerte Nachfrage Arbeit auslöst, anstatt die Arbeit vor den Bedarf zu schieben. Ein Standardwerk dokumentiert die bekanntesten Methoden-, Ablauf- und Qualitätsprüfungen. Quick Changeover (SMED) trennt die interne Einrichtung von der externen Einrichtung und verkürzt die Umrüstzeit. Die Taktzeit ist die verfügbare Arbeitszeit dividiert durch die Kundennachfrage.",
+    "how": [
+      "Ordnen Sie den Wertstrom zu und identifizieren Sie Verzögerungen und Übergaben.",
+      "Berechnen Sie die Taktzeit aus der verfügbaren Zeit und der Kundennachfrage.",
+      "Reduzieren Sie Losgrößen und unnötige Genehmigungen.",
+      "Führen Sie Pull dort ein, wo Nachfrage und Angebot es praktikabel machen.",
+      "Standardisieren Sie die bekannteste Methode und trainieren Sie sie.",
+      "Reduzieren Sie die Umrüstzeit, indem Sie die Arbeit außerhalb des Umrüstfensters verlagern."
+    ],
+    "where": "Nutzen Sie Lean-Tools in der Fertigung, im Gesundheitswesen, im Bankwesen, in der IT, im Einzelhandel und im Bildungswesen. Beispiel: Eine Klinik hat 480 Minuten verfügbare Zeit und 60 Patienten, die Taktzeit beträgt also 8 Minuten. Wenn der aktuelle Schritt 12 Minuten dauert, liegt ein Engpass vor. Das Team verteilt die Arbeit neu und standardisiert die neue Methode, um den Schritt näher an den Takt zu bringen.",
+    "when_not": "Erzwingen Sie keinen Pull-Ansatz, wenn die Nachfrage stark schwankt oder das Angebot ohne entsprechende Puffer begrenzt ist. Entfernen Sie nicht die notwendigen Kontrollen, um einen Prozess schneller erscheinen zu lassen, und verwenden Sie Lean-Tools nicht als Ersatz für die Reduzierung von Variationen.",
+    "common_mistakes": [
+      "Kanban installieren, bevor der Prozess stabil ist.",
+      "Reduzieren Sie die Chargengröße, ohne die nachgelagerte Kapazität zu überprüfen.",
+      "Verfassen von Standardwerken ohne Schulung oder Einbindung an vorderster Front."
+    ],
+    "quick_check": [
+      {
+        "q": "Wie wird die Taktzeit berechnet?",
+        "answer": "Verfügbare Arbeitszeit dividiert durch die Kundennachfrage.",
+        "explanation": "Die Taktzeit legt das Tempo fest, das der Prozess benötigt, um die Kundennachfrage zu erfüllen."
+      },
+      {
+        "q": "Was bedeutet Pull im Lean?",
+        "answer": "Arbeit wird durch nachgelagerte Nachfrage ausgelöst und nicht vorangetrieben.",
+        "explanation": "Pull reduziert Überproduktion und übermäßige laufende Arbeiten."
+      },
+      {
+        "q": "Was ist das Ziel einer schnellen Umstellung?",
+        "answer": "Reduzierung des Zeitaufwands und der Verschwendung, die für den Wechsel von einem Produkt oder einer Aufgabe zu einem anderen erforderlich sind.",
+        "explanation": "Kürzere Umrüstzeiten ermöglichen kleinere Chargen und einen flexibleren Ablauf."
+      }
+    ],
+    "recap": [
+      "Schlanke Tools verbessern den Fluss, die Zugkraft, die Standardarbeit und die Umstellung.",
+      "Nutzen Sie die Taktzeit, um das erforderliche Tempo zu verstehen.",
+      "Stabilisieren Sie den Prozess und beziehen Sie die Menschen mit ein, die die Arbeit erledigen."
+    ]
+  },
+  "G4.5": {
+    "why": "Beim Testen jeweils eines Faktors werden Interaktionen übersehen und Durchläufe werden verschwendet. Die Versuchsplanung testet mehrere Faktoren gemeinsam und zeigt, welche Einstellungen tatsächlich wichtig sind.",
+    "what": "Ein Faktor ist eine Eingabevariable; ein Level ist eine Einstellung dieses Faktors; eine Antwort ist die gemessene Ausgabe; Ein Lauf ist ein experimenteller Versuch. Ein Haupteffekt ist die durchschnittliche Änderung der Reaktion, wenn sich ein Faktor ändert. Eine Interaktion bedeutet, dass die Wirkung eines Faktors vom Ausmaß eines anderen abhängt. Die Randomisierung schützt vor lauernden Variablen und die Replikation liefert eine Schätzung des experimentellen Fehlers.",
+    "how": [
+      "Definieren Sie das Ziel und die Antwortmetrik.",
+      "Wählen Sie die Faktoren und ihre Ebenen.",
+      "Wählen Sie für das Screening ein Design aus, z. B. eine zweistufige vollfaktorielle oder eine gebrochenfaktorielle Methode.",
+      "Randomisieren Sie die Laufreihenfolge und schließen Sie Replikate ein.",
+      "Führen Sie das Experiment durch und zeichnen Sie die Reaktion auf.",
+      "Analysieren Sie Haupteffekte und Wechselwirkungen in Software wie Minitab.",
+      "Führen Sie Bestätigungsversuche mit den empfohlenen Einstellungen durch."
+    ],
+    "where": "Nutzen Sie DOE für Prozessoptimierung, Produktdesign und Robustheit. Beispiel: Eine Ofentemperatur von 150 oder 170 Grad und eine Zeit von 20 oder 30 Minuten wirken sich auf die Festigkeit aus. Ein Zwei-mal-Zwei-Design mit zwei Replikaten erfordert acht Durchläufe. Wenn die beste Temperatur von der Zeit abhängt, interagieren die Faktoren und sollten gemeinsam und nicht einzeln eingestellt werden.",
+    "when_not": "Verwenden Sie DOE nicht, wenn Faktoren unsicher oder nicht kontrollierbar sind. Experimentieren Sie nicht, bevor das Messsystem ausreichend ist, und verfälschen Sie die Effekte nicht durch Überspringen der Randomisierung.",
+    "common_mistakes": [
+      "Es wird immer nur ein Faktor nach dem anderen geändert und es fehlen Wechselwirkungen.",
+      "Keine Replikation, daher kann das Team den Fehler nicht abschätzen.",
+      "Zu viele Faktoren in einem Experiment ohne Screening-Design."
+    ],
+    "quick_check": [
+      {
+        "q": "Was ist ein Faktor beim DOE?",
+        "answer": "Eine Eingabevariable, die im Experiment bewusst verändert wird.",
+        "explanation": "Faktoren werden auf verschiedenen Ebenen festgelegt, um ihre Auswirkung auf die Reaktion zu sehen."
+      },
+      {
+        "q": "Was ist eine Interaktion?",
+        "answer": "Wenn die Wirkung eines Faktors von der Stärke eines anderen Faktors abhängt.",
+        "explanation": "Wechselwirkungen sind ein Hauptgrund dafür, dass DOE Einzelfaktortests übertrifft."
+      },
+      {
+        "q": "Warum die Laufreihenfolge zufällig festlegen?",
+        "answer": "Zum Schutz vor lauernden Variablen wie Zeit, Temperatur oder Bedienerdrift.",
+        "explanation": "Durch die Randomisierung werden unkontrollierte Effekte über das gesamte Experiment verteilt."
+      }
+    ],
+    "recap": [
+      "Das DOE testet mehrere Faktoren und schätzt die wichtigsten Auswirkungen und Wechselwirkungen ab.",
+      "Randomisieren, replizieren und verwenden Sie ein für das Ziel geeignetes Design.",
+      "Bestätigen Sie das vorhergesagte Optimum mit Validierungsläufen."
+    ]
+  },
+  "G5.1": {
+    "why": "Regelkarten trennen häufig auftretende Abweichungen von Signalen besonderer Ursachen. Sie sagen dem Team, wann es handeln und wann es den Prozess in Ruhe lassen soll, was für die Aufrechterhaltung einer Verbesserung unerlässlich ist.",
+    "what": "Für kontinuierliche Daten verwenden Sie eine X-Balken- und R-Karte für kleine Untergruppen, eine X-Balken- und S-Karte für größere Untergruppen oder eine I-MR-Karte für einzelne Werte. Verwenden Sie für Attributdaten ein p-Diagramm für den Anteil fehlerhafter Einheiten mit variabler Stichprobengröße, ein np-Diagramm für die Anzahl fehlerhafter Einheiten mit konstanter Stichprobengröße, ein c-Diagramm für Fehler pro Einheit mit konstanter Einheitengröße oder ein u-Diagramm für Fehler pro Einheit mit variabler Einheitengröße. Kontrollgrenzen ergeben sich aus Prozessdaten, nicht aus Spezifikationen.",
+    "how": [
+      "Wählen Sie das Diagramm basierend auf Datentyp, Untergruppengröße und Stichprobengröße aus.",
+      "Sammeln Sie etwa 20 bis 25 Basisuntergruppen oder -punkte.",
+      "Berechnen Sie die Mittellinie und die Kontrollgrenzen.",
+      "Zeichnen Sie neue Daten in zeitlicher Reihenfolge auf.",
+      "Wenden Sie Regeln für Punkte außerhalb der Grenzen, Läufe, Trends und ungewöhnliche Muster an.",
+      "Ermitteln Sie besondere Ursachen, bevor Sie den Prozess ändern.",
+      "Grenzwerte nur nach einer bekannten Prozessänderung neu berechnen."
+    ],
+    "where": "Verwenden Sie Kontrolldiagramme für Fertigungsabmessungen, Krankenhauswartezeiten, verspätete Berichte, Fehlerraten, Anrufbearbeitungszeit und Transaktionsfehler. Beispiel: Ein I-MR-Diagramm verfolgt die tägliche Wartezeit, ein X-Balken- und R-Diagramm verfolgt fünf Proben pro Stunde und ein p-Diagramm verfolgt den Prozentsatz verspäteter Meldungen bei schwankendem Volumen.",
+    "when_not": "Verwenden Sie Spezifikationsgrenzen nicht als Kontrollgrenzen. Berechnen Sie Grenzwerte nicht neu, nur um ein Signal zu verbergen, und verwenden Sie kein Attributdiagramm für kontinuierliche Daten.",
+    "common_mistakes": [
+      "Auswahl des falschen Diagramms für den Datentyp.",
+      "Zu wenige Basispunkte führen zu unzuverlässigen Grenzwerten.",
+      "Auf Abweichungen aus einer gemeinsamen Ursache so reagieren, als ob es sich um eine besondere Ursache handeln würde."
+    ],
+    "quick_check": [
+      {
+        "q": "Welches Diagramm wird für Einzelmessungen im Zeitverlauf verwendet?",
+        "answer": "Ein I-MR-Diagramm.",
+        "explanation": "I-MR-Diagramme verfolgen einzelne Werte und den Bewegungsbereich."
+      },
+      {
+        "q": "Welches Diagramm wird für den Anteil fehlerhafter Daten bei variabler Stichprobengröße verwendet?",
+        "answer": "Ein p-Diagramm.",
+        "explanation": "p-Diagramme ermöglichen eine Variation der Stichprobengröße."
+      },
+      {
+        "q": "Woher kommen Kontrollgrenzen?",
+        "answer": "Aus den Prozessdaten, nicht aus Kundenvorgaben.",
+        "explanation": "Kontrollgrenzen beschreiben die natürliche Variation des Prozesses."
+      }
+    ],
+    "recap": [
+      "Passen Sie das Kontrolldiagramm an den Datentyp und die Stichprobengröße an.",
+      "Kontrollgrenzen ergeben sich aus Prozessdaten, nicht aus Spezifikationen.",
+      "Besondere Ursachen untersuchen und erst nach Prozessänderungen neu berechnen."
+    ]
+  },
+  "G5.2": {
+    "why": "Verbesserungen verfallen ohne Überwachung. Ein Kontrollplan definiert, wie der Prozess überwacht wird, wer bei Abweichungen reagiert und wie der Gewinn geschützt wird.",
+    "what": "Ein Kontrollplan listet den Prozessschritt, die Metrik oder CTQ, die Spezifikation, die Messmethode, die Stichprobengröße und -häufigkeit, das Diagramm oder die Überwachungsmethode, den Reaktionsplan, den Eigentümer und den Eskalationspfad auf. Im Reaktionsplan ist festgelegt, was zu prüfen ist, wen Sie zu benachrichtigen haben, wie das Problem eingedämmt werden kann und welche Korrekturmaßnahmen zu ergreifen sind. Der Plan ist mit Standardwerken, FMEA und Regelkarten verknüpft.",
+    "how": [
+      "Identifizieren Sie die kritischen Kennzahlen, die überwacht werden müssen.",
+      "Definieren Sie die Messmethode und -frequenz.",
+      "Wählen Sie den Diagramm- oder Überwachungsansatz und den Auslöser für Maßnahmen.",
+      "Schreiben Sie für jeden Auslöser einen spezifischen Reaktionsplan.",
+      "Weisen Sie einen Eigentümer und einen Eskalationspfad zu.",
+      "Schulen Sie die Personen, die den Plan anwenden werden.",
+      "Prüfen Sie den Plan und aktualisieren Sie ihn, wenn sich der Prozess ändert."
+    ],
+    "where": "Verwenden Sie einen Kontrollplan für jeden verbesserten Prozess, insbesondere bei der Projektübergabe. Beispiel: Medikationsfehler werden monatlich in einer p-Karte verfolgt. Wenn die Rate die Kontrollgrenze überschreitet, überprüft der Eigentümer die Berichterstattung, überprüft die Fälle, prüft, ob die Standardarbeit eingehalten wurde, und benachrichtigt den Apothekenleiter.",
+    "when_not": "Erstellen Sie keinen Kontrollplan, den niemand nutzt. Überwachen Sie nicht so viele Kennzahlen, dass die wichtigen verloren gehen, und setzen Sie keinen Auslöser, ohne reagieren zu können.",
+    "common_mistakes": [
+      "Kein benannter Eigentümer oder Eskalationspfad.",
+      "Ein Reaktionsplan, der nur „Untersuchen“ ohne konkrete Schritte vorsieht.",
+      "Überwachung verzögerter Kennzahlen ohne Frühwarnung."
+    ],
+    "quick_check": [
+      {
+        "q": "Was sollte ein Reaktionsplan beinhalten?",
+        "answer": "Was ist zu prüfen, wen zu benachrichtigen, wie das Problem einzudämmen und welche Korrekturmaßnahmen zu ergreifen sind.",
+        "explanation": "Ein spezifischer Reaktionsplan macht die Überwachung umsetzbar."
+      },
+      {
+        "q": "Warum braucht ein Kontrollplan einen Eigentümer?",
+        "answer": "Jemand muss für die Überwachung und Reaktion verantwortlich sein.",
+        "explanation": "Ohne Eigentum werden Signale oft ignoriert."
+      },
+      {
+        "q": "Wann sollte ein Kontrollplan aktualisiert werden?",
+        "answer": "Wenn sich der Prozess, die Metrik oder das Risiko ändert.",
+        "explanation": "Ein veralteter Plan kann das Falsche überwachen."
+      }
+    ],
+    "recap": [
+      "Ein Kontrollplan definiert Metriken, Stichproben, Auslöser, Reaktionen und Eigentümer.",
+      "Machen Sie den Reaktionsplan konkret und weisen Sie Verantwortlichkeiten zu.",
+      "Prüfen und aktualisieren Sie den Plan, wenn sich der Prozess ändert."
+    ]
+  },
+  "G5.3": {
+    "why": "Standardarbeit ist die Grundlage für nachhaltige Erfolge. Ohne einen klaren Standard greifen Menschen auf alte Methoden zurück und die Verbesserung verschwindet langsam.",
+    "what": "Eine Standardarbeitsanweisung dokumentiert die bekannteste Methode für eine Aufgabe. Standardarbeit geht darüber hinaus, indem sie Reihenfolge, Zeitplanung, Qualitätsprüfungen, Sicherheit und das erwartete Ergebnis definiert. Eine verwendbare SOP umfasst Zweck, Umfang, Rollen, Schritt-für-Schritt-Anleitungen, Visuals, Entscheidungspunkte, Ausnahmen und den Revisionsverlauf. Es sollte mit den Personen geschrieben werden, die die Arbeit erledigen und am Einsatzort verfügbar sind.",
+    "how": [
+      "Beobachten und dokumentieren Sie die aktuell beste Methode.",
+      "Beziehen Sie die Personen mit ein, die die Arbeit ausführen.",
+      "Entwerfen Sie das Verfahren mit Fotos, Screenshots oder einfachen Diagrammen.",
+      "Testen Sie den Entwurf im realen Workflow und überarbeiten Sie ihn.",
+      "Benutzer schulen und Kompetenz prüfen.",
+      "Platzieren Sie den Standard am Einsatzort.",
+      "Überwachen Sie die Einhaltung und überarbeiten Sie sie durch Änderungskontrolle."
+    ],
+    "where": "Nutzen Sie Standardwerke aus den Bereichen Gesundheitswesen, Fertigung, Service, IT, Bankwesen und Bildung. Beispiel: Eine Entlassungscheckliste listet jeden Schritt, den Eigentümer, den Zeitpunkt und den Eskalationspfad auf. Es reduziert verpasste Schritte und macht Übergaben vorhersehbar. Ein Softwareteam kann eine Release-Checkliste auf die gleiche Weise verwenden.",
+    "when_not": "Schreiben Sie kein starres Verfahren für Arbeiten, die wirklich kreativ oder sehr variabel sind, ohne klare Entscheidungsregeln. Erstellen Sie keine Regaldokumente, die niemand liest, und standardisieren Sie keinen Prozess, bevor er verbessert wird.",
+    "common_mistakes": [
+      "Schreiben der SOP ohne die Leute, die die Arbeit machen.",
+      "Dadurch wird das Dokument zu lang oder es ist schwierig, es am Arbeitsplatz zu verwenden.",
+      "Kein Schulungs-, Audit- oder Revisionsprozess."
+    ],
+    "quick_check": [
+      {
+        "q": "Was macht eine SOP nutzbar?",
+        "answer": "Klare Schritte, visuelle Darstellungen, Rollen, Ausnahmen und Zugriff am Einsatzort.",
+        "explanation": "Eine nutzbare SOP unterstützt die eigentliche Arbeit, statt Staub anzusammeln."
+      },
+      {
+        "q": "Warum sollte man Mitarbeiter an vorderster Front in die Erstellung von Standardwerken einbeziehen?",
+        "answer": "Sie kennen den realen Prozess und können praktische Schritte und Fehlerstellen identifizieren.",
+        "explanation": "Die Einbindung verbessert die Genauigkeit und Akzeptanz."
+      },
+      {
+        "q": "Ist Standardarbeit dauerhaft?",
+        "answer": "Nein. Es sollte durch Änderungskontrolle aktualisiert werden, wenn sich eine bessere Methode bewährt hat.",
+        "explanation": "Standardarbeit ist die derzeit beste Methode, keine eingefrorene Regel."
+      }
+    ],
+    "recap": [
+      "Ein Standardwerk dokumentiert die bekanntesten Methoden-, Ablauf- und Qualitätsprüfungen.",
+      "Schreiben Sie es mit Benutzern, testen Sie es, trainieren Sie es und bewahren Sie es am Einsatzort auf.",
+      "Überprüfen Sie die Einhaltung und verbessern Sie den Standard durch Änderungskontrolle."
+    ]
+  },
+  "G6.1": {
+    "why": "Green Belt-Projekte erfordern Planung, Risikomanagement, Kommunikation und Abschluss. Technische Hilfsmittel allein liefern keine Ergebnisse, wenn die Arbeit verspätet erfolgt, der Umfang abweicht oder die Übergabe schwach ist.",
+    "what": "Das Projektmanagement zur Verbesserung umfasst Umfang, Zeitplan, Ressourcen, Stakeholder, Risiken, Kommunikation, Qualitätstore, Änderungskontrolle und Abschluss. Ein Projektstrukturplan unterteilt die Arbeit in überschaubare Aufgaben. Ein Gantt-Diagramm zeigt Zeitablauf und Abhängigkeiten. Ein RAID-Protokoll verfolgt Risiken, Annahmen, Probleme und Abhängigkeiten. Tollgate-Prüfungen bestätigen, dass jede DMAIC-Phase abgeschlossen ist.",
+    "how": [
+      "Definieren Sie den Umfang, die zu erbringenden Leistungen und die Meilensteintermine.",
+      "Erstellen Sie einen Projektstrukturplan und schätzen Sie den Aufwand ab.",
+      "Ordnen Sie die Reihenfolge der Aufgaben und identifizieren Sie den kritischen Pfad.",
+      "Führen Sie ein RAID-Protokoll und überprüfen Sie es wöchentlich.",
+      "Teilen Sie dem Sponsor und den Stakeholdern den Status mit.",
+      "Halten Sie Gate-Reviews ab, bevor Sie mit der nächsten Phase fortfahren.",
+      "Schließen Sie das Projekt mit einer Übergabe, gewonnenen Erkenntnissen und einer Nutzenvalidierung ab."
+    ],
+    "where": "Nutzen Sie Projektmanagement bei jedem Green Belt-Projekt, insbesondere bei funktionsübergreifender Arbeit. Beispiel: Ein zwölfwöchiges Entlassungsprojekt umfasst eine Arbeitsaufschlüsselung nach DMAIC-Phase, ein Gantt-Diagramm, ein wöchentliches Stand-up, ein RAID-Protokoll, Gate-Reviews mit dem Sponsor und eine Übergabe an den Stationsleiter.",
+    "when_not": "Erstellen Sie keinen umfangreichen Projektplan für eine kleine Reparatur, die einen Tag dauert. Verlassen Sie sich nicht auf ein Gantt-Diagramm, ohne die Abhängigkeiten zu verstehen, und ignorieren Sie nicht Risiken, weil die technische Arbeit einfach erscheint.",
+    "common_mistakes": [
+      "Keine Arbeitsaufteilung, daher sind Aufgaben und Eigentümer unklar.",
+      "Ein optimistischer Zeitplan ohne Eventualitäten.",
+      "Kein Risikoprotokoll, schlechte Kommunikation oder kein formeller Abschluss."
+    ],
+    "quick_check": [
+      {
+        "q": "Was ist ein RAID-Protokoll?",
+        "answer": "Ein Protokoll der Risiken, Annahmen, Probleme und Abhängigkeiten.",
+        "explanation": "RAID hält Projektbedrohungen und -einschränkungen sichtbar."
+      },
+      {
+        "q": "Was ist der kritische Pfad?",
+        "answer": "Die längste Folge abhängiger Aufgaben, die die Projektdauer bestimmt.",
+        "explanation": "Verzögerungen auf dem kritischen Pfad verzögern das gesamte Projekt."
+      },
+      {
+        "q": "Warum einen Projektabschluss verhängen?",
+        "answer": "Um Vorteile zu bestätigen, Eigentum zu übergeben und gewonnene Erkenntnisse zu erfassen.",
+        "explanation": "Der Abschluss verhindert, dass das Projekt ohne Verantwortung verblasst."
+      }
+    ],
+    "recap": [
+      "Planen Sie Umfang, Zeitplan, Risiken, Kommunikation und Gates.",
+      "Verwenden Sie einen Projektstrukturplan, ein Gantt-Diagramm und ein RAID-Protokoll.",
+      "Schließen Sie mit der Übergabe, der Leistungsvalidierung und den gewonnenen Erkenntnissen ab."
+    ]
+  },
+  "G6.2": {
+    "why": "Green Belts benötigen Software, um Daten effizient und reproduzierbar zu analysieren. Wenn Sie wissen, welches Tool verwendet werden soll, und seine Annahmen überprüfen, können Fehler vermieden und Zeit gespart werden.",
+    "what": "Excel eignet sich für deskriptive Statistiken, Laufdiagramme, Histogramme, Streudiagramme, Regressionen, T-Tests und einfache ANOVA. Minitab eignet sich besser für Gage R&R, Fähigkeitsanalyse, Kontrolldiagramme, Regression, ANOVA und Versuchsplanung. Beide Tools erfordern saubere Daten, die richtige Methode und die Interpretation von Annahmen und Diagrammen.",
+    "how": [
+      "Bereinigen und strukturieren Sie die Daten vor der Analyse.",
+      "Wählen Sie die Methode, die zur Frage und zum Datentyp passt.",
+      "Führen Sie die Analyse in Excel oder Minitab aus.",
+      "Überprüfen Sie Annahmen und Diagnosediagramme.",
+      "Interpretieren Sie die Ausgabe, einschließlich Effektgröße und Konfidenzintervalle.",
+      "Speichern Sie die Datei unter einem eindeutigen Versionsnamen.",
+      "Dokumentieren Sie die Schritte, damit die Analyse wiederholt werden kann."
+    ],
+    "where": "Verwenden Sie Excel für schnelle Zusammenfassungen und einfache Diagramme und Minitab für erweiterte Statistiken und DOE. Beispiel: Ein T-Test bei zwei Stichproben kann in beiden Tools ausgeführt werden. Vergleichen Sie den p-Wert und das Konfidenzintervall. Eine Fähigkeitsstudie ist in Minitab normalerweise schneller unter Statistik > Qualitätswerkzeuge > Fähigkeitsanalyse > Normal.",
+    "when_not": "Verwenden Sie keine Software, ohne die Methode und ihre Annahmen zu verstehen. Vertrauen Sie den Standardeinstellungen nicht blind und verwenden Sie Excel nicht für komplexe DOE, wenn ein validiertes Statistikpaket verfügbar ist.",
+    "common_mistakes": [
+      "Analysieren Sie den falschen Datentyp oder schließen Sie ausgeblendete Zeilen ein.",
+      "Verwendung des Standard-Alpha, ohne den Projektstandard zu überprüfen.",
+      "Überspringen von Annahmeprüfungen und Diagnosediagrammen."
+    ],
+    "quick_check": [
+      {
+        "q": "Welches Tool ist im Allgemeinen stärker für die DOE- und Fähigkeitsanalyse?",
+        "answer": "Minitab.",
+        "explanation": "Minitab verfügt über spezielle Menüs für DOE, Fähigkeit, MSA und Regelkarten."
+      },
+      {
+        "q": "Was sollten Sie tun, bevor Sie eine Analyse durchführen?",
+        "answer": "Bereinigen Sie die Daten und bestätigen Sie, dass die Methode mit der Frage und dem Datentyp übereinstimmt.",
+        "explanation": "Eine gute Analyse beginnt mit guten Daten und der richtigen Methode."
+      },
+      {
+        "q": "Warum die Analyseschritte dokumentieren?",
+        "answer": "So kann die Arbeit wiederholt, überprüft und verteidigt werden.",
+        "explanation": "Reproduzierbarkeit ist für Vertrauen und Prüfung von entscheidender Bedeutung."
+      }
+    ],
+    "recap": [
+      "Excel verarbeitet schnelle Zusammenfassungen und einfache Tests; Minitab verarbeitet erweiterte Statistiken und DOE.",
+      "Bereinigen Sie Daten, wählen Sie die richtige Methode und überprüfen Sie Annahmen.",
+      "Dokumentieren Sie die Analyse, damit sie reproduziert werden kann."
+    ]
+  }
+}

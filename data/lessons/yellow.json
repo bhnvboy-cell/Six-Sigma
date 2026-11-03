@@ -203,6 +203,49 @@
       "Get sponsor sign-off and revisit the charter at gate reviews."
     ]
   },
+  "Y2.3": {
+    "why": "Improvements decay when everyone returns to the old way. The Control phase protects the gain by making the new method visible, measurable, owned, and easy to follow. A control plan and a simple control chart tell the process owner when to act and when to leave the process alone.",
+    "what": "A control plan is a one-page agreement that names the metric, the target or specification, how and how often it is measured, who owns it, and what to do when it goes out of range. A control chart plots the metric over time with a center line and limits so the team can separate normal variation from a real signal. For continuous data, an individuals and moving-range (I-MR) chart is a common starting point; for defect or pass/fail counts, a p or c chart fits. Standard work, visual management, and mistake-proofing (poka-yoke) support the plan by making the correct method the easy method.",
+    "how": [
+      "Agree on one primary metric and its target or specification.",
+      "Define the measurement method, sample size, frequency, and data owner.",
+      "Plot a run or control chart and calculate limits only after the process is stable.",
+      "Write a reaction plan that says who does what when a signal appears.",
+      "Update standard work, training, and visual controls to match the new method.",
+      "Hand the plan to the process owner and review it at a fixed cadence."
+    ],
+    "where": "Use control plans after every improvement, not only in manufacturing. Example: a clinic reduces appointment no-shows with reminder calls. The control plan tracks no-show rate weekly, names the front-desk lead as owner, and requires a huddle whenever two weeks exceed 8%. A software team tracks escaped defects per release on a p chart and reviews the rule when a signal appears. In a factory, an I-MR chart of fill volume shows when to adjust the filler.",
+    "when_not": "Do not calculate control limits from an unstable process or from mixed products and shifts; first stratify and stabilize. Do not turn the control plan into a long binder that no one reads. Do not react to every point; use the chart rules. Do not set a control plan without a named owner and reaction plan.",
+    "common_mistakes": [
+      "No named process owner or no reaction plan.",
+      "Measuring a different metric from the one the project improved.",
+      "Recalculating control limits every time a point looks bad.",
+      "Treating common-cause variation as a special cause and over-adjusting.",
+      "Leaving the control plan in the project file instead of at the process."
+    ],
+    "quick_check": [
+      {
+        "q": "What belongs in a control plan?",
+        "answer": "The metric, target or specification, measurement method, frequency, owner, and reaction plan.",
+        "explanation": "A control plan makes monitoring and response explicit."
+      },
+      {
+        "q": "Why should control limits wait until the process is stable?",
+        "answer": "Limits from an unstable process describe the instability, not normal variation.",
+        "explanation": "Stabilize and stratify first, then set limits."
+      },
+      {
+        "q": "What is the purpose of a reaction plan?",
+        "answer": "It tells the owner what to check and do when the chart signals a change.",
+        "explanation": "A signal without a response does not sustain the gain."
+      }
+    ],
+    "recap": [
+      "Control plans name the metric, method, frequency, owner, and reaction plan.",
+      "Control charts separate normal variation from real signals.",
+      "Standard work and mistake-proofing make the new method stick."
+    ]
+  },
   "Y3.1": {
     "why": "The type of data determines which summaries, charts, and tests are valid. Treating categorical data as continuous, or averaging labels, leads to wrong conclusions.",
     "what": "Continuous data can take any value in a range and is measured: time, weight, length, temperature, or cost. Discrete data counts categories or occurrences: pass or fail, defect type, number of complaints, or number of patients. Discrete data can be binary, count, or ordinal. Continuous data is summarized with mean, median, standard deviation, and range; discrete data is summarized with counts, proportions, percentages, and the mode.",

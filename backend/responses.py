@@ -10,6 +10,13 @@ class ApiError(Exception):
         self.details = details
 
 
+def json_body():
+    data = request.get_json(silent=True)
+    if not isinstance(data, dict):
+        raise ApiError(400, "INVALID_JSON", "A JSON object request body is required.")
+    return data
+
+
 def ok(data=None, status=200, meta=None):
     body = {"data": data}
     if meta is not None:

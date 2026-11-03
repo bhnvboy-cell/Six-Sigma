@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrator Dashboard - Lean Six Sigma Training</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/i18n.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class="fas fa-chart-line"></i> Lean Six Sigma Training</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="modules.html">Modules</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+                    <li class="nav-item"><a class="nav-link" href="my-project.html">My Project</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="admin.html">Admin</a></li>
+                    <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
+                    <li class="nav-item"><button class="nav-link btn btn-link text-white" onclick="logout()">Logout</button></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container py-5">
+        <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-4">
+            <div>
+                <h1 class="section-title d-inline-block mb-0" data-i18n="pages.admin">Administrator Dashboard</h1>
+                <p class="text-muted mb-0 mt-2" data-i18n="admin.subtitle">Learner accounts, exam marks, and sign-in activity. Learners on the same network share an IP, so use the username to tell them apart.</p>
+            </div>
+            <button class="btn btn-outline-secondary" id="refreshBtn" type="button" data-i18n="common.refresh">
+                <i class="fas fa-rotate me-1"></i>Refresh
+            </button>
+        </div>
+
+        <div id="adminStatus" role="status"></div>
+
+        <div class="row g-3 mb-4" id="adminSummary"></div>
+
+        <div class="card mb-4">
+            <div class="card-body">
+                <label for="adminSearch" class="form-label small fw-semibold" data-i18n="admin.filterLabel">Filter by username, email, or IP</label>
+                <input type="search" class="form-control" id="adminSearch" placeholder="e.g. user7 or 192.168.1.10" data-i18n-placeholder="admin.filterPlaceholder">
+            </div>
+        </div>
+
+        <div class="card mb-4">
+            <div class="card-header bg-light d-flex flex-wrap justify-content-between align-items-center gap-2">
+                <span class="fw-semibold" data-i18n="admin.learners"><i class="fas fa-users me-1"></i>Learners</span>
+                <button class="btn btn-sm btn-outline-primary" id="exportLearners" type="button" data-i18n="common.exportCsv">
+                    <i class="fas fa-file-csv me-1"></i>Export CSV
+                </button>
+            </div>
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover mb-0 align-middle">
+                        <thead>
+                            <tr>
+                                <th data-i18n="admin.user">User</th>
+                                <th data-i18n="admin.email">Email</th>
+                                <th data-i18n="admin.belt">Belt</th>
+                                <th class="text-end" data-i18n="admin.lessons">Lessons</th>
+                                <th class="text-end" data-i18n="admin.certificates">Certificates</th>
+                                <th data-i18n="admin.lastLogin">Last login</th>
+                                <th data-i18n="admin.lastIp">Last IP</th>
+                            </tr>
+                        </thead>
+                        <tbody id="learnersTable">
+                            <tr><td colspan="7" class="text-muted p-3" data-i18n="admin.loadingLearners">Loading learners...</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-4">
+            <div class="card-header bg-light d-flex flex-wrap justify-content-between align-items-center gap-2">
+                <span class="fw-semibold" data-i18n="admin.examMarks"><i class="fas fa-graduation-cap me-1"></i>Exam marks</span>
+                <button class="btn btn-sm btn-outline-primary" id="exportExams" type="button" data-i18n="common.exportCsv">
+                    <i class="fas fa-file-csv me-1"></i>Export CSV
+                </button>
+            </div>
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover mb-0 align-middle">
+                        <thead>
+                            <tr>
+                                <th data-i18n="admin.user">User</th>
+                                <th data-i18n="admin.belt">Belt</th>
+                                <th class="text-end" data-i18n="admin.attempt">Attempt</th>
+                                <th class="text-end" data-i18n="admin.correct">Correct</th>
+                                <th class="text-end" data-i18n="admin.score">Score</th>
+                                <th data-i18n="admin.result">Result</th>
+                                <th data-i18n="admin.completed">Completed</th>
+                            </tr>
+                        </thead>
+                        <tbody id="examResultsTable">
+                            <tr><td colspan="7" class="text-muted p-3" data-i18n="admin.loadingExams">Loading exam results...</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-4">
+            <div class="card-header bg-light d-flex flex-wrap justify-content-between align-items-center gap-2">
+                <span class="fw-semibold" data-i18n="admin.signInActivity"><i class="fas fa-right-to-bracket me-1"></i>Sign-in activity</span>
+                <button class="btn btn-sm btn-outline-primary" id="exportLogins" type="button" data-i18n="common.exportCsv">
+                    <i class="fas fa-file-csv me-1"></i>Export CSV
+                </button>
+            </div>
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover mb-0 align-middle">
+                        <thead>
+                            <tr>
+                                <th data-i18n="admin.time">Time</th>
+                                <th data-i18n="admin.user">User</th>
+                                <th data-i18n="admin.ip">IP address</th>
+                                <th data-i18n="admin.result">Result</th>
+                                <th data-i18n="admin.device">Device</th>
+                            </tr>
+                        </thead>
+                        <tbody id="loginAuditTable">
+                            <tr><td colspan="5" class="text-muted p-3" data-i18n="admin.loadingLogins">Loading sign-in activity...</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white py-4 mt-5"><div class="container text-center"><p class="mb-0">&copy; 2026 Lean Six Sigma Training Course.</p></div></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/api-client.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/admin.js"></script>
+</body>
+</html>

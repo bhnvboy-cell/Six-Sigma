@@ -1,0 +1,1592 @@
+{
+  "B1.1": {
+    "why": "Die Verteilung hinter den Daten bestimmt, welche Fähigkeiten, Kontrolldiagramme und Hypothesenmethoden gültig sind. Die Wahl der falschen Verteilung kann zu sicheren, aber falschen Schlussfolgerungen führen.",
+    "what": "Die Normalverteilung ist kontinuierlich, symmetrisch und durch Mittelwert und Standardabweichung definiert; es passt zu vielen Messvariablen. Die Binomialverteilung zählt Erfolge in einer festen Anzahl unabhängiger Versuche mit einer konstanten Wahrscheinlichkeit, beispielsweise „Bestanden“ oder „Nicht bestanden“. Die Poisson-Verteilung zählt Ereignisse in einem festen Zeitraum oder Raum, beispielsweise Mängel pro Einheit oder Ankünfte pro Stunde. Die Exponentialverteilung modelliert die Zeit zwischen Poisson-Ereignissen. Die Weibull-Verteilung ist flexibel für Lebensdauer- und Zuverlässigkeitsdaten und kann steigende, konstante oder fallende Ausfallraten darstellen.",
+    "how": [
+      "Identifizieren Sie den Datentyp: kontinuierliche Messung, binäres Ergebnis, Anzahl oder Zeit zwischen Ereignissen.",
+      "Zeichnen Sie ein Histogramm oder Wahrscheinlichkeitsdiagramm.",
+      "Schlagen Sie eine Verteilung vor, die zum Datengenerierungsprozess passt.",
+      "Passen Sie die Verteilung an und prüfen Sie die Passgenauigkeit.",
+      "Verwenden Sie die angepasste Verteilung in der Fähigkeits-, Steuerungs- oder Zuverlässigkeitsanalyse.",
+      "Validieren Sie die Auswahl mit Prozesswissen und neuen Daten."
+    ],
+    "where": "Nutzen Sie Vertriebskenntnisse in den Bereichen Produktionszuverlässigkeit, Ankünfte im Gesundheitswesen, Call Center, Banktransaktionen und IT-Vorfälle. Beispiel: Anrufe pro Stunde folgen oft einem Poisson-Muster, die Zeit zwischen Anrufen folgt einem exponentiellen Muster, der Anteil der abgebrochenen Anrufe ist binomial und die Gerätelebensdauer kann einem Weibull-Muster folgen.",
+    "when_not": "Erzwingen Sie keine Normalverteilung bei Zählungen oder Proportionen. Verwenden Sie kein Binomialmodell, wenn Versuche abhängig sind oder sich die Wahrscheinlichkeit ändert, und verwenden Sie kein Poisson-Modell, wenn sich Ereignisse häufen oder die Varianz den Mittelwert weit übersteigt.",
+    "common_mistakes": [
+      "Vorausgesetzt, jeder Datensatz ist normal.",
+      "Überdispersion in Zähldaten wird ignoriert.",
+      "Anpassen einer Verteilung ohne Überprüfung der Anpassungsgüte."
+    ],
+    "quick_check": [
+      {
+        "q": "Welche Verteilung modelliert die Anzahl der Erfolge in einer festen Anzahl unabhängiger Versuche?",
+        "answer": "Die Binomialverteilung.",
+        "explanation": "Binomialdaten haben zwei Ergebnisse und eine konstante Erfolgswahrscheinlichkeit."
+      },
+      {
+        "q": "Welche Verteilung wird häufig für Time-to-Failure-Daten mit flexibler Ausfallrate verwendet?",
+        "answer": "Die Weibull-Verteilung.",
+        "explanation": "Weibull-Form- und Skalenparameter ermöglichen eine Erhöhung, Konstanthaltung oder Verringerung der Gefahr."
+      },
+      {
+        "q": "Welche Verteilungsmodelle berücksichtigen Ereignisse in einem bestimmten Zeitraum oder Raum?",
+        "answer": "Die Poisson-Verteilung.",
+        "explanation": "Poisson-Modelle zählen seltene Ereigniszahlen wie Defekte pro Einheit oder Ankünfte pro Stunde."
+      }
+    ],
+    "recap": [
+      "Passen Sie die Verteilung an den Datengenerierungsprozess an.",
+      "Normal, Binomial, Poisson, Exponential und Weibull decken häufige Lean Six Sigma-Situationen ab.",
+      "Passen Sie die Verteilung an und überprüfen Sie sie, bevor Sie sie als Schlussfolgerung verwenden."
+    ]
+  },
+  "B1.2": {
+    "why": "Statistische Schlussfolgerungen basieren auf Stichprobenverteilungen. Der zentrale Grenzwertsatz erklärt, warum sich Stichprobenmittelwerte vorhersehbar verhalten und warum Konfidenzintervalle und Tests funktionieren.",
+    "what": "Eine Stichprobenverteilung ist die Verteilung einer Statistik, beispielsweise des Mittelwerts, über wiederholte Stichproben. Der Standardfehler ist die Standardabweichung dieser Statistik. Für einen Mittelwert ist der Standardfehler Sigma dividiert durch die Quadratwurzel von n. Der Zentrale Grenzwertsatz besagt, dass für eine große Stichprobe die Verteilung des Stichprobenmittelwerts unabhängig von der Populationsform annähernd normal ist. Der Mittelwert der Stichprobenmittelwerte entspricht dem Populationsmittelwert, und die Streuung nimmt mit zunehmendem n ab.",
+    "how": [
+      "Definieren Sie die Grundgesamtheit, die Stichprobengröße und die Statistik.",
+      "Nehmen Sie wiederholt Proben oder simulieren Sie es.",
+      "Zeichnen Sie die Verteilung der Stichprobenmittelwerte grafisch auf.",
+      "Berechnen Sie den Standardfehler.",
+      "Wenden Sie den zentralen Grenzwertsatz an, wenn die Stichprobe groß genug ist.",
+      "Verwenden Sie es für Konfidenzintervalle oder Hypothesentests."
+    ],
+    "where": "Verwenden Sie Stichprobenverteilungen für Umfragen, Audits, Kontrolldiagramme und alle Rückschlüsse auf einen Mittelwert oder Anteil. Beispiel: Eine Grundgesamtheit hat einen Mittelwert von 100 und eine Standardabweichung von 20. Bei n = 25 beträgt der Standardfehler 4, sodass der Stichprobenmittelwert mit einem Mittelwert von 100 und einer Standardabweichung von 4 ungefähr normal ist. Bei n = 100 sinkt der Standardfehler auf 2.",
+    "when_not": "Wenden Sie den Zentralen Grenzwertsatz nicht blind auf kleine Stichproben oder extrem verzerrte Daten an. Überprüfen Sie für Proportionen, ob np und n(1-p) groß genug sind. Verwenden Sie für abhängige Daten wie Zeitreihen Methoden, die die Autokorrelation berücksichtigen.",
+    "common_mistakes": [
+      "Verwechslung der Standardabweichung der Daten mit dem Standardfehler des Mittelwerts.",
+      "Wenn man an den Satz glaubt, werden die Rohdaten normal.",
+      "Verwendung von n = 30 als universelle Regel für stark verzerrte Daten."
+    ],
+    "quick_check": [
+      {
+        "q": "Was ist der Standardfehler des Mittelwerts?",
+        "answer": "Die Grundgesamtheitsstandardabweichung dividiert durch die Quadratwurzel von n.",
+        "explanation": "Es beschreibt die Streuung der Stichprobenmittelwerte über wiederholte Stichproben."
+      },
+      {
+        "q": "Was sagt der Zentrale Grenzwertsatz?",
+        "answer": "Bei ausreichend großen Stichproben ist der Stichprobenmittelwert annähernd normalverteilt.",
+        "explanation": "Dies gilt auch dann, wenn die Grundgesamtheit nicht normal ist, abhängig von der Stichprobengröße und -form."
+      },
+      {
+        "q": "Was passiert mit dem Standardfehler, wenn die Stichprobengröße zunimmt?",
+        "answer": "Sie nimmt proportional zur Quadratwurzel von n ab.",
+        "explanation": "Größere Stichproben liefern genauere Schätzungen."
+      }
+    ],
+    "recap": [
+      "Stichprobenverteilungen beschreiben, wie sich Statistiken bei wiederholten Stichproben unterscheiden.",
+      "Der Standardfehler des Mittelwerts ist Sigma dividiert durch die Quadratwurzel von n.",
+      "Der Zentrale Grenzwertsatz unterstützt die Inferenz mit großen Stichproben."
+    ]
+  },
+  "B1.3": {
+    "why": "Eine Punktschätzung ohne Unsicherheit ist unvollständig. Konfidenzintervalle zeigen die Präzision einer Schätzung und den Bereich plausibler Werte, was bessere Entscheidungen unterstützt.",
+    "what": "Ein Konfidenzintervall ist eine Schätzung plus oder minus eines kritischen Werts multipliziert mit einem Standardfehler. Für einen Mittelwert mit unbekanntem Sigma verwenden Sie x-Balken plus oder minus t mal s dividiert durch die Quadratwurzel von n. Verwenden Sie für einen Anteil p-hat plus oder minus z-mal den Standardfehler oder ein Wilson-Intervall für kleine Stichproben. Berechnen Sie für eine Differenz die Differenz und ihren Standardfehler. Ein 95 %-Intervall bedeutet, dass bei wiederholter Probenahme etwa 95 % dieser Intervalle den wahren Parameter enthalten würden.",
+    "how": [
+      "Identifizieren Sie den Parameter: Mittelwert, Anteil oder Differenz.",
+      "Überprüfen Sie die Annahmen für das Intervall.",
+      "Berechnen Sie die Schätzung und den Standardfehler.",
+      "Wählen Sie den kritischen Wert für das Konfidenzniveau.",
+      "Konstruieren Sie das Intervall.",
+      "Interpretieren Sie es im Kontext des Prozesses und der praktischen Entscheidung.",
+      "Vergleichen Sie das Intervall gegebenenfalls mit einem Ziel oder einer Spezifikation."
+    ],
+    "where": "Verwenden Sie Konfidenzintervalle für Vorher-Nachher-Vergleiche, Lieferantenvergleiche, Umfrageergebnisse und Fähigkeitsstudien. Beispiel: Die mittlere Wartezeit beträgt 30 Minuten, s = 8 und n = 25. Bei t = 2,064 beträgt das Intervall 30 plus oder minus 3,30 oder 26,7 bis 33,3 Minuten. Wenn ein Ziel von 25 außerhalb des Intervalls liegt, liegt der Prozess wahrscheinlich über dem Ziel.",
+    "when_not": "Verwenden Sie für sehr kleine Anteile kein einfaches Wald-Intervall. Behandeln Sie überlappende Konfidenzintervalle nicht als formalen Hypothesentest und ignorieren Sie Clustering oder gepaarte Daten nicht.",
+    "common_mistakes": [
+      "Angenommen, es besteht eine Wahrscheinlichkeit von 95 %, dass der Parameter in diesem bestimmten Intervall liegt.",
+      "Die Verwendung von z, wenn t für ein unbekanntes Sigma geeignet ist.",
+      "Verwechslung eines Konfidenzintervalls mit einem Vorhersageintervall."
+    ],
+    "quick_check": [
+      {
+        "q": "Was bedeutet ein 95 %-Konfidenzintervall?",
+        "answer": "Etwa 95 % der Intervalle aus wiederholten Proben würden den wahren Parameter enthalten.",
+        "explanation": "Das Vertrauen liegt im Verfahren und nicht in einem bestimmten Intervall."
+      },
+      {
+        "q": "Was macht ein Konfidenzintervall schmaler?",
+        "answer": "Geringeres Vertrauen, geringere Variabilität oder eine größere Stichprobe.",
+        "explanation": "Die Breite hängt vom kritischen Wert, dem Standardfehler und der Stichprobengröße ab."
+      },
+      {
+        "q": "Warum ein Konfidenzintervall angeben und nicht nur einen p-Wert?",
+        "answer": "Es zeigt die Größe und Präzision des Effekts, nicht nur die statistische Signifikanz.",
+        "explanation": "Intervalle unterstützen die praktische Interpretation."
+      }
+    ],
+    "recap": [
+      "Konfidenzintervalle quantifizieren die Unsicherheit rund um eine Schätzung.",
+      "Interpretieren Sie das Verfahren und nicht die Wahrscheinlichkeit eines einzelnen Intervalls.",
+      "Geben Sie das Intervall und seine praktische Bedeutung an."
+    ]
+  },
+  "B1.4": {
+    "why": "Unterbewertete Studien übersehen tatsächliche Effekte, während überbewertete Studien Ressourcen verschwenden und triviale Unterschiede als signifikant markieren. Die Planung von Trennschärfe und Stichprobengröße verhindert beide Probleme.",
+    "what": "Alpha ist die Fehlerrate vom Typ I, die Wahrscheinlichkeit eines falsch positiven Ergebnisses. Beta ist die Fehlerquote vom Typ II, also die Wahrscheinlichkeit, einen echten Effekt zu verpassen. Die Leistung ist eins minus Beta, die Chance, einen vorhandenen Effekt zu erkennen. Die Aussagekraft hängt von Alpha, Effektgröße, Variabilität, Stichprobengröße und dem Test ab. Größere Effekte und größere Samples erhöhen die Leistung. Der minimal erkennbare Effekt ist der kleinste Unterschied, den die Studie ermitteln soll.",
+    "how": [
+      "Definieren Sie den Test und den Effekt, den Sie erkennen müssen.",
+      "Schätzen Sie die Variabilität anhand von Pilotdaten oder Prozesskenntnissen.",
+      "Stellen Sie Alpha ein, oft 0,05, und eine Zielstärke, oft 0,80 oder 0,90.",
+      "Wählen Sie den minimal erkennbaren Effekt, der praktisch von Bedeutung ist.",
+      "Berechnen Sie die erforderliche Stichprobengröße in Minitab oder G*Power.",
+      "Berücksichtigen Sie Aussetzer, Antwortausfälle oder Untergruppenanalysen.",
+      "Überprüfen Sie die Stromversorgung erneut, nachdem das Design endgültig ist."
+    ],
+    "where": "Nutzen Sie Leistungsanalysen für DOE, Pilotprojekte, Umfragen, A/B-Tests und Vorher-Nachher-Studien. Beispiel: Ermitteln Sie eine Fünf-Minuten-Differenz mit einer Standardabweichung von 10, einem Alpha von 0,05 und einer Potenz von 0,80. Eine Berechnung mit zwei Stichproben ergibt etwa 63 Beobachtungen pro Gruppe unter Verwendung der Normalnäherung.",
+    "when_not": "Verwenden Sie keine willkürliche Stichprobengröße wie 30. Ignorieren Sie nicht die praktische Effektgröße und verlassen Sie sich nicht auf die Post-hoc-Power nach der Studie, um ein nicht signifikantes Ergebnis zu erklären.",
+    "common_mistakes": [
+      "Keine Leistungsanalyse vor der Datenerfassung.",
+      "Verwendung einer unrealistisch kleinen Effektgröße.",
+      "Ignorieren mehrerer Vergleiche oder Ausstieg."
+    ],
+    "quick_check": [
+      {
+        "q": "Was ist Macht?",
+        "answer": "Die Wahrscheinlichkeit, einen echten Effekt zu erkennen, entspricht eins minus Beta.",
+        "explanation": "Eine höhere Leistung bedeutet eine geringere Wahrscheinlichkeit eines falschen Negativs."
+      },
+      {
+        "q": "Was passiert mit der Trennschärfe, wenn die Stichprobengröße zunimmt?",
+        "answer": "Die Leistung nimmt zu.",
+        "explanation": "Größere Stichproben verringern den Standardfehler und erleichtern die Erkennung realer Effekte."
+      },
+      {
+        "q": "Was ist Beta?",
+        "answer": "Die Fehlerquote vom Typ II, die Wahrscheinlichkeit, einen echten Effekt nicht zu erkennen.",
+        "explanation": "Die Leistung beträgt eins minus Beta."
+      }
+    ],
+    "recap": [
+      "Macht ist die Chance, eine wahre Wirkung zu entdecken.",
+      "Planen Sie Alpha, Beta, Effektgröße, Variabilität und Stichprobengröße gemeinsam.",
+      "Verwenden Sie Software und praktische Effektgrößen, keine willkürlichen Beispielregeln."
+    ]
+  },
+  "B1.5": {
+    "why": "Der falsche Test macht die Schlussfolgerung ungültig. Black Belts müssen den Test anhand des Datentyps, der Anzahl der Gruppen und der Annahmen auswählen und dann dem Team die Wahl erklären.",
+    "what": "Für kontinuierliche Daten verwenden Sie einen T-Test bei einer Stichprobe gegen ein Ziel, einen T-Test bei zwei Stichproben für zwei unabhängige Gruppen, einen gepaarten T-Test für Vorher-Nachher bei denselben Einheiten und eine ANOVA für drei oder mehr Gruppen. Verwenden Sie für kategoriale Daten Chi-Quadrat für Unabhängigkeit oder Anpassungsgüte, einen Zwei-Proportionen-Test für zwei Gruppen oder McNemar für gepaarte Binärdaten. Wenn Normalität oder gleiche Varianz fehlschlagen, verwenden Sie Mann-Whitney, Kruskal-Wallis oder einen Vorzeichentest. Verwenden Sie zur Assoziation die Pearson- oder Spearman-Korrelation.",
+    "how": [
+      "Formulieren Sie die praktische Frage.",
+      "Identifizieren Sie den Antworttyp: kontinuierlich, binär, Anzahl oder ordinal.",
+      "Zählen Sie die Gruppen und bestimmen Sie, ob die Daten gepaart sind.",
+      "Überprüfen Sie Unabhängigkeit, Normalität und gleiche Varianz.",
+      "Wählen Sie den passenden Test oder eine robuste Alternative.",
+      "Führen Sie den Test durch und interpretieren Sie den p-Wert, das Konfidenzintervall und die Effektgröße.",
+      "Bestätigen Sie die Schlussfolgerung mit Diagrammen und Prozesswissen."
+    ],
+    "where": "Verwenden Sie die Testauswahl während der gesamten Analyse. Beispiel: Vergleichen Sie die Zufriedenheit auf einer Skala von 1 bis 5 in drei Kliniken mit Kruskal-Wallis. Vergleichen Sie die Fehlerraten vorher und nachher auf denselben Produktionslinien mit einem gepaarten Test oder McNemar, wenn das Ergebnis binär ist. Vergleichen Sie die mittlere Stärke von zwei Lieferanten mit einem T-Test bei zwei Stichproben.",
+    "when_not": "Verwenden Sie keinen T-Test für drei oder mehr Gruppen. Verwenden Sie Chi-Quadrat nicht mit sehr kleinen erwarteten Zahlen ohne einen genauen Test. Ignorieren Sie nicht ein paariges Design oder eine Abhängigkeit in den Daten.",
+    "common_mistakes": [
+      "Wählen Sie einen bekannten Test anstelle des Tests, der zum Design passt.",
+      "Ignorieren von Annahmen und Versäumnis, eine robuste Alternative zu nutzen.",
+      "Führen Sie viele Tests durch, ohne Anpassungen für mehrere Vergleiche vorzunehmen."
+    ],
+    "quick_check": [
+      {
+        "q": "Welcher Test vergleicht die Mittelwerte von drei oder mehr unabhängigen Gruppen?",
+        "answer": "Einfaktorielle ANOVA.",
+        "explanation": "ANOVA testet, ob sich mindestens ein Gruppenmittel unterscheidet."
+      },
+      {
+        "q": "Welcher Test vergleicht Vorher- und Nachher-Messungen an denselben Geräten?",
+        "answer": "Ein gepaarter T-Test.",
+        "explanation": "Das gepaarte Design berücksichtigt die Korrelation innerhalb jeder Einheit."
+      },
+      {
+        "q": "Welcher Test prüft die Unabhängigkeit zwischen zwei kategorialen Variablen?",
+        "answer": "Ein Chi-Quadrat-Test der Unabhängigkeit.",
+        "explanation": "Chi-Quadrat vergleicht beobachtete und erwartete Häufigkeiten in einer Kontingenztabelle."
+      }
+    ],
+    "recap": [
+      "Wählen Sie den Test aus Frage, Antworttyp, Gruppen und Paarung aus.",
+      "Überprüfen Sie Annahmen und nutzen Sie bei Bedarf robuste Alternativen.",
+      "Interpretieren Sie die Effektgröße und die praktische Bedeutung, nicht nur den p-Wert."
+    ]
+  },
+  "B1.6": {
+    "why": "T-Tests sind die Arbeitspferde für den Vergleich kontinuierlicher Mittelwerte, können aber leicht missbraucht werden. Design, Paarung und Annahmen müssen zur Frage passen.",
+    "what": "Ein T-Test bei einer Stichprobe vergleicht einen Mittelwert mit einem Ziel. Ein T-Test mit zwei Stichproben vergleicht Mittelwerte aus zwei unabhängigen Gruppen. Ein gepaarter T-Test vergleicht zwei Messungen an derselben Einheit und beseitigt Abweichungen von Einheit zu Einheit. Die Teststatistik ist die Differenz geteilt durch ihren Standardfehler. Das Ergebnis ist ein t-Wert, ein p-Wert und ein Konfidenzintervall. Verwenden Sie die Welch-Version, wenn die Abweichungen unterschiedlich sind. Geben Sie eine Effektgröße wie Cohens d an, nicht nur die Signifikanz.",
+    "how": [
+      "Geben Sie den Vergleich an und geben Sie an, ob die Gruppen unabhängig oder gepaart sind.",
+      "Zeichnen Sie die Daten grafisch auf und prüfen Sie sie auf Ausreißer.",
+      "Überprüfen Sie die ungefähre Normalität und für unabhängige Gruppen die gleiche Varianz.",
+      "Wählen Sie den Test mit einer Stichprobe, zwei Stichproben, dem Welch-Test oder dem gepaarten Test aus.",
+      "Führen Sie den Test durch und überprüfen Sie das Konfidenzintervall und die Effektgröße.",
+      "Interpretieren Sie das Ergebnis prozess- und praxisorientiert."
+    ],
+    "where": "Verwenden Sie T-Tests für Lieferantenvergleiche, Vorher-Nachher-Schulungen, Prozesse im Vergleich zu Zielen und gepaarte Messungen. Beispiel: Messen Sie die gleichen 12 Produktionslinien vor und nach einer Änderung und verwenden Sie einen gepaarten T-Test. Vergleichen Sie zwei unabhängige Lieferanten mit einem Zwei-Stichproben- oder Welch-Test. Vergleichen Sie den Mittelwert einer Linie mit einem Zielwert mit einem Test mit einer Stichprobe.",
+    "when_not": "Verwenden Sie keinen T-Test für drei oder mehr Gruppen. Verwenden Sie ANOVA. Verwenden Sie es nicht für ordinale Ergebnisse, stark abhängige Daten oder schwerwiegende Ausreißer ohne eine robuste Alternative. Behandeln Sie gepaarte Beobachtungen nicht als unabhängig.",
+    "common_mistakes": [
+      "Ignorieren der Paarung und Verwendung eines unabhängigen Gruppentests.",
+      "Durchführung mehrerer T-Tests anstelle der ANOVA für mehrere Gruppen.",
+      "Angabe eines p-Werts ohne die Größe der Differenz."
+    ],
+    "quick_check": [
+      {
+        "q": "Welcher T-Test vergleicht dieselben Einheiten vor und nach einer Änderung?",
+        "answer": "Der gepaarte t-Test.",
+        "explanation": "Durch die Paarung wird die Korrelation zwischen Messungen an derselben Einheit berücksichtigt."
+      },
+      {
+        "q": "Wann sollten Sie den Welch-T-Test verwenden?",
+        "answer": "Wenn zwei unabhängige Gruppen ungleiche Varianzen aufweisen.",
+        "explanation": "Der Welch-Test geht nicht von gleichen Populationsvarianzen aus."
+      },
+      {
+        "q": "Warum eine Effektgröße mit einem t-Test angeben?",
+        "answer": "Es zeigt, ob der Unterschied praktisch sinnvoll ist.",
+        "explanation": "Ein kleiner p-Wert kann bei großen Stichproben mit einem trivialen Unterschied einhergehen."
+      }
+    ],
+    "recap": [
+      "Passen Sie den T-Test an das Design an: eine Stichprobe, unabhängige Gruppen oder gepaart.",
+      "Überprüfen Sie die Annahmen und verwenden Sie den Welch-Test, wenn die Varianzen unterschiedlich sind.",
+      "Geben Sie das Konfidenzintervall und die Effektgröße an, nicht nur den p-Wert."
+    ]
+  },
+  "B1.7": {
+    "why": "ANOVA vergleicht drei oder mehr Gruppenmittelwerte und kontrolliert gleichzeitig die Falsch-Positiv-Rate. Es zeigt auch, ob Faktoren interagieren, die separate t-Tests übersehen würden.",
+    "what": "Die einfaktorielle ANOVA testet, ob sich mindestens ein Gruppenmittelwert unterscheidet, indem sie die Variation zwischen Gruppen mit der Variation innerhalb der Gruppe unter Verwendung einer F-Statistik vergleicht. Die zweifaktorielle ANOVA testet zwei Faktoren und deren Wechselwirkung. Ein signifikantes Ergebnis bedeutet, dass mindestens ein Mittelwert unterschiedlich ist. Daher können Folgetests wie Tukey ermitteln, welche Gruppen sich unterscheiden. ANOVA geht von unabhängigen Beobachtungen, annähernd normalen Residuen und gleichen Varianzen aus. Berichten Sie über die Effektgröße, z. B. das Eta-Quadrat, und überprüfen Sie die Residuendiagramme.",
+    "how": [
+      "Nennen Sie die Faktoren, Gruppen und Nullhypothesen.",
+      "Überprüfen Sie das Design, die Unabhängigkeit und die Gruppenstichprobengrößen.",
+      "Stellen Sie die Gruppen grafisch dar und prüfen Sie die Variabilität.",
+      "Montieren Sie das Einweg- oder Zwei-Wege-Modell.",
+      "Überprüfen Sie den F-Test, den p-Wert und die Interaktion.",
+      "Führen Sie Post-hoc-Vergleiche durch, wenn der Faktor signifikant ist.",
+      "Überprüfen Sie die Residuendiagramme und geben Sie die Effektgröße an."
+    ],
+    "where": "Verwenden Sie ANOVA, um Lieferanten, Maschinen, Schichten, Kliniken oder Regionen zu vergleichen. Beispiel: Vergleichen Sie die mittlere Zykluszeit von drei Lieferanten. Wenn der Gesamttest aussagekräftig ist, zeigen Tukey-Vergleiche, welche Lieferanten sich unterscheiden. Testen Sie in einer Zwei-Wege-Studie, ob Temperatur und Druck den Ertrag beeinflussen und ob ihre Wechselwirkung von Bedeutung ist.",
+    "when_not": "Verwenden Sie keine gewöhnliche ANOVA mit schwerwiegender Nichtnormalität oder ungleichen Varianzen. Verwenden Sie Welch ANOVA oder Kruskal-Wallis. Verwenden Sie es nicht für wiederholte Messungen an denselben Einheiten ohne ein Modell für wiederholte Messungen. Komplexe unausgeglichene Designs erfordern möglicherweise eine Regression oder ein allgemeines lineares Modell.",
+    "common_mistakes": [
+      "Ausführen mehrerer T-Tests anstelle einer ANOVA.",
+      "Ignorieren einer wichtigen Interaktion.",
+      "Stoppen beim p-Wert ohne Post-hoc- oder Effektgrößenanalyse."
+    ],
+    "quick_check": [
+      {
+        "q": "Was sagt Ihnen eine signifikante einfaktorielle ANOVA?",
+        "answer": "Mindestens ein Gruppenmittel unterscheidet sich, aber nicht welcher.",
+        "explanation": "Post-hoc-Vergleiche identifizieren die spezifischen Unterschiede."
+      },
+      {
+        "q": "Was ist eine Interaktion in der zweifaktoriellen ANOVA?",
+        "answer": "Die Wirkung eines Faktors hängt von der Höhe des anderen Faktors ab.",
+        "explanation": "Eine Interaktion bedeutet, dass die Faktoren nicht unabhängig voneinander wirken."
+      },
+      {
+        "q": "Welche Folgemethode kontrolliert Fehler beim Vergleich mehrerer Gruppenmittelwerte?",
+        "answer": "Tukeys ehrlich signifikanter Unterschiedstest.",
+        "explanation": "Tukey passt sich für mehrere paarweise Vergleiche an."
+      }
+    ],
+    "recap": [
+      "ANOVA vergleicht Mittelwerte über drei oder mehr Gruppen oder mehrere Faktoren.",
+      "Ein signifikantes Ergebnis erfordert eine Nachuntersuchung, um unterschiedliche Gruppen zu identifizieren.",
+      "Überprüfen Sie Residuen und interpretieren Sie Wechselwirkungen und Effektgrößen."
+    ]
+  },
+  "B1.8": {
+    "why": "Parametrische Tests können bei ordinalen Daten, kleinen Stichproben oder schwerwiegenden Ausreißern fehlschlagen. Nichtparametrische Tests liefern gültige Vergleiche, wenn ihre Annahmen angemessener sind.",
+    "what": "Nichtparametrische Tests verwenden Ränge statt roher Mittelwerte. Mann-Whitney vergleicht zwei unabhängige Gruppen, Wilcoxon-Signed-Rank vergleicht gepaarte Daten, Kruskal-Wallis vergleicht drei oder mehr unabhängige Gruppen und der Vorzeichentest vergleicht gepaarte Ergebnisse nach Richtung. Diese Tests sind robust gegenüber Ausreißern und Nichtnormalitäten, vergleichen jedoch normalerweise eher Verteilungen oder Mediane als Mittelwerte. Sie verlieren etwas an Aussagekraft, wenn die Annahmen der Normaltheorie tatsächlich gültig sind.",
+    "how": [
+      "Identifizieren Sie, warum die parametrische Annahme fehlschlägt.",
+      "Bestimmen Sie, ob das Design unabhängig oder gepaart ist und wie viele Gruppen vorhanden sind.",
+      "Wählen Sie den passenden rangbasierten Test.",
+      "Formulieren Sie die Hypothese in Form von Medianen oder Verteilungen.",
+      "Führen Sie den Test durch und überprüfen Sie den p-Wert und die Effektgröße.",
+      "Stellen Sie die Daten grafisch dar und interpretieren Sie das Ergebnis im Kontext."
+    ],
+    "where": "Verwenden Sie nichtparametrische Tests für Zufriedenheitswerte, verzerrte Wartezeiten, kleine Piloten, ordinale Umfragedaten und subjektive Bewertungen. Beispiel: Vergleichen Sie die Patientenzufriedenheit auf einer Skala von 1 bis 5 in drei Kliniken mit Kruskal-Wallis. Vergleichen Sie mit Mann-Whitney die unterschiedlichen Reparaturzeiten von zwei Depots.",
+    "when_not": "Verwenden Sie nichtparametrische Tests nicht automatisch für jeden Datensatz. Einige Tests gehen bei der Interpretation einer Standortverschiebung immer noch von ähnlichen Verteilungsformen aus. Komplexe Designs, Kovariaten und wiederholte Messungen erfordern möglicherweise ein verallgemeinertes Modell.",
+    "common_mistakes": [
+      "Ein nichtparametrisches Ergebnis als Mittelwertvergleich behandeln.",
+      "Bei der Interpretation des Ergebnisses wird die Verteilungsform ignoriert.",
+      "Angenommen, ein Rangtest rettet eine unzureichende Stichprobengröße."
+    ],
+    "quick_check": [
+      {
+        "q": "Welcher Test vergleicht zwei unabhängige Gruppen ohne Normalitätsannahme?",
+        "answer": "Der Mann-Whitney-Test.",
+        "explanation": "Es vergleicht eher Ränge als rohe Mittelwerte."
+      },
+      {
+        "q": "Welcher Test vergleicht drei oder mehr unabhängige Gruppen nichtparametrisch?",
+        "answer": "Der Kruskal-Wallis-Test.",
+        "explanation": "Es handelt sich um die rangbasierte Alternative zur einfaktoriellen ANOVA."
+      },
+      {
+        "q": "Welcher Test eignet sich für gepaarte Ordinaldaten?",
+        "answer": "Der Wilcoxon-Signed-Rang-Test.",
+        "explanation": "Es verwendet die Ränge gepaarter Differenzen."
+      }
+    ],
+    "recap": [
+      "Verwenden Sie rangbasierte Tests, wenn parametrische Annahmen nicht glaubwürdig sind.",
+      "Ordnen Sie den Test unabhängig bzw. gepaart und der Anzahl der Gruppen zu.",
+      "Interpretieren Sie Mediane oder Verteilungen, nicht Mittelwerte."
+    ]
+  },
+  "B1.9": {
+    "why": "Viele Verbesserungsfragen beziehen sich auf Kategorien wie Fehlertyp, Bestanden oder Nichtbestehen oder Kundensegment. Chi-Quadrat-Tests zeigen, ob Kategoriehäufigkeiten von den Erwartungen abweichen oder miteinander in Zusammenhang stehen.",
+    "what": "Ein Chi-Quadrat-Anpassungstest vergleicht beobachtete Zahlen mit erwarteten Zahlen aus einer hypothetischen Verteilung. Ein Chi-Quadrat-Unabhängigkeitstest prüft, ob zwei kategoriale Variablen in einer Kontingenztabelle verknüpft sind. Die statistischen Summen quadrieren die beobachteten minus erwarteten Unterschiede dividiert durch die erwarteten Zählungen. Verwenden Sie den exakten Fisher-Test für kleine 2x2-Tabellen. Cramers V fasst die Assoziationsstärke zusammen. Für gepaarte Binärdaten ist der McNemar-Test die richtige Wahl.",
+    "how": [
+      "Definieren Sie die Kategorien und erstellen Sie eine Häufigkeitstabelle.",
+      "Formulieren Sie die Hypothesen.",
+      "Überprüfen Sie die erwartete Anzahl, normalerweise mindestens fünf pro Zelle.",
+      "Führen Sie den Chi-Quadrat-Test oder eine exakte Alternative durch.",
+      "Untersuchen Sie standardisierte Residuen, um ungewöhnliche Zellen zu lokalisieren.",
+      "Geben Sie den p-Wert, die Effektgröße und das praktische Muster an."
+    ],
+    "where": "Verwenden Sie Chi-Quadrat-Tests für Fehlertypen nach Schicht, bestanden oder nicht bestanden nach Lieferant, Umfrageantworten nach Region und Einhaltung nach Abteilung. Beispiel: Testen Sie, ob die Fehlerkategorie mit der Produktionslinie verknüpft ist. Wenn das Ergebnis signifikant ist, zeigen die Residuen, welche Linie und Fehlerkategorie die Assoziation auslöst.",
+    "when_not": "Verwenden Sie für gepaarte Daten keine Chi-Quadrat-Unabhängigkeit. Verwenden Sie McNemar. Verlassen Sie sich nicht darauf, wenn die erwarteten Zahlen ohne einen genauen Test sehr gering sind. Vermeiden Sie es, Ordinalkategorien als ungeordnet zu behandeln, wenn eine Ordinalmethode verfügbar ist.",
+    "common_mistakes": [
+      "Verwendung eines Chi-Quadrat-Tests für gepaarte Vorher-Nachher-Daten.",
+      "Ignorieren kleiner erwarteter Zählungen.",
+      "Geltendmachung einer Schadensursache gegenüber einem Verein."
+    ],
+    "quick_check": [
+      {
+        "q": "Welcher Chi-Quadrat-Test prüft, ob zwei kategoriale Variablen verknüpft sind?",
+        "answer": "Der Test der Unabhängigkeit.",
+        "explanation": "Es vergleicht beobachtete und erwartete Zählungen in einer Kontingenztabelle."
+      },
+      {
+        "q": "Welcher Test eignet sich für gepaarte binäre Ergebnisse?",
+        "answer": "McNemars Test.",
+        "explanation": "McNemar erklärt die Paarung von Vorher- und Nachher-Antworten."
+      },
+      {
+        "q": "Was sollten Sie prüfen, bevor Sie einem Chi-Quadrat-Test vertrauen?",
+        "answer": "Dass die erwarteten Zahlen groß genug sind, oder einen genauen Test verwenden.",
+        "explanation": "Kleine erwartete Zählungen machen die Chi-Quadrat-Näherung unzuverlässig."
+      }
+    ],
+    "recap": [
+      "Chi-Quadrat-Tests vergleichen kategoriale Häufigkeiten oder Testassoziationen.",
+      "Überprüfen Sie die erwarteten Zählungen und verwenden Sie bei Bedarf genaue Tests.",
+      "Verwenden Sie Residuen und Effektgrößen, um das Muster zu erklären."
+    ]
+  },
+  "B2.1": {
+    "why": "Die Attributprüfung hängt von Entscheidungen durch Menschen oder Messgeräte ab. Wenn Gutachter mit sich selbst, untereinander oder mit der Norm nicht einverstanden sind, sind die Fehlerdaten unzuverlässig und die Schlussfolgerungen zur Verbesserung können falsch sein.",
+    "what": "Die Attributübereinstimmungsanalyse misst die Wiederholbarkeit innerhalb von Gutachtern, die Reproduzierbarkeit zwischen Gutachtern und die Genauigkeit gegenüber einem bekannten Standard. Kappa passt die Vereinbarung dem Zufall an. Werte über etwa 0,90 sind ausgezeichnet, 0,70 bis 0,90 sind für Entscheidungen mit geringerem Risiko akzeptabel und niedrigere Werte weisen auf ein Problem hin. Die prozentuale Übereinstimmung allein kann gut aussehen, selbst wenn die zufällige Übereinstimmung hoch ist. Verwenden Sie für ordinale Bewertungen einen gewichteten Kappa- oder Kendall-Koeffizienten.",
+    "how": [
+      "Definieren Sie das Merkmal und die Entscheidungsregel.",
+      "Wählen Sie 30 bis 50 Teile aus, die das gesamte Spektrum abdecken, einschließlich Grenzfällen.",
+      "Verwenden Sie zwei oder drei Gutachter und zwei oder drei Versuche.",
+      "Randomisieren und verblinden Sie die Proben und Versuche.",
+      "Geben Sie eine bekannte Standard- oder Expertenbewertung an.",
+      "Analysieren Sie die Übereinstimmung innerhalb der Gutachter, zwischen den Gutachtern und im Vergleich zum Standard.",
+      "Trainieren Sie erneut, klären Sie Definitionen oder verbessern Sie das Messgerät und wiederholen Sie dann die Studie."
+    ],
+    "where": "Verwenden Sie das Attribut MSA für visuelle Inspektion, Gut/Schlecht-Messungen, Fehlerklassifizierung, Dokumentenprüfung und klinische Diagnose. Beispiel: Drei Prüfer begutachten 30 Teile zweimal. Der Kappa innerhalb der Prüfer beträgt 0,95, der Kappa zwischen den Prüfern jedoch 0,55, was eher auf inkonsistente Definitionen als auf eine schlechte individuelle Wiederholbarkeit hinweist.",
+    "when_not": "Verwenden Sie die Attributübereinstimmungsanalyse nicht für kontinuierliche Messungen; Verwenden Sie eine Gage-R&R-Studie. Vertrauen Sie nicht auf Ergebnisse aus nicht repräsentativen Teilen oder einem fehlenden Standard. Kappa kann durch die Prävalenz beeinflusst werden. Interpretieren Sie es daher mit dem Studiendesign.",
+    "common_mistakes": [
+      "Verwendung zu weniger oder nicht repräsentativer Proben.",
+      "Angabe der prozentualen Übereinstimmung ohne Kappa.",
+      "Versäumnis, Gutachter zu verblinden oder Studien randomisiert durchzuführen."
+    ],
+    "quick_check": [
+      {
+        "q": "Was misst die Vereinbarung innerhalb des Gutachters?",
+        "answer": "Wiederholbarkeit oder ob ein Gutachter in allen Versuchen mit sich selbst übereinstimmt.",
+        "explanation": "Dieselbe Person bewertet dieselben Teile mehr als einmal."
+      },
+      {
+        "q": "Warum Kappa statt Prozentübereinstimmung verwenden?",
+        "answer": "Kappa passt sich der zufällig erwarteten Einigung an.",
+        "explanation": "Prozentuale Übereinstimmung kann die Konsistenz überbewerten."
+      },
+      {
+        "q": "Was lässt die Meinungsverschiedenheit zwischen den Gutachtern vermuten?",
+        "answer": "Inkonsistente Definitionen, Schulungen oder Messmethoden.",
+        "explanation": "Reproduzierbarkeitsprobleme erfordern in der Regel eine Standardisierung."
+      }
+    ],
+    "recap": [
+      "Die Attribut-MSA validiert Wiederholbarkeit, Reproduzierbarkeit und Genauigkeit.",
+      "Verwenden Sie repräsentative Teile, Verblindung, Randomisierung und einen Standard.",
+      "Interpretieren Sie Kappa und untersuchen Sie die Ursache der Meinungsverschiedenheit."
+    ]
+  },
+  "B2.2": {
+    "why": "Ein Kalibrierungsaufkleber macht eine Messung nicht exakt. Jede Messung ist mit Unsicherheiten behaftet, und Entscheidungen in der Nähe einer Spezifikationsgrenze können falsch sein, wenn diese Unsicherheit nicht verstanden wird.",
+    "what": "Bei der Kalibrierung wird ein Instrument mit einem rückverfolgbaren Standard verglichen und ein Bias und eine Korrektur ermittelt. Die Messunsicherheit ist der Bereich, in dem wahrscheinlich der wahre Wert enthalten ist. Zu den Quellen gehören Auflösung, Wiederholbarkeit, Reproduzierbarkeit, Bias, Linearität, Stabilität, Umgebung und der Referenzstandard. Die Linearität beschreibt, wie sich der Fehler im gesamten Bereich ändert. Ein Messunsicherheitsbudget kombiniert Standardunsicherheiten in Quadratur und multipliziert die erweiterte Unsicherheit mit einem Abdeckungsfaktor, oft zwei für eine Konfidenz von etwa 95 %.",
+    "how": [
+      "Definieren Sie die Messung und die Toleranz- oder Entscheidungsregel.",
+      "Listen Sie alle wichtigen Unsicherheitsquellen auf.",
+      "Quantifizieren Sie jede Quelle mit Daten oder Spezifikationen.",
+      "Kombinieren Sie Standardunsicherheiten und berechnen Sie die erweiterte Unsicherheit.",
+      "Vergleichen Sie die Unsicherheit mit der Toleranz und legen Sie bei Bedarf ein Schutzband fest.",
+      "Kalibrieren Sie nach einem risikobasierten Zeitplan und überwachen Sie die Abweichung.",
+      "Dokumentieren Sie die Rückverfolgbarkeit und überprüfen Sie sie nach Reparaturen oder Umgebungsveränderungen erneut."
+    ],
+    "where": "Nutzen Sie die Unsicherheitsanalyse für Messschieber, Waagen, Thermometer, Manometer, Labortests und klinische Geräte. Beispiel: Die Toleranz eines Teils beträgt plus oder minus 0,10 mm und die Messunsicherheit beträgt plus oder minus 0,02 mm. Akzeptieren Sie nur Teile innerhalb von plus oder minus 0,08 mm oder berücksichtigen Sie formell das Risiko einer falschen Annahme.",
+    "when_not": "Verwechseln Sie die Kalibrierung nicht mit einer Messgeräte-R&R-Studie. Bei der Kalibrierung geht es um die Rückverfolgbarkeit und die durchschnittliche Abweichung, während bei der Messgeräte-R&R die Variation berücksichtigt wird. Behandeln Sie ein kalibriertes Instrument nicht als exakt und ignorieren Sie nicht die Unsicherheit bei „Gut“ oder „Nicht bestanden“-Entscheidungen.",
+    "common_mistakes": [
+      "Kalibrierung wird mit perfekter Genauigkeit gleichgesetzt.",
+      "Ignorieren von Linearität, Drift und Umwelteinflüssen.",
+      "Konformitätsentscheidungen ohne Schutzband treffen."
+    ],
+    "quick_check": [
+      {
+        "q": "Was stellt die Kalibrierung fest?",
+        "answer": "Rückführbarkeit auf einen Standard und die Vorspannung oder Korrektur des Instruments.",
+        "explanation": "Bei der Kalibrierung wird der Gerätemesswert mit einer bekannten Referenz verknüpft."
+      },
+      {
+        "q": "Wie wird die erweiterte Unsicherheit berechnet?",
+        "answer": "Multiplizieren Sie die kombinierte Standardunsicherheit mit einem Erweiterungsfaktor, häufig zwei.",
+        "explanation": "Ein Faktor von zwei ergibt eine Abdeckung von etwa 95 % für eine Normalverteilung."
+      },
+      {
+        "q": "Warum ein Schutzband in der Nähe der Spezifikationsgrenzen verwenden?",
+        "answer": "Reduzierung des Risikos der Annahme eines Teils, das aufgrund von Messfehlern nicht den Spezifikationen entspricht.",
+        "explanation": "Das Schutzband hält unsichere Messungen vom Grenzwert fern."
+      }
+    ],
+    "recap": [
+      "Durch die Kalibrierung werden Rückverfolgbarkeit und Abweichung gewährleistet, nicht die Nullunsicherheit.",
+      "Erstellen Sie ein Unsicherheitsbudget und berechnen Sie die erweiterte Unsicherheit.",
+      "Verwenden Sie Schutzbänder, wenn die Messunsicherheit für die Entscheidung von wesentlicher Bedeutung ist."
+    ]
+  },
+  "B3.1": {
+    "why": "Prozesse haben in der Regel mehrere Treiber. Die multiple Regression schätzt den unabhängigen Effekt jedes Prädiktors unter Berücksichtigung der anderen und unterstützt die Vorhersage.",
+    "what": "Das Modell drückt eine kontinuierliche Antwort als Achsenabschnitt plus einen Koeffizienten für jeden Prädiktor plus Fehler aus. Ein Koeffizient ist die erwartete Änderung der Antwort für einen Anstieg dieses Prädiktors um eine Einheit, während die anderen konstant bleiben. Der Gesamt-F-Test fragt, ob das Modell die Variation über den Zufall hinaus erklärt, während einzelne T-Tests Koeffizienten bewerten. Das angepasste R-Quadrat bestraft unnötige Prädiktoren. Überprüfen Sie Linearität, Unabhängigkeit, normale Residuen, gleiche Varianz und Multikollinearität.",
+    "how": [
+      "Definieren Sie die Antwort- und Kandidatenprädiktoren anhand des Prozesswissens.",
+      "Zeichnen Sie Beziehungen auf und suchen Sie nach Anomalien.",
+      "Passen Sie das Modell an und überprüfen Sie den Gesamttest und die Koeffizienten.",
+      "Restdiagnostik und Multikollinearität prüfen.",
+      "Verfeinern Sie das Modell ohne Überanpassung.",
+      "Validieren Sie mit neuen oder zurückgehaltenen Daten.",
+      "Interpretieren Sie Koeffizienten und Intervalle in praktischen Einheiten."
+    ],
+    "where": "Verwenden Sie eine multiple Regression für Zykluszeit im Vergleich zu Personalbesetzung und Nachfrage, Ertrag im Vergleich zu Temperatur und Druck, Kosten im Vergleich zu Volumen und Produktmix oder Wartezeit im Vergleich zu Personalbesetzung und Ankünften. Beispiel: Ein Koeffizient von minus 0,8 Minuten pro zusätzlichem Mitarbeiter bedeutet, dass die durchschnittliche Wartezeit bei konstanter Nachfrage um 0,8 Minuten sinkt.",
+    "when_not": "Schließen Sie keine Kausalität aus Beobachtungsdaten ab. Extrapolieren Sie nicht über den beobachteten Bereich hinaus. Erzwingen Sie kein lineares Modell, wenn Krümmung oder Wechselwirkungen wichtig sind, und schließen Sie nicht viele korrelierte Prädiktoren ein, ohne das Modell zu überprüfen.",
+    "common_mistakes": [
+      "Ein hohes R-Quadrat wird als Kausalitätsbeweis betrachtet.",
+      "Restdiagnose und Validierung werden ignoriert.",
+      "Entfernen von Prädiktoren, die nur auf p-Werten basieren."
+    ],
+    "quick_check": [
+      {
+        "q": "Wie wird ein Regressionskoeffizient interpretiert?",
+        "answer": "Die Änderung der Reaktion pro Einheit ändert sich in diesem Prädiktor und hält andere konstant.",
+        "explanation": "Der Koeffizient ist ein angepasster Effekt."
+      },
+      {
+        "q": "Warum das angepasste R-Quadrat verwenden?",
+        "answer": "Es bestraft Prädiktoren, die das Modell nicht ausreichend verbessern.",
+        "explanation": "Das gewöhnliche R-Quadrat steigt immer, wenn Prädiktoren hinzugefügt werden."
+      },
+      {
+        "q": "Was sagt Ihnen der Gesamt-F-Test?",
+        "answer": "Ob das Modell als Ganzes ein erhebliches Maß an Variation erklärt.",
+        "explanation": "Es wird nicht gezeigt, welche einzelnen Prädiktoren wichtig sind."
+      }
+    ],
+    "recap": [
+      "Die multiple Regression schätzt angepasste Effekte und unterstützt die Vorhersage.",
+      "Überprüfen Sie Annahmen, Diagnosen und Validierungen.",
+      "Interpretieren Sie Koeffizienten im Kontext und nicht als automatische kausale Effekte."
+    ]
+  },
+  "B3.2": {
+    "why": "Binäre Ergebnisse wie „Bestanden“ oder „Nicht bestanden“, „Fehler“ oder „kein Fehler“ und „Abwanderung“ oder „Verbleiben“ können mit der gewöhnlichen linearen Regression nicht gut modelliert werden. Die logistische Regression modelliert die Wahrscheinlichkeit des Ereignisses.",
+    "what": "Die logistische Regression modelliert die Log-Odds eines Ereignisses als lineare Funktion von Prädiktoren. Ein Koeffizient wird durch Potenzierung in ein Quotenverhältnis umgewandelt. Ein Quotenverhältnis über eins bedeutet höhere Wahrscheinlichkeiten für das Ereignis bei einem Anstieg des Prädiktors um eine Einheit, während andere konstant bleiben. unter eins bedeutet niedrigere Quoten. Die vorhergesagten Wahrscheinlichkeiten liegen zwischen null und eins. Bewerten Sie die Modellanpassung anhand von Abweichung, AIC, Kalibrierung und Diskriminierung, beispielsweise im ROC-Bereich.",
+    "how": [
+      "Definieren Sie das Ereignis und kodieren Sie es als Eins versus Null.",
+      "Wählen Sie Prädiktoren mithilfe von Prozesswissen aus.",
+      "Passen Sie das Modell an und überprüfen Sie den Gesamttest und die Koeffizienten.",
+      "Konvertieren Sie Koeffizienten mit Konfidenzintervallen in Quotenverhältnisse.",
+      "Bewerten Sie Diskriminierung, Kalibrierung und Einflusspunkte.",
+      "Validieren Sie mit Holdout-Daten und wählen Sie einen Entscheidungsschwellenwert basierend auf den Kosten.",
+      "Kommunizieren Sie die Quotenverhältnisse sorgfältig."
+    ],
+    "where": "Verwenden Sie die logistische Regression für die Fehlerwahrscheinlichkeit nach Lieferant oder Schicht, Bestehen oder Nichtbestehen nach Schulungsmethode, Patientenwiederaufnahme, Kreditausfall, Mitarbeiterfluktuation und Kundenabwanderung. Beispiel: Ein Quotenverhältnis von 1,8 pro 10 Grad bedeutet eine um 80 % höhere Quote, nicht eine um 80 % höhere Wahrscheinlichkeit.",
+    "when_not": "Verwenden Sie keine lineare Regression für eine binäre Antwort. Stellen Sie ein Quotenverhältnis nicht als Risikoverhältnis dar, wenn das Ereignis häufig vorkommt. Seltene Ereignisse oder kleine Stichproben erfordern möglicherweise bestrafte oder exakte Methoden, und eine perfekte Trennung weist auf ein Designproblem hin.",
+    "common_mistakes": [
+      "Ein Odds Ratio als Wahrscheinlichkeit oder Risiko interpretieren.",
+      "Kalibrierung ignorieren und nur den ROC-Bereich verwenden.",
+      "Verwendung eines Standard-Grenzwerts von 0,5 ohne Berücksichtigung der Entscheidungskosten."
+    ],
+    "quick_check": [
+      {
+        "q": "Was bedeutet ein Quotenverhältnis größer als eins?",
+        "answer": "Höhere Wahrscheinlichkeit des Ereignisses, wenn der Prädiktor steigt.",
+        "explanation": "Der potenzierte Koeffizient vergleicht die Quoten für eine Änderung um eine Einheit."
+      },
+      {
+        "q": "Was sagt die logistische Regression voraus?",
+        "answer": "Die Wahrscheinlichkeit des binären Ereignisses.",
+        "explanation": "Das Log-Odds-Modell wird in eine Wahrscheinlichkeit zwischen Null und Eins umgewandelt."
+      },
+      {
+        "q": "Warum sollte sowohl die Kalibrierung als auch die Diskriminierung beurteilt werden?",
+        "answer": "Ein Modell kann Fälle gut einstufen, aber dennoch ungenaue Wahrscheinlichkeiten angeben.",
+        "explanation": "Bei der Kalibrierung wird überprüft, ob die vorhergesagten Wahrscheinlichkeiten mit den beobachteten Raten übereinstimmen."
+      }
+    ],
+    "recap": [
+      "Die logistische Regression modelliert binäre Ergebnisse durch Log-Odds.",
+      "Quotenverhältnisse beschreiben relative Chancen, keine Wahrscheinlichkeiten.",
+      "Überprüfen Sie Kalibrierungs-, Diskriminierungs-, Validierungs- und Entscheidungskosten."
+    ]
+  },
+  "B3.3": {
+    "why": "Eine Regression kann ein hohes R-Quadrat haben und dennoch Annahmen verletzen. Die Diagnose zeigt, ob das Modell vertrauenswürdig ist und wo es versagt.",
+    "what": "Residuen werden abzüglich angepasster Werte beobachtet. Ein Residuen-gegen-angepasstes Diagramm prüft die Linearität und die gleiche Varianz. Ein normales Wahrscheinlichkeitsdiagramm prüft die Restnormalität. Residuen versus Reihenfolge prüfen Unabhängigkeit, insbesondere für zeitlich geordnete Daten. Die Hebelwirkung misst, wie ungewöhnlich ein Prädiktorwert ist, während die Cook-Distanz den Einfluss auf das angepasste Modell misst. Bei einem Test auf mangelnde Anpassung werden wiederholte Beobachtungen verwendet, um eine unzureichende Modellform zu erkennen.",
+    "how": [
+      "Passen Sie das Modell an und untersuchen Sie die zusammenfassenden Statistiken.",
+      "Stellen Sie die Residuen im Vergleich zu den angepassten Werten und im Vergleich zur Reihenfolge dar.",
+      "Überprüfen Sie das normale Wahrscheinlichkeitsdiagramm.",
+      "Identifizieren Sie Punkte mit hoher Hebelwirkung und großem Einfluss.",
+      "Untersuchen Sie Muster und bestätigen Sie die Datenqualität, bevor Sie etwas ändern.",
+      "Fügen Sie Begriffe hinzu, transformieren Sie Variablen oder verwenden Sie je nach Bedarf robuste Methoden.",
+      "Überarbeiten und validieren Sie das überarbeitete Modell."
+    ],
+    "where": "Nutzen Sie die Diagnose für jede Regression, DOE-Analyse und jedes Vorhersagemodell. Beispiel: Ein trichterförmiges Residuendiagramm weist auf eine ungleiche Varianz hin. Ein geschwungenes Muster deutet auf einen fehlenden quadratischen Term hin. Ein Punkt mit einer großen Cook-Distanz sollte auf einen Datenfehler oder eine besondere Ursache überprüft werden.",
+    "when_not": "Löschen Sie Ausreißer nicht automatisch, nur um die Anpassung zu verbessern. Verlassen Sie sich bei sehr kleinen Proben nicht allein auf die Diagnostik. Zeitreihendaten erfordern explizite Autokorrelationsprüfungen und -methoden.",
+    "common_mistakes": [
+      "Ein Modell nur anhand des R-Quadrats beurteilen.",
+      "Restmuster ignorieren.",
+      "Hebelwirkung mit Einfluss verwechseln."
+    ],
+    "quick_check": [
+      {
+        "q": "Was lässt ein gekrümmtes Muster in Residuen gegenüber angepassten Werten vermuten?",
+        "answer": "Dem Modell fehlt die Krümmung oder ein nichtlinearer Term.",
+        "explanation": "Systematische Restmuster weisen auf mangelnde Passgenauigkeit hin."
+      },
+      {
+        "q": "Was misst Cooks Distanz?",
+        "answer": "Der Einfluss einer Beobachtung auf das angepasste Modell.",
+        "explanation": "Es kombiniert Hebelwirkung und Restgröße."
+      },
+      {
+        "q": "Warum Residuen gegen Beobachtungsreihenfolge darstellen?",
+        "answer": "Zur Prüfung auf Abhängigkeit oder Drift im Laufe der Zeit.",
+        "explanation": "Muster nach Reihenfolge deuten auf eine Autokorrelation hin."
+      }
+    ],
+    "recap": [
+      "Die Diagnostik testet die Annahmen, die der Regression zugrunde liegen.",
+      "Untersuchen Sie Einflusspunkte, bevor Sie das Modell ändern.",
+      "Verwenden Sie Restmuster, um eine bessere Modellform zu erreichen."
+    ]
+  },
+  "B3.4": {
+    "why": "Korrelierte Prädiktoren machen Koeffizienten instabil und schwer zu interpretieren. Eine sorgfältige Modellbildung führt zu einem einfacheren Modell, das sich eher verallgemeinern lässt.",
+    "what": "Multikollinearität tritt auf, wenn Prädiktoren stark korreliert sind. Varianzinflationsfaktoren über fünf sind besorgniserregend und über zehn schwerwiegend. Zu den Symptomen gehören große Standardfehler, instabile Koeffizienten und unerwartete Anzeichen. Zu den Abhilfemaßnahmen gehören das Entfernen oder Kombinieren von Prädiktoren, die Verwendung von Prozesswissen, die Zentrierung von Interaktionstermen, die Ridge-Regression oder Hauptkomponenten. Die Modellbildung bringt Erklärung, Vorhersage, Sparsamkeit und Validierung in Einklang.",
+    "how": [
+      "Klären Sie, ob das Ziel eine Erklärung oder eine Vorhersage ist.",
+      "Bildschirmprädiktoren mit Diagrammen und Korrelationsprüfungen.",
+      "Passen Sie ein Kandidatenmodell an und berechnen Sie VIFs.",
+      "Entfernen, kombinieren oder transformieren Sie korrelierte Prädiktoren mit einer Begründung.",
+      "Vergleichen Sie Modelle mit angepasstem oder vorhergesagtem R-Quadrat, AIC und Validierung.",
+      "Respektieren Sie die Hierarchie, wenn Interaktionen vorhanden sind.",
+      "Dokumentieren Sie das endgültige Modell und seine Einschränkungen."
+    ],
+    "where": "Nutzen Sie diese Methoden mit vielen Prozessvariablen, Umfragedaten, Finanzindikatoren und Sensordaten. Beispiel: Die Temperaturen der Ofenzone sind stark korreliert. Behalten Sie eine repräsentative Variable bei oder erstellen Sie eine zusammengesetzte Variable, anstatt zwei instabile Koeffizienten zu interpretieren.",
+    "when_not": "Verwenden Sie die schrittweise Auswahl nicht als Ersatz für Prozessdenken. Löschen Sie eine Variable nicht nur, weil ihr VIF hoch ist. Wenn das Ziel eine reine Vorhersage ist und das Modell auf neuen Daten stabil ist, kann Multikollinearität tolerierbar sein.",
+    "common_mistakes": [
+      "Instabile Koeffizienten als reale Effekte interpretieren.",
+      "Überanpassung eines komplexen Modells an Trainingsdaten.",
+      "Datenausbaggerung ohne Validierung."
+    ],
+    "quick_check": [
+      {
+        "q": "Welcher VIF-Wert weist häufig auf eine schwerwiegende Multikollinearität hin?",
+        "answer": "Über etwa zehn.",
+        "explanation": "Werte über fünf sind besorgniserregend und über zehn sind schwerwiegend."
+      },
+      {
+        "q": "Was passiert mit den Koeffizientenstandardfehlern bei Multikollinearität?",
+        "answer": "Sie nehmen zu, was die Schätzungen instabil macht.",
+        "explanation": "Korrelierte Prädiktoren erschweren die Schätzung einzelner Effekte."
+      },
+      {
+        "q": "Warum ein erstelltes Modell anhand neuer Daten validieren?",
+        "answer": "Um zu überprüfen, ob es verallgemeinert und nicht überpasst.",
+        "explanation": "Allein die Trainingsfitheit kann unnötige Komplexität belohnen."
+      }
+    ],
+    "recap": [
+      "Multikollinearität erhöht die Unsicherheit und destabilisiert Koeffizienten.",
+      "Nutzen Sie VIFs, Prozesskenntnisse und Sparsamkeit, um Modelle zu erstellen.",
+      "Validieren Sie das endgültige Modell, bevor Sie seinen Vorhersagen vertrauen."
+    ]
+  },
+  "B4.1": {
+    "why": "Durch das Ändern jeweils eines Faktors werden Interaktionen verpasst und Durchläufe werden verschwendet. Ein vollfaktorielles Experiment deckt die Haupteffekte und Wechselwirkungen auf strukturierte und effiziente Weise auf.",
+    "what": "Bei einem vollfaktoriellen Design wird jede Kombination von Faktorstufen getestet. Bei k Faktoren auf zwei Ebenen sind zwei Läufe pro k erforderlich. Haupteffekte messen die durchschnittliche Änderung der Reaktion, wenn ein Faktor von niedrig nach hoch wechselt. Wechselwirkungen treten auf, wenn die Wirkung eines Faktors vom Ausmaß eines anderen abhängt. Mittelpunkte erkennen Krümmungen und die Replikation liefert eine unabhängige Fehlerschätzung. Randomisierung schützt vor Ordnungseffekten.",
+    "how": [
+      "Definieren Sie Ziel, Reaktion, Faktoren, Ebenen und praktische Einschränkungen.",
+      "Wählen Sie das faktorielle Design und die Anzahl der Replikate.",
+      "Fügen Sie Mittelpunkte hinzu, wenn eine Krümmung möglich ist.",
+      "Randomisieren Sie die Ausführungsreihenfolge und zeichnen Sie jede Bedingung auf.",
+      "Führen Sie das Experiment durch und überprüfen Sie die Qualität der Antwortmessung.",
+      "Analysieren Sie mit ANOVA, Effektdiagrammen und Interaktionsdiagrammen.",
+      "Führen Sie Bestätigungsversuche mit den ausgewählten Einstellungen durch."
+    ],
+    "where": "Nutzen Sie die vollständige faktorielle DOE für Ertrag im Vergleich zu Temperatur und Zeit, Softwareleistung im Vergleich zu Konfigurationseinstellungen, Wartezeit im Vergleich zu Personal- und Planungsregeln sowie Formulierungsstudien. Beispiel: Drei Faktoren auf zwei Ebenen erfordern acht Läufe plus Mittelpunkte zur Prüfung auf Krümmung.",
+    "when_not": "Verwenden Sie keine vollständige Fakultät, wenn zu viele Faktoren für das Budget vorhanden sind. Bildschirm zuerst. Verwenden Sie es nicht für ein nichtlineares Optimum, ohne Antwortoberflächenpunkte hinzuzufügen. Schwer veränderbare Faktoren erfordern möglicherweise ein Split-Plot-Design.",
+    "common_mistakes": [
+      "Es wird immer nur ein Faktor nach dem anderen geändert und es fehlen Wechselwirkungen.",
+      "Fehler bei der Randomisierung oder Replikation.",
+      "Die Auswahl der Faktorbereiche ist zu eng, um Effekte sichtbar zu machen."
+    ],
+    "quick_check": [
+      {
+        "q": "Wie viele Durchläufe sind vor der Replikation einer zweistufigen Vollfaktorie mit vier Faktoren erforderlich?",
+        "answer": "Sechzehn Läufe.",
+        "explanation": "Zwei hoch vier ergibt sechzehn."
+      },
+      {
+        "q": "Was erkennen Mittelpunkte?",
+        "answer": "Krümmung der Reaktionsfläche.",
+        "explanation": "Ein Unterschied zwischen dem mittleren Mittelwert und dem faktoriellen Mittel lässt auf eine Krümmung schließen."
+      },
+      {
+        "q": "Warum die Laufreihenfolge zufällig festlegen?",
+        "answer": "Zum Schutz vor Zeittrends und nicht gemessenen Belästigungseinflüssen.",
+        "explanation": "Die Randomisierung verhindert, dass die Reihenfolge mit Faktoren verwechselt wird."
+      }
+    ],
+    "recap": [
+      "Vollfaktorielle Methoden schätzen die Haupteffekte und Wechselwirkungen effizient ab.",
+      "Verwenden Sie Replikation, Mittelpunkte und Randomisierung.",
+      "Bestätigen Sie die gewählten Einstellungen mit einem Folgelauf."
+    ]
+  },
+  "B4.2": {
+    "why": "Vollfaktorielle wachsen exponentiell, daher erfordert das Screening vieler Faktoren einen bewussten Bruchteil. Bruchfaktorielle Berechnungen identifizieren die wenigen entscheidenden Faktoren vor der Optimierung.",
+    "what": "Eine gebrochene Fakultät verwendet einen ausgewählten Bruchteil des gesamten Versuchsplans. Resolution III entwirft Alias-Haupteffekte mit Zwei-Faktor-Wechselwirkungen. Resolution IV entwirft klare Haupteffekte, aber auch Zwei-Faktor-Wechselwirkungen untereinander. Resolution V entwirft klare Haupteffekte und Zwei-Faktor-Wechselwirkungen. Aliasing bedeutet, dass Effekte nicht ohne zusätzliche Durchläufe getrennt werden können. Ein Foldover kann wichtige Effekte entaliasen, und Plackett-Burman-Designs sind für eine grobe Überprüfung nützlich.",
+    "how": [
+      "Listen Sie die Faktoren und plausiblen Wechselwirkungen auf.",
+      "Wählen Sie eine Auflösung basierend auf dem Aliasing-Risiko.",
+      "Erstellen Sie den Bruchentwurf und überprüfen Sie die Alias-Struktur.",
+      "Randomisieren Sie das Experiment und führen Sie es durch.",
+      "Analysieren Sie die Auswirkungen und identifizieren Sie die wenigen entscheidenden.",
+      "Verwenden Sie Folgeläufe oder einen Foldover, um Unklarheiten aufzulösen.",
+      "Übertragen Sie vielversprechende Faktoren in ein Design mit höherer Auflösung oder Optimierung."
+    ],
+    "where": "Verwenden Sie Bruchrechnungen, um sechs bis zwölf Faktoren in der Prozessentwicklung, Simulationsstudien und frühen Fertigungsversuchen zu überprüfen. Beispiel: Überprüfen Sie acht Faktoren in 16 Durchläufen mit Auflösung IV und untersuchen Sie dann die wichtigen Faktoren mit einer vollständigen Faktor- oder Antwortoberfläche.",
+    "when_not": "Verwenden Sie Auflösung III nicht, wenn Interaktionen wahrscheinlich und wichtig sind. Interpretieren Sie Alias-Effekte nicht so, als wären sie unabhängig. Screening-Designs sind keine Optimierungsdesigns.",
+    "common_mistakes": [
+      "Die Alias-Struktur wird ignoriert.",
+      "Für das Risiko eine zu niedrige Auflösung wählen.",
+      "Stoppen nach dem Screening ohne Bestätigung."
+    ],
+    "quick_check": [
+      {
+        "q": "Was bedeutet Beschluss IV?",
+        "answer": "Die Haupteffekte sind klar, aber die Zwei-Faktor-Wechselwirkungen sind miteinander verfälscht.",
+        "explanation": "Resolution IV schützt die Haupteffekte, aber nicht alle Wechselwirkungen."
+      },
+      {
+        "q": "Was ist Aliasing?",
+        "answer": "Zwei oder mehr Effekte, die in einem Entwurf nicht separat abgeschätzt werden können.",
+        "explanation": "Der Bruchteil des Designs führt zu verwirrenden Effekten."
+      },
+      {
+        "q": "Warum ein Foldover verwenden?",
+        "answer": "Um wichtige Effekte durch Hinzufügen ergänzender Läufe zu entaliasen.",
+        "explanation": "Ein Foldover trennt verwechselte Effekte."
+      }
+    ],
+    "recap": [
+      "Bruchfaktorielle Analysen prüfen viele Faktoren mit weniger Durchläufen.",
+      "Auflösung und Alias-Struktur bestimmen, was interpretiert werden kann.",
+      "Folgen Sie dem Screening mit Bestätigung oder Optimierung."
+    ]
+  },
+  "B4.3": {
+    "why": "Störende Variablen wie Schicht, Charge, Tag oder Bediener können wie Behandlungseffekte aussehen. Randomisierung und Blockierung schützen das Experiment vor diesen versteckten Einflüssen.",
+    "what": "Durch die Randomisierung wird die Laufreihenfolge zufällig zugewiesen, sodass nicht gemessene Trends nicht mit Faktoren übereinstimmen. Durch das Blockieren werden ähnliche Versuchseinheiten gruppiert, beispielsweise Läufe von einem Tag oder einer Charge. Bei einem randomisierten vollständigen Blockdesign wird jede Behandlung einmal pro Block durchgeführt. Die Analyse umfasst einen Blockterm, der Block-zu-Block-Variationen aus dem Fehler entfernt. Wenn Faktoren schwer zu ändern sind, kann ein Split-Plot-Design erforderlich sein, auch wenn es die Randomisierung einschränkt.",
+    "how": [
+      "Identifizieren Sie bekannte Störvariablen und praktische Einschränkungen.",
+      "Entscheiden Sie, ob Sie eine Split-Plot-Struktur blockieren oder verwenden möchten.",
+      "Randomisieren Sie die Behandlungsreihenfolge innerhalb jedes Blocks.",
+      "Führen Sie das Experiment durch und zeichnen Sie die Blockmitgliedschaft auf.",
+      "Blöcke in das statistische Modell einbeziehen.",
+      "Überprüfen Sie die Residuen und bestätigen Sie, dass sich die Blöcke wie erwartet verhalten haben.",
+      "Interpretieren Sie Behandlungseffekte nach Berücksichtigung von Blockaden."
+    ],
+    "where": "Nutzen Sie die Blockierung für mehrere Schichten, Maschinen, Chargen, Tabletts, Bediener, Tage oder Standorte. Beispiel: Führen Sie acht Behandlungen über zwei Tage durch. Blockieren Sie nach Tag, randomisieren Sie die acht Behandlungen innerhalb jedes Tages und beziehen Sie den Tag in das Modell ein.",
+    "when_not": "Blockieren Sie nicht eine Variable, die mit einem Faktor verwechselt wird. Erstellen Sie nicht so viele Blöcke, dass die Fehlerfreiheitsgrade zu klein werden. Analysieren Sie ein eingeschränktes Design nicht so, als wäre es vollständig randomisiert.",
+    "common_mistakes": [
+      "Überspringen der Randomisierung, da die Ausführungsreihenfolge praktisch erscheint.",
+      "Bekannte Blöcke werden bei der Analyse ignoriert.",
+      "Verwechslung einer Blockvariablen mit einem Behandlungsfaktor."
+    ],
+    "quick_check": [
+      {
+        "q": "Was ist der Zweck der Randomisierung?",
+        "answer": "Um zu verhindern, dass nicht gemessene Trends mit Behandlungen verwechselt werden.",
+        "explanation": "Die zufällige Reihenfolge verteilt störende Auswirkungen auf die Behandlungen."
+      },
+      {
+        "q": "Was ist ein randomisiertes vollständiges Blockdesign?",
+        "answer": "Ein Design, bei dem jede Behandlung einmal in jedem Block vorkommt.",
+        "explanation": "Blöcke sind homogene Gruppen und die Behandlungen werden innerhalb dieser Gruppen randomisiert."
+      },
+      {
+        "q": "Warum einen Blockterm in das Modell aufnehmen?",
+        "answer": "Um Block-zu-Block-Variationen aus der Fehlerschätzung zu entfernen.",
+        "explanation": "Dies verbessert die Präzision bei Behandlungsvergleichen."
+      }
+    ],
+    "recap": [
+      "Randomisieren, um vor unbekannten Reihenfolgeeffekten zu schützen.",
+      "Blockieren Sie bekannte Störvariablen, um die Präzision zu verbessern.",
+      "Analysieren Sie den Entwurf, den Sie tatsächlich ausgeführt haben."
+    ]
+  },
+  "B4.4": {
+    "why": "Beim Screening werden wichtige Faktoren ermittelt, die besten Einstellungen liegen jedoch häufig auf einer gekrümmten Reaktionsoberfläche. Reaktionsflächenmethoden modellieren die Krümmung und ermitteln ein Optimum.",
+    "what": "Die Antwortoberflächenmethodik passt ein Modell zweiter Ordnung mit linearen, Interaktions- und quadratischen Termen an. Zentrale Verbundkonstruktionen kombinieren Faktor- oder Bruchpunkte mit Axialpunkten und Mittelpunkten. Box-Behnken-Designs nutzen drei Ebenen und vermeiden extreme Eckkombinationen. Kontur- und Oberflächendiagramme zeigen die Form der Reaktion. Die Optimierung findet Einstellungen, die einem Ziel entsprechen oder die Reaktion unter Berücksichtigung von Einschränkungen maximieren oder minimieren.",
+    "how": [
+      "Bestätigen Sie die wichtigen Faktoren aus dem Screening.",
+      "Definieren Sie die Reaktion, Einschränkungen und den akzeptablen Bereich.",
+      "Wählen Sie ein zentrales Verbund- oder Box-Behnken-Design.",
+      "Randomisieren Sie das Experiment und führen Sie es durch.",
+      "Passen Sie das quadratische Modell an und prüfen Sie, ob es passt.",
+      "Verwenden Sie Konturdiagramme und einen Optimierer, um Einstellungen auszuwählen.",
+      "Führen Sie Bestätigungsversuche durch und überprüfen Sie die Robustheit."
+    ],
+    "where": "Verwenden Sie Reaktionsoberflächenmethoden für Ausbeute im Vergleich zu Temperatur und Zeit, Formulierungsoptimierung, Zykluszeit im Vergleich zu Einstellungen und Leistungsoptimierung. Beispiel: Verwenden Sie nach dem Screening von Temperatur, Druck und Katalysator ein zentrales Verbunddesign, um die Kombination zu finden, die die Ausbeute maximiert.",
+    "when_not": "Verwenden Sie keine Response-Surface-Methoden, bevor Sie viele Faktoren überprüft haben. Extrapolieren Sie nicht außerhalb des experimentellen Bereichs. Optimieren Sie einen Mittelwert nicht, ohne Variation und Einschränkungen zu berücksichtigen.",
+    "common_mistakes": [
+      "Anpassen eines quadratischen Modells ohne genügend Designpunkte.",
+      "Extrapolation über den untersuchten Bereich hinaus.",
+      "Bestätigungsläufe werden übersprungen."
+    ],
+    "quick_check": [
+      {
+        "q": "Welche Begriffe unterscheiden ein Antwortoberflächenmodell von einem Modell erster Ordnung?",
+        "answer": "Quadratische Begriffe und Interaktionen, die Krümmungen erfassen.",
+        "explanation": "Terme zweiter Ordnung ermöglichen ein Optimum innerhalb des Designraums."
+      },
+      {
+        "q": "Was ist ein zentrales Verbunddesign?",
+        "answer": "Ein faktorielles oder gebrochenes Design, ergänzt durch Axial- und Mittelpunkte.",
+        "explanation": "Die hinzugefügten Punkte unterstützen die Schätzung quadratischer Terme."
+      },
+      {
+        "q": "Warum Bestätigungstests durchführen?",
+        "answer": "Um zu überprüfen, ob die vorhergesagten optimalen Einstellungen wie erwartet funktionieren.",
+        "explanation": "Modelle sind Näherungswerte und müssen in der Praxis überprüft werden."
+      }
+    ],
+    "recap": [
+      "Reaktionsflächenmethoden modellieren die Krümmung und optimieren Einstellungen.",
+      "Verwenden Sie zentrale Verbund- oder Box-Behnken-Designs mit ausreichend Punkten.",
+      "Bestätigen Sie die vorhergesagten Einstellungen und bleiben Sie innerhalb des untersuchten Bereichs."
+    ]
+  },
+  "B4.5": {
+    "why": "Ein Prozess, der nur unter idealen Bedingungen gut funktioniert, ist fragil. Das robuste Design findet Einstellungen, die die Leistung trotz unvermeidbarer Geräusche stabil halten.",
+    "what": "Robustes Design trennt Kontrollfaktoren, die das Team festlegen kann, von Rauschfaktoren, die schwer oder teuer zu kontrollieren sind. Taguchi-Methoden verwenden orthogonale Arrays und Signal-Rausch-Verhältnisse für die Antworten „größer ist besser“, „kleiner ist besser“ oder „nominal ist am besten“. Innere und äußere Arrays kombinieren Kontroll- und Geräuschbedingungen. Die Qualitätsverlustfunktion drückt die Kosten einer Abweichung vom Ziel aus. Moderne robuste Optimierungsmodelle sowohl für Mittelwert als auch für Varianz.",
+    "how": [
+      "Definieren Sie die ideale Reaktion und die Kosten einer Abweichung.",
+      "Identifizieren Sie Kontrollfaktoren und wichtige Lärmfaktoren.",
+      "Wählen Sie eine experimentelle Array- und Rauschstrategie.",
+      "Führen Sie das Experiment unter Lärmbedingungen durch.",
+      "Analysieren Sie die mittlere Reaktion und das Signal-Rausch-Verhältnis.",
+      "Wählen Sie Einstellungen mit starker Leistung und geringer Empfindlichkeit.",
+      "Bestätigen Sie die Robustheit bei realistischem Rauschen."
+    ],
+    "where": "Verwenden Sie ein robustes Design für Fertigungstoleranzen, Materialschwankungen, Umgebungsbedingungen, Lieferantenunterschiede und Kundennutzung. Beispiel: Wählen Sie ein Rezept, das trotz normaler Ofentemperaturschwankungen Geschmack und Textur behält.",
+    "when_not": "Verwenden Sie Signal-Rausch-Verhältnisse nicht mechanisch, ohne die Reaktion zu verstehen. Ignorieren Sie Wechselwirkungen nicht und behandeln Sie Lärmfaktoren nicht als Kontrollfaktoren. Robustes Design ergänzt die Variationsreduzierung und Prozesskontrolle, ersetzt sie jedoch nicht.",
+    "common_mistakes": [
+      "Optimieren Sie nur den Mittelwert und ignorieren Sie die Variation.",
+      "Verwechslung von Lärmfaktoren mit Kontrollfaktoren.",
+      "Die Leistung unter Lärm konnte nicht bestätigt werden."
+    ],
+    "quick_check": [
+      {
+        "q": "Was ist ein Lärmfaktor?",
+        "answer": "Eine Variable, die die Reaktion beeinflusst, aber schwer oder teuer zu kontrollieren ist.",
+        "explanation": "Robustes Design reduziert die Empfindlichkeit gegenüber solchen Faktoren."
+      },
+      {
+        "q": "Was fasst ein Signal-Rausch-Verhältnis zusammen?",
+        "answer": "Leistung im Verhältnis zur Variation für ein ausgewähltes Qualitätsmerkmal.",
+        "explanation": "Es gelten unterschiedliche Formeln für „größer ist besser“, „kleiner ist besser“ und „nominal ist am besten“."
+      },
+      {
+        "q": "Was ist das Ziel des robusten Designs?",
+        "answer": "Um eine stabile Leistung bei allen Lärmbedingungen zu erreichen.",
+        "explanation": "Die besten Einstellungen reagieren unempfindlich auf unvermeidbare Schwankungen."
+      }
+    ],
+    "recap": [
+      "Robustes Design reduziert die Empfindlichkeit gegenüber Lärmfaktoren.",
+      "Setzen Sie Kontroll- und Lärmfaktoren bewusst ein.",
+      "Bestätigen Sie, dass die ausgewählten Einstellungen bei realistischen Abweichungen funktionieren."
+    ]
+  },
+  "B5.1": {
+    "why": "Herkömmliche Shewhart-Diagramme erkennen große Veränderungen gut, sind jedoch bei kleinen, anhaltenden Veränderungen langsam. Erweiterte Diagramme verbessern die Empfindlichkeit für Prozesse mit geringer Fehlerquote, hoher Leistungsfähigkeit oder multivariaten Prozessen.",
+    "what": "CUSUM-Diagramme akkumulieren Abweichungen von einem Ziel und erkennen kleine anhaltende Verschiebungen. EWMA-Diagramme verwenden einen gewichteten Durchschnitt, der den jüngsten Beobachtungen mehr Einfluss verleiht und auf kleine Verschiebungen abgestimmt werden kann. Multivariate Diagramme wie das T-Quadrat von Hotelling und MEWMA überwachen mehrere korrelierte Merkmale zusammen. Kontrollgrenzen basieren auf dem Basisprozess und die durchschnittliche Lauflänge beschreibt, wie schnell ein Diagramm Signale ausgibt. Diese Diagramme gehen im Allgemeinen von unabhängigen Beobachtungen aus.",
+    "how": [
+      "Definieren Sie das Merkmal, das Ziel und die rationale Untergruppe.",
+      "Stellen Sie eine stabile Phase-I-Basislinie her.",
+      "Überprüfen Sie die Verteilung und Autokorrelation.",
+      "Wählen Sie ein Diagramm basierend auf Schichtgröße, Datenrate und Abmessungen aus.",
+      "Legen Sie Diagrammparameter und -grenzen fest.",
+      "Überwachen Sie Phase-II-Daten und untersuchen Sie Signale umgehend.",
+      "Aktualisieren Sie Grenzwerte nur nach einer verifizierten dauerhaften Prozessänderung."
+    ],
+    "where": "Nutzen Sie fortschrittliches SPC in Halbleiter-, Chemie-, Pharma-, IT-Latenz-, Callcenter- und Gesundheitsprozessen. Beispiel: Ein EWMA-Diagramm mit einer Glättungskonstante von 0,2 erkennt eine Ein-Sigma-Verschiebung schneller als ein Shewhart-Diagramm. Ein CUSUM mit Referenzwert 0,5 und Entscheidungsintervall 5 ist auf kleine Verschiebungen abgestimmt.",
+    "when_not": "Wenden Sie keine Kontrollgrenzen an, bevor der Prozess stabil ist. Verwenden Sie keine Standardgrenzen für stark autokorrelierte Daten ohne Anpassung. Multivariate Diagramme erfordern eine angemessene Basislinie und eine sorgfältige Interpretation der Signale.",
+    "common_mistakes": [
+      "Für kleine, anhaltende Veränderungen wird nur ein Shewhart-Diagramm verwendet.",
+      "Autokorrelation wird ignoriert.",
+      "Spezifikationsgrenzen als Kontrollgrenzen behandeln."
+    ],
+    "quick_check": [
+      {
+        "q": "Welches Diagramm akkumuliert Abweichungen vom Ziel, um kleine Verschiebungen zu erkennen?",
+        "answer": "Das CUSUM-Diagramm.",
+        "explanation": "Es summiert Abweichungen über die Zeit und signalisiert anhaltende Abweichungen."
+      },
+      {
+        "q": "Was steuert die EWMA-Glättungskonstante?",
+        "answer": "Welches Gewicht erhalten aktuelle Beobachtungen?",
+        "explanation": "Kleinere Werte betonen den Verlauf und erkennen kleinere Verschiebungen."
+      },
+      {
+        "q": "Wann sind multivariate Diagramme sinnvoll?",
+        "answer": "Wenn mehrere korrelierte Merkmale gemeinsam überwacht werden müssen.",
+        "explanation": "Sie erkennen kombinierte Verschiebungen, die in einzelnen Diagrammen möglicherweise übersehen werden."
+      }
+    ],
+    "recap": [
+      "Erweiterte Diagramme zielen auf kleine Verschiebungen, Abweichungen oder mehrere Merkmale ab.",
+      "Stellen Sie eine stabile Basis her und überprüfen Sie die Unabhängigkeit.",
+      "Untersuchen Sie Signale und aktualisieren Sie Grenzwerte erst nach einer tatsächlichen Änderung."
+    ]
+  },
+  "B5.2": {
+    "why": "Cp und Cpk gehen von einem stabilen, normalen Prozess aus. Die Anwendung auf verzerrte, begrenzte oder Zähldaten kann Fehlerraten und Verbesserungsprioritäten stark verfälschen.",
+    "what": "Die nicht normale Fähigkeit beginnt mit einer Stabilitätsprüfung und einer Verteilungsprüfung. Zu den Optionen gehören die Transformation der Daten, etwa mit einer Box-Cox-, Log- oder Quadratwurzeltransformation, oder die Anpassung einer geeigneten Verteilung, etwa Lognormal, Weibull oder Gamma. Die Leistungsfähigkeit wird dann anhand des angepassten Modells berechnet und als erwartete, außerhalb der Spezifikation liegende Teile pro Million ausgedrückt. Melden Sie das Modell und validieren Sie es, da eine schlechte Anpassung zu irreführenden Fähigkeiten führt.",
+    "how": [
+      "Bestätigen Sie, dass der Prozess stabil ist.",
+      "Stellen Sie die Daten grafisch dar und testen Sie die Normalität.",
+      "Wählen Sie basierend auf den Daten und dem Prozess eine Transformation oder angepasste Verteilung.",
+      "Passgenauigkeit prüfen.",
+      "Berechnen Sie die erwartete Rate und Fähigkeit außerhalb der Spezifikation.",
+      "Vergleichen Sie die Ergebnisse mit der Spezifikation und überwachen Sie sie im Laufe der Zeit.",
+      "Übersetzen Sie das Ergebnis zur Kommunikation zurück in die Originaleinheiten."
+    ],
+    "where": "Verwenden Sie nicht normale Funktionen für Zykluszeiten, Wartezeiten, Konzentrationen, Zuverlässigkeitslebensdauer, Fehleranzahl und Partikelanzahl. Beispiel: Die Wartezeit des Patienten ist stark nach rechts verzerrt. Passen Sie eine logarithmische Normalverteilung an und geben Sie anstelle eines normalen Cpk den erwarteten Prozentsatz über dem Service-Level-Ziel an.",
+    "when_not": "Berechnen Sie die Leistungsfähigkeit nicht für einen instabilen Prozess. Erzwingen Sie kein normales Modell und verwenden Sie keine Transformation, ohne die Anpassung zu überprüfen. Kontrollgrenzen nicht mit Spezifikationsgrenzen verwechseln.",
+    "common_mistakes": [
+      "Meldung normaler Cpk für verzerrte Daten.",
+      "Daten transformieren, ohne das Modell zu validieren.",
+      "Ignorieren Sie die Stabilität, bevor Sie die Leistungsfähigkeit berechnen."
+    ],
+    "quick_check": [
+      {
+        "q": "Warum kann der normale Cpk bei verzerrten Daten irreführend sein?",
+        "answer": "Es schätzt Tail-Wahrscheinlichkeiten mithilfe einer symmetrischen Verteilung.",
+        "explanation": "Der tatsächliche Schwanz kann viel größer oder kleiner sein als die normale Schätzung."
+      },
+      {
+        "q": "Was sollten Sie vor einer Fähigkeitsberechnung prüfen?",
+        "answer": "Prozessstabilität und Verteilungsfit.",
+        "explanation": "Fähigkeit ist nur für einen stabilen, angemessen modellierten Prozess von Bedeutung."
+      },
+      {
+        "q": "Was drückt ein erwarteter PPM-Wert aus?",
+        "answer": "Die vorhergesagte Anzahl von außerhalb der Spezifikation liegenden Einheiten pro Million.",
+        "explanation": "Es übersetzt die Fähigkeit in eine Fehlerquote."
+      }
+    ],
+    "recap": [
+      "Leistungsfähigkeit erfordert Stabilität und eine geeignete Verteilung.",
+      "Transformieren oder passen Sie ein nicht normales Modell an und validieren Sie es.",
+      "Berichten Sie in praktischer Hinsicht über erwartete Abweichungen von der Spezifikation."
+    ]
+  },
+  "B5.3": {
+    "why": "Herkömmliche Regelkarten benötigen eine umfangreiche Basislinie, die bei kleinen Auflagen und bei der Produktion mit hohem Mix nicht gegeben ist. Kurzzeit-SPC ermöglicht die Überwachung mit begrenzten Daten.",
+    "what": "Kurzfristige SPC standardisiert Beobachtungen in Bezug auf das Ziel und die kurzfristige Variation jedes Teils oder Produkts. Ein standardisiertes Diagramm zeichnet Z-ähnliche Werte auf, sodass verschiedene Teile ein Diagramm gemeinsam nutzen können. Ziel- oder Sollabweichungsdiagramme stellen die Abweichung vom Ziel dar. Gruppendiagramme fassen ähnliche Teile zu einer Familie zusammen. Grenzwerte können auf kurzen Basislinien oder exakten Methoden für kleine Stichproben basieren. Der Ansatz darf keine unterschiedlichen Prozesse bündeln.",
+    "how": [
+      "Definieren Sie Teilefamilien mit ähnlichen Prozessen und Variationen.",
+      "Legen Sie für jeden Teil ein Ziel und eine kurze Grundlinie fest.",
+      "Standardisieren Sie Beobachtungen mithilfe des Teilmittelwerts und der Standardabweichung.",
+      "Wählen Sie ein Standard-, Ziel- oder Gruppendiagramm.",
+      "Legen Sie Grenzwerte fest und überwachen Sie die normierten Werte.",
+      "Untersuchen Sie Signale und trennen Sie Setup-Änderungen von Prozessverschiebungen.",
+      "Aktualisieren Sie die Baselines, wenn sich der Prozess dauerhaft ändert."
+    ],
+    "where": "Nutzen Sie Kleinserien-SPC in Lohnfertigungsbetrieben, in der Produktion von High-Mix-Kleinserien, bei kundenspezifischen Produkten, in pharmazeutischen Chargenbetrieben und bei Prozessen für Serviceanfragen. Beispiel: Fünf benutzerdefinierte Teile mit jeweils zehn Durchläufen können innerhalb eines Teils standardisiert und in einem Diagramm dargestellt werden.",
+    "when_not": "Bündeln Sie keine Produkte mit grundlegend unterschiedlichen Prozessen. Verwenden Sie keine Standard-X-Balken- und R-Karten mit zu wenigen Untergruppen. Kalibrieren Sie die Grenzwerte nicht neu, nur um eine Verschiebung zu verbergen.",
+    "common_mistakes": [
+      "Verwendung einer unzureichenden Basislinie.",
+      "Ungleiche Produkte zu einer Gruppe zusammenfassen.",
+      "Spezifikationsgrenzen als Kontrollgrenzen behandeln."
+    ],
+    "quick_check": [
+      {
+        "q": "Was ist die Schlüsselidee hinter einem standardisierten kurzfristigen Diagramm?",
+        "answer": "Transformieren Sie jede Beobachtung relativ zu ihrem teilespezifischen Ziel und ihrer Variation.",
+        "explanation": "Standardisierte Werte können über kurze Läufe hinweg grafisch dargestellt werden."
+      },
+      {
+        "q": "Was ist ein Zieldiagramm?",
+        "answer": "Ein Diagramm der Abweichungen von einem nominalen Ziel.",
+        "explanation": "Es konzentriert sich darauf, wie weit jedes Ergebnis vom beabsichtigten Wert entfernt ist."
+      },
+      {
+        "q": "Warum müssen Teilfamilien ähnlich sein?",
+        "answer": "Durch die Bündelung unterschiedlicher Prozesse entstehen irreführende Variationen und Grenzen.",
+        "explanation": "Das Diagramm geht von einer gemeinsamen zugrunde liegenden Variationsstruktur aus."
+      }
+    ],
+    "recap": [
+      "Kurzfristige SPC standardisiert oder zielt auf Daten ab, um begrenzte Basislinien zu bewältigen.",
+      "Gruppieren Sie nur ähnliche Produkte und Prozesse.",
+      "Unterscheiden Sie Setup-Änderungen von echten Prozessänderungen."
+    ]
+  },
+  "B6.1": {
+    "why": "Lean und Six Sigma lösen verschiedene Teile desselben Problems. Lean beseitigt Verschwendung und verbessert den Ablauf, während Six Sigma Abweichungen und Fehler reduziert. Ihre Integration vermeidet Geschwindigkeit ohne Qualität oder Statistiken ohne Fluss.",
+    "what": "Lean konzentriert sich auf den Wert, den Wertstrom, den Fluss, die Anziehungskraft und die Perfektion. Es greift die acht Verschwendungen an: Transport, Inventar, Bewegung, Warten, Überproduktion, Überverarbeitung, Mängel und ungenutzte Talente. Six Sigma verwendet DMAIC und statistische Methoden, um Variationen zu reduzieren. Eine integrierte Strategie nutzt Lean, um Verschwendung aufzudecken und den Fluss zu stabilisieren, dann Six Sigma, um hartnäckige Abweichungen zu lösen, und gilt sowohl für die Projektauswahl als auch für die Aufrechterhaltung.",
+    "how": [
+      "Ordnen Sie den Wertstrom zu und identifizieren Sie Verschwendung und Abweichungen.",
+      "Quantifizieren Sie die geschäftlichen Auswirkungen beider.",
+      "Priorisieren Sie Projekte, die den Ablauf und die Qualität verbessern.",
+      "Wenden Sie Lean-Tools für offensichtliche Verschwendung und Six Sigma für komplexe Variationen an.",
+      "Messen Sie gemeinsam Durchlaufzeit, Fehlerrate und Leistungsfähigkeit.",
+      "Beziehen Sie die Menschen mit ein, die die Arbeit erledigen.",
+      "Standardisieren und überwachen Sie den verbesserten Prozess."
+    ],
+    "where": "Nutzen Sie integriertes Lean Six Sigma für den Patientenfluss im Gesundheitswesen, die Fertigungsvorlaufzeit, Bankgenehmigungen, die Auftragsabwicklung und den Servicebetrieb. Beispiel: Eine Notaufnahme nutzt die Wertstromanalyse, um Wartezeiten zu verkürzen, und SPC, um Schwankungen in der Labordurchlaufzeit zu reduzieren.",
+    "when_not": "Verwenden Sie keine komplexen Statistiken, um offensichtliche Verschwendung zu beheben. Führen Sie keine Lean-Ereignisse aus, die Fehlervariationen ignorieren. Setzen Sie keine Tools ein, ohne dass ein klar definiertes Problem und ein klar definierter Kundenbedarf vorliegen.",
+    "common_mistakes": [
+      "Lean und Six Sigma als konkurrierende Programme behandeln.",
+      "Optimierung lokaler Schritte statt des gesamten Ablaufs.",
+      "Laufveranstaltungen ohne Nachhaltigkeit oder Messung."
+    ],
+    "quick_check": [
+      {
+        "q": "Was ist der Hauptschwerpunkt von Lean?",
+        "answer": "Abfall entfernen und den Fluss verbessern.",
+        "explanation": "Lean erhöht die Geschwindigkeit und reduziert nicht wertschöpfende Arbeit."
+      },
+      {
+        "q": "Was ist der Hauptschwerpunkt von Six Sigma?",
+        "answer": "Reduzierung von Abweichungen und Fehlern mithilfe von Daten und Statistiken.",
+        "explanation": "Six Sigma verbessert Konsistenz und Leistungsfähigkeit."
+      },
+      {
+        "q": "Warum Lean und Six Sigma integrieren?",
+        "answer": "Geschwindigkeit und Qualität verbessern, ohne das eine gegen das andere einzutauschen.",
+        "explanation": "Der Fluss macht Variationen sichtbar, und die Variationsreduzierung hält den Fluss aufrecht."
+      }
+    ],
+    "recap": [
+      "Lean verbessert den Fluss; Six Sigma verbessert die Konsistenz.",
+      "Integrieren Sie die Tools rund um den Kunden und den Wertstrom.",
+      "Messen Sie sowohl die Durchlaufzeit als auch die Qualität und sichern Sie sich dann den Gewinn."
+    ]
+  },
+  "B6.2": {
+    "why": "Lokale Verbesserungen können scheitern, wenn der gesamte Prozess langsam bleibt. Die Wertstromzuordnung zeigt den End-to-End-Prozess, einschließlich Wartezeiten und Informationsverzögerungen, die bei der Analyse auf Schrittebene übersehen werden.",
+    "what": "Eine Wertstromkarte zeigt den Kunden, Lieferanten, Prozessboxen, den Bestand, den Informationsfluss und eine Durchlaufzeitleiter an. Es trennt wertschöpfende von nicht wertschöpfender Zeit. Die Taktzeit bestimmt das Tempo der Kundennachfrage. Zu den Prozessmetriken gehören Zykluszeit, Betriebszeit, Fertigstellungsgrad und Genauigkeit sowie Chargengröße. Die Karte des aktuellen Zustands macht Verschwendung sichtbar, und die Karte des zukünftigen Zustands definiert einen besseren Fluss mit Eigentümern und Aktionen.",
+    "how": [
+      "Wählen Sie eine Produkt- oder Servicefamilie mit ähnlichem Ablauf aus.",
+      "Beobachten Sie den tatsächlichen Prozess und dokumentieren Sie den Informations- und Materialfluss.",
+      "Zeichnen Sie die Ist-Zustandskarte mit Inventar und Wartezeiten.",
+      "Sammeln Sie Zykluszeit-, Betriebszeit-, Qualitäts- und Nachfragedaten.",
+      "Berechnen Sie Durchlaufzeit, Taktzeit und Wertschöpfungsquote.",
+      "Entwerfen Sie den zukünftigen Zustand und markieren Sie Kaizen-Möglichkeiten.",
+      "Erstellen Sie einen Umsetzungsplan mit Eigentümern und Terminen."
+    ],
+    "where": "Nutzen Sie die Wertstromanalyse in der Fertigung, im Gesundheitswesen, bei der Kreditbearbeitung, bei der Softwarebereitstellung und bei der Auftragsabwicklung. Beispiel: Eine Karte mit dem aktuellen Stand zeigt eine Vorlaufzeit von 12 Tagen, aber nur 45 Minuten wertschöpfende Arbeit, was das Warten als die dominierende Chance erkennen lässt.",
+    "when_not": "Ordnen Sie nicht jede Produktfamilie auf einmal zu. Erstellen Sie keine Karte, die nie verwendet wird. Ignorieren Sie nicht den Informationsfluss und gehen Sie nicht aus einem Konferenzraum heraus, ohne die Arbeit zu beobachten.",
+    "common_mistakes": [
+      "Kartierung ohne Gemba-Beobachtung oder reale Daten.",
+      "Prozesszeit mit Durchlaufzeit verwechseln.",
+      "Erstellen einer Zukunftszustandskarte ohne Eigentümer oder Plan."
+    ],
+    "quick_check": [
+      {
+        "q": "Was beinhaltet die Vorlaufzeit?",
+        "answer": "Die gesamte verstrichene Zeit von der Kundenanfrage bis zur Lieferung, inklusive Wartezeit.",
+        "explanation": "Sie ist umfassender als die Zeit, in der die Arbeit aktiv verrichtet wird."
+      },
+      {
+        "q": "Was ist Taktzeit?",
+        "answer": "Verfügbare Arbeitszeit dividiert durch die Kundennachfrage.",
+        "explanation": "Es gibt das Tempo vor, das erforderlich ist, um die Nachfrage zu befriedigen."
+      },
+      {
+        "q": "Warum Informationsfluss und Materialfluss abbilden?",
+        "answer": "Verzögerungen und Fehler bei der Bereitstellung von Informationen führen häufig zu Wartezeiten und Nacharbeiten.",
+        "explanation": "Eine vollständige Karte zeigt, wie die Arbeit ausgelöst und koordiniert wird."
+      }
+    ],
+    "recap": [
+      "Wertstromkarten zeigen den End-to-End-Fluss und das Warten.",
+      "Verwenden Sie reale Daten und Gemba-Beobachtungen.",
+      "Verwandeln Sie die zukünftige Zustandskarte in eigene Aktionen."
+    ]
+  },
+  "B6.3": {
+    "why": "Geräteausfälle stören den Fluss, die Qualität und die Sicherheit und erzwingen kostspielige Puffer. Total Productive Maintenance integriert Zuverlässigkeit in die tägliche Arbeit, anstatt auf Ausfälle zu warten.",
+    "what": "Ziel von TPM ist die Maximierung der Geräteeffektivität durch autonome Wartung, geplante und vorbeugende Wartung, vorausschauende Techniken, Qualitätswartung, Schulung, Sicherheit und frühzeitiges Gerätemanagement. Die Gesamtanlageneffektivität kombiniert Verfügbarkeit, Leistung und Qualität. Die sechs großen Verluste sind Ausfälle, Einrichtung und Einstellung, Leerlauf und kleinere Stopps, reduzierte Geschwindigkeit, Defekte und Nacharbeiten sowie Anlaufverluste. Die Bediener führen grundlegende Wartungsarbeiten wie Reinigung, Inspektion, Schmierung und Festziehen durch.",
+    "how": [
+      "Messen Sie die Basis-OEE und klassifizieren Sie Verluste.",
+      "Stellen Sie den Grundzustand der Ausrüstung wieder her und beheben Sie größere Mängel.",
+      "Schulen Sie Betreiber für die autonome Wartung.",
+      "Erstellen Sie einen geplanten und vorausschauenden Wartungsplan.",
+      "Verbessern Sie die Einrichtungs-, Ersatzteil- und Wartungsplanung.",
+      "Verfolgen Sie OEE und Verluste mit dem Team.",
+      "Standardisieren und prüfen Sie das Wartungssystem."
+    ],
+    "where": "Nutzen Sie TPM in der Fertigung, in der Krankenhausausrüstung, im Flottenbetrieb, in der IT-Infrastruktur und in Einrichtungen. Beispiel: OEE beträgt 80 % Verfügbarkeit mal 85 % Leistung mal 95 % Qualität, also etwa 64,6 %. Die Schadensanalyse zeigt, ob Ausfälle, Geschwindigkeit oder Mängel Vorrang haben.",
+    "when_not": "Machen Sie TPM nicht zu einer Reinigungskampagne und geben Sie den Betreibern nicht die Schuld für Geräteausfälle. Starten Sie es nicht ohne Führungszeit, Schulung und Wartungsunterstützung. Verwenden Sie OEE nicht als eigenständige Scorecard ohne Kontext.",
+    "common_mistakes": [
+      "Einmal putzen statt Grundzustand erhalten.",
+      "OEE verfolgen, ohne die sechs Verluste zu analysieren.",
+      "Betreiben Sie die Ausrüstung bis zum Ausfall, um Wartungsausfallzeiten zu vermeiden."
+    ],
+    "quick_check": [
+      {
+        "q": "Aus welchen drei Komponenten besteht OEE?",
+        "answer": "Verfügbarkeit, Leistung und Qualität.",
+        "explanation": "Ihre Multiplikation zeigt die effektive Geräteleistung."
+      },
+      {
+        "q": "Was ist autonome Wartung?",
+        "answer": "Der Betreiber übernimmt die Grundreinigung, Inspektion und kleinere Wartungsarbeiten.",
+        "explanation": "Betreiber erkennen und verhindern Verschlechterungen frühzeitig."
+      },
+      {
+        "q": "Was ist ein Hauptziel von TPM?",
+        "answer": "Zuverlässige Ausrüstung mit minimalen ungeplanten Ausfallzeiten.",
+        "explanation": "TPM verlagert den Aufwand von reaktiver Reparatur auf Prävention."
+      }
+    ],
+    "recap": [
+      "TPM verbessert die Zuverlässigkeit und Effektivität der Ausrüstung.",
+      "Nutzen Sie OEE- und Verlustanalysen, um Verbesserungen anzustreben.",
+      "Kombinieren Sie die Betreuung des Bedieners mit geplanter und vorausschauender Wartung."
+    ]
+  },
+  "B6.4": {
+    "why": "Lange Umrüstungen erfordern große Chargen, Überbestände und Kapazitätsverluste. SMED verkürzt die Umrüstzeit, sodass der Prozess flexibel auf die Nachfrage reagieren kann.",
+    "what": "Der einminütige Werkzeugwechsel trennt interne Umrüstarbeiten, die ein Anhalten der Maschine erfordern, von externen Arbeiten, die bei laufender Maschine durchgeführt werden können. Die Methode wandelt interne Arbeit in externe um, rationalisiert beide und standardisiert das neue Verfahren. Die Umrüstzeit wird vom letzten Gutteil vor dem Wechsel bis zum ersten Gutteil danach gemessen. Ideal sind einstellige Minutenzahlen, das praktische Ziel hängt jedoch vom Risiko und Volumen ab.",
+    "how": [
+      "Beobachten und filmen Sie die aktuelle Umstellung.",
+      "Trennen Sie interne und externe Aktivitäten.",
+      "Planen Sie jede Aktivität zeitlich und identifizieren Sie Verschwendung.",
+      "Wandeln Sie so viel interne Arbeit wie möglich in externe um.",
+      "Optimieren Sie Klemmen, Werkzeuge, Bereitstellung und parallele Arbeit.",
+      "Standardisieren Sie Rollen und verwenden Sie eine Checkliste.",
+      "Pilotieren, messen und aufrechterhalten Sie die neue Umstellung."
+    ],
+    "where": "Nutzen Sie SMED in der Fertigung, beim Umschlag im Operationssaal, bei der Einrichtung von Laboren, bei der Softwarebereitstellung, beim Drucken und bei der Servicevorbereitung. Beispiel: Reduzieren Sie einen 90-minütigen Wechsel auf 25 Minuten, indem Sie Werkzeuge extern vorrüsten und Schrauben durch Schnellspanner ersetzen.",
+    "when_not": "Entfernen Sie Sicherheits- oder Qualitätsprüfungen nicht, um Zeit zu sparen. Gehen Sie nicht davon aus, dass jeder aktuelle Schritt notwendig ist. Betrachten Sie SMED nicht als einmaliges Ereignis ohne Standardarbeit und Nachhaltigkeit.",
+    "common_mistakes": [
+      "Beginnen Sie mit neuen Tools, anstatt interne und externe Arbeit zu trennen.",
+      "Es wird nur die Maschinenstillstandszeit gemessen, nicht das erste Gutteil zum ersten Gutteil.",
+      "Es gelingt nicht, die neue Methode zu standardisieren und zu trainieren."
+    ],
+    "quick_check": [
+      {
+        "q": "Was sind interne Umstellungsarbeiten?",
+        "answer": "Arbeiten, die nur bei stehender Maschine durchgeführt werden können.",
+        "explanation": "Ziel ist es, interne Arbeit nach Möglichkeit in externe umzuwandeln."
+      },
+      {
+        "q": "Wie wird die Umrüstzeit gemessen?",
+        "answer": "Vom letzten guten Teil vor dem Wechsel bis zum ersten guten Teil danach.",
+        "explanation": "Dadurch wird die gesamte verlorene Produktionszeit erfasst."
+      },
+      {
+        "q": "Was bedeutet das Ein-Minuten-Ziel?",
+        "answer": "Eine Umstellung gemessen im einstelligen Minutenbereich.",
+        "explanation": "Es handelt sich um ein ehrgeiziges Ziel, nicht um eine universelle Anforderung."
+      }
+    ],
+    "recap": [
+      "SMED trennt interne und externe Umstellungsarbeiten.",
+      "Wandeln Sie interne Arbeit in externe um und rationalisieren Sie den Rest.",
+      "Standardisieren, messen und aufrechterhalten Sie die Verbesserung."
+    ]
+  },
+  "B6.5": {
+    "why": "Ohne einen Standard führt jede Person und jede Schicht ihre Arbeit anders aus. Standardarbeit reduziert Abweichungen, unterstützt Training und Sicherheit und schafft eine Grundlage für Verbesserungen.",
+    "what": "Standardarbeit dokumentiert die derzeit beste Methode, einschließlich Taktzeit, Arbeitsreihenfolge, Standardbestand, Zykluszeit sowie wichtige Qualitäts- und Sicherheitspunkte. Es entsteht gemeinsam mit den Menschen, die die Arbeit erledigen, und ist deren Eigentum. Es handelt sich nicht um eine dauerhafte Regel; Dies ist die derzeit beste Methode und muss aktualisiert werden, wenn sich der Prozess ändert. Zu den gängigen Formaten gehören Standard-Arbeitskombinationstabellen, Arbeitsaufschlüsselungsblätter und visuelle Arbeitsanweisungen.",
+    "how": [
+      "Beobachten Sie die tatsächliche Arbeit und ermitteln Sie die Kundenanforderungen.",
+      "Berechnen Sie die Taktzeit aus Bedarf und verfügbarer Zeit.",
+      "Teilen Sie die Arbeit in Schritte auf und messen Sie jeden Schritt.",
+      "Entwerfen Sie eine ausgewogene Abfolge mit Standardinventar.",
+      "Dokumentieren Sie Qualitäts-, Sicherheits- und Ausrüstungspunkte.",
+      "Schulung der Bediener und Überprüfung des Verständnisses.",
+      "Prüfen, verbessern und aktualisieren Sie den Standard."
+    ],
+    "where": "Nutzen Sie Standardarbeiten in den Bereichen Montage, Gesundheitsprotokolle, Labormethoden, Serviceskripte, Logistik und Verwaltungsprozesse. Beispiel: Die Taktzeit beträgt 60 Sekunden und die geplante Zykluszeit beträgt 55 Sekunden, sodass Spielraum für Variation und Erholung bleibt.",
+    "when_not": "Schreiben Sie keine Standards ohne die Operatoren und verwenden Sie sie nicht für das Mikromanagement. Standardisieren Sie einen instabilen Prozess nicht, bevor Sie größere Abweichungen reduziert haben. Wissensarbeit erfordert möglicherweise flexible Standards, die Ergebnisse und Einschränkungen definieren.",
+    "common_mistakes": [
+      "Dokumente erstellen, die im Regal stehen.",
+      "Versäumnis, den Standard zu schulen oder zu prüfen.",
+      "Aktualisieren Sie den Standard niemals nach einer Verbesserung."
+    ],
+    "quick_check": [
+      {
+        "q": "Was ist Taktzeit?",
+        "answer": "Verfügbare Arbeitszeit dividiert durch die Kundennachfrage.",
+        "explanation": "Es legt das Tempo fest, das der Prozess einhalten muss."
+      },
+      {
+        "q": "Wer soll bei der Erstellung von Standardwerken helfen?",
+        "answer": "Die Menschen, die die Arbeit ausführen.",
+        "explanation": "Die Einbindung des Bedieners verbessert die Genauigkeit und Eigenverantwortung."
+      },
+      {
+        "q": "Warum ist Standardarbeit eine Grundlage für Verbesserungen?",
+        "answer": "Sie können einen Prozess, der nicht standardisiert ist, nicht zuverlässig verbessern.",
+        "explanation": "Eine stabile Methode macht die Wirkung von Veränderungen sichtbar."
+      }
+    ],
+    "recap": [
+      "Das Standardwerk erfasst die aktuell beste Methode.",
+      "Berücksichtigen Sie Takt, Reihenfolge, Inventar und Schlüsselpunkte.",
+      "Beziehen Sie Bediener ein und aktualisieren Sie den Standard, wenn sich der Prozess verbessert."
+    ]
+  },
+  "B6.6": {
+    "why": "Unordnung, fehlende Werkzeuge und unklarer Status führen zu Verzögerungen, Mängeln und Sicherheitsrisiken. Ein visueller Arbeitsplatz macht normale und abnormale Zustände auf einen Blick erkennbar.",
+    "what": "Die 5S-Methode verwendet Sortieren, Ordnen, Leuchten, Standardisieren und Aufrechterhalten. Sortieren entfernt, was nicht benötigt wird. Durch die geordnete Anordnung hat alles seinen klaren Platz. Shine reinigt und inspiziert. Standardisieren schafft visuelle Regeln und Verantwortlichkeiten. Sustain baut Gewohnheiten und Audits auf. Das visuelle Management nutzt Etiketten, Schattentafeln, Bodenmarkierungen, Andons, Kanban und Dashboards, damit sich der Arbeitsplatz von selbst erklärt.",
+    "how": [
+      "Zeichnen Sie den Bereich mit Fotos und einem Abfallspaziergang auf.",
+      "Sortieren Sie Elemente mit roten Tags und einer Dispositionsregel.",
+      "Legen Sie Standorte basierend auf der Häufigkeit der Nutzung und der Ergonomie fest.",
+      "Reinigen und inspizieren Sie Geräte und Räume.",
+      "Schaffen Sie visuelle Standards und Eigenverantwortung.",
+      "Führen Sie regelmäßig Audits durch und coachen Sie umgehend.",
+      "Erweitern Sie die Aktivitäten erst dann auf verwandte Bereiche, wenn die Aufrechterhaltung funktioniert."
+    ],
+    "where": "Nutzen Sie 5S und visuelles Management in Werkstätten, Laboren, Büros, Versorgungsräumen von Krankenhäusern, Lagern und digitalen Arbeitsbereichen. Beispiel: Ein Shadowboard für Werkzeuge verkürzt die Suchzeit und macht ein fehlendes Werkzeug sofort sichtbar.",
+    "when_not": "Führen Sie 5S nicht als Reinigungswettbewerb durch. Fügen Sie kein visuelles Durcheinander hinzu, das die wichtigen Signale verdeckt. Starten Sie nicht ohne Eigenverantwortung und einen Nachhaltigkeitsplan.",
+    "common_mistakes": [
+      "Keine Nachhaltigkeit nach der ersten Reinigung.",
+      "Beschriftungen und Standorte ohne logisches System.",
+      "Audits nutzen, um Schuldzuweisungen statt Verbesserungen vorzunehmen."
+    ],
+    "quick_check": [
+      {
+        "q": "Was sind die fünf S?",
+        "answer": "Sortieren, ordnen, glänzen, standardisieren und aufrechterhalten.",
+        "explanation": "Sie schaffen und pflegen einen organisierten Arbeitsplatz."
+      },
+      {
+        "q": "Was ist visuelles Management?",
+        "answer": "Verwendung visueller Signale, um Status und Auffälligkeiten deutlich zu machen.",
+        "explanation": "Beispiele hierfür sind Andons, Bodenmarkierungen und Schattenbretter."
+      },
+      {
+        "q": "Warum ist Sustain das härteste S?",
+        "answer": "Es erfordert Gewohnheiten, Eigenverantwortung und regelmäßige Nachsorge.",
+        "explanation": "Die anfängliche Bereinigung lässt ohne Managementsystem nach."
+      }
+    ],
+    "recap": [
+      "5S schafft einen organisierten, selbsterklärenden Arbeitsplatz.",
+      "Visuelles Management macht abnormale Zustände sichtbar.",
+      "Nachhaltigkeit erfordert Eigenverantwortung, Audits und Coaching."
+    ]
+  },
+  "B6.7": {
+    "why": "Die Reparatur eines schlecht konzipierten Prozesses kann teuer und langsam sein. Design for Six Sigma baut die Fähigkeit von Anfang an in ein neues Produkt, eine neue Dienstleistung oder einen neuen Prozess ein.",
+    "what": "DFSS verwendet DMADV: Definieren, Messen, Analysieren, Entwerfen und Verifizieren. Define klärt den Business Case und die Kundenanforderungen. Measure übersetzt die Stimme des Kunden in qualitätskritische Anforderungen. Analyze entwickelt und bewertet Designkonzepte. Design optimiert das gewählte Konzept und bewertet das Risiko. Verify weist die Leistungsfähigkeit durch Pilotversuche, Zuverlässigkeitstests und Validierung nach. Zu den Tools gehören QFD, Kano, FMEA, DOE, Monte-Carlo-Simulation und Toleranzdesign.",
+    "how": [
+      "Definieren Sie das Projekt, die Kunden und den Geschäftsfall.",
+      "Messen Sie CTQs und übersetzen Sie Kundenbedürfnisse.",
+      "Analysieren Sie Konzepte anhand von Anforderungen und Risiken.",
+      "Entwerfen Sie das Produkt oder den Prozess und optimieren Sie die Leistung.",
+      "Sagen Sie Leistungsfähigkeit, Zuverlässigkeit und Fehlermodi voraus.",
+      "Überprüfung mit Piloten, Tests und Übergabe.",
+      "Überwachen Sie das eingeführte Design und erfassen Sie die gewonnenen Erkenntnisse."
+    ],
+    "where": "Nutzen Sie DMADV für neue Produkte, Dienstleistungen, Prozesse, Software und Einrichtungen. Beispiel: Entwerfen Sie einen neuen Patientenaufnahmeprozess, indem Sie CTQs definieren, Ablaufkonzepte bewerten, den Bedarf simulieren und vor der vollständigen Einführung Piloten durchführen.",
+    "when_not": "Verwenden Sie DMADV nicht, wenn bei einem vorhandenen Prozess ein bekanntes Problem auftritt. DMAIC ist normalerweise angemessen. Überspringen Sie keine Verifizierung oder Gestaltung ohne Kundeneingabe. Betrachten Sie einen Piloten nicht als Ersatz für den Nachweis Ihrer Fähigkeiten und Zuverlässigkeit.",
+    "common_mistakes": [
+      "Anwendung des DMAIC-Denkens auf ein neues Design.",
+      "Überspringen der Stimme des Kunden und der CTQ-Übersetzung.",
+      "Warten bis zum Start, um Leistungsfähigkeit und Risiko zu testen."
+    ],
+    "quick_check": [
+      {
+        "q": "Wofür stehen die Buchstaben in DMADV?",
+        "answer": "Definieren, messen, analysieren, entwerfen und überprüfen.",
+        "explanation": "DMADV ist die DFSS-Roadmap für neue Designs."
+      },
+      {
+        "q": "Wann wird DMADV gegenüber DMAIC bevorzugt?",
+        "answer": "Beim Entwerfen eines neuen Produkts, einer neuen Dienstleistung oder eines neuen Prozesses.",
+        "explanation": "DMAIC verbessert einen bestehenden Prozess; DMADV erstellt ein neues."
+      },
+      {
+        "q": "Warum ist die Verifizierung in DMADV unerlässlich?",
+        "answer": "Es beweist, dass das Design die CTQs erfüllt und in der Praxis zuverlässig funktioniert.",
+        "explanation": "Designvorhersagen müssen vor der Markteinführung getestet werden."
+      }
+    ],
+    "recap": [
+      "DMADV entwirft neue Prozesse und Produkte für Leistungsfähigkeit.",
+      "Übersetzen Sie Kundenbedürfnisse in CTQs und überprüfen Sie das Design.",
+      "Verwenden Sie DFSS, wenn der Prozess noch nicht existiert."
+    ]
+  },
+  "B6.8": {
+    "why": "Teams können Funktionen optimieren, die Kunden nicht schätzen. Quality Function Deployment übersetzt die Stimme des Kunden in Designanforderungen, sodass technische und Prozessentscheidungen mit den Kundenbedürfnissen verknüpft bleiben.",
+    "what": "Das House of Quality ist die zentrale QFD-Matrix. Kundenbedürfnisse sind das Was, technische Anforderungen sind das Wie, und die Beziehungsmatrix bewertet, wie stark sich jede technische Anforderung auf jedes Bedürfnis auswirkt. Das Dach zeigt Zusammenhänge zwischen technischen Anforderungen. Wettbewerbsbewertungen und Zielvorgaben runden das Haus ab. Die gewichtete Wichtigkeit hilft bei der Priorisierung von Anforderungen. QFD kann durch Produkt-, Teile-, Prozess- und Produktionsplanung kaskadiert werden.",
+    "how": [
+      "Sammeln und strukturieren Sie Kundenaussagen.",
+      "Priorisieren Sie Kundenbedürfnisse nach Wichtigkeit.",
+      "Identifizieren Sie messbare technische Anforderungen.",
+      "Ratenbeziehungen und technische Zusammenhänge.",
+      "Vergleichen Sie Wettbewerber und legen Sie Ziele fest.",
+      "Berechnen Sie gewichtete Prioritäten und lösen Sie Kompromisse.",
+      "Kaskadieren Sie die Prioritäten in Design- und Kontrollplänen."
+    ],
+    "where": "Nutzen Sie QFD für neue Produkte, Servicedesign, Softwarefunktionen, Gesundheitsdienstleistungen und Anlagendesign. Beispiel: Kunden sagen, dass der Prozess einfach zu bedienen sein sollte. QFD-Links, die messbare Anforderungen wie Schritte, Wartezeit, Fehlerrate und Zugänglichkeit erfordern.",
+    "when_not": "Verwenden Sie QFD nicht als einmalige Übung für den Papierkram. Erfinden Sie Kundenbedürfnisse nicht ohne Recherche. Bauen Sie keine Matrix auf, die so groß ist, dass das Team nicht darauf reagieren kann.",
+    "common_mistakes": [
+      "Ratende Stimme des Kunden.",
+      "Beziehungswerte willkürlich zuweisen.",
+      "Setzen von Zielen ohne Eigentümer oder Durchsetzung."
+    ],
+    "quick_check": [
+      {
+        "q": "Was ist das Was und Wie in einem House of Quality?",
+        "answer": "Das Was sind Kundenbedürfnisse und das Wie sind technische Anforderungen.",
+        "explanation": "Die Matrix verknüpft Kundenwünsche mit messbaren Designmerkmalen."
+      },
+      {
+        "q": "Was zeigt das Dach des House of Quality?",
+        "answer": "Zusammenhänge zwischen technischen Anforderungen.",
+        "explanation": "Es zeigt Kompromisse und Synergien zwischen Designentscheidungen auf."
+      },
+      {
+        "q": "Warum Gewicht Kundenbedürfnisse?",
+        "answer": "Priorisierung technischer Anforderungen nach Kundenbedeutung.",
+        "explanation": "Durch die Gewichtung werden die Ressourcen auf das Wichtigste konzentriert."
+      }
+    ],
+    "recap": [
+      "QFD übersetzt Kundenbedürfnisse in technische Anforderungen.",
+      "Nutzen Sie Beziehungsbewertungen und Wettbewerbsziele, um Prioritäten zu setzen.",
+      "Übertragen Sie Prioritäten auf Design- und Prozessentscheidungen."
+    ]
+  },
+  "B6.9": {
+    "why": "Nicht jede Funktion wirkt sich gleichermaßen auf die Zufriedenheit aus. Das Kano-Modell verhindert, dass Teams zu viel in Funktionen investieren, die Kunden kaum bemerken, oder zu wenig in Grundlagen investieren, deren Fehlen zu Unzufriedenheit führt.",
+    "what": "Kano klassifiziert Merkmale als „must-sein“, „leistungsfähig“, „attraktiv“, „indifferent“ oder „umgekehrt“. Unverzichtbare Funktionen verursachen Unzufriedenheit, wenn sie fehlen, erfreuen aber nicht, wenn sie vorhanden sind. Leistungsmerkmale erzeugen Zufriedenheit im Verhältnis dazu, wie gut sie erbracht werden. Attraktive Merkmale erfreuen, wenn sie vorhanden sind, verursachen aber keine Unzufriedenheit, wenn sie fehlen. Mit der Zeit werden oft attraktive Features erwartet. Das Umfragedesign stellt funktionale und dysfunktionale Fragen für jedes Merkmal.",
+    "how": [
+      "Listen Sie die Merkmale oder Anforderungen der Kandidaten auf.",
+      "Schreiben Sie paarweise funktionale und dysfunktionale Umfragefragen.",
+      "Sammeln Sie Antworten aus repräsentativen Kundensegmenten.",
+      "Klassifizieren Sie jedes Merkmal mithilfe der Kano-Bewertungstabelle.",
+      "Analysieren Sie Unterschiede nach Segment und im Zeitverlauf.",
+      "Priorisieren Sie zuerst die unverzichtbaren Funktionen, dann die Leistung und ausgewählte Freuden."
+    ],
+    "where": "Nutzen Sie Kano für Produktfunktionen, Servicedesign, mobile Anwendungen, Hotelannehmlichkeiten und Gesundheitserlebnisse. Beispiel: Ein sauberes Krankenzimmer ist ein Muss, kürzere Wartezeiten sind Leistung und ein unerwarteter Folgeanruf kann attraktiv sein.",
+    "when_not": "Gehen Sie nicht davon aus, dass ein Kundensegment alle Kunden repräsentiert. Jagen Sie nicht den Freuden hinterher, bevor Sie fehlende Grundlagen behoben haben. Behandeln Sie Klassifizierungen nicht als dauerhaft; Erwartungen ändern sich.",
+    "common_mistakes": [
+      "Befragung nur positiver Fragen.",
+      "Kano-Kategorien werden als statisch behandelt.",
+      "Segmentunterschiede werden ignoriert."
+    ],
+    "quick_check": [
+      {
+        "q": "Was ist ein Muss?",
+        "answer": "Ein Merkmal, dessen Abwesenheit Unzufriedenheit hervorruft, dessen Anwesenheit jedoch keine Freude bereitet.",
+        "explanation": "Unverzichtbare Funktionen sind grundlegende Erwartungen."
+      },
+      {
+        "q": "Was ist ein Leistungsmerkmal?",
+        "answer": "Eine Funktion, bei der die Zufriedenheit mit zunehmender Leistung steigt.",
+        "explanation": "Leistungsmerkmale folgen einem annähernd linearen Zusammenhang."
+      },
+      {
+        "q": "Was ist ein attraktives Feature?",
+        "answer": "Eine Funktion, die erfreut, wenn sie vorhanden ist, aber keine Unzufriedenheit hervorruft, wenn sie nicht vorhanden ist.",
+        "explanation": "Attraktive Merkmale sind unerwartete Unterscheidungsmerkmale."
+      }
+    ],
+    "recap": [
+      "Kano unterscheidet zwischen grundlegenden, leistungsstarken und erfreulichen Funktionen.",
+      "Erledigen Sie unbedingt die Anforderungen, bevor Sie sich auf die Jagd nach Freuden machen.",
+      "Überarbeiten Sie die Klassifizierungen, wenn sich die Kundenerwartungen weiterentwickeln."
+    ]
+  },
+  "B7.1": {
+    "why": "Eine einfache Risikoeinstufung kann Teams dazu verleiten, Probleme mit geringer Schwere zu beheben und dabei schwerwiegende Fehlerarten zu ignorieren. Die erweiterte FMEA priorisiert Risiken auf eine Weise, die Kunden schützt, und verknüpft Maßnahmen mit Kontrollen.",
+    "what": "FMEA identifiziert Fehlerarten, deren Auswirkungen und Ursachen. Der Schweregrad bewertet die Auswirkung, das Auftreten die Wahrscheinlichkeit und die Erkennung die Wahrscheinlichkeit, den Fehler vor der Auswirkung zu erkennen. Die herkömmliche Risikoprioritätszahl vervielfacht den Schweregrad, das Auftreten und die Erkennung, behandelt jedoch sehr unterschiedliche Risiken als gleichwertig. Die AIAG-VDA-Aktionsprioritätsmethode betont den Schweregrad und lenkt die Aufmerksamkeit auf Kombinationen mit hoher Priorität. Maßnahmen sollten zunächst Ursachen verhindern, dann die Erkennung verbessern und in den Kontrollplan einfließen.",
+    "how": [
+      "Definieren Sie den Umfang und die Struktur des Entwurfs oder Prozesses.",
+      "Listen Sie Funktionen und mögliche Fehlermodi auf.",
+      "Beschreiben Sie die Auswirkungen und weisen Sie deren Schwere zu.",
+      "Identifizieren Sie Ursachen und bewerten Sie das Auftreten.",
+      "Listen Sie aktuelle Präventions- und Erkennungskontrollen auf.",
+      "Weisen Sie Aktionsprioritäten zu und wählen Sie Aktionen aus.",
+      "Bewerten Sie das Risiko neu und aktualisieren Sie den Kontrollplan und die Standardarbeit."
+    ],
+    "where": "Nutzen Sie FMEA für Design-, Fertigungs-, Software-, Gesundheits- und Serviceprozesse. Beispiel: Ein Fehlermodus mit Schweregrad 10 und Auftreten 4 behält auch bei starker Erkennung hohe Priorität, da die Auswirkung katastrophal ist.",
+    "when_not": "Verwenden Sie keinen einfachen RPN-Schwellenwert als einzige Entscheidungsregel. Lassen Sie FMEA nicht zum Papierkram werden. Ignorieren Sie nicht menschliche Faktoren, Anwendungsfehler oder Wechselwirkungen zwischen Fehlermodi.",
+    "common_mistakes": [
+      "Priorisierung allein durch RPN.",
+      "Investieren Sie nur in die Erkennung statt in die Prävention.",
+      "Fehler bei der Aktualisierung der FMEA und des Kontrollplans."
+    ],
+    "quick_check": [
+      {
+        "q": "Was bedeuten Schweregrad, Auftreten und Erkennung?",
+        "answer": "Auswirkung der Wirkung, Wahrscheinlichkeit der Ursache und Fähigkeit zur Erkennung vor der Auswirkung.",
+        "explanation": "Zusammen beschreiben sie das Risiko eines Fehlermodus."
+      },
+      {
+        "q": "Warum wird Aktionspriorität gegenüber RPN allein bevorzugt?",
+        "answer": "Es gibt dem Schweregrad mehr Gewicht und vermeidet irreführende Ergebnisäquivalenzen.",
+        "explanation": "Verschiedene Risikokombinationen können zum gleichen RPN führen."
+      },
+      {
+        "q": "Was sollte eine FMEA-Aktion aktualisieren?",
+        "answer": "Der Kontrollplan, Standardarbeiten und zugehörige Prozessdokumente.",
+        "explanation": "Risikokontrollen müssen in den Prozessablauf eingebettet sein."
+      }
+    ],
+    "recap": [
+      "FMEA identifiziert Fehlerarten, Auswirkungen, Ursachen und Kontrollen.",
+      "Priorisieren Sie Risiken mit hohem Schweregrad und verhindern Sie Ursachen, bevor Sie die Erkennung verbessern.",
+      "Verknüpfen Sie FMEA-Aktionen mit Kontrollplänen und Standardarbeiten."
+    ]
+  },
+  "B7.2": {
+    "why": "Technische Lösungen scheitern, wenn Menschen sie nicht übernehmen. Change Management schafft das Bewusstsein, die Fähigkeiten und das Engagement, die erforderlich sind, damit Verbesserungen anhalten.",
+    "what": "ADKAR beschreibt fünf Ergebnisse: Bewusstsein für die Notwendigkeit einer Veränderung, Wunsch zur Teilnahme, Wissen darüber, wie man sich verändert, Leistungsfähigkeit und Verstärkung zum Durchhalten. Die Stakeholder-Analyse ermittelt, wer betroffen ist und welchen Einfluss sie haben. Sponsoring, Kommunikation, Training, Coaching und Widerstandsmanagement werden während des gesamten Projekts koordiniert.",
+    "how": [
+      "Definieren Sie die Änderung und ihre Auswirkungen auf jede Stakeholder-Gruppe.",
+      "Bewerten Sie die Bereitschaft und die Quellen des Widerstands.",
+      "Schaffen Sie Bewusstsein mit klaren geschäftlichen und persönlichen Gründen.",
+      "Binden Sie Sponsoren und Influencer ein, um Begehren zu wecken.",
+      "Bieten Sie Schulungen und Übungen an, um Wissen und Fähigkeiten aufzubauen.",
+      "Messen Sie die Akzeptanz und beseitigen Sie Hindernisse.",
+      "Stärken Sie sich durch Anerkennung, Audits und aktualisierte Systeme."
+    ],
+    "where": "Nutzen Sie das Änderungsmanagement für Prozessänderungen, Software-Rollouts, Gesundheitsprotokolle, Lean-Transformationen und neue Standardarbeiten. Beispiel: Ein Kontrollplan schlägt fehl, weil die Bediener nicht beteiligt waren, nicht verstanden haben, warum es wichtig ist, und nach der Schulung kein Coaching erhalten haben.",
+    "when_not": "Behandeln Sie Change Management nicht als eine einzelne Ankündigung. Gehen Sie nicht davon aus, dass durch Training Fähigkeiten oder Wünsche entstehen. Ignorieren Sie den Widerstand nicht und verlassen Sie sich nicht nur auf die E-Mail eines Sponsors.",
+    "common_mistakes": [
+      "Einmal kommunizieren und die Änderung für abgeschlossen erklären.",
+      "Überspringen Sie das Verlangen und konzentrieren Sie sich nur auf das Training.",
+      "Es gelingt nicht, den neuen Weg zu stärken."
+    ],
+    "quick_check": [
+      {
+        "q": "Wofür steht ADKAR?",
+        "answer": "Bewusstsein, Wunsch, Wissen, Fähigkeit und Verstärkung.",
+        "explanation": "Es beschreibt die Bausteine ​​individueller Veränderung."
+      },
+      {
+        "q": "Warum ist Verlangen wichtig?",
+        "answer": "Die Menschen müssen sich dafür entscheiden, den Wandel zu unterstützen und daran teilzunehmen.",
+        "explanation": "Wissen allein schafft kein Engagement."
+      },
+      {
+        "q": "Was ist Verstärkung?",
+        "answer": "Aktionen, die dafür sorgen, dass das neue Verhalten nach der Implementierung bestehen bleibt.",
+        "explanation": "Anerkennung, Audits und Systeme unterstützen die Akzeptanz."
+      }
+    ],
+    "recap": [
+      "Veränderung gelingt durch Menschen, nicht nur durch technisches Design.",
+      "Verwenden Sie ADKAR, um zu diagnostizieren, wo die Akzeptanz scheitert.",
+      "Fördern, kommunizieren, schulen, coachen und stärken."
+    ]
+  },
+  "B7.3": {
+    "why": "Black Belts leiten funktionsübergreifende Teams ohne direkte Autorität. Klare Rollen, konstruktive Konflikte und fundierte Entscheidungen entscheiden darüber, ob das Team liefert.",
+    "what": "Teams bewegen sich typischerweise durch Formung, Sturmangriff, Normung und Leistung. Eine Charta definiert Zweck, Umfang, Rollen und Entscheidungsrechte. RACI klärt, wer verantwortlich, rechenschaftspflichtig, konsultiert und informiert ist. Aufgabenkonflikte über Ideen können Entscheidungen verbessern, während Beziehungskonflikte das Vertrauen untergraben. Zu den Entscheidungsmethoden gehören Befehl, Beratung, Konsens und einstimmige Zustimmung. Psychologische Sicherheit hilft Menschen, über Risiken und Fehler zu sprechen.",
+    "how": [
+      "Erstellen Sie eine klare Charta und klare Rollen.",
+      "Legen Sie Grundregeln fest und erfüllen Sie Normen.",
+      "Nutzen Sie strukturierte Tagesordnungen und Moderation.",
+      "Trennen Sie Aufgabenkonflikte von persönlichen Konflikten.",
+      "Wählen Sie eine Entscheidungsmethode, die Ihren Anforderungen entspricht.",
+      "Dokumentieren Sie Entscheidungen, Eigentümer und Daten.",
+      "Geben Sie Feedback und erkennen Sie Fortschritte an."
+    ],
+    "where": "Nutzen Sie Teamführung in DMAIC-Projekten, Kaizen-Veranstaltungen, Designteams und funktionsübergreifenden Verbesserungsräten. Beispiel: Ein Team mit unklaren Entscheidungsrechten überlegt sich immer wieder die gleiche Wahl. Ein RACI und eine angegebene Entscheidungsmethode lösen die Schleife auf.",
+    "when_not": "Vermeiden Sie Konflikte nicht und nennen Sie sie Harmonie. Nutzen Sie nicht für jede Entscheidung einen Konsens; es kann dringende Entscheidungen verlangsamen. Führen Sie kein Mikromanagement für qualifizierte Teammitglieder durch.",
+    "common_mistakes": [
+      "Unklare Rollen und Entscheidungsrechte.",
+      "Gruppendenken und Schweigen über Risiken.",
+      "Entscheidungen werden ohne Eigentümer oder Fristen erfasst."
+    ],
+    "quick_check": [
+      {
+        "q": "Was ist psychologische Sicherheit?",
+        "answer": "Ein Klima, in dem Menschen ihre Stimme erheben können, ohne Angst vor Demütigung oder Bestrafung haben zu müssen.",
+        "explanation": "Es unterstützt Lernen, Risikoerkennung und ehrliche Debatte."
+      },
+      {
+        "q": "Was ist der Unterschied zwischen Aufgaben- und Beziehungskonflikt?",
+        "answer": "Bei Aufgabenkonflikten geht es um Ideen; Beziehungskonflikte sind persönlicher Natur.",
+        "explanation": "Aufgabenkonflikte können produktiv sein, während Beziehungskonflikte normalerweise dem Team schaden."
+      },
+      {
+        "q": "Wann ist eine Befehlsentscheidung angemessen?",
+        "answer": "Wenn Schnelligkeit und klare Verantwortlichkeiten wichtiger sind als breiter Input.",
+        "explanation": "Der Leiter entscheidet und erläutert die Gründe."
+      }
+    ],
+    "recap": [
+      "Führen Sie durch Klarheit, Vertrauen und strukturierte Entscheidungen.",
+      "Fördern Sie Aufgabendebatten und begrenzen Sie gleichzeitig persönliche Konflikte.",
+      "Dokumentieren Sie Entscheidungen und ziehen Sie das Team zur Rechenschaft."
+    ]
+  },
+  "B7.4": {
+    "why": "Die Verbesserungsressourcen sind begrenzt. Ein disziplinierter Auswahlprozess stellt sicher, dass die Organisation an Projekten mit dem größten strategischen Wert und realistischen Erfolgsaussichten arbeitet.",
+    "what": "Bei der Projektauswahl werden Kandidaten hinsichtlich strategischer Eignung, Kunden- und Finanzauswirkungen, Machbarkeit, Risiko, Dringlichkeit und Lernwert verglichen. Eine gewichtete Bewertungsmatrix macht Kriterien explizit und vergleichbar. Das Portfolio sollte schnelle Erfolge mit größeren strategischen Anstrengungen in Einklang bringen und eine Überlastung derselben Personen oder Funktionen vermeiden. Ein ausgewähltes Projekt benötigt eine klare Problemstellung, Ausgangslage, Ziel, Umfang, Sponsor und Ressourcenzusage.",
+    "how": [
+      "Sammeln Sie Kandidatenprobleme aus Strategie, Kunden, Betrieb und Mitarbeitern.",
+      "Auswahlkriterien definieren und Gewichtungen vereinbaren.",
+      "Bewerten Sie jeden Kandidaten mit Beweisen, nicht nur mit der Meinung.",
+      "Überprüfen Sie Machbarkeit, Datenverfügbarkeit, Autorität und Ressourcen.",
+      "Überprüfen Sie das Portfolio auf Gleichgewicht und Abhängigkeiten.",
+      "Wählen Sie Projekte aus und weisen Sie Sponsoren zu.",
+      "Chartern Sie jedes Projekt mit einer messbaren Ausgangslage und einem messbaren Ziel."
+    ],
+    "where": "Nutzen Sie die Projektauswahl in der Jahresplanung, DMAIC-Pipelines, Lean-Portfolios und Kontinuierlichen Verbesserungsräten. Beispiel: Ein Projekt mit hoher Kundenauswirkung, aber ohne verlässliche Basislinie erfordert möglicherweise ein kurzes Messprojekt vor der vollständigen Vercharterung.",
+    "when_not": "Verwenden Sie eine Bewertungsmatrix nicht als Ersatz für die Beurteilung. Wählen Sie nicht nur einfache Projekte oder nur Lieblingsprojekte aus. Genehmigen Sie keine Arbeiten ohne einen Sponsor und die Fähigkeit zur Ausführung.",
+    "common_mistakes": [
+      "Auswahl von Projekten, die nicht mit einer Strategie verknüpft sind.",
+      "Beginnen Sie ohne eine Grundlinie oder klare Problemstellung.",
+      "Auswahl von Projekten, die zu umfangreich sind, um abgeschlossen zu werden."
+    ],
+    "quick_check": [
+      {
+        "q": "Was sollte eine Projektauswahlbewertung beinhalten?",
+        "answer": "Strategische Eignung, Wirkung, Machbarkeit, Risiko und Dringlichkeit.",
+        "explanation": "Mehrere Kriterien verhindern eine Auswahl aufgrund einer einzigen Voreingenommenheit."
+      },
+      {
+        "q": "Warum schnelle Erfolge und strategische Projekte in Einklang bringen?",
+        "answer": "Dynamik aufbauen und gleichzeitig langfristigen Wert liefern.",
+        "explanation": "Ein Portfolio braucht sowohl Glaubwürdigkeit als auch Transformation."
+      },
+      {
+        "q": "Was muss ein Charterprojekt haben?",
+        "answer": "Ein klares Problem, eine klare Ausgangslage, ein klares Ziel, einen klaren Umfang, einen klaren Sponsor und klare Ressourcen.",
+        "explanation": "Diese Elemente machen das Projekt ausführbar und messbar."
+      }
+    ],
+    "recap": [
+      "Wählen Sie Projekte mit expliziten strategischen und Machbarkeitskriterien aus.",
+      "Balancieren Sie das Portfolio und vermeiden Sie eine Überlastung der Ressourcen.",
+      "Chartern Sie nur Projekte mit einer Basislinie, einem Ziel und einem Sponsor."
+    ]
+  },
+  "B7.5": {
+    "why": "Verbesserungsprojekte konkurrieren um Kapital und die Aufmerksamkeit des Managements. Ein glaubwürdiger finanzieller Fall zeigt, ob der Nutzen real ist, wie schnell er eintritt und wie hoch die Kosten dafür sind.",
+    "what": "Zu den Kosten schlechter Qualität zählen interne Fehler, externe Fehler, Beurteilungs- und Präventionskosten. Harte Einsparungen reduzieren die tatsächlichen Ausgaben, während sanfte Einsparungen Kosten vermeiden oder die Kapazität erhöhen und möglicherweise eine Validierung erfordern. Der Return on Investment vergleicht den Nettonutzen mit den Projektkosten. Payback zeigt, wie schnell sich die Investition amortisiert. Der Kapitalwert und der interne Zinsfuß berücksichtigen mehrjährige Cashflows und den Zeitwert des Geldes.",
+    "how": [
+      "Legen Sie eine validierte Basislinie und Messmethode fest.",
+      "Quantifizieren Sie harte und weiche Vorteile mit Finanzmitteln.",
+      "Berücksichtigen Sie die Implementierungs-, Betriebs- und Wartungskosten.",
+      "Berechnen Sie ROI, Amortisation und Kapitalwert bzw. IRR.",
+      "Testen Sie Annahmen mit Sensitivitätsanalyse.",
+      "Holen Sie eine finanzielle Prüfung und Genehmigung ein.",
+      "Verfolgen Sie realisierte Vorteile nach der Implementierung."
+    ],
+    "where": "Nutzen Sie Finanzanalysen für Fehlerreduzierung, Zykluszeitverbesserung, Kapazitätsfreigabe, Garantiereduzierung und Kundenbindungsprojekte. Beispiel: Arbeitseinsparungen sind nur dann schwierig, wenn Stellen gestrichen oder neu besetzt werden; andernfalls kann es sich um Kapazitäts- oder Soft-Einsparungen handeln.",
+    "when_not": "Zählen Sie nicht die theoretischen Einsparungen, die nie das Budget erreichen. Zählen Sie die Vorteile projektübergreifend nicht doppelt. Ignorieren Sie laufende Kosten nicht und stellen Sie weiche Ersparnisse nicht als Bargeld dar.",
+    "common_mistakes": [
+      "Keine validierte Basislinie.",
+      "Doppelzählung von Vorteilen.",
+      "Behandlung der freigegebenen Kapazität als automatische Geldeinsparung."
+    ],
+    "quick_check": [
+      {
+        "q": "Was ist der Unterschied zwischen hartem und weichem Sparen?",
+        "answer": "Harte Einsparungen reduzieren die tatsächlichen Ausgaben; Sanfte Einsparungen vermeiden Kosten oder freie Kapazität.",
+        "explanation": "Sanftes Sparen erfordert in der Regel eine finanzielle Validierung."
+      },
+      {
+        "q": "Was misst die Amortisation?",
+        "answer": "Die Zeit, die zur Amortisierung der Projektinvestitionen erforderlich ist.",
+        "explanation": "Eine kürzere Amortisation bedeutet eine schnellere Rückerstattung des Geldes."
+      },
+      {
+        "q": "Warum den Kapitalwert für mehrjährige Projekte verwenden?",
+        "answer": "Es berücksichtigt den Zeitwert des Geldes über zukünftige Cashflows hinweg.",
+        "explanation": "Zukünftige Vorteile sind weniger wert als unmittelbare Vorteile."
+      }
+    ],
+    "recap": [
+      "Bauen Sie den Business Case auf einer validierten Basis auf.",
+      "Trennen Sie harte Einsparungen, weiche Einsparungen und Kapazitätsfreigabe.",
+      "Nutzen Sie finanzüberprüfte ROI, Amortisation und NPV oder IRR."
+    ]
+  },
+  "B7.6": {
+    "why": "Mentoring vervielfacht die Verbesserungsfähigkeit. Green Belts und Projektteams benötigen Anleitung, um die richtigen Methoden anzuwenden, unnötigen Aufwand zu vermeiden und ihr Urteilsvermögen zu verbessern.",
+    "what": "Mentoring entwickelt die Fähigkeiten einer anderen Person durch Anleitung, Befragung, Feedback und Gate-Reviews. Es unterscheidet sich vom Coaching durch die Kombination von technischer Überprüfung mit Karriere- und Führungsentwicklung. Ein Mentor überprüft die Charta, die Daten, die Analyse und den Kontrollplan, ohne die Arbeit zu übernehmen. Effektives Mentoring nutzt Erwachsenenbildung, klare Erwartungen, regelmäßige Check-ins und dokumentierte Maßnahmen.",
+    "how": [
+      "Vereinbaren Sie Entwicklungsziele und Projekterwartungen.",
+      "Bewerten Sie aktuelle Fähigkeiten und Lücken.",
+      "Erstellen Sie einen Mentoring-Plan mit Überprüfungspunkten.",
+      "Stellen Sie Fragen, bevor Sie Antworten geben.",
+      "Überprüfen Sie die Projektlogik, -daten und -statistiken an den Gates.",
+      "Geben Sie konkretes Feedback und vereinbaren Sie die nächsten Maßnahmen.",
+      "Bewerten Sie den Fortschritt und eskalieren Sie reale Risiken."
+    ],
+    "where": "Nutzen Sie Mentoring für Green Belt-Projekte, Black Belt-Entwicklung, Lean-Führungskräfte und Verbesserungssponsoren. Beispiel: An einem Define-Gate bittet der Mentor das Green Belt, die Grundlagen und den Umfang zu beweisen, anstatt die Charta für ihn neu zu schreiben.",
+    "when_not": "Arbeiten Sie nicht als Mentor ohne Fachwissen, Zeit oder Objektivität, um zu helfen. Machen Sie das Projekt nicht für den Mentee. Vermeiden Sie Interessenkonflikte, wenn Sie jemanden betreuen, den Sie ebenfalls bewerten.",
+    "common_mistakes": [
+      "Das Problem lösen statt Fähigkeiten aufbauen.",
+      "Konzentrieren Sie sich nur auf Werkzeuge und ignorieren Sie Führung.",
+      "Geben Sie vages Feedback ohne Folgemaßnahmen."
+    ],
+    "quick_check": [
+      {
+        "q": "Was ist die Rolle eines Mentors?",
+        "answer": "Um die Entwicklung anzuleiten, das Denken herauszufordern und die eigene Arbeit des Mentees zu unterstützen.",
+        "explanation": "Mentoring baut Fähigkeiten auf, anstatt zu übernehmen."
+      },
+      {
+        "q": "Warum Fragen im Mentoring verwenden?",
+        "answer": "Sie helfen dem Mentee, zu argumentieren und ein unabhängiges Urteilsvermögen aufzubauen.",
+        "explanation": "Fragen erzeugen Lernen, was Antworten allein nicht bewirken."
+      },
+      {
+        "q": "Was sollte bei einem Projekt-Gate-Review passieren?",
+        "answer": "Der Mentor prüft vor der nächsten Phase Logik, Beweise und Bereitschaft.",
+        "explanation": "Gate-Reviews verhindern, dass schwache Arbeiten vorankommen."
+      }
+    ],
+    "recap": [
+      "Mentoring fördert die Entwicklung von Menschen und schützt gleichzeitig die Projektqualität.",
+      "Leitfaden mit Fragen, Beweisen und spezifischem Feedback.",
+      "Übernehmen Sie nicht das Projekt des Mentees."
+    ]
+  }
+}

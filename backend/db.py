@@ -87,6 +87,39 @@ def execute(sql, params=()):
         cursor.execute(sql, params)
         connection.commit()
         return cursor.rowcount
+    except pyodbc.IntegrityError as exc:
+        connection.rollback()
+        current_app.logger.warning("Database constraint violation: %s", exc)
+        raise ApiError(
+            409,
+            "CONFLICT",
+            "The change conflicts with existing data.",
+        ) from exc
+    except pyodbc.Error as exc:
+        connection.rollback()
+        current_app.logger.error("Database write failed: %s", exc)
+        raise ApiError(500, "DATABASE_ERROR", "The database write failed.") from exc
+    finally:
+        cursor.close()
+
+
+def insert_returning(sql, params=()):
+    connection = get_connection()
+    cursor = connection.cursor()
+    try:
+        cursor.execute(sql, params)
+        columns = [column[0] for column in cursor.description]
+        row = cursor.fetchone()
+        connection.commit()
+        return dict(zip(columns, row)) if row is not None else None
+    except pyodbc.IntegrityError as exc:
+        connection.rollback()
+        current_app.logger.warning("Database constraint violation: %s", exc)
+        raise ApiError(
+            409,
+            "CONFLICT",
+            "The change conflicts with existing data.",
+        ) from exc
     except pyodbc.Error as exc:
         connection.rollback()
         current_app.logger.error("Database write failed: %s", exc)

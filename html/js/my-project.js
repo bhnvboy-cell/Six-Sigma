@@ -158,24 +158,48 @@
     }
 
     function bindEvents() {
-        byId("myProjectArea").addEventListener("click", function (event) {
+        byId("myProjectArea").addEventListener("click", async function (event) {
             const button = event.target.closest("[data-delete-copy]");
-            if (!button) return;
+            if (!button || button.disabled) return;
             const S = store();
             const copy = S.getCopy(button.getAttribute("data-delete-copy"));
             if (!copy) return;
             if (!root.confirm('Delete "' + copy.copyName + '"? This cannot be undone.')) return;
-            if (S.deleteCopy(copy.id)) {
-                render();
-                notice('Deleted "' + copy.copyName + '".', "success");
-            } else {
-                notice("That copy could not be deleted.", "danger");
+            button.disabled = true;
+            try {
+                const result = await S.deleteCopy(copy.id);
+                if (result.deleted) {
+                    render();
+                    notice(
+                        'Deleted "' + copy.copyName + '".' +
+                        (result.offline ? " The deletion is stored in this browser while offline." : ""),
+                        "success"
+                    );
+                } else {
+                    notice("That copy could not be deleted.", "danger");
+                    button.disabled = false;
+                }
+            } catch (error) {
+                notice(error.message || "That copy could not be deleted.", "danger");
+                button.disabled = false;
             }
         });
     }
 
-    document.addEventListener("DOMContentLoaded", function () {
+    document.addEventListener("DOMContentLoaded", async function () {
+        if (root.sessionReady) await root.sessionReady;
+        let offline = false;
+        const S = store();
+        if (S && S.refreshCopies) {
+            try {
+                await S.refreshCopies();
+                offline = S.isApiUser() && !navigator.onLine;
+            } catch (error) {
+                offline = S.isApiUser();
+            }
+        }
         render();
         bindEvents();
+        if (offline) notice("Showing copies saved in this browser. Server sync is unavailable.", "warning");
     });
 }(typeof globalThis !== "undefined" ? globalThis : this));

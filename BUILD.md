@@ -30,6 +30,59 @@ Generated files:
 
 Do not edit the generated files directly. The build validates template IDs, field keys, table columns, computed fields, examples, phases, belt levels, and icon values.
 
+## Quiz Bank Build
+
+`data/quizzes.json` is the source of truth for the five belt exams. After editing questions, options, correct answers, or explanations, regenerate the browser bank:
+
+```bash
+node scripts/build-quizzes.js
+```
+
+Generated file: `html/js/quiz-data.js`.
+
+Do not edit the generated file directly. The build validates belt keys, question counts, four options per question, answer indexes, explanation text, duplicate prompts across all banks, and answer-key balance (no option may exceed 40% of a bank with 20 or more questions). The API reads `data/quizzes.json` directly for official server-scored exams.
+
+## Localization Build
+
+English content is translated into Arabic, Hindi, Malayalam, Telugu, German, and French. The translation source is `data/curriculum.json`, `data/lessons/`, `data/quizzes.json`, `data/resources.json`, and `html/i18n/en.json`; the generated content lives in `data/i18n/<code>/` and `html/i18n/<code>.json`.
+
+After changing English source content, run:
+
+```bash
+node scripts/translate-content.js
+node scripts/validate-localized-data.js
+node scripts/build-localized-data.js
+```
+
+Options for `translate-content.js`:
+
+- `--lang <code>` - translate one language instead of all targets
+- `--force` - ignore the translation cache and retranslate everything
+
+Translations are cached in `data/i18n/.cache/`, so only new or changed strings are sent to the translator. The validator checks that every language keeps the same curriculum, lesson, quiz, resource, and UI structure as English, including IDs, ordering, answer indexes, field keys, and option and column counts. The build then writes:
+
+- `html/js/curriculum-data.<code>.js`
+- `html/js/quiz-data.<code>.js`
+- `html/js/resource-catalog-data.<code>.js`
+
+Pages load the bundle for the active language through `html/js/data-loader.js`, which runs after `html/js/i18n.js`. To add a language, update the language list in those two scripts and the `TARGETS` arrays in the three localization scripts, then rerun the commands above.
+
+## Flask API Setup
+
+The Stage 4 API provides authentication, progress, saved resource copies, server-scored belt exams, exam-based belt promotion, certificates, and administrator curriculum, template, glossary, learner, exam-result, and CSV-export routes.
+
+1. Install Python 3.10+ and the Microsoft ODBC Driver 18 for SQL Server.
+2. Create `backend/.env` from `backend/.env.example` and set `FLASK_SECRET_KEY`.
+3. Install dependencies and start the API:
+
+```bash
+py -m pip install -r backend/requirements.txt
+py backend/run.py
+```
+
+Apply the database migrations listed below before starting the API. Full steps,
+environment variables, and verification commands are in `backend/SETUP.md`.
+
 ## Python Setup
 
 ```bash
@@ -57,13 +110,16 @@ javac -classpath "../lib/*" -d ../web/WEB-INF/classes com/leansixsigma/**/*.java
 1. Install SQL Server Express
 2. Open SQL Server Management Studio (SSMS)
 3. Run `sql/scripts/schema.sql`
-4. Run `sql/scripts/seed_modules.sql`
-5. Run `sql/scripts/seed_resources.sql`
-6. Update `DatabaseConnection.java` with your credentials
+4. Run `sql/migrations/001_backend_foundation.sql`
+5. Run `sql/migrations/002_user_resource_client_ids.sql`
+6. Run `sql/migrations/003_admin_glossary.sql`
+7. Run `sql/scripts/seed_modules.sql`
+8. Run `sql/scripts/seed_resources.sql`
+9. Configure the connection in `backend/.env`; update `DatabaseConnection.java` only for the Java layer
 
 ## HTML/Frontend
 
-Open `html/index.html` in a browser, or serve the `html` folder with a static web server.
+Open `html/login.html` in a browser, or serve the `html` folder with a static web server. `index.html` redirects to the login page until a learner signs in or starts the offline demo.
 
 Key pages:
 
@@ -73,11 +129,12 @@ Key pages:
 - `module-detail.html?module=white-1` - module lesson plan
 - `calculators.html` - quick statistical calculators
 - `statistics.html` - integrated Statistics workbench with worksheet import/export, hypothesis tests, regression, SPC, capability, MSA, DOE, sample-size planning, and distributions
-- `quizzes.html` - belt quiz banks
+- `quizzes.html` - practice quizzes, official server-scored belt exams, certificate issuance, and a certificate studio for company branding, trainer/manager signatures, authenticity QR codes, and print/PDF output
+- `verify.html?id=<verification-id>` - public certificate verification page used by the QR code printed on each certificate
 - `resources.html` - fillable DMAIC templates, cheat sheets, and glossary
 - `resource-editor.html?template=project-charter` - template editor with examples, calculations, save, and PDF export
 - `my-project.html` - saved copies grouped by DMAIC phase
-- `login.html` / `profile.html` - local progress tracking and resource belt level
+- `login.html` / `profile.html` - default login landing page, local progress, server sync, exam-based belts, and certificate viewing/printing
 
 ## Resource Library
 
@@ -92,7 +149,7 @@ The resource library uses:
 - `html/js/my-project.js` - saved-copy dashboard
 - `html/css/resources.css` - library, editor, project dashboard, and print styles
 
-Saved copies are stored in `localStorage` under `lss_user_resources`, keyed by learner ID. Anonymous learners can fill templates, load examples, and export PDFs, but must sign in to save. The profile page controls `beltLevel`; White is the default. Templates unlock at or above their `minBelt`.
+Saved copies are cached in `localStorage` under `lss_user_resources`, keyed by learner ID, and synced to the Flask API when a learner is signed in. Anonymous learners can fill templates, load examples, and export PDFs, but must sign in to save. Offline demo users can select a belt on the login or profile page. Server accounts start at White and advance only by passing official exams. Templates unlock at or above their `minBelt`. Existing browser copies can be uploaded from the profile page through the idempotent `clientId` migration; belt level is not migrated.
 
 The editor supports `text`, `textarea`, `date`, `select`, `number`, `checklist`, and `table` fields. Table computed columns support `multiply`, `sum`, `percentOfTotal`, and `cumulativePercent`. PDF export uses the browser print dialog and a dedicated print-only sheet.
 
@@ -109,10 +166,13 @@ The page uses Bootstrap 5 and Chart.js from CDNs. Keep `statistics-engine.js` fr
 ## Features
 
 - Five complete belts: White, Yellow, Green, Black, Master Black
-- 26 modules and 111 lessons mapped to ASQ, IASSC, and ISO 13053 topics
+- 26 modules and 112 lessons mapped to ASQ, IASSC, and ISO 13053 topics
 - Coverage checklist for every belt
 - Mini-project and exam plan for every belt
 - Belt cheat sheets, glossary, quick calculators, integrated Statistics workbench, and quiz banks
 - 12 belt-gated fillable DMAIC templates with examples, calculations, saved copies, and PDF export
-- Local progress tracking with no server required
+- Flask API with bcrypt authentication, server sessions, progress sync, saved-copy sync, server-scored exams, certificates, and administrator management/reporting routes
+- Exam-based belt gating with a configurable passing score (`EXAM_PASS_PERCENT`, default `80`)
+- Branded certificates with company logo, company name/address, trainer and manager signatures, authenticity QR codes, and print/PDF output
+- Offline-first browser fallback with repeat-safe migration of local progress and copies
 - Python statistical calculators and Java/SQL LMS foundation
